@@ -1721,7 +1721,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\CL Black clouds that cover the\nheavens..."
+                                "\\CL Black clouds that cover the heavens..."
                             ]
                         },
                         {
@@ -1745,7 +1745,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\CL The dark clouds that were floating\non the distant horizon during the day\nhad gradually covered the sky above me."
+                                "\\CL The dark clouds that were floating on\nthe distant horizon during the day had\ngradually covered the sky above me."
                             ]
                         },
                         {
@@ -1776,7 +1776,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\CL The light rain starts to fall, drop\nby drop."
+                                "\\CL The light rain starts to fall, drop by\ndrop."
                             ]
                         },
                         {
@@ -2253,7 +2253,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Young Man: The sadness of losing\nsomeone you love..."
+                                "Young Man: The sadness of losing someone\nyou love..."
                             ]
                         },
                         {

@@ -6604,7 +6604,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Lulu: The outside is full of enemies. Be careful, okay?\n\n"
+                                "Lulu: The outside is full of enemies. Be\ncareful, okay?"
                             ]
                         },
                         {

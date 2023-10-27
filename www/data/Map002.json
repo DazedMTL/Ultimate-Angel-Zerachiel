@@ -16163,7 +16163,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Priest Soldier A: It is as the Holy Maiden has foretold. We have no choice but to follow the divine oracle.\n\n"
+                                "Priest Soldier A: It is as the Holy\nMaiden has foretold. We have no choice\nbut to follow the divine oracle."
                             ]
                         },
                         {
@@ -16622,7 +16622,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Priest Soldier B: We might not\nstand a chance..."
+                                "Priest Soldier B: We might not stand a\nchance..."
                             ]
                         },
                         {
@@ -17263,7 +17263,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Zerachiel: It's troublesome if\nthey call allies, so let's quickly proceed\nfurther into the depths."
+                                "Zerachiel: It's troublesome if they call\nallies, so let's quickly proceed further\ninto the depths."
                             ]
                         },
                         {

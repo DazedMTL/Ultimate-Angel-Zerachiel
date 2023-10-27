@@ -7586,7 +7586,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Residents: In the Forest of Divine\nProtection, there are these magical\ncreatures called Wolfen that live\nthere, they're wolf-like monsters..."
+                                "Residents: In the Forest of Divine\nProtection, there are these magical\ncreatures called Wolfen that live there,\nthey're wolf-like monsters..."
                             ]
                         },
                         {
@@ -7689,7 +7689,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Sachia: Goblins sometimes launch\nDefense Break attacks."
+                                "Sachia: Goblins sometimes launch Defense\nBreak attacks."
                             ]
                         },
                         {
@@ -7826,7 +7826,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Residents: In the Forest of Divine\nProtection, there are these magical\ncreatures called Wolfen that live\nthere, they're wolf-like monsters..."
+                                "Residents: In the Forest of Divine\nProtection, there are these magical\ncreatures called Wolfen that live there,\nthey're wolf-like monsters..."
                             ]
                         },
                         {

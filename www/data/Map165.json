@@ -2636,7 +2636,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The girl sighed and absentmindedly stared at the wall.\n\n"
+                                "The girl sighed and absentmindedly\nstared at the wall."
                             ]
                         },
                         {

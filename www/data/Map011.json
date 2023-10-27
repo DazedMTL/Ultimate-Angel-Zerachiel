@@ -5072,7 +5072,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Traveler: I have decided to give up the path of a clergyman. I will return to the empire.\n\n"
+                                "Traveler: I have decided to give up the\npath of a clergyman. I will return to\nthe empire."
                             ]
                         },
                         {

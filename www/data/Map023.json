@@ -6116,7 +6116,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Drunk Young Man B: Here, it's not much but it's a thank you. Please accept it.\n\n"
+                                "Drunk Young Man B: Here, it's not much\nbut it's a thank you. Please accept it."
                             ]
                         },
                         {
@@ -6226,7 +6226,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Drunk Young Man B: Here, it's not much but it's a thank you. Please accept it.\n\n"
+                                "Drunk Young Man B: Here, it's not much\nbut it's a thank you. Please accept it."
                             ]
                         },
                         {
@@ -7254,7 +7254,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Cleric: I have believed in God and\nlived for over 30 years. Maybe I was\nwrong..."
+                                "Cleric: I have believed in God and lived\nfor over 30 years. Maybe I was wrong..."
                             ]
                         },
                         {
@@ -7350,7 +7350,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Cleric: To reflect on myself, I will\ntry traveling the world."
+                                "Cleric: To reflect on myself, I will try\ntraveling the world."
                             ]
                         },
                         {

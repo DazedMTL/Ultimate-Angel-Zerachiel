@@ -4801,7 +4801,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Knight: I'm sorry, but it's not open to the public. If it's just the exterior, feel free to take a look as much as you want.\n\n"
+                                "Knight: I'm sorry, but it's not open to\nthe public. If it's just the exterior,\nfeel free to take a look as much as you\nwant."
                             ]
                         },
                         {

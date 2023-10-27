@@ -6619,7 +6619,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Cook: It's a happy thing to have\nsomeone say that it's delicious when\nthey eat it."
+                                "Cook: It's a happy thing to have someone\nsay that it's delicious when they eat\nit."
                             ]
                         },
                         {
@@ -6926,7 +6926,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Cook: There are fewer people who will eat it... *sniffle*...\n\n"
+                                "Cook: There are fewer people who will\neat it... *sniffle*..."
                             ]
                         },
                         {
@@ -17047,7 +17047,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Adventurer: Nene, what were you doing under the table?\n\n"
+                                "Adventurer: Nene, what were you doing\nunder the table?"
                             ]
                         },
                         {

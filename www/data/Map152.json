@@ -20292,7 +20292,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mel: Zerachiel, Claudia. Don't push yourself too hard, okay.\n\n"
+                                "Mel: Zerachiel, Claudia. Don't push\nyourself too hard, okay."
                             ]
                         },
                         {
@@ -20725,7 +20725,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Sachia: You're going to the Magic Ore Mine today, right? Be careful, okay.\n\n"
+                                "Sachia: You're going to the Magic Ore\nMine today, right? Be careful, okay."
                             ]
                         },
                         {

@@ -6510,7 +6510,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unie: I understand everything about you, you know~? We've been together for a long time, after all~!\n\n"
+                                "Unie: I understand everything about you,\nyou know~? We've been together for a\nlong time, after all~!"
                             ]
                         },
                         {

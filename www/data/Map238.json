@@ -81818,7 +81818,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Clerk: Once upon a time, the Demon Continent almost ruled over the entire world. And then, a war broke out and many people died.\n\n"
+                                "Clerk: Once upon a time, the Demon\nContinent almost ruled over the entire\nworld. And then, a war broke out and\nmany people died."
                             ]
                         },
                         {
@@ -81945,7 +81945,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Clerk: Once upon a time, the Demon Continent almost ruled over the entire world. And then, a war broke out and many people died.\n\n"
+                                "Clerk: Once upon a time, the Demon\nContinent almost ruled over the entire\nworld. And then, a war broke out and\nmany people died."
                             ]
                         },
                         {
