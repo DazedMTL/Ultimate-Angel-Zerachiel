@@ -256,14 +256,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "聖女："
+                            "Saint: Let's finish this quickly."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　さっさと終わらせましょう。"
+                            ""
                         ]
                     },
                     {
@@ -871,21 +871,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: That mercenary... seems to be\nusing magic to increase their physical\nresistance."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　あの傭兵……"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　魔術で物理耐性を上げているみたい。"
+                            ""
                         ]
                     },
                     {
@@ -902,14 +902,14 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: It seems like we can defeat\nthem if we use magic."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　魔術を使えば倒せそうだね。"
+                            ""
                         ]
                     },
                     {
@@ -936,21 +936,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: That armor looks like it has\nhigh defense... It might be difficult to\ndefeat them if we don't know any\nmagic..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　あの鎧は防御力が高そうだね……"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　魔術を覚えてないと、倒すのが大変かも……"
+                            ""
                         ]
                     },
                     {
@@ -1001,21 +1001,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: It seems like magic\nresistance has been added... Now\nfireballs won't work, huh."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　魔術耐性も付加されたみたい……"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　これでファイアボールは効かなくなったね。"
+                            ""
                         ]
                     },
                     {
@@ -1032,21 +1032,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: But if it's a powerful impact\ntechnique, it should definitely deal\ndamage."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　でも衝撃の強い技なら、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　きっとダメージは通るはずだよ。"
+                            ""
                         ]
                     },
                     {
@@ -1063,14 +1063,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Just one more push, let's do\nour best."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　あと一息、がんばろう。"
+                            ""
                         ]
                     },
                     {
@@ -1521,14 +1521,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "隊長："
+                            "Captain: I will take revenge for my\ncomrades...!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　仲間の仇は取らせて頂くぞ……！"
+                            ""
                         ]
                     },
                     {
@@ -1570,14 +1570,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Damn it, reinforcements...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　くそっ、増援か……！！"
+                            ""
                         ]
                     },
                     {
@@ -1748,14 +1748,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "騎士："
+                            "Knight: Captain, I will assist you!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　隊長、助太刀いたしますっ！"
+                            ""
                         ]
                     },
                     {
@@ -1797,14 +1797,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "隊長："
+                            "Captain: You guys... I'm grateful!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　お前たち……かたじけないっ！"
+                            ""
                         ]
                     },
                     {
@@ -1821,14 +1821,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Are you still coming out...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　まだ出てくるのか……！！"
+                            ""
                         ]
                     },
                     {
@@ -2006,14 +2006,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ぷるぞう："
+                            "Puruzou: Pukyu~~~!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ぷきゅ～～～！！"
+                            ""
                         ]
                     },
                     {
@@ -2041,14 +2041,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "隊長："
+                            "Captain: Puruzou, can you lend me your\nstrength too...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ぷるぞう、お前も力を貸してくれるか……！！"
+                            ""
                         ]
                     },
                     {
@@ -2065,14 +2065,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Slimes have appeared!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　スライムまで出てきた！！"
+                            ""
                         ]
                     },
                     {
@@ -2089,21 +2089,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: But I wonder if they're\nfriends with that person? It might be\npitiful to defeat them..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　でも、あの人の友達なのかな？"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　倒すのは可哀想かも……"
+                            ""
                         ]
                     },
                     {
@@ -2144,14 +2144,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "騎士："
+                            "Knight: P-Plump!?\n"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ぷるぞうっ！？"
+                            ""
                         ]
                     },
                     {
@@ -2168,21 +2168,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "騎士："
+                            "Knight: You, who have betrayed my\ndearest friend...!! I will never forgive\nyou!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　おのれ、我が親友を……！！"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　おぬしだけは絶対に許さぬぞっ！！"
+                            ""
                         ]
                     },
                     {
@@ -2220,21 +2220,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "The captain has activated berserk mode.\nTheir attack power will greatly increase\nuntil the battle is over."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　隊長が発狂モードを発動しました。"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　戦闘が終了するまで攻撃力が大きく増加します。"
+                            ""
                         ]
                     },
                     {
@@ -3208,14 +3208,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "神官兵Ａ："
+                            "Priest Soldier A: Holy Maiden-sama!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　聖女様っ！"
+                            ""
                         ]
                     },
                     {
@@ -3239,14 +3239,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "神官兵Ｂ："
+                            "Priest Soldier B: We will protect you!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　我々がお守りいたしますっ！"
+                            ""
                         ]
                     },
                     {
@@ -3270,21 +3270,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "神官兵Ｃ："
+                            "Priest Soldier C: Intruders! We won't\nlet a single finger touch Holy Maiden-\nsama!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　侵入者よっ！"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　聖女様には指一本触れさせないぞっ！！"
+                            ""
                         ]
                     },
                     {
@@ -3301,21 +3301,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エフィー："
+                            "Effy: Everyone...! Thank you...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　みなさん……！"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ありがとうございます……！！"
+                            ""
                         ]
                     },
                     {
@@ -3332,14 +3332,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: I've completely become the\nvillain..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　すっかりボクが悪役だ……"
+                            ""
                         ]
                     },
                     {
@@ -3582,14 +3582,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "男の騎士："
+                            "Knight: Holy maiden, I apologize for the\nwait...!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　聖女様、お待たせいたしました……！"
+                            ""
                         ]
                     },
                     {
@@ -3613,21 +3613,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "女の騎士："
+                            "Knight: I will now return the life you\nsaved by picking me up...!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　あなたに拾って頂いた命、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ここでお返しさせていただきます……！"
+                            ""
                         ]
                     },
                     {
@@ -3651,14 +3651,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "隊長："
+                            "Captain: All troops, repel the\ninvaders!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　全軍、侵入者を迎え撃つのだ！！"
+                            ""
                         ]
                     },
                     {
@@ -3716,21 +3716,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: The enemy's morale is\nrising...! It seems like we should\nlaunch a full-scale attack...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　敵の士気が高まってる……！"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　一気に攻めたほうがよさそうだね……！！"
+                            ""
                         ]
                     },
                     {
@@ -3771,14 +3771,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エフィー："
+                            "Effy: First curse... Ode to Life!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　第一呪詛……『生命賛歌』ッ！"
+                            ""
                         ]
                     },
                     {
@@ -3866,14 +3866,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Ah! My energy is being\ndrained...!?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　っ！　体力が奪われていく……！？"
+                            ""
                         ]
                     },
                     {
@@ -3890,21 +3890,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エフィー："
+                            "Effy: From now on, I will continuously\ndrain your energy."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　これより永続的に、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　あなたの体力を奪わせて頂きます。"
+                            ""
                         ]
                     },
                     {
@@ -3921,14 +3921,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: This coward...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　この卑怯者がッ……！！"
+                            ""
                         ]
                     },
                     {
@@ -3969,14 +3969,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エフィー："
+                            "Effy: Second curse... 'Elemental\nCollapse'!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　第二呪詛……『元素崩壊』ッ！"
+                            ""
                         ]
                     },
                     {
@@ -4055,14 +4055,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: This time, the elements...!?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　今度は元素が……！？"
+                            ""
                         ]
                     },
                     {
@@ -4079,14 +4079,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エフィー："
+                            "Effy: I will make use of your elements."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　あなたの元素は私が使わせて頂きます。"
+                            ""
                         ]
                     },
                     {
@@ -4103,14 +4103,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: You bastard...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　このやろうッ……！！"
+                            ""
                         ]
                     },
                     {
@@ -4151,14 +4151,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エフィー："
+                            "Effy: The third curse... Vacuum Comet!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　第三呪詛……『虚脱彗星』ッ！"
+                            ""
                         ]
                     },
                     {
@@ -4237,38 +4237,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: My body feels heavy...!?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　身体が、重く感じる……！？"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Actor2",
-                            0,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "エフィー："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　衰弱の呪いですよ。"
+                            ""
                         ]
                     },
                     {
@@ -4285,21 +4261,45 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エフィー："
+                            "Effy: It's the curse of debilitation."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor2",
+                            0,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　これであなたは、"
+                            "Effy: With this, it will be difficult\nfor you to move quickly."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　機敏に動くことが難しくなりました。"
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -4316,21 +4316,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: But Effy must also be at her\nlimit, right? She's breathing heavily\nthrough her shoulders."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　でも、エフィーも限界なんだろう？"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　肩で息が上がっているぜ。"
+                            ""
                         ]
                     },
                     {
@@ -4347,14 +4347,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: (Just one more push... Let's\ndo our best!!)"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　（あと一息だ……がんばろう！！）"
+                            ""
                         ]
                     },
                     {
@@ -4836,76 +4836,14 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "レミエル："
+                            "Remiel: Lord Sariel...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　サリエル様……！！"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 1,
-                        "parameters": [
-                            "Actor2",
-                            5,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "サリエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　レミエル……？"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　どうしてここにいるのさ。"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 1,
-                        "parameters": [
-                            "Actor2",
-                            4,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "レミエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　サリエル様が心配で……！"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　私も一緒に戦わせてほしいですわ！！"
+                            ""
                         ]
                     },
                     {
@@ -4922,45 +4860,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Sariel: Remiel...? Why are you here?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　お前は怪我だらけなんだ。"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　休んでないとだめだよ。"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 1,
-                        "parameters": [
-                            "Actor2",
-                            4,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "レミエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　私はもともと落第生でしたわ。"
+                            ""
                         ]
                     },
                     {
@@ -4977,66 +4891,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "レミエル："
+                            "Remiel: I was worried about Lord\nSariel...! I want to fight together\ntoo!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　勉強も、魔術も上手くできない"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　私でしたが、サリエル様だけは"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　私を見てくださいました……"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 1,
-                        "parameters": [
-                            "Actor2",
-                            4,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "レミエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　私は主神様のためではない。"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　サリエル様のために"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　戦っているのですわ！"
+                            ""
                         ]
                     },
                     {
@@ -5053,45 +4922,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Sariel: You're covered in injuries. You\nneed to rest."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　レミエル……"
+                            ""
                         ]
                     },
                     {
-                        "code": 101,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "Actor2",
-                            5,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "サリエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　わかった、一緒に戦おう。"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　ただし、危なくなったら逃げろよ。"
+                            ""
                         ]
                     },
                     {
@@ -5108,14 +4953,169 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "レミエル："
+                            "Remiel: I was originally a failing\nstudent."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 1,
+                        "parameters": [
+                            "Actor2",
+                            4,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "　はい、ありがとうございますわ！"
+                            "Remiel: I was unable to excel in both my\nstudies and magic, but Lord Sariel was\nthe only one who saw me..."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 1,
+                        "parameters": [
+                            "Actor2",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 1,
+                        "parameters": [
+                            "Remiel: I am not fighting for the\nSupreme God. I am fighting for Lord\nSariel's sake!"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 1,
+                        "parameters": [
+                            "Actor2",
+                            5,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 1,
+                        "parameters": [
+                            "Sariel: Remiel..."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 1,
+                        "parameters": [
+                            "Actor2",
+                            5,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 1,
+                        "parameters": [
+                            "Sariel: Alright, let's fight together.\nBut if it gets dangerous, run away."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 1,
+                        "parameters": [
+                            "Actor2",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 1,
+                        "parameters": [
+                            "Remiel: Yes, thank you very much!"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -5203,14 +5203,14 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "レミエル："
+                            "Remiel: Ugh..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　くぅっ……"
+                            ""
                         ]
                     },
                     {
@@ -5227,21 +5227,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Zerachiel: Remiel, that's enough. Step\nback."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　レミエル、もういいよ。"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　下がって。"
+                            ""
                         ]
                     },
                     {
@@ -5258,45 +5258,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "レミエル："
+                            "Remiel: Lord Zerachiel... I apologize..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　サリエル様……"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　申し訳ございません……"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 1,
-                        "parameters": [
-                            "Actor2",
-                            5,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "サリエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　あはは、どうして謝るのさ。"
+                            ""
                         ]
                     },
                     {
@@ -5313,21 +5289,14 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Sariel: Ahaha, why are you apologizing?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　……ボクのためにありがとう。"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　嬉しかったよ。"
+                            ""
                         ]
                     },
                     {
@@ -5344,21 +5313,52 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Sariel: ...Thank you for doing that for\nme. I'm happy."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 1,
+                        "parameters": [
+                            "Actor2",
+                            5,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "　あとはボクに任せて、"
+                            "Sariel: Leave the rest to me and take a\ngood rest."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　ゆっくり休んでよ。"
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -5375,14 +5375,14 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "レミエル："
+                            "Remiel: Lady Sariel..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　サリエル様……"
+                            ""
                         ]
                     },
                     {
@@ -5461,52 +5461,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Zerachiel: Remiel is a reliable friend\nwho supports me."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　レミエルはボクを支えてくれる、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　頼もしい友人さ。"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 1,
-                        "parameters": [
-                            "Actor2",
-                            5,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "サリエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　怪我をしているのに、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 1,
-                        "parameters": [
-                            "　助けに来てくれたんだ。"
+                            ""
                         ]
                     },
                     {
@@ -5523,21 +5492,52 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Sariel: Even though I was injured, you\ncame to help me."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 1,
+                        "parameters": [
+                            "Actor2",
+                            5,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "　お前たちを倒さないと、"
+                            "Sariel: If I don't defeat you all, I\nwon't be able to face Remiel, will I?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　レミエルに顔向けできないよね。"
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 1,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -5608,21 +5608,21 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "サリエル："
+                            "Sariel: Alright, alright! Let's start\nthe second round!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　さあさあっ！"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 1,
                         "parameters": [
-                            "　第二ラウンド開始といこうか！！"
+                            ""
                         ]
                     },
                     {
@@ -5871,21 +5871,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: It's fine to fight normally,\nbut it seems easier to defeat them all\nat once with a skill."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　普通に戦ってもいいけれど、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　スキルで一気に倒したほうが楽そうだね。"
+                            ""
                         ]
                     },
                     {
@@ -6016,45 +6016,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: This one... is a Gigas."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　コイツは……巨神族だ。"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Actor1",
-                            1,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "ザラキエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　天使を凌駕する力を持っているから、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　力でぶつかり合っても勝てないよ。"
+                            ""
                         ]
                     },
                     {
@@ -6071,14 +6040,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Because she possesses power\nthat surpasses angels, even if we were\nto clash with our strength, we wouldn't\nbe able to win."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　となれば……\\c[6]黒き波動\\c[0]を使おう。"
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -6095,21 +6071,45 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: In that case... let's use the\n\\c[6]dark wave\\c[0]."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            1,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　\\c[6]黒き波動\\c[0] なら、"
+                            "Zerachiel: If it's the \\c[0]dark\nwave\\c[1], we should be able to\nwithstand the Gigas' attack."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　巨神の攻撃に耐えられるはずだよ。"
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -8453,21 +8453,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "Now I understand, Zerachiel."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL今だからこそわかりますよ"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CLザラキエル"
+                            ""
                         ]
                     },
                     {
@@ -8484,14 +8484,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "You should have disposed of it sooner."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CLあなたはもっと早く処分するべきでした"
+                            ""
                         ]
                     },
                     {
@@ -8508,21 +8508,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "You, as an individual, are different\nfrom any fake body that has ever\nexisted."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CLあなたという個体は"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CLかつて存在したいかなる偽体と異なる"
+                            ""
                         ]
                     },
                     {
@@ -8539,21 +8539,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "Because you possess a heart that is as\nclose to human as possible, you could\nbecome a threatening presence to me."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL限りなく人に近い心を持ったがゆえに"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CL私を脅かす存在になりかねません"
+                            ""
                         ]
                     },
                     {
@@ -8570,14 +8570,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "However, that is precisely why you are\namazing."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CLしかし、だからこそあなたは素晴らしい"
+                            ""
                         ]
                     },
                     {
@@ -8594,21 +8594,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "I have finally become complete by\nincorporating the Seventh Curse."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL《第七呪詛》を取り込んだ私は"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CLついに完全体となりました"
+                            ""
                         ]
                     },
                     {
@@ -8625,21 +8625,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "With all my might, I will bring you\ndespair."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL私の全力をもって、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CLあなたに絶望を与えましょう"
+                            ""
                         ]
                     },
                     {
@@ -8704,14 +8704,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: The elements are going out of\ncontrol..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　元素が暴走している……"
+                            ""
                         ]
                     },
                     {
@@ -8728,21 +8728,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: Countless billions of elements\nare connected, causing the terrain to\ncollapse..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　幾万幾億もの元素が繋がって、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　地形を崩壊させているのね……"
+                            ""
                         ]
                     },
                     {
@@ -8759,14 +8759,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Defeated by the Emperor, the founder of\nthe CL, a thousand years ago..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL始祖の皇帝に敗れて千年……"
+                            ""
                         ]
                     },
                     {
@@ -8783,21 +8783,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "No matter how time may pass, the thirst\nfor my revenge will never wane..."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CLいかに時が流れようとも"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CL我が復讐の渇きは訪れず…"
+                            ""
                         ]
                     },
                     {
@@ -8814,21 +8814,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "The essence of life lies in the\nstruggle of the CL. The law of the\njungle is the psychology of the world."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL闘争こそが命の本質"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CL弱肉強食こそが世界の心理"
+                            ""
                         ]
                     },
                     {
@@ -8845,28 +8845,28 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "Because I am CL, I choose the path of\nstruggle, to dominate the world myself,\nand to quench this thirst of CL."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CLだから私は闘争の道を選び、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL自ら世界を支配することで、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CLこの渇きを潤す"
+                            ""
                         ]
                     },
                     {
@@ -8970,14 +8970,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: This is Eden..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　これが、エデン……"
+                            ""
                         ]
                     },
                     {
@@ -8994,14 +8994,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ラヴィ："
+                            "Rabi: To be able to interact with the\nStar Gods...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　星神と交えることになるとはのう…！！"
+                            ""
                         ]
                     },
                     {
@@ -9018,14 +9018,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ララ："
+                            "Lala: What is this chill..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　なんなのよ、この悪寒……"
+                            ""
                         ]
                     },
                     {
@@ -9042,14 +9042,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "CL, in the distant past..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL遥かな昔…"
+                            ""
                         ]
                     },
                     {
@@ -9066,28 +9066,28 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "A single giant god of CL challenged the\ngods, and CL miraculously survived."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL一人の巨神が神々に挑み、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL見事生き残りました"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　"
+                            ""
                         ]
                     },
                     {
@@ -9104,21 +9104,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "All the power that surpasses even that\ngiant god of CL has now been unleashed."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CLその巨神すらも超える力のすべてが"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CL今、解放されたのです"
+                            ""
                         ]
                     },
                     {
@@ -9135,14 +9135,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "I am the god of CL."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL私こそが神"
+                            ""
                         ]
                     },
                     {
@@ -9159,14 +9159,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "I am the hope of CL."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL私こそが希望"
+                            ""
                         ]
                     },
                     {
@@ -9183,14 +9183,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "The unification of the CL world is the\nbeacon of peace."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL世界の統一こそ平和の道標"
+                            ""
                         ]
                     },
                     {
@@ -9207,21 +9207,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "If you dare to interfere with me, CL,\nthen you shall perish for eternity."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL私の邪魔をするのであれば"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "\\CL永遠に滅びるがいい"
+                            ""
                         ]
                     },
                     {
@@ -9269,14 +9269,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: Gather, oh elements..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "『　元素よ……集え。　』"
+                            ""
                         ]
                     },
                     {
@@ -9341,21 +9341,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "At that moment, the elements floating in the air were absorbed all at once. The magic power began to go out of control.\n\n"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　その瞬間、大気に漂う元素が一斉に吸収された。"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　魔力が暴走を始める。"
+                            ""
                         ]
                     },
                     {
@@ -9372,21 +9372,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "In the space dominated by the Seventh\nCurse, even the elements residing within\nthe body are being sucked away."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　第七呪詛が支配する空間の中では、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　体内に宿る元素すら吸い取られていく。"
+                            ""
                         ]
                     },
                     {
@@ -9403,21 +9403,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "Furthermore, the body exposed to the\nraging waves of elements gradually\ndecays."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　さらに、荒れ狂う元素の波に晒された肉体は、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　徐々に腐敗していく。"
+                            ""
                         ]
                     },
                     {
@@ -9434,28 +9434,28 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: There is no one who can defy God.\nBecome a flower blooming in paradise and\nwither away, becoming my flesh and\nblood."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "『　神に逆らえるものは存在しない。"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　　楽園に咲き誇る花となって朽ち果て、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　　我が血肉となりなさい。　』"
+                            ""
                         ]
                     },
                     {
@@ -9482,14 +9482,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "My body is weakening..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　体が衰弱していく……"
+                            ""
                         ]
                     },
                     {
@@ -9506,14 +9506,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: ...Now is the time to keep\nour promise."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……今こそ約束を守るよ。"
+                            ""
                         ]
                     },
                     {
@@ -9959,38 +9959,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: ...Poor doll, Zerachiel."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……哀れな人形、ザラキエルよ。　"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Enemy",
-                            2,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "エデン："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　私の為すことは、命の本質にすぎません……"
+                            ""
                         ]
                     },
                     {
@@ -10007,21 +9983,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: What I do is nothing more than the\nessence of life..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　たとえ私が消えて、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　仮初の平和が訪れたとしても……"
+                            ""
                         ]
                     },
                     {
@@ -10038,52 +10007,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: Even if I were to disappear, and\ntemporary peace were to come..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　すぐに新しい巨悪が現れ、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　世界は混沌に満ちるでしょう……"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Enemy",
-                            2,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "エデン："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　これは絶え間なく続く、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　戦乱の序章に過ぎないのですから……"
+                            ""
                         ]
                     },
                     {
@@ -10100,45 +10038,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: Soon, a new great evil will\nappear, and the world will be filled\nwith chaos..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　それでも抗い続けるというのなら……"
+                            ""
                         ]
                     },
                     {
-                        "code": 101,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "Enemy",
-                            2,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "エデン："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　あなたは未来へ歩み続けなさい……"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　そして、命持つ者たちを導くのです……"
+                            ""
                         ]
                     },
                     {
@@ -10155,21 +10069,107 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: This is nothing more than the\nprologue to an endless era of war..."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            2,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　世界を……大事な人々を……"
+                            "Eden: If you continue to resist..."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            2,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　その力で守りなさい……"
+                            "Eden: Keep walking towards the future...\nand guide those who hold life..."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "Eden: Protect the world... and the\nimportant people... with your power..."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -10186,14 +10186,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Eden..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　エデン……"
+                            ""
                         ]
                     },
                     {
@@ -10210,14 +10210,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エデン："
+                            "Eden: ...I have entrusted the world, and\nthe future."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……世界を、未来を、託しましたよ。"
+                            ""
                         ]
                     },
                     {
@@ -10750,14 +10750,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: Sandworm...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　サンドワーム……！！"
+                            ""
                         ]
                     },
                     {
@@ -10774,21 +10774,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: This monster launches powerful\nattacks! If you take a direct hit, it's\nover!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　この魔物は強力な攻撃をしてくるの！"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　まともに食らったら終わりよ！！"
+                            ""
                         ]
                     },
                     {
@@ -10805,14 +10805,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ララ："
+                            "Lala: W-What should we do!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ど、どうすればいいのよ！！"
+                            ""
                         ]
                     },
                     {
@@ -10829,21 +10829,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: If the sandworm shows any\nstrange behavior, it's important to\nprotect ourselves!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　サンドワームが変な素振りを見せたら、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　身を守ったほうが懸命ねっ！！"
+                            ""
                         ]
                     },
                     {
@@ -10860,14 +10860,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Understood! Let's attack when\nwe find an opening."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　了解！　隙をついて攻撃しよう。"
+                            ""
                         ]
                     },
                     {
@@ -11022,45 +11022,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: I won't let you escape, no\nmatter what!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　絶対に逃がしませんわっ！！"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Enemy",
-                            0,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "シェミニ："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　獣神アンリ様より伝承されし、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　禁忌の魔術……！！"
+                            ""
                         ]
                     },
                     {
@@ -11077,14 +11046,45 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: The forbidden magic passed down\nfrom the Beast God Anri-sama...!!"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            0,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　分　身　！"
+                            "Shemini: Clone!"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -11155,62 +11155,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: T-the number of people\nincreased...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　に、人数が増えたっ……！！"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Actor3",
-                            0,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "クラウディア："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　……どれも元素が減ってないわ。"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Actor1",
-                            4,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "ザラキエル："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　ど、どういうこと？"
+                            ""
                         ]
                     },
                     {
@@ -11227,14 +11179,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: ...None of the elements have\ndecreased."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　能力がまったく落ちてないってことよ。"
+                            ""
                         ]
                     },
                     {
@@ -11251,14 +11203,62 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: W-What do you mean?"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　ええっ！？"
+                            "Claudia: It means that my abilities\nhaven't decreased at all."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "Zerachiel: Eh!?"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -11275,52 +11275,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: Now...! Please receive my\nlove!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　さあ……！"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　わたくしの愛を受けてくださいませッ！！"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Actor3",
-                            0,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "クラウディア："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　さっきとは比べ物にならないほど、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　手強いはずよ。"
+                            ""
                         ]
                     },
                     {
@@ -11337,14 +11306,45 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: This should be much tougher\ncompared to earlier."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　ザラキエル、気をつけてね。"
+                            "Claudia: Zerachiel, be careful, okay."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -11449,14 +11449,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: If it comes to this, I'll use\nmy last secret plan!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　こうなったら最後の秘策を使いますわっ！！"
+                            ""
                         ]
                     },
                     {
@@ -11473,21 +11473,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: The forbidden magic passed down\nfrom the Beast God Anri-sama, Secret\nArt, Part 2...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　獣神アンリ様より伝承されし、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　禁忌の魔術、その２……！！"
+                            ""
                         ]
                     },
                     {
@@ -11578,14 +11578,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: It's time to grow giant!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　巨　大　化　で　す　わ　！"
+                            ""
                         ]
                     },
                     {
@@ -11602,14 +11602,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: ........................"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……………………"
+                            ""
                         ]
                     },
                     {
@@ -11626,14 +11626,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: ...This girl is up for\nanything."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……この娘、なんでもありね。"
+                            ""
                         ]
                     },
                     {
@@ -11650,14 +11650,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: Now, this is the last one!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　さあ、コレが最後ですわ！"
+                            ""
                         ]
                     },
                     {
@@ -11683,14 +11683,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: Please be my obedient partner!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　大人しく、わたくしの伴侶となってくださいませっ！！"
+                            ""
                         ]
                     },
                     {
@@ -11738,21 +11738,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: The forbidden magic passed down\nfrom the Beast God, Lord Henri...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　獣神アンリ様より伝承されし、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　禁忌の魔術……！！"
+                            ""
                         ]
                     },
                     {
@@ -11769,14 +11769,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "シェミニ："
+                            "Shemini: Clone!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　分　身　！"
+                            ""
                         ]
                     },
                     {
@@ -11861,14 +11861,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: The number of people has\nincreased again...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　また人数が増えたっ……！！"
+                            ""
                         ]
                     },
                     {
@@ -11885,21 +11885,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: ...But just a little more.\nLet's settle this in one go."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……でも、あと一息よ。"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　一気に決着をつけましょう。"
+                            ""
                         ]
                     },
                     {
@@ -13209,14 +13209,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: The ice is melting...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　氷が溶けだしてる……！！"
+                            ""
                         ]
                     },
                     {
@@ -13233,21 +13233,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: Once the ice completely melts,\nshe'll probably get serious."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　氷が完全に解けたら、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　おそらく本気を出してくるわよ。"
+                            ""
                         ]
                     },
                     {
@@ -13264,14 +13264,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ララ："
+                            "Lala: It would be better to prepare."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　準備をしておいたほうがいいわね。"
+                            ""
                         ]
                     },
                     {
@@ -13360,14 +13360,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Ah... my body feels light..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL『　ふぅ……身体が軽い……　』"
+                            ""
                         ]
                     },
                     {
@@ -13384,14 +13384,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "CL: 'It's temporary, but I've been\nallowed to leave the barrier.'"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL『　一時的だが、結界から出させてもらった　』"
+                            ""
                         ]
                     },
                     {
@@ -13408,14 +13408,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "CL: Now we can fight to our heart's\ncontent."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "\\CL『　これで存分に殺り合えるな　』"
+                            ""
                         ]
                     },
                     {
@@ -14436,59 +14436,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エルン："
+                            "Ern: I have been entrusted with the role\nof guardian of paradise by that person."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　私はあの方から、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　楽園の守護者としての役割を頂きました。"
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Actor3",
-                            4,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "エルン："
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　夢幻の大樹では、"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　あなたたちを助けてくれる"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　奇跡は起こりません。"
+                            ""
                         ]
                     },
                     {
@@ -14505,21 +14467,28 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エルン："
+                            "Ern: In the Tree of Dreams, miracles\nthat will help you won't happen."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　星神を超える絶望を、"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　あなたたちに教えてあげましょう。"
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -14536,21 +14505,52 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エルン："
+                            "Ern: Let me teach you a despair that\nsurpasses the Star God."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
                         ]
                     },
                     {
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "　この星を救いたければ、"
+                            "Ern: If you want to save this planet,\nshow me your true strength and defeat\nme."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　本気の私を倒してみせなさい。"
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -14670,14 +14670,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Seems like you're having a tough time,\nErn..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　苦戦しているようね、エルン……　』"
+                            ""
                         ]
                     },
                     {
@@ -14694,14 +14694,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エルン："
+                            "Ern: That voice... why are you here!?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　その声は……なぜ、あなたがっ！？"
+                            ""
                         ]
                     },
                     {
@@ -14718,14 +14718,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "This is the Great Tree of Fantasia... a\nplace where memories gather..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　ここは夢幻の大樹……記憶の集う場所……　』"
+                            ""
                         ]
                     },
                     {
@@ -14742,14 +14742,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "I'm just a remnant..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　私は残滓に過ぎないけれど……　』"
+                            ""
                         ]
                     },
                     {
@@ -14766,14 +14766,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "I will also help to save the future."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　未来を救うために私も協力するわ。　』"
+                            ""
                         ]
                     },
                     {
@@ -14909,14 +14909,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: A-another person appeared!?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　も、もう一人出てきたよっ！？"
+                            ""
                         ]
                     },
                     {
@@ -14933,14 +14933,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "サティア："
+                            "Sachia: Wait, that face...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　待って、あの顔って……！！"
+                            ""
                         ]
                     },
                     {
@@ -14957,14 +14957,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ラヴィ："
+                            "Rabi: It's too similar..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　あまりにも似ておる……"
+                            ""
                         ]
                     },
                     {
@@ -14981,14 +14981,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ララ："
+                            "Lala: Claudia, you look just like\nher...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　クラウディアそっくりじゃない……！！"
+                            ""
                         ]
                     },
                     {
@@ -15005,14 +15005,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: Who are you...?"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　あなたは……誰なの……？"
+                            ""
                         ]
                     },
                     {
@@ -15029,14 +15029,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Divine Beast Artemis"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　神獣アルテミス　』"
+                            ""
                         ]
                     },
                     {
@@ -15053,14 +15053,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "\\c[6]Oh, \\c[0]Administrator of Time."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　\\c[6]《時》の管理者\\c[0]よ　』"
+                            ""
                         ]
                     },
                     {
@@ -15077,21 +15077,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ララ："
+                            "Lala: Divine Beast Artemis... it's the\ncounterpart to Marnagarm, right..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　神獣アルテミスって……"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　マーナガルムと対の存在よね……"
+                            ""
                         ]
                     },
                     {
@@ -15108,21 +15108,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
+                            "You all want to protect your own\nworld... your paradise, don't you?"
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
                             ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　あなたたちは自分たちの世界を……"
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "　　　楽園を護りたいのでしょう？　』"
+                            ""
                         ]
                     },
                     {
@@ -15139,14 +15139,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "If you can't defeat us, you won't be\nable to protect the future."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　私たちを倒せなければ未来は守れないわよ　』"
+                            ""
                         ]
                     },
                     {
@@ -15179,21 +15179,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: This element... surpasses the\nStar God...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　この元素は……"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　星神を超えているよっ……！！"
+                            ""
                         ]
                     },
                     {
@@ -15210,14 +15210,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ザラキエル："
+                            "Zerachiel: Looks like there's no choice\nbut to do it!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　やるしかなさそうだねっ！"
+                            ""
                         ]
                     },
                     {
@@ -15234,21 +15234,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "サティア："
+                            "Sachia: I may be a small existence,\nbut... I'll protect my friends."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ボクはちっぽけな存在だけどさ……"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　友達は守らせてもらうよ。"
+                            ""
                         ]
                     },
                     {
@@ -15265,21 +15265,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ラヴィ："
+                            "Lala: Goodness... I never expected these\nexciting days to continue like this."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　まったく……こんなに"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　ワクワクする日々が続くとはのう。"
+                            ""
                         ]
                     },
                     {
@@ -15296,14 +15296,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "ララ："
+                            "Lala: Master Ern, here I go!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　エルン様、行きますよっ！！"
+                            ""
                         ]
                     },
                     {
@@ -15320,14 +15320,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "エルン："
+                            "Ern: Come at me, Lala!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　かかってきなさい、ララッ！！"
+                            ""
                         ]
                     },
                     {
@@ -15344,14 +15344,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: ........................"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……………………"
+                            ""
                         ]
                     },
                     {
@@ -15368,14 +15368,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Claudia..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　クラウディア……　』"
+                            ""
                         ]
                     },
                     {
@@ -15392,14 +15392,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "It doesn't matter who you are."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　あなたが何者かなんて関係ないわ　』"
+                            ""
                         ]
                     },
                     {
@@ -15416,14 +15416,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: ......!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……っ！！"
+                            ""
                         ]
                     },
                     {
@@ -15440,14 +15440,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "You should walk your own path."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　あなたは自分の道を歩みなさい　』"
+                            ""
                         ]
                     },
                     {
@@ -15464,14 +15464,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "I couldn't protect the future..."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　私は未来を守れなかった……　』"
+                            ""
                         ]
                     },
                     {
@@ -15488,14 +15488,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "So, don't become like me."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　だから、私のようにならないで　』"
+                            ""
                         ]
                     },
                     {
@@ -15512,21 +15512,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: ...Yes, I understand. I won't\nhesitate anymore."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　……ええ、わかったわ。"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　もう迷わない。"
+                            ""
                         ]
                     },
                     {
@@ -15543,21 +15543,21 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "クラウディア："
+                            "Claudia: I will carve out the future.\nTogether with everyone."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　私は未来を切り開く。"
+                            ""
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　みんなと一緒にね。"
+                            ""
                         ]
                     },
                     {
@@ -15574,14 +15574,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Yes, I'll be watching over you."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　ええ、見守っているわ　』"
+                            ""
                         ]
                     },
                     {
@@ -15598,14 +15598,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Well then, let's begin."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　それじゃ、はじめましょう　』"
+                            ""
                         ]
                     },
                     {
@@ -15622,14 +15622,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "I, Artemis, the guardian of paradise...\nhave arrived."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　楽園の守護者アルテミス……参ります　』"
+                            ""
                         ]
                     },
                     {
@@ -18558,14 +18558,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Oh, my great subordinates, appear!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　大いなる配下たちよ　現れよ　』"
+                            ""
                         ]
                     },
                     {
@@ -18629,14 +18629,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "Destroy the dragon, Hero Piel~"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　竜を滅ぼし英雄　ぴえ～る　』"
+                            ""
                         ]
                     },
                     {
@@ -18700,14 +18700,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "The great king Piel, who leads the 66\nlegions."
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　６６の軍団を率いる大いなる王　ぷえるん　』"
+                            ""
                         ]
                     },
                     {
@@ -18771,14 +18771,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "The Wise Witch who has mastered all\nelements"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　すべての元素を極めし賢者　まじょりん　』"
+                            ""
                         ]
                     },
                     {
@@ -18842,14 +18842,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "The Pure-hearted Holy Slime Puruko"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　心優しき聖なるスライム　ぷるこ　』"
+                            ""
                         ]
                     },
                     {
@@ -18866,14 +18866,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            ""
+                            "We shall conquer the world...!!"
                         ]
                     },
                     {
-                        "code": 401,
+                        "code": 0,
                         "indent": 0,
                         "parameters": [
-                            "　『　ゆくぞ　世界は我らが手に……！！　』"
+                            ""
                         ]
                     },
                     {

@@ -3,11 +3,11 @@
     {
         "id": 1,
         "atypeId": 2,
-        "description": "\\I[523] 身に着けると素早くなれる気がするバンダナ。",
+        "description": "\\I[523] A bandana that makes you feel like you become faster when you wear it.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 523,
-        "name": "バンダナ",
+        "name": "Bandana",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -24,7 +24,7 @@
     {
         "id": 2,
         "atypeId": 2,
-        "description": "\\I[509] うさぎの耳を模したヘアバンド。回避率+5％",
+        "description": "\\I[509] A hairband modeled after rabbit ears. Evasion rate +5%.",
         "etypeId": 2,
         "traits": [
             {
@@ -34,7 +34,7 @@
             }
         ],
         "iconIndex": 509,
-        "name": "ラビットイヤー",
+        "name": "Rabbit Ears",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -51,11 +51,11 @@
     {
         "id": 3,
         "atypeId": 2,
-        "description": "\\I[524] 吟遊詩人に好まれる帽子。",
+        "description": "\\I[524] A hat favored by bards.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 524,
-        "name": "吟遊詩人の帽子",
+        "name": "Bard's Hat",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -72,7 +72,7 @@
     {
         "id": 4,
         "atypeId": 2,
-        "description": "\\I[525] 戦士が身に着ける兜。物理系の被ダメージ-10％",
+        "description": "\\I[525] A helmet worn by warriors. Reduces physical damage taken by 10%.",
         "etypeId": 2,
         "traits": [
             {
@@ -82,7 +82,7 @@
             }
         ],
         "iconIndex": 525,
-        "name": "戦士の兜",
+        "name": "Warrior's Helmet",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -99,7 +99,7 @@
     {
         "id": 5,
         "atypeId": 2,
-        "description": "\\I[512] 魔術系の被ダメージ-10％",
+        "description": "\\I[512] Magic damage received -10%",
         "etypeId": 2,
         "traits": [
             {
@@ -109,7 +109,7 @@
             }
         ],
         "iconIndex": 512,
-        "name": "魔性の髪飾り",
+        "name": "Seductive Hair Ornament",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -126,11 +126,11 @@
     {
         "id": 6,
         "atypeId": 1,
-        "description": "\\I[761] アリエスの魔力が込められた聖なるお守り。",
+        "description": "\\I[761] A sacred amulet imbued with Aries' magical power.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 761,
-        "name": "アリエスのお守り",
+        "name": "Aries' Amulet",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -147,7 +147,7 @@
     {
         "id": 7,
         "atypeId": 2,
-        "description": "\\I[502] 魔術系の被ダメージ-15％",
+        "description": "\\I[502] Magic damage received -15%",
         "etypeId": 2,
         "traits": [
             {
@@ -157,7 +157,7 @@
             }
         ],
         "iconIndex": 502,
-        "name": "リボンシール",
+        "name": "Ribbon Seal",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -174,7 +174,7 @@
     {
         "id": 8,
         "atypeId": 2,
-        "description": "\\I[513] 物理系の被ダメージ-15％",
+        "description": "\\I[513] Physical damage received -15%",
         "etypeId": 2,
         "traits": [
             {
@@ -184,7 +184,7 @@
             }
         ],
         "iconIndex": 513,
-        "name": "ドラゴンタトゥー",
+        "name": "Dragon Tattoo",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -201,11 +201,11 @@
     {
         "id": 9,
         "atypeId": 2,
-        "description": "\\I[527] 必殺率が大きく増加する。",
+        "description": "\\I[527] The critical hit rate greatly increases.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 527,
-        "name": "ねじりはちまき",
+        "name": "Twisted Headband",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -222,7 +222,7 @@
     {
         "id": 10,
         "atypeId": 7,
-        "description": "\\I[946] ベタベタしてる。",
+        "description": "It's all sticky.",
         "etypeId": 2,
         "traits": [
             {
@@ -232,7 +232,7 @@
             }
         ],
         "iconIndex": 946,
-        "name": "キングプルリンの兜",
+        "name": "King Pudding Helmet",
         "note": "<itemCategory:\\I[523]頭>",
         "params": [
             0,
@@ -249,11 +249,11 @@
     {
         "id": 11,
         "atypeId": 2,
-        "description": "\\I[384] 動物の革で作られた軽量な軽鎧。",
+        "description": "\\I[384] Lightweight armor made from animal leather.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 384,
-        "name": "レザーメイル",
+        "name": "Leather Mail",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -270,11 +270,11 @@
     {
         "id": 12,
         "atypeId": 2,
-        "description": "\\I[385] 魔族のために心血を注いで作られた軽鎧。",
+        "description": "\\I[385] A lightweight armor created with great effort for the demon tribe.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 385,
-        "name": "アーガイルメイル",
+        "name": "Argyle Mail",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -291,11 +291,11 @@
     {
         "id": 13,
         "atypeId": 2,
-        "description": "\\I[386] 優雅なデザインが特徴的な軽鎧。",
+        "description": "\\I[386] A lightweight armor with an elegant design.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 386,
-        "name": "ケルティックメイル",
+        "name": "Celtic Mail",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -312,11 +312,11 @@
     {
         "id": 14,
         "atypeId": 2,
-        "description": "\\I[387] あらゆる魔法に抵抗力を持つ軽鎧。",
+        "description": "\\I[387] Lightweight armor with resistance to all magic.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 387,
-        "name": "ミスリルメイル",
+        "name": "Mithril Mail",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -333,11 +333,11 @@
     {
         "id": 15,
         "atypeId": 2,
-        "description": "\\I[388] ルーンを刻み、防御力を上昇させた軽鎧。",
+        "description": "\\I[388] A light armor engraved with runes that increases defense power.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 388,
-        "name": "ルーンメイル",
+        "name": "Rune Mail",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -354,11 +354,11 @@
     {
         "id": 16,
         "atypeId": 2,
-        "description": "\\I[389] 特務騎士のために特別に制作された軽鎧。",
+        "description": "\\I[389] A lightweight armor specially made for the special forces knight.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 389,
-        "name": "フォースメイル",
+        "name": "Force Mail",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -375,11 +375,11 @@
     {
         "id": 17,
         "atypeId": 2,
-        "description": "\\I[406] 特別な工法で研磨された高強度鋼鉄を使った鎧。 ",
+        "description": "\\I[406] Armor made from specially polished high-strength steel.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 406,
-        "name": "アダマムメイン",
+        "name": "Adamam Main",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -396,11 +396,11 @@
     {
         "id": 18,
         "atypeId": 1,
-        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
-        "name": "熾天使の衣",
+        "name": "Celestial Angel's Robe",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -417,11 +417,11 @@
     {
         "id": 19,
         "atypeId": 2,
-        "description": "\\I[419] ルーンを刻み、防御力を確保したローブ。",
+        "description": "\\I[419] A robe engraved with runes to ensure defense.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 419,
-        "name": "ルーンローブ",
+        "name": "Rune Robe",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -438,7 +438,7 @@
     {
         "id": 20,
         "atypeId": 2,
-        "description": "\\I[421] あらゆる魔術に抵抗を持つ。\n",
+        "description": "\\I[421] Resistant to all forms of magic.",
         "etypeId": 3,
         "traits": [
             {
@@ -448,7 +448,7 @@
             }
         ],
         "iconIndex": 421,
-        "name": "エレメンタルローブ",
+        "name": "Elemental Robe",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -465,11 +465,11 @@
     {
         "id": 21,
         "atypeId": 2,
-        "description": "\\I[432] 魔術師の女性が好んで着ている服を改良したもの。",
+        "description": "The clothing that the female magician prefers to wear has been improved.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 432,
-        "name": "魔女の服",
+        "name": "Witch's Robe",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -486,11 +486,11 @@
     {
         "id": 22,
         "atypeId": 2,
-        "description": "\\I[448] 大地の加護を授かった衣。",
+        "description": "\\I[448] Clothing blessed with the protection of the earth.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 448,
-        "name": "大地の衣",
+        "name": "Earth Robe",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -507,11 +507,11 @@
     {
         "id": 23,
         "atypeId": 2,
-        "description": "\\I[453] 星々の加護を授かった衣。",
+        "description": "\\I[453] Clothing blessed with the protection of the stars.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 453,
-        "name": "星辰の衣",
+        "name": "Starry Robe",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -528,11 +528,11 @@
     {
         "id": 24,
         "atypeId": 7,
-        "description": "\\I[946] 王の風格を放つ核。",
+        "description": "\\I[946] The nucleus that exudes the aura of a king.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 946,
-        "name": "キングプルリンの核",
+        "name": "King Pudding Core",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a24*1>\n<mat2:I37*1>",
         "params": [
             10,
@@ -549,11 +549,11 @@
     {
         "id": 25,
         "atypeId": 2,
-        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
-        "name": "天使長の衣",
+        "name": "Angelic Robe",
         "note": "<itemCategory:\\I[384]身体>",
         "params": [
             0,
@@ -597,7 +597,7 @@
     {
         "id": 27,
         "atypeId": 2,
-        "description": "\\I[492] \\c[6]耐性\\c[0] 毒を無効化する。 ",
+        "description": "\\I[492] \\c[6]Resistance\\c[0] Nullifies poison.",
         "etypeId": 4,
         "traits": [
             {
@@ -607,7 +607,7 @@
             }
         ],
         "iconIndex": 492,
-        "name": "毒消しの指輪",
+        "name": "Ring of Antidote",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -624,7 +624,7 @@
     {
         "id": 28,
         "atypeId": 2,
-        "description": "\\I[493] \\c[6]耐性\\c[0] 睡眠を無効化する。 ",
+        "description": "\\I[493] \\c[6]Nullifies \\c[0]sleep resistance.",
         "etypeId": 4,
         "traits": [
             {
@@ -634,7 +634,7 @@
             }
         ],
         "iconIndex": 493,
-        "name": "不眠の指輪",
+        "name": "Ring of Insomnia",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -651,7 +651,7 @@
     {
         "id": 29,
         "atypeId": 2,
-        "description": "\\I[494] \\c[6]耐性\\c[0] 混乱を無効化する。 ",
+        "description": "\\I[494] \\c[6]Nullifies \\c[0]confusion resistance.",
         "etypeId": 4,
         "traits": [
             {
@@ -661,7 +661,7 @@
             }
         ],
         "iconIndex": 494,
-        "name": "混乱封じの指輪",
+        "name": "Ring of Confusion Sealing",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -705,11 +705,11 @@
     {
         "id": 31,
         "atypeId": 2,
-        "description": "\\I[464] \\c[6]強化\\c[0] 自身の最大HPが10点増加する。毎ターンHP3点回復。",
+        "description": "\\I[464] \\c[6]Strengthen\\c[0] Increases your maximum HP by 10 points. Recovers 3 points of\nHP every turn.",
         "etypeId": 4,
         "traits": [],
         "iconIndex": 464,
-        "name": "生命の指輪",
+        "name": "Ring of Life",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 3>",
         "params": [
             10,
@@ -726,7 +726,7 @@
     {
         "id": 32,
         "atypeId": 2,
-        "description": "\\I[465] \\c[6]強化\\c[0] 自身の最大MPが10点増加する。封印を防止。",
+        "description": "\\I[465] \\c[6]Enhancement\\c[0] Increases your maximum MP by 10 points. Prevents sealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -736,7 +736,7 @@
             }
         ],
         "iconIndex": 465,
-        "name": "満月の指輪",
+        "name": "Full Moon Ring",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -753,7 +753,7 @@
     {
         "id": 33,
         "atypeId": 2,
-        "description": "\\I[467] \\c[6]強化\\c[0] 自身の防御力が12点増加する。防御力低下を防止。",
+        "description": "\\I[467] \\c[6]Enhancement\\c[0] Increases own defense by 12 points. Prevents defense\ndecrease.",
         "etypeId": 4,
         "traits": [
             {
@@ -763,7 +763,7 @@
             }
         ],
         "iconIndex": 467,
-        "name": "鉄壁の指輪",
+        "name": "Iron Wall Ring",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -780,7 +780,7 @@
     {
         "id": 34,
         "atypeId": 2,
-        "description": "\\I[466] \\c[6]強化\\c[0] 自身の攻撃力が12点増加する。攻撃力低下を防止。",
+        "description": "\\I[466] \\c[6]Enhance\\c[0] Increases own attack power by 12 points. Prevents decrease in\nattack power.",
         "etypeId": 4,
         "traits": [
             {
@@ -790,7 +790,7 @@
             }
         ],
         "iconIndex": 466,
-        "name": "剛力の指輪",
+        "name": "Ring of Strength",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -807,7 +807,7 @@
     {
         "id": 35,
         "atypeId": 2,
-        "description": "\\I[470] \\c[6]強化\\c[0] 自身の魔力が12点増加する。封印を防止。",
+        "description": "\\I[470] \\c[6]Enhancement\\c[0] Increases own magic power by 12 points. Prevents sealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -817,7 +817,7 @@
             }
         ],
         "iconIndex": 470,
-        "name": "魔力の指輪",
+        "name": "Ring of Magic Power",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -834,7 +834,7 @@
     {
         "id": 36,
         "atypeId": 2,
-        "description": "\\I[468] \\c[6]強化\\c[0] 自身の素早さが12点増加する。素早さ低下を防止。",
+        "description": "\\I[468] \\c[6]Enhancement\\c[0] Increases own agility by 12 points. Prevents decrease in\nagility.",
         "etypeId": 4,
         "traits": [
             {
@@ -844,7 +844,7 @@
             }
         ],
         "iconIndex": 468,
-        "name": "疾風の指輪",
+        "name": "Ring of the Swift Wind",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -861,11 +861,11 @@
     {
         "id": 37,
         "atypeId": 2,
-        "description": "\\I[469] \\c[6]強化\\c[0] 自身の必殺率が10点増加する。",
+        "description": "\\I[469] \\c[6]Strengthening\\c[0] Increases own critical hit rate by 10 points.",
         "etypeId": 4,
         "traits": [],
         "iconIndex": 469,
-        "name": "必殺の指輪",
+        "name": "Ring of Deathblow",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -882,7 +882,7 @@
     {
         "id": 38,
         "atypeId": 2,
-        "description": "\\I[476] \\c[6]強化\\c[0] 毎ターンHP+7％回復",
+        "description": "\\I[476] \\c[6]Enhancement\\c[0] Recovers 7% of HP every turn.",
         "etypeId": 4,
         "traits": [
             {
@@ -892,7 +892,7 @@
             }
         ],
         "iconIndex": 476,
-        "name": "再生の指輪",
+        "name": "Ring of Regeneration",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -909,7 +909,7 @@
     {
         "id": 39,
         "atypeId": 2,
-        "description": "\\I[472] \\c[6]強化\\c[0] 自身のMP消費量を1/2にする。 ",
+        "description": "\\I[472] \\c[6]Strengthen\\c[0] Reduce your own MP consumption by half.",
         "etypeId": 4,
         "traits": [
             {
@@ -919,7 +919,7 @@
             }
         ],
         "iconIndex": 472,
-        "name": "妖精の指輪",
+        "name": "Fairy Ring",
         "note": "<itemCategory:\\I[811]指輪>",
         "params": [
             0,
@@ -936,7 +936,7 @@
     {
         "id": 40,
         "atypeId": 1,
-        "description": "\\I[760] \\c[6]強化\\c[0] 聖女の加護が宿された指輪。毎ターンMP+3点回復。全状態異常無効化。",
+        "description": "\\I[760] \\c[6]A ring imbued with the blessing of the Holy Maiden. Recovers 3 MP every turn.\nGrants immunity to all status ailments.",
         "etypeId": 4,
         "traits": [
             {
@@ -976,7 +976,7 @@
             }
         ],
         "iconIndex": 760,
-        "name": "聖女の指輪",
+        "name": "Holy Maiden's Ring",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 3>",
         "params": [
             0,
@@ -1030,7 +1030,7 @@
             }
         ],
         "iconIndex": 0,
-        "name": "--- 改造 ---",
+        "name": "--- Modification ---",
         "note": "",
         "params": [
             0,
@@ -1047,11 +1047,11 @@
     {
         "id": 43,
         "atypeId": 2,
-        "description": "\\I[523] 身に着けると素早くなれる気がするバンダナ。",
+        "description": "\\I[523] A bandana that makes you feel like you become faster when you wear it.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 523,
-        "name": "バンダナ+",
+        "name": "Bandana+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a1*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1068,7 +1068,7 @@
     {
         "id": 44,
         "atypeId": 2,
-        "description": "\\I[509] うさぎの耳を模したヘアバンド。回避率+15％",
+        "description": "\\I[509] A hairband modeled after rabbit ears. Evasion rate +15%.",
         "etypeId": 2,
         "traits": [
             {
@@ -1078,7 +1078,7 @@
             }
         ],
         "iconIndex": 509,
-        "name": "ラビットイヤー+",
+        "name": "Rabbit Ears+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a2*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1095,11 +1095,11 @@
     {
         "id": 45,
         "atypeId": 2,
-        "description": "\\I[524] 吟遊詩人に好まれる帽子。",
+        "description": "\\I[524] A hat favored by bards.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 524,
-        "name": "吟遊詩人の帽子+",
+        "name": "Bard's Hat+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a3*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1116,7 +1116,7 @@
     {
         "id": 46,
         "atypeId": 2,
-        "description": "\\I[525] 戦士が身に着ける兜。物理系の被ダメージ-15％",
+        "description": "\\I[525] A helmet worn by warriors. Reduces physical damage taken by 15%.",
         "etypeId": 2,
         "traits": [
             {
@@ -1126,7 +1126,7 @@
             }
         ],
         "iconIndex": 525,
-        "name": "戦士の兜+",
+        "name": "Warrior's Helmet+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a4*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1143,7 +1143,7 @@
     {
         "id": 47,
         "atypeId": 2,
-        "description": "\\I[512] 魔術系の被ダメージ-20％",
+        "description": "\\I[512] Magic damage received -20%",
         "etypeId": 2,
         "traits": [
             {
@@ -1153,7 +1153,7 @@
             }
         ],
         "iconIndex": 512,
-        "name": "魔性の髪飾り+",
+        "name": "Seductive Hair Ornament+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a5*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1170,11 +1170,11 @@
     {
         "id": 48,
         "atypeId": 1,
-        "description": "\\I[761] 獣神アンリの魔力が込められた聖なるお守り。",
+        "description": "\\I[761] A sacred amulet imbued with the magical power of the beast god Anri.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 761,
-        "name": "獣神のお守り",
+        "name": "Beast God's Amulet",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a6*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1191,7 +1191,7 @@
     {
         "id": 49,
         "atypeId": 2,
-        "description": "\\I[502] 魔術系の被ダメージ-20％",
+        "description": "\\I[502] Magic damage received -20%",
         "etypeId": 2,
         "traits": [
             {
@@ -1201,7 +1201,7 @@
             }
         ],
         "iconIndex": 502,
-        "name": "リボンシール+",
+        "name": "Ribbon Seal+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a7*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1218,7 +1218,7 @@
     {
         "id": 50,
         "atypeId": 2,
-        "description": "\\I[513] 物理系の被ダメージ-20％",
+        "description": "\\I[513] Physical damage received -20%",
         "etypeId": 2,
         "traits": [
             {
@@ -1228,7 +1228,7 @@
             }
         ],
         "iconIndex": 513,
-        "name": "ドラゴンタトゥー+",
+        "name": "Dragon Tattoo+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a8*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1245,11 +1245,11 @@
     {
         "id": 51,
         "atypeId": 2,
-        "description": "\\I[527] 必殺率が大きく増加する。",
+        "description": "\\I[527] The critical hit rate greatly increases.",
         "etypeId": 2,
         "traits": [],
         "iconIndex": 527,
-        "name": "ねじりはちまき+",
+        "name": "Twisted Headband+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a9*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1266,7 +1266,7 @@
     {
         "id": 52,
         "atypeId": 7,
-        "description": "\\I[946] ベタベタしてる。回避率+10％",
+        "description": "\\I[946] It's sticky. Evasion rate +10%.",
         "etypeId": 2,
         "traits": [
             {
@@ -1276,7 +1276,7 @@
             }
         ],
         "iconIndex": 946,
-        "name": "ＧＯＰの兜+",
+        "name": "GOP Helmet+",
         "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a10*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1293,11 +1293,11 @@
     {
         "id": 53,
         "atypeId": 2,
-        "description": "\\I[384] 動物の革で作られた軽量な軽鎧。",
+        "description": "\\I[384] Lightweight armor made from animal leather.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 384,
-        "name": "レザーメイル+",
+        "name": "Leather Mail+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a11*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1314,11 +1314,11 @@
     {
         "id": 54,
         "atypeId": 2,
-        "description": "\\I[385] 魔族のために心血を注いで作られた軽鎧。",
+        "description": "\\I[385] A lightweight armor created with great effort for the demon tribe.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 385,
-        "name": "アーガイルメイル+",
+        "name": "Argyle Mail+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a12*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1335,11 +1335,11 @@
     {
         "id": 55,
         "atypeId": 2,
-        "description": "\\I[386] 優雅なデザインが特徴的な軽鎧。",
+        "description": "\\I[386] A lightweight armor with an elegant design.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 386,
-        "name": "ケルティックメイル+",
+        "name": "Celtic Mail+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a13*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1356,11 +1356,11 @@
     {
         "id": 56,
         "atypeId": 2,
-        "description": "\\I[387] あらゆる魔法に抵抗力を持つ鎧。",
+        "description": "\\I[387] Armor that has resistance against all magic.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 387,
-        "name": "ミスリルメイル+",
+        "name": "Mithril Mail+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a14*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1377,11 +1377,11 @@
     {
         "id": 57,
         "atypeId": 2,
-        "description": "\\I[388] ルーンを刻み、防御力を上昇させた鎧。MP+30点",
+        "description": "\\I[388] Armor engraved with runes that increases defense. MP +30 points.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 388,
-        "name": "ルーンメイル+",
+        "name": "Rune Mail+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a15*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1398,11 +1398,11 @@
     {
         "id": 58,
         "atypeId": 2,
-        "description": "\\I[389] 特務騎士のために特別に制作された重鎧。",
+        "description": "\\I[389] Specially crafted heavy armor made for the special forces knight.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 389,
-        "name": "フォースメイル+",
+        "name": "Force Mail+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a16*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1419,7 +1419,7 @@
     {
         "id": 59,
         "atypeId": 2,
-        "description": "\\I[406] 特別な工法で研磨された高強度鋼鉄を使った鎧。回避率+15％",
+        "description": "\\I[406] Armor made from specially polished high-strength steel. Evasion rate +15%.",
         "etypeId": 3,
         "traits": [
             {
@@ -1429,7 +1429,7 @@
             }
         ],
         "iconIndex": 406,
-        "name": "アダマムメイン+",
+        "name": "Adamammein+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a17*1>\n<mat2:I37*1>",
         "params": [
             30,
@@ -1446,11 +1446,11 @@
     {
         "id": 60,
         "atypeId": 1,
-        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
-        "name": "ザラキエルの聖衣",
+        "name": "Zerachiel's Holy Robe",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a18*1>\n<mat2:I37*1>",
         "params": [
             30,
@@ -1467,11 +1467,11 @@
     {
         "id": 61,
         "atypeId": 2,
-        "description": "\\I[419] ルーンを刻み、防御力を確保したローブ。",
+        "description": "\\I[419] A robe engraved with runes to ensure defense.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 419,
-        "name": "ルーンローブ+",
+        "name": "Rune Robe+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a19*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1488,7 +1488,7 @@
     {
         "id": 62,
         "atypeId": 2,
-        "description": "\\I[421] あらゆる魔術に抵抗を持つ。魔術系の被ダメージ-20％\n",
+        "description": "\\I[421] Resists all magic. Magic-based damage taken -20%.",
         "etypeId": 3,
         "traits": [
             {
@@ -1498,7 +1498,7 @@
             }
         ],
         "iconIndex": 421,
-        "name": "エレメンタルローブ+",
+        "name": "Elemental Robe+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a20*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1515,11 +1515,11 @@
     {
         "id": 63,
         "atypeId": 2,
-        "description": "\\I[432] 魔術師の女性が好んで着ている服を改良したもの。",
+        "description": "The clothing that the female magician prefers to wear has been improved.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 432,
-        "name": "魔女の服+",
+        "name": "Witch's Robe+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a21*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1536,11 +1536,11 @@
     {
         "id": 64,
         "atypeId": 2,
-        "description": "\\I[448] 大地の加護を授かった衣。",
+        "description": "\\I[448] Clothing blessed with the protection of the earth.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 448,
-        "name": "大地の衣+",
+        "name": "Earth Robe+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a22*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1557,11 +1557,11 @@
     {
         "id": 65,
         "atypeId": 2,
-        "description": "\\I[453] 星々の加護を授かった衣。",
+        "description": "\\I[453] Clothing blessed with the protection of the stars.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 453,
-        "name": "星辰の衣+",
+        "name": "Starry Robe+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a23*1>\n<mat2:I37*1>",
         "params": [
             40,
@@ -1578,7 +1578,7 @@
     {
         "id": 66,
         "atypeId": 7,
-        "description": "\\I[946] 神の風格を放つ核。回避率+10％",
+        "description": "\\I[946] A nucleus that exudes a divine aura. Evasion rate +10%.",
         "etypeId": 3,
         "traits": [
             {
@@ -1588,7 +1588,7 @@
             }
         ],
         "iconIndex": 946,
-        "name": "ＧＯＰの核+",
+        "name": "GOP Core+",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a24*1>\n<mat2:I37*1>",
         "params": [
             30,
@@ -1605,11 +1605,11 @@
     {
         "id": 67,
         "atypeId": 2,
-        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
-        "name": "天使長の聖衣",
+        "name": "Holy Robe of the Archangel",
         "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a25*1>\n<mat2:I37*1>",
         "params": [
             30,
@@ -1653,7 +1653,7 @@
     {
         "id": 69,
         "atypeId": 2,
-        "description": "\\I[492] \\c[6]耐性\\c[0] 毒を無効化し、ステータスを強化する。 ",
+        "description": "\\I[492] \\c[6]Resistance\\c[0] Nullifies poison and enhances status.",
         "etypeId": 4,
         "traits": [
             {
@@ -1663,7 +1663,7 @@
             }
         ],
         "iconIndex": 492,
-        "name": "毒消しの指輪+",
+        "name": "Antidote Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a27*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1680,7 +1680,7 @@
     {
         "id": 70,
         "atypeId": 2,
-        "description": "\\I[493] \\c[6]耐性\\c[0] 睡眠を無効化し、ステータスを強化する。 ",
+        "description": "\\I[493] \\c[6]Nullify Sleep\\c[0] and enhance status resistance.",
         "etypeId": 4,
         "traits": [
             {
@@ -1690,7 +1690,7 @@
             }
         ],
         "iconIndex": 493,
-        "name": "不眠の指輪+",
+        "name": "Insomniac Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a28*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1707,7 +1707,7 @@
     {
         "id": 71,
         "atypeId": 2,
-        "description": "\\I[494] \\c[6]耐性\\c[0] 混乱を無効化し、ステータスを強化する。 ",
+        "description": "\\I[494] \\c[6]Resistance\\c[0] Nullifies confusion and enhances status.",
         "etypeId": 4,
         "traits": [
             {
@@ -1717,7 +1717,7 @@
             }
         ],
         "iconIndex": 494,
-        "name": "混乱封じの指輪+",
+        "name": "Ring of Confusion Sealing+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a29*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1761,11 +1761,11 @@
     {
         "id": 73,
         "atypeId": 2,
-        "description": "\\I[464] \\c[6]強化\\c[0] 自身の最大HPが20点増加する。毎ターンHP7点回復。",
+        "description": "\\I[464] \\c[6]Strengthen\\c[0] Increases own maximum HP by 20 points. Recovers 7 points of\nHP every turn.",
         "etypeId": 4,
         "traits": [],
         "iconIndex": 464,
-        "name": "生命の指輪+",
+        "name": "Ring of Life+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 7>\n\n<mat1:a31*1>\n<mat2:I37*1>\n",
         "params": [
             20,
@@ -1782,7 +1782,7 @@
     {
         "id": 74,
         "atypeId": 2,
-        "description": "\\I[465] \\c[6]強化\\c[0] 自身の最大MPが20点増加する。毎ターンMP1点回復。封印を防止。",
+        "description": "\\I[465] \\c[6]Enhance\\c[0] Increases your maximum MP by 20 points. Recovers 1 MP every\nturn. Prevents sealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -1792,7 +1792,7 @@
             }
         ],
         "iconIndex": 465,
-        "name": "満月の指輪+",
+        "name": "Full Moon Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 1>\n\n<mat1:a32*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1809,7 +1809,7 @@
     {
         "id": 75,
         "atypeId": 2,
-        "description": "\\I[467] \\c[6]強化\\c[0] 自身の防御力が24点増加する。防御力低下を防止。",
+        "description": "\\I[467] \\c[6]Enhancement\\c[0] Increases own defense by 24 points. Prevents defense\ndecrease.",
         "etypeId": 4,
         "traits": [
             {
@@ -1819,7 +1819,7 @@
             }
         ],
         "iconIndex": 467,
-        "name": "鉄壁の指輪+",
+        "name": "Iron Wall Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a33*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1836,7 +1836,7 @@
     {
         "id": 76,
         "atypeId": 2,
-        "description": "\\I[466] \\c[6]強化\\c[0] 自身の攻撃力が24点増加する。攻撃力低下を防止。",
+        "description": "\\I[466] \\c[6]Enhancement\\c[0] Increases own attack power by 24 points. Prevents decrease\nin attack power.",
         "etypeId": 4,
         "traits": [
             {
@@ -1846,7 +1846,7 @@
             }
         ],
         "iconIndex": 466,
-        "name": "剛力の指輪+",
+        "name": "Ring of Strength+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a34*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1863,7 +1863,7 @@
     {
         "id": 77,
         "atypeId": 2,
-        "description": "\\I[470] \\c[6]強化\\c[0] 自身の魔力が24点増加する。封印を防止。",
+        "description": "\\I[470] \\c[6]Enhancement\\c[0] Increases own magic power by 24 points. Prevents sealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -1873,7 +1873,7 @@
             }
         ],
         "iconIndex": 470,
-        "name": "魔力の指輪+",
+        "name": "Magic Power Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a35*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1890,7 +1890,7 @@
     {
         "id": 78,
         "atypeId": 2,
-        "description": "\\I[468] \\c[6]強化\\c[0] 自身の素早さが24点増加する。素早さ低下を防止。",
+        "description": "\\I[468] \\c[6]Enhancement\\c[0] Increases own agility by 24 points. Prevents decrease in\nagility.",
         "etypeId": 4,
         "traits": [
             {
@@ -1900,7 +1900,7 @@
             }
         ],
         "iconIndex": 468,
-        "name": "疾風の指輪+",
+        "name": "Ring of the Swift Wind+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a36*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1917,11 +1917,11 @@
     {
         "id": 79,
         "atypeId": 2,
-        "description": "\\I[469] \\c[6]強化\\c[0] 自身の必殺率が20点増加する。",
+        "description": "\\I[469] \\c[6]Enhancement\\c[0] Increases own critical hit rate by 20 points.",
         "etypeId": 4,
         "traits": [],
         "iconIndex": 469,
-        "name": "必殺の指輪+",
+        "name": "Ring of Deadly Strikes+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a37*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1938,11 +1938,11 @@
     {
         "id": 80,
         "atypeId": 2,
-        "description": "\\I[476] \\c[6]強化\\c[0] 毎ターンHP20点回復",
+        "description": "\\I[476] \\c[6]Enhancement\\c[0] Recovers 20 HP every turn.",
         "etypeId": 4,
         "traits": [],
         "iconIndex": 476,
-        "name": "再生の指輪+",
+        "name": "Ring of Regeneration+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 20>\n\n<mat1:a38*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -1959,7 +1959,7 @@
     {
         "id": 81,
         "atypeId": 2,
-        "description": "\\I[472] \\c[6]強化\\c[0] 最大MP30点、魔力32点、封印無効、毎ターンMP3点回復し、MP消費量1/2。 ",
+        "description": "\\I[472] \\c[6]Enhancement\\c[0] Maximum MP increased by 30 points, Magic increased by 32\npoints, Seal nullified, MP recovers by 3 points every turn, and MP consumption reduced by\nhalf.",
         "etypeId": 4,
         "traits": [
             {
@@ -1974,7 +1974,7 @@
             }
         ],
         "iconIndex": 472,
-        "name": "妖精王の指輪+",
+        "name": "Fairy King's Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a39*1>\n<mat2:a85*1>\n\n<CustomRegenerateMP: 3>",
         "params": [
             0,
@@ -1991,7 +1991,7 @@
     {
         "id": 82,
         "atypeId": 1,
-        "description": "\\I[760] \\c[6]強化\\c[0] 聖女の加護が宿された指輪。毎ターンMP+5点回復。猛毒、睡眠、混乱、封印耐性。",
+        "description": "\\I[760] \\c[6]A ring imbued with the protection of a strengthened saint. Recovers 5 MP\nevery turn. Provides resistance against severe poison, sleep, confusion, and sealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -2016,7 +2016,7 @@
             }
         ],
         "iconIndex": 760,
-        "name": "聖女の指輪+",
+        "name": "Holy Maiden's Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 5>\n\n<mat1:a40*1>\n<mat2:I37*1>",
         "params": [
             0,
@@ -2060,7 +2060,7 @@
     {
         "id": 84,
         "atypeId": 2,
-        "description": "\\I[463] \\c[6]強化\\c[0] 最大HP20点、攻撃力24点を増加する。毎ターンHP10点回復。",
+        "description": "\\I[463] \\c[6]Strengthen\\c[0] Increases maximum HP by 20 points and attack power by 24\npoints. Recovers 10 points of HP every turn.",
         "etypeId": 4,
         "traits": [
             {
@@ -2075,7 +2075,7 @@
             }
         ],
         "iconIndex": 463,
-        "name": "勇気の指輪+",
+        "name": "Ring of Courage+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 10>\n\n<mat1:a73*1>\n<mat2:a76*1>",
         "params": [
             20,
@@ -2092,7 +2092,7 @@
     {
         "id": 85,
         "atypeId": 2,
-        "description": "\\I[462] \\c[6]強化\\c[0] 最大MP20点、魔力24点を増加する。封印無効。毎ターンMP2点回復。",
+        "description": "\\I[462] \\c[6]Enhances\\c[0] maximum MP by 20 points and magic power by 24 points. Nullifies\nseal. Recovers 2 MP every turn.",
         "etypeId": 4,
         "traits": [
             {
@@ -2102,7 +2102,7 @@
             }
         ],
         "iconIndex": 462,
-        "name": "元素の指輪+",
+        "name": "Elemental Ring+",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 2>\n\n<mat1:a74*1>\n<mat2:a77*1>",
         "params": [
             0,
@@ -2119,7 +2119,7 @@
     {
         "id": 86,
         "atypeId": 2,
-        "description": "\\I[40] \\c[6]強化\\c[0] 全ステータスを強化する。封印無効。毎ターンMP8点回復。引継ぎ可能。",
+        "description": "\\I[40] \\c[6]Enhancement\\c[0] Enhances all stats. Nullifies seal. Recovers 8 MP every turn.\nTransferable.",
         "etypeId": 4,
         "traits": [
             {
@@ -2129,7 +2129,7 @@
             }
         ],
         "iconIndex": 40,
-        "name": "天球儀の指輪",
+        "name": "Ring of Celestial Sphere",
         "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 8>",
         "params": [
             0,

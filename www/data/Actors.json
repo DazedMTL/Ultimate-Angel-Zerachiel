@@ -29,10 +29,10 @@
         ],
         "initialLevel": 12,
         "maxLevel": 99,
-        "name": "ザラキエル",
+        "name": "Zerachiel",
         "nickname": "",
         "note": "<SBI画像:Actor_Zarakielu2>\n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>\n\n//CTB、アイコン\n<CTB Icon: 928>\n<icon: 928> \n\n//\n\n通常攻撃\nHP回復魔法使用時\n<recoverVoice:FCS2_011_Tool use1>\n\nHP回復以外の味方向け魔法使用時\n<friendMagicVoice:FCS2_050_Recover3>\n\n味方向け以外の魔法を使用した時\n<magicVoice:FCS2_038_Medium attack1,FCS2_039_Medium attack2,FCS2_040_Medium attack3,FCS2_041_Medium attack4,FCS2_042_Medium attack5>\n\n必殺技を使用した時\n<skillVoice:FCS2_043_Strong attack1,FCS2_044_Strong attack2,FCS2_045_Strong attack3,FCS2_046_Strong attack4,FCS2_047_Strong attack5>\n\nダメージを受けた時\n<damageVoice:FCS2_021_Damage1,FCS2_026_Large damage1,FCS2_023_Damage3,FCS2_024_Damage4,FCS2_025_Damage5>\n\n攻撃を回避した時\n<evadeVoice:FCS2_031_No damage1>\n\n味方からHP回復魔法を受けた時\n<fromAllyVoice:FCS2_095_Thank you1,FCS2_096_Thank you2>\n\n戦闘不能時\n<defeatedVoice:FCS2_019_Unable to fight1,FCS2_020_Unable to fight2>\n\n戦闘開始時\n<firstVoice:FCS2_001_Start1,FCS2_002_Start2>\n\n戦闘勝利時\n<victoryVoice:FCS2_003_Victory1,FCS2_004_Victory2>\n",
-        "profile": "無邪気な性格の少女。\n主神の命令で連れ去らわれた仲間を助けにきた。"
+        "profile": "A girl with an innocent personality. She came to help her friends who were taken away by\nthe command of the main god."
     },
     {
         "id": 2,
@@ -49,10 +49,10 @@
         "traits": [],
         "initialLevel": 15,
         "maxLevel": 50,
-        "name": "喜",
+        "name": "Joy",
         "nickname": "",
         "note": "\n",
-        "profile": "可憐で無邪気な天使の少女。\n元々は人間だったが、とある事情で天使となった。"
+        "profile": "A lovely and innocent angel girl. She was originally a human, but due to certain\ncircumstances, she became an angel."
     },
     {
         "id": 3,
@@ -72,7 +72,7 @@
         "traits": [],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "怒",
+        "name": "Anger",
         "nickname": "",
         "note": "",
         "profile": ""
@@ -95,7 +95,7 @@
         "traits": [],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "哀",
+        "name": "Ai",
         "nickname": "",
         "note": "",
         "profile": ""
@@ -118,7 +118,7 @@
         "traits": [],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "楽",
+        "name": "Raku",
         "nickname": "",
         "note": "",
         "profile": ""
@@ -141,7 +141,7 @@
         "traits": [],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "エロ",
+        "name": "Ero",
         "nickname": "",
         "note": "//<Sprite Cannot Move>",
         "profile": ""
@@ -170,10 +170,10 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "プルリン",
+        "name": "Pururin",
         "nickname": "",
         "note": "<SBI画像:Actor_Pururin>\n\n//CTB、アイコン\n<CTB Icon: 946>\n<icon: 946> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 2000\n</Set Sts Data>",
-        "profile": "ザラキエルの友達。封印に耐性を持っている。\n彼女の窮地にはいつも駆けつける、頼れる存在。"
+        "profile": "Zerachiel's friend. They have resistance to sealing. They are always there to help her in\ntimes of trouble, a reliable presence."
     },
     {
         "id": 8,
@@ -209,10 +209,10 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "クラウディア",
+        "name": "Claudia",
         "nickname": "",
         "note": "<SBI画像:Actor_Claudia>\n\n//CTB、アイコン\n<CTB Icon: 912>\n<icon: 912> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "帝国領アレーティアの冒険者にして魔術師。\nそっけない性格だが、人嫌いではない。"
+        "profile": "I am an adventurer and magician from the Imperial Territory of Aretia. I may have a cold\npersonality, but I don't dislike people."
     },
     {
         "id": 9,
@@ -253,10 +253,10 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "サティア",
+        "name": "Sachia",
         "nickname": "",
         "note": "<SBI画像:Actor_Sathia>\n\n//CTB、アイコン\n<CTB Icon: 914>\n<icon: 914> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "帝国領アレーティアの冒険者にして盗賊。\n誰とでも打ち解け、いつも明るく、お宝が大好き。"
+        "profile": "A adventurer and thief from the Imperial territory of Aretia. She is friendly with\neveryone, always cheerful, and loves treasure."
     },
     {
         "id": 10,
@@ -292,10 +292,10 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "ラヴィ",
+        "name": "Rabi",
         "nickname": "",
         "note": "<SBI画像:Actor_Ravie>\n\n//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "帝国領アレーティアの冒険者にして武術家。\n己の肉体を鍛えることが趣味で、常に強者を求めている。"
+        "profile": "An adventurer and martial artist from the Imperial territory of Aretia. She enjoys\ntraining her own body and is always seeking out strong opponents."
     },
     {
         "id": 11,
@@ -331,7 +331,7 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "Gab クラウディア",
+        "name": "Gab Claudia",
         "nickname": "",
         "note": "//CTB、アイコン\n<CTB Icon: 912>\n<icon: 912> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
         "profile": ""
@@ -370,7 +370,7 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "Gab サティア",
+        "name": "Gab Sachia",
         "nickname": "",
         "note": "//CTB、アイコン\n<CTB Icon: 914>\n<icon: 914> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
         "profile": ""
@@ -409,7 +409,7 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "Gab ラヴィ",
+        "name": "Gab Rabi",
         "nickname": "",
         "note": "//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
         "profile": ""
@@ -448,7 +448,7 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "Gab ララ",
+        "name": "Gab Lala",
         "nickname": "",
         "note": "//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
         "profile": ""
@@ -487,10 +487,10 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "ララ",
+        "name": "Lala",
         "nickname": "",
         "note": "<SBI画像:Actor_LaLa>\n\n//CTB、アイコン\n<CTB Icon: 915>\n<icon: 915> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "素直になれない天使の少女。\nある人物を探して、世界中を旅している。"
+        "profile": "The girl who can't be honest, an angel. She is searching for a certain person and\ntraveling all over the world."
     },
     {
         "id": 16,
@@ -510,7 +510,7 @@
         "traits": [],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "プリロパ",
+        "name": "Prilopa",
         "nickname": "",
         "note": "",
         "profile": ""
@@ -539,9 +539,9 @@
         ],
         "initialLevel": 1,
         "maxLevel": 99,
-        "name": "プルリン",
+        "name": "Pururin",
         "nickname": "",
         "note": "<SBI画像:Actor_Pururin>\n\n//CTB、アイコン\n<CTB Icon: 946>\n<icon: 946> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "ザラキエルの友達。封印に耐性を持っている。\n彼女の窮地にはいつも駆けつける、頼れる存在。"
+        "profile": "Zerachiel's friend. They have resistance to sealing. They are always there to help her in\ntimes of trouble, a reliable presence."
     }
 ]

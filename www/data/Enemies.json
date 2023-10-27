@@ -25,7 +25,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 汎用 ■■■",
+        "name": "Generic Enemy",
         "note": "",
         "params": [
             100,
@@ -87,7 +87,7 @@
             }
         ],
         "gold": 1,
-        "name": "神官兵",
+        "name": "Priest Soldier",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1097>",
         "params": [
             200,
@@ -144,7 +144,7 @@
             }
         ],
         "gold": 15,
-        "name": "神官兵",
+        "name": "Priest Soldier",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1097>",
         "params": [
             120,
@@ -208,7 +208,7 @@
             }
         ],
         "gold": 40,
-        "name": "傭兵",
+        "name": "Mercenary",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1107>",
         "params": [
             500,
@@ -272,7 +272,7 @@
             }
         ],
         "gold": 60,
-        "name": "騎士",
+        "name": "Knight",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1103>",
         "params": [
             200,
@@ -329,7 +329,7 @@
             }
         ],
         "gold": 1,
-        "name": "神官兵",
+        "name": "Priest Soldier",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1097>",
         "params": [
             99999,
@@ -393,7 +393,7 @@
             }
         ],
         "gold": 100,
-        "name": "隊長",
+        "name": "Captain",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1108>",
         "params": [
             600,
@@ -464,7 +464,7 @@
             }
         ],
         "gold": 300,
-        "name": "セラフィム",
+        "name": "Seraphim",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1124>",
         "params": [
             1500,
@@ -521,7 +521,7 @@
             }
         ],
         "gold": 0,
-        "name": "ぷるぞう",
+        "name": "Puruzou",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 932>",
         "params": [
             1,
@@ -578,7 +578,7 @@
             }
         ],
         "gold": 7,
-        "name": "スライム",
+        "name": "Slime",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 932>",
         "params": [
             60,
@@ -635,7 +635,7 @@
             }
         ],
         "gold": 12,
-        "name": "レッドスライム",
+        "name": "Red Slime",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 933>",
         "params": [
             90,
@@ -699,7 +699,7 @@
             }
         ],
         "gold": 50,
-        "name": "ローパー",
+        "name": "Roper",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1100>",
         "params": [
             210,
@@ -763,7 +763,7 @@
             }
         ],
         "gold": 45,
-        "name": "ローパー",
+        "name": "Roper",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1099>",
         "params": [
             150,
@@ -827,7 +827,7 @@
             }
         ],
         "gold": 50,
-        "name": "ローパー",
+        "name": "Roper",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1098>",
         "params": [
             180,
@@ -1000,7 +1000,7 @@
             }
         ],
         "gold": 0,
-        "name": "隊長",
+        "name": "Captain",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1108>",
         "params": [
             2000,
@@ -1110,7 +1110,7 @@
             }
         ],
         "gold": 0,
-        "name": "傭兵",
+        "name": "Mercenary",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1107>",
         "params": [
             1600,
@@ -1194,7 +1194,7 @@
             }
         ],
         "gold": 0,
-        "name": "隊長",
+        "name": "Captain",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1108>",
         "params": [
             2000,
@@ -1311,7 +1311,7 @@
             }
         ],
         "gold": 0,
-        "name": "プリンセスローパー",
+        "name": "Princess Roper",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1121>",
         "params": [
             3000,
@@ -1428,7 +1428,7 @@
             }
         ],
         "gold": 0,
-        "name": "聖女",
+        "name": "Holy Maiden",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1120>",
         "params": [
             5000,
@@ -1541,7 +1541,7 @@
             }
         ],
         "gold": 0,
-        "name": "レミエル",
+        "name": "Remiel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1122>\n",
         "params": [
             32000,
@@ -1654,7 +1654,7 @@
             }
         ],
         "gold": 0,
-        "name": "サリエル",
+        "name": "Sariel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1123>",
         "params": [
             45000,
@@ -1767,7 +1767,7 @@
             }
         ],
         "gold": 0,
-        "name": "レミエル",
+        "name": "Remiel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1122>\n",
         "params": [
             24000,
@@ -1907,7 +1907,7 @@
             }
         ],
         "gold": 50000,
-        "name": "星神エデン",
+        "name": "Star God Eden",
         "note": "<反転なし>\n<サイズ変更なし>\nHide HP\n\n//CTB、アイコン\n<CTB Icon: 1135>\n\n<RingStateX:0>\n<RingStateY:450>",
         "params": [
             500000,
@@ -2007,7 +2007,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 4層 ■■■",
+        "name": "■■■ 4th Floor ■■■",
         "note": "",
         "params": [
             100,
@@ -2071,7 +2071,7 @@
             }
         ],
         "gold": 70,
-        "name": "神官兵",
+        "name": "Priest Soldier",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1096>",
         "params": [
             250,
@@ -2135,7 +2135,7 @@
             }
         ],
         "gold": 90,
-        "name": "傭兵",
+        "name": "Mercenary",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1106>",
         "params": [
             300,
@@ -2206,7 +2206,7 @@
             }
         ],
         "gold": 120,
-        "name": "騎士",
+        "name": "Knight",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1103>",
         "params": [
             400,
@@ -2277,7 +2277,7 @@
             }
         ],
         "gold": 120,
-        "name": "女騎士",
+        "name": "Female Knight",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1119>",
         "params": [
             400,
@@ -2341,7 +2341,7 @@
             }
         ],
         "gold": 150,
-        "name": "隊長",
+        "name": "Captain",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1109>",
         "params": [
             450,
@@ -2441,7 +2441,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 向こう側 ■■■",
+        "name": "The Other Side",
         "note": "",
         "params": [
             100,
@@ -2537,7 +2537,7 @@
             }
         ],
         "gold": 20000,
-        "name": "魔神ゴリアテの記憶",
+        "name": "Memories of the Demon God Goliath",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1111>\n\n<RingStateX:0>\n<RingStateY:460>",
         "params": [
             150000,
@@ -3071,7 +3071,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 神護の森 ■■■",
+        "name": "■■■ Forest of Divine Protection ■■■",
         "note": "",
         "params": [
             100,
@@ -3140,7 +3140,7 @@
             }
         ],
         "gold": 40,
-        "name": "ウルフェン",
+        "name": "Urufen",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 983>",
         "params": [
             470,
@@ -3209,7 +3209,7 @@
             }
         ],
         "gold": 60,
-        "name": "シルバニアン",
+        "name": "Sylvanian",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 984>\n",
         "params": [
             550,
@@ -3371,7 +3371,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 熱砂の砂漠 ■■■",
+        "name": "■■■ Desert of Burning Sands ■■■",
         "note": "",
         "params": [
             100,
@@ -3433,7 +3433,7 @@
             }
         ],
         "gold": 60,
-        "name": "ゴブリン",
+        "name": "Goblin",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 941>\n",
         "params": [
             660,
@@ -3495,7 +3495,7 @@
             }
         ],
         "gold": 120,
-        "name": "ホブゴブリン",
+        "name": "Hobgoblin",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 937>\n",
         "params": [
             720,
@@ -3603,7 +3603,7 @@
             }
         ],
         "gold": 0,
-        "name": "オルデリック様",
+        "name": "Lord Olderic",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 1062>\n\n<RingStateX:0>\n<RingStateY:80>\n",
         "params": [
             6800,
@@ -3703,7 +3703,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 魔鉱山 ■■■",
+        "name": "■■■ Magic Ore Mine ■■■",
         "note": "",
         "params": [
             100,
@@ -3767,7 +3767,7 @@
             }
         ],
         "gold": 90,
-        "name": "サーペント",
+        "name": "Serpent",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1053>",
         "params": [
             900,
@@ -3829,7 +3829,7 @@
             }
         ],
         "gold": 120,
-        "name": "グローツラング",
+        "name": "Grotslang",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1049>",
         "params": [
             1200,
@@ -3937,7 +3937,7 @@
             }
         ],
         "gold": 0,
-        "name": "ヘルマ",
+        "name": "Helma",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1116>",
         "params": [
             9999,
@@ -3994,7 +3994,7 @@
             }
         ],
         "gold": 145,
-        "name": "アリアーヌ",
+        "name": "Ariane",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1035>",
         "params": [
             1200,
@@ -4032,7 +4032,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 星詠みの森 ■■■",
+        "name": "■■■ Starry Forest of Divination ■■■",
         "note": "",
         "params": [
             100,
@@ -4113,7 +4113,7 @@
             }
         ],
         "gold": 0,
-        "name": "シェミニ",
+        "name": "Gemini",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1125>",
         "params": [
             12000,
@@ -4187,7 +4187,7 @@
             }
         ],
         "gold": 0,
-        "name": "シェミニ",
+        "name": "Gemini",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1125>",
         "params": [
             4000,
@@ -4293,7 +4293,7 @@
             }
         ],
         "gold": 0,
-        "name": "Ｇ・シェミニ",
+        "name": "G. Shemini",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1125>\n\n<RingStateX:0>\n<RingStateY:450>",
         "params": [
             12000,
@@ -4331,7 +4331,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 天使 ■■■",
+        "name": "■■■ Angel ■■■",
         "note": "",
         "params": [
             100,
@@ -4393,7 +4393,7 @@
             }
         ],
         "gold": 420,
-        "name": "下級天使",
+        "name": "Lower Angel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1127>",
         "params": [
             2400,
@@ -4472,7 +4472,7 @@
             }
         ],
         "gold": 280,
-        "name": "下級天使",
+        "name": "Lower Angel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1126>",
         "params": [
             3200,
@@ -4534,7 +4534,7 @@
             }
         ],
         "gold": 420,
-        "name": "下級天使",
+        "name": "Lower Angel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1129>",
         "params": [
             1800,
@@ -4613,7 +4613,7 @@
             }
         ],
         "gold": 280,
-        "name": "下級天使",
+        "name": "Lower Angel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1128>",
         "params": [
             2600,
@@ -4713,7 +4713,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 巨人 ■■■",
+        "name": "Giant",
         "note": "",
         "params": [
             100,
@@ -4838,7 +4838,7 @@
             }
         ],
         "gold": 0,
-        "name": "炎の巨人",
+        "name": "Giant of Flames",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1133>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             15000,
@@ -4943,7 +4943,7 @@
             }
         ],
         "gold": 0,
-        "name": "霧の巨人",
+        "name": "Mist Giant",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1134>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             15000,
@@ -5048,7 +5048,7 @@
             }
         ],
         "gold": 0,
-        "name": "霧の巨人",
+        "name": "Mist Giant",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1134>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             15000,
@@ -5112,7 +5112,7 @@
             }
         ],
         "gold": 4000,
-        "name": "セラフィム",
+        "name": "Seraphim",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1124>",
         "params": [
             5000,
@@ -5212,7 +5212,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 地底火山 ■■■",
+        "name": "■■■ Underground Volcano ■■■",
         "note": "",
         "params": [
             100,
@@ -5274,7 +5274,7 @@
             }
         ],
         "gold": 104,
-        "name": "レッドオーク",
+        "name": "Red Oak",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 951>",
         "params": [
             1320,
@@ -5343,7 +5343,7 @@
             }
         ],
         "gold": 90,
-        "name": "フレアホーク",
+        "name": "Flare Hawk",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 1040>\n",
         "params": [
             890,
@@ -5417,7 +5417,7 @@
             }
         ],
         "gold": 500,
-        "name": "ママランチュラ",
+        "name": "Mama Tarantula",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 1071>",
         "params": [
             1400,
@@ -5491,7 +5491,7 @@
             }
         ],
         "gold": 80,
-        "name": "ラバランチュラ",
+        "name": "Rabaranchura",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 1032>",
         "params": [
             940,
@@ -5555,7 +5555,7 @@
             }
         ],
         "gold": 0,
-        "name": "セラフィム",
+        "name": "Seraphim",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1124>",
         "params": [
             5000,
@@ -5593,7 +5593,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 燃える ■■■",
+        "name": "Burning Blaze",
         "note": "",
         "params": [
             100,
@@ -5699,7 +5699,7 @@
             }
         ],
         "gold": 10000,
-        "name": "レミエル",
+        "name": "Remiel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1122>\n",
         "params": [
             25000,
@@ -5812,7 +5812,7 @@
             }
         ],
         "gold": 0,
-        "name": "サリエル",
+        "name": "Sariel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1123>",
         "params": [
             45000,
@@ -5850,7 +5850,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 幻獣の山 ■■■",
+        "name": "■■■ Mountain of Mythical Beasts ■■■",
         "note": "",
         "params": [
             100,
@@ -5944,7 +5944,7 @@
             }
         ],
         "gold": 0,
-        "name": "サンドワーム",
+        "name": "Sandworm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1138>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             25000,
@@ -6062,7 +6062,7 @@
             }
         ],
         "gold": 0,
-        "name": "マーナガルム",
+        "name": "Marnagarm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1139>\n\n<RingStateX:0>\n<RingStateY:80>\n\n\n",
         "params": [
             38500,
@@ -6159,7 +6159,7 @@
             }
         ],
         "gold": 0,
-        "name": "マーナガルム",
+        "name": "Marnagarm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1141>\n\n<RingStateX:0>\n<RingStateY:80>",
         "params": [
             38500,
@@ -6256,7 +6256,7 @@
             }
         ],
         "gold": 0,
-        "name": "マーナガルム",
+        "name": "Marnagarm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1140>\n\n<RingStateX:0>\n<RingStateY:80>",
         "params": [
             38500,
@@ -6356,7 +6356,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ シェミニのお供 ■■■",
+        "name": "■■■ Shemini's Companions ■■■",
         "note": "",
         "params": [
             100,
@@ -6418,7 +6418,7 @@
             }
         ],
         "gold": 0,
-        "name": "ブリオ",
+        "name": "Brio",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1145>",
         "params": [
             3000,
@@ -6480,7 +6480,7 @@
             }
         ],
         "gold": 0,
-        "name": "ブリオ",
+        "name": "Brio",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1144>",
         "params": [
             3000,
@@ -6542,7 +6542,7 @@
             }
         ],
         "gold": 0,
-        "name": "ブリオ",
+        "name": "Brio",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1143>",
         "params": [
             3000,
@@ -6604,7 +6604,7 @@
             }
         ],
         "gold": 0,
-        "name": "ブリオ",
+        "name": "Brio",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1142>",
         "params": [
             3000,
@@ -6704,7 +6704,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 星振りの森 ■■■",
+        "name": "Starry Forest",
         "note": "",
         "params": [
             100,
@@ -6773,7 +6773,7 @@
             }
         ],
         "gold": 120,
-        "name": "シルベン",
+        "name": "Silven",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1148>",
         "params": [
             1900,
@@ -6842,7 +6842,7 @@
             }
         ],
         "gold": 270,
-        "name": "ウッドノイズ",
+        "name": "Wood Noise",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1079>",
         "params": [
             2250,
@@ -6904,7 +6904,7 @@
             }
         ],
         "gold": 150,
-        "name": "クリーパー",
+        "name": "Creeper",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1146>",
         "params": [
             2000,
@@ -6968,7 +6968,7 @@
             }
         ],
         "gold": 90,
-        "name": "キラービー",
+        "name": "Killer Bee",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1023>",
         "params": [
             990,
@@ -7035,7 +7035,7 @@
             }
         ],
         "gold": 0,
-        "name": "Ｇ・シェミニ・レプリカ",
+        "name": "G. Gemini Replica",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1125>",
         "params": [
             6000,
@@ -7135,7 +7135,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 幻獣の森 ■■■",
+        "name": "■■■ Forest of Mythical Beasts ■■■",
         "note": "",
         "params": [
             100,
@@ -7204,7 +7204,7 @@
             }
         ],
         "gold": 280,
-        "name": "オーク",
+        "name": "Orc",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 950>",
         "params": [
             2600,
@@ -7266,7 +7266,7 @@
             }
         ],
         "gold": 300,
-        "name": "ドリアード",
+        "name": "Dryad",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 1058>",
         "params": [
             3200,
@@ -7345,7 +7345,7 @@
             }
         ],
         "gold": 320,
-        "name": "インプ",
+        "name": "Imp",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 978>",
         "params": [
             3500,
@@ -7414,7 +7414,7 @@
             }
         ],
         "gold": 150,
-        "name": "スプリッツァー",
+        "name": "Spritzer",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1147>",
         "params": [
             2000,
@@ -7483,7 +7483,7 @@
             }
         ],
         "gold": 270,
-        "name": "トーチャー",
+        "name": "Torturer",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1082>",
         "params": [
             2250,
@@ -7557,7 +7557,7 @@
             }
         ],
         "gold": 0,
-        "name": "サンドワーム",
+        "name": "Sandworm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1138>",
         "params": [
             25000,
@@ -7626,7 +7626,7 @@
             }
         ],
         "gold": 0,
-        "name": "ワーム",
+        "name": "Worm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1138>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             7500,
@@ -7726,7 +7726,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 燃えるログレス ■■■",
+        "name": "Burning Logres",
         "note": "",
         "params": [
             100,
@@ -7825,7 +7825,7 @@
             }
         ],
         "gold": 0,
-        "name": "レミエル",
+        "name": "Remiel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1122>\n",
         "params": [
             25000,
@@ -7924,7 +7924,7 @@
             }
         ],
         "gold": 0,
-        "name": "サリエル",
+        "name": "Sariel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1123>",
         "params": [
             38500,
@@ -8024,7 +8024,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 聖域 ■■■",
+        "name": "■■■ Holy Sanctuary ■■■",
         "note": "",
         "params": [
             100,
@@ -8130,7 +8130,7 @@
             }
         ],
         "gold": 0,
-        "name": "レミエル",
+        "name": "Remiel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1122>\n",
         "params": [
             50000,
@@ -8194,7 +8194,7 @@
             }
         ],
         "gold": 0,
-        "name": "セラフィム",
+        "name": "Seraphim",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1124>",
         "params": [
             10000,
@@ -8300,7 +8300,7 @@
             }
         ],
         "gold": 0,
-        "name": "サリエル",
+        "name": "Sariel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1123>",
         "params": [
             125000,
@@ -8400,7 +8400,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■■■ 巨人の森 ■■■",
+        "name": "Giant Forest",
         "note": "",
         "params": [
             100,
@@ -8505,7 +8505,7 @@
             }
         ],
         "gold": 3000,
-        "name": "霧の巨人",
+        "name": "Mist Giant",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1134>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             12000,
@@ -8579,7 +8579,7 @@
             }
         ],
         "gold": 1000,
-        "name": "セラフィム",
+        "name": "Seraphim",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1124>",
         "params": [
             12000,
@@ -8643,7 +8643,7 @@
             }
         ],
         "gold": 800,
-        "name": "ワーム",
+        "name": "Worm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1138>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             4000,
@@ -8749,7 +8749,7 @@
             }
         ],
         "gold": 0,
-        "name": "使徒サリエル",
+        "name": "Apostle Sariel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1123>",
         "params": [
             125000,
@@ -8848,7 +8848,7 @@
             }
         ],
         "gold": 10000,
-        "name": "レミエル",
+        "name": "Remiel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1122>\n",
         "params": [
             18000,
@@ -8956,7 +8956,7 @@
             }
         ],
         "gold": 750,
-        "name": "ホルデリック様",
+        "name": "Lord Horderick",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 1149>\n\n<RingStateX:0>\n<RingStateY:80>\n",
         "params": [
             2400,
@@ -9043,7 +9043,7 @@
             }
         ],
         "gold": 750,
-        "name": "モルデリック様",
+        "name": "Lord Mordelick",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 1150>\n\n<RingStateX:0>\n<RingStateY:80>\n",
         "params": [
             2400,
@@ -9144,7 +9144,7 @@
             }
         ],
         "gold": 400,
-        "name": "植物竜",
+        "name": "Plant Dragon",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 992>\n",
         "params": [
             2000,
@@ -9238,7 +9238,7 @@
             }
         ],
         "gold": 2000,
-        "name": "ゴブリンブレイヴ",
+        "name": "Goblin Brave",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 974>\n\n<RingStateX:0>\n<RingStateY:80>\n",
         "params": [
             8000,
@@ -9346,7 +9346,7 @@
             }
         ],
         "gold": 10000,
-        "name": "マーナガルム",
+        "name": "Marnagarm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1139>\n\n<RingStateX:0>\n<RingStateY:80>\n\n",
         "params": [
             35000,
@@ -9443,7 +9443,7 @@
             }
         ],
         "gold": 0,
-        "name": "マーナガルム",
+        "name": "Marnagarm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1141>\n\n<RingStateX:0>\n<RingStateY:80>",
         "params": [
             35000,
@@ -9540,7 +9540,7 @@
             }
         ],
         "gold": 0,
-        "name": "マーナガルム",
+        "name": "Marnagarm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1140>\n\n<RingStateX:0>\n<RingStateY:80>",
         "params": [
             35000,
@@ -9665,7 +9665,7 @@
             }
         ],
         "gold": 3000,
-        "name": "炎の巨人",
+        "name": "Giant of Flames",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1133>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             20000,
@@ -9778,7 +9778,7 @@
             }
         ],
         "gold": 99999,
-        "name": "楽園の守護者",
+        "name": "Guardian of Paradise",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 956>\n\nHide HP\n\n\n",
         "params": [
             750000,
@@ -9835,7 +9835,7 @@
             }
         ],
         "gold": 1,
-        "name": "神官兵",
+        "name": "Priest Soldier",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1097>",
         "params": [
             1,
@@ -9935,7 +9935,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■ 夢幻の大樹 ■",
+        "name": "Dreaming Tree",
         "note": "",
         "params": [
             100,
@@ -10014,7 +10014,7 @@
             }
         ],
         "gold": 780,
-        "name": "下級天使の記憶",
+        "name": "Memories of a Lesser Angel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1126>",
         "params": [
             13200,
@@ -10076,7 +10076,7 @@
             }
         ],
         "gold": 840,
-        "name": "下級天使の記憶",
+        "name": "Memories of a Lesser Angel",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1129>",
         "params": [
             11800,
@@ -10212,7 +10212,7 @@
             }
         ],
         "gold": 1000,
-        "name": "ママランチュラの記憶",
+        "name": "Memory of Mama Arachne",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 1071>",
         "params": [
             11400,
@@ -10281,7 +10281,7 @@
             }
         ],
         "gold": 240,
-        "name": "フレアホークの記憶",
+        "name": "Memory of Flare Hawk",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 1040>\n",
         "params": [
             8900,
@@ -10407,7 +10407,7 @@
             }
         ],
         "gold": 270,
-        "name": "キラービーの記憶",
+        "name": "Killer Bee's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1023>",
         "params": [
             9900,
@@ -10469,7 +10469,7 @@
             }
         ],
         "gold": 600,
-        "name": "ドリアードの記憶",
+        "name": "Memories of the Dryad",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 1058>",
         "params": [
             3200,
@@ -10600,7 +10600,7 @@
             }
         ],
         "gold": 540,
-        "name": "トーチャーの記憶",
+        "name": "Memory of Torture",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1082>",
         "params": [
             12250,
@@ -10674,7 +10674,7 @@
             }
         ],
         "gold": 800,
-        "name": "スプリッツァーの記憶",
+        "name": "Spritzer's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 1147>\n",
         "params": [
             12000,
@@ -10736,7 +10736,7 @@
             }
         ],
         "gold": 1000,
-        "name": "ブリオの記憶",
+        "name": "Brio's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1145>",
         "params": [
             9000,
@@ -10862,7 +10862,7 @@
             }
         ],
         "gold": 700,
-        "name": "神官兵の記憶",
+        "name": "Memory of the Priest Soldier",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1096>",
         "params": [
             7500,
@@ -10926,7 +10926,7 @@
             }
         ],
         "gold": 900,
-        "name": "傭兵の記憶",
+        "name": "Mercenary's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1106>",
         "params": [
             9000,
@@ -11059,7 +11059,7 @@
             }
         ],
         "gold": 1200,
-        "name": "騎士の記憶",
+        "name": "Knight's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1103>",
         "params": [
             12000,
@@ -11130,7 +11130,7 @@
             }
         ],
         "gold": 1200,
-        "name": "女騎士の記憶",
+        "name": "Memory of the Female Knight",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1119>",
         "params": [
             12000,
@@ -11261,7 +11261,7 @@
             }
         ],
         "gold": 820,
-        "name": "オークの記憶",
+        "name": "Orc's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 950>",
         "params": [
             12600,
@@ -11323,7 +11323,7 @@
             }
         ],
         "gold": 240,
-        "name": "ホブゴブリンの記憶",
+        "name": "Hobgoblin's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 937>\n",
         "params": [
             720,
@@ -11402,7 +11402,7 @@
             }
         ],
         "gold": 620,
-        "name": "インプの記憶",
+        "name": "Imp's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 978>",
         "params": [
             3500,
@@ -11533,7 +11533,7 @@
             }
         ],
         "gold": 260,
-        "name": "ウルフェンの記憶",
+        "name": "Memories of Ulphen",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 983>",
         "params": [
             10400,
@@ -11597,7 +11597,7 @@
             }
         ],
         "gold": 270,
-        "name": "サーペントの記憶",
+        "name": "Serpent's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1053>",
         "params": [
             9000,
@@ -11654,7 +11654,7 @@
             }
         ],
         "gold": 290,
-        "name": "アリアーヌの記憶",
+        "name": "Ariane's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1035>",
         "params": [
             8900,
@@ -11794,7 +11794,7 @@
             }
         ],
         "gold": 150,
-        "name": "ローパーの記憶",
+        "name": "Roper's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1100>",
         "params": [
             9200,
@@ -11894,7 +11894,7 @@
         "exp": 0,
         "traits": [],
         "gold": 0,
-        "name": "■ ボス ■",
+        "name": "■ Boss ■",
         "note": "",
         "params": [
             100,
@@ -11983,7 +11983,7 @@
             }
         ],
         "gold": 5555,
-        "name": "隊長の記憶",
+        "name": "Captain's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1109>",
         "params": [
             45000,
@@ -12084,7 +12084,7 @@
             }
         ],
         "gold": 2222,
-        "name": "植物竜の記憶",
+        "name": "Memory of the Plant Dragon",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<breathH:0.007>\n\n<CTB Icon: 992>",
         "params": [
             26000,
@@ -12197,7 +12197,7 @@
             }
         ],
         "gold": 7777,
-        "name": "オルデリック様の記憶",
+        "name": "Memories of Lord Alderic",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 1062>\n\n<RingStateX:0>\n<RingStateY:80>\n",
         "params": [
             68200,
@@ -12296,7 +12296,7 @@
             }
         ],
         "gold": 8888,
-        "name": "ゴブリンブレイヴの記憶",
+        "name": "Goblin Brave's Memory",
         "note": "<反転なし>\n<サイズ変更なし>\n\n<CTB Icon: 974>\n\n<RingStateX:0>\n<RingStateY:80>",
         "params": [
             80000,
@@ -12385,7 +12385,7 @@
             }
         ],
         "gold": 6666,
-        "name": "ワームの記憶",
+        "name": "Memory of the Worm",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1138>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             120000,
@@ -12510,7 +12510,7 @@
             }
         ],
         "gold": 8888,
-        "name": "霧の巨人の記憶",
+        "name": "Memories of the Mist Giant",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1134>\n\n<RingStateX:0>\n<RingStateY:40>",
         "params": [
             150000,
@@ -12650,7 +12650,7 @@
             }
         ],
         "gold": 9999,
-        "name": "星神の記憶",
+        "name": "Memory of the Star God",
         "note": "<反転なし>\n<サイズ変更なし>\nHide HP\n\n//CTB、アイコン\n<CTB Icon: 1135>\n\n<RingStateX:0>\n<RingStateY:450>",
         "params": [
             500000,
@@ -12754,7 +12754,7 @@
             }
         ],
         "gold": 7777,
-        "name": "天使アリア",
+        "name": "Angel Aria",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1152>",
         "params": [
             232000,
@@ -12848,7 +12848,7 @@
             }
         ],
         "gold": 7777,
-        "name": "天使レスフレーゼ",
+        "name": "Angel Lesflese",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1153>",
         "params": [
             286544,
@@ -12988,7 +12988,7 @@
             }
         ],
         "gold": 9999,
-        "name": "星神の記憶",
+        "name": "Memory of the Star God",
         "note": "<反転なし>\n<サイズ変更なし>\nHide HP\n\n//CTB、アイコン\n<CTB Icon: 1135>\n\n<RingStateX:0>\n<RingStateY:450>",
         "params": [
             500000,
@@ -13191,7 +13191,7 @@
             }
         ],
         "gold": 0,
-        "name": "楽園のアルテミス",
+        "name": "Artemis of Paradise",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1154>\n\nHide HP",
         "params": [
             300000,
@@ -13357,7 +13357,7 @@
             }
         ],
         "gold": 9999,
-        "name": "ゴッド",
+        "name": "God",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1155>",
         "params": [
             200000,
@@ -13448,7 +13448,7 @@
             }
         ],
         "gold": 0,
-        "name": "ぷえるん",
+        "name": "Puelun",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1156>",
         "params": [
             90000,
@@ -13527,7 +13527,7 @@
             }
         ],
         "gold": 0,
-        "name": "ぷるこ",
+        "name": "Puruko",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1157>",
         "params": [
             50000,
@@ -13611,7 +13611,7 @@
             }
         ],
         "gold": 0,
-        "name": "ぴえ～る",
+        "name": "Pieru",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1158>",
         "params": [
             120000,
@@ -13690,7 +13690,7 @@
             }
         ],
         "gold": 0,
-        "name": "まじょりん",
+        "name": "Witchling",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1159>",
         "params": [
             65000,
@@ -13791,7 +13791,7 @@
             }
         ],
         "gold": 7777,
-        "name": "天使レスフレーゼ",
+        "name": "Angel Lesfleze",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1153>",
         "params": [
             286544,
@@ -13895,7 +13895,7 @@
             }
         ],
         "gold": 7777,
-        "name": "天使アリア",
+        "name": "Angel Aria",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1152>",
         "params": [
             232000,
