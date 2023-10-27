@@ -22085,7 +22085,7 @@
                             "code": 355,
                             "indent": 0,
                             "parameters": [
-                                "$gameActors.actor(1).setProfile(\"マイコニドはボクは眼中に無いみたい……\\nクラウディアも変なのに好かれたなぁ……\")"
+                                "$gameActors.actor(1).setProfile(\"It seems like the Myconid doesnt care about me... Claudia likes me even though Im weird.……\")"
                             ]
                         },
                         {
