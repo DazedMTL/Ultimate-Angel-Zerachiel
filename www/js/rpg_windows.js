@@ -275,6 +275,22 @@ Window_Base.prototype.drawTextEx = function (text, x, y) {
     }
 };
 
+Window_Base.prototype.drawTextExProfile = function (text, x, y) {
+    if (text) {
+        var textState = { index: 0, x: x, y: y, left: x };
+        textState.text = this.convertEscapeCharacters(text);
+        textState.height = this.calcTextHeight(textState, false);
+        this.resetFontSettings();
+        this.contents.fontSize = 16
+        while (textState.index < textState.text.length) {
+            this.processCharacter(textState);
+        }
+        return textState.x - x;
+    } else {
+        return 0;
+    }
+};
+
 Window_Base.prototype.convertEscapeCharacters = function (text) {
     text = text.replace(/\\/g, '\x1b');
     text = text.replace(/\x1b\x1b/g, '\\');
@@ -2628,7 +2644,7 @@ Window_Status.prototype.drawEquipments = function (x, y) {
 };
 
 Window_Status.prototype.drawProfile = function (x, y) {
-    this.drawTextEx(this._actor.profile(), x, y);
+    this.drawTextExProfile(this._actor.profile(), x, y);
 };
 
 Window_Status.prototype.maxEquipmentLines = function () {

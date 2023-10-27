@@ -357,6 +357,7 @@
 	};
 
 	Window_StatusWithPicture.prototype.drawProfile = function (x, y) {
+		this.contents.fontSize
 		this.drawTextEx(this._actor.profile(), x, y);
 	};
 
