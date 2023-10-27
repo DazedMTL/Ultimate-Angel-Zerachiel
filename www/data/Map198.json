@@ -10395,7 +10395,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 ボクたちに任せてよ　"
+                                "PushGab 3 Leave_it_to_us"
                             ]
                         },
                         {
@@ -10517,7 +10517,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 しばらく休んでて、あとはどうにかするから　"
+                                "PushGab 5 Take_a_break_for_a_while,_I'll_figure_out_the_rest_somehow"
                             ]
                         },
                         {
@@ -10639,7 +10639,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 ありがとう、いってくるよ　"
+                                "PushGab 5 Thank_you,_I'm_heading_out"
                             ]
                         },
                         {
@@ -10940,7 +10940,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 早く追いかけないと……　"
+                                "PushGab 3 I_have_to_chase_after_her_quickly"
                             ]
                         },
                         {

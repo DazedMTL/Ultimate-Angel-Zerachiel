@@ -3807,7 +3807,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 一日中見張っているのか、大変そうだなぁ…　"
+                                "PushGab 5 It_seems_like_you've_been_keeping_watch_all_day,_that_must_be_tough"
                             ]
                         },
                         {
@@ -3896,7 +3896,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 頭を下げてる…ユニエってすごいんだなぁ…　"
+                                "PushGab 5 She's_bowing_her_head_Yuni_is_amazing,_isn't_she"
                             ]
                         },
                         {
@@ -4083,7 +4083,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 残念だけど仕方ないよね…"
+                                "PushGab 5 It's_unfortunate,_but_there's_no_helping_it"
                             ]
                         },
                         {
@@ -4265,7 +4265,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 4 お城には入れそうにないね…　"
+                                "PushGab 4 It_doesn't_seem_like_we_can_enter_the_castle"
                             ]
                         },
                         {
@@ -4751,7 +4751,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 騎士たちが頭を下げてる…ユニエって偉いんだなぁ…　"
+                                "PushGab 5 The_knights_are_bowing_their_heads_Yuniel_must_be_amazing"
                             ]
                         },
                         {

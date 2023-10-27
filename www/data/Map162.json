@@ -2529,7 +2529,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 こっちは男性用みたい　"
+                                "PushGab 4 It_looks_like_this_one_is_for_men"
                             ]
                         },
                         {
@@ -4083,7 +4083,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 さぁて、次はどこへ行こうかな？　"
+                                "PushGab 2 Well,_where_should_we_go_next?"
                             ]
                         },
                         {

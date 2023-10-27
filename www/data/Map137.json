@@ -3807,7 +3807,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 一日中見張っているのか、大変そうだなぁ…　"
+                                "PushGab 5 It_seems_like_you've_been_keeping_watch_all_day,_that_must_be_tough"
                             ]
                         },
                         {
@@ -3896,7 +3896,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 頭を下げてる…ユニエってすごいんだなぁ…　"
+                                "PushGab 5 She's_bowing_her_head_Yuni_is_amazing,_isn't_she"
                             ]
                         },
                         {
@@ -3985,14 +3985,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 応援ありがとっ　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 12 お土産あったら持って帰ってくるよ　"
+                                "PushGab 12 I'll_bring_back_souvenirs_if_there_are_any"
                             ]
                         },
                         {
@@ -4081,14 +4081,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 応援ありがとっ　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 13 おぬしらも無理するではないぞ　"
+                                "PushGab 13 You_don't_have_to_push_yourselves_too_hard"
                             ]
                         },
                         {
@@ -4177,14 +4177,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 応援ありがとっ　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 11 あなたたちも頑張ってね"
+                                "PushGab 11 You_all_do_your_best_too"
                             ]
                         },
                         {
@@ -4822,7 +4822,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 残念だけど仕方ないよね…"
+                                "PushGab 5 It's_unfortunate,_but_there's_no_helping_it"
                             ]
                         },
                         {
@@ -4911,7 +4911,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 わーい、歓迎されちゃった"
+                                "PushGab 2 Yay,_I_was_welcomed!"
                             ]
                         },
                         {
@@ -5031,14 +5031,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 べつに友人じゃないから…！！　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 12 否定するわりにはまんざらでもなさそうだね　"
+                                "PushGab 12 It_doesn't_seem_like_she's_completely_denying_it"
                             ]
                         },
                         {
@@ -5158,21 +5158,21 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 べつに友人じゃないから…！！　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 13 ふわはははは、照れるでないっ！　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 照れてないよっ！！　"
+                                "PushGab 3 I'm_not_embarrassed!!"
                             ]
                         },
                         {
@@ -5292,14 +5292,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 べつに友人じゃないから…！！　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 11 本当にそうかしら……　"
+                                "PushGab 11 I_wonder_if_that's_really_true"
                             ]
                         },
                         {
@@ -5898,7 +5898,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 4 お城には入れそうにないね…　"
+                                "PushGab 4 It_doesn't_seem_like_we_can_enter_the_castle"
                             ]
                         },
                         {

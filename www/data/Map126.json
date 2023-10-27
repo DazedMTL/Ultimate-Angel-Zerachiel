@@ -10750,7 +10750,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 2 体力が回復したよ　"
+                                "PushGab 2 My_stamina_has_recovered"
                             ]
                         },
                         {

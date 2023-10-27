@@ -31184,7 +31184,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 世の中には色々な人がいるなぁ…　"
+                                "PushGab 4 There_are_all_kinds_of_people_in_this_world,_huh"
                             ]
                         },
                         {
@@ -33864,7 +33864,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 他の道を探してみよう"
+                                "PushGab 4 Let's_try_to_find_another_path"
                             ]
                         },
                         {
@@ -33968,7 +33968,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 他の道を探してみよう"
+                                "PushGab 4 Let's_try_to_find_another_path"
                             ]
                         },
                         {

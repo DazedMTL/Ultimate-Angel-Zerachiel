@@ -5015,7 +5015,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 一人になりたいときってあるよね　"
+                                "PushGab 5 There_are_times_when_you_want_to_be_alone,_right?"
                             ]
                         },
                         {
@@ -5104,7 +5104,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 あっ、そうなんだ…　"
+                                "PushGab 4 Oh,_is_that_so"
                             ]
                         },
                         {
@@ -5253,7 +5253,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 なんかすごく疲れてそう…大丈夫かな　　"
+                                "PushGab 5 You_seem_really_tired_Are_you_okay?"
                             ]
                         },
                         {
@@ -5342,7 +5342,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 誤解しているみたいだね　　"
+                                "PushGab 2 It_seems_like_there's_a_misunderstanding"
                             ]
                         },
                         {
@@ -6392,7 +6392,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 かなり酔ってるみたいだね　"
+                                "PushGab 4 It_looks_like_she's_pretty_drunk"
                             ]
                         },
                         {
@@ -6528,7 +6528,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 ボクも過去に色々あったもんなぁ…　"
+                                "PushGab 5 I've_had_various_experiences_in_the_past_too"
                             ]
                         },
                         {
@@ -6624,7 +6624,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 褒めてくれるのは嬉しいね　"
+                                "PushGab 2 It's_nice_to_be_praised"
                             ]
                         },
                         {
@@ -6720,7 +6720,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 すごく辛そうだよ…　"
+                                "PushGab 4 It_looks_really_painful"
                             ]
                         },
                         {
@@ -6809,7 +6809,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 お酒を飲んでて仕事にいけるの？　"
+                                "PushGab 4 Can_you_go_to_work_while_drinking_alcohol?"
                             ]
                         },
                         {
@@ -6960,14 +6960,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "ShowInfo 堕落度+1"
+                                "ShowInfo Corruption_Level_+1"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 ま、まぁお金をくれるなら…　"
+                                "PushGab 2 W-Well,_if_you're_going_to_give_me_money"
                             ]
                         },
                         {
@@ -7090,7 +7090,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 へえ、剣聖かぁ……お会いしてみたいね～　"
+                                "PushGab 5 Oh,_a_Sword_Saint,_huh_I'd_like_to_meet_them~"
                             ]
                         },
                         {
@@ -7179,7 +7179,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 そこまで感動することなの！？　"
+                                "PushGab 4 Is_it_really_that_moving?!"
                             ]
                         },
                         {
@@ -7275,7 +7275,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 何も言えないや…　"
+                                "PushGab 4 I_can't_say_anything"
                             ]
                         },
                         {
@@ -7364,7 +7364,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 どこかで会うかもしれないね　"
+                                "PushGab 2 We_might_meet_somewhere"
                             ]
                         },
                         {
@@ -7470,14 +7470,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "ShowInfo 堕落度+1"
+                                "ShowInfo Corruption_Level_+1"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 まさか褒められるとは思わなかったなぁ　"
+                                "PushGab 2 I_never_thought_I_would_be_praised"
                             ]
                         },
                         {
@@ -7654,7 +7654,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 おじさん、悲しそう……　"
+                                "PushGab 4 Uncle,_you_look_sad"
                             ]
                         },
                         {
@@ -7750,7 +7750,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 気が向いたらかな　"
+                                "PushGab 2 Whenever_you_feel_like_it"
                             ]
                         },
                         {
@@ -7839,7 +7839,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 あはは、裸に免疫ないんだね　"
+                                "PushGab 2 Ahaha,_you_don't_have_immunity_to_being_naked,_huh?"
                             ]
                         },
                         {
@@ -8026,7 +8026,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 むむ、出ていけって言われてる気が…　"
+                                "PushGab 3 Hmm,_I_feel_like_I'm_being_told_to_leave"
                             ]
                         },
                         {
@@ -8122,7 +8122,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ど、どうしようかな…　"
+                                "PushGab 4 What_should_I_do"
                             ]
                         },
                         {
@@ -8249,7 +8249,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 優しくなった…　"
+                                "PushGab 4 Became_gentle"
                             ]
                         },
                         {
@@ -8338,7 +8338,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 あんまり飲みすぎないようにね　"
+                                "PushGab 5 Be_careful_not_to_drink_too_much,_okay?"
                             ]
                         },
                         {
@@ -8444,14 +8444,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "ShowInfo 堕落度+1"
+                                "ShowInfo Corruption_Level_+1"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 論破されちゃった…　"
+                                "PushGab 4 I've_been_completely_defeated"
                             ]
                         },
                         {
@@ -8556,7 +8556,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 1 　たしかにそういった話は見かけないね。　"
+                                "PushGab 1 I_don't_see_that_kind_of_story_often"
                             ]
                         },
                         {
@@ -8645,7 +8645,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 1 ボク、まるでヘンタイみたい…　"
+                                "PushGab 1 I_feel_like_such_a_pervert"
                             ]
                         },
                         {
@@ -8741,7 +8741,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 関心されるとは思わなかったよ　"
+                                "PushGab 4 I_didn't_expect_to_be_the_center_of_attention"
                             ]
                         },
                         {
@@ -8890,7 +8890,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 ま、酒場はあんまり利用しないしね。　"
+                                "PushGab 5 Well,_I_don't_really_use_taverns_much"
                             ]
                         },
                         {
@@ -8979,7 +8979,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 素直に褒めてくれてもいいのに　"
+                                "PushGab 3 It_would_be_nice_if_you_could_just_praise_me_honestly"
                             ]
                         },
                         {
@@ -9068,7 +9068,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 お酒、大好きなんだね　"
+                                "PushGab 2 You_really_love_alcohol,_don't_you?"
                             ]
                         },
                         {
@@ -9157,7 +9157,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 飲みすぎじゃないかな…　"
+                                "PushGab 4 Aren't_you_drinking_too_much_[Name1]?"
                             ]
                         },
                         {
@@ -9246,7 +9246,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 ボク、どう見ても幼いもんねぇ…　"
+                                "PushGab 5 I,_no_matter_how_you_look_at_me,_am_clearly_young"
                             ]
                         },
                         {
@@ -9351,7 +9351,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 あはは、全部経験しているよ。"
+                                "PushGab 5 Ahaha,_I've_experienced_it_all"
                             ]
                         },
                         {
@@ -9464,7 +9464,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 この人、ダメかもしれない…"
+                                "PushGab 4 This_person_might_be_no_good"
                             ]
                         },
                         {
@@ -9553,7 +9553,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 男の人はとくにね"
+                                "PushGab 2 Men,_in_particular,"
                             ]
                         },
                         {
@@ -9735,7 +9735,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 5 うん、応援しているよ。　"
+                                "PushGab 5 Yeah,_I'm_cheering_for_you"
                             ]
                         },
                         {
@@ -9783,7 +9783,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 5 生活が苦しいんだね…　"
+                                "PushGab 5 Life_is_tough,_huh"
                             ]
                         },
                         {
@@ -9889,7 +9889,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 そして騎士団に捕まるのであった　"
+                                "PushGab 2 And_so,_she_was_captured_by_the_knight_order"
                             ]
                         },
                         {
@@ -9994,7 +9994,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 うぅ、子供扱いされるなぁ…　"
+                                "PushGab 5 Ugh,_don't_treat_me_like_a_child"
                             ]
                         },
                         {
@@ -10090,7 +10090,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 いつもより静かだなぁ　"
+                                "PushGab 5 It's_quieter_than_usual"
                             ]
                         },
                         {
@@ -10186,7 +10186,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 いつもより静かだなぁ　"
+                                "PushGab 5 It's_quieter_than_usual"
                             ]
                         },
                         {
@@ -10282,7 +10282,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 入店はさせてくれるんだ…　"
+                                "PushGab 4 You'll_let_me_in,_won't_you"
                             ]
                         },
                         {
@@ -10411,7 +10411,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 たしかに血液みたいな色してるかも……　"
+                                "PushGab 5 It_does_indeed_have_a_color_like_blood"
                             ]
                         },
                         {
@@ -10507,7 +10507,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 ううん、楽しかったよ　"
+                                "PushGab 2 No,_it_was_fun"
                             ]
                         },
                         {
@@ -10603,7 +10603,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 ある意味、幸せそうだね　"
+                                "PushGab 2 In_a_way,_you_seem_happy"
                             ]
                         },
                         {
@@ -10692,7 +10692,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 相手はいるの？……あ、睨まれてる　"
+                                "PushGab 5 Do_you_have_a_partner?_Ah,_I'm_being_glared_at"
                             ]
                         },
                         {
@@ -10781,7 +10781,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 勘違いされてる気がするゾ　"
+                                "PushGab 3 I_feel_like_there's_a_misunderstanding"
                             ]
                         },
                         {
@@ -10886,7 +10886,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 忘れたいことだってあるよね　"
+                                "PushGab 5 There_are_things_that_I_want_to_forget,_right?"
                             ]
                         },
                         {
@@ -10975,7 +10975,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 いや、酔っちゃいそうだしね　"
+                                "PushGab 4 No,_I_might_get_drunk"
                             ]
                         },
                         {
@@ -11071,7 +11071,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 憐れむ視線を感じるよ…　"
+                                "PushGab 4 I_can_feel_your_pitying_gaze"
                             ]
                         },
                         {
@@ -11169,7 +11169,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 そりゃそっか。邪魔してごめんね　"
+                                "PushGab 5 Oh,_I_see_Sorry_for_getting_in_the_way"
                             ]
                         },
                         {
@@ -11377,7 +11377,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ライバル認定されてる！？　"
+                                "PushGab 4 Are_you_being_recognized_as_a_rival?!"
                             ]
                         },
                         {
@@ -11585,7 +11585,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 がんばってるなぁ　"
+                                "PushGab 2 You're_working_hard,_huh?"
                             ]
                         },
                         {
@@ -11786,7 +11786,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 突っ込むところはソコなんだっ！？　"
+                                "PushGab 4 Is_that_where_you_want_me_to_thrust?!"
                             ]
                         },
                         {
@@ -13193,7 +13193,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 そりゃそう思うよね　"
+                                "PushGab 2 Of_course_you_would_think_that"
                             ]
                         },
                         {

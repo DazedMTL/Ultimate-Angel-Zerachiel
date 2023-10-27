@@ -320,7 +320,7 @@ Game_Interpreter.prototype.setGabText = function (args) {
 		if (i != argc - 1) str_arr[line] += ' ';
 	}
 
-	var obj = new SoR_GabWindow(str_arr[0], str_arr[1], id);
+	var obj = new SoR_GabWindow(str_arr[0].replace(/_/g, ' '), str_arr[1], id);
 	$gameTemp.SoR_GabPush(obj);
 }
 

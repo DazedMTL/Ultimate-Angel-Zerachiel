@@ -4457,7 +4457,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 寝言じゃなかったら怒ってたよ　"
+                                "PushGab 3 If_it_wasn't_sleep_talk,_I_would_have_been_angry"
                             ]
                         },
                         {
@@ -7022,7 +7022,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 いつもありがとう、アリエス　"
+                                "PushGab 5 Thank_you_always,_Aries"
                             ]
                         },
                         {
@@ -7238,7 +7238,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 了解、準備しておくよ　"
+                                "PushGab 5 Understood,_I'll_get_ready"
                             ]
                         },
                         {
@@ -7392,7 +7392,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 魔術耐性か…　"
+                                "PushGab 4 Magic_resistance,_huh"
                             ]
                         },
                         {
@@ -7576,7 +7576,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 アリエスが困惑してるみたい "
+                                "PushGab 4 It_seems_like_Aries_is_confused"
                             ]
                         },
                         {
@@ -9622,7 +9622,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 アリエスが困惑してるみたい "
+                                "PushGab 4 It_seems_like_Aries_is_confused"
                             ]
                         },
                         {
@@ -9755,7 +9755,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 アリエスが困惑してるみたい "
+                                "PushGab 4 It_seems_like_Aries_is_confused"
                             ]
                         },
                         {

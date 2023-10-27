@@ -2538,7 +2538,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　砂漠の秘境 20"
+                                "D_TEXT Desert_Frontier 20"
                             ]
                         },
                         {
@@ -2579,7 +2579,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　Z：調べる 20"
+                                "D_TEXT Z:_I'll_investigate 20"
                             ]
                         },
                         {
@@ -2620,7 +2620,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　X：メニューを開く 20"
+                                "D_TEXT X:_Open_the_menu 20"
                             ]
                         },
                         {
@@ -6091,7 +6091,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　砂漠の秘境 20"
+                                "D_TEXT Desert_Frontier 20"
                             ]
                         },
                         {
@@ -6132,7 +6132,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　Z：調べる 20"
+                                "D_TEXT Z:_I'll_investigate 20"
                             ]
                         },
                         {
@@ -6173,7 +6173,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　X：メニューを開く 20"
+                                "D_TEXT X:_Open_the_menu 20"
                             ]
                         },
                         {

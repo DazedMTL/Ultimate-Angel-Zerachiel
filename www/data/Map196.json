@@ -3597,28 +3597,28 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 7 とても辛そうな顔をされていたのじゃ"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 8 部屋の片隅に、ご家族の写真が飾られていたのを見つけたわ"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 6 少し昔まで、魔大陸では統一戦争があったからのう"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 もしかして、戦争で奥さんを……"
+                                "PushGab 5 Could_it_be_that_you_lost_your_wife_in_the_war"
                             ]
                         },
                         {
@@ -4148,14 +4148,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 お爺ちゃん、鼻血を出していたわ"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 まだまだ元気そうね"
+                                "PushGab 5 You_still_seem_energetic"
                             ]
                         },
                         {
@@ -5821,7 +5821,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 あぁ、家族で経営しているんだね　"
+                                "PushGab 2 Ah,_so_you're_running_it_as_a_family_business"
                             ]
                         },
                         {
@@ -6761,7 +6761,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 騎士団で揉め事起こしたら捕まるもんね　"
+                                "PushGab 2 If_there's_a_conflict_within_the_knight_order,_they'll_get_caught,_right?"
                             ]
                         },
                         {
@@ -7764,7 +7764,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 魔王様も奥さんには勝てないのか…　"
+                                "PushGab 4 Can't_even_the_Demon_Lord_win_against_his_wife"
                             ]
                         },
                         {
@@ -8670,7 +8670,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 魔王様の娘が冒険者をする時代かぁ…　"
+                                "PushGab 4 So_it's_the_era_when_the_Demon_Lord's_daughter_becomes_an_adventurer"
                             ]
                         },
                         {
@@ -9739,28 +9739,28 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 7 とても辛そうな顔をされていたのじゃ"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 8 部屋の片隅に、ご家族の写真が飾られていたのを見つけたわ"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 6 少し昔まで、魔大陸では統一戦争があったからのう"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 もしかして、戦争で奥さんを……"
+                                "PushGab 5 Could_it_be_that_you_lost_your_wife_in_the_war"
                             ]
                         },
                         {
@@ -10290,14 +10290,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 お爺ちゃん、鼻血を出していたわ"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 まだまだ元気そうね"
+                                "PushGab 5 You_still_seem_energetic"
                             ]
                         },
                         {

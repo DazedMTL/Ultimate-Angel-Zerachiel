@@ -9991,7 +9991,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 なんだか落ち着くよね。　"
+                                "PushGab 5 It_feels_calming,_doesn't_it?"
                             ]
                         },
                         {
@@ -10918,7 +10918,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 複雑な気持ちだよね…　"
+                                "PushGab 4 It's_a_complicated_feeling,_isn't_it"
                             ]
                         },
                         {
@@ -12777,7 +12777,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 かける言葉が見つからないや…　"
+                                "PushGab 4 I_can't_find_the_right_words_to_say"
                             ]
                         },
                         {
@@ -13749,7 +13749,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 どこにでもそういう人いるよね　"
+                                "PushGab 5 There_are_people_like_that_everywhere,_aren't_there?"
                             ]
                         },
                         {
@@ -13965,14 +13965,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 12 冗談だよ、代金は払ったから　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 あ、そうなんだ…　"
+                                "PushGab 5 Oh,_is_that_so"
                             ]
                         },
                         {
@@ -14393,21 +14393,21 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 どこにでもそういう人いるよね　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 11 暮らすのに精いっぱいだから起きるのよ　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 11 心に余裕があれば犯罪なんてやらないもの　"
+                                "PushGab 11 If_you_have_peace_of_mind,_you_wouldn't_commit_crimes"
                             ]
                         },
                         {
@@ -15327,7 +15327,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 複雑な事情がありそうだね　"
+                                "PushGab 4 It_seems_like_there_are_complicated_circumstances"
                             ]
                         },
                         {

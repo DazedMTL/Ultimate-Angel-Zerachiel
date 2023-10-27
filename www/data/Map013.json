@@ -4539,7 +4539,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ネズミなら追い払ってあげようかな "
+                                "PushGab 4 Should_I_chase_away_the_mouse_for_you?"
                             ]
                         },
                         {
@@ -4743,7 +4743,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 良いことをした後は気分が良いね　"
+                                "PushGab 5 It_feels_good_after_doing_something_nice,_doesn't_it?"
                             ]
                         },
                         {
@@ -4929,7 +4929,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 そりゃそうだよね…　"
+                                "PushGab 4 Well,_of_course"
                             ]
                         },
                         {
@@ -5025,7 +5025,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ボクのせいだよ、ごめんね…　"
+                                "PushGab 4 It's_my_fault,_I'm_sorry"
                             ]
                         },
                         {
@@ -5121,7 +5121,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 うわっ、早く逃げないとっ　"
+                                "PushGab 4 Oh_no,_I_have_to_run_away_quickly!"
                             ]
                         },
                         {

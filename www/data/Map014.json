@@ -4710,7 +4710,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 5 街中を探してみよう　"
+                                "PushGab 5 Let's_search_around_town"
                             ]
                         },
                         {
@@ -4836,7 +4836,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 街中を探してみよう　"
+                                "PushGab 5 Let's_search_around_town"
                             ]
                         },
                         {
@@ -8433,7 +8433,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 おじさんに説教されるとは…　"
+                                "PushGab 4 To_be_lectured_by_an_old_man"
                             ]
                         },
                         {
@@ -8531,7 +8531,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 うわぁ、辛辣だなぁ…　　"
+                                "PushGab 4 Wow,_that's_harsh"
                             ]
                         },
                         {
@@ -8731,7 +8731,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 それ浮気ってやつじゃ…　"
+                                "PushGab 4 That's_what_you_call_cheating"
                             ]
                         },
                         {

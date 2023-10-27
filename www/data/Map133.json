@@ -8477,7 +8477,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 お城、見てみたいね。　"
+                                "PushGab 2 I_want_to_see_the_castle"
                             ]
                         },
                         {
@@ -9378,7 +9378,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 うん、必ず帰ってくるよ　"
+                                "PushGab 5 Yes,_I_will_definitely_come_back"
                             ]
                         },
                         {
@@ -9632,7 +9632,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 そのわりに武装した人が多いなぁ　"
+                                "PushGab 4 There_are_a_lot_of_people_armed_for_that"
                             ]
                         },
                         {
@@ -12414,7 +12414,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 なるほど、教えてくれてありがとう　"
+                                "PushGab 2 I_see,_thank_you_for_telling_me"
                             ]
                         },
                         {
@@ -13579,7 +13579,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 あはは、するわけないじゃん　"
+                                "PushGab 2 Ahaha,_there's_no_way_that_would_happen"
                             ]
                         },
                         {
@@ -13826,14 +13826,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 普通は家に侵入して壺とか樽を壊すって聞いたよ　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 12 それ、ただのヤバい人だから　"
+                                "PushGab 12 That_person_is_just_dangerous"
                             ]
                         },
                         {
@@ -14769,7 +14769,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 完全に留守にするわけにはいかないもんね　"
+                                "PushGab 5 I_can't_completely_leave_you_alone,_you_know"
                             ]
                         },
                         {
@@ -14963,7 +14963,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 それは心配だねぇ…　"
+                                "PushGab 4 That's_worrying,_isn't_it"
                             ]
                         },
                         {
@@ -15964,7 +15964,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 郊外で……？　"
+                                "PushGab 4 In_the_outskirts?"
                             ]
                         },
                         {
@@ -17035,7 +17035,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 酒場も併設しているんだね。　"
+                                "PushGab 5 So_there's_also_a_bar_attached,_huh"
                             ]
                         },
                         {
@@ -19754,7 +19754,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 ボクより強そうな人いるもんなぁ…　"
+                                "PushGab 2 Is_there_someone_stronger_than_me"
                             ]
                         },
                         {
@@ -20889,7 +20889,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 街は任せて大丈夫だね　"
+                                "PushGab 2 I'll_leave_the_town_to_you,_so_it_should_be_fine"
                             ]
                         },
                         {
@@ -21184,7 +21184,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 ありがと！　子供はかわいいなぁ　"
+                                "PushGab 5 Thank_you!_Children_are_so_cute"
                             ]
                         },
                         {
@@ -22653,7 +22653,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 そうなんだ…　"
+                                "PushGab 5 Is_that_so"
                             ]
                         },
                         {
@@ -24361,7 +24361,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 あ～どんまい！　泣かないで！　"
+                                "PushGab 4 Ah~_Don't_cry!"
                             ]
                         },
                         {
@@ -25496,7 +25496,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 ようやく会えてよかったね　"
+                                "PushGab 5 I'm_glad_we_finally_got_to_meet"
                             ]
                         },
                         {
@@ -25764,7 +25764,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 ええっ！？　地底に火山があるの…？　"
+                                "PushGab 5 Huh?!_There's_a_volcano_underground?"
                             ]
                         },
                         {

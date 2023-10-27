@@ -4723,7 +4723,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 厨房に続いてるみたい　"
+                                "PushGab 5 It_looks_like_it_leads_to_the_kitchen"
                             ]
                         },
                         {
@@ -4936,7 +4936,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 歴代最強……ボクより強いのかな？　"
+                                "PushGab 4 The_strongest_in_history_Are_they_stronger_than_me?"
                             ]
                         },
                         {
@@ -5206,7 +5206,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 どんな料理が出てくるか楽しみだなぁ　"
+                                "PushGab 2 I'm_looking_forward_to_seeing_what_kind_of_dishes_will_be_served"
                             ]
                         },
                         {
@@ -5302,7 +5302,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 もうちょっと時間を潰さないとだね　"
+                                "PushGab 2 We_need_to_kill_some_more_time,_don't_we?"
                             ]
                         },
                         {
@@ -5431,7 +5431,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 船長さん、親切にありがとう♪　　"
+                                "PushGab 2 Thank_you_kindly,_Captain♪"
                             ]
                         },
                         {

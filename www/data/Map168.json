@@ -10398,7 +10398,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ユニエ、偉い人みたいだね　"
+                                "PushGab 4 Yuni,_you_look_like_an_important_person"
                             ]
                         },
                         {
@@ -10520,7 +10520,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 へぇ、何かありそうだね　"
+                                "PushGab 2 Oh,_it_seems_like_something_is_going_on"
                             ]
                         },
                         {
@@ -10798,7 +10798,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 小さいお城だからかな？　"
+                                "PushGab 4 Is_it_because_it's_a_small_castle?"
                             ]
                         },
                         {

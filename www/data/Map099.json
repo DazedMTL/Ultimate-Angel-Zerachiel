@@ -3995,7 +3995,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 教えてくれてありがとう　"
+                                "PushGab 5 Thank_you_for_teaching_me"
                             ]
                         },
                         {
@@ -4352,7 +4352,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 もしかしてクラウディアたち…？　"
+                                "PushGab 4 Could_it_be_Claudia_and_the_others?"
                             ]
                         },
                         {
@@ -4923,14 +4923,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 お茶ご馳走になっちゃったね　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 12 あはは、美味しかったね　"
+                                "PushGab 12 Ahaha,_it_was_delicious,_wasn't_it?"
                             ]
                         },
                         {
@@ -5489,14 +5489,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 お茶ご馳走になっちゃったね　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 13 美味しいお茶だったのじゃ　"
+                                "PushGab 13 It_was_delicious_tea,_wasn't_it?"
                             ]
                         },
                         {
@@ -6055,14 +6055,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 お茶ご馳走になっちゃったね　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 14 えへへ、お菓子までもらっちゃった♪　"
+                                "PushGab 14 Ehehe,_I_got_some_sweets♪"
                             ]
                         },
                         {
@@ -6621,14 +6621,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 お茶ご馳走になっちゃったね　"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 11 わざわざ紅茶まで作ってくれて、申し訳ないわね　"
+                                "PushGab 11 Thank_you_for_going_through_the_trouble_of_making_tea_for_me,_I'm_sorry"
                             ]
                         },
                         {
@@ -7187,7 +7187,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 お茶ご馳走になっちゃった　"
+                                "PushGab 2 I_ended_up_treating_you_to_tea"
                             ]
                         },
                         {
@@ -7777,7 +7777,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 おじいちゃん、哀しそうだったなぁ…　"
+                                "PushGab 4 Grandpa,_you_looked_so_sad"
                             ]
                         },
                         {

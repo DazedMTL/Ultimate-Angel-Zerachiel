@@ -4343,7 +4343,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 いいよ！　何して遊ぶ～？？　"
+                                "PushGab 5 Sure!_What_do_you_want_to_play~??"
                             ]
                         },
                         {
@@ -4595,7 +4595,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 そっかぁ、元気にするんだよ　"
+                                "PushGab 5 I_see_Make_sure_to_take_care_of_yourself,_okay?"
                             ]
                         },
                         {
@@ -4847,7 +4847,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 引っ越しも大変だもんなぁ　"
+                                "PushGab 4 Moving_is_such_a_hassle,_isn't_it?"
                             ]
                         },
                         {
@@ -5092,7 +5092,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 6 同情されてるね…惨めになってきた…"
+                                "PushGab 6 It_seems_like_you're_being_pitied_I'm_starting_to_feel_miserable"
                             ]
                         },
                         {
@@ -5389,7 +5389,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 5 冒険に役立つね、ありがとう！　"
+                                "PushGab 5 Thank_you_for_being_helpful_on_our_adventure!"
                             ]
                         },
                         {
@@ -5469,7 +5469,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 5 困ってるみたいだし、倒してあげようかな？　"
+                                "PushGab 5 It_looks_like_you're_in_trouble,_should_I_defeat_them_for_you?"
                             ]
                         },
                         {
@@ -5575,7 +5575,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 宗教ってそういうものだよねぇ…　"
+                                "PushGab 5 Religion_is_just_like_that,_huh"
                             ]
                         },
                         {
@@ -5671,7 +5671,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 また天使が襲ってくるかもしれないもんね…　"
+                                "PushGab 4 Angels_might_attack_again,_you_know"
                             ]
                         },
                         {
@@ -5760,7 +5760,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 荷物大変そうだなぁ…　"
+                                "PushGab 4 Looks_like_you_have_a_lot_of_luggage"
                             ]
                         },
                         {
@@ -5849,7 +5849,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 6 うっ……教育に悪いもんね…"
+                                "PushGab 6 Ugh_It's_bad_for_education"
                             ]
                         },
                         {

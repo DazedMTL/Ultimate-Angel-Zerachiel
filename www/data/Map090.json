@@ -6706,14 +6706,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 8 あら、開かないわね"
+                                ""
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 関係者以外立ち入り禁止みたいだし、やめておこっか"
+                                "PushGab 5 It_seems_that_only_authorized_personnel_are_allowed,_so_let's_not_do_it"
                             ]
                         },
                         {

@@ -8216,7 +8216,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 4 なんだか忙しそうだね　"
+                                "PushGab 4 You_seem_busy_for_some_reason"
                             ]
                         },
                         {
@@ -8352,7 +8352,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "PushGab 4 奥さんのこと気になるなぁ　"
+                                "PushGab 4 I'm_curious_about_your_wife"
                             ]
                         },
                         {
@@ -8647,7 +8647,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 それで嬉しそうなんだね　"
+                                "PushGab 2 It_seems_like_you're_happy_about_that"
                             ]
                         },
                         {
@@ -8924,7 +8924,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 顔を見せてあげたら喜ぶと思うよ　"
+                                "PushGab 5 I_think_she_would_be_happy_if_you_showed_her_your_face"
                             ]
                         },
                         {
@@ -9218,7 +9218,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 きっと喜ぶだろうね　"
+                                "PushGab 2 You'll_definitely_be_happy,_won't_you?"
                             ]
                         },
                         {
@@ -9495,7 +9495,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 奥さん、どんな人だったの！？"
+                                "PushGab 4 Wife,_what_kind_of_person_was_she!?"
                             ]
                         },
                         {
@@ -9812,7 +9812,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 そうだったんだ…　"
+                                "PushGab 4 So_that's_how_it_was"
                             ]
                         },
                         {
@@ -9908,7 +9908,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 おー、良かったぁ　"
+                                "PushGab 2 Oh,_thank_goodness"
                             ]
                         },
                         {
@@ -10004,7 +10004,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 へぇ、やるじゃない　"
+                                "PushGab 5 Wow,_you're_doing_great!"
                             ]
                         },
                         {
@@ -10100,7 +10100,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 あれ、ちょっと顔が赤いぞ　"
+                                "PushGab 4 Huh,_your_face_is_a_little_red"
                             ]
                         },
                         {
@@ -10196,7 +10196,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ボクと思考が同じなのか… "
+                                "PushGab 4 Do_you_have_the_same_thoughts_as_me"
                             ]
                         },
                         {

@@ -4415,7 +4415,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 聖職者、ねぇ…　"
+                                "PushGab 3 Hey,_Zerachiel"
                             ]
                         },
                         {
@@ -4607,7 +4607,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 よかった、これで一件落着だね "
+                                "PushGab 2 Thank_goodness,_this_settles_everything,_doesn't_it?"
                             ]
                         },
                         {
@@ -4696,7 +4696,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 自分に従っているだけだよ♪ "
+                                "PushGab 2 I'm_just_following_your_lead♪"
                             ]
                         },
                         {
@@ -4801,7 +4801,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 お爺ちゃん、迷惑そうな顔をしているね　"
+                                "PushGab 4 Grandpa,_you_have_a_troubled_expression_on_your_face"
                             ]
                         },
                         {
@@ -5027,7 +5027,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 剣聖がこの街にいるってこと…？　"
+                                "PushGab 4 The_Sword_Saint_is_in_this_town?"
                             ]
                         },
                         {
@@ -5123,7 +5123,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 やさしいお爺ちゃんだね　"
+                                "PushGab 4 You're_such_a_kind_grandpa"
                             ]
                         },
                         {
@@ -5375,7 +5375,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 仲の良い家族っていいなぁ…　"
+                                "PushGab 4 It's_nice_to_have_a_close-knit_family"
                             ]
                         },
                         {
@@ -5495,7 +5495,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 3 おい待て、どういう噂だよっ！！　"
+                                "PushGab 3 Wait,_what_kind_of_rumor_is_it?!"
                             ]
                         },
                         {
@@ -5584,7 +5584,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 なんでこんな場所に……　"
+                                "PushGab 4 Why_am_I_in_a_place_like_this"
                             ]
                         },
                         {

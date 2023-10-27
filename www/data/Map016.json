@@ -4408,7 +4408,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 美味しそうな匂いがするなぁ　"
+                                "PushGab 5 It_smells_delicious"
                             ]
                         },
                         {
@@ -4504,7 +4504,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 今度は戦争になるかもしれないもんね……　"
+                                "PushGab 4 This_time,_it_might_become_a_war,_you_know"
                             ]
                         },
                         {
@@ -4600,7 +4600,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ボクのせいで住民が消えちゃった…　"
+                                "PushGab 4 It's_my_fault_that_the_residents_disappeared"
                             ]
                         },
                         {
@@ -4756,7 +4756,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 なんか大変そうだなー…　"
+                                "PushGab 4 It_seems_like_something_troublesome"
                             ]
                         },
                         {
@@ -4852,7 +4852,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 それならよかった "
+                                "PushGab 2 Thank_goodness_for_that"
                             ]
                         },
                         {
@@ -4948,7 +4948,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 泣いてる…なんかごめんね　"
+                                "PushGab 4 You're_crying_I'm_sorry_about_something"
                             ]
                         },
                         {
@@ -5088,7 +5088,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 浴室に魚、流行ってるの……？　"
+                                "PushGab 4 Fish_in_the_bathroom,_is_it_a_trend?"
                             ]
                         },
                         {
@@ -5376,7 +5376,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 2 やったぁ！　へそくりだぁー！　"
+                                "PushGab 2 Yay!_It's_my_secret_savings!"
                             ]
                         },
                         {

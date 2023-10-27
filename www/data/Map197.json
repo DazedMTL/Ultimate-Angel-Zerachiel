@@ -8508,7 +8508,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 6 その人は、もう……"
+                                "PushGab 6 That_person,_already"
                             ]
                         },
                         {
@@ -8871,7 +8871,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 そういえばボクのことを探していたけれど…　"
+                                "PushGab 4 By_the_way,_I_heard_you_were_looking_for_me"
                             ]
                         },
                         {
@@ -9723,7 +9723,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 これはまずい感じかな……　"
+                                "PushGab 4 This_feels_bad"
                             ]
                         },
                         {
@@ -10037,7 +10037,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 ボクにもわからないよ…　"
+                                "PushGab 4 I_don't_know_either"
                             ]
                         },
                         {
@@ -10638,7 +10638,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 このタイミングを狙っていたのかもしれないね…　"
+                                "PushGab 5 Maybe_she_was_aiming_for_this_timing"
                             ]
                         },
                         {
@@ -11744,7 +11744,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 5 無事でなによりだよ。　"
+                                "PushGab 5 Thank_goodness_you're_safe"
                             ]
                         },
                         {
@@ -11929,7 +11929,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 6 ボクに気づいてないみたい…　"
+                                "PushGab 6 It_seems_like_she_hasn't_noticed_me"
                             ]
                         },
                         {
@@ -12548,7 +12548,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 みんなを助けないとっ！！"
+                                "PushGab 4 I_have_to_help_everyone!!"
                             ]
                         },
                         {

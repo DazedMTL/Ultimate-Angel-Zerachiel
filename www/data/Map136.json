@@ -3595,7 +3595,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 世の中には色々な人がいるなぁ…　"
+                                "PushGab 4 There_are_all_kinds_of_people_in_this_world,_huh"
                             ]
                         },
                         {
@@ -3698,7 +3698,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "PushGab 4 話、聞こえていたんだね。ありがとっ！　"
+                                "PushGab 4 I_heard_the_conversation_Thank_you!"
                             ]
                         },
                         {
