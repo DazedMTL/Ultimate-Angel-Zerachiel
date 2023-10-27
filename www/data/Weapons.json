@@ -1,0 +1,8583 @@
+[
+    null,
+    {
+        "id": 1,
+        "animationId": 0,
+        "description": "\\I[352] \\c[6]大鎌\\c[0] これといった特徴のない大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 352,
+        "name": "デスサイズ",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            12,
+            0,
+            12,
+            0,
+            0,
+            0
+        ],
+        "price": 450,
+        "wtypeId": 1
+    },
+    {
+        "id": 2,
+        "animationId": 1,
+        "description": "\\I[353] \\c[6]大鎌\\c[0] 斬り裂いた者を死に至らしめる大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 353,
+        "name": "グリムリーパー",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            24,
+            0,
+            24,
+            0,
+            0,
+            0
+        ],
+        "price": 2440,
+        "wtypeId": 1
+    },
+    {
+        "id": 3,
+        "animationId": 1,
+        "description": "\\I[354] \\c[6]大鎌\\c[0] 匠が鍛え上げた戦鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 354,
+        "name": "ラーグルフ",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            38,
+            0,
+            38,
+            0,
+            0,
+            0
+        ],
+        "price": 3500,
+        "wtypeId": 1
+    },
+    {
+        "id": 4,
+        "animationId": 1,
+        "description": "\\I[355] \\c[6]大鎌\\c[0] 闇の力を宿した大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 355,
+        "name": "ハデス",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            52,
+            0,
+            52,
+            0,
+            0,
+            0
+        ],
+        "price": 4800,
+        "wtypeId": 1
+    },
+    {
+        "id": 5,
+        "animationId": 1,
+        "description": "\\I[356] \\c[6]大鎌\\c[0] 疫病を司る鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 356,
+        "name": "ニヴルヘム",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            70,
+            0,
+            70,
+            0,
+            0,
+            0
+        ],
+        "price": 7900,
+        "wtypeId": 1
+    },
+    {
+        "id": 6,
+        "animationId": 1,
+        "description": "\\I[357] \\c[6]大鎌\\c[0] アダマス鉱石で製造した最強の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 357,
+        "name": "アダマスの大鎌",
+        "note": "<itemCategory:\\I[755]武器>\n",
+        "params": [
+            0,
+            0,
+            95,
+            0,
+            95,
+            0,
+            0,
+            5
+        ],
+        "price": 15750,
+        "wtypeId": 1
+    },
+    {
+        "id": 7,
+        "animationId": 1,
+        "description": "\\I[358] \\c[6]大鎌\\c[0] 神より与えられた最高の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 358,
+        "name": "熾天使の大鎌",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            100,
+            0,
+            100,
+            0,
+            0,
+            10
+        ],
+        "price": 0,
+        "wtypeId": 1
+    },
+    {
+        "id": 8,
+        "animationId": 1,
+        "description": "\\I[359] \\c[6]大鎌\\c[0] サメの形をした鎌。たまに動き出す。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 359,
+        "name": "シャークサイズ",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            15,
+            0,
+            15,
+            0,
+            0,
+            10
+        ],
+        "price": 200,
+        "wtypeId": 1
+    },
+    {
+        "id": 9,
+        "animationId": 1,
+        "description": "\\I[360] \\c[6]大鎌\\c[0] 海の王者を模した鎌。強力な力を宿している。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 360,
+        "name": "メガロドン",
+        "note": "<itemCategory:\\I[755]武器>",
+        "params": [
+            0,
+            0,
+            85,
+            0,
+            15,
+            0,
+            10,
+            15
+        ],
+        "price": 10,
+        "wtypeId": 1
+    },
+    {
+        "id": 10,
+        "animationId": 1,
+        "description": "\\I[361] \\c[6]大鎌\\c[0] 竜巻を呼ぶサメの神獣が宿った大鎌。神々しい力を持つ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 361,
+        "name": "シャークネード",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w127*1>\n<mat2:w134*1>\n\n\n<skill_id:293> ",
+        "params": [
+            0,
+            0,
+            100,
+            0,
+            100,
+            0,
+            10,
+            20
+        ],
+        "price": 10,
+        "wtypeId": 1
+    },
+    {
+        "id": 11,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 12,
+        "animationId": 31,
+        "description": "\\I[946] \\c[6]液体\\c[0] ぷにぃ？　ぷにぷにぷにぷよ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 946,
+        "name": "ぷにぷにパンチ",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> ",
+        "params": [
+            0,
+            0,
+            54,
+            0,
+            54,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 3
+    },
+    {
+        "id": 13,
+        "animationId": 31,
+        "description": "\\I[946] \\c[6]液体\\c[0] 王の風格を放つ拳。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 946,
+        "name": "キングプルリンの拳",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> ",
+        "params": [
+            0,
+            0,
+            60,
+            0,
+            60,
+            0,
+            0,
+            10
+        ],
+        "price": 12300,
+        "wtypeId": 3
+    },
+    {
+        "id": 14,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 15,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 755,
+        "name": "基礎強化",
+        "note": "<Set Sts Data>\nskill: 331,343,349,361,379\nskill 2: 332,344,350,362,380\nskill 3: 333,345,351,363,381\nskill 4: 334,346,352,364,382\n</Set Sts Data>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 2
+    },
+    {
+        "id": 16,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 40,
+        "name": "元素強化",
+        "note": "<Set Sts Data>\nskill: 337,355,367,373\nskill 2: 338,356,368,374\nskill 3: 339,357,369,375\nskill 4: 340,358,370,376\n</Set Sts Data>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 2
+    },
+    {
+        "id": 17,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 18,
+        "animationId": 0,
+        "description": "\\I[273] \\c[6]大杖\\c[0] 女神の意匠が施された神聖な杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 273,
+        "name": "祝福の杖",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            60,
+            30,
+            0,
+            0
+        ],
+        "price": 750,
+        "wtypeId": 4
+    },
+    {
+        "id": 19,
+        "animationId": 0,
+        "description": "\\I[274] \\c[6]大杖\\c[0] 元素を含む水晶が埋め込まれた杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 274,
+        "name": "水晶の杖",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            75,
+            40,
+            0,
+            0
+        ],
+        "price": 4600,
+        "wtypeId": 4
+    },
+    {
+        "id": 20,
+        "animationId": 0,
+        "description": "\\I[275] \\c[6]大杖\\c[0] ミスリルで作られた高位の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 275,
+        "name": "霊銀の杖",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            90,
+            40,
+            0,
+            0
+        ],
+        "price": 16640,
+        "wtypeId": 4
+    },
+    {
+        "id": 21,
+        "animationId": 0,
+        "description": "\\I[276] \\c[6]大杖\\c[0] 占星術師が好む理の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 276,
+        "name": "星見の杖",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            140,
+            60,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 4
+    },
+    {
+        "id": 22,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 23,
+        "animationId": 0,
+        "description": "\\I[289] \\c[6]短剣\\c[0] 軽く、持ち運びやすいことから人気のある短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 289,
+        "name": "白銀の短剣",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "params": [
+            0,
+            0,
+            50,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "price": 101,
+        "wtypeId": 5
+    },
+    {
+        "id": 24,
+        "animationId": 0,
+        "description": "\\I[290] \\c[6]短剣\\c[0] 聖地を参詣したものに与えられた短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 290,
+        "name": "巡礼者の短剣",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "params": [
+            0,
+            0,
+            65,
+            0,
+            20,
+            0,
+            5,
+            0
+        ],
+        "price": 3900,
+        "wtypeId": 5
+    },
+    {
+        "id": 25,
+        "animationId": 0,
+        "description": "\\I[291] \\c[6]短剣\\c[0] 高濃度の元素を宿した特殊な短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 291,
+        "name": "魔性の短剣",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "params": [
+            0,
+            0,
+            80,
+            0,
+            40,
+            0,
+            10,
+            0
+        ],
+        "price": 15870,
+        "wtypeId": 5
+    },
+    {
+        "id": 26,
+        "animationId": 0,
+        "description": "\\I[296] \\c[6]短剣\\c[0] ドラゴンの牙を大胆に加工した短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 296,
+        "name": "竜牙の短剣",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "params": [
+            0,
+            0,
+            110,
+            0,
+            60,
+            0,
+            20,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 5
+    },
+    {
+        "id": 27,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 28,
+        "animationId": 0,
+        "description": "\\I[324] \\c[6]手甲\\c[0] 扱いやすいように加工された手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 324,
+        "name": "霊銀の手甲",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "params": [
+            0,
+            0,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 6
+    },
+    {
+        "id": 29,
+        "animationId": 0,
+        "description": "\\I[322] \\c[6]手甲\\c[0] 特殊な鎖を装着した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 322,
+        "name": "巡礼者の手甲",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "params": [
+            0,
+            0,
+            75,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 4000,
+        "wtypeId": 6
+    },
+    {
+        "id": 30,
+        "animationId": 0,
+        "description": "\\I[323] \\c[6]手甲\\c[0] 破壊力を追求した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 323,
+        "name": "魔性の手甲",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "params": [
+            0,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 16200,
+        "wtypeId": 6
+    },
+    {
+        "id": 31,
+        "animationId": 0,
+        "description": "\\I[326] \\c[6]手甲\\c[0] 闘神の加護を宿した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 326,
+        "name": "闘魂の手甲",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "params": [
+            0,
+            0,
+            120,
+            0,
+            0,
+            0,
+            5,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 6
+    },
+    {
+        "id": 32,
+        "animationId": 0,
+        "description": "\\I[341] 弓の達人が後世に残した伝説の弓。クリティカル率が高い。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 341,
+        "name": "巧弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "params": [
+            0,
+            0,
+            85,
+            0,
+            85,
+            0,
+            0,
+            10
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 33,
+        "animationId": 0,
+        "description": "\\I[1553] ミスリルで作られた高価な弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1553,
+        "name": "ミスリルの弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> ",
+        "params": [
+            0,
+            0,
+            45,
+            0,
+            45,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 7
+    },
+    {
+        "id": 34,
+        "animationId": 0,
+        "description": "\\I[338] ユニコーンの角を加工して製造した弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 338,
+        "name": "一角獣の弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "params": [
+            0,
+            0,
+            38,
+            0,
+            38,
+            0,
+            0,
+            0
+        ],
+        "price": 4400,
+        "wtypeId": 7
+    },
+    {
+        "id": 35,
+        "animationId": 0,
+        "description": "\\I[342] 星々の力が込められた聖弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 342,
+        "name": "願い星の弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "params": [
+            0,
+            0,
+            105,
+            0,
+            105,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 7
+    },
+    {
+        "id": 36,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 37,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 38,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 39,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 40,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "--- 改造 ---",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 41,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 42,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 43,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 44,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 45,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 46,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 47,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 48,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 49,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 50,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 51,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 52,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 53,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 54,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 55,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 56,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 57,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 58,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 59,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 60,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 61,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 62,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 63,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 64,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 65,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 66,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 67,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 68,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 69,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "<mat1:w17*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 70,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 71,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 72,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "■■ 武器合成 ■■",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 73,
+        "animationId": 1,
+        "description": "\\I[368] \\c[6]大鎌\\c[0] これといった特徴のない大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 368,
+        "name": "デスサイズ・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w1*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            20,
+            0,
+            20,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 74,
+        "animationId": 1,
+        "description": "\\I[368] \\c[6]大鎌\\c[0] これといった特徴のない大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 368,
+        "name": "デスサイズ・カスタム+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w73*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            24,
+            0,
+            24,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 75,
+        "animationId": 1,
+        "description": "\\I[368] \\c[6]大鎌\\c[0] これといった特徴のない大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 368,
+        "name": "デスサイズ・カスタム+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w74*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            28,
+            0,
+            28,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 76,
+        "animationId": 1,
+        "description": "\\I[368] \\c[6]大鎌\\c[0] これといった特徴のない大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 368,
+        "name": "デスサイズ・カスタム+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w75*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            32,
+            0,
+            30,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 77,
+        "animationId": 1,
+        "description": "\\I[368] \\c[6]大鎌\\c[0] これといった特徴のない大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 368,
+        "name": "デスサイズ・カスタム+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w76*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            40,
+            0,
+            40,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 78,
+        "animationId": 0,
+        "description": "\\I[368] \\c[6]大鎌\\c[0] これといった特徴のない大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 368,
+        "name": "デスサイズ・カスタム+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w77*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            60,
+            0,
+            60,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 79,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 80,
+        "animationId": 1,
+        "description": "\\I[369] \\c[6]大鎌\\c[0] 斬り裂いた者を死に至らしめる大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 369,
+        "name": "グリム・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w2*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            33,
+            0,
+            33,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 81,
+        "animationId": 1,
+        "description": "\\I[369] \\c[6]大鎌\\c[0] 斬り裂いた者を死に至らしめる大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 369,
+        "name": "グリム・カスタム+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w80*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            38,
+            0,
+            38,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 82,
+        "animationId": 1,
+        "description": "\\I[369] \\c[6]大鎌\\c[0] 斬り裂いた者を死に至らしめる大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 369,
+        "name": "グリム・カスタム+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w81*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            42,
+            0,
+            42,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 83,
+        "animationId": 1,
+        "description": "\\I[369] \\c[6]大鎌\\c[0] 斬り裂いた者を死に至らしめる大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 369,
+        "name": "グリム・カスタム+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w82*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            50,
+            0,
+            50,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 84,
+        "animationId": 1,
+        "description": "\\I[369] \\c[6]大鎌\\c[0] 斬り裂いた者を死に至らしめる大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 369,
+        "name": "グリム・カスタム+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w83*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            60,
+            0,
+            60,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 85,
+        "animationId": 1,
+        "description": "\\I[369] \\c[6]大鎌\\c[0] 斬り裂いた者を死に至らしめる大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 369,
+        "name": "グリム・カスタム+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w84*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            74,
+            0,
+            74,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 86,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 87,
+        "animationId": 1,
+        "description": "\\I[370] \\c[6]大鎌\\c[0] 匠が鍛え上げた戦鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 370,
+        "name": "ラーグルフ・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w3*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            52,
+            0,
+            52,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 88,
+        "animationId": 1,
+        "description": "\\I[370] \\c[6]大鎌\\c[0] 匠が鍛え上げた戦鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 370,
+        "name": "ラーグルフ・カスタム+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w87*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            60,
+            0,
+            60,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 89,
+        "animationId": 1,
+        "description": "\\I[370] \\c[6]大鎌\\c[0] 匠が鍛え上げた戦鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 370,
+        "name": "ラーグルフ・カスタム+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w88*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            68,
+            0,
+            68,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 90,
+        "animationId": 1,
+        "description": "\\I[370] \\c[6]大鎌\\c[0] 匠が鍛え上げた戦鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 370,
+        "name": "ラーグルフ・カスタム+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w89*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            76,
+            0,
+            76,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 91,
+        "animationId": 1,
+        "description": "\\I[370] \\c[6]大鎌\\c[0] 匠が鍛え上げた戦鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 370,
+        "name": "ラーグルフ・カスタム+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w90*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            84,
+            0,
+            84,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 92,
+        "animationId": 1,
+        "description": "\\I[370] \\c[6]大鎌\\c[0] 匠が鍛え上げた戦鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 370,
+        "name": "ラーグルフ・カスタム+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w91*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            100,
+            0,
+            100,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 93,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 94,
+        "animationId": 1,
+        "description": "\\I[371] \\c[6]大鎌\\c[0] 闇の力を宿した大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 371,
+        "name": "ハデス・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w4*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            62,
+            0,
+            62,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 95,
+        "animationId": 1,
+        "description": "\\I[371] \\c[6]大鎌\\c[0] 闇の力を宿した大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 371,
+        "name": "ハデス・カスタム+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w94*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            66,
+            0,
+            66,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 96,
+        "animationId": 1,
+        "description": "\\I[371] \\c[6]大鎌\\c[0] 闇の力を宿した大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 371,
+        "name": "ハデス・カスタム+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w95*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            70,
+            0,
+            70,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 97,
+        "animationId": 1,
+        "description": "\\I[371] \\c[6]大鎌\\c[0] 闇の力を宿した大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 371,
+        "name": "ハデス・カスタム+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w96*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            74,
+            0,
+            74,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 98,
+        "animationId": 1,
+        "description": "\\I[371] \\c[6]大鎌\\c[0] 闇の力を宿した大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 371,
+        "name": "ハデス・カスタム+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w97*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            78,
+            0,
+            78,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 99,
+        "animationId": 1,
+        "description": "\\I[371] \\c[6]大鎌\\c[0] 闇の力を宿した大鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 371,
+        "name": "ハデス・カスタム+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w98*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            112,
+            0,
+            112,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 1
+    },
+    {
+        "id": 100,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 101,
+        "animationId": 1,
+        "description": "\\I[356] \\c[6]大鎌\\c[0] 疫病を司る鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 372,
+        "name": "ニヴルヘム・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w5*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            84,
+            0,
+            84,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 102,
+        "animationId": 1,
+        "description": "\\I[356] \\c[6]大鎌\\c[0] 疫病を司る鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 372,
+        "name": "ニヴルヘム・カスタム+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w101*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            88,
+            0,
+            88,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 103,
+        "animationId": 1,
+        "description": "\\I[356] \\c[6]大鎌\\c[0] 疫病を司る鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 372,
+        "name": "ニヴルヘム・カスタム+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w102*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            92,
+            0,
+            92,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 104,
+        "animationId": 1,
+        "description": "\\I[356] \\c[6]大鎌\\c[0] 疫病を司る鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 372,
+        "name": "ニヴルヘム・カスタム+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w103*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            96,
+            0,
+            96,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 105,
+        "animationId": 1,
+        "description": "\\I[356] \\c[6]大鎌\\c[0] 疫病を司る鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 372,
+        "name": "ニヴルヘム・カスタム+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w104*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            100,
+            0,
+            100,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 106,
+        "animationId": 1,
+        "description": "\\I[356] \\c[6]大鎌\\c[0] 疫病を司る鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 372,
+        "name": "ニヴルヘム・カスタム+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w105*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            126,
+            0,
+            126,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 107,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 108,
+        "animationId": 1,
+        "description": "\\I[357] \\c[6]大鎌\\c[0] アダマス鉱石で製造した最強の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 373,
+        "name": "アダマス・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w6*1>\n<mat2:I37*1>\n",
+        "params": [
+            0,
+            0,
+            104,
+            0,
+            104,
+            0,
+            0,
+            8
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 109,
+        "animationId": 1,
+        "description": "\\I[357] \\c[6]大鎌\\c[0] アダマス鉱石で製造した最強の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 373,
+        "name": "アダマス・カスタム+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w108*1>\n<mat2:I42*1>\n",
+        "params": [
+            0,
+            0,
+            110,
+            0,
+            110,
+            0,
+            0,
+            10
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 110,
+        "animationId": 1,
+        "description": "\\I[357] \\c[6]大鎌\\c[0] アダマス鉱石で製造した最強の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 373,
+        "name": "アダマス・カスタム+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w109*1>\n<mat2:I41*1>\n",
+        "params": [
+            0,
+            0,
+            116,
+            0,
+            116,
+            0,
+            0,
+            12
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 111,
+        "animationId": 1,
+        "description": "\\I[357] \\c[6]大鎌\\c[0] アダマス鉱石で製造した最強の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 373,
+        "name": "アダマス・カスタム+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w110*1>\n<mat2:I40*1>\n",
+        "params": [
+            0,
+            0,
+            122,
+            0,
+            122,
+            0,
+            0,
+            14
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 112,
+        "animationId": 1,
+        "description": "\\I[357] \\c[6]大鎌\\c[0] アダマス鉱石で製造した最強の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 373,
+        "name": "アダマス・カスタム+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w111*1>\n<mat2:I39*1>\n",
+        "params": [
+            0,
+            0,
+            132,
+            0,
+            132,
+            0,
+            0,
+            16
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 113,
+        "animationId": 1,
+        "description": "\\I[357] \\c[6]大鎌\\c[0] アダマス鉱石で製造した最強の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 373,
+        "name": "アダマス・カスタム+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w112*1>\n<mat2:I38*1>\n",
+        "params": [
+            0,
+            0,
+            150,
+            0,
+            150,
+            0,
+            0,
+            20
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 114,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 115,
+        "animationId": 1,
+        "description": "\\I[358] \\c[6]大鎌\\c[0] 神に抗う者が手にする堕天使の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 374,
+        "name": "★アズライール",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w7*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            128,
+            0,
+            128,
+            0,
+            10,
+            20
+        ],
+        "price": 10000,
+        "wtypeId": 1
+    },
+    {
+        "id": 116,
+        "animationId": 1,
+        "description": "\\I[358] \\c[6]大鎌\\c[0] 神に抗う者が手にする堕天使の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 374,
+        "name": "★アズライール+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w115*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            142,
+            0,
+            142,
+            0,
+            12,
+            22
+        ],
+        "price": 10000,
+        "wtypeId": 1
+    },
+    {
+        "id": 117,
+        "animationId": 1,
+        "description": "\\I[358] \\c[6]大鎌\\c[0] 神に抗う者が手にする堕天使の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 374,
+        "name": "★アズライール+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w116*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            156,
+            0,
+            156,
+            0,
+            14,
+            24
+        ],
+        "price": 10000,
+        "wtypeId": 1
+    },
+    {
+        "id": 118,
+        "animationId": 1,
+        "description": "\\I[358] \\c[6]大鎌\\c[0] 神に抗う者が手にする堕天使の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 374,
+        "name": "★アズライール+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w117*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            172,
+            0,
+            172,
+            0,
+            16,
+            26
+        ],
+        "price": 10000,
+        "wtypeId": 1
+    },
+    {
+        "id": 119,
+        "animationId": 1,
+        "description": "\\I[358] \\c[6]大鎌\\c[0] 神に抗う者が手にする堕天使の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 374,
+        "name": "★アズライール+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w118*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            196,
+            0,
+            196,
+            0,
+            18,
+            28
+        ],
+        "price": 10000,
+        "wtypeId": 1
+    },
+    {
+        "id": 120,
+        "animationId": 1,
+        "description": "\\I[358] \\c[6]大鎌\\c[0] 神に抗う者が手にする堕天使の鎌。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 374,
+        "name": "★アズライール+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w119*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            255,
+            0,
+            255,
+            0,
+            30,
+            30
+        ],
+        "price": 10000,
+        "wtypeId": 1
+    },
+    {
+        "id": 121,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 122,
+        "animationId": 1,
+        "description": "\\I[359] \\c[6]大鎌\\c[0] サメの形をした鎌。たまに動き出す。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 375,
+        "name": "シャーク・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w8*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            22,
+            0,
+            22,
+            0,
+            0,
+            10
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 123,
+        "animationId": 1,
+        "description": "\\I[359] \\c[6]大鎌\\c[0] サメの形をした鎌。たまに動き出す。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 375,
+        "name": "シャーク・カスタム+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w122*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            26,
+            0,
+            26,
+            0,
+            0,
+            12
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 124,
+        "animationId": 1,
+        "description": "\\I[359] \\c[6]大鎌\\c[0] サメの形をした鎌。たまに動き出す。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 375,
+        "name": "シャーク・カスタム+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w123*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            30,
+            0,
+            30,
+            0,
+            0,
+            14
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 125,
+        "animationId": 1,
+        "description": "\\I[359] \\c[6]大鎌\\c[0] サメの形をした鎌。たまに動き出す。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 375,
+        "name": "シャーク・カスタム+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w124*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            38,
+            0,
+            38,
+            0,
+            0,
+            16
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 126,
+        "animationId": 1,
+        "description": "\\I[359] \\c[6]大鎌\\c[0] サメの形をした鎌。たまに動き出す。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 375,
+        "name": "シャーク・カスタム+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w125*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            46,
+            0,
+            46,
+            0,
+            0,
+            18
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 127,
+        "animationId": 1,
+        "description": "\\I[359] \\c[6]大鎌\\c[0] サメの形をした鎌。たまに動き出す。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 375,
+        "name": "シャーク・カスタム+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w126*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            66,
+            0,
+            66,
+            0,
+            5,
+            20
+        ],
+        "price": 1000,
+        "wtypeId": 1
+    },
+    {
+        "id": 128,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 129,
+        "animationId": 1,
+        "description": "\\I[360] \\c[6]大鎌\\c[0] 海の王者を模した鎌。強力な力を宿している。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 376,
+        "name": "メガロドン",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w8*10>\n<mat2:I29*5>",
+        "params": [
+            0,
+            0,
+            68,
+            0,
+            68,
+            0,
+            10,
+            15
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 130,
+        "animationId": 1,
+        "description": "\\I[360] \\c[6]大鎌\\c[0] 海の王者を模した鎌。強力な力を宿している。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 376,
+        "name": "メガロドン+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w129*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            76,
+            0,
+            76,
+            0,
+            10,
+            15
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 131,
+        "animationId": 1,
+        "description": "\\I[360] \\c[6]大鎌\\c[0] 海の王者を模した鎌。強力な力を宿している。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 376,
+        "name": "メガロドン+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w130*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            84,
+            0,
+            84,
+            0,
+            10,
+            15
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 132,
+        "animationId": 1,
+        "description": "\\I[360] \\c[6]大鎌\\c[0] 海の王者を模した鎌。強力な力を宿している。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 376,
+        "name": "メガロドン+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w131*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            92,
+            0,
+            92,
+            0,
+            10,
+            15
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 133,
+        "animationId": 1,
+        "description": "\\I[360] \\c[6]大鎌\\c[0] 海の王者を模した鎌。強力な力を宿している。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 376,
+        "name": "メガロドン+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w132*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            100,
+            0,
+            100,
+            0,
+            10,
+            15
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 134,
+        "animationId": 1,
+        "description": "\\I[360] \\c[6]大鎌\\c[0] 海の王者を模した鎌。強力な力を宿している。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 376,
+        "name": "メガロドン+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w133*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            115,
+            0,
+            115,
+            0,
+            10,
+            20
+        ],
+        "price": 3000,
+        "wtypeId": 1
+    },
+    {
+        "id": 135,
+        "animationId": 1,
+        "description": "\\I[377] \\c[6]大鎌\\c[0] 救済をもたらす大鎌。敵全体を攻撃する。引継ぎ可能。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 377,
+        "name": "★アサイラム・カスタム",
+        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w10*1>\n<mat2:i29*15>\n\n<skill_id:294> ",
+        "params": [
+            0,
+            0,
+            245,
+            0,
+            245,
+            0,
+            30,
+            30
+        ],
+        "price": 10,
+        "wtypeId": 1
+    },
+    {
+        "id": 136,
+        "animationId": 0,
+        "description": "\\I[1489] \\c[6]大杖\\c[0] 女神の意匠が施された神聖な杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1489,
+        "name": "幸甚の杖",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w18*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            74,
+            40,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 4
+    },
+    {
+        "id": 137,
+        "animationId": 0,
+        "description": "\\I[1489] \\c[6]大杖\\c[0] 女神の意匠が施された神聖な杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1489,
+        "name": "幸甚の杖+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w136*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            80,
+            40,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 4
+    },
+    {
+        "id": 138,
+        "animationId": 0,
+        "description": "\\I[1489] \\c[6]大杖\\c[0] 女神の意匠が施された神聖な杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1489,
+        "name": "幸甚の杖+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w137*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            88,
+            40,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 4
+    },
+    {
+        "id": 139,
+        "animationId": 0,
+        "description": "\\I[1489] \\c[6]大杖\\c[0] 女神の意匠が施された神聖な杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1489,
+        "name": "幸甚の杖+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w138*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            94,
+            40,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 4
+    },
+    {
+        "id": 140,
+        "animationId": 0,
+        "description": "\\I[1489] \\c[6]大杖\\c[0] 女神の意匠が施された神聖な杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1489,
+        "name": "幸甚の杖+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w139*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            100,
+            40,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 4
+    },
+    {
+        "id": 141,
+        "animationId": 0,
+        "description": "\\I[1489] \\c[6]大杖\\c[0] 女神の意匠が施された神聖な杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1489,
+        "name": "幸甚の杖+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w140*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            112,
+            40,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 4
+    },
+    {
+        "id": 142,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 143,
+        "animationId": 0,
+        "description": "\\I[1490] \\c[6]大杖\\c[0] 元素を含む水晶が埋め込まれた杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1490,
+        "name": "クリスタルロッド",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w19*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            96,
+            50,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 4
+    },
+    {
+        "id": 144,
+        "animationId": 0,
+        "description": "\\I[1490] \\c[6]大杖\\c[0] 元素を含む水晶が埋め込まれた杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1490,
+        "name": "クリスタルロッド+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w143*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            100,
+            50,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 4
+    },
+    {
+        "id": 145,
+        "animationId": 0,
+        "description": "\\I[1490] \\c[6]大杖\\c[0] 元素を含む水晶が埋め込まれた杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1490,
+        "name": "クリスタルロッド+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w144*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            104,
+            50,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 4
+    },
+    {
+        "id": 146,
+        "animationId": 0,
+        "description": "\\I[1490] \\c[6]大杖\\c[0] 元素を含む水晶が埋め込まれた杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1490,
+        "name": "クリスタルロッド+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w145*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            108,
+            50,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 4
+    },
+    {
+        "id": 147,
+        "animationId": 0,
+        "description": "\\I[1490] \\c[6]大杖\\c[0] 元素を含む水晶が埋め込まれた杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1490,
+        "name": "クリスタルロッド+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w146*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            112,
+            50,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 4
+    },
+    {
+        "id": 148,
+        "animationId": 0,
+        "description": "\\I[1490] \\c[6]大杖\\c[0] 元素を含む水晶が埋め込まれた杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1490,
+        "name": "クリスタルロッド+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w147*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            126,
+            50,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 4
+    },
+    {
+        "id": 149,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 150,
+        "animationId": 0,
+        "description": "\\I[1491] \\c[6]大杖\\c[0] ミスリルで作られた高位の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1491,
+        "name": "ホーリーワンド",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w20*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            100,
+            60,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 4
+    },
+    {
+        "id": 151,
+        "animationId": 0,
+        "description": "\\I[1491] \\c[6]大杖\\c[0] ミスリルで作られた高位の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1491,
+        "name": "ホーリーワンド+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w150*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            110,
+            60,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 4
+    },
+    {
+        "id": 152,
+        "animationId": 0,
+        "description": "\\I[1491] \\c[6]大杖\\c[0] ミスリルで作られた高位の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1491,
+        "name": "ホーリーワンド+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w151*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            118,
+            60,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 4
+    },
+    {
+        "id": 153,
+        "animationId": 0,
+        "description": "\\I[1491] \\c[6]大杖\\c[0] ミスリルで作られた高位の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1491,
+        "name": "ホーリーワンド+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w152*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            126,
+            60,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 4
+    },
+    {
+        "id": 154,
+        "animationId": 0,
+        "description": "\\I[1491] \\c[6]大杖\\c[0] ミスリルで作られた高位の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1491,
+        "name": "ホーリーワンド+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w153*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            136,
+            60,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 4
+    },
+    {
+        "id": 155,
+        "animationId": 0,
+        "description": "\\I[1491] \\c[6]大杖\\c[0] ミスリルで作られた高位の杖。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1491,
+        "name": "ホーリーワンド+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w154*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            160,
+            60,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 4
+    },
+    {
+        "id": 156,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 157,
+        "animationId": 0,
+        "description": "\\I[1492] \\c[6]大杖\\c[0] 魔を極めし大賢者が愛用した杖のレプリカ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1492,
+        "name": "★アークアルカナ",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w21*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            150,
+            100,
+            5,
+            5
+        ],
+        "price": 10000,
+        "wtypeId": 4
+    },
+    {
+        "id": 158,
+        "animationId": 0,
+        "description": "\\I[1492] \\c[6]大杖\\c[0] 魔を極めし大賢者が愛用した杖のレプリカ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1492,
+        "name": "★アークアルカナ+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w157*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            160,
+            100,
+            7,
+            7
+        ],
+        "price": 10000,
+        "wtypeId": 4
+    },
+    {
+        "id": 159,
+        "animationId": 0,
+        "description": "\\I[1492] \\c[6]大杖\\c[0] 魔を極めし大賢者が愛用した杖のレプリカ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1492,
+        "name": "★アークアルカナ+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w158*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            188,
+            100,
+            10,
+            10
+        ],
+        "price": 10000,
+        "wtypeId": 4
+    },
+    {
+        "id": 160,
+        "animationId": 0,
+        "description": "\\I[1492] \\c[6]大杖\\c[0] 魔を極めし大賢者が愛用した杖のレプリカ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1492,
+        "name": "★アークアルカナ+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w159*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            202,
+            100,
+            13,
+            13
+        ],
+        "price": 10000,
+        "wtypeId": 4
+    },
+    {
+        "id": 161,
+        "animationId": 0,
+        "description": "\\I[1492] \\c[6]大杖\\c[0] 魔を極めし大賢者が愛用した杖のレプリカ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1492,
+        "name": "★アークアルカナ+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w160*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            216,
+            100,
+            16,
+            16
+        ],
+        "price": 10000,
+        "wtypeId": 4
+    },
+    {
+        "id": 162,
+        "animationId": 0,
+        "description": "\\I[1492] \\c[6]大杖\\c[0] 魔を極めし大賢者が愛用した杖のレプリカ。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1492,
+        "name": "★アークアルカナ+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w161*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            240,
+            100,
+            20,
+            20
+        ],
+        "price": 10000,
+        "wtypeId": 4
+    },
+    {
+        "id": 163,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 164,
+        "animationId": 0,
+        "description": "\\I[1505] \\c[6]短剣\\c[0] 軽く、持ち運びやすいことから人気のある短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1505,
+        "name": "サバイバルエッジ",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w23*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            62,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 5
+    },
+    {
+        "id": 165,
+        "animationId": 0,
+        "description": "\\I[1505] \\c[6]短剣\\c[0] 軽く、持ち運びやすいことから人気のある短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1505,
+        "name": "サバイバルエッジ+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w164*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            70,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 5
+    },
+    {
+        "id": 166,
+        "animationId": 0,
+        "description": "\\I[1505] \\c[6]短剣\\c[0] 軽く、持ち運びやすいことから人気のある短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1505,
+        "name": "サバイバルエッジ+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w165*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            78,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 5
+    },
+    {
+        "id": 167,
+        "animationId": 0,
+        "description": "\\I[1505] \\c[6]短剣\\c[0] 軽く、持ち運びやすいことから人気のある短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1505,
+        "name": "サバイバルエッジ+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w166*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            86,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 5
+    },
+    {
+        "id": 168,
+        "animationId": 0,
+        "description": "\\I[1505] \\c[6]短剣\\c[0] 軽く、持ち運びやすいことから人気のある短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1505,
+        "name": "サバイバルエッジ+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w167*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            94,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 5
+    },
+    {
+        "id": 169,
+        "animationId": 0,
+        "description": "\\I[1505] \\c[6]短剣\\c[0] 軽く、持ち運びやすいことから人気のある短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1505,
+        "name": "サバイバルエッジ+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w168*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            102,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 5
+    },
+    {
+        "id": 170,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 171,
+        "animationId": 0,
+        "description": "\\I[1506] \\c[6]短剣\\c[0] 聖地を参詣したものに与えられた短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1506,
+        "name": "マインゴーシュ",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w24*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            78,
+            0,
+            20,
+            0,
+            8,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 5
+    },
+    {
+        "id": 172,
+        "animationId": 0,
+        "description": "\\I[1506] \\c[6]短剣\\c[0] 聖地を参詣したものに与えられた短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1506,
+        "name": "マインゴーシュ+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w171*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            90,
+            0,
+            20,
+            0,
+            8,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 5
+    },
+    {
+        "id": 173,
+        "animationId": 0,
+        "description": "\\I[1506] \\c[6]短剣\\c[0] 聖地を参詣したものに与えられた短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1506,
+        "name": "マインゴーシュ+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w172*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            102,
+            0,
+            20,
+            0,
+            8,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 5
+    },
+    {
+        "id": 174,
+        "animationId": 0,
+        "description": "\\I[1506] \\c[6]短剣\\c[0] 聖地を参詣したものに与えられた短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1506,
+        "name": "マインゴーシュ+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w173*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            110,
+            0,
+            20,
+            0,
+            8,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 5
+    },
+    {
+        "id": 175,
+        "animationId": 0,
+        "description": "\\I[1506] \\c[6]短剣\\c[0] 聖地を参詣したものに与えられた短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1506,
+        "name": "マインゴーシュ+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w174*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            118,
+            0,
+            20,
+            0,
+            8,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 5
+    },
+    {
+        "id": 176,
+        "animationId": 0,
+        "description": "\\I[1506] \\c[6]短剣\\c[0] 聖地を参詣したものに与えられた短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1506,
+        "name": "マインゴーシュ+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w175*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            128,
+            0,
+            20,
+            0,
+            16,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 5
+    },
+    {
+        "id": 177,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 178,
+        "animationId": 0,
+        "description": "\\I[1507] \\c[6]短剣\\c[0] 高濃度の元素を宿した特殊な短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1507,
+        "name": "スウィートキッス",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w25*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            102,
+            0,
+            50,
+            0,
+            15,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 5
+    },
+    {
+        "id": 179,
+        "animationId": 0,
+        "description": "\\I[1507] \\c[6]短剣\\c[0] 高濃度の元素を宿した特殊な短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1507,
+        "name": "スウィートキッス+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w178*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            112,
+            0,
+            50,
+            0,
+            15,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 5
+    },
+    {
+        "id": 180,
+        "animationId": 0,
+        "description": "\\I[1507] \\c[6]短剣\\c[0] 高濃度の元素を宿した特殊な短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1507,
+        "name": "スウィートキッス+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w179*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            124,
+            0,
+            50,
+            0,
+            15,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 5
+    },
+    {
+        "id": 181,
+        "animationId": 0,
+        "description": "\\I[1507] \\c[6]短剣\\c[0] 高濃度の元素を宿した特殊な短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1507,
+        "name": "スウィートキッス+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w180*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            136,
+            0,
+            50,
+            0,
+            15,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 5
+    },
+    {
+        "id": 182,
+        "animationId": 0,
+        "description": "\\I[1507] \\c[6]短剣\\c[0] 高濃度の元素を宿した特殊な短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1507,
+        "name": "スウィートキッス+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w181*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            148,
+            0,
+            50,
+            0,
+            15,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 5
+    },
+    {
+        "id": 183,
+        "animationId": 0,
+        "description": "\\I[1507] \\c[6]短剣\\c[0] 高濃度の元素を宿した特殊な短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1507,
+        "name": "スウィートキッス+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w182*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            160,
+            0,
+            50,
+            0,
+            15,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 5
+    },
+    {
+        "id": 184,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 185,
+        "animationId": 0,
+        "description": "\\I[1512] \\c[6]短剣\\c[0] ドラゴンの祝福を授かった短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1512,
+        "name": "★ブレスオブトゥース",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w26*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            140,
+            0,
+            70,
+            0,
+            30,
+            5
+        ],
+        "price": 10000,
+        "wtypeId": 5
+    },
+    {
+        "id": 186,
+        "animationId": 0,
+        "description": "\\I[1512] \\c[6]短剣\\c[0] ドラゴンの祝福を授かった短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1512,
+        "name": "★ブレスオブトゥース+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w185*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            154,
+            0,
+            75,
+            0,
+            30,
+            7
+        ],
+        "price": 10000,
+        "wtypeId": 5
+    },
+    {
+        "id": 187,
+        "animationId": 0,
+        "description": "\\I[1512] \\c[6]短剣\\c[0] ドラゴンの祝福を授かった短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1512,
+        "name": "★ブレスオブトゥース+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w186*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            164,
+            0,
+            80,
+            0,
+            30,
+            10
+        ],
+        "price": 10000,
+        "wtypeId": 5
+    },
+    {
+        "id": 188,
+        "animationId": 0,
+        "description": "\\I[1512] \\c[6]短剣\\c[0] ドラゴンの祝福を授かった短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1512,
+        "name": "★ブレスオブトゥース+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w187*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            178,
+            0,
+            85,
+            0,
+            30,
+            13
+        ],
+        "price": 10000,
+        "wtypeId": 5
+    },
+    {
+        "id": 189,
+        "animationId": 0,
+        "description": "\\I[1512] \\c[6]短剣\\c[0] ドラゴンの祝福を授かった短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1512,
+        "name": "★ブレスオブトゥース+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w188*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            192,
+            0,
+            90,
+            0,
+            30,
+            16
+        ],
+        "price": 10000,
+        "wtypeId": 5
+    },
+    {
+        "id": 190,
+        "animationId": 0,
+        "description": "\\I[1512] \\c[6]短剣\\c[0] ドラゴンの祝福を授かった短剣。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1512,
+        "name": "★ブレスオブトゥース+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w189*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            220,
+            0,
+            100,
+            0,
+            45,
+            20
+        ],
+        "price": 10000,
+        "wtypeId": 5
+    },
+    {
+        "id": 191,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 192,
+        "animationId": 0,
+        "description": "\\I[1540] \\c[6]手甲\\c[0] 扱いやすいように加工された手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1540,
+        "name": "セイクリッド",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w28*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            72,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 6
+    },
+    {
+        "id": 193,
+        "animationId": 0,
+        "description": "\\I[1540] \\c[6]手甲\\c[0] 扱いやすいように加工された手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1540,
+        "name": "セイクリッド+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w192*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 6
+    },
+    {
+        "id": 194,
+        "animationId": 0,
+        "description": "\\I[1540] \\c[6]手甲\\c[0] 扱いやすいように加工された手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1540,
+        "name": "セイクリッド+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w193*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            88,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 6
+    },
+    {
+        "id": 195,
+        "animationId": 0,
+        "description": "\\I[1540] \\c[6]手甲\\c[0] 扱いやすいように加工された手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1540,
+        "name": "セイクリッド+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w194*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            96,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 6
+    },
+    {
+        "id": 196,
+        "animationId": 0,
+        "description": "\\I[1540] \\c[6]手甲\\c[0] 扱いやすいように加工された手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1540,
+        "name": "セイクリッド+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w195*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            104,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 6
+    },
+    {
+        "id": 197,
+        "animationId": 0,
+        "description": "\\I[1540] \\c[6]手甲\\c[0] 扱いやすいように加工された手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1540,
+        "name": "セイクリッド+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w196*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            120,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 6
+    },
+    {
+        "id": 198,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 199,
+        "animationId": 0,
+        "description": "\\I[1538] \\c[6]手甲\\c[0] 特殊な鎖を装着した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1538,
+        "name": "ホーリーグローブ",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w29*1>\n<mat2:I37*1>\n",
+        "params": [
+            0,
+            0,
+            96,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 6
+    },
+    {
+        "id": 200,
+        "animationId": 0,
+        "description": "\\I[1538] \\c[6]手甲\\c[0] 特殊な鎖を装着した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1538,
+        "name": "ホーリーグローブ+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w199*1>\n<mat2:I42*1>\n",
+        "params": [
+            0,
+            0,
+            104,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 6
+    },
+    {
+        "id": 201,
+        "animationId": 0,
+        "description": "\\I[1538] \\c[6]手甲\\c[0] 特殊な鎖を装着した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1538,
+        "name": "ホーリーグローブ+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w200*1>\n<mat2:I41*1>\n",
+        "params": [
+            0,
+            0,
+            112,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 6
+    },
+    {
+        "id": 202,
+        "animationId": 0,
+        "description": "\\I[1538] \\c[6]手甲\\c[0] 特殊な鎖を装着した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1538,
+        "name": "ホーリーグローブ+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w201*1>\n<mat2:I40*1>\n",
+        "params": [
+            0,
+            0,
+            120,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 6
+    },
+    {
+        "id": 203,
+        "animationId": 0,
+        "description": "\\I[1538] \\c[6]手甲\\c[0] 特殊な鎖を装着した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1538,
+        "name": "ホーリーグローブ+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w202*1>\n<mat2:I40*1>\n",
+        "params": [
+            0,
+            0,
+            128,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 6
+    },
+    {
+        "id": 204,
+        "animationId": 0,
+        "description": "\\I[1538] \\c[6]手甲\\c[0] 特殊な鎖を装着した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1538,
+        "name": "ホーリーグローブ+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w203*1>\n<mat2:I39*1>\n",
+        "params": [
+            0,
+            0,
+            140,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 6
+    },
+    {
+        "id": 205,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 206,
+        "animationId": 0,
+        "description": "\\I[1547] \\c[6]手甲\\c[0] 破壊力を追求した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1547,
+        "name": "ゴッドハンド",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w30*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            120,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 6
+    },
+    {
+        "id": 207,
+        "animationId": 0,
+        "description": "\\I[1547] \\c[6]手甲\\c[0] 破壊力を追求した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1547,
+        "name": "ゴッドハンド+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w206*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            128,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 6
+    },
+    {
+        "id": 208,
+        "animationId": 0,
+        "description": "\\I[1547] \\c[6]手甲\\c[0] 破壊力を追求した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1547,
+        "name": "ゴッドハンド+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w207*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            138,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 6
+    },
+    {
+        "id": 209,
+        "animationId": 0,
+        "description": "\\I[1547] \\c[6]手甲\\c[0] 破壊力を追求した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1547,
+        "name": "ゴッドハンド+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w208*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            146,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 6
+    },
+    {
+        "id": 210,
+        "animationId": 0,
+        "description": "\\I[1547] \\c[6]手甲\\c[0] 破壊力を追求した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1547,
+        "name": "ゴッドハンド+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w209*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            154,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 6
+    },
+    {
+        "id": 211,
+        "animationId": 0,
+        "description": "\\I[1547] \\c[6]手甲\\c[0] 破壊力を追求した手甲。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1547,
+        "name": "ゴッドハンド+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w210*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            170,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000,
+        "wtypeId": 6
+    },
+    {
+        "id": 212,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 213,
+        "animationId": 0,
+        "description": "\\I[682] \\c[6]手甲\\c[0] 鍛えた拳は何よりも硬いのじゃ！",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 682,
+        "name": "★ラヴィホープ",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w31*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            146,
+            0,
+            0,
+            0,
+            5,
+            5
+        ],
+        "price": 10000,
+        "wtypeId": 6
+    },
+    {
+        "id": 214,
+        "animationId": 0,
+        "description": "\\I[682] \\c[6]手甲\\c[0] 鍛えた拳は何よりも硬いのじゃ！",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 682,
+        "name": "★ラヴィホープ+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w213*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            160,
+            0,
+            0,
+            0,
+            6,
+            6
+        ],
+        "price": 10000,
+        "wtypeId": 6
+    },
+    {
+        "id": 215,
+        "animationId": 0,
+        "description": "\\I[682] \\c[6]手甲\\c[0] 鍛えた拳は何よりも硬いのじゃ！",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 682,
+        "name": "★ラヴィホープ+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w214*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            176,
+            0,
+            0,
+            0,
+            7,
+            7
+        ],
+        "price": 10000,
+        "wtypeId": 6
+    },
+    {
+        "id": 216,
+        "animationId": 0,
+        "description": "\\I[682] \\c[6]手甲\\c[0] 鍛えた拳は何よりも硬いのじゃ！",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 682,
+        "name": "★ラヴィホープ+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w215*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            192,
+            0,
+            0,
+            0,
+            8,
+            8
+        ],
+        "price": 10000,
+        "wtypeId": 6
+    },
+    {
+        "id": 217,
+        "animationId": 0,
+        "description": "\\I[682] \\c[6]手甲\\c[0] 鍛えた拳は何よりも硬いのじゃ！",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 682,
+        "name": "★ラヴィホープ+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w216*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            210,
+            0,
+            0,
+            0,
+            9,
+            9
+        ],
+        "price": 10000,
+        "wtypeId": 6
+    },
+    {
+        "id": 218,
+        "animationId": 0,
+        "description": "\\I[682] \\c[6]手甲\\c[0] 鍛えた拳は何よりも硬いのじゃ！",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 682,
+        "name": "★ラヴィホープ+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w217*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            240,
+            0,
+            0,
+            0,
+            15,
+            15
+        ],
+        "price": 10000,
+        "wtypeId": 6
+    },
+    {
+        "id": 219,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 220,
+        "animationId": 0,
+        "description": "\\I[1557] 弓の達人が後世に残した伝説の弓。クリティカル率が高い。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1557,
+        "name": "巧弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "params": [
+            0,
+            0,
+            85,
+            0,
+            40,
+            0,
+            6,
+            11
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 221,
+        "animationId": 0,
+        "description": "\\I[1557] 弓の達人が後世に残した伝説の弓。クリティカル率が高い。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1557,
+        "name": "巧弓+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w220*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            95,
+            0,
+            50,
+            0,
+            7,
+            12
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 222,
+        "animationId": 0,
+        "description": "\\I[1557] 弓の達人が後世に残した伝説の弓。クリティカル率が高い。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1557,
+        "name": "巧弓+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w221*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            105,
+            0,
+            60,
+            0,
+            8,
+            13
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 223,
+        "animationId": 0,
+        "description": "\\I[1557] 弓の達人が後世に残した伝説の弓。クリティカル率が高い。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1557,
+        "name": "巧弓+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w222*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            115,
+            0,
+            70,
+            0,
+            9,
+            14
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 224,
+        "animationId": 0,
+        "description": "\\I[1557] 弓の達人が後世に残した伝説の弓。クリティカル率が高い。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1557,
+        "name": "巧弓+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w223*1>\n<mat2:I39*1>\n",
+        "params": [
+            0,
+            0,
+            125,
+            0,
+            80,
+            0,
+            10,
+            15
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 225,
+        "animationId": 0,
+        "description": "\\I[1557] 弓の達人が後世に残した伝説の弓。クリティカル率が高い。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1557,
+        "name": "巧弓+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w224*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            140,
+            0,
+            90,
+            0,
+            15,
+            20
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 226,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 227,
+        "animationId": 0,
+        "description": "\\I[1553] ミスリルで作られた高価な弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1553,
+        "name": "霊銀の弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w33*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            45,
+            0,
+            45,
+            0,
+            0,
+            10
+        ],
+        "price": 2000,
+        "wtypeId": 7
+    },
+    {
+        "id": 228,
+        "animationId": 0,
+        "description": "\\I[1553] ミスリルで作られた高価な弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1553,
+        "name": "霊銀の弓+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w227*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            53,
+            0,
+            53,
+            0,
+            0,
+            10
+        ],
+        "price": 2000,
+        "wtypeId": 7
+    },
+    {
+        "id": 229,
+        "animationId": 0,
+        "description": "\\I[1553] ミスリルで作られた高価な弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1553,
+        "name": "霊銀の弓+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w228*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            62,
+            0,
+            62,
+            0,
+            0,
+            10
+        ],
+        "price": 2000,
+        "wtypeId": 7
+    },
+    {
+        "id": 230,
+        "animationId": 0,
+        "description": "\\I[1553] ミスリルで作られた高価な弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1553,
+        "name": "霊銀の弓+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w229*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            70,
+            0,
+            70,
+            0,
+            0,
+            10
+        ],
+        "price": 2000,
+        "wtypeId": 7
+    },
+    {
+        "id": 231,
+        "animationId": 0,
+        "description": "\\I[1553] ミスリルで作られた高価な弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1553,
+        "name": "霊銀の弓+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w230*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            82,
+            0,
+            82,
+            0,
+            0,
+            10
+        ],
+        "price": 2000,
+        "wtypeId": 7
+    },
+    {
+        "id": 232,
+        "animationId": 0,
+        "description": "\\I[1553] ミスリルで作られた高価な弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1553,
+        "name": "霊銀の弓+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w231*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            95,
+            0,
+            95,
+            0,
+            0,
+            10
+        ],
+        "price": 2000,
+        "wtypeId": 7
+    },
+    {
+        "id": 233,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 234,
+        "animationId": 0,
+        "description": "\\I[1554] ユニコーンの角を加工して製造した弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1554,
+        "name": "ユニコーンの弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w34*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            70,
+            0,
+            70,
+            0,
+            5,
+            10
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 235,
+        "animationId": 0,
+        "description": "\\I[1554] ユニコーンの角を加工して製造した弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1554,
+        "name": "ユニコーンの弓+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w234*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            78,
+            0,
+            78,
+            0,
+            6,
+            11
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 236,
+        "animationId": 0,
+        "description": "\\I[1554] ユニコーンの角を加工して製造した弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1554,
+        "name": "ユニコーンの弓+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w235*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            85,
+            0,
+            85,
+            0,
+            7,
+            12
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 237,
+        "animationId": 0,
+        "description": "\\I[1554] ユニコーンの角を加工して製造した弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1554,
+        "name": "ユニコーンの弓+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w236*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            100,
+            0,
+            100,
+            0,
+            8,
+            13
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 238,
+        "animationId": 0,
+        "description": "\\I[1554] ユニコーンの角を加工して製造した弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1554,
+        "name": "ユニコーンの弓+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w237*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            110,
+            0,
+            110,
+            0,
+            9,
+            14
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 239,
+        "animationId": 0,
+        "description": "\\I[1554] ユニコーンの角を加工して製造した弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1554,
+        "name": "ユニコーンの弓+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w238*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            125,
+            0,
+            125,
+            0,
+            10,
+            15
+        ],
+        "price": 3000,
+        "wtypeId": 7
+    },
+    {
+        "id": 240,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 241,
+        "animationId": 0,
+        "description": "\\I[1558] 星々の力が込められた聖弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1558,
+        "name": "★星落としの弓",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w35*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            120,
+            0,
+            120,
+            0,
+            10,
+            15
+        ],
+        "price": 10000,
+        "wtypeId": 7
+    },
+    {
+        "id": 242,
+        "animationId": 0,
+        "description": "\\I[1558] 星々の力が込められた聖弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1558,
+        "name": "★星落としの弓+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w241*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            130,
+            0,
+            130,
+            0,
+            11,
+            16
+        ],
+        "price": 10000,
+        "wtypeId": 7
+    },
+    {
+        "id": 243,
+        "animationId": 0,
+        "description": "\\I[1558] 星々の力が込められた聖弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1558,
+        "name": "★星落としの弓+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w242*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            140,
+            0,
+            140,
+            0,
+            12,
+            17
+        ],
+        "price": 10000,
+        "wtypeId": 7
+    },
+    {
+        "id": 244,
+        "animationId": 0,
+        "description": "\\I[1558] 星々の力が込められた聖弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1558,
+        "name": "★星落としの弓+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w243*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            160,
+            0,
+            160,
+            0,
+            15,
+            18
+        ],
+        "price": 10000,
+        "wtypeId": 7
+    },
+    {
+        "id": 245,
+        "animationId": 0,
+        "description": "\\I[1558] 星々の力が込められた聖弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1558,
+        "name": "★星落としの弓+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w244*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            180,
+            0,
+            180,
+            0,
+            15,
+            19
+        ],
+        "price": 10000,
+        "wtypeId": 7
+    },
+    {
+        "id": 246,
+        "animationId": 0,
+        "description": "\\I[1558] 星々の力が込められた聖弓。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1558,
+        "name": "★星落としの弓+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w245*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            210,
+            0,
+            210,
+            0,
+            20,
+            20
+        ],
+        "price": 10000,
+        "wtypeId": 7
+    },
+    {
+        "id": 247,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 248,
+        "animationId": 31,
+        "description": "\\I[1568] \\c[6]液体\\c[0] ゴッド・オブ・プルリンの拳。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1568,
+        "name": "★ＧＯＰ",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w13*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            120,
+            60,
+            120,
+            60,
+            12,
+            11
+        ],
+        "price": 10000,
+        "wtypeId": 3
+    },
+    {
+        "id": 249,
+        "animationId": 31,
+        "description": "\\I[1568] \\c[6]液体\\c[0] ゴッド・オブ・プルリンの拳。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1568,
+        "name": "★ＧＯＰ+1",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w248*1>\n<mat2:I42*1>",
+        "params": [
+            0,
+            0,
+            130,
+            60,
+            130,
+            60,
+            15,
+            12
+        ],
+        "price": 10000,
+        "wtypeId": 3
+    },
+    {
+        "id": 250,
+        "animationId": 31,
+        "description": "\\I[1568] \\c[6]液体\\c[0] ゴッド・オブ・プルリンの拳。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1568,
+        "name": "★ＧＯＰ+2",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w249*1>\n<mat2:I41*1>",
+        "params": [
+            0,
+            0,
+            140,
+            60,
+            140,
+            60,
+            18,
+            13
+        ],
+        "price": 10000,
+        "wtypeId": 3
+    },
+    {
+        "id": 251,
+        "animationId": 31,
+        "description": "\\I[1568] \\c[6]液体\\c[0] ゴッド・オブ・プルリンの拳。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1568,
+        "name": "★ＧＯＰ+3",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w250*1>\n<mat2:I40*1>",
+        "params": [
+            0,
+            0,
+            150,
+            60,
+            150,
+            60,
+            21,
+            14
+        ],
+        "price": 10000,
+        "wtypeId": 3
+    },
+    {
+        "id": 252,
+        "animationId": 31,
+        "description": "\\I[1568] \\c[6]液体\\c[0] ゴッド・オブ・プルリンの拳。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1568,
+        "name": "★ＧＯＰ+4",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w251*1>\n<mat2:I39*1>",
+        "params": [
+            0,
+            0,
+            160,
+            60,
+            160,
+            60,
+            24,
+            15
+        ],
+        "price": 10000,
+        "wtypeId": 3
+    },
+    {
+        "id": 253,
+        "animationId": 31,
+        "description": "\\I[1568] \\c[6]液体\\c[0] ゴッド・オブ・プルリンの拳。",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 1568,
+        "name": "★ＧＯＰ+5",
+        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w252*1>\n<mat2:I38*1>",
+        "params": [
+            0,
+            0,
+            200,
+            100,
+            200,
+            100,
+            35,
+            20
+        ],
+        "price": 10000,
+        "wtypeId": 3
+    },
+    {
+        "id": 254,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 255,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 256,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 257,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 258,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 259,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 260,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    }
+]

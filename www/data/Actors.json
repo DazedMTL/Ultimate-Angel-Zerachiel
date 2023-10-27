@@ -1,0 +1,547 @@
+[
+    null,
+    {
+        "id": 1,
+        "battlerName": "Actor_Zerachiel",
+        "characterIndex": 0,
+        "characterName": "Zerachiel+Effie",
+        "classId": 1,
+        "equips": [
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 8,
+        "faceName": "Actor2",
+        "traits": [
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 12,
+        "maxLevel": 99,
+        "name": "ザラキエル",
+        "nickname": "",
+        "note": "<SBI画像:Actor_Zarakielu2>\n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>\n\n//CTB、アイコン\n<CTB Icon: 928>\n<icon: 928> \n\n//\n\n通常攻撃\nHP回復魔法使用時\n<recoverVoice:FCS2_011_Tool use1>\n\nHP回復以外の味方向け魔法使用時\n<friendMagicVoice:FCS2_050_Recover3>\n\n味方向け以外の魔法を使用した時\n<magicVoice:FCS2_038_Medium attack1,FCS2_039_Medium attack2,FCS2_040_Medium attack3,FCS2_041_Medium attack4,FCS2_042_Medium attack5>\n\n必殺技を使用した時\n<skillVoice:FCS2_043_Strong attack1,FCS2_044_Strong attack2,FCS2_045_Strong attack3,FCS2_046_Strong attack4,FCS2_047_Strong attack5>\n\nダメージを受けた時\n<damageVoice:FCS2_021_Damage1,FCS2_026_Large damage1,FCS2_023_Damage3,FCS2_024_Damage4,FCS2_025_Damage5>\n\n攻撃を回避した時\n<evadeVoice:FCS2_031_No damage1>\n\n味方からHP回復魔法を受けた時\n<fromAllyVoice:FCS2_095_Thank you1,FCS2_096_Thank you2>\n\n戦闘不能時\n<defeatedVoice:FCS2_019_Unable to fight1,FCS2_020_Unable to fight2>\n\n戦闘開始時\n<firstVoice:FCS2_001_Start1,FCS2_002_Start2>\n\n戦闘勝利時\n<victoryVoice:FCS2_003_Victory1,FCS2_004_Victory2>\n",
+        "profile": "無邪気な性格の少女。\n主神の命令で連れ去らわれた仲間を助けにきた。"
+    },
+    {
+        "id": 2,
+        "battlerName": "Actor_Zerachiel",
+        "characterIndex": 0,
+        "characterName": "Zerachiel+Effie",
+        "classId": 1,
+        "equips": [
+            7,
+            0
+        ],
+        "faceIndex": 2,
+        "faceName": "Actor1",
+        "traits": [],
+        "initialLevel": 15,
+        "maxLevel": 50,
+        "name": "喜",
+        "nickname": "",
+        "note": "\n",
+        "profile": "可憐で無邪気な天使の少女。\n元々は人間だったが、とある事情で天使となった。"
+    },
+    {
+        "id": 3,
+        "battlerName": "Actor_Zerachiel",
+        "characterIndex": 0,
+        "characterName": "",
+        "classId": 1,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 1,
+        "faceName": "Actor1",
+        "traits": [],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "怒",
+        "nickname": "",
+        "note": "",
+        "profile": ""
+    },
+    {
+        "id": 4,
+        "battlerName": "Actor_Zerachiel",
+        "characterIndex": 0,
+        "characterName": "",
+        "classId": 1,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 4,
+        "faceName": "Actor1",
+        "traits": [],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "哀",
+        "nickname": "",
+        "note": "",
+        "profile": ""
+    },
+    {
+        "id": 5,
+        "battlerName": "Actor_Zerachiel",
+        "characterIndex": 0,
+        "characterName": "",
+        "classId": 1,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 0,
+        "faceName": "Actor1",
+        "traits": [],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "楽",
+        "nickname": "",
+        "note": "",
+        "profile": ""
+    },
+    {
+        "id": 6,
+        "battlerName": "Actor_Zerachiel",
+        "characterIndex": 0,
+        "characterName": "",
+        "classId": 1,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 6,
+        "faceName": "Actor1",
+        "traits": [],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "エロ",
+        "nickname": "",
+        "note": "//<Sprite Cannot Move>",
+        "profile": ""
+    },
+    {
+        "id": 7,
+        "battlerName": "Actor_Slime",
+        "characterIndex": 2,
+        "characterName": "Enemy2",
+        "classId": 2,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 13,
+        "faceName": "Actor2",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 3,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "プルリン",
+        "nickname": "",
+        "note": "<SBI画像:Actor_Pururin>\n\n//CTB、アイコン\n<CTB Icon: 946>\n<icon: 946> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 2000\n</Set Sts Data>",
+        "profile": "ザラキエルの友達。封印に耐性を持っている。\n彼女の窮地にはいつも駆けつける、頼れる存在。"
+    },
+    {
+        "id": 8,
+        "battlerName": "Actor_Claudia",
+        "characterIndex": 0,
+        "characterName": "Chara_Claudia",
+        "classId": 3,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 9,
+        "faceName": "Actor2",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 4,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "クラウディア",
+        "nickname": "",
+        "note": "<SBI画像:Actor_Claudia>\n\n//CTB、アイコン\n<CTB Icon: 912>\n<icon: 912> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
+        "profile": "帝国領アレーティアの冒険者にして魔術師。\nそっけない性格だが、人嫌いではない。"
+    },
+    {
+        "id": 9,
+        "battlerName": "Actor_Sathia",
+        "characterIndex": 0,
+        "characterName": "Chara_Sathia",
+        "classId": 4,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 10,
+        "faceName": "Actor2",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 5,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            },
+            {
+                "code": 23,
+                "dataId": 3,
+                "value": 1.5
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "サティア",
+        "nickname": "",
+        "note": "<SBI画像:Actor_Sathia>\n\n//CTB、アイコン\n<CTB Icon: 914>\n<icon: 914> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
+        "profile": "帝国領アレーティアの冒険者にして盗賊。\n誰とでも打ち解け、いつも明るく、お宝が大好き。"
+    },
+    {
+        "id": 10,
+        "battlerName": "Actor_Ravi",
+        "characterIndex": 0,
+        "characterName": "NPCs",
+        "classId": 5,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 11,
+        "faceName": "Actor2",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 6,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "ラヴィ",
+        "nickname": "",
+        "note": "<SBI画像:Actor_Ravie>\n\n//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
+        "profile": "帝国領アレーティアの冒険者にして武術家。\n己の肉体を鍛えることが趣味で、常に強者を求めている。"
+    },
+    {
+        "id": 11,
+        "battlerName": "Actor_Claudia",
+        "characterIndex": 0,
+        "characterName": "Chara_Claudia",
+        "classId": 3,
+        "equips": [
+            18,
+            2,
+            21,
+            0,
+            0
+        ],
+        "faceIndex": 0,
+        "faceName": "Actor3",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 4,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "Gab クラウディア",
+        "nickname": "",
+        "note": "//CTB、アイコン\n<CTB Icon: 912>\n<icon: 912> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
+        "profile": ""
+    },
+    {
+        "id": 12,
+        "battlerName": "Actor_Sathia",
+        "characterIndex": 0,
+        "characterName": "Chara_Sathia",
+        "classId": 4,
+        "equips": [
+            23,
+            0,
+            14,
+            0,
+            0
+        ],
+        "faceIndex": 1,
+        "faceName": "Actor3",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 5,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "Gab サティア",
+        "nickname": "",
+        "note": "//CTB、アイコン\n<CTB Icon: 914>\n<icon: 914> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
+        "profile": ""
+    },
+    {
+        "id": 13,
+        "battlerName": "Actor_Ravi",
+        "characterIndex": 0,
+        "characterName": "NPCs",
+        "classId": 5,
+        "equips": [
+            28,
+            0,
+            22,
+            0,
+            0
+        ],
+        "faceIndex": 2,
+        "faceName": "Actor3",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 6,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "Gab ラヴィ",
+        "nickname": "",
+        "note": "//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
+        "profile": ""
+    },
+    {
+        "id": 14,
+        "battlerName": "Actor_Lala",
+        "characterIndex": 0,
+        "characterName": "Chara_Lala",
+        "classId": 5,
+        "equips": [
+            28,
+            0,
+            22,
+            0,
+            0
+        ],
+        "faceIndex": 12,
+        "faceName": "Actor3",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 6,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "Gab ララ",
+        "nickname": "",
+        "note": "//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\n</Set Sts Data>",
+        "profile": ""
+    },
+    {
+        "id": 15,
+        "battlerName": "Actor_Lala",
+        "characterIndex": 0,
+        "characterName": "Chara_Lala",
+        "classId": 6,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 12,
+        "faceName": "Actor2",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 7,
+                "value": 1
+            },
+            {
+                "code": 62,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 64,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "ララ",
+        "nickname": "",
+        "note": "<SBI画像:Actor_LaLa>\n\n//CTB、アイコン\n<CTB Icon: 915>\n<icon: 915> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
+        "profile": "素直になれない天使の少女。\nある人物を探して、世界中を旅している。"
+    },
+    {
+        "id": 16,
+        "battlerName": "",
+        "characterIndex": 0,
+        "characterName": "",
+        "classId": 1,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 2,
+        "faceName": "Actor2",
+        "traits": [],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "プリロパ",
+        "nickname": "",
+        "note": "",
+        "profile": ""
+    },
+    {
+        "id": 17,
+        "battlerName": "Actor_Slime",
+        "characterIndex": 2,
+        "characterName": "Enemy2",
+        "classId": 2,
+        "equips": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "faceIndex": 13,
+        "faceName": "Actor2",
+        "traits": [
+            {
+                "code": 51,
+                "dataId": 3,
+                "value": 1
+            }
+        ],
+        "initialLevel": 1,
+        "maxLevel": 99,
+        "name": "プルリン",
+        "nickname": "",
+        "note": "<SBI画像:Actor_Pururin>\n\n//CTB、アイコン\n<CTB Icon: 946>\n<icon: 946> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
+        "profile": "ザラキエルの友達。封印に耐性を持っている。\n彼女の窮地にはいつも駆けつける、頼れる存在。"
+    }
+]

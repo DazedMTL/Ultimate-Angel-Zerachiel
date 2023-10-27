@@ -1,0 +1,2524 @@
+[
+    null,
+    {
+        "id": 1,
+        "atypeId": 2,
+        "description": "\\I[523] 身に着けると素早くなれる気がするバンダナ。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 523,
+        "name": "バンダナ",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            2
+        ],
+        "price": 250
+    },
+    {
+        "id": 2,
+        "atypeId": 2,
+        "description": "\\I[509] うさぎの耳を模したヘアバンド。回避率+5％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.05
+            }
+        ],
+        "iconIndex": 509,
+        "name": "ラビットイヤー",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            0,
+            4,
+            4,
+            0,
+            0,
+            0
+        ],
+        "price": 250
+    },
+    {
+        "id": 3,
+        "atypeId": 2,
+        "description": "\\I[524] 吟遊詩人に好まれる帽子。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 524,
+        "name": "吟遊詩人の帽子",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            4,
+            0
+        ],
+        "price": 820
+    },
+    {
+        "id": 4,
+        "atypeId": 2,
+        "description": "\\I[525] 戦士が身に着ける兜。物理系の被ダメージ-10％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 525,
+        "name": "戦士の兜",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            8,
+            8,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1400
+    },
+    {
+        "id": 5,
+        "atypeId": 2,
+        "description": "\\I[512] 魔術系の被ダメージ-10％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 512,
+        "name": "魔性の髪飾り",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0,
+            0
+        ],
+        "price": 2800
+    },
+    {
+        "id": 6,
+        "atypeId": 1,
+        "description": "\\I[761] アリエスの魔力が込められた聖なるお守り。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 761,
+        "name": "アリエスのお守り",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            40,
+            40,
+            20,
+            20,
+            5,
+            5
+        ],
+        "price": 0
+    },
+    {
+        "id": 7,
+        "atypeId": 2,
+        "description": "\\I[502] 魔術系の被ダメージ-15％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.85
+            }
+        ],
+        "iconIndex": 502,
+        "name": "リボンシール",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            36,
+            36,
+            0,
+            0
+        ],
+        "price": 13400
+    },
+    {
+        "id": 8,
+        "atypeId": 2,
+        "description": "\\I[513] 物理系の被ダメージ-15％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.85
+            }
+        ],
+        "iconIndex": 513,
+        "name": "ドラゴンタトゥー",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            16,
+            16,
+            16,
+            16,
+            16,
+            10
+        ],
+        "price": 28000
+    },
+    {
+        "id": 9,
+        "atypeId": 2,
+        "description": "\\I[527] 必殺率が大きく増加する。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 527,
+        "name": "ねじりはちまき",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            20,
+            16,
+            0,
+            0,
+            0,
+            15
+        ],
+        "price": 11200
+    },
+    {
+        "id": 10,
+        "atypeId": 7,
+        "description": "\\I[946] ベタベタしてる。",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 946,
+        "name": "キングプルリンの兜",
+        "note": "<itemCategory:\\I[523]頭>",
+        "params": [
+            0,
+            0,
+            0,
+            40,
+            0,
+            40,
+            0,
+            0
+        ],
+        "price": 7800
+    },
+    {
+        "id": 11,
+        "atypeId": 2,
+        "description": "\\I[384] 動物の革で作られた軽量な軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 384,
+        "name": "レザーメイル",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 350
+    },
+    {
+        "id": 12,
+        "atypeId": 2,
+        "description": "\\I[385] 魔族のために心血を注いで作られた軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 385,
+        "name": "アーガイルメイル",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1860
+    },
+    {
+        "id": 13,
+        "atypeId": 2,
+        "description": "\\I[386] 優雅なデザインが特徴的な軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 386,
+        "name": "ケルティックメイル",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3200
+    },
+    {
+        "id": 14,
+        "atypeId": 2,
+        "description": "\\I[387] あらゆる魔法に抵抗力を持つ軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 387,
+        "name": "ミスリルメイル",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            40,
+            0,
+            20,
+            0,
+            0
+        ],
+        "price": 5000
+    },
+    {
+        "id": 15,
+        "atypeId": 2,
+        "description": "\\I[388] ルーンを刻み、防御力を上昇させた軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 388,
+        "name": "ルーンメイル",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            55,
+            0,
+            28,
+            0,
+            0
+        ],
+        "price": 7200
+    },
+    {
+        "id": 16,
+        "atypeId": 2,
+        "description": "\\I[389] 特務騎士のために特別に制作された軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 389,
+        "name": "フォースメイル",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            70,
+            0,
+            40,
+            0,
+            0
+        ],
+        "price": 12700
+    },
+    {
+        "id": 17,
+        "atypeId": 2,
+        "description": "\\I[406] 特別な工法で研磨された高強度鋼鉄を使った鎧。 ",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 406,
+        "name": "アダマムメイン",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            80,
+            0,
+            80,
+            10,
+            10
+        ],
+        "price": 0
+    },
+    {
+        "id": 18,
+        "atypeId": 1,
+        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 762,
+        "name": "熾天使の衣",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            90,
+            0,
+            45,
+            20,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 19,
+        "atypeId": 2,
+        "description": "\\I[419] ルーンを刻み、防御力を確保したローブ。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 419,
+        "name": "ルーンローブ",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            50,
+            30,
+            80,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 20,
+        "atypeId": 2,
+        "description": "\\I[421] あらゆる魔術に抵抗を持つ。\n",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 421,
+        "name": "エレメンタルローブ",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            70,
+            0,
+            120,
+            10,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 21,
+        "atypeId": 2,
+        "description": "\\I[432] 魔術師の女性が好んで着ている服を改良したもの。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 432,
+        "name": "魔女の服",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            20,
+            20,
+            60,
+            0,
+            0
+        ],
+        "price": 200
+    },
+    {
+        "id": 22,
+        "atypeId": 2,
+        "description": "\\I[448] 大地の加護を授かった衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 448,
+        "name": "大地の衣",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            20,
+            28,
+            0,
+            0,
+            4,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 23,
+        "atypeId": 2,
+        "description": "\\I[453] 星々の加護を授かった衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 453,
+        "name": "星辰の衣",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            20,
+            75,
+            0,
+            50,
+            10,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 24,
+        "atypeId": 7,
+        "description": "\\I[946] 王の風格を放つ核。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 946,
+        "name": "キングプルリンの核",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a24*1>\n<mat2:I37*1>",
+        "params": [
+            10,
+            10,
+            0,
+            80,
+            0,
+            50,
+            5,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 25,
+        "atypeId": 2,
+        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 762,
+        "name": "天使長の衣",
+        "note": "<itemCategory:\\I[384]身体>",
+        "params": [
+            0,
+            0,
+            0,
+            90,
+            0,
+            45,
+            20,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 26,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 27,
+        "atypeId": 2,
+        "description": "\\I[492] \\c[6]耐性\\c[0] 毒を無効化する。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 22,
+                "value": 1
+            }
+        ],
+        "iconIndex": 492,
+        "name": "毒消しの指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1500
+    },
+    {
+        "id": 28,
+        "atypeId": 2,
+        "description": "\\I[493] \\c[6]耐性\\c[0] 睡眠を無効化する。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 23,
+                "value": 1
+            }
+        ],
+        "iconIndex": 493,
+        "name": "不眠の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1500
+    },
+    {
+        "id": 29,
+        "atypeId": 2,
+        "description": "\\I[494] \\c[6]耐性\\c[0] 混乱を無効化する。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
+            }
+        ],
+        "iconIndex": 494,
+        "name": "混乱封じの指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1500
+    },
+    {
+        "id": 30,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 31,
+        "atypeId": 2,
+        "description": "\\I[464] \\c[6]強化\\c[0] 自身の最大HPが10点増加する。毎ターンHP3点回復。",
+        "etypeId": 4,
+        "traits": [],
+        "iconIndex": 464,
+        "name": "生命の指輪",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 3>",
+        "params": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1500
+    },
+    {
+        "id": 32,
+        "atypeId": 2,
+        "description": "\\I[465] \\c[6]強化\\c[0] 自身の最大MPが10点増加する。封印を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            }
+        ],
+        "iconIndex": 465,
+        "name": "満月の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1500
+    },
+    {
+        "id": 33,
+        "atypeId": 2,
+        "description": "\\I[467] \\c[6]強化\\c[0] 自身の防御力が12点増加する。防御力低下を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 7,
+                "value": 1
+            }
+        ],
+        "iconIndex": 467,
+        "name": "鉄壁の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            12,
+            0,
+            12,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 34,
+        "atypeId": 2,
+        "description": "\\I[466] \\c[6]強化\\c[0] 自身の攻撃力が12点増加する。攻撃力低下を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 6,
+                "value": 1
+            }
+        ],
+        "iconIndex": 466,
+        "name": "剛力の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 35,
+        "atypeId": 2,
+        "description": "\\I[470] \\c[6]強化\\c[0] 自身の魔力が12点増加する。封印を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            }
+        ],
+        "iconIndex": 470,
+        "name": "魔力の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 36,
+        "atypeId": 2,
+        "description": "\\I[468] \\c[6]強化\\c[0] 自身の素早さが12点増加する。素早さ低下を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 8,
+                "value": 1
+            }
+        ],
+        "iconIndex": 468,
+        "name": "疾風の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12,
+            0
+        ],
+        "price": 5000
+    },
+    {
+        "id": 37,
+        "atypeId": 2,
+        "description": "\\I[469] \\c[6]強化\\c[0] 自身の必殺率が10点増加する。",
+        "etypeId": 4,
+        "traits": [],
+        "iconIndex": 469,
+        "name": "必殺の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10
+        ],
+        "price": 5000
+    },
+    {
+        "id": 38,
+        "atypeId": 2,
+        "description": "\\I[476] \\c[6]強化\\c[0] 毎ターンHP+7％回復",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": 0.07
+            }
+        ],
+        "iconIndex": 476,
+        "name": "再生の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 25000
+    },
+    {
+        "id": 39,
+        "atypeId": 2,
+        "description": "\\I[472] \\c[6]強化\\c[0] 自身のMP消費量を1/2にする。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 4,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 472,
+        "name": "妖精の指輪",
+        "note": "<itemCategory:\\I[811]指輪>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 50000
+    },
+    {
+        "id": 40,
+        "atypeId": 1,
+        "description": "\\I[760] \\c[6]強化\\c[0] 聖女の加護が宿された指輪。毎ターンMP+3点回復。全状態異常無効化。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 6,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 7,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 7,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 22,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 23,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
+            }
+        ],
+        "iconIndex": 760,
+        "name": "聖女の指輪",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 3>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 41,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 42,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "--- 改造 ---",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 43,
+        "atypeId": 2,
+        "description": "\\I[523] 身に着けると素早くなれる気がするバンダナ。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 523,
+        "name": "バンダナ+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a1*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            4
+        ],
+        "price": 1000
+    },
+    {
+        "id": 44,
+        "atypeId": 2,
+        "description": "\\I[509] うさぎの耳を模したヘアバンド。回避率+15％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.15
+            }
+        ],
+        "iconIndex": 509,
+        "name": "ラビットイヤー+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a2*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            8,
+            8,
+            0,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 45,
+        "atypeId": 2,
+        "description": "\\I[524] 吟遊詩人に好まれる帽子。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 524,
+        "name": "吟遊詩人の帽子+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a3*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            8,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 46,
+        "atypeId": 2,
+        "description": "\\I[525] 戦士が身に着ける兜。物理系の被ダメージ-15％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.85
+            }
+        ],
+        "iconIndex": 525,
+        "name": "戦士の兜+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a4*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            16,
+            16,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 47,
+        "atypeId": 2,
+        "description": "\\I[512] 魔術系の被ダメージ-20％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 512,
+        "name": "魔性の髪飾り+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a5*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            16,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 48,
+        "atypeId": 1,
+        "description": "\\I[761] 獣神アンリの魔力が込められた聖なるお守り。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 761,
+        "name": "獣神のお守り",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a6*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            52,
+            52,
+            24,
+            24,
+            10,
+            10
+        ],
+        "price": 7000
+    },
+    {
+        "id": 49,
+        "atypeId": 2,
+        "description": "\\I[502] 魔術系の被ダメージ-20％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 502,
+        "name": "リボンシール+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a7*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            30,
+            0,
+            0,
+            48,
+            48,
+            0,
+            0
+        ],
+        "price": 7000
+    },
+    {
+        "id": 50,
+        "atypeId": 2,
+        "description": "\\I[513] 物理系の被ダメージ-20％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 513,
+        "name": "ドラゴンタトゥー+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a8*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            32,
+            32,
+            32,
+            32,
+            16,
+            10
+        ],
+        "price": 7000
+    },
+    {
+        "id": 51,
+        "atypeId": 2,
+        "description": "\\I[527] 必殺率が大きく増加する。",
+        "etypeId": 2,
+        "traits": [],
+        "iconIndex": 527,
+        "name": "ねじりはちまき+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a9*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            32,
+            32,
+            0,
+            0,
+            0,
+            15
+        ],
+        "price": 7000
+    },
+    {
+        "id": 52,
+        "atypeId": 7,
+        "description": "\\I[946] ベタベタしてる。回避率+10％",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 946,
+        "name": "ＧＯＰの兜+",
+        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a10*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            40,
+            0,
+            40,
+            0,
+            0
+        ],
+        "price": 7000
+    },
+    {
+        "id": 53,
+        "atypeId": 2,
+        "description": "\\I[384] 動物の革で作られた軽量な軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 384,
+        "name": "レザーメイル+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a11*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 54,
+        "atypeId": 2,
+        "description": "\\I[385] 魔族のために心血を注いで作られた軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 385,
+        "name": "アーガイルメイル+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a12*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 55,
+        "atypeId": 2,
+        "description": "\\I[386] 優雅なデザインが特徴的な軽鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 386,
+        "name": "ケルティックメイル+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a13*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            36,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 56,
+        "atypeId": 2,
+        "description": "\\I[387] あらゆる魔法に抵抗力を持つ鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 387,
+        "name": "ミスリルメイル+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a14*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            60,
+            0,
+            30,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 57,
+        "atypeId": 2,
+        "description": "\\I[388] ルーンを刻み、防御力を上昇させた鎧。MP+30点",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 388,
+        "name": "ルーンメイル+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a15*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            30,
+            0,
+            80,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 58,
+        "atypeId": 2,
+        "description": "\\I[389] 特務騎士のために特別に制作された重鎧。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 389,
+        "name": "フォースメイル+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a16*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            90,
+            0,
+            60,
+            0,
+            0
+        ],
+        "price": 5000
+    },
+    {
+        "id": 59,
+        "atypeId": 2,
+        "description": "\\I[406] 特別な工法で研磨された高強度鋼鉄を使った鎧。回避率+15％",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.15
+            }
+        ],
+        "iconIndex": 406,
+        "name": "アダマムメイン+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a17*1>\n<mat2:I37*1>",
+        "params": [
+            30,
+            0,
+            0,
+            100,
+            0,
+            100,
+            20,
+            12
+        ],
+        "price": 10000
+    },
+    {
+        "id": 60,
+        "atypeId": 1,
+        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 762,
+        "name": "ザラキエルの聖衣",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a18*1>\n<mat2:I37*1>",
+        "params": [
+            30,
+            30,
+            0,
+            100,
+            0,
+            100,
+            20,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 61,
+        "atypeId": 2,
+        "description": "\\I[419] ルーンを刻み、防御力を確保したローブ。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 419,
+        "name": "ルーンローブ+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a19*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            70,
+            48,
+            90,
+            0,
+            0
+        ],
+        "price": 5000
+    },
+    {
+        "id": 62,
+        "atypeId": 2,
+        "description": "\\I[421] あらゆる魔術に抵抗を持つ。魔術系の被ダメージ-20％\n",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 421,
+        "name": "エレメンタルローブ+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a20*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            50,
+            0,
+            90,
+            0,
+            150,
+            20,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 63,
+        "atypeId": 2,
+        "description": "\\I[432] 魔術師の女性が好んで着ている服を改良したもの。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 432,
+        "name": "魔女の服+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a21*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            30,
+            30,
+            70,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 64,
+        "atypeId": 2,
+        "description": "\\I[448] 大地の加護を授かった衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 448,
+        "name": "大地の衣+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a22*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            30,
+            42,
+            0,
+            0,
+            6,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 65,
+        "atypeId": 2,
+        "description": "\\I[453] 星々の加護を授かった衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 453,
+        "name": "星辰の衣+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a23*1>\n<mat2:I37*1>",
+        "params": [
+            40,
+            20,
+            50,
+            90,
+            50,
+            50,
+            20,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 66,
+        "atypeId": 7,
+        "description": "\\I[946] 神の風格を放つ核。回避率+10％",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 946,
+        "name": "ＧＯＰの核+",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a24*1>\n<mat2:I37*1>",
+        "params": [
+            30,
+            30,
+            0,
+            100,
+            0,
+            100,
+            20,
+            15
+        ],
+        "price": 10000
+    },
+    {
+        "id": 67,
+        "atypeId": 2,
+        "description": "\\I[762] 強力な加護を宿した、熾天使に与えられる衣。",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 762,
+        "name": "天使長の聖衣",
+        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a25*1>\n<mat2:I37*1>",
+        "params": [
+            30,
+            30,
+            0,
+            100,
+            0,
+            65,
+            20,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 68,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 69,
+        "atypeId": 2,
+        "description": "\\I[492] \\c[6]耐性\\c[0] 毒を無効化し、ステータスを強化する。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 22,
+                "value": 1
+            }
+        ],
+        "iconIndex": 492,
+        "name": "毒消しの指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a27*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            4,
+            4,
+            4,
+            4,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 70,
+        "atypeId": 2,
+        "description": "\\I[493] \\c[6]耐性\\c[0] 睡眠を無効化し、ステータスを強化する。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 23,
+                "value": 1
+            }
+        ],
+        "iconIndex": 493,
+        "name": "不眠の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a28*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            4,
+            4,
+            4,
+            4,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 71,
+        "atypeId": 2,
+        "description": "\\I[494] \\c[6]耐性\\c[0] 混乱を無効化し、ステータスを強化する。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
+            }
+        ],
+        "iconIndex": 494,
+        "name": "混乱封じの指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a29*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            4,
+            4,
+            4,
+            4,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 72,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 73,
+        "atypeId": 2,
+        "description": "\\I[464] \\c[6]強化\\c[0] 自身の最大HPが20点増加する。毎ターンHP7点回復。",
+        "etypeId": 4,
+        "traits": [],
+        "iconIndex": 464,
+        "name": "生命の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 7>\n\n<mat1:a31*1>\n<mat2:I37*1>\n",
+        "params": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 74,
+        "atypeId": 2,
+        "description": "\\I[465] \\c[6]強化\\c[0] 自身の最大MPが20点増加する。毎ターンMP1点回復。封印を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            }
+        ],
+        "iconIndex": 465,
+        "name": "満月の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 1>\n\n<mat1:a32*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000
+    },
+    {
+        "id": 75,
+        "atypeId": 2,
+        "description": "\\I[467] \\c[6]強化\\c[0] 自身の防御力が24点増加する。防御力低下を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 7,
+                "value": 1
+            }
+        ],
+        "iconIndex": 467,
+        "name": "鉄壁の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a33*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            24,
+            0,
+            24,
+            0,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 76,
+        "atypeId": 2,
+        "description": "\\I[466] \\c[6]強化\\c[0] 自身の攻撃力が24点増加する。攻撃力低下を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 6,
+                "value": 1
+            }
+        ],
+        "iconIndex": 466,
+        "name": "剛力の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a34*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 77,
+        "atypeId": 2,
+        "description": "\\I[470] \\c[6]強化\\c[0] 自身の魔力が24点増加する。封印を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            }
+        ],
+        "iconIndex": 470,
+        "name": "魔力の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a35*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 78,
+        "atypeId": 2,
+        "description": "\\I[468] \\c[6]強化\\c[0] 自身の素早さが24点増加する。素早さ低下を防止。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 8,
+                "value": 1
+            }
+        ],
+        "iconIndex": 468,
+        "name": "疾風の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a36*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 79,
+        "atypeId": 2,
+        "description": "\\I[469] \\c[6]強化\\c[0] 自身の必殺率が20点増加する。",
+        "etypeId": 4,
+        "traits": [],
+        "iconIndex": 469,
+        "name": "必殺の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a37*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20
+        ],
+        "price": 5000
+    },
+    {
+        "id": 80,
+        "atypeId": 2,
+        "description": "\\I[476] \\c[6]強化\\c[0] 毎ターンHP20点回復",
+        "etypeId": 4,
+        "traits": [],
+        "iconIndex": 476,
+        "name": "再生の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 20>\n\n<mat1:a38*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 25000
+    },
+    {
+        "id": 81,
+        "atypeId": 2,
+        "description": "\\I[472] \\c[6]強化\\c[0] 最大MP30点、魔力32点、封印無効、毎ターンMP3点回復し、MP消費量1/2。 ",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 4,
+                "value": 0.5
+            },
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            }
+        ],
+        "iconIndex": 472,
+        "name": "妖精王の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a39*1>\n<mat2:a85*1>\n\n<CustomRegenerateMP: 3>",
+        "params": [
+            0,
+            30,
+            0,
+            0,
+            32,
+            0,
+            0,
+            0
+        ],
+        "price": 50000
+    },
+    {
+        "id": 82,
+        "atypeId": 1,
+        "description": "\\I[760] \\c[6]強化\\c[0] 聖女の加護が宿された指輪。毎ターンMP+5点回復。猛毒、睡眠、混乱、封印耐性。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 22,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 23,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
+            }
+        ],
+        "iconIndex": 760,
+        "name": "聖女の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 5>\n\n<mat1:a40*1>\n<mat2:I37*1>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 50000
+    },
+    {
+        "id": 83,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 84,
+        "atypeId": 2,
+        "description": "\\I[463] \\c[6]強化\\c[0] 最大HP20点、攻撃力24点を増加する。毎ターンHP10点回復。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 6,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 7,
+                "value": 1
+            }
+        ],
+        "iconIndex": 463,
+        "name": "勇気の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 10>\n\n<mat1:a73*1>\n<mat2:a76*1>",
+        "params": [
+            20,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 85,
+        "atypeId": 2,
+        "description": "\\I[462] \\c[6]強化\\c[0] 最大MP20点、魔力24点を増加する。封印無効。毎ターンMP2点回復。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            }
+        ],
+        "iconIndex": 462,
+        "name": "元素の指輪+",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 2>\n\n<mat1:a74*1>\n<mat2:a77*1>",
+        "params": [
+            0,
+            20,
+            0,
+            0,
+            24,
+            0,
+            0,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 86,
+        "atypeId": 2,
+        "description": "\\I[40] \\c[6]強化\\c[0] 全ステータスを強化する。封印無効。毎ターンMP8点回復。引継ぎ可能。",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            }
+        ],
+        "iconIndex": 40,
+        "name": "天球儀の指輪",
+        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 8>",
+        "params": [
+            0,
+            0,
+            40,
+            20,
+            40,
+            20,
+            10,
+            10
+        ],
+        "price": 0
+    },
+    {
+        "id": 87,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 88,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 89,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 90,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 91,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 92,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 93,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 94,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 95,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 96,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 97,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 98,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 99,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 100,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    }
+]
