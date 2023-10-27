@@ -8,7 +8,7 @@
         "traits": [],
         "iconIndex": 523,
         "name": "Bandana",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -35,7 +35,7 @@
         ],
         "iconIndex": 509,
         "name": "Rabbit Ears",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -56,7 +56,7 @@
         "traits": [],
         "iconIndex": 524,
         "name": "Bard's Hat",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -83,7 +83,7 @@
         ],
         "iconIndex": 525,
         "name": "Warrior's Helmet",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -110,7 +110,7 @@
         ],
         "iconIndex": 512,
         "name": "Seductive Hair Ornament",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -131,7 +131,7 @@
         "traits": [],
         "iconIndex": 761,
         "name": "Aries' Amulet",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -158,7 +158,7 @@
         ],
         "iconIndex": 502,
         "name": "Ribbon Seal",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -185,7 +185,7 @@
         ],
         "iconIndex": 513,
         "name": "Dragon Tattoo",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -206,7 +206,7 @@
         "traits": [],
         "iconIndex": 527,
         "name": "Twisted Headband",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -233,7 +233,7 @@
         ],
         "iconIndex": 946,
         "name": "King Pudding Helmet",
-        "note": "<itemCategory:\\I[523]頭>",
+        "note": "<itemCategory:\\I[523]Head>",
         "params": [
             0,
             0,
@@ -254,7 +254,7 @@
         "traits": [],
         "iconIndex": 384,
         "name": "Leather Mail",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -275,7 +275,7 @@
         "traits": [],
         "iconIndex": 385,
         "name": "Argyle Mail",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -296,7 +296,7 @@
         "traits": [],
         "iconIndex": 386,
         "name": "Celtic Mail",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -317,7 +317,7 @@
         "traits": [],
         "iconIndex": 387,
         "name": "Mithril Mail",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -338,7 +338,7 @@
         "traits": [],
         "iconIndex": 388,
         "name": "Rune Mail",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -359,7 +359,7 @@
         "traits": [],
         "iconIndex": 389,
         "name": "Force Mail",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -380,7 +380,7 @@
         "traits": [],
         "iconIndex": 406,
         "name": "Adamam Main",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -401,7 +401,7 @@
         "traits": [],
         "iconIndex": 762,
         "name": "Celestial Angel's Robe",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -422,7 +422,7 @@
         "traits": [],
         "iconIndex": 419,
         "name": "Rune Robe",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -449,7 +449,7 @@
         ],
         "iconIndex": 421,
         "name": "Elemental Robe",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -470,7 +470,7 @@
         "traits": [],
         "iconIndex": 432,
         "name": "Witch's Robe",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -491,7 +491,7 @@
         "traits": [],
         "iconIndex": 448,
         "name": "Earth Robe",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -512,7 +512,7 @@
         "traits": [],
         "iconIndex": 453,
         "name": "Starry Robe",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -533,7 +533,7 @@
         "traits": [],
         "iconIndex": 946,
         "name": "King Pudding Core",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a24*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a24*1>\n<mat2:I37*1>",
         "params": [
             10,
             10,
@@ -554,7 +554,7 @@
         "traits": [],
         "iconIndex": 762,
         "name": "Angelic Robe",
-        "note": "<itemCategory:\\I[384]身体>",
+        "note": "<itemCategory:\\I[384]Body>",
         "params": [
             0,
             0,
@@ -608,7 +608,7 @@
         ],
         "iconIndex": 492,
         "name": "Ring of Antidote",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -635,7 +635,7 @@
         ],
         "iconIndex": 493,
         "name": "Ring of Insomnia",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -662,7 +662,7 @@
         ],
         "iconIndex": 494,
         "name": "Ring of Confusion Sealing",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -710,7 +710,7 @@
         "traits": [],
         "iconIndex": 464,
         "name": "Ring of Life",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 3>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateHP: 3>",
         "params": [
             10,
             0,
@@ -737,7 +737,7 @@
         ],
         "iconIndex": 465,
         "name": "Full Moon Ring",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             10,
@@ -764,7 +764,7 @@
         ],
         "iconIndex": 467,
         "name": "Iron Wall Ring",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -791,7 +791,7 @@
         ],
         "iconIndex": 466,
         "name": "Ring of Strength",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -818,7 +818,7 @@
         ],
         "iconIndex": 470,
         "name": "Ring of Magic Power",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -845,7 +845,7 @@
         ],
         "iconIndex": 468,
         "name": "Ring of the Swift Wind",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -866,7 +866,7 @@
         "traits": [],
         "iconIndex": 469,
         "name": "Ring of Deathblow",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -893,7 +893,7 @@
         ],
         "iconIndex": 476,
         "name": "Ring of Regeneration",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -920,7 +920,7 @@
         ],
         "iconIndex": 472,
         "name": "Fairy Ring",
-        "note": "<itemCategory:\\I[811]指輪>",
+        "note": "<itemCategory:\\I[811]Ring>",
         "params": [
             0,
             0,
@@ -977,7 +977,7 @@
         ],
         "iconIndex": 760,
         "name": "Holy Maiden's Ring",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 3>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateMP: 3>",
         "params": [
             0,
             0,
@@ -1052,7 +1052,7 @@
         "traits": [],
         "iconIndex": 523,
         "name": "Bandana+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a1*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a1*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1079,7 +1079,7 @@
         ],
         "iconIndex": 509,
         "name": "Rabbit Ears+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a2*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a2*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1100,7 +1100,7 @@
         "traits": [],
         "iconIndex": 524,
         "name": "Bard's Hat+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a3*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a3*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1127,7 +1127,7 @@
         ],
         "iconIndex": 525,
         "name": "Warrior's Helmet+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a4*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a4*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1154,7 +1154,7 @@
         ],
         "iconIndex": 512,
         "name": "Seductive Hair Ornament+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a5*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a5*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1175,7 +1175,7 @@
         "traits": [],
         "iconIndex": 761,
         "name": "Beast God's Amulet",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a6*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a6*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1202,7 +1202,7 @@
         ],
         "iconIndex": 502,
         "name": "Ribbon Seal+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a7*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a7*1>\n<mat2:I37*1>",
         "params": [
             0,
             30,
@@ -1229,7 +1229,7 @@
         ],
         "iconIndex": 513,
         "name": "Dragon Tattoo+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a8*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a8*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1250,7 +1250,7 @@
         "traits": [],
         "iconIndex": 527,
         "name": "Twisted Headband+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a9*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a9*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1277,7 +1277,7 @@
         ],
         "iconIndex": 946,
         "name": "GOP Helmet+",
-        "note": "<itemCategory:\\I[523]頭>\n\n<mat1:a10*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[523]Head>\n\n<mat1:a10*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1298,7 +1298,7 @@
         "traits": [],
         "iconIndex": 384,
         "name": "Leather Mail+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a11*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a11*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1319,7 +1319,7 @@
         "traits": [],
         "iconIndex": 385,
         "name": "Argyle Mail+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a12*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a12*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1340,7 +1340,7 @@
         "traits": [],
         "iconIndex": 386,
         "name": "Celtic Mail+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a13*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a13*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1361,7 +1361,7 @@
         "traits": [],
         "iconIndex": 387,
         "name": "Mithril Mail+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a14*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a14*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1382,7 +1382,7 @@
         "traits": [],
         "iconIndex": 388,
         "name": "Rune Mail+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a15*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a15*1>\n<mat2:I37*1>",
         "params": [
             0,
             30,
@@ -1403,7 +1403,7 @@
         "traits": [],
         "iconIndex": 389,
         "name": "Force Mail+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a16*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a16*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1430,7 +1430,7 @@
         ],
         "iconIndex": 406,
         "name": "Adamammein+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a17*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a17*1>\n<mat2:I37*1>",
         "params": [
             30,
             0,
@@ -1451,7 +1451,7 @@
         "traits": [],
         "iconIndex": 762,
         "name": "Zerachiel's Holy Robe",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a18*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a18*1>\n<mat2:I37*1>",
         "params": [
             30,
             30,
@@ -1472,7 +1472,7 @@
         "traits": [],
         "iconIndex": 419,
         "name": "Rune Robe+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a19*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a19*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1499,7 +1499,7 @@
         ],
         "iconIndex": 421,
         "name": "Elemental Robe+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a20*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a20*1>\n<mat2:I37*1>",
         "params": [
             0,
             50,
@@ -1520,7 +1520,7 @@
         "traits": [],
         "iconIndex": 432,
         "name": "Witch's Robe+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a21*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a21*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1541,7 +1541,7 @@
         "traits": [],
         "iconIndex": 448,
         "name": "Earth Robe+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a22*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a22*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1562,7 +1562,7 @@
         "traits": [],
         "iconIndex": 453,
         "name": "Starry Robe+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a23*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a23*1>\n<mat2:I37*1>",
         "params": [
             40,
             20,
@@ -1589,7 +1589,7 @@
         ],
         "iconIndex": 946,
         "name": "GOP Core+",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a24*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a24*1>\n<mat2:I37*1>",
         "params": [
             30,
             30,
@@ -1610,7 +1610,7 @@
         "traits": [],
         "iconIndex": 762,
         "name": "Holy Robe of the Archangel",
-        "note": "<itemCategory:\\I[384]身体>\n\n<mat1:a25*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[384]Body>\n\n<mat1:a25*1>\n<mat2:I37*1>",
         "params": [
             30,
             30,
@@ -1664,7 +1664,7 @@
         ],
         "iconIndex": 492,
         "name": "Antidote Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a27*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a27*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1691,7 +1691,7 @@
         ],
         "iconIndex": 493,
         "name": "Insomniac Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a28*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a28*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1718,7 +1718,7 @@
         ],
         "iconIndex": 494,
         "name": "Ring of Confusion Sealing+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a29*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a29*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1766,7 +1766,7 @@
         "traits": [],
         "iconIndex": 464,
         "name": "Ring of Life+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 7>\n\n<mat1:a31*1>\n<mat2:I37*1>\n",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateHP: 7>\n\n<mat1:a31*1>\n<mat2:I37*1>\n",
         "params": [
             20,
             0,
@@ -1793,7 +1793,7 @@
         ],
         "iconIndex": 465,
         "name": "Full Moon Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 1>\n\n<mat1:a32*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateMP: 1>\n\n<mat1:a32*1>\n<mat2:I37*1>",
         "params": [
             0,
             20,
@@ -1820,7 +1820,7 @@
         ],
         "iconIndex": 467,
         "name": "Iron Wall Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a33*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a33*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1847,7 +1847,7 @@
         ],
         "iconIndex": 466,
         "name": "Ring of Strength+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a34*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a34*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1874,7 +1874,7 @@
         ],
         "iconIndex": 470,
         "name": "Magic Power Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a35*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a35*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1901,7 +1901,7 @@
         ],
         "iconIndex": 468,
         "name": "Ring of the Swift Wind+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a36*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a36*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1922,7 +1922,7 @@
         "traits": [],
         "iconIndex": 469,
         "name": "Ring of Deadly Strikes+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a37*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a37*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1943,7 +1943,7 @@
         "traits": [],
         "iconIndex": 476,
         "name": "Ring of Regeneration+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 20>\n\n<mat1:a38*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateHP: 20>\n\n<mat1:a38*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -1975,7 +1975,7 @@
         ],
         "iconIndex": 472,
         "name": "Fairy King's Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<mat1:a39*1>\n<mat2:a85*1>\n\n<CustomRegenerateMP: 3>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<mat1:a39*1>\n<mat2:a85*1>\n\n<CustomRegenerateMP: 3>",
         "params": [
             0,
             30,
@@ -2017,7 +2017,7 @@
         ],
         "iconIndex": 760,
         "name": "Holy Maiden's Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 5>\n\n<mat1:a40*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateMP: 5>\n\n<mat1:a40*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -2076,7 +2076,7 @@
         ],
         "iconIndex": 463,
         "name": "Ring of Courage+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateHP: 10>\n\n<mat1:a73*1>\n<mat2:a76*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateHP: 10>\n\n<mat1:a73*1>\n<mat2:a76*1>",
         "params": [
             20,
             0,
@@ -2103,7 +2103,7 @@
         ],
         "iconIndex": 462,
         "name": "Elemental Ring+",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 2>\n\n<mat1:a74*1>\n<mat2:a77*1>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateMP: 2>\n\n<mat1:a74*1>\n<mat2:a77*1>",
         "params": [
             0,
             20,
@@ -2130,7 +2130,7 @@
         ],
         "iconIndex": 40,
         "name": "Ring of Celestial Sphere",
-        "note": "<itemCategory:\\I[811]指輪>\n\n<CustomRegenerateMP: 8>",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateMP: 8>",
         "params": [
             0,
             0,

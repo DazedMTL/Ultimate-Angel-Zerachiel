@@ -20,7 +20,7 @@ Imported.StatusExLabel = true;
             //ザラキエルの場合はエロステを表示
 
             //エロステの項目名
-            var koumoku = ['　胸回数', '口淫回数', '秘肛回数', '膣交回数', '自慰回数', '絶頂回数']
+            var koumoku = ['　胸回数', 'Sex', 'Anal', 'Pussy', 'Masturbated', 'Climaxes']
             //エロステの項目に入れる変数
             var numEro = [1, 2, 3, 4, 5, 6]
 

@@ -6312,7 +6312,7 @@
                             "code": 355,
                             "indent": 0,
                             "parameters": [
-                                "$gameActors.actor(1).setProfile(\"無邪気な性格の少女。\\n教団に辱めを受けたことで復讐に燃えている。\")"
+                                "$gameActors.actor(1).setProfile(\"An innocent girl with a cheerful personality.\nDriven by the humiliation she experienced from the \ncult, she is burning with revenge.\")"
                             ]
                         },
                         {

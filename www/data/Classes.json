@@ -102,7 +102,7 @@
                 "skillId": 19
             }
         ],
-        "name": "下級天使（鎌）",
+        "name": "Lower Angel (Scythe)",
         "note": "",
         "params": [
             [
@@ -1035,7 +1035,7 @@
                 "skillId": 296
             }
         ],
-        "name": "スライム",
+        "name": "Slime",
         "note": "",
         "params": [
             [
@@ -1948,7 +1948,7 @@
                 "skillId": 14
             }
         ],
-        "name": "魔術師",
+        "name": "Magician",
         "note": "",
         "params": [
             [
@@ -2856,7 +2856,7 @@
                 "skillId": 324
             }
         ],
-        "name": "盗賊",
+        "name": "Thief",
         "note": "",
         "params": [
             [
@@ -3754,7 +3754,7 @@
                 "skillId": 329
             }
         ],
-        "name": "格闘家",
+        "name": "Fighter",
         "note": "",
         "params": [
             [
@@ -4677,7 +4677,7 @@
                 "skillId": 300
             }
         ],
-        "name": "下級天使（弓）",
+        "name": "Lower Angel (Archer)",
         "note": "",
         "params": [
             [

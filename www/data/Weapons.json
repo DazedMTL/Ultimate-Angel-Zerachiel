@@ -19,7 +19,7 @@
         ],
         "iconIndex": 352,
         "name": "Death Scythe",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -52,7 +52,7 @@
         ],
         "iconIndex": 353,
         "name": "Grim Reaper",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -85,7 +85,7 @@
         ],
         "iconIndex": 354,
         "name": "Raglef",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -118,7 +118,7 @@
         ],
         "iconIndex": 355,
         "name": "Hades",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -151,7 +151,7 @@
         ],
         "iconIndex": 356,
         "name": "Nivlheim",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -184,7 +184,7 @@
         ],
         "iconIndex": 357,
         "name": "Adamas Scythe",
-        "note": "<itemCategory:\\I[755]武器>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n",
         "params": [
             0,
             0,
@@ -217,7 +217,7 @@
         ],
         "iconIndex": 358,
         "name": "Scythe of the Seraph",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -250,7 +250,7 @@
         ],
         "iconIndex": 359,
         "name": "Shark Size",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -283,7 +283,7 @@
         ],
         "iconIndex": 360,
         "name": "Megalodon",
-        "note": "<itemCategory:\\I[755]武器>",
+        "note": "<itemCategory:\\I[755]Weapon>",
         "params": [
             0,
             0,
@@ -316,7 +316,7 @@
         ],
         "iconIndex": 361,
         "name": "Sharknado",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w127*1>\n<mat2:w134*1>\n\n\n<skill_id:293> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w127*1>\n<mat2:w134*1>\n\n\n<skill_id:293> ",
         "params": [
             0,
             0,
@@ -382,7 +382,7 @@
         ],
         "iconIndex": 946,
         "name": "Puni Puni Punch",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> ",
         "params": [
             0,
             0,
@@ -415,7 +415,7 @@
         ],
         "iconIndex": 946,
         "name": "King Pudding Fist",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> ",
         "params": [
             0,
             0,
@@ -580,7 +580,7 @@
         ],
         "iconIndex": 273,
         "name": "Staff of Blessing",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  ",
         "params": [
             0,
             0,
@@ -613,7 +613,7 @@
         ],
         "iconIndex": 274,
         "name": "Crystal Staff",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  ",
         "params": [
             0,
             0,
@@ -646,7 +646,7 @@
         ],
         "iconIndex": 275,
         "name": "Spirit Silver Staff",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  ",
         "params": [
             0,
             0,
@@ -679,7 +679,7 @@
         ],
         "iconIndex": 276,
         "name": "Stargazer Staff",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  ",
         "params": [
             0,
             0,
@@ -745,7 +745,7 @@
         ],
         "iconIndex": 289,
         "name": "Silver Dagger",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> ",
         "params": [
             0,
             0,
@@ -778,7 +778,7 @@
         ],
         "iconIndex": 290,
         "name": "Pilgrim's Dagger",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> ",
         "params": [
             0,
             0,
@@ -811,7 +811,7 @@
         ],
         "iconIndex": 291,
         "name": "Demonic Dagger",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> ",
         "params": [
             0,
             0,
@@ -844,7 +844,7 @@
         ],
         "iconIndex": 296,
         "name": "Dragon Fang Dagger",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> ",
         "params": [
             0,
             0,
@@ -910,7 +910,7 @@
         ],
         "iconIndex": 324,
         "name": "Spirit Silver Gauntlets",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n",
         "params": [
             0,
             0,
@@ -943,7 +943,7 @@
         ],
         "iconIndex": 322,
         "name": "Pilgrim's Gauntlets",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n",
         "params": [
             0,
             0,
@@ -976,7 +976,7 @@
         ],
         "iconIndex": 323,
         "name": "Demonic Gauntlets",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n",
         "params": [
             0,
             0,
@@ -1009,7 +1009,7 @@
         ],
         "iconIndex": 326,
         "name": "Gauntlets of Fighting Spirit",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n",
         "params": [
             0,
             0,
@@ -1042,7 +1042,7 @@
         ],
         "iconIndex": 341,
         "name": "Skillful Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n",
         "params": [
             0,
             0,
@@ -1075,7 +1075,7 @@
         ],
         "iconIndex": 1553,
         "name": "Mithril Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> ",
         "params": [
             0,
             0,
@@ -1108,7 +1108,7 @@
         ],
         "iconIndex": 338,
         "name": "Unicorn Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n",
         "params": [
             0,
             0,
@@ -1141,7 +1141,7 @@
         ],
         "iconIndex": 342,
         "name": "Wishing Star Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n",
         "params": [
             0,
             0,
@@ -2395,7 +2395,7 @@
         ],
         "iconIndex": 368,
         "name": "Death Size Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w1*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w1*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -2428,7 +2428,7 @@
         ],
         "iconIndex": 368,
         "name": "Death Size Custom +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w73*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w73*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -2461,7 +2461,7 @@
         ],
         "iconIndex": 368,
         "name": "Death Size Custom +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w74*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w74*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -2494,7 +2494,7 @@
         ],
         "iconIndex": 368,
         "name": "Death Size Custom +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w75*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w75*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -2527,7 +2527,7 @@
         ],
         "iconIndex": 368,
         "name": "Death Size Custom +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w76*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w76*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -2560,7 +2560,7 @@
         ],
         "iconIndex": 368,
         "name": "Death Size Custom +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w77*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w77*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -2626,7 +2626,7 @@
         ],
         "iconIndex": 369,
         "name": "Grim Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w2*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w2*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -2659,7 +2659,7 @@
         ],
         "iconIndex": 369,
         "name": "Grim Custom+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w80*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w80*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -2692,7 +2692,7 @@
         ],
         "iconIndex": 369,
         "name": "Grim Custom+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w81*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w81*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -2725,7 +2725,7 @@
         ],
         "iconIndex": 369,
         "name": "Grim Custom+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w82*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w82*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -2758,7 +2758,7 @@
         ],
         "iconIndex": 369,
         "name": "Grim Custom+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w83*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w83*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -2791,7 +2791,7 @@
         ],
         "iconIndex": 369,
         "name": "Grim Custom+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w84*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w84*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -2857,7 +2857,7 @@
         ],
         "iconIndex": 370,
         "name": "Largulf Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w3*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w3*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -2890,7 +2890,7 @@
         ],
         "iconIndex": 370,
         "name": "Largulf Custom +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w87*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w87*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -2923,7 +2923,7 @@
         ],
         "iconIndex": 370,
         "name": "Largulf Custom+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w88*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w88*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -2956,7 +2956,7 @@
         ],
         "iconIndex": 370,
         "name": "Largulf Custom+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w89*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w89*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -2989,7 +2989,7 @@
         ],
         "iconIndex": 370,
         "name": "Largulf Custom+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w90*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w90*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -3022,7 +3022,7 @@
         ],
         "iconIndex": 370,
         "name": "Rargulf Custom+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w91*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w91*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -3088,7 +3088,7 @@
         ],
         "iconIndex": 371,
         "name": "Hades Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w4*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w4*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -3121,7 +3121,7 @@
         ],
         "iconIndex": 371,
         "name": "Hades Custom +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w94*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w94*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -3154,7 +3154,7 @@
         ],
         "iconIndex": 371,
         "name": "Hades Custom+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w95*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w95*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -3187,7 +3187,7 @@
         ],
         "iconIndex": 371,
         "name": "Hades Custom+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w96*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w96*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -3220,7 +3220,7 @@
         ],
         "iconIndex": 371,
         "name": "Hades Custom+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w97*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w97*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -3253,7 +3253,7 @@
         ],
         "iconIndex": 371,
         "name": "Hades Custom+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w98*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w98*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -3319,7 +3319,7 @@
         ],
         "iconIndex": 372,
         "name": "Nivlheim Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w5*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w5*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -3352,7 +3352,7 @@
         ],
         "iconIndex": 372,
         "name": "Nivlheim Custom+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w101*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w101*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -3385,7 +3385,7 @@
         ],
         "iconIndex": 372,
         "name": "Nivlheim Custom+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w102*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w102*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -3418,7 +3418,7 @@
         ],
         "iconIndex": 372,
         "name": "Nivlheim Custom+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w103*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w103*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -3451,7 +3451,7 @@
         ],
         "iconIndex": 372,
         "name": "Nivlheim Custom+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w104*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w104*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -3484,7 +3484,7 @@
         ],
         "iconIndex": 372,
         "name": "Nivlheim Custom+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w105*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w105*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -3550,7 +3550,7 @@
         ],
         "iconIndex": 373,
         "name": "Adamas Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w6*1>\n<mat2:I37*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w6*1>\n<mat2:I37*1>\n",
         "params": [
             0,
             0,
@@ -3583,7 +3583,7 @@
         ],
         "iconIndex": 373,
         "name": "Adamas Custom +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w108*1>\n<mat2:I42*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w108*1>\n<mat2:I42*1>\n",
         "params": [
             0,
             0,
@@ -3616,7 +3616,7 @@
         ],
         "iconIndex": 373,
         "name": "Adamas Custom+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w109*1>\n<mat2:I41*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w109*1>\n<mat2:I41*1>\n",
         "params": [
             0,
             0,
@@ -3649,7 +3649,7 @@
         ],
         "iconIndex": 373,
         "name": "Adamas Custom +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w110*1>\n<mat2:I40*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w110*1>\n<mat2:I40*1>\n",
         "params": [
             0,
             0,
@@ -3682,7 +3682,7 @@
         ],
         "iconIndex": 373,
         "name": "Adamas Custom+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w111*1>\n<mat2:I39*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w111*1>\n<mat2:I39*1>\n",
         "params": [
             0,
             0,
@@ -3715,7 +3715,7 @@
         ],
         "iconIndex": 373,
         "name": "Adamas Custom+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w112*1>\n<mat2:I38*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w112*1>\n<mat2:I38*1>\n",
         "params": [
             0,
             0,
@@ -3781,7 +3781,7 @@
         ],
         "iconIndex": 374,
         "name": "★Azurel",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w7*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w7*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -3814,7 +3814,7 @@
         ],
         "iconIndex": 374,
         "name": "★Azurel+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w115*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w115*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -3847,7 +3847,7 @@
         ],
         "iconIndex": 374,
         "name": "★Azurel+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w116*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w116*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -3880,7 +3880,7 @@
         ],
         "iconIndex": 374,
         "name": "★Azurel +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w117*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w117*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,
@@ -3913,7 +3913,7 @@
         ],
         "iconIndex": 374,
         "name": "★Azurel+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w118*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w118*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,
@@ -3946,7 +3946,7 @@
         ],
         "iconIndex": 374,
         "name": "★Azurel +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w119*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w119*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,
@@ -4012,7 +4012,7 @@
         ],
         "iconIndex": 375,
         "name": "Shark Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w8*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w8*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -4045,7 +4045,7 @@
         ],
         "iconIndex": 375,
         "name": "Shark Custom +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w122*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w122*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -4078,7 +4078,7 @@
         ],
         "iconIndex": 375,
         "name": "Shark Custom+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w123*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w123*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -4111,7 +4111,7 @@
         ],
         "iconIndex": 375,
         "name": "Shark Custom+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w124*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w124*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -4144,7 +4144,7 @@
         ],
         "iconIndex": 375,
         "name": "Shark Custom+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w125*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w125*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -4177,7 +4177,7 @@
         ],
         "iconIndex": 375,
         "name": "Shark Custom+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w126*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w126*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -4243,7 +4243,7 @@
         ],
         "iconIndex": 376,
         "name": "Megalodon",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w8*10>\n<mat2:I29*5>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w8*10>\n<mat2:I29*5>",
         "params": [
             0,
             0,
@@ -4276,7 +4276,7 @@
         ],
         "iconIndex": 376,
         "name": "Megalodon +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w129*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w129*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -4309,7 +4309,7 @@
         ],
         "iconIndex": 376,
         "name": "Megalodon +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w130*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w130*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -4342,7 +4342,7 @@
         ],
         "iconIndex": 376,
         "name": "Megalodon +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w131*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w131*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -4375,7 +4375,7 @@
         ],
         "iconIndex": 376,
         "name": "Megalodon +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w132*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w132*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -4408,7 +4408,7 @@
         ],
         "iconIndex": 376,
         "name": "Megalodon+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w133*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w133*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -4441,7 +4441,7 @@
         ],
         "iconIndex": 377,
         "name": "★Asylum Custom",
-        "note": "<itemCategory:\\I[755]武器>\n\n<mat1:w10*1>\n<mat2:i29*15>\n\n<skill_id:294> ",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w10*1>\n<mat2:i29*15>\n\n<skill_id:294> ",
         "params": [
             0,
             0,
@@ -4474,7 +4474,7 @@
         ],
         "iconIndex": 1489,
         "name": "Wand of Great Fortune",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w18*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w18*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -4507,7 +4507,7 @@
         ],
         "iconIndex": 1489,
         "name": "Wand of Great Fortune +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w136*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w136*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -4540,7 +4540,7 @@
         ],
         "iconIndex": 1489,
         "name": "Wand of Great Fortune +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w137*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w137*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -4573,7 +4573,7 @@
         ],
         "iconIndex": 1489,
         "name": "Wand of Great Fortune +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w138*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w138*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -4606,7 +4606,7 @@
         ],
         "iconIndex": 1489,
         "name": "Wand of Great Fortune +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w139*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w139*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -4639,7 +4639,7 @@
         ],
         "iconIndex": 1489,
         "name": "Wand of Great Fortune +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w140*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w140*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -4705,7 +4705,7 @@
         ],
         "iconIndex": 1490,
         "name": "Crystal Rod",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w19*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w19*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -4738,7 +4738,7 @@
         ],
         "iconIndex": 1490,
         "name": "Crystal Rod +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w143*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w143*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -4771,7 +4771,7 @@
         ],
         "iconIndex": 1490,
         "name": "Crystal Rod +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w144*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w144*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -4804,7 +4804,7 @@
         ],
         "iconIndex": 1490,
         "name": "Crystal Rod +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w145*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w145*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -4837,7 +4837,7 @@
         ],
         "iconIndex": 1490,
         "name": "Crystal Rod +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w146*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w146*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -4870,7 +4870,7 @@
         ],
         "iconIndex": 1490,
         "name": "Crystal Rod +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w147*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w147*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -4936,7 +4936,7 @@
         ],
         "iconIndex": 1491,
         "name": "Holy Wand",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w20*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w20*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -4969,7 +4969,7 @@
         ],
         "iconIndex": 1491,
         "name": "Holy Wand +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w150*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w150*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -5002,7 +5002,7 @@
         ],
         "iconIndex": 1491,
         "name": "Holy Wand+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w151*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w151*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -5035,7 +5035,7 @@
         ],
         "iconIndex": 1491,
         "name": "Holy Wand +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w152*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w152*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5068,7 +5068,7 @@
         ],
         "iconIndex": 1491,
         "name": "Holy Wand+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w153*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w153*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5101,7 +5101,7 @@
         ],
         "iconIndex": 1491,
         "name": "Holy Wand +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w154*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w154*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -5167,7 +5167,7 @@
         ],
         "iconIndex": 1492,
         "name": "★Arc Arcana",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w21*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w21*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -5200,7 +5200,7 @@
         ],
         "iconIndex": 1492,
         "name": "★Arc Arcana +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w157*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w157*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -5233,7 +5233,7 @@
         ],
         "iconIndex": 1492,
         "name": "★Arc Arcana+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w158*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w158*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -5266,7 +5266,7 @@
         ],
         "iconIndex": 1492,
         "name": "★Arc Arcana +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w159*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w159*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5299,7 +5299,7 @@
         ],
         "iconIndex": 1492,
         "name": "★Arc Arcana +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w160*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w160*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -5332,7 +5332,7 @@
         ],
         "iconIndex": 1492,
         "name": "★Arc Arcana+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:314>  \n\n<mat1:w161*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:314>  \n\n<mat1:w161*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,
@@ -5398,7 +5398,7 @@
         ],
         "iconIndex": 1505,
         "name": "Survival Edge",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w23*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w23*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -5431,7 +5431,7 @@
         ],
         "iconIndex": 1505,
         "name": "Survival Edge+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w164*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w164*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -5464,7 +5464,7 @@
         ],
         "iconIndex": 1505,
         "name": "Survival Edge+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w165*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w165*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -5497,7 +5497,7 @@
         ],
         "iconIndex": 1505,
         "name": "Survival Edge+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w166*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w166*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -5530,7 +5530,7 @@
         ],
         "iconIndex": 1505,
         "name": "Survival Edge+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w167*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w167*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5563,7 +5563,7 @@
         ],
         "iconIndex": 1505,
         "name": "Survival Edge+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w168*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w168*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5629,7 +5629,7 @@
         ],
         "iconIndex": 1506,
         "name": "Mine Goshu",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w24*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w24*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -5662,7 +5662,7 @@
         ],
         "iconIndex": 1506,
         "name": "Mine Gosh +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w171*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w171*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -5695,7 +5695,7 @@
         ],
         "iconIndex": 1506,
         "name": "Mine Gosh +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w172*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w172*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -5728,7 +5728,7 @@
         ],
         "iconIndex": 1506,
         "name": "Mine Gosh +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w173*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w173*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5761,7 +5761,7 @@
         ],
         "iconIndex": 1506,
         "name": "Mine Gosh +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w174*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w174*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5794,7 +5794,7 @@
         ],
         "iconIndex": 1506,
         "name": "Mine Gosh +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w175*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w175*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -5860,7 +5860,7 @@
         ],
         "iconIndex": 1507,
         "name": "Sweet Kiss",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w25*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w25*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -5893,7 +5893,7 @@
         ],
         "iconIndex": 1507,
         "name": "Sweet Kiss +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w178*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w178*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -5926,7 +5926,7 @@
         ],
         "iconIndex": 1507,
         "name": "Sweet Kiss +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w179*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w179*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -5959,7 +5959,7 @@
         ],
         "iconIndex": 1507,
         "name": "Sweet Kiss +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w180*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w180*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -5992,7 +5992,7 @@
         ],
         "iconIndex": 1507,
         "name": "Sweet Kiss +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w181*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w181*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -6025,7 +6025,7 @@
         ],
         "iconIndex": 1507,
         "name": "Sweet Kiss +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w182*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w182*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -6091,7 +6091,7 @@
         ],
         "iconIndex": 1512,
         "name": "★Breath of Tooth",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w26*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w26*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -6124,7 +6124,7 @@
         ],
         "iconIndex": 1512,
         "name": "★Breath of Tooth+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w185*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w185*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -6157,7 +6157,7 @@
         ],
         "iconIndex": 1512,
         "name": "★Breath of Tooth+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w186*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w186*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -6190,7 +6190,7 @@
         ],
         "iconIndex": 1512,
         "name": "★Breath of Tooth+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w187*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w187*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -6223,7 +6223,7 @@
         ],
         "iconIndex": 1512,
         "name": "★Breath of Tooth +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w188*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w188*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -6256,7 +6256,7 @@
         ],
         "iconIndex": 1512,
         "name": "★Breath of Tooth +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:312> \n\n<mat1:w189*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:312> \n\n<mat1:w189*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,
@@ -6322,7 +6322,7 @@
         ],
         "iconIndex": 1540,
         "name": "Sacred",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w28*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w28*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -6355,7 +6355,7 @@
         ],
         "iconIndex": 1540,
         "name": "Sacred+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w192*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w192*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -6388,7 +6388,7 @@
         ],
         "iconIndex": 1540,
         "name": "Sacred+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w193*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w193*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -6421,7 +6421,7 @@
         ],
         "iconIndex": 1540,
         "name": "Sacred+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w194*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w194*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -6454,7 +6454,7 @@
         ],
         "iconIndex": 1540,
         "name": "Sacred+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w195*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w195*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -6487,7 +6487,7 @@
         ],
         "iconIndex": 1540,
         "name": "Sacred+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w196*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w196*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -6553,7 +6553,7 @@
         ],
         "iconIndex": 1538,
         "name": "Holy Glove",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w29*1>\n<mat2:I37*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w29*1>\n<mat2:I37*1>\n",
         "params": [
             0,
             0,
@@ -6586,7 +6586,7 @@
         ],
         "iconIndex": 1538,
         "name": "Holy Glove +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w199*1>\n<mat2:I42*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w199*1>\n<mat2:I42*1>\n",
         "params": [
             0,
             0,
@@ -6619,7 +6619,7 @@
         ],
         "iconIndex": 1538,
         "name": "Holy Glove +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w200*1>\n<mat2:I41*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w200*1>\n<mat2:I41*1>\n",
         "params": [
             0,
             0,
@@ -6652,7 +6652,7 @@
         ],
         "iconIndex": 1538,
         "name": "Holy Glove +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w201*1>\n<mat2:I40*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w201*1>\n<mat2:I40*1>\n",
         "params": [
             0,
             0,
@@ -6685,7 +6685,7 @@
         ],
         "iconIndex": 1538,
         "name": "Holy Glove +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w202*1>\n<mat2:I40*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w202*1>\n<mat2:I40*1>\n",
         "params": [
             0,
             0,
@@ -6718,7 +6718,7 @@
         ],
         "iconIndex": 1538,
         "name": "Holy Glove +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w203*1>\n<mat2:I39*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w203*1>\n<mat2:I39*1>\n",
         "params": [
             0,
             0,
@@ -6784,7 +6784,7 @@
         ],
         "iconIndex": 1547,
         "name": "God Hand",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w30*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w30*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -6817,7 +6817,7 @@
         ],
         "iconIndex": 1547,
         "name": "God Hand +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w206*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w206*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -6850,7 +6850,7 @@
         ],
         "iconIndex": 1547,
         "name": "God Hand +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w207*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w207*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -6883,7 +6883,7 @@
         ],
         "iconIndex": 1547,
         "name": "God Hand +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w208*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w208*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -6916,7 +6916,7 @@
         ],
         "iconIndex": 1547,
         "name": "God Hand +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w209*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w209*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -6949,7 +6949,7 @@
         ],
         "iconIndex": 1547,
         "name": "God Hand +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w210*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w210*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -7015,7 +7015,7 @@
         ],
         "iconIndex": 682,
         "name": "★Rabi Hope",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w31*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w31*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -7048,7 +7048,7 @@
         ],
         "iconIndex": 682,
         "name": "★Rabi Hope+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w213*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w213*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -7081,7 +7081,7 @@
         ],
         "iconIndex": 682,
         "name": "★Rabi Hope+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w214*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w214*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -7114,7 +7114,7 @@
         ],
         "iconIndex": 682,
         "name": "★Ravihope+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w215*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w215*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -7147,7 +7147,7 @@
         ],
         "iconIndex": 682,
         "name": "★Ravi Hope+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w216*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w216*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -7180,7 +7180,7 @@
         ],
         "iconIndex": 682,
         "name": "★Ravi Hope+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:311> \n\n<mat1:w217*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:311> \n\n<mat1:w217*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,
@@ -7246,7 +7246,7 @@
         ],
         "iconIndex": 1557,
         "name": "Skillful Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n",
         "params": [
             0,
             0,
@@ -7279,7 +7279,7 @@
         ],
         "iconIndex": 1557,
         "name": "Skillful Bow +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w220*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w220*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -7312,7 +7312,7 @@
         ],
         "iconIndex": 1557,
         "name": "Skillful Bow +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w221*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w221*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -7345,7 +7345,7 @@
         ],
         "iconIndex": 1557,
         "name": "Skillful Bow +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w222*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w222*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -7378,7 +7378,7 @@
         ],
         "iconIndex": 1557,
         "name": "Skillful Bow +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w223*1>\n<mat2:I39*1>\n",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w223*1>\n<mat2:I39*1>\n",
         "params": [
             0,
             0,
@@ -7411,7 +7411,7 @@
         ],
         "iconIndex": 1557,
         "name": "Skillful Bow +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w224*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w224*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -7477,7 +7477,7 @@
         ],
         "iconIndex": 1553,
         "name": "Spirit Silver Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w33*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w33*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -7510,7 +7510,7 @@
         ],
         "iconIndex": 1553,
         "name": "Spirit Silver Bow +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w227*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w227*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -7543,7 +7543,7 @@
         ],
         "iconIndex": 1553,
         "name": "Spirit Silver Bow +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w228*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w228*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -7576,7 +7576,7 @@
         ],
         "iconIndex": 1553,
         "name": "Spirit Silver Bow +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w229*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w229*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -7609,7 +7609,7 @@
         ],
         "iconIndex": 1553,
         "name": "Spirit Silver Bow +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w230*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w230*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -7642,7 +7642,7 @@
         ],
         "iconIndex": 1553,
         "name": "Spirit Silver Bow +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w231*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w231*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -7708,7 +7708,7 @@
         ],
         "iconIndex": 1554,
         "name": "Unicorn Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w34*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w34*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -7741,7 +7741,7 @@
         ],
         "iconIndex": 1554,
         "name": "Unicorn Bow +1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w234*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w234*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -7774,7 +7774,7 @@
         ],
         "iconIndex": 1554,
         "name": "Unicorn Bow +2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w235*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w235*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -7807,7 +7807,7 @@
         ],
         "iconIndex": 1554,
         "name": "Unicorn Bow +3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w236*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w236*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -7840,7 +7840,7 @@
         ],
         "iconIndex": 1554,
         "name": "Unicorn Bow +4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w237*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w237*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -7873,7 +7873,7 @@
         ],
         "iconIndex": 1554,
         "name": "Unicorn Bow +5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w238*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w238*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -7939,7 +7939,7 @@
         ],
         "iconIndex": 1558,
         "name": "★Starfall Bow",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w35*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w35*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -7972,7 +7972,7 @@
         ],
         "iconIndex": 1558,
         "name": "★Starfall Bow+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w241*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w241*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -8005,7 +8005,7 @@
         ],
         "iconIndex": 1558,
         "name": "★Starfall Bow+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w242*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w242*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -8038,7 +8038,7 @@
         ],
         "iconIndex": 1558,
         "name": "★Starfall Bow+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w243*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w243*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -8071,7 +8071,7 @@
         ],
         "iconIndex": 1558,
         "name": "★Starfall Bow+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w244*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w244*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -8104,7 +8104,7 @@
         ],
         "iconIndex": 1558,
         "name": "★Starfall Bow+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:310> \n\n<mat1:w245*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:310> \n\n<mat1:w245*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,
@@ -8170,7 +8170,7 @@
         ],
         "iconIndex": 1568,
         "name": "★GOP",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w13*1>\n<mat2:I37*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> \n\n<mat1:w13*1>\n<mat2:I37*1>",
         "params": [
             0,
             0,
@@ -8203,7 +8203,7 @@
         ],
         "iconIndex": 1568,
         "name": "★GOP+1",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w248*1>\n<mat2:I42*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> \n\n<mat1:w248*1>\n<mat2:I42*1>",
         "params": [
             0,
             0,
@@ -8236,7 +8236,7 @@
         ],
         "iconIndex": 1568,
         "name": "★GOP+2",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w249*1>\n<mat2:I41*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> \n\n<mat1:w249*1>\n<mat2:I41*1>",
         "params": [
             0,
             0,
@@ -8269,7 +8269,7 @@
         ],
         "iconIndex": 1568,
         "name": "★GOP+3",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w250*1>\n<mat2:I40*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> \n\n<mat1:w250*1>\n<mat2:I40*1>",
         "params": [
             0,
             0,
@@ -8302,7 +8302,7 @@
         ],
         "iconIndex": 1568,
         "name": "★GOP+4",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w251*1>\n<mat2:I39*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> \n\n<mat1:w251*1>\n<mat2:I39*1>",
         "params": [
             0,
             0,
@@ -8335,7 +8335,7 @@
         ],
         "iconIndex": 1568,
         "name": "★GOP+5",
-        "note": "<itemCategory:\\I[755]武器>\n\n<skill_id:18> \n\n<mat1:w252*1>\n<mat2:I38*1>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<skill_id:18> \n\n<mat1:w252*1>\n<mat2:I38*1>",
         "params": [
             0,
             0,

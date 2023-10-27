@@ -353,7 +353,7 @@ Window_MainMenuVariable.prototype.initialize = function (x, y, w, h) {
 };
 
 Window_MainMenuVariable.prototype.standardFontSize = function () {
-  return Yanfly.Param.MMVarFontSize || 28;
+  return 16;
 };
 
 Window_MainMenuVariable.prototype.standardPadding = function () {
