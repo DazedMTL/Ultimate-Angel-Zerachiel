@@ -4168,7 +4168,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: There's no doubt that Effy's\ncurse belongs to the star-reading god,\nEden."
+                                "Zerachiel: There's no doubt that Effy's\ncurse is the work of the stargazing\ngoddess Eden."
                             ]
                         },
                         {
@@ -4261,7 +4261,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: One of the forbidden arts\nthat grows on souls as nourishment,\nspreads toxins, and annihilates all\nlife..."
+                                "Zerachiel: One of the forbidden arts\nthat feeds on souls, spreads toxins, and\nannihilates all life..."
                             ]
                         },
                         {
@@ -4292,7 +4292,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: With the Seventh Curse, I can\nobtain the world."
+                                "Zerachiel: With even the Seventh Curse,\nI can obtain the world."
                             ]
                         },
                         {
@@ -4323,7 +4323,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Lala: First of all, I have a question.\nWhy does the star-reading god want to\nobtain the world?"
+                                "Lala: First of all, I have a question.\nWhy does the stargazing goddess want to\nobtain the world?"
                             ]
                         },
                         {
@@ -4534,7 +4534,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "In the primordial era, there were many gods in this world.\n"
+                                "\\CLIn the primordial era, there were many\ngods in this world."
                             ]
                         },
                         {
@@ -4558,7 +4558,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "After spending a long time, the god came\nto a conclusion."
+                                "\\CLAfter spending a long time, the gods\ncame to a conclusion."
                             ]
                         },
                         {
@@ -4582,7 +4582,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "CL: 'The world is too vast for the gods\nto live in alone.'"
+                                "\\CLThe world is too vast to live with just\nthe gods."
                             ]
                         },
                         {
@@ -4606,7 +4606,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If that's the case..."
+                                "\\CLIn that case..."
                             ]
                         },
                         {
@@ -4630,7 +4630,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "CL: What if we create a new race and\nlive together? Wouldn't that be fun?"
+                                "\\CLWhat if we create a new race and live\ntogether? Wouldn't that be fun?"
                             ]
                         },
                         {
@@ -4688,7 +4688,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "And thus, the two chosen by the Creator\nwere the twin gods."
+                                "\\CLAnd so, the two chosen by the Creator\nwere the two gods."
                             ]
                         },
                         {
@@ -4712,7 +4712,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "CL: Brave \\c[6]Star-Reading God\nEden\\c[0]"
+                                "\\CLBrave \\c[6]Stargazing Goddess Eden\\c[0]"
                             ]
                         },
                         {
@@ -4736,7 +4736,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "CL, the kind-hearted and fortunate\ngoddess, Michelin."
+                                "\\CLKind-hearted \\c[6]Goddess of Fortune,\nMichelin\\c[0]"
                             ]
                         },
                         {
@@ -4760,7 +4760,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The twin gods, CL, created various\nlives."
+                                "\\CLThe two gods created various lives."
                             ]
                         },
                         {
@@ -4784,7 +4784,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The life created by the \\c[6]Star-\nReading God Eden\\c[0], CL, was a high-\nlevel organism..."
+                                "\\CLThe life created by the Stargazing\nGoddess Eden was a high-level\norganism..."
                             ]
                         },
                         {
@@ -4808,7 +4808,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "They are beings such as angel,\ndragonkin, giant, and divine beasts."
+                                "\\CLThey are beings such as angels, dragon\npeople, giants, and divine beasts."
                             ]
                         },
                         {
@@ -4832,38 +4832,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "On the other hand, \\CL they possess\noverwhelming lifespan and power\\CL , but\ntheir reproductive ability is very low."
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Because they have the bloodline of\nEden, they are called the \\c[6]people of\nEden\\c[0]."
+                                "\\CLThey possess overwhelming lifespan and\npower, on the other hand, their\nreproductive ability is very low."
                             ]
                         },
                         {
@@ -4894,55 +4863,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The life created by the divine magician\nMichelin is a multitude of races..."
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Humans, beastmen, mermaids, elves, and\ndwarves are famous."
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Compared to the people of Eden, they\nare beings with inferior power, magic,\nand even lifespan. They are called the\n\\c[0]people of Michelin\\c[1]."
+                                "\\CLThey are called the \\c[6]people of\nEden\\c[0], due to their lineage with\nEden."
                             ]
                         },
                         {
@@ -4973,7 +4894,55 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The two races have spent a long time\ntogether, cooperating with each other\nwithout any conflict."
+                                "\\CLThe life created by the \\c[6]Goddess of\nFortune, Michelin\\c[0] was many races..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\CLHumans, beastmen, mermaids, elves, and\ndwarves are famous."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\CLCompared to the people of Eden, they are\nbeings who are inferior in terms of\npower, magical power, and even lifespan.\nThey are called the \\c[6]people of\nMichelin\\c[0]."
                             ]
                         },
                         {
@@ -5004,7 +4973,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Until that day, a thousand years\nago..."
+                                "\\CLThe two races have spent a long time\ntogether, cooperating with each other\nwithout any conflict."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\CLUntil that day, a thousand years ago..."
                             ]
                         },
                         {
@@ -5076,7 +5076,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "A thousand years ago... a massive\nmeteorite fell onto this planet."
+                                "\\CLA thousand years ago... a massive\nmeteorite fell onto this planet."
                             ]
                         },
                         {
@@ -5100,7 +5100,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Even if the gods joined forces, this\nplanet was supposed to disappear without\na trace due to a massive meteorite that\ncouldn't be avoided."
+                                "\\CLThe planet was supposed to disappear\nwithout a trace due to a massive\nmeteorite that even the gods, combining\ntheir powers, couldn't avoid."
                             ]
                         },
                         {
@@ -5131,7 +5131,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "However, a hero appeared who twisted\nthat fate."
+                                "\\CLBut, a hero appeared who twisted that\nfate."
                             ]
                         },
                         {
@@ -5203,7 +5203,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The hero king who created the later\nempire, the \\c[0]founder emperor\\c[1] of\nthe \\c[6]people of Michelin\\c[0]."
+                                "\\CLThe Emperor, the founding ancestor of\nthe \\c[6]people of Michelin\\c[0], who\nbuilt the later empire."
                             ]
                         },
                         {
@@ -5234,7 +5234,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "He used forbidden magic to protect this\nplanet."
+                                "\\CLHe used forbidden magic to protect this\nplanet."
                             ]
                         },
                         {
@@ -5258,62 +5258,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Using the continent where the\n\\c[6]people of Eden\\c[0], who possess\nhigh magical power, live as a catalyst,\nthey activate a large-scale ritual..."
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "The meteorite fell into a different\nworld from this planet..."
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "The \\c[0]people of Michelin\\c[1]\nsucceeded in surviving by isolating\nthemselves in the \\c[0]other side\nworld\\c[1]."
+                                "\\CLA large-scale ritual is activated using\nthe continent where the \\c[6]people of\nEden\\c[0], who possess high magical\npower, live as a catalyst..."
                             ]
                         },
                         {
@@ -5344,7 +5289,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "However, on the other hand..."
+                                "\\CLThe meteorite came from a different\nworld than this planet..."
                             ]
                         },
                         {
@@ -5368,7 +5313,62 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The \\CL \\c[6]people of Eden\\CL \\c[0] were\nsacrificed."
+                                "\\CLThe \\c[1]people of Michelin\\c[0]\nsucceeded in surviving by being isolated\nin the \\c[1]other side world\\c[0]."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\CLHowever, on the other hand..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\CLThe people of Eden were sacrificed."
                             ]
                         },
                         {
@@ -5440,7 +5440,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Having lost their hometown, their\ncomrades, and betrayed by the\n\\c[1]people of Michelin\\c[0]..."
+                                "\\CLI lost my hometown, lost my comrades,\nand was betrayed by the \\c[6]people of\nMichelin\\c[0]..."
                             ]
                         },
                         {
@@ -5464,7 +5464,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "How much despair did they feel?"
+                                "\\CLHow desperate must they have been?"
                             ]
                         },
                         {
@@ -5536,7 +5536,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The \\c[6]people of Eden\\c[0] are\nconsidering revenge."
+                                "\\CLThe people of Eden are considering\nrevenge."
                             ]
                         },
                         {
@@ -5560,7 +5560,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's why they are preparing like this."
+                                "\\CLThat's why they are preparing like this."
                             ]
                         },
                         {
@@ -6000,7 +6000,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: I never expected Aries to be\nthe daughter of the Demon King."
+                                "Zerachiel: I never expected Aries to be\nthe daughter of the Demon Lord."
                             ]
                         },
                         {
@@ -6062,7 +6062,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Lala: You don't seem like a demon at\nall."
+                                "Lala: You don't look like a demon at\nall, do you?"
                             ]
                         },
                         {
@@ -6141,7 +6141,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: I was helped by an incredible\nperson, huh."
+                                "Zerachiel: I was helped by an incredible\nperson, you know."
                             ]
                         },
                         {
@@ -6442,7 +6442,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Aries: A joint military invasion by the\nDemon King's army and the members of the\ncult..."
+                                "Aries: A joint military invasion by the\nDemon Lord's army and the members of the\ncult..."
                             ]
                         },
                         {
@@ -6597,7 +6597,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: In other words, this is our\nchance to board when our forces are not\nfully prepared."
+                                "Zerachiel: In other words, this is our\nchance to board when our forces are not\nyet fully prepared."
                             ]
                         },
                         {
@@ -6682,7 +6682,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I received the \\c[0]Holy Maiden's\nRing\\c[6]!"
+                                "Received the \\c[6]Ring of the Holy\nMaiden\\c[0]!"
                             ]
                         },
                         {
@@ -6754,7 +6754,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: Effy... to me..."
+                                "Zerachiel: Effy said to me..."
                             ]
                         },
                         {
@@ -6849,7 +6849,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I received Aries' amulet!"
+                                "Received \\c[6]Aries' amulet\\c[0]!"
                             ]
                         },
                         {

@@ -9124,7 +9124,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mel: ...So, what you're saying is that\nthis girl named Shemini had fallen in\nlove with Claudia and it caused quite a\ncommotion."
+                                "Mel: ...So, what you're saying is that\nthis girl named Shemini fell in love\nwith Claudia and it caused quite a\ncommotion."
                             ]
                         },
                         {
@@ -9162,7 +9162,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Claudia: Yes, I did receive the resin\ngemstone as a gift though."
+                                "Claudia: Yes, I did receive the\n\\c[6]resin gemstone\\c[0] as a gift\nthough."
                             ]
                         },
                         {
@@ -9289,7 +9289,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel: I couldn't have made it on my\nown."
+                                "Zerachiel: I couldn't have made it by\nmyself."
                             ]
                         },
                         {
@@ -9416,7 +9416,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mel: We should help each other when\nwe're in trouble."
+                                "Mel: We should help each other when\nwe're in trouble, right?"
                             ]
                         },
                         {
@@ -9955,7 +9955,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Rabi: Don't worry, Zerachiel. I believe\nwe will succeed."
+                                "Rabi: Don't worry, Zerachiel. I believe\nthat I will succeed."
                             ]
                         },
                         {
@@ -10096,7 +10096,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mel: I've already reserved our usual\ninn, so today we can relax and take it\neasy."
+                                "Mel: I've already reserved our usual\ninn, so today we can relax."
                             ]
                         },
                         {
@@ -10346,7 +10346,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It seems like CL was exhausted."
+                                "\\CL I must have been exhausted."
                             ]
                         },
                         {
@@ -10394,7 +10394,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zerachiel fell into a deep sleep in the\nbed..."
+                                "Zerachiel fell into a deep sleep in her\nbed..."
                             ]
                         },
                         {
@@ -10700,7 +10700,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Knight: It seems they have known each\nother since they were young."
+                                "Knight: I heard they have known each\nother since they were young."
                             ]
                         },
                         {

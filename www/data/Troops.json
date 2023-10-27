@@ -256,7 +256,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Saint: Let's finish this quickly."
+                            "Saintess: Let's finish this quickly."
                         ]
                     },
                     {
@@ -1521,7 +1521,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Captain: I will take revenge for my\ncomrades...!"
+                            "Captain: I will avenge my comrades...!"
                         ]
                     },
                     {
@@ -2089,7 +2089,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Zerachiel: But I wonder if they're\nfriends with that person? It might be\npitiful to defeat them..."
+                            "Zerachiel: But I wonder if they're that\nperson's friend? It might be pitiful to\ndefeat them..."
                         ]
                     },
                     {
@@ -3613,7 +3613,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Knight: I will now return the life you\nsaved by picking me up...!"
+                            "Knight: I will repay the life you saved\nby picking me up... right here...!"
                         ]
                     },
                     {
@@ -4151,7 +4151,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Effy: The third curse... Vacuum Comet!"
+                            "Effy: The Third Curse... 'Vacuum Comet'!"
                         ]
                     },
                     {
@@ -4261,7 +4261,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Effy: It's the curse of debilitation."
+                            "Effy: It's the Curse of Debilitation."
                         ]
                     },
                     {
@@ -4285,7 +4285,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Effy: With this, it will be difficult\nfor you to move quickly."
+                            "Effy: With this, it will be difficult\nfor you to move swiftly."
                         ]
                     },
                     {
@@ -4891,7 +4891,7 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "Remiel: I was worried about Lord\nSariel...! I want to fight together\ntoo!!"
+                            "Remiel: I was worried about Lord\nSariel...! I want to fight alongside you\ntoo!!"
                         ]
                     },
                     {
@@ -5015,7 +5015,7 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": [
-                            "Remiel: I am not fighting for the\nSupreme God. I am fighting for Lord\nSariel's sake!"
+                            "Remiel: I am not fighting for the\nSupreme God. I am fighting for Lord\nSariel!"
                         ]
                     },
                     {
@@ -6040,7 +6040,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Zerachiel: Because she possesses power\nthat surpasses angels, even if we were\nto clash with our strength, we wouldn't\nbe able to win."
+                            "Zerachiel: Because she possesses power\nthat surpasses angels, even if we clash\nwith our strength, we won't be able to\nwin."
                         ]
                     },
                     {
@@ -6071,7 +6071,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Zerachiel: In that case... let's use the\n\\c[6]dark wave\\c[0]."
+                            "Zerachiel: In that case... let's use the\n\\c[6]Dark Wave\\c[0]."
                         ]
                     },
                     {
@@ -6095,7 +6095,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Zerachiel: If it's the \\c[0]dark\nwave\\c[1], we should be able to\nwithstand the Gigas' attack."
+                            "Zerachiel: If it's the \\c[6]Dark\nWave\\c[0], we should be able to\nwithstand the Gigas' attack."
                         ]
                     },
                     {
@@ -8453,7 +8453,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Now I understand, Zerachiel."
+                            "\\CLNow I understand, Zerachiel."
                         ]
                     },
                     {
@@ -8484,7 +8484,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "You should have disposed of it sooner."
+                            "\\CLYou should have disposed of it sooner."
                         ]
                     },
                     {
@@ -8508,38 +8508,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "You, as an individual, are different\nfrom any fake body that has ever\nexisted."
-                        ]
-                    },
-                    {
-                        "code": 0,
-                        "indent": 0,
-                        "parameters": [
-                            ""
-                        ]
-                    },
-                    {
-                        "code": 0,
-                        "indent": 0,
-                        "parameters": [
-                            ""
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Enemy",
-                            2,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "Because you possess a heart that is as\nclose to human as possible, you could\nbecome a threatening presence to me."
+                            "\\CLYou, as an individual, are different\nfrom any fake body that has ever\nexisted."
                         ]
                     },
                     {
@@ -8570,31 +8539,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "However, that is precisely why you are\namazing."
-                        ]
-                    },
-                    {
-                        "code": 0,
-                        "indent": 0,
-                        "parameters": [
-                            ""
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Enemy",
-                            2,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "I have finally become complete by\nincorporating the Seventh Curse."
+                            "\\CLBecause you possess a heart that is\nclose to that of a human, you could\nbecome a threatening presence to me."
                         ]
                     },
                     {
@@ -8625,7 +8570,62 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "With all my might, I will bring you\ndespair."
+                            "\\CLHowever, that's precisely why you are\namazing."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "\\CLI have finally become complete by\nincorporating the Seventh Curse."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "\\CLWith all my might, I will bring you\ndespair."
                         ]
                     },
                     {
@@ -8759,7 +8759,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Defeated by the Emperor, the founder of\nthe CL, a thousand years ago..."
+                            "\\CLDefeated by the Emperor of the Ancestors\nfor a thousand years..."
                         ]
                     },
                     {
@@ -8783,38 +8783,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "No matter how time may pass, the thirst\nfor my revenge will never wane..."
-                        ]
-                    },
-                    {
-                        "code": 0,
-                        "indent": 0,
-                        "parameters": [
-                            ""
-                        ]
-                    },
-                    {
-                        "code": 0,
-                        "indent": 0,
-                        "parameters": [
-                            ""
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Enemy",
-                            2,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "The essence of life lies in the\nstruggle of the CL. The law of the\njungle is the psychology of the world."
+                            "\\CLNo matter how time may pass, the thirst\nfor my revenge will never wane..."
                         ]
                     },
                     {
@@ -8845,7 +8814,38 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Because I am CL, I choose the path of\nstruggle, to dominate the world myself,\nand to quench this thirst of CL."
+                            "\\CLThe essence of life is struggle,\nsurvival of the fittest is the\npsychology of the world."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "\\CLThat's why I have chosen the path of\nstruggle, to dominate the world myself\nand quench this thirst."
                         ]
                     },
                     {
@@ -9042,7 +9042,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "CL, in the distant past..."
+                            "\\CLIn a distant past..."
                         ]
                     },
                     {
@@ -9066,7 +9066,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "A single giant god of CL challenged the\ngods, and CL miraculously survived."
+                            "\\CLOne giant god challenged the gods and\nmiraculously survived."
                         ]
                     },
                     {
@@ -9074,37 +9074,6 @@
                         "indent": 0,
                         "parameters": [
                             ""
-                        ]
-                    },
-                    {
-                        "code": 0,
-                        "indent": 0,
-                        "parameters": [
-                            ""
-                        ]
-                    },
-                    {
-                        "code": 0,
-                        "indent": 0,
-                        "parameters": [
-                            ""
-                        ]
-                    },
-                    {
-                        "code": 101,
-                        "indent": 0,
-                        "parameters": [
-                            "Enemy",
-                            2,
-                            0,
-                            2
-                        ]
-                    },
-                    {
-                        "code": 401,
-                        "indent": 0,
-                        "parameters": [
-                            "All the power that surpasses even that\ngiant god of CL has now been unleashed."
                         ]
                     },
                     {
@@ -9135,7 +9104,14 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "I am the god of CL."
+                            "\\CLNow, all the power that surpasses even\nthat giant god has been unleashed."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
                         ]
                     },
                     {
@@ -9159,7 +9135,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "I am the hope of CL."
+                            "\\CLI am the god."
                         ]
                     },
                     {
@@ -9183,7 +9159,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "The unification of the CL world is the\nbeacon of peace."
+                            "\\CLI am the hope."
                         ]
                     },
                     {
@@ -9207,7 +9183,31 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "If you dare to interfere with me, CL,\nthen you shall perish for eternity."
+                            "\\CLThe unification of the world is the\nbeacon of peace."
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Enemy",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "\\CLIf you dare to obstruct me, you shall\nperish for eternity."
                         ]
                     },
                     {
@@ -9403,7 +9403,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Furthermore, the body exposed to the\nraging waves of elements gradually\ndecays."
+                            "Furthermore, the body exposed to the\nraging waves of elemental energy\ngradually decays."
                         ]
                     },
                     {
@@ -10210,7 +10210,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Eden: ...I have entrusted the world, and\nthe future."
+                            "Eden: ...I have entrusted the world and\nthe future."
                         ]
                     },
                     {
@@ -11022,7 +11022,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Shemini: I won't let you escape, no\nmatter what!!"
+                            "Shemini: I won't let you escape, no\nway!!"
                         ]
                     },
                     {
@@ -11578,7 +11578,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Shemini: It's time to grow giant!"
+                            "Shemini: It's time to grow gigantic!"
                         ]
                     },
                     {
@@ -11683,7 +11683,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Shemini: Please be my obedient partner!!"
+                            "Shemini: Please be obedient and become\nmy partner!!"
                         ]
                     },
                     {
@@ -13360,7 +13360,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Ah... my body feels light..."
+                            "\\CLPhew... my body feels light..."
                         ]
                     },
                     {
@@ -13384,7 +13384,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "CL: 'It's temporary, but I've been\nallowed to leave the barrier.'"
+                            "\\CLI was allowed to temporarily leave the\nbarrier."
                         ]
                     },
                     {
@@ -13408,7 +13408,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "CL: Now we can fight to our heart's\ncontent."
+                            "\\CLNow we can fight to our heart's\ncontent."
                         ]
                     },
                     {
@@ -14436,7 +14436,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Ern: I have been entrusted with the role\nof guardian of paradise by that person."
+                            "Ern: I have been entrusted with the role\nof being the guardian of paradise by\nthat person."
                         ]
                     },
                     {
@@ -14505,7 +14505,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Ern: Let me teach you a despair that\nsurpasses the Star God."
+                            "Ern: Let me teach you the despair that\nsurpasses the Star God."
                         ]
                     },
                     {
@@ -15053,7 +15053,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "\\c[6]Oh, \\c[0]Administrator of Time."
+                            "\\c[6]You are the administrator of\n\\c[0]time."
                         ]
                     },
                     {
@@ -18558,7 +18558,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "Oh, my great subordinates, appear!"
+                            "Appear, my great subordinates."
                         ]
                     },
                     {
@@ -18700,7 +18700,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "The great king Piel, who leads the 66\nlegions."
+                            "The great king Piel, who leads a legion\nof 66."
                         ]
                     },
                     {
@@ -18771,7 +18771,7 @@
                         "code": 401,
                         "indent": 0,
                         "parameters": [
-                            "The Wise Witch who has mastered all\nelements"
+                            "The Wise Witch who Masters All\nElements"
                         ]
                     },
                     {
