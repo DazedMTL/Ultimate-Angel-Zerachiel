@@ -24894,14 +24894,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Phew, we finally arrived."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふぅ、ついに到着したね。"
+                                ""
                             ]
                         },
                         {
@@ -24918,14 +24918,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: So this is the scorching\ndesert..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここが熱砂の砂漠かぁ……"
+                                ""
                             ]
                         },
                         {
@@ -25095,45 +25095,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yeah, it's hot."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、暑いね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                5,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔大陸は元素が濃いから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その影響で様々な地形が生まれやすいんだ。"
+                                ""
                             ]
                         },
                         {
@@ -25150,21 +25119,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: The Magic Continent has a high\nconcentration of elements, so various\nterrains are easily formed due to its\ninfluence."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                5,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　他の島でも、"
+                                "Sachia: On other islands, there are snow\nmountains near volcanoes too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　火山の近くに雪山があったりするよ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -25181,14 +25181,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Elements can cause changes in\nthe terrain, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　元素って地形に変化を与えちゃうんだね。"
+                                ""
                             ]
                         },
                         {
@@ -25205,14 +25205,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Ahaha, that's right."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、そうだね。"
+                                ""
                             ]
                         },
                         {
@@ -25260,21 +25260,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: For now, the thing to be careful\nof in this desert is probably goblins,\nafter all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　とりあえずこの砂漠で気をつけることは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　やっぱりゴブリンかな。"
+                                ""
                             ]
                         },
                         {
@@ -25331,21 +25331,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Goblins move in groups, and they\nhave a strong sense of camaraderie."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリンは群れで行動するんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仲間意識が強いんだ。"
+                                ""
                             ]
                         },
                         {
@@ -25362,21 +25362,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: If her comrades are attacked,\nshe should get angry and become more\naggressive."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　他の仲間がやられたら怒って、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　攻撃が激しくなるハズだよ。"
+                                ""
                             ]
                         },
                         {
@@ -25393,45 +25393,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: In that case... it might be\nbetter to defeat them all at once."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そうなると……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まとめて倒したほうが良いかもしれないね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                5,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　うん、そうだね。"
+                                ""
                             ]
                         },
                         {
@@ -25448,14 +25424,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Yeah, that's right."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                5,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それじゃ、\\c[6]大地の宝珠\\c[0]を探してみよっか。"
+                                "Sachia: Well then, shall we try\nsearching for the \\c[6]Earth Orb\\c[0]?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -25472,14 +25472,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: First, let's try searching\nfor a cave."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まずは洞窟を探してみよう。"
+                                ""
                             ]
                         },
                         {

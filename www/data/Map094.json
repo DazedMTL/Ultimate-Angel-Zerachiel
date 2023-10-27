@@ -16,7 +16,7 @@
         "volume": 20
     },
     "disableDashing": false,
-    "displayName": "通路",
+    "displayName": "Passage",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -8714,38 +8714,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "船員："
+                                "Crew Member: If you go up, it's the\ndeck."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　上に行けば甲板だよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "船員："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　食堂は下の階さ。"
+                                ""
                             ]
                         },
                         {
@@ -8762,14 +8738,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "船員："
+                                "Crew Member: The cafeteria is on the\nlower floor."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　右に向かえば、お手洗いと浴室があるよ。"
+                                "Crew Member: If you go to the right,\nthere's a restroom and a bath."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8853,14 +8853,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm feeling hungry, should I\ngo to the cafeteria?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お腹空いたし、食堂に行ってみようかなぁ。"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "アリエスの隠れ家",
+    "displayName": "Aries' Hideout",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4249,21 +4249,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We need to find Aries. I\nthink she might be indoors."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アリエスを探さないと。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　多分、屋内にいると思うんだけど。"
+                                ""
                             ]
                         },
                         {
@@ -4524,14 +4524,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Aries, how is it? Can you fix\nit?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アリエス、どう？　治せるかな？"
+                                ""
                             ]
                         },
                         {
@@ -4548,21 +4548,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I have taken the necessary\nmeasures, but... honestly, it seems\ndifficult for me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　必要な処置は施しましたが……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　正直、わたくしでは厳しいですわね……"
+                                ""
                             ]
                         },
                         {
@@ -4579,45 +4579,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh no..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そんなぁ……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　彼女が患っている呪いは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　厄介なものですの。"
+                                ""
                             ]
                         },
                         {
@@ -4634,21 +4603,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: The curse she is suffering from\nis quite troublesome."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル様、"
+                                "Aries: Zerachiel-sama, do you know about\nthe Human Sacrifice ritual?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『人身供儀』をご存じでしょうか？"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4665,45 +4665,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Human sacrifice...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　人身、供儀……？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　昔、悪しき神が生贄を求めて、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　人の命を供え物として要求しましたの。"
+                                ""
                             ]
                         },
                         {
@@ -4720,52 +4689,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: In the past, an evil god demanded\nsacrifices, seeking human lives as\nofferings."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　生贄を捧げた村には、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神の加護を授けましたわ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　疫病、天災、魔力暴走などの被害から、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　守ってくれましたの。"
+                                ""
                             ]
                         },
                         {
@@ -4782,21 +4720,83 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I bestowed divine protection upon\nthe village that offered sacrifices."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ただし、捧げられた生贄は"
+                                "Aries: She protected us from the damages\ncaused by plagues, natural disasters,\nand magical power run amok."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　永遠の苦しみを背負いますわ。"
+                                "Aries: However, the offered sacrifice\nbears the burden of eternal suffering."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4813,45 +4813,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Eternal suffering...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　永遠の苦しみ……？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　生きたまま肉体を喰われ、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その魂は神の力として吸収されますの。"
+                                ""
                             ]
                         },
                         {
@@ -4868,21 +4837,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: The body is devoured while still\nalive, and the soul is absorbed as the\npower of the gods."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう二度と、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　生まれ変わることもできませんわ。"
+                                ""
                             ]
                         },
                         {
@@ -4899,21 +4868,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I can never be reborn again."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　その生贄に選ばれた者と同じ呪いが、"
+                                "Aries: She has been afflicted with the\nsame curse as the one chosen as the\nsacrifice."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　彼女にはかけられておりますわ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4930,38 +4930,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Is that so..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そんな……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　彼女はオルフェウス教団の聖女……"
+                                ""
                             ]
                         },
                         {
@@ -4978,28 +4954,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: She is the saint of the Orpheus\nsect..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おそらくですが、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　邪神オルフェウスを復活させるために、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　生贄として選ばれたのではないでしょうか。"
+                                ""
                             ]
                         },
                         {
@@ -5016,14 +4978,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Perhaps, I was chosen as a\nsacrifice in order to revive the evil\ngod Orpheus."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　彼女も必死に生きていたのですわ。"
+                                "Aries: She was also desperately trying\nto survive."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5040,45 +5040,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Effy..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　彼女の呪いを解くには、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　術者の正体を知る必要がございますわ。"
+                                ""
                             ]
                         },
                         {
@@ -5095,14 +5064,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: To lift her curse, it is\nnecessary to know the identity of the\nsorcerer."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル様、協力して頂けませんか？"
+                                "Aries: Zerachiel-sama, could you please\nlend me your assistance?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5119,45 +5119,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I don't mind, but what should\nI do?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　構わないけど、何をすればいいの？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　聖女のいた部屋に、呪いに関する資料が"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　残っている可能性がありますわ。"
+                                ""
                             ]
                         },
                         {
@@ -5174,14 +5143,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: There is a possibility that there\nare documents related to the curse in\nthe room where the saint was."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それを探してきて頂けないでしょうか？"
+                                "Aries: Could you please go and find it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5198,14 +5198,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Alright, I'll go."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わかった、行ってくるよ。"
+                                ""
                             ]
                         },
                         {

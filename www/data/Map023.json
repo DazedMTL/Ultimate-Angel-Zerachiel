@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "ラビットスピット",
+    "displayName": "Rabbit Spit",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4994,21 +4994,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: This is the seat for those\nwho want to drink quietly. If you want\nto make noise, go to the central table."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは静かに飲みたい人の席よ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　騒ぎたいなら中央のテーブルね。"
+                                ""
                             ]
                         },
                         {
@@ -5090,14 +5090,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: This scene is not uncommon in\nthis tavern."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この酒場では珍しくない光景よ。"
+                                ""
                             ]
                         },
                         {
@@ -5239,14 +5239,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Even cheap alcohol is enough\nif it satisfies me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　安い酒でも、満足できれば充分さ。"
+                                ""
                             ]
                         },
                         {
@@ -5328,14 +5328,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: ...Huh? The stage has\nalready started?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……えっ？　もうステージが始まってるのかっ！？"
+                                ""
                             ]
                         },
                         {
@@ -5637,21 +5637,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "酔った青年Ａ："
+                                "Drunk Young Man A: Hey, missy, you're\ncute. Won't you play with us?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃん、かわいいじゃん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレたちと一緒に遊ばない？"
+                                ""
                             ]
                         },
                         {
@@ -5668,14 +5668,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, I refuse."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、断る。"
+                                ""
                             ]
                         },
                         {
@@ -5704,14 +5704,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "※An event will occur when the corruption\nlevel reaches 31 or higher."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※堕落度31以上でイベントが発生します。"
+                                ""
                             ]
                         },
                         {
@@ -5809,21 +5809,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "酔った青年Ａ："
+                                "Drunk Young Man A: Hey, miss. How are\nyou doing?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　よぅ、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　元気にしているか？"
+                                ""
                             ]
                         },
                         {
@@ -5850,21 +5850,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "酔った青年Ａ："
+                                "Drunk Young Man A: Hey, miss. You're\ncute. Won't you play with us?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お嬢ちゃん、かわいいじゃん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　オレたちと一緒に遊ばない？"
+                                ""
                             ]
                         },
                         {
@@ -5882,8 +5882,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "引き受ける",
-                                    "立ち去る"
+                                    "I'll accept",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5922,21 +5922,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -5944,8 +5944,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -5982,21 +5982,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "酔った青年Ａ："
+                                "Drunk Young Man A: Last night was fun.\nI'm grateful that you went along with\nme."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　昨夜は楽しかったよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　付き合ってくれて感謝するぜ。"
+                                ""
                             ]
                         },
                         {
@@ -6013,21 +6013,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "酔った青年Ｂ："
+                                "Drunk Young Man B: Here, it's not much\nbut it's a thank you. Please accept it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　コレ、少ないけどお礼だよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　受け取ってくれ。"
+                                ""
                             ]
                         },
                         {
@@ -6085,21 +6085,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "酔った青年Ａ："
+                                "Drunk Young Man A: Last night was fun.\nI'm grateful that you went along with\nme."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　昨夜は楽しかったよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　付き合ってくれて感謝するぜ。"
+                                ""
                             ]
                         },
                         {
@@ -6116,21 +6116,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "酔った青年Ｂ："
+                                "Drunk Young Man B: Here, it's not much but it's a thank you. Please accept it.\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　コレ、少ないけどお礼だよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　受け取ってくれ。"
+                                ""
                             ]
                         },
                         {
@@ -6195,21 +6195,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "酔った青年Ａ："
+                                "Drunk Young Man A: Last night was fun.\nI'm grateful that you went along with\nme."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　昨夜は楽しかったよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　付き合ってくれて感謝するぜ。"
+                                ""
                             ]
                         },
                         {
@@ -6226,21 +6226,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "酔った青年Ｂ："
+                                "Drunk Young Man B: Here, it's not much but it's a thank you. Please accept it.\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　コレ、少ないけどお礼だよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　受け取ってくれ。"
+                                ""
                             ]
                         },
                         {
@@ -6378,14 +6378,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "酔った青年Ａ："
+                                "Drunk Young Man A: Maybe I'm too drunk,\nbut you look naked, miss."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　酔いすぎたかな、お嬢ちゃんが裸に見えるよ。"
+                                ""
                             ]
                         },
                         {
@@ -6476,21 +6476,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Everyone has a scar or two\non their shin."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　誰だって、一つや二つは"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　スネにキズを持っているものさ。"
+                                ""
                             ]
                         },
                         {
@@ -6507,21 +6507,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: So, it's better not to go\nsniffing around other people too much."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　だから、あんまり他人のことを"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　嗅ぎ回らないほうがいいぜ。"
+                                ""
                             ]
                         },
                         {
@@ -6603,21 +6603,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: It was an amazing show. I'm\ncheering for you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最高のショーだった。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　応援しているよ。"
+                                ""
                             ]
                         },
                         {
@@ -6699,21 +6699,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Alcohol makes you forget\neverything... There's no choice but to\ndrink anymore, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　酒はすべてを忘れさせてくれる。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……もう飲むしかないよな。"
+                                ""
                             ]
                         },
                         {
@@ -6795,14 +6795,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Once I finish drinking this,\nshould I go to work?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これを飲み終わったら仕事に行くかー"
+                                ""
                             ]
                         },
                         {
@@ -6935,14 +6935,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Obtained 100 Rill!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\I[591]100 Rill を手に入れた！"
+                                ""
                             ]
                         },
                         {
@@ -7052,14 +7052,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: There's a rumor that the Sword\nSaint is lurking in this town..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　剣聖が、この町に潜んでいるって噂があるのですが……"
+                                ""
                             ]
                         },
                         {
@@ -7076,14 +7076,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: No matter where I look, he's\nnowhere to be found, how disappointing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どこを探してもいないんですよ、トホホ。"
+                                ""
                             ]
                         },
                         {
@@ -7165,14 +7165,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: I'm glad I'm alive to see the\nbest show."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最高のショーを見られて、生きててよかったよ。"
+                                ""
                             ]
                         },
                         {
@@ -7254,21 +7254,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: I have believed in God and\nlived for over 30 years. Maybe I was\nwrong..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　３０年以上、神を信じて生きてきた。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　間違っていたのかもしれない…"
+                                ""
                             ]
                         },
                         {
@@ -7350,14 +7350,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: To reflect on myself, I will\ntry traveling the world."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　自分を見つめなおすため、世界を旅してみるよ。"
+                                ""
                             ]
                         },
                         {
@@ -7561,38 +7561,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents: I started living here\nseveral years ago."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私が、ここで暮らし始めたのは何年か前のことだ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　私は血の気が多く、毎日喧嘩ばかりしていたよ。"
+                                ""
                             ]
                         },
                         {
@@ -7609,21 +7585,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I used to be hot-blooded and\nwould fight every day."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　でも、今も生きていられるのは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　きっと喧嘩に弱かったからだ。"
+                                ""
                             ]
                         },
                         {
@@ -7640,14 +7609,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: But I'm sure the reason I can\nstill live now is because I was weak in\nfights."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　喧嘩に強かったやつらは、みんな死んでしまったよ……"
+                                "Residents: Those who were strong in\nfights, they all ended up dead..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7729,21 +7729,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We got excited without any\nage limit. When will you dance next?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　年甲斐もなく興奮しちゃったよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　次はいつ踊るんだい？"
+                                ""
                             ]
                         },
                         {
@@ -7825,14 +7825,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Huh!? Ah, a nosebleed..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ぶっ！？　は、鼻血が……"
+                                ""
                             ]
                         },
                         {
@@ -7974,21 +7974,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Hey, missy. Where did you\ncome from?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おい、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どこから入ってきたんだ？"
+                                ""
                             ]
                         },
                         {
@@ -8005,21 +8005,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: This is a district where\noutlaws live. It's not suitable for a\nyoung lady like you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここはならず者の暮らす地区だ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんにはふさわしくないぜ。"
+                                ""
                             ]
                         },
                         {
@@ -8101,21 +8101,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: That was an amazing dance!\nPlease do it again!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　凄い踊りだったよ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　またやってくれよなっ！！"
+                                ""
                             ]
                         },
                         {
@@ -8197,21 +8197,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Hey, missy. Where did you\ncome from?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おい、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どこから入ってきたんだ？"
+                                ""
                             ]
                         },
                         {
@@ -8228,21 +8228,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Well, it's a time like this.\nYou should drink freely."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ま、こんなときだもんな。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　自由に飲んでいくといいよ。"
+                                ""
                             ]
                         },
                         {
@@ -8324,14 +8324,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: In times like these, you\nreally want to drink, don't you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんなときだからこそ、酒を飲みたいよな。"
+                                ""
                             ]
                         },
                         {
@@ -8535,21 +8535,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Priest: While the public safety in this\ndistrict is indeed poor, killing is\nstrictly prohibited."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この地区は治安こそ悪いですが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　殺しだけは禁止されていますよ。"
+                                ""
                             ]
                         },
                         {
@@ -8631,14 +8631,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: The courage to urinate on stage,\nthat's amazing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　舞台の上で放尿できる度胸、すごいですね……"
+                                ""
                             ]
                         },
                         {
@@ -8720,21 +8720,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Priestess: T-to be able to walk around\nnaked... Your courage is amazing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　は、裸で歩き回れるなんて……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　度胸がすごいです……"
+                                ""
                             ]
                         },
                         {
@@ -8876,14 +8876,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hey, I don't recognize your\nface."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　きみ、見ない顔だな。"
+                                ""
                             ]
                         },
                         {
@@ -8965,14 +8965,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hmph, that was quite good."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　フン、なかなかよかったぞ。"
+                                ""
                             ]
                         },
                         {
@@ -9054,14 +9054,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Resident: I want to keep drinking until\nthe end."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私は最後まで、酒を飲んでいたいよ。"
+                                ""
                             ]
                         },
                         {
@@ -9143,14 +9143,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Alcohol, bring us alcohol!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　酒だー、酒を持ってこいー！"
+                                ""
                             ]
                         },
                         {
@@ -9232,14 +9232,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Sorry, but children are not\nour cup of tea."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　悪いが、子供は趣味じゃないんだ。"
+                                ""
                             ]
                         },
                         {
@@ -9330,21 +9330,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Theft, extortion, murder...\nMiss, what did you do to end up here?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　盗み、恐喝、殺し……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんは、何をやらかしてここまで来たんじゃ？"
+                                ""
                             ]
                         },
                         {
@@ -9426,14 +9426,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I can't believe you would pee\nin a dining area..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まさか食事の場で放尿するとはのう……"
+                                ""
                             ]
                         },
                         {
@@ -9450,14 +9450,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It was the best!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最高じゃったよ！！"
+                                ""
                             ]
                         },
                         {
@@ -9539,14 +9539,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Your appearance will surely\nbe appreciated."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　その恰好は喜ばれるじゃろうのう"
+                                ""
                             ]
                         },
                         {
@@ -9697,14 +9697,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "酔った青年Ｂ："
+                                "Thank you for the other day, miss."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　先日はありがとう、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -9721,14 +9721,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "酔った青年Ｂ："
+                                "Drunk Young Man B: I'll try my best at\nwork."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　オレ、仕事がんばってみるよ。"
+                                ""
                             ]
                         },
                         {
@@ -9762,21 +9762,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "酔った青年Ｂ："
+                                "Drunk Young Man B: I have no job, no\nmoney. What's wrong with drowning myself\nin alcohol..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　仕事もない、金もない。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　酒に溺れて何が悪いって言うんだ……"
+                                ""
                             ]
                         },
                         {
@@ -9868,21 +9868,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "酔った青年Ｂ："
+                                "Drunk Young Man B: I also want to run\naround the town completely naked...\nmumble mumble..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレも全裸で街を走り回りてぇよ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　むにゃむにゃ……"
+                                ""
                             ]
                         },
                         {
@@ -9973,21 +9973,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Oh, welcome. You can't drink\nalcohol until you're an adult, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お酒は大人になるまで飲めないわよ。"
+                                ""
                             ]
                         },
                         {
@@ -10069,21 +10069,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: The bar is running as usual.\nAlthough the number of customers has\ndecreased."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　酒場は平常運転よ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お客さんは減ったけどね。"
+                                ""
                             ]
                         },
                         {
@@ -10165,21 +10165,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Oh, welcome. Would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か飲んでいく？"
+                                ""
                             ]
                         },
                         {
@@ -10261,21 +10261,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Oh my, coming to the store naked.\nWe won't take responsibility for\nanything that happens, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、裸で来店とはやるわね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何があっても当店は責任を負わないわよ。"
+                                ""
                             ]
                         },
                         {
@@ -10366,14 +10366,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Look, it's the limited edition\nBloody Moon only available at this\ntavern."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ほら、この酒場限定のブラッディムーンよ。"
+                                ""
                             ]
                         },
                         {
@@ -10390,21 +10390,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Isn't it beautiful? It's as red\nas blood. It's a popular menu item."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　綺麗でしょう？　まるで血みたいに真っ赤で。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　人気のメニューなのよ。"
+                                ""
                             ]
                         },
                         {
@@ -10486,21 +10486,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Did you sleep with them? Were you\ntreated roughly?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　彼らと寝たの？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　乱暴はされなかった？"
+                                ""
                             ]
                         },
                         {
@@ -10582,21 +10582,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Those two are completely drunk\nand they don't even realize that an\nangel has attacked them."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そこの二人は酔いつぶれてて、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使が襲ってきたことにも気づいてないわよ。"
+                                ""
                             ]
                         },
                         {
@@ -10678,14 +10678,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: I also want to get married soon\nand settle down."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私もそろそろ結婚して、落ち着きたいわね。"
+                                ""
                             ]
                         },
                         {
@@ -10767,14 +10767,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Miss, at your age... it's\npitiful..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃん、その歳で……可哀想に……"
+                                ""
                             ]
                         },
                         {
@@ -10865,21 +10865,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: If you drink alcohol, you can\nforget about unpleasant things. It's\ngood to keep that in mind."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お酒を飲めば、嫌なことも忘れられる。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　覚えておくといいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -10961,14 +10961,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: How about having a drink before\nwe leave the town?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街を出る前にお酒でも飲んでみる？"
+                                ""
                             ]
                         },
                         {
@@ -11050,21 +11050,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Drinking alcohol can make you\nforget unpleasant things. But, Miss,\nit's better for you to learn common\nsense."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お酒を飲めば嫌なことも忘れられる。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　でも、お嬢ちゃんは常識を覚えたほうがいいわね。"
+                                ""
                             ]
                         },
                         {
@@ -11155,14 +11155,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Hehe, going up on stage is\nprohibited."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うふふ、ステージに上がるのは禁止よ。"
+                                ""
                             ]
                         },
                         {
@@ -11356,21 +11356,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: I can't lose either... I have to\ntry harder!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私も負けてられないわ…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もっと頑張らないとっ！！"
+                                ""
                             ]
                         },
                         {
@@ -11564,21 +11564,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: I'm practicing my dance. After\nall, I want to make the customers happy."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　踊りの練習をしているの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　だって、お客さんに喜んでほしいもの。"
+                                ""
                             ]
                         },
                         {
@@ -11772,14 +11772,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: To think you're already\nundressed... You're quite daring!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう脱いでいるなんて……やるわね！！"
+                                ""
                             ]
                         },
                         {
@@ -12005,14 +12005,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Welcome, Zerachiel-chan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ザラキエルちゃん、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -12029,14 +12029,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "バニー："
+                                "Bunny: By any chance, will you dance\nagain?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もしかして、また踊ってくれるの？"
+                                ""
                             ]
                         },
                         {
@@ -12063,14 +12063,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Are you not interested in\nbecoming a dancer?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あなた、踊り子に興味ない？"
+                                ""
                             ]
                         },
                         {
@@ -12087,21 +12087,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "バニー："
+                                "Bunny: I'll pay a lot of money. Can I\nask you to do the lecture after this?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お金なら沢山出すわ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　この後の講演、頼めないかしら？"
+                                ""
                             ]
                         },
                         {
@@ -12119,8 +12119,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "引き受ける",
-                                    "立ち去る"
+                                    "Accept",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -12159,21 +12159,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -12181,8 +12181,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -12219,21 +12219,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Thank you. It would be helpful if\nyou could dance again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　ありがとうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　また踊ってくれると助かるわ。"
+                                ""
                             ]
                         },
                         {
@@ -12284,14 +12284,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Well then, I'm counting on you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　それじゃ、よろしく頼むわね。"
+                                ""
                             ]
                         },
                         {
@@ -12315,21 +12315,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "バニー："
+                                "Bunny: You're not bad at all! The\naudience was delighted too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　中々上手じゃない！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　お客さんも喜んでいたわよ。"
+                                ""
                             ]
                         },
                         {
@@ -12394,21 +12394,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Well then, here's your reward.\nI'll be counting on you again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　それじゃ、これ報酬よ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　またよろしくお願いするわね。"
+                                ""
                             ]
                         },
                         {
@@ -12560,14 +12560,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Welcome, Zerachiel-chan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルちゃん、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -12584,14 +12584,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: By any chance, will you dance\nagain?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もしかして、また踊ってくれるの？"
+                                ""
                             ]
                         },
                         {
@@ -12599,8 +12599,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "引き受ける",
-                                    "立ち去る"
+                                    "Accept",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -12637,38 +12637,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I had a terrible\nexperience..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　酷い目に遭った……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "バニー："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　おかげで会場は大盛り上がりだったわ♥"
+                                ""
                             ]
                         },
                         {
@@ -12685,14 +12661,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Thanks to you, the venue was\nreally lively ♥"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　またよろしく頼むわね♥"
+                                "Bunny: I'll be counting on you again ♥"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12834,14 +12834,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Welcome, Zerachiel-chan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルちゃん、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -12858,14 +12858,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: By any chance, will you dance\nagain?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もしかして、また踊ってくれるの？"
+                                ""
                             ]
                         },
                         {
@@ -12873,8 +12873,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "引き受ける",
-                                    "立ち去る"
+                                    "Accept",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -12904,14 +12904,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (Which play should I choose?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　（どのプレイにしようかな？）"
+                                ""
                             ]
                         },
                         {
@@ -12919,9 +12919,9 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "ポールダンス",
-                                    "催眠オナニー",
-                                    "立ち去る"
+                                    "Pole dance",
+                                    "Hypnotic Masturbation",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -12958,21 +12958,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Thank you. It would be helpful if\nyou could dance again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　ありがとうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　また踊ってくれると助かるわ。"
+                                ""
                             ]
                         },
                         {
@@ -13030,14 +13030,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "バニー："
+                                "Bunny: I'll be counting on you again,\nokay? ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　またよろしく頼むわね♥"
+                                ""
                             ]
                         },
                         {
@@ -13179,14 +13179,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "バニー："
+                                "Bunny: Oh, do you have a hobby of\nexposing yourself?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、露出が趣味なの？"
+                                ""
                             ]
                         },
                         {

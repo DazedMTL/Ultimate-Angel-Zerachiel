@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "２Ｆ　フロアＣ",
+    "displayName": "2F Floor C",
     "encounterList": [],
     "encounterStep": 30,
     "height": 50,
@@ -20267,14 +20267,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's something written...\nThe records of the gods...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　何か書いてある……神々の記録……？"
+                                ""
                             ]
                         },
                         {
@@ -20291,14 +20291,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "Beast God Henri Loved a Human."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　獣神アンリは人を愛した。　』"
+                                ""
                             ]
                         },
                         {
@@ -20315,21 +20315,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "It is said that she, while being a\nbeast herself, wished to live as a human\nand abandoned her position as a god to\nbe reborn."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　自らは獣でありながら、人として生きることを望み、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　　　神の座を捨てて転生したとされている。　』"
+                                ""
                             ]
                         },
                         {
@@ -20346,14 +20346,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "When the gods start to move, she will\nalso reveal herself."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　神々が動き出すとき、彼女も姿を表すであろう。　』"
+                                ""
                             ]
                         },
                         {

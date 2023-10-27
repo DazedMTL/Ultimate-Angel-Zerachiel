@@ -9257,14 +9257,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Yunie: Mel-sama!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メル様っ！"
+                                ""
                             ]
                         },
                         {
@@ -9321,14 +9321,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Isn't it Yunie? Long time no see!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエではないか、久しぶりじゃなっ！！"
+                                ""
                             ]
                         },
                         {
@@ -9345,52 +9345,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Yunie: Long time no see! It's an honor\nto meet you again!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お久しぶりですぅっ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お会いできて光栄ですよぅっ！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ハッハッハ！　"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その反応、帰ってきた甲斐があるのじゃ！"
+                                ""
                             ]
                         },
                         {
@@ -9407,14 +9376,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Hahaha! It's worth coming back for\nthat reaction!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ところで隣の娘は誰かの？"
+                                "Mel: By the way, who is the girl next to\nyou?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9462,14 +9462,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Nice to meet you, I'm\nZerachiel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はじめまして、ザラキエルです。"
+                                ""
                             ]
                         },
                         {
@@ -9486,14 +9486,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I came to the castle because\nI have a favor to ask Mel-sama."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メル様にお願いがあって、お城へ来ました。"
+                                ""
                             ]
                         },
                         {
@@ -9541,14 +9541,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Oh, what's the matter?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ほう、どうしたのじゃ？"
+                                ""
                             ]
                         },
                         {
@@ -9565,14 +9565,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Yunie: Actually..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　実は……"
+                                ""
                             ]
                         },
                         {
@@ -9624,38 +9624,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: I see..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なるほどのう……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　邪神オルフェウスの呪いとは、厄介じゃな。"
+                                ""
                             ]
                         },
                         {
@@ -9672,14 +9648,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: The curse of the evil god Orpheus\nis quite troublesome."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　よしわかった、力を貸そう。"
+                                "Mel: Alright, I understand. I'll lend\nyou my power."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9696,45 +9696,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: M-Mel-sama! Thank you very\nmuch!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わ、メル様！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとうございますっ！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　メルで構わん、ザラキエルよ。"
+                                ""
                             ]
                         },
                         {
@@ -9751,21 +9727,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: It's Mel, Zerachiel."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　さっそくじゃが、"
+                                "Mel: Well then, I'll have you gather\nmaterials right away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おぬしには素材を集めてきてもらうぞ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9782,45 +9782,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Of course. What do I need to\ngather?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もちろんだよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何を集めてくればいいの？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　厄介な素材が三つあるのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -9837,38 +9813,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: There are three troublesome\nmaterials."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　熱砂の洞窟に眠る秘宝、\\c[6]大地の宝珠"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔鉱山で採掘できる希少鉱石、\\c[6]アダマス鉱石"
+                                ""
                             ]
                         },
                         {
@@ -9885,14 +9837,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: The hidden treasure sleeping in the\nCave of Blazing Sands, \\c[6]the Earth's\nJewel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　星詠みの森で眠る、\\c[6]樹脂宝石"
+                                ""
                             ]
                         },
                         {
@@ -9909,14 +9861,62 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: The rare ore that can be mined in\nthe Demon Ore Mountain, \\c[6]Adamantite\nOre."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　以上の３つを集めてきてほしいのじゃ。"
+                                "Mel: The resin jewel that sleeps in the\nForest of Star Divination."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Mel: I want you to gather those three\nthings I mentioned earlier."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9933,14 +9933,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Alright, I understand. I'll\ngo gather them."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わかった、集めてくるよ。"
+                                ""
                             ]
                         },
                         {
@@ -9957,21 +9957,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: I want you to help me prepare the\ncurse-breaking potion together with\nUnie."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエは余と一緒に、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　解呪薬の製造準備を手伝ってほしいのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -9997,38 +9997,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Understood! Leave it to me!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　了解です！　お任せください！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　他の素材は城を漁れば手に入るじゃろうて。"
+                                ""
                             ]
                         },
                         {
@@ -10045,21 +10021,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: You should be able to obtain the\nother materials by searching the castle,\nright?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　問題は、ザラキエルだけで"
+                                "Mel: The problem is whether Zerachiel\nalone can enter the monster's nest\nsafely."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の巣に入って大丈夫かのう。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10076,45 +10076,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, don't worry. Despite\nmy appearance, I'm strong."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、大丈夫だよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクこう見えて強いから。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　うむ、そこは疑っておらんよ。"
+                                ""
                             ]
                         },
                         {
@@ -10131,21 +10107,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Yes, I have no doubt about that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ただ、魔大陸の魔物は変異種もおる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　油断して命を失う者も少なくない……"
+                                ""
                             ]
                         },
                         {
@@ -10162,14 +10131,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: However, there are also mutated\nspecies among the demons in the Demon\nContinent. There are quite a few who\nlose their lives due to carelessness..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そこでじゃ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10186,14 +10162,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Then, let's go there."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　信頼できる者を同行させようではないか。"
+                                "Mel: Why don't we bring someone we can\ntrust along?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10290,21 +10290,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: So you are an acquaintance of\nLady Unie? Please make yourself at home."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエ殿のお知り合いでしたか。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうぞゆっくりしていってください。"
+                                ""
                             ]
                         },
                         {
@@ -10395,14 +10395,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: It seems that Lady Unie and Lord\nIshvald were mercenaries."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエ様とイシュヴァルド様は傭兵だったそうですよ。"
+                                ""
                             ]
                         },
                         {
@@ -10419,14 +10419,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: It seems they have known each\nother since they were young."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　幼い頃からの付き合いだとか。"
+                                ""
                             ]
                         },
                         {
@@ -10579,14 +10579,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
+                                ""
                             ]
                         },
                         {

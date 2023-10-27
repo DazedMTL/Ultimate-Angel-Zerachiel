@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "謁見の間",
+    "displayName": "Audience Chamber",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -4706,14 +4706,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
+                                ""
                             ]
                         },
                         {
@@ -4795,21 +4795,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: The vase was broken... I wonder\nwho the culprit is..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　壺が割れていたんですよ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　犯人は誰でしょうね……"
+                                ""
                             ]
                         },
                         {
@@ -4826,14 +4826,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: W-Who could it be! I won't forgive\nthem!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　だ、誰じゃろうな！　許せんのじゃ！"
+                                ""
                             ]
                         },
                         {
@@ -4850,14 +4850,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (Could it be Rabi?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（犯人はラヴィか）"
+                                ""
                             ]
                         },
                         {
@@ -4939,28 +4939,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since the castle knights are\ncurrently away, let's clean the areas\nthat we usually can't clean."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、お城の騎士は出払っているので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いつもは掃除できないところを"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　掃除しちゃいましょう。"
+                                ""
                             ]
                         },
                         {
@@ -4977,14 +4977,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: You can even snoop around in\nprivate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　プライベートを漁ることもできるわね。"
+                                ""
                             ]
                         },
                         {
@@ -5001,14 +5001,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hey, stop it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　コラ、やめろって。"
+                                ""
                             ]
                         },
                         {
@@ -5083,93 +5083,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　小さなお城だからかな？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それもあるけど、魔王の城で"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　清掃の仕事をしたいかって話かもね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　普通、怖がるわよ。"
+                                ""
                             ]
                         },
                         {
@@ -5186,14 +5107,93 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Maybe because it's a small\ncastle?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それもそうか。"
+                                "Claudia: That might be true, but it\ncould also be about wanting to work in\nthe Demon Lord's castle for the cleaning\njob."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Claudia: Normally, I would be scared."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: That might be true."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5268,21 +5268,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: The damage to the town was beyond\ncomparison to that of the castle. I also\nlost a friend."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街の被害は、お城の比じゃありませんでした。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　友人も亡くなりました。"
+                                ""
                             ]
                         },
                         {
@@ -5299,14 +5299,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: ...If I hadn't been in the castle,\nwould I have died too?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……お城にいなかったら、私も死んでいたのかな。"
+                                ""
                             ]
                         },
                         {
@@ -5323,14 +5323,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: ...I'm sorry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……ごめんなさいね。"
+                                ""
                             ]
                         },
                         {
@@ -5506,14 +5506,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: What is this number of\npeople!? Amazing!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なにこの人数！？　すっごっ！！"
+                                ""
                             ]
                         },
                         {
@@ -5530,14 +5530,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I can't believe you managed to\ngather this many people...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　よくこんなに集めたわね……！！"
+                                ""
                             ]
                         },
                         {
@@ -5810,14 +5810,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Everyone, we've been waiting for\nyou."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みなさん、お待ちしておりました。"
+                                ""
                             ]
                         },
                         {
@@ -6063,14 +6063,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah! It's Azel!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あっ！　アゼルだっ！！"
+                                ""
                             ]
                         },
                         {
@@ -6087,21 +6087,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: The Demon Lord is waiting. Please\nline up over here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王様がお待ちです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こちらへお並びください。"
+                                ""
                             ]
                         },
                         {
@@ -7441,21 +7441,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: There aren't many demons like\nme, but it's rare to find a child like\nyou who isn't surprised."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレみたいな魔族は少ないが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミみたいに驚かない子は珍しいな。"
+                                ""
                             ]
                         },
                         {
@@ -7588,21 +7588,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: There aren't many demons like\nme, but it's rare to find a child like\nyou who isn't surprised."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレみたいな魔族は少ないが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミみたいに驚かない子は珍しいな。"
+                                ""
                             ]
                         },
                         {
@@ -7684,45 +7684,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: I deeply appreciate that you\nhelped Lady Mel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メル様を助けてくれたこと、深く感謝する。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "騎士："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　しかし、キミたちも天使だ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　事情を知らなければ、警戒する者もいるだろう。"
+                                ""
                             ]
                         },
                         {
@@ -7739,14 +7708,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: However, you are also angels. If\nthey don't know the circumstances, there\nmay be those who are cautious."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　……どうか許してくれ。"
+                                "Knight: ...Please forgive me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7763,38 +7763,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Don't worry, I'm not bothered\nby it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気にしてないから大丈夫だよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　そうそう！　気にしないでいいのよ！！"
+                                ""
                             ]
                         },
                         {
@@ -7811,28 +7787,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: That's right! You don't have to\nworry about it!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　昔、天使が珍しいからって"
+                                "Lala: In the past, I was sold off to a\nfreak show just because I was a rare\nangel, but this is way better than\nthat!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　見世物小屋に売り飛ばされたけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アレより全然マシよっ！！"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7849,38 +7849,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Y-You're going through a lot of\nhardships, aren't you..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　く、苦労しているのね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アゼル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　気持ちわかりますよ、ララさん……"
+                                ""
                             ]
                         },
                         {
@@ -7897,21 +7873,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: I understand how you feel, Lala-\nsan..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　僕も昔、お師匠様に特訓の一環で、"
+                                "Azel: I, too, in the past, as part of my\ntraining under my master, was sold to\nslave traders..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奴隷商人に売られたことが……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7928,38 +7928,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: What kind of life are you all\nliving?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミたち、どういう人生送っているのさ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　まったくね。"
+                                ""
                             ]
                         },
                         {
@@ -7976,14 +7952,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Seriously."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　（私も人のこと、言えないけどね）"
+                                "Claudia: (I can't really say anything\nabout others either.)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11274,14 +11274,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
+                                ""
                             ]
                         },
                         {
@@ -11363,21 +11363,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: The vase was broken... I wonder\nwho the culprit is..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　壺が割れていたんですよ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　犯人は誰でしょうね……"
+                                ""
                             ]
                         },
                         {
@@ -11394,14 +11394,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: W-Who could it be! I won't forgive\nthem!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　だ、誰じゃろうな！　許せんのじゃ！"
+                                ""
                             ]
                         },
                         {
@@ -11418,14 +11418,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (Could it be Rabi?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（犯人はラヴィか）"
+                                ""
                             ]
                         },
                         {
@@ -11507,28 +11507,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since the castle knights are\ncurrently away, let's clean the areas\nthat we usually can't clean."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、お城の騎士は出払っているので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いつもは掃除できないところを"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　掃除しちゃいましょう。"
+                                ""
                             ]
                         },
                         {
@@ -11545,14 +11545,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: You can even snoop around in\nprivate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　プライベートを漁ることもできるわね。"
+                                ""
                             ]
                         },
                         {
@@ -11569,14 +11569,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hey, stop it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　コラ、やめろって。"
+                                ""
                             ]
                         },
                         {
@@ -11651,93 +11651,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　小さなお城だからかな？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それもあるけど、魔王の城で"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　清掃の仕事をしたいかって話かもね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　普通、怖がるわよ。"
+                                ""
                             ]
                         },
                         {
@@ -11754,14 +11675,93 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Maybe because it's a small\ncastle?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それもそうか。"
+                                "Claudia: That might be true, but it\ncould also be about wanting to work in\nthe Demon Lord's castle for cleaning."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Claudia: Normally, I would be scared."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: That might be true."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11836,21 +11836,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: The damage to the town was beyond\ncomparison to that of the castle. I also\nlost a friend."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街の被害は、お城の比じゃありませんでした。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　友人も亡くなりました。"
+                                ""
                             ]
                         },
                         {
@@ -11867,14 +11867,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: ...If I hadn't been in the castle,\nwould I have died too?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……お城にいなかったら、私も死んでいたのかな。"
+                                ""
                             ]
                         },
                         {
@@ -11891,14 +11891,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: ...I'm sorry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……ごめんなさいね。"
+                                ""
                             ]
                         },
                         {
@@ -14398,14 +14398,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
+                                ""
                             ]
                         },
                         {
@@ -14487,21 +14487,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: The vase was broken... I wonder\nwho the culprit is..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　壺が割れていたんですよ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　犯人は誰でしょうね……"
+                                ""
                             ]
                         },
                         {
@@ -14518,14 +14518,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: W-Who could it be! I won't forgive\nthem!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　だ、誰じゃろうな！　許せんのじゃ！"
+                                ""
                             ]
                         },
                         {
@@ -14542,14 +14542,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (Could it be Rabi?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（犯人はラヴィか）"
+                                ""
                             ]
                         },
                         {
@@ -14631,28 +14631,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since the castle knights are\ncurrently away, let's clean the areas\nthat we usually can't clean."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、お城の騎士は出払っているので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いつもは掃除できないところを"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　掃除しちゃいましょう。"
+                                ""
                             ]
                         },
                         {
@@ -14669,14 +14669,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: You can even snoop around in\nprivate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　プライベートを漁ることもできるわね。"
+                                ""
                             ]
                         },
                         {
@@ -14693,14 +14693,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hey, stop it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　コラ、やめろって。"
+                                ""
                             ]
                         },
                         {
@@ -14775,93 +14775,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　小さなお城だからかな？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それもあるけど、魔王の城で"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　清掃の仕事をしたいかって話かもね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　普通、怖がるわよ。"
+                                ""
                             ]
                         },
                         {
@@ -14878,14 +14799,93 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Maybe because it's a small\ncastle?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それもそうか。"
+                                "Claudia: That might be true, but it\ncould also be about wanting to work in\nthe Demon Lord's castle for the cleaning\njob."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Claudia: Normally, I would be scared."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: That might be true."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14960,21 +14960,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: The damage to the town was beyond\ncomparison to that of the castle. I also\nlost a friend."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街の被害は、お城の比じゃありませんでした。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　友人も亡くなりました。"
+                                ""
                             ]
                         },
                         {
@@ -14991,14 +14991,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: ...If I hadn't been in the castle,\nwould I have died too?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……お城にいなかったら、私も死んでいたのかな。"
+                                ""
                             ]
                         },
                         {
@@ -15015,14 +15015,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: ...I'm sorry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……ごめんなさいね。"
+                                ""
                             ]
                         },
                         {

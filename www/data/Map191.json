@@ -5326,14 +5326,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, is someone there?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おや、誰かいるよ。"
+                                ""
                             ]
                         },
                         {
@@ -5350,14 +5350,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: A monster girl... I wonder."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘……かしらね。"
+                                ""
                             ]
                         },
                         {
@@ -5374,14 +5374,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Oh...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら……？"
+                                ""
                             ]
                         },
                         {
@@ -5429,45 +5429,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Hello, travelers..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、旅の方々……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Enemy",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "シェミニ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　この森で人族をお見かけしたのは"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お久しぶりですわ……"
+                                ""
                             ]
                         },
                         {
@@ -5484,14 +5453,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: It's been a while since I last\nsaw humans in this forest..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Enemy",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　お名前を伺っても……？"
+                                "Shemini: May I ask for your name...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5508,14 +5508,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I am Zerachiel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクはザラキエルだよ。"
+                                ""
                             ]
                         },
                         {
@@ -5532,52 +5532,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I am Claudia. I have a reason\nfor searching for the \\c[6]resin\ngemstones\\c[0]."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私はクラウディアよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　事情があって、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]樹脂宝石\\c[0]を探しているの。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Enemy",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "シェミニ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　\\c[6]樹脂宝石\\c[0]を……？"
+                                ""
                             ]
                         },
                         {
@@ -5594,14 +5570,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: The \\c[0]resin\ngemstones\\c[1]...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Enemy",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それでしたらいくつか持っておりますが……"
+                                "Shemini: In that case, I do have a\nfew..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5618,14 +5618,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Really!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ホントにっ！？"
+                                ""
                             ]
                         },
                         {
@@ -5642,45 +5642,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Can you give it to me?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　譲って頂けないかしら？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Enemy",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "シェミニ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　アレは貴重なものですから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　簡単にお譲りするわけには行きませんわ。"
+                                ""
                             ]
                         },
                         {
@@ -5697,14 +5666,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: That is a valuable item, so I\ncan't simply give it away."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Enemy",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　どうして、必要なんですの？"
+                                "Shemini: Why do you need it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5721,14 +5721,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Actually..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　実は……"
+                                ""
                             ]
                         },
                         {
@@ -5773,59 +5773,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: I see... For the sake of your\nfriend..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なるほど……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お友達のために……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Enemy",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "シェミニ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　そういう事情でしたら、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お譲りいたしますわ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　どうぞ持っていってくださいませ。"
+                                ""
                             ]
                         },
                         {
@@ -5842,14 +5804,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: If that's the case, I will\ngladly give it to you. Please take it\nwith you."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Enemy",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ただ、ひとつお願いがございまして……"
+                                "Shemini: However, I have one request..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5866,14 +5866,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Please...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お願い……？"
+                                ""
                             ]
                         },
                         {
@@ -5890,14 +5890,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Yes, it's for Lady Claudia..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ええ、クラウディア様にですが……"
+                                ""
                             ]
                         },
                         {
@@ -5914,38 +5914,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: To me?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私に？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Enemy",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "シェミニ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ええ、そうですの……"
+                                ""
                             ]
                         },
                         {
@@ -5962,14 +5938,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Yes, that's right..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Enemy",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　…………（じーっ）"
+                                "Shemini: ............ (*stares*)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5986,21 +5986,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: What's wrong? Is there\nsomething on my face?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうしたの？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私の顔に、何かついているかしら？"
+                                ""
                             ]
                         },
                         {
@@ -6017,14 +6017,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Lady Claudia..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クラウディア様……"
+                                ""
                             ]
                         },
                         {
@@ -6041,14 +6041,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: What is it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なにかしら？"
+                                ""
                             ]
                         },
                         {
@@ -6132,14 +6132,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: That's a very lovely name♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　とても愛おしいお名前ですわ♥"
+                                ""
                             ]
                         },
                         {
@@ -6156,14 +6156,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Yes?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はいっ？"
+                                ""
                             ]
                         },
                         {
@@ -6247,14 +6247,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: I can't bear it anymore♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう我慢できませんわっ♥"
+                                ""
                             ]
                         },
                         {
@@ -6271,28 +6271,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: I have fallen in love at first\nsight with Lady Claudia!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わたくし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クラウディア様に"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一目惚れしましたのっ！！"
+                                ""
                             ]
                         },
                         {
@@ -6348,21 +6348,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Please, become my partner\nwithout fail♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　是非、わたくしの伴侶と"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なってくださいませっ♥"
+                                ""
                             ]
                         },
                         {
@@ -6379,21 +6379,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Um, wait... I can't keep up\nwith the understanding..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あの、待って……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　理解が追いつかないんだけど……"
+                                ""
                             ]
                         },
                         {
@@ -6410,21 +6410,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Sleepy eyes... a dignified\nface... sweet sighs escaping from soft\nlips..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　眠そうな目……凛々しいお顔……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　柔唇からこぼれる甘い吐息……"
+                                ""
                             ]
                         },
                         {
@@ -6576,14 +6576,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: To everything about Lady\nClaudia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クラウディア様のすべてに！"
+                                ""
                             ]
                         },
                         {
@@ -6600,14 +6600,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: You are filled with charm!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魅力が詰まっておりますわっ！！"
+                                ""
                             ]
                         },
                         {
@@ -6759,14 +6759,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Everything about your\nexistence!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　存在のすべてがッ！！！"
+                                ""
                             ]
                         },
                         {
@@ -6783,14 +6783,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: I will make you experience\necstasy!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わたくしをエクスタシーさせますのっ！！！！"
+                                ""
                             ]
                         },
                         {
@@ -6942,21 +6942,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: By all means!! I would like to\ndate you with marriage as a premise!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　是非ともっ！！　結婚を前提に！！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お付き合いして頂きたいですわっ！！"
+                                ""
                             ]
                         },
                         {
@@ -7053,14 +7053,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The reason why this forest\nwas sealed..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この森が封鎖されていた理由って……"
+                                ""
                             ]
                         },
                         {
@@ -7077,14 +7077,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: ...So this is what it meant."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……こういうことだったのかしら。"
+                                ""
                             ]
                         },
                         {
@@ -7163,21 +7163,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Ahh♥ Your attitude of ignoring\nme is also lovely♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ああんっ♥"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わたくしを無視される態度も素敵ですわっ♥"
+                                ""
                             ]
                         },
                         {
@@ -7194,28 +7194,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Now, please let me impregnate\nyou with my spores, my dear companion♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さあ、わたくしの胞子で"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　孕んでくださいませッ！！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　伴・侶・様っ♥"
+                                ""
                             ]
                         },
                         {

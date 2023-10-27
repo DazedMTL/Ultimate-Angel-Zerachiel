@@ -1405,14 +1405,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Zerachiel boarded the ship."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CLザラキエルは船に乗り込んだ。"
+                                ""
                             ]
                         },
                         {
@@ -1429,14 +1429,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "\\CL A few hours later"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CL数時間後"
+                                ""
                             ]
                         },
                         {

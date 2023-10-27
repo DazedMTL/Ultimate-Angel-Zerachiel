@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "アリエスの隠れ家",
+    "displayName": "Aries' Hideout",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4210,14 +4210,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The bathroom, huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　トイレかぁ……"
+                                ""
                             ]
                         },
                         {
@@ -4225,8 +4225,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "利用する",
-                                    "立ち去る"
+                                    "Use it",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -4358,14 +4358,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The bathroom, huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　トイレかぁ……"
+                                ""
                             ]
                         },
                         {
@@ -4373,8 +4373,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "利用する",
-                                    "立ち去る"
+                                    "Use it",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -4492,14 +4492,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm not really in the mood\nright now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今は気分じゃないかなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -4597,45 +4597,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Since my weapons have been\nconfiscated, I'll need to procure some\nfrom the weapon shop first..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　武器は没収されているから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まずは武器屋で調達しないと……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　素手じゃ魔物にも勝てないからね。"
+                                ""
                             ]
                         },
                         {
@@ -4652,21 +4628,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I can't defeat monsters\nbarehanded, you know."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それと、外へ出る前に天使の翼と輪は、"
+                                "Zerachiel: Also, it seems like it would\nbe better to hide the angel wings and\nhalo before going outside."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　隠しておいたほうがよさそうだね。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5812,14 +5812,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Thank you all for gathering here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お集まり頂けてありがとうございます。"
+                                ""
                             ]
                         },
                         {
@@ -5836,21 +5836,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Today, I have received some\nintriguing information, so I have come\nto share it with you all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日は気になる情報が入りまして、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お伝えに参上しました。"
+                                ""
                             ]
                         },
                         {
@@ -5867,14 +5867,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Intriguing information?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気になる情報？"
+                                ""
                             ]
                         },
                         {
@@ -5891,14 +5891,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Do you know about the Great Tree\nof the Magic Continent?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸の大樹をご存じですか？"
+                                ""
                             ]
                         },
                         {
@@ -5915,21 +5915,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Are you talking about the Holy Tree\nwhere the Seventh Curse was once\nactivated?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　かつて第七呪詛が発動した"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖樹のことじゃろう？"
+                                ""
                             ]
                         },
                         {
@@ -5946,45 +5946,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: It seems to be growing near the\nVale, doesn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヴァールの近くに生えておりますわね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アゼル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　僕たちは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　『夢幻の大樹』と呼んでいますが……"
+                                ""
                             ]
                         },
                         {
@@ -6001,14 +5970,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: We call it the Dreaming Great\nTree..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　そこで六翼の天使が発見されました。"
+                                "Azel: And there, the Six-Winged Angel\nhas been discovered."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6025,38 +6025,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: A Six-Winged Angel...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　六翼の天使ですって……！？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アゼル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ええ、僕の部下が目撃したそうです。"
+                                ""
                             ]
                         },
                         {
@@ -6073,21 +6049,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Yes, it seems my subordinate\nwitnessed it."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　黄昏を思わせる長髪に、"
+                                "Azel: They say she had long hair that\ngave off a twilight-like impression,\nwith a fleeting atmosphere..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　儚げな雰囲気が印象的だったとか……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6104,45 +6104,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Master Ern, there's no mistake\nabout it!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エルン様よっ！　間違いないわっ！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アゼル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　僕もそんな気がしまして、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　先にお伝えさせて頂きました。"
+                                ""
                             ]
                         },
                         {
@@ -6159,21 +6128,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: I also had a feeling like that, so\nI wanted to let you know first."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　星神の件がありますから、"
+                                "Azel: We need to take action because of\nthe matter with the Star God, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　僕たちも動く必要がありますからね。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6190,21 +6190,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: So basically, you need to\nconfirm her identity before the knight\norder does."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　つまり、騎士団より先に"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　正体を確かめろってことね。"
+                                ""
                             ]
                         },
                         {
@@ -6221,14 +6221,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Yes, that's right."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はい、そういうことです。"
+                                ""
                             ]
                         },
                         {
@@ -6245,21 +6245,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Once the knight order starts\nmoving, we won't be able to get close\neither."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　騎士団が動き出したら、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクたちも近づけないもんね。"
+                                ""
                             ]
                         },
                         {
@@ -6276,21 +6276,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I see. If it's for Lala's sake,\nI'll help out!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なるほどのう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ララのためなら手伝うぞいっ！"
+                                ""
                             ]
                         },
                         {
@@ -6338,14 +6338,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Everyone... thank you!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんな……ありがとっ！！"
+                                ""
                             ]
                         },
                         {
@@ -6424,14 +6424,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Well then, let's prepare and\nhead out."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それじゃ、準備を整えて向かおうか。"
+                                ""
                             ]
                         },
                         {
@@ -6479,21 +6479,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You will move us to the Demon\nContinent, right? Marnagarm."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸までは移動してくれるんでしょ？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　マーナガルム。"
+                                ""
                             ]
                         },
                         {
@@ -6510,14 +6510,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Ah, let me lend you a hand."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あぁ、手を貸そう。"
+                                ""
                             ]
                         },
                         {
@@ -6534,21 +6534,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Well then, everyone, please take\ncare of me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それではみなさん、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　よろしくお願いいたします。"
+                                ""
                             ]
                         },
                         {
@@ -6584,14 +6584,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "※Sachia has become a member of our\ngroup."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※サティアが仲間になりました。"
+                                ""
                             ]
                         },
                         {
@@ -6620,14 +6620,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "※Rabi has become a member of our group."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※ラヴィが仲間になりました。"
+                                ""
                             ]
                         },
                         {
@@ -6656,14 +6656,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Claudia has become a member of our\ngroup."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※クラウディアが仲間になりました。"
+                                ""
                             ]
                         },
                         {
@@ -6692,14 +6692,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "※Lala has become a member of our group."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※ララが仲間になりました。"
+                                ""
                             ]
                         },
                         {
@@ -6728,14 +6728,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "※Pururin has become a member of our\ngroup."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※プルリンが仲間になりました。"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "アリエスの隠れ家",
+    "displayName": "Aries' Hideout",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4168,14 +4168,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Welcome back, Zerachiel-sama."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル様、おかえりなさいませ。"
+                                ""
                             ]
                         },
                         {
@@ -4192,14 +4192,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yes, I'm home~!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、ただいま～！"
+                                ""
                             ]
                         },
                         {
@@ -4216,21 +4216,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We managed to break through\nthe second layer of the organization,\nbut the enemies are starting to get\nserious, aren't they?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団の二層も突破したけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　敵も本気になってきたね。"
+                                ""
                             ]
                         },
                         {
@@ -4247,21 +4247,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: According to the information I\ngathered, it seems they have employed a\nnew monster girl."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わたくしが集めた情報ですと、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　新たな魔物娘を雇用したそうですわ。"
+                                ""
                             ]
                         },
                         {
@@ -4278,45 +4278,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Monster girls?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘を？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　もともと魔大陸にいた魔物娘ですけれど、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　手強い相手ですわ。"
+                                ""
                             ]
                         },
                         {
@@ -4333,21 +4302,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: She was originally a monster girl\nfrom the Demon Continent, so she's a\nformidable opponent."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　交戦するときは、"
+                                "Aries: Please be careful with magic when\nengaging in combat."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔術に気をつけてくださいませ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4364,14 +4364,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hello~!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　りょうか～い！"
+                                ""
                             ]
                         },
                         {
@@ -4388,21 +4388,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Also, the lockdown in the western\ndistrict has been lifted. From now on,\nyou can come and go freely."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それと、西地区の封鎖が解かれましたわ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今後は自由に出入りできますわよ。"
+                                ""
                             ]
                         },
                         {
@@ -4419,14 +4419,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like it would be\nbetter to take a look once."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一度、見ておいた方がよさそうだね。"
+                                ""
                             ]
                         },
                         {
@@ -4443,14 +4443,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: After taking a break, I'll\ncome and visit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一休みしたら見学してくるよ。"
+                                ""
                             ]
                         },
                         {
@@ -4467,21 +4467,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Understood. Please have a good\nrest."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　かしこまりましたわ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゆっくりおやすみくださいませ。"
+                                ""
                             ]
                         },
                         {
@@ -4722,21 +4722,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We need to find Aries. I\nthink she might be indoors."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アリエスを探さないと。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　多分、屋内にいると思うんだけど。"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "アリエスの隠れ家",
+    "displayName": "Aries' Hideout",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4150,14 +4150,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I take a break today?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日は休もうかな？"
+                                ""
                             ]
                         },
                         {
@@ -4165,8 +4165,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "休む",
-                                    "起きてる"
+                                    "Take a break",
+                                    "Are you awake?"
                                 ],
                                 1,
                                 0,
@@ -4320,14 +4320,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Effy..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー……"
+                                ""
                             ]
                         },
                         {
@@ -4395,14 +4395,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: You don't have... breasts..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　胸……ないですね……"
+                                ""
                             ]
                         },
                         {
@@ -4419,14 +4419,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Alright, I'll kill you ♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　よし、殺すっ♪"
+                                ""
                             ]
                         },
                         {
@@ -4443,14 +4443,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: P-Please, Zerachiel-sama..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お、おやめください、ザラキエル様……"
+                                ""
                             ]
                         },
                         {
@@ -4546,14 +4546,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I take a break today?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日は休もうかな？"
+                                ""
                             ]
                         },
                         {
@@ -4561,8 +4561,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "休む",
-                                    "起きてる"
+                                    "Take a break",
+                                    "Are you awake?"
                                 ],
                                 1,
                                 0,
@@ -4737,14 +4737,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I take a break today?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日は休もうかな？"
+                                ""
                             ]
                         },
                         {
@@ -4752,8 +4752,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "休む",
-                                    "起きてる"
+                                    "Take a break",
+                                    "Are you awake?"
                                 ],
                                 1,
                                 0,
@@ -4937,14 +4937,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The bathroom, huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　トイレかぁ……"
+                                ""
                             ]
                         },
                         {
@@ -4952,8 +4952,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "利用する",
-                                    "立ち去る"
+                                    "Use it",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5085,14 +5085,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The bathroom, huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　トイレかぁ……"
+                                ""
                             ]
                         },
                         {
@@ -5100,8 +5100,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "利用する",
-                                    "立ち去る"
+                                    "Use it",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5219,14 +5219,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm not really in the mood\nright now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今は気分じゃないかなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -5324,45 +5324,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Since my weapons have been\nconfiscated, I'll need to procure some\nfrom the weapon shop first..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　武器は没収されているから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まずは武器屋で調達しないと……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　素手じゃ魔物にも勝てないからね。"
+                                ""
                             ]
                         },
                         {
@@ -5379,21 +5355,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I can't defeat monsters\nbarehanded, you know."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それと、外へ出る前に天使の翼と輪は、"
+                                "Zerachiel: Also, it seems like it would\nbe better to hide the angel wings and\nhalo before going outside."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　隠しておいたほうがよさそうだね。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5843,14 +5843,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Only the saint remains...\nI'll do my best!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　残るは聖女のみ……がんばるぞー！"
+                                ""
                             ]
                         },
                         {
@@ -6213,14 +6213,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Finally, Zerachiel's story begins."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いよいよザラキエルの物語が始まります。"
+                                ""
                             ]
                         },
                         {
@@ -6237,21 +6237,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Whether you earn money diligently or\nthrough prostitution is up to your\nchoice."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　地道にお金を稼ぐか、売春で稼ぐかは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あなたの選択次第です。"
+                                ""
                             ]
                         },
                         {
@@ -6268,21 +6268,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The number of sexual acts does not\naffect the ending, so please play\nfreely."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　性行為の回数はエンディングにかかわりませんので、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　自由にプレイをされてください。"
+                                ""
                             ]
                         },
                         {
@@ -6311,14 +6311,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Furthermore, you can enhance your\nabilities from the menu screen."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また、メニュー画面からアビリティの強化が行えます。"
+                                ""
                             ]
                         },
                         {
@@ -6335,21 +6335,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Abilities can be enhanced to increase\nattack power, magic, and agility."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アビリティは攻撃力を強化したり、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔力や素早さを強化することが可能です。"
+                                ""
                             ]
                         },
                         {
@@ -6366,21 +6366,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Please note that you will need an item\nto reset."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　振り直しにはアイテムが必要ですので、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ご注意ください。"
+                                ""
                             ]
                         },
                         {
@@ -6416,14 +6416,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Additionally, you can reminisce about\nevents at the inn."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また、イベントの回想は宿屋で行えます。"
+                                ""
                             ]
                         },
                         {
@@ -6661,28 +6661,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: It would be better to prepare\nweapons, armor, and healing potions\nproperly before infiltrating the Orpheus\nSect."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オルフェウス教団へ乗り込む前に、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　武器や防具、回復薬を"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　しっかり準備したほうがいいですわ。"
+                                ""
                             ]
                         },
                         {
@@ -6699,14 +6699,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like we need to earn\nsome money first."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まずはお金を稼ぐ必要がありそうだね。"
+                                ""
                             ]
                         },
                         {
@@ -6723,28 +6723,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: There are several ways to defeat\nsewer slimes, sell fish through fishing,\nand earn money."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　下水道のスライムを倒したり、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　釣りでお魚を売ったり、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　方法はいくつかありますわ。"
+                                ""
                             ]
                         },
                         {
@@ -6761,45 +6761,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's walk around the town\nand see if we can find any jobs that\nseem profitable."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街を歩いて、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　稼げそうな仕事を探してみるよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　オルフェウス教団は、街の東にありますわ。"
+                                ""
                             ]
                         },
                         {
@@ -6816,14 +6792,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: The Orpheus Sect is located to\nthe east of the town."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　準備が整ってから向かいましょう。"
+                                "Aries: Let's head out once we're fully\nprepared."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6956,21 +6956,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: It seems that the renovation of\nthe Adventurer's Guild is complete.\nThere might be some discoveries, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　冒険者ギルドの改装が終わったみたいですわ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か発見があるかもですわよ。"
+                                ""
                             ]
                         },
                         {
@@ -6987,14 +6987,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: And, it seems that the blacksmith\nhas received new weapons in stock."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それと、鍛冶屋に新しい武具が入荷したようですの。"
+                                ""
                             ]
                         },
                         {
@@ -7134,52 +7134,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Monster girls are the queens of\ntentacles... like Princess Roper, I\nsuppose."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘は、触手たちの女王……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　プリンセスローパーみたいですわね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔術が厄介ですから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　対策したほうがよろしいですわね。"
+                                ""
                             ]
                         },
                         {
@@ -7196,21 +7165,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Magic can be troublesome, so it\nwould be best to come up with\ncountermeasures."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ちょうど鍛冶屋に"
+                                "Aries: I heard a rumor that the\nblacksmith just received new\nmerchandise."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　新商品が入荷したって噂を聞きましたわ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7350,21 +7350,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: The saintess uses powerful magic.\nIt would be wise to increase your magic\nresistance."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖女は強力な魔法を使いますわ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔術耐性は上げておいた方がいいですわね。"
+                                ""
                             ]
                         },
                         {
@@ -7541,14 +7541,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I think it's better to stop\nwalking around naked..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で歩くのは止めた方がいいと思いますわ…"
+                                ""
                             ]
                         },
                         {
@@ -7665,14 +7665,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Are you ready?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　準備はできたか？"
+                                ""
                             ]
                         },
                         {
@@ -7680,8 +7680,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -7711,21 +7711,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Alright, let's begin the\nteleportation to the castle. Close your\neyes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、城まで転移を開始する。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　目をつむれ。"
+                                ""
                             ]
                         },
                         {
@@ -7882,14 +7882,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Managarm: Are you going back to Vaal?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヴァールに帰るか？"
+                                ""
                             ]
                         },
                         {
@@ -7897,8 +7897,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -7928,21 +7928,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "マーナガルム："
+                                "Managarm: Then, I will initiate the\ntransfer. Close your eyes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、転移を開始する。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　目をつむれ。"
+                                ""
                             ]
                         },
                         {
@@ -8078,21 +8078,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: What a getup... Put on some\nclothes, put on clothes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんて恰好をしている……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　服を着ろ、服を。"
+                                ""
                             ]
                         },
                         {
@@ -8167,14 +8167,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Good morning, Zerachiel-sama."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル様、おはようございますわ。"
+                                ""
                             ]
                         },
                         {
@@ -8191,14 +8191,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Good morning, Aries."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おはよう、アリエス。"
+                                ""
                             ]
                         },
                         {
@@ -8215,14 +8215,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Is your body alright now?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お体はもう大丈夫ですの？"
+                                ""
                             ]
                         },
                         {
@@ -8239,38 +8239,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yes, thanks to everyone, I'm\nalmost fully recovered."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、おかげさまでほぼ完治したよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あのときは驚きましたわ。"
+                                ""
                             ]
                         },
                         {
@@ -8287,21 +8263,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I was surprised at that time."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　クラウディア様たちを抱えて、"
+                                "Aries: With Claudia-sama and Lala-sama\nin their arms, Rabi-sama and Zerachiel-\nsama came down..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ララ様とザラキエル様が降りてきて……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8318,21 +8318,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah, if I hadn't done that,\neveryone would have died from falling."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ああしないと、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんな落下死してたからね。"
+                                ""
                             ]
                         },
                         {
@@ -8349,14 +8349,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I pushed myself too hard and\nended up fracturing my wings."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　無理しすぎて翼が骨折しちゃったけど。"
+                                ""
                             ]
                         },
                         {
@@ -8373,14 +8373,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Everyone, I was worried about you\nall."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みなさん、心配しておりましたわよ。"
+                                ""
                             ]
                         },
                         {
@@ -8397,21 +8397,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah, right. Everyone, are we\nleaving on a journey today?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あ、そっか。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんな、今日旅立つんだっけ。"
+                                ""
                             ]
                         },
                         {
@@ -8428,21 +8428,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Yes, everyone is enjoying their\nfinal sightseeing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ええ、みなさま"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最後の観光を楽しんでおりますわ。"
+                                ""
                             ]
                         },
                         {
@@ -8459,14 +8459,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Maybe I should go and greet\nthem too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクも挨拶に行ってこようかな。"
+                                ""
                             ]
                         },
                         {
@@ -8483,14 +8483,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We're planning to depart in\nthe early afternoon, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お昼過ぎには旅立つ予定だからね。"
+                                ""
                             ]
                         },
                         {
@@ -8507,14 +8507,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Hehe, have a safe journey."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふふ、いってらっしゃいませ。"
+                                ""
                             ]
                         },
                         {
@@ -8603,14 +8603,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Are you going on a journey soon?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そろそろ旅に出ますの？"
+                                ""
                             ]
                         },
                         {
@@ -8627,14 +8627,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hmm..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うーん……"
+                                ""
                             ]
                         },
                         {
@@ -8642,8 +8642,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "出発する",
-                                    "もう少しとどまる"
+                                    "Departure",
+                                    "Stay a little longer"
                                 ],
                                 1,
                                 0,
@@ -8673,14 +8673,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yeah, I guess it's about time\nto depart."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そうだね、そろそろ出発しようかな。"
+                                ""
                             ]
                         },
                         {
@@ -8697,38 +8697,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Aries, you've taken care of\nme, haven't you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　アリエスにはお世話になったね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　わたくしこそ、お礼がたくさんですわ。"
+                                ""
                             ]
                         },
                         {
@@ -8745,21 +8721,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アリエス："
+                                "Aries: It is I who owes you many thanks."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　魔大陸を救ってくださったこと、"
+                                "Aries: I am grateful for saving the\nDemon Continent."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　感謝いたしますの。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8776,93 +8776,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, then it's mutual,\nisn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あはは、じゃあお互い様だね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ふふ、そうですわね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　アリエス、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　最後に聞きたいことがあるんだけど……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　キミは何者なの？"
+                                ""
                             ]
                         },
                         {
@@ -8879,21 +8800,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Hehe, that's right."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　わたくしは魔王の娘……"
+                                "Zerachiel: Aries, there's something I\nwant to ask you before we part..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、納得しませんわよね。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8910,45 +8855,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Who are you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　昔、人を愛し、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　人へ転生した神様がいたはずだけど……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　まさか、獣神アンリの正体って……"
+                                ""
                             ]
                         },
                         {
@@ -8965,21 +8879,107 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I am the daughter of the Demon\nKing... but I suppose you won't believe\nme, will you?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　ふふ、あとはご想像に"
+                                "Zerachiel: There should have been a god\nwho once loved humans and was\nreincarnated as a human..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　お任せいたしますわっ♪"
+                                "Zerachiel: No way, the true identity of\nthe Beast God Anri..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "Aries: Hehe, I'll leave the rest to your\nimagination♪"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8996,14 +8996,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, I'll do just that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あはは、そうしておくよ。"
+                                ""
                             ]
                         },
                         {
@@ -9020,21 +9020,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Aries is Aries. No matter her\ntrue identity, she is my friend."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　アリエスはアリエスだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　正体が何者でも、ボクの友達だよ。"
+                                ""
                             ]
                         },
                         {
@@ -9051,14 +9051,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Hehe, that's right."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ふふ、そうですわね。"
+                                ""
                             ]
                         },
                         {
@@ -9075,45 +9075,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's meet again, Aries."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　また会おうね、アリエス。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "アリエス："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ええ、困ったことがあれば、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　いつでも駆けつけますわ。"
+                                ""
                             ]
                         },
                         {
@@ -9130,21 +9099,52 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Yes, if you ever have any\ntroubles, I will always come running."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　またお会いしましょう、"
+                                "Aries: Let's meet again, Zerachiel-sama."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ザラキエル様。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9215,14 +9215,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "And so, we set off on our journey."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\CLこうしてボクたちは旅へ出た"
+                                ""
                             ]
                         },
                         {
@@ -9239,21 +9239,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "The small adventure had somehow turned\ninto a big incident..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\CL小さかった冒険が、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\CLいつの間にか大きな事件に発展してたけど……"
+                                ""
                             ]
                         },
                         {
@@ -9270,14 +9270,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "I'm glad that everything was resolved\nsafely, regardless of anything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\CL何はともあれ無事に解決してよかったよ。"
+                                ""
                             ]
                         },
                         {
@@ -9294,14 +9294,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "And three days passed..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\CLそして三日が経った……"
+                                ""
                             ]
                         },
                         {
@@ -9359,14 +9359,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Yes, please take your time."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　はい、ごゆっくりしてくださいませ。"
+                                ""
                             ]
                         },
                         {
@@ -9451,21 +9451,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: It seems that the Tree of Dreams\nbestows various trials upon us."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　夢幻の大樹は、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　様々な試練をお与えになるそうですわ。"
+                                ""
                             ]
                         },
                         {
@@ -9482,14 +9482,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Please be careful...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうかお気をつけて……！"
+                                ""
                             ]
                         },
                         {
@@ -9587,14 +9587,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I think it's better to stop\nwalking around naked..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で歩くのは止めた方がいいと思いますわ…"
+                                ""
                             ]
                         },
                         {
@@ -9720,14 +9720,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I think it's better to stop\nwalking around naked..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で歩くのは止めた方がいいと思いますわ…"
+                                ""
                             ]
                         },
                         {
@@ -9837,14 +9837,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's head to the church once\nwe're ready."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　準備が整ったら教団へ向かおう。"
+                                ""
                             ]
                         },
                         {
@@ -10010,21 +10010,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: A monster girl, huh... The\nkey is how to use magic."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘かぁ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔術をどうするかが鍵だね。"
+                                ""
                             ]
                         },
                         {
@@ -10319,21 +10319,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I believe there are some\ndocuments left in the room where the\nsaint was."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖女のいた部屋に、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　資料が残っていると思いますわ。"
+                                ""
                             ]
                         },
                         {
@@ -10350,14 +10350,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Could you please go and find it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それを探してきて頂けないでしょうか？"
+                                ""
                             ]
                         },
                         {
@@ -10374,14 +10374,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Understood, I'll go."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　分かった、行ってくるよ。"
+                                ""
                             ]
                         },
                         {
@@ -10456,14 +10456,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: There is a ship to the east of\nLogres."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ログレスの東に船がございます。"
+                                ""
                             ]
                         },
                         {
@@ -10480,21 +10480,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Please cross the sea from there\nand head towards the Demon Continent."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そこから海を渡って、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸を目指してくださいませ。"
+                                ""
                             ]
                         },
                         {
@@ -10511,14 +10511,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Understood, I'll go."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　了解、行ってくるよ。"
+                                ""
                             ]
                         },
                         {
@@ -10829,14 +10829,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I get naked..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸になっちゃおうかな……"
+                                ""
                             ]
                         },
                         {
@@ -10844,8 +10844,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "脱ぐ",
-                                    "考え直す"
+                                    "Take off your clothes",
+                                    "Rethink"
                                 ],
                                 1,
                                 0,
@@ -10950,14 +10950,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's not a problem if it's\njust inside the house, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　家の中だけなら問題ないよね。"
+                                ""
                             ]
                         },
                         {
@@ -11119,14 +11119,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I start putting on\nsome clothes soon?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そろそろ服を着ようかな？"
+                                ""
                             ]
                         },
                         {
@@ -11134,8 +11134,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "服を着る",
-                                    "裸がいい"
+                                    "Put on clothes",
+                                    "Is being naked okay?"
                                 ],
                                 1,
                                 0,
@@ -11240,14 +11240,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yeah, it's perfect♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　うん、完璧だね♪"
+                                ""
                             ]
                         },
                         {
@@ -11597,52 +11597,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: You're heading towards the\nDreaming Great Tree in the Magic\nContinent, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸の『夢幻の大樹』へ"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　向かうのですよね？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "エフィー："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　私は足手まといになりそうなので、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　こちらでお待ちしておりますね。"
+                                ""
                             ]
                         },
                         {
@@ -11659,14 +11628,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: I'll wait here since I might just\nslow you down."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　がんばってください……！！"
+                                "Effy: Please do your best...!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11741,14 +11741,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Is walking around naked your\nhobby?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で歩くのがご趣味なんですか？"
+                                ""
                             ]
                         },
                         {
@@ -12074,14 +12074,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "It has been two months since then."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CL……あれから、二か月が経った。"
+                                ""
                             ]
                         },
                         {
@@ -12270,59 +12270,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: By causing the destruction of\nEden, a new spark will be born."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お前たちがエデンを消滅させたことで、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　新たな火種が生まれるだろう。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                11,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "マーナガルム："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　しかし、しばし平和になったと"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　考えて良いだろう。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　おめでとう、と言うべきか。"
+                                ""
                             ]
                         },
                         {
@@ -12339,14 +12301,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: However, it can be considered\na brief period of peace. Should I\ncongratulate you?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                11,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ところで、魔大陸へ転移するか？"
+                                "Marnagarm: By the way, do you want to\ntransfer to the Demon Continent?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12354,8 +12354,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -12385,21 +12385,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Well then, let's start the\ntransfer to the castle. Close your eyes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、城まで転移を開始する。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　目をつむれ。"
+                                ""
                             ]
                         },
                         {
@@ -12543,14 +12543,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Shall we transfer to the\nDemon Continent?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸へ転移するか？"
+                                ""
                             ]
                         },
                         {
@@ -12558,8 +12558,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -12589,21 +12589,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Then, let's begin the\nteleportation to the castle. Close your\neyes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、城まで転移を開始する。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　目をつむれ。"
+                                ""
                             ]
                         },
                         {
@@ -12739,14 +12739,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Where should we teleport to?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どこへ転移する？"
+                                ""
                             ]
                         },
                         {
@@ -12754,10 +12754,10 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "魔大陸へ向かう",
-                                    "夢幻の大樹へ向かう",
-                                    "夢幻の秘境へ向かう",
-                                    "立ち去る"
+                                    "Head to the Demon Continent",
+                                    "Head towards the Tree of Dreams",
+                                    "Head to the realm of dreams and illusions",
+                                    "Leave"
                                 ],
                                 3,
                                 0,
@@ -12787,21 +12787,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Alright, let's begin the\nteleportation. Close your eyes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、転移を開始する。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　目をつむれ。"
+                                ""
                             ]
                         },
                         {
@@ -12855,21 +12855,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Alright, let's begin the\nteleportation. Close your eyes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、転移を開始する。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　目をつむれ。"
+                                ""
                             ]
                         },
                         {
@@ -12886,21 +12886,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: I'll wait here since I might just\nget in the way."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私は足手まといになりそうなので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　こちらでお待ちしておりますね。"
+                                ""
                             ]
                         },
                         {
@@ -12954,21 +12954,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Alright, let's begin the\nteleportation. Close your eyes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　では、転移を開始する。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　目をつむれ。"
+                                ""
                             ]
                         },
                         {
@@ -12985,21 +12985,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: I'll wait here since I might just\nget in the way."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私は足手まといになりそうなので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　こちらでお待ちしておりますね。"
+                                ""
                             ]
                         },
                         {
@@ -13135,21 +13135,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: What a getup... Put on some\nclothes, put on clothes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんて恰好をしている……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　服を着ろ、服を。"
+                                ""
                             ]
                         },
                         {
@@ -13233,38 +13233,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: The Tree of Fantasia is\nconsidered a trial from the gods."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『夢幻の大樹』は神の試練とされている。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　『力足りぬ者は死あるのみ』"
+                                ""
                             ]
                         },
                         {
@@ -13281,14 +13257,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Those who lack power have only\ndeath."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　注意するのじゃよ。"
+                                "Mel: Be careful."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13363,14 +13363,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: I don't mind if it's indoors, but\ndon't go outside."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　室内なら構わんが、外には出るでないぞ。"
+                                ""
                             ]
                         },
                         {

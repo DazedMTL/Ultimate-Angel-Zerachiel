@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "カウンターパンチ",
+    "displayName": "Counter Punch",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4394,14 +4394,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋："
+                                "Blacksmith: Welcome!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい！"
+                                ""
                             ]
                         },
                         {
@@ -4425,14 +4425,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋："
+                                "Blacksmith: Thank you very much!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとうございます！"
+                                ""
                             ]
                         },
                         {
@@ -4507,21 +4507,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋："
+                                "Blacksmith: Please leave immediately.\nWe're not that kind of shop."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すぐ出て行ってくれ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ウチはそういう店じゃないんでね。"
+                                ""
                             ]
                         },
                         {
@@ -4730,14 +4730,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: P-Please put on some\nclothes!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふ、服を着てください！！"
+                                ""
                             ]
                         },
                         {
@@ -4867,14 +4867,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋の娘："
+                                "Blacksmith's Daughter: Oh, this place is\noff-limits."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、ここは立ち入り禁止よ。"
+                                ""
                             ]
                         },
                         {
@@ -4995,14 +4995,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋の娘："
+                                "The Blacksmith's Daughter: It seems like\nPapa will stay in Logres until the end."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　パパは最後までログレスに残るみたい。"
+                                ""
                             ]
                         },
                         {
@@ -5019,21 +5019,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋の娘："
+                                "The Blacksmith's Daughter: I'm planning\nto stay too. After all, it's my\nhometown."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私も残るつもりよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　やっぱり故郷だもんね。"
+                                ""
                             ]
                         },
                         {
@@ -5154,14 +5154,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋の娘："
+                                "Blacksmith's Daughter: Once I've settled\ndown, I'll get married."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私、落ち着いたら結婚するの。"
+                                ""
                             ]
                         },
                         {
@@ -5178,21 +5178,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋の娘："
+                                "Blacksmith's Daughter: Partner? I'm an\nadventurer who helps Papa. We've been\nchildhood friends."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　相手？　パパのお手伝いをしている冒険者よ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私たち、幼馴染なの。"
+                                ""
                             ]
                         },
                         {
@@ -5313,14 +5313,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "鍛冶屋の娘："
+                                "Blacksmith's Daughter: Kyaaaaaa! You\nperveeeert!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　きゃああああああ！　ヘンタイぃぃぃぃ！！"
+                                ""
                             ]
                         },
                         {

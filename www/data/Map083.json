@@ -30125,21 +30125,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there are no\nfish around here... Let's come back\ntomorrow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　周囲に魚がいないみたい……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　明日、また来よう。"
+                                ""
                             ]
                         },
                         {
@@ -30180,14 +30180,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                ""
+                                "Do you want to go fishing?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　釣りをしますか？"
+                                ""
                             ]
                         },
                         {
@@ -30195,8 +30195,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -30442,14 +30442,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                ""
+                                "I couldn't catch anything..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　何も釣れなかった……"
+                                ""
                             ]
                         },
                         {
@@ -30594,14 +30594,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: If I had a fishing rod, maybe\nI could go fishing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　\\I[103]\\c[6]釣り竿\\c[0] があれば \\c[6]釣り\\c[0] ができるかも……"
+                                ""
                             ]
                         },
                         {
@@ -30887,21 +30887,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: The guild is currently\nunder renovation. Will you come back\nanother time?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、ギルドは改装中なの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また今度来てくれるかしら？"
+                                ""
                             ]
                         },
                         {
@@ -31150,14 +31150,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's a bit resistant to go\nthrough the sewer naked..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で下水道を通るのは抵抗あるなぁ…"
+                                ""
                             ]
                         },
                         {
@@ -31641,14 +31641,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Being naked in the sewer is a\nbit..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で下水道はちょっと…"
+                                ""
                             ]
                         },
                         {
@@ -31746,21 +31746,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: Ever since slimes started\ninhabiting the underground waterway,\nit's been difficult to get water from\nthe faucet. It's quite troublesome."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　地下水路にスライムが棲みついてから"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　水道から水が出にくくて困ったもんだよ。"
+                                ""
                             ]
                         },
                         {
@@ -31777,21 +31777,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: I put out a request to\nadventurers for 1000 Rill, but it's been\nquite difficult to get someone to accept\nit..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　冒険者に \\c[6]1000 Rill\\c[0] で依頼を出したけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なかなか引き受けてもらえなくてね……"
+                                ""
                             ]
                         },
                         {
@@ -31808,14 +31808,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: 1000 Rill..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　1000 Rill……………………"
+                                ""
                             ]
                         },
                         {
@@ -31823,8 +31823,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "スライムを退治する",
-                                    "立ち去る"
+                                    "Defeat the slime",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -31854,131 +31854,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Grandma, I'll come and\nexterminate the slimes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　おばあちゃん、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクがスライムを退治してくるよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "老婆："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あなたが？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　まだ子供なのに大丈夫かい？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　こう見えても戦いは得意なんだ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                2,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　大船に乗ったつもりで任せてよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                2,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　代わりにスライムを退治したら、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　冒険者に依頼したお金、ボクにちょーだい♪"
+                                ""
                             ]
                         },
                         {
@@ -31995,14 +31885,124 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: You? Are you okay even though\nyou're still a child?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　わかったわ、お願いするわね。"
+                                "Zerachiel: Despite appearances, I'm\nactually skilled in battle."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                2,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "Zerachiel: Leave it to me as if I were\non a big ship."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                2,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "Zerachiel: If I exterminate the slimes\nin your place, give me the money you\nrequested from the adventurers, okay?♪"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "Old Woman: Alright, I understand. I'll\nmake the request."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -32140,38 +32140,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Grandma, I defeated the\nslime."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　おばあちゃん、スライム倒したよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "老婆："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あらあら、本当に倒してくれるなんて……"
+                                ""
                             ]
                         },
                         {
@@ -32188,14 +32164,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "老婆："
+                                "Granny: Oh my, you really defeated it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ありがとうね、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -32212,14 +32188,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "老婆："
+                                "Granny: Thank you, young lady."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　これは約束の報酬だよ。"
+                                "Granny: This is the promised reward."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -32348,14 +32348,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "老婆："
+                                "Granny: I asked you to take care of the\nslime extermination. Thank you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　スライム退治、よろしく頼んだよ。"
+                                ""
                             ]
                         },
                         {
@@ -32440,14 +32440,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: Hello, young lady."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃん、こんにちわ。"
+                                ""
                             ]
                         },
                         {
@@ -32529,14 +32529,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: I was hiding in the\nunderground waterway and I'm safe."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私は地下水路に隠れていて無事だったよ。"
+                                ""
                             ]
                         },
                         {
@@ -32618,14 +32618,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: Is it a trend for young\npeople these days to walk around naked?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最近の若い子は裸で歩くのがブームなのかね。"
+                                ""
                             ]
                         },
                         {
@@ -32716,21 +32716,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "教会兵士："
+                                "Church Soldier: There's an intruder in\nthe temple. We're currently\ninvestigating, so the western district\nis closed off."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神殿に侵入者が現れたんだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今調査中だから、西地区は閉鎖しているよ。"
+                                ""
                             ]
                         },
                         {
@@ -32910,21 +32910,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "教会兵士："
+                                "Church Soldier: What are you doing!! I\nwill imprison you!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　貴様、何をしている！！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　投獄するぞ！！"
+                                ""
                             ]
                         },
                         {
@@ -33015,21 +33015,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: The western district has poor\npublic safety, so it's better not to\napproach for your own sake."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　西地区は治安が悪いから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　近づかないほうが身のためだよ。"
+                                ""
                             ]
                         },
                         {
@@ -33191,21 +33191,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Resident: Hey, you came out of that\nhouse... Oh, never mind."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミ、そこの家から出てきたけど……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いや、なんでもない。"
+                                ""
                             ]
                         },
                         {
@@ -33367,14 +33367,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems like the western\ndistrict had less damage."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　西地区は被害が少なかったみたいだよ。"
+                                ""
                             ]
                         },
                         {
@@ -33536,21 +33536,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Yeah, being naked is nice,\nisn't it? I want to run around like that\ntoo."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うんうん、裸はいいよね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私も走り回ってみたいよ。"
+                                ""
                             ]
                         },
                         {
@@ -33721,21 +33721,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Have you seen the cult? It's\namazing, isn't it? Tourists come to\nvisit just to see it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団を見ましたか？　すごいでしょう？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれを見るために、観光客が訪れるんです。"
+                                ""
                             ]
                         },
                         {
@@ -33817,21 +33817,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that the number of\npeople being attacked by angels and\nleaving the cult is increasing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使に襲われ、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団も脱退される方が増加しているそうです。"
+                                ""
                             ]
                         },
                         {
@@ -33848,21 +33848,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: What will happen to this town\nfrom now on..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この街はどうなるのでしょうか……。"
+                                ""
                             ]
                         },
                         {
@@ -33944,21 +33944,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: ...!? I-It's better not to go\nto the western district dressed like\nthat!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そ、そんな恰好が西区へ行かないほうがいいですよ！！"
+                                ""
                             ]
                         },
                         {
@@ -34049,14 +34049,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "男の子："
+                                "Boy: Onee-chan! Let's play together!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おねぇちゃん！　いっしょにあそぼ！！"
+                                ""
                             ]
                         },
                         {
@@ -34294,14 +34294,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "男の子："
+                                "Boy: Onee-chan! Why are you naked??"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おねぇちゃん！　どうして裸なの？？"
+                                ""
                             ]
                         },
                         {
@@ -34755,21 +34755,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: The people from the cult give off\na really creepy vibe. Somehow... but I\ncan't quite put my finger on it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団の人、とても不気味な感じがするの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんとなく……だけど。　"
+                                ""
                             ]
                         },
                         {
@@ -34851,21 +34851,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: The boy who used to always run\naround, he will never wake up again..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いつも走り回ってた男の子、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう目を覚まさないの……。"
+                                ""
                             ]
                         },
                         {
@@ -34882,14 +34882,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: *sniffle*... Ah, uhh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ぐすんっ……あ、ぅ…………"
+                                ""
                             ]
                         },
                         {
@@ -34971,21 +34971,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: I know. Onee-chan, you're a\npervert, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わたし、知ってるよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お姉ちゃん、ヘンタイさんでしょ？"
+                                ""
                             ]
                         },
                         {
@@ -35076,21 +35076,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "教会騎士："
+                                "Church Knight: We're keeping watch like\nthis because there are many intruders\ntrying to infiltrate the church."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団に侵入する輩も多いから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こうして見張りをしているんだ。"
+                                ""
                             ]
                         },
                         {
@@ -35172,21 +35172,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "教会騎士："
+                                "Church Knight: Believing in God, being\nattacked by angels... The number of\npeople leaving the church is increasing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神を信じ、天使に襲われた。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……教団から去る者が増えているよ。"
+                                ""
                             ]
                         },
                         {
@@ -35268,21 +35268,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "教会騎士："
+                                "Church Knight: ...!? What are you\ndoing!! I'm going to catch you!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……！？　なにをしている！！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　捕まえるぞ！！"
+                                ""
                             ]
                         },
                         {
@@ -35473,14 +35473,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Priest: Won't you also join the church?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなたも教団へ入信しませんか？"
+                                ""
                             ]
                         },
                         {
@@ -35562,21 +35562,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: Oh, you're the dancer from the\ntavern. Would you like to join our\nreligious organization? You have talent,\nyou know!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、酒場の踊り子さんですね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　我々の教団に入会しませんか？　才能ありますよ！！"
+                                ""
                             ]
                         },
                         {
@@ -35658,21 +35658,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: We, the clerics, believed in\nGod, but perhaps it's time for us to\nreconsider our beliefs..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私たち聖職者は神を信じておりましたけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　認識を改めたほうが良いかもしれませんね……"
+                                ""
                             ]
                         },
                         {
@@ -35754,14 +35754,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Priest: W-What are you doing?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　な、なななな何をされているんですか！？"
+                                ""
                             ]
                         },
                         {
@@ -35845,21 +35845,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "学者："
+                                "Scholar: This is the Adventurer's Guild.\nYou can take on various requests here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは冒険者ギルド。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　様々な依頼を引き受けることができるよ。"
+                                ""
                             ]
                         },
                         {
@@ -35934,21 +35934,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "学者："
+                                "Scholar: About half of the adventurers\nhave died. It's become lonely..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　冒険者も半数ほどが亡くなったよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　寂しくなったなぁ……。"
+                                ""
                             ]
                         },
                         {
@@ -36023,14 +36023,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "学者："
+                                "Scholar: W-What!? Is this a new kind of\npervert!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　な、なんだ！？　新手の変態か！？"
+                                ""
                             ]
                         },
                         {
@@ -36121,14 +36121,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I wonder where should we go\ntoday..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日はどこへ出かけようかしら……"
+                                ""
                             ]
                         },
                         {
@@ -36210,21 +36210,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Villager: You're the girl who was pole\ndancing at the bar, right? That's bold\nand amazing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなた、酒場でポールダンスをしていた娘でしょ？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　大胆ですごいわね……"
+                                ""
                             ]
                         },
                         {
@@ -36306,21 +36306,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It takes a lot of courage to\nwalk around naked... Don't they have any\ncommon sense?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で歩けるなんて度胸がすごいわね…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　常識ないのかしら…"
+                                ""
                             ]
                         },
                         {
@@ -36402,21 +36402,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: My sister was killed by an\nangel... Why..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　姉が天使に殺されました……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうして……"
+                                ""
                             ]
                         },
                         {
@@ -36498,21 +36498,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: My sister was killed by an\nangel... Why..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　姉が天使に殺されました……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうして……"
+                                ""
                             ]
                         },
                         {
@@ -36801,21 +36801,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "神官兵士："
+                                "Priest Soldier: Until the intruder is\nfound, a pass is required for entry and\nexit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　侵入者が見つかるまで、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　外への出入りには通行証がいるよ。"
+                                ""
                             ]
                         },
                         {
@@ -36897,14 +36897,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "神官兵士："
+                                "Priest Soldier: Please refrain from\ndoing anything that would tarnish the\nreputation of the town..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街の評判を下げるような行為は勘弁してくれよ…"
+                                ""
                             ]
                         },
                         {
@@ -36995,14 +36995,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "The door is tightly closed..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　扉は固く閉じている……"
+                                ""
                             ]
                         },
                         {
@@ -37560,21 +37560,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: I'm a merchant who\ntravels all over the world. Would you\nlike to take a look?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私、世界中で行商をしているの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　良かったら見ていく？"
+                                ""
                             ]
                         },
                         {
@@ -37632,14 +37632,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: Hehe, come again\nsoon♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うふふ、またきてねっ♪"
+                                ""
                             ]
                         },
                         {
@@ -37728,14 +37728,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hello!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちわーっ！"
+                                ""
                             ]
                         },
                         {
@@ -37752,14 +37752,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: Hehe, hello!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うふふ、こんにちわっ。"
+                                ""
                             ]
                         },
                         {
@@ -37776,45 +37776,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I wonder if you have any\npresents that would make a woman happy?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　女性の方が喜ぶプレゼント、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か売ってないかなぁ？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                6,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "旅の商人："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それなら、ちょうど良いものがあるわ。"
+                                ""
                             ]
                         },
                         {
@@ -37831,14 +37807,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: In that case, I have\njust the right thing."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                6,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　この \\c[84]女神のしずく\\c[0] がオススメよ。"
+                                "Traveling Merchant: I recommend this\n\\c[84]Goddess's Tear\\c[0]."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -37855,14 +37855,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Well then, please give me\nthat!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　じゃあ、それくださいっ！"
+                                ""
                             ]
                         },
                         {
@@ -37879,14 +37879,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: I'll wrap it up\nright away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すぐラッピングするわね。"
+                                ""
                             ]
                         },
                         {
@@ -37903,14 +37903,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "I got my hands on the \\c[0]Goddess's\nTear\\c[1]!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[84]女神のしずく\\c[0] を手に入れたっ！"
+                                ""
                             ]
                         },
                         {
@@ -37996,21 +37996,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: In difficult times\nlike this, we must all work together. I\nwonder if there's anything we need?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　大変な時こそ、みんなで協力しないとね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　必要なものはあるかしら？"
+                                ""
                             ]
                         },
                         {
@@ -38085,21 +38085,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: I don't think you\nshould do that kind of thing in the\nmiddle of town."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あまりそういうことは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街中でするべきじゃないと思うわよ。"
+                                ""
                             ]
                         },
                         {
@@ -38291,14 +38291,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "柄の悪い男："
+                                "Sleazy Guy: What's wrong? Are you going\nto let me touch your breasts again?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうした？　また胸を揉ませてくれるのか？"
+                                ""
                             ]
                         },
                         {
@@ -38315,14 +38315,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: That's not right..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　サイッテー……"
+                                ""
                             ]
                         },
                         {
@@ -38412,38 +38412,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "柄の悪い男："
+                                "Rough-looking man: The angels aren't\njust attacking this town, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使が襲っているのはこの街だけじゃないぜ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "柄の悪い男："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　オレの故郷も二年前、天使に焼かれたからな。"
+                                ""
                             ]
                         },
                         {
@@ -38460,14 +38436,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "柄の悪い男："
+                                "Rough-looking man: My hometown was also\nburned by angels two years ago, you\nknow."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　妻も、娘も、すべて失っちまったよ……"
+                                "Rough-looking man: I lost my wife and\ndaughter... everything..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -38572,21 +38572,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "柄の悪い男："
+                                "Sleazy Guy: Hey, wanna have sex with me?\nNo one's watching here, you know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なぁ、俺とセックスしないか？　"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここなら誰も見てないぜ？"
+                                ""
                             ]
                         },
                         {
@@ -38594,8 +38594,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いいよ",
-                                    "立ち去る"
+                                    "Sure",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -38625,14 +38625,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Mmm... It's special... ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　んー……特別だよ……♥"
+                                ""
                             ]
                         },
                         {
@@ -38656,14 +38656,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "柄の悪い男："
+                                "Sleazy Guy: Hmmm... Oh, what was I doing\nhere again?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ふぅ……おや、俺はここで何をしていたんだっけ？"
+                                ""
                             ]
                         },
                         {
@@ -38784,14 +38784,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "♥ The Shop of the World's Greatest\nMerchant, Ruberie ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　♥ 世界最高の行商人　ルベリエの店 ♥　』"
+                                ""
                             ]
                         },
                         {

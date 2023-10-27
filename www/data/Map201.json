@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "1F「酒場・黄金の梨」",
+    "displayName": "1F Bar: Golden Pear",
     "encounterList": [],
     "encounterStep": 30,
     "height": 17,
@@ -3554,14 +3554,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The old man's fighting tournament has\njust ended, and now there's a war with\nangels."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　闘技大会が終わったかと思えば、今度は天使と戦争とは"
+                                ""
                             ]
                         },
                         {
@@ -3578,14 +3578,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The source of conflict among old people\nis something that never runs out."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　争いの種は永遠に尽きないものじゃな"
+                                ""
                             ]
                         },
                         {
@@ -4141,21 +4141,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "\\c[6]Old man\\c[0] Huh?! What indecent\nattire are you wearing?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ぶふぉっ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　な、なんて破廉恥な格好をしておるのじゃ！？"
+                                ""
                             ]
                         },
                         {
@@ -4536,14 +4536,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Innkeeper: Will you be staying the\nnight?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　休まれていきますか？"
+                                ""
                             ]
                         },
                         {
@@ -4551,8 +4551,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "立ち去る"
+                                    "Yes",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -4632,14 +4632,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "宿屋："
+                                "Innkeeper: Please, take care...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　どうか、お気をつけて……！！"
+                                ""
                             ]
                         },
                         {
@@ -4746,14 +4746,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: It seems like something\nserious has happened..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何やら大変なことになったようだ……"
+                                ""
                             ]
                         },
                         {
@@ -4852,21 +4852,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: It's noisy outside... Oh, do you\nneed something?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　外が騒がしいわね……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あ、何か必要かしら？"
+                                ""
                             ]
                         },
                         {
@@ -4874,9 +4874,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "アイテムを購入する",
-                                    "装備を改造したい",
-                                    "立ち去る"
+                                    "Buy an item",
+                                    "I want to modify my equipment",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -5156,21 +5156,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, hello. Are you going to buy\nsomething?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か買っていく？"
+                                ""
                             ]
                         },
                         {
@@ -5194,21 +5194,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Thank you for your patronage.\nPlease come again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ご利用ありがとうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また来て頂戴な。"
+                                ""
                             ]
                         },
                         {
@@ -5659,14 +5659,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The old man's fighting tournament has\njust ended, and now there's a war with\nangels."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　闘技大会が終わったかと思えば、今度は天使と戦争とは"
+                                ""
                             ]
                         },
                         {
@@ -5683,14 +5683,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The source of conflict among old people\nis something that never runs out."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　争いの種は永遠に尽きないものじゃな"
+                                ""
                             ]
                         },
                         {
@@ -6246,21 +6246,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "\\c[6]Old man\\c[0] Huh?! What an indecent\noutfit you're wearing!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ぶふぉっ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　な、なんて破廉恥な格好をしておるのじゃ！？"
+                                ""
                             ]
                         },
                         {
@@ -6781,14 +6781,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ……"
+                                ""
                             ]
                         },
                         {
@@ -6805,14 +6805,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The town... is being\nattacked...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街が、襲われているの……！？"
+                                ""
                             ]
                         },
                         {
@@ -6829,14 +6829,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I have to go and help\neveryone...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんなを助けに行かないと……っ！！"
+                                ""
                             ]
                         },
                         {

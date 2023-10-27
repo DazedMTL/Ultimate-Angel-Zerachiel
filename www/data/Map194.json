@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "星詠みの森　深層",
+    "displayName": "Forest of Star Singing - Deep Layer",
     "encounterList": [],
     "encounterStep": 30,
     "height": 42,
@@ -10839,14 +10839,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I think it's better not to go\nback now..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今は戻らないほうがいいと思うわ……"
+                                ""
                             ]
                         },
                         {
@@ -10863,14 +10863,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: That's true too..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それもそうだね……"
+                                ""
                             ]
                         },
                         {
@@ -11171,14 +11171,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: I won't give up just yet!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まだ諦めませんわよっ！！"
+                                ""
                             ]
                         },
                         {
@@ -11278,45 +11278,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: You're quite persistent, aren't\nyou..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなたもしつこいわね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Enemy",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "シェミニ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　愛のためでしたら、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　どこまでも追いかけますわっ！！"
+                                ""
                             ]
                         },
                         {
@@ -11333,14 +11302,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: If it's for love, I will chase\nafter you no matter where!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Enemy",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　さあ、観念してくださいませっ！！"
+                                "Shemini: Now, please give in!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11396,14 +11396,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like I won't be able\nto escape like this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　このままだと逃げられそうにないね。"
+                                ""
                             ]
                         },
                         {
@@ -11420,14 +11420,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Looks like there's no choice\nbut to do it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　やるしかなさそうね……"
+                                ""
                             ]
                         },
                         {
@@ -11444,14 +11444,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: Now, let's settle this love\naffair!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さあ、愛の決着をつけますのっ！！"
+                                ""
                             ]
                         },
                         {

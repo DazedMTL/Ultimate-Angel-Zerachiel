@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "夢幻の大樹　遺跡",
+    "displayName": "Dream Phantom Great Tree Ruins",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -8787,14 +8787,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Shall we escape?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　脱出するか？"
+                                ""
                             ]
                         },
                         {
@@ -8802,8 +8802,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "脱出する",
-                                    "まだ頑張る"
+                                    "Escape",
+                                    "Keep going"
                                 ],
                                 1,
                                 0,

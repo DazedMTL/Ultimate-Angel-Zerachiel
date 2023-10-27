@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "酒場　『渡り鳥の巣』",
+    "displayName": "Tavern Nest of the Migratory Bird",
     "encounterList": [],
     "encounterStep": 30,
     "height": 21,
@@ -2613,14 +2613,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: If you're going to the\nmagical city of Vaal, it's best to pass\nthrough the Forest of Divine Protection."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへ行くなら、神護の森を通るといいよ。"
+                                ""
                             ]
                         },
                         {
@@ -2637,14 +2637,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Be careful because there are\nwolf-like monsters wandering around."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オオカミ系の魔物が徘徊しているから、気をつけてね。"
+                                ""
                             ]
                         },
                         {
@@ -2741,14 +2741,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: If you're going to the\nmagical city of Vaal, it's best to pass\nthrough the Forest of Divine Protection."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへ行くなら、神護の森を通るといいよ。"
+                                ""
                             ]
                         },
                         {
@@ -2765,14 +2765,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Be careful because there are\nwolf-like monsters wandering around."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オオカミ系の魔物が徘徊しているから、気をつけてね。"
+                                ""
                             ]
                         },
                         {
@@ -2854,14 +2854,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、何か飲むかい？"
+                                ""
                             ]
                         },
                         {
@@ -2878,14 +2878,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'll have some water!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボク、お水でっ！"
+                                ""
                             ]
                         },
                         {
@@ -2902,21 +2902,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Same here, I'll have water too.\nI'd be happy if it's natural spring\nwater."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　同じくお水で。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天然水だと嬉しいかな。"
+                                ""
                             ]
                         },
                         {
@@ -2991,14 +2991,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、何か飲むかい？"
+                                ""
                             ]
                         },
                         {
@@ -3015,14 +3015,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'll have some water!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボク、お水でっ！"
+                                ""
                             ]
                         },
                         {
@@ -3039,14 +3039,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I shall order some local sake!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わらわは地酒を頼むのじゃ！！"
+                                ""
                             ]
                         },
                         {
@@ -3121,14 +3121,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、何か飲むかい？"
+                                ""
                             ]
                         },
                         {
@@ -3145,14 +3145,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'll have some water!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボク、お水でっ！"
+                                ""
                             ]
                         },
                         {
@@ -3169,14 +3169,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I want apple juice!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あたしはアップルジュース！！"
+                                ""
                             ]
                         },
                         {
@@ -3251,14 +3251,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、何か飲むかい？"
+                                ""
                             ]
                         },
                         {
@@ -3275,14 +3275,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'll have some water!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボク、お水でっ！"
+                                ""
                             ]
                         },
                         {
@@ -3299,21 +3299,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I wonder if I should get some\nwine. What do you recommend?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私はワインをもらおうかしら。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お薦めは？"
+                                ""
                             ]
                         },
                         {
@@ -3388,14 +3388,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "The shopkeeper: It seems that Zerachiel\nwas attacked, and customers stopped\ncoming."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヴァールが襲われたらしく、客は来なくなったよ。"
+                                ""
                             ]
                         },
                         {
@@ -3412,14 +3412,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's true, there are no\ncustomers."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ホントだ、お客さんがいない。"
+                                ""
                             ]
                         },
                         {
@@ -3494,28 +3494,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: It seems like a war is\nstarting, but I don't even want to think\nabout what will happen if we lose."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦争が始まるらしいけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　負けたらどうなるんだろうね……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　考えたくもないよ。"
+                                ""
                             ]
                         },
                         {
@@ -3590,14 +3590,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、何か飲むかい？"
+                                ""
                             ]
                         },
                         {
@@ -3614,14 +3614,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'll have some water!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボク、お水でっ！"
+                                ""
                             ]
                         },
                         {
@@ -3638,21 +3638,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: I can't drink alcohol either, so\nI'll have water, please."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私もお酒が飲めないので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　水でお願いします。"
+                                ""
                             ]
                         },
                         {
@@ -3736,21 +3736,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shop Assistant: Welcome! Would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませー！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お飲み物はいかがですか？"
+                                ""
                             ]
                         },
                         {
@@ -3992,21 +3992,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shop Assistant: Welcome! Please take\nyour time and enjoy your stay!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませー！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゆっくりしていってくださいねー！"
+                                ""
                             ]
                         },
                         {
@@ -4023,14 +4023,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: This seems like a good shop\nto take a little break."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　少し休んでいくのに良いお店だね"
+                                ""
                             ]
                         },
                         {
@@ -4047,14 +4047,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: The food was delicious too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ご飯もおいしかったよ。"
+                                ""
                             ]
                         },
                         {
@@ -4289,21 +4289,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shop Assistant: Welcome! Please take\nyour time and enjoy your stay!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませー！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゆっくりしていってくださいねー！"
+                                ""
                             ]
                         },
                         {
@@ -4320,14 +4320,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: This seems like a nice place\nto take a little break."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　少し休んでいくのに良いお店だね"
+                                ""
                             ]
                         },
                         {
@@ -4344,14 +4344,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: The fish dishes here are\nexquisite."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魚料理が絶品じゃったよ。"
+                                ""
                             ]
                         },
                         {
@@ -4586,21 +4586,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shop Assistant: Welcome! Please take\nyour time and enjoy your stay!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませー！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゆっくりしていってくださいねー！"
+                                ""
                             ]
                         },
                         {
@@ -4617,14 +4617,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I'm hungry..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お腹がすいたわ……"
+                                ""
                             ]
                         },
                         {
@@ -4641,14 +4641,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, would you like to eat\nsomething?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、何か食べていく？"
+                                ""
                             ]
                         },
                         {
@@ -4883,21 +4883,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shop Assistant: Welcome! Please take\nyour time and enjoy your stay!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませー！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゆっくりしていってくださいねー！"
+                                ""
                             ]
                         },
                         {
@@ -4914,14 +4914,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Shop assistant, your smile is\nlovely."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　店員さん、笑顔が素敵ね。"
+                                ""
                             ]
                         },
                         {
@@ -4938,14 +4938,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I think I want to come again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また来ようって思うよね。"
+                                ""
                             ]
                         },
                         {
@@ -5180,14 +5180,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shop Assistant: It's been a while since\nwe've had this much free time..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんなに暇なのも、久しぶりですねー……"
+                                ""
                             ]
                         },
                         {
@@ -5204,14 +5204,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Shop assistant, you seem\ndown..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　店員さん、元気がないわね…"
+                                ""
                             ]
                         },
                         {
@@ -5228,14 +5228,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I think there are various things\nthat make me anxious..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　色々と不安なんだと思うわ……"
+                                ""
                             ]
                         },
                         {
@@ -5470,21 +5470,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shopkeeper: I'm also thinking of\ntemporarily returning home to my family.\nI don't know when I won't be able to see\nthem anymore..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私も一旦、家族のもとへ里帰りしようかなと思います。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いつ会えなくなるかわかりませんし……"
+                                ""
                             ]
                         },
                         {
@@ -5719,21 +5719,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店員："
+                                "Shop Assistant: Welcome! Would you like\nsomething to drink?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませー！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お飲み物はいかがですか？"
+                                ""
                             ]
                         },
                         {
@@ -5977,14 +5977,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: If we're going to do business,\nthen it has to be in the magical city of\nVaal, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　行商をするなら、やっぱり魔都ヴァールよね。"
+                                ""
                             ]
                         },
                         {
@@ -6254,21 +6254,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: The food in the Demon Continent is\nrich in flavor, but quite delicious!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸の食事は味が濃いが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なかなか美味いのうっ！"
+                                ""
                             ]
                         },
                         {
@@ -6538,21 +6538,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: We're planning to take a little\nbreak before heading to the magic city\nof Vaal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクたちは少し休んでから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへ向かう予定だよ。"
+                                ""
                             ]
                         },
                         {
@@ -6822,14 +6822,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: The Demon Continent is filled\nwith elements..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸は元素に満ちている……"
+                                ""
                             ]
                         },
                         {
@@ -6855,21 +6855,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: What a wonderful island! It\nseems like magic training will go\nsmoothly here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　素晴らしい島ねっ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここなら魔術の鍛錬も捗りそうだわ。"
+                                ""
                             ]
                         },
                         {
@@ -7139,14 +7139,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: It seems that the\ndesert has become a nest for goblins."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠はゴブリンたちの巣になっているらしいわ。"
+                                ""
                             ]
                         },
                         {
@@ -7163,14 +7163,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: If you ever go there,\nbe careful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　行くことがあったら、気をつけなさいよ。"
+                                ""
                             ]
                         },
                         {
@@ -7252,14 +7252,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: It seems that the\ndesert has become a nest for goblins."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠はゴブリンたちの巣になっているらしいわ。"
+                                ""
                             ]
                         },
                         {
@@ -7276,14 +7276,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: If you ever go to the\ndesert, be careful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠に行くことがあったら、気をつけなさいよ。"
+                                ""
                             ]
                         },
                         {
@@ -7300,14 +7300,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You're going now, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これから行くんだよね。"
+                                ""
                             ]
                         },
                         {
@@ -7324,14 +7324,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Let's proceed with caution."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気をつけて進もうね。"
+                                ""
                             ]
                         },
                         {
@@ -7406,14 +7406,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: It seems that the\ndesert has become a nest for goblins."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠はゴブリンたちの巣になっているらしいわ。"
+                                ""
                             ]
                         },
                         {
@@ -7430,14 +7430,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: If you ever go to the\ndesert, be careful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠に行くことがあったら、気をつけなさいよ。"
+                                ""
                             ]
                         },
                         {
@@ -7454,14 +7454,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I've already defeated the\ngoblins."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もうゴブリンは倒したよ。"
+                                ""
                             ]
                         },
                         {
@@ -7478,14 +7478,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I wanted to go too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わらわも行きたかったのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -7560,14 +7560,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "The noble's daughter, Kazan, seems to\nhave a hot spring."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　火山は温泉があるらしいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -7584,14 +7584,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Hot springs! They're so nice,\naren't they!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　温泉っ！　いいわよね！！"
+                                ""
                             ]
                         },
                         {
@@ -7608,38 +7608,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Lala really likes hot\nsprings, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ララは温泉が好きなんだね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ええ、そうなのよ！"
+                                ""
                             ]
                         },
                         {
@@ -7656,21 +7632,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Yes, that's right!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　疲れも取れるし、ぐっすり眠れるし、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お肌だって綺麗になるもの。"
+                                ""
                             ]
                         },
                         {
@@ -7687,14 +7656,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: You can relax, sleep soundly, and\neven make your skin beautiful."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　温泉は良いこと尽くめなのよっ！！"
+                                "Lala: Hot springs are full of wonderful\nthings!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7711,14 +7711,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へえ～……"
+                                ""
                             ]
                         },
                         {
@@ -7793,21 +7793,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "The noble's daughter: I heard that there\nis a ruin in the Demon Continent that\nlooks like a giant tree, but only chosen\nones can climb it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸には大樹のような遺跡が存在するんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　選ばれた者しか登れないんですって。"
+                                ""
                             ]
                         },
                         {
@@ -7824,14 +7824,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: So this is the trial of the\ngods."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神の試練ってやつね。"
+                                ""
                             ]
                         },
                         {
@@ -7848,45 +7848,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: What's that?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なにそれ？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　そのままの意味よ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　神に選ばれた者だけが挑戦できる遺跡のこと。"
+                                ""
                             ]
                         },
                         {
@@ -7903,21 +7872,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: It means exactly that. It\nrefers to the ruins that only those\nchosen by the gods can challenge."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　大いなる危機が迫るとき、"
+                                "Claudia: It seems that only the chosen\nones can challenge it when a great\ncrisis approaches."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　選ばれし者だけが挑戦できるそうよ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7934,14 +7934,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, I also wanted to give it\na try."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へえ、ボクも挑戦してみたかったなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -8067,14 +8067,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: Big brother, if you'd\nlike, I can show you around as a tour\nguide."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お兄さん、よかったら観光案内しますよ。"
+                                ""
                             ]
                         },
                         {
@@ -8158,21 +8158,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I heard that there is\na mine on this island, but it seems that\nmonsters are overflowing from the\ndepths, so it's quite dangerous."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この島には鉱山があるんですけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥から魔物が溢れているそうで、大変みたいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -8254,21 +8254,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I heard that there is\na mine on this island, but it seems that\nmonsters are overflowing from the\ndepths, so it's quite dangerous."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この島には鉱山があるんですけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥から魔物が溢れているそうで、大変みたいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -8285,14 +8285,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The mine... We'll head there\nlater, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　鉱山……後で向かうんだよね。"
+                                ""
                             ]
                         },
                         {
@@ -8309,14 +8309,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Let's be careful of the\nmonsters, okay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物に注意しようね。"
+                                ""
                             ]
                         },
                         {
@@ -8391,21 +8391,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I heard that there is\na mine on this island, but it seems that\nmonsters are overflowing from the\ndepths, so it's quite dangerous."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この島には鉱山があるんですけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥から魔物が溢れているそうで、大変みたいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -8422,14 +8422,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The mine... We're heading\nthere now, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　鉱山……これから向かうんだよね。"
+                                ""
                             ]
                         },
                         {
@@ -8446,14 +8446,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: What's the matter? Just kick them\nall away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なぁに、すべて蹴散らせばいいのじゃよ。"
+                                ""
                             ]
                         },
                         {
@@ -8528,21 +8528,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I heard that there is\na mine on this island, but it seems that\nmonsters are overflowing from the\ndepths, so it's quite dangerous."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この島には鉱山があるんですけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥から魔物が溢れているそうで、大変みたいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -8559,21 +8559,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Could it be... that there were\nsigns of monster attacks?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もしかして……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物が襲撃する前兆ってあったのかしら？"
+                                ""
                             ]
                         },
                         {
@@ -8590,14 +8590,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems that monsters are\nappearing everywhere."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物があちこちで現れているんだね。"
+                                ""
                             ]
                         },
                         {
@@ -8614,14 +8614,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I have a feeling that it's related\nto the volcano incident."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　火山の件も関係ある気がしてくるわ。"
+                                ""
                             ]
                         },
                         {
@@ -8696,21 +8696,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I heard that there is\na mine on this island, but it seems that\nmonsters are overflowing from the\ndepths, so it's quite dangerous."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この島には鉱山があるんですけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥から魔物が溢れているそうで、大変みたいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -8727,14 +8727,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I'm pretty sure Zerachiel took\ncare of it, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たしか、ザラキエルが片付けたわよね。"
+                                ""
                             ]
                         },
                         {
@@ -8751,14 +8751,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yeah, I don't think they'll\ncome out anymore."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、もう出ないと思うよ。"
+                                ""
                             ]
                         },
                         {
@@ -8833,21 +8833,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I heard that there is\na mine on this island, but it seems that\nmonsters are overflowing from the\ndepths, so it's quite dangerous."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この島には鉱山があるんですけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥から魔物が溢れているそうで、大変みたいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -8864,14 +8864,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I'm pretty sure Zerachiel took\ncare of it, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たしか、ザラキエルが片付けたわよね。"
+                                ""
                             ]
                         },
                         {
@@ -8888,14 +8888,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yeah, I don't think they'll\ncome out anymore."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、もう出ないと思うよ。"
+                                ""
                             ]
                         },
                         {
@@ -8970,14 +8970,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I can't believe the\nwar is starting..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦争が始まるなんて……"
+                                ""
                             ]
                         },
                         {
@@ -9052,21 +9052,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の男："
+                                "Nobleman: Since the situation in the\nDemon Continent has calmed down, I have\ncome to visit from the Empire."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸の情勢が落ち着いたので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　帝国から遊びに来ました。"
+                                ""
                             ]
                         },
                         {
@@ -9083,14 +9083,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の男："
+                                "Nobleman: And then, I was approached by\nthe girl in front of me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そしたら目の前の娘に絡まれちゃって……"
+                                ""
                             ]
                         },
                         {

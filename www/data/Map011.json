@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "トネリコの宿",
+    "displayName": "Toneriko Inn",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4506,21 +4506,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Inn: Welcome, hello. The price for one\nnight here is 5 Rill, would you like to\nstay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませ、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こちら一泊５Rillになりますが、お泊りになりますか？"
+                                ""
                             ]
                         },
                         {
@@ -4528,9 +4528,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "回想する",
-                                    "立ち去る"
+                                    "Yes",
+                                    "Recall",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -4628,14 +4628,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: We look forward to your next visit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　またのご利用をお待ちしております。"
+                                ""
                             ]
                         },
                         {
@@ -4662,14 +4662,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: It seems you don't have enough\nmoney..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　お金が足りませんね……"
+                                ""
                             ]
                         },
                         {
@@ -4871,21 +4871,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Inn: Welcome, hello. Please note that\nour inn does not accommodate naked\nguests."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませ、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　当宿は、裸のお客様の宿泊はお断りしております。"
+                                ""
                             ]
                         },
                         {
@@ -4976,21 +4976,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅人："
+                                "Traveler: I came to Logres to become a\nclergyman. I hope I pass the\ninterview..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私、聖職者になるためにログレスへ来たんです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　面接、受かるといいなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -5072,21 +5072,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅人："
+                                "Traveler: I have decided to give up the path of a clergyman. I will return to the empire.\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖職者の道、諦めることにしました。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　帝国へ帰ろうと思います。"
+                                ""
                             ]
                         },
                         {
@@ -5168,14 +5168,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "踊り子："
+                                "Dancer: The girl in this room...? Well,\nI haven't seen her."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この部屋の娘……？　さあ、見てないわよ。"
+                                ""
                             ]
                         },
                         {
@@ -5192,14 +5192,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "踊り子："
+                                "Dancer: I wonder if she went back to her\nhometown?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　故郷へ帰ったんじゃないかしら？"
+                                ""
                             ]
                         },
                         {
@@ -5281,21 +5281,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅人："
+                                "Traveler: W-What happened!? Are you\nbeing forced to do something terrible!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ど、どうされたんですか！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か酷いことをさせられているんですか！？"
+                                ""
                             ]
                         },
                         {
@@ -5377,21 +5377,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "踊り子："
+                                "Dancer: ...Could it be that walking\naround naked is a trend in this town?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……もしかして、この町では"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で歩くのが流行っているのかしら？"
+                                ""
                             ]
                         },
                         {
@@ -5568,21 +5568,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "By talking to the innkeeper, you can\nmove to the flashback room."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　宿屋の店主に話しかけることで、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　回想ルームへ移動できます。"
+                                ""
                             ]
                         },
                         {

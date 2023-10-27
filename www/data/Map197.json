@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "魔都ヴァール",
+    "displayName": "Demon City Vaal",
     "encounterList": [],
     "encounterStep": 30,
     "height": 28,
@@ -8463,21 +8463,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: This person, they're protecting\nme... the blood, the blood won't stop..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この人、私を庇って……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　血が、血が止まらないんです……"
+                                ""
                             ]
                         },
                         {
@@ -8494,14 +8494,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Please, help me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お願いします、助けてください……"
+                                ""
                             ]
                         },
                         {
@@ -8592,14 +8592,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Angel, to even kill a\nchild...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使よ、子供まで殺すとは……！！"
+                                ""
                             ]
                         },
                         {
@@ -8802,45 +8802,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Thank you, you saved us."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとう、助かったよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　上空に大規模な魔法陣が展開されたと思いきや、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　突然、大勢の天使たちが襲ってきたんだ。"
+                                ""
                             ]
                         },
                         {
@@ -8857,14 +8826,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Just when we thought a large-\nscale magic circle had been deployed in\nthe sky, suddenly, a large number of\nangels attacked us."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　天使たちは誰かを探している様子だったよ。"
+                                "Residents: It seemed like the angels\nwere searching for someone."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9596,14 +9596,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: You shall not pass to the\ncastle!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　城へは行かせんぞっ！！"
+                                ""
                             ]
                         },
                         {
@@ -9678,14 +9678,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: I'm grateful, thank goodness."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　かたじけない、助かった。"
+                                ""
                             ]
                         },
                         {
@@ -9702,21 +9702,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: With the sudden surprise attack,\nseveral knight orders were buried. I\nwonder if our forces can hold on like\nthis..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　突然の奇襲で、いくつもの騎士団が葬られた。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　このままでは戦力が持つかどうか……"
+                                ""
                             ]
                         },
                         {
@@ -9825,14 +9825,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -9941,14 +9941,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: Angel, why do you attack people?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使よ、なにゆえ人を襲う？"
+                                ""
                             ]
                         },
                         {
@@ -10023,14 +10023,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: Why do angels, who are\nmessengers of God, attack people..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なぜ神の使者たる天使が、人々を襲うのだ……"
+                                ""
                             ]
                         },
                         {
@@ -10148,14 +10148,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -10291,14 +10291,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -10407,21 +10407,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "剣士："
+                                "Swordsman: The angels burned the town\nand took many lives... I won't forgive\nthem...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使たちは街を焼き、大勢の命を奪った……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　許さないぞ……！！"
+                                ""
                             ]
                         },
                         {
@@ -10624,14 +10624,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "剣士："
+                                "Swordsman: If only the Demon Lord-sama\nwere here, things wouldn't be like\nthis..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　せめて魔王様がいれば、こんなことには……"
+                                ""
                             ]
                         },
                         {
@@ -11216,21 +11216,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Claudia and the others are in\nthe castle. I'm sure everything will be\nfine."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お城はクラウディアたちがいるよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　きっと、大丈夫なはずだ。"
+                                ""
                             ]
                         },
                         {
@@ -11247,21 +11247,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: After I help the people in\nthe town, I will head to the castle."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクは街の人たちを助けてから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お城へ向かおう。"
+                                ""
                             ]
                         },
                         {
@@ -11355,21 +11355,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: I wanted to protect this girl...\nThat's what I thought... Why..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この娘だけは守りたい……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そう、思っていたのに……どうして……"
+                                ""
                             ]
                         },
                         {
@@ -11540,14 +11540,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -11723,21 +11723,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: ...Thank goodness. If you\nweren't here, I don't know what would\nhave happened."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……助かりました。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなたがいなかったら、どうなっていたことか。"
+                                ""
                             ]
                         },
                         {
@@ -11908,21 +11908,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: No... I don't want to die...\nI don't want to die... Ahaha...\nHahahaha..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　イヤだ……死にたくない……死にたく……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは……ははははははははは…………"
+                                ""
                             ]
                         },
                         {
@@ -12013,21 +12013,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: This person... is my father... I\ncouldn't protect him..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この人、父なんです……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　守れなかった……"
+                                ""
                             ]
                         },
                         {
@@ -12522,14 +12522,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I can't run away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　逃げるわけにはいかないよ。"
+                                ""
                             ]
                         },
                         {
@@ -15501,14 +15501,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: Zerachiel, were you here?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル、こちらにいましたか。"
+                                ""
                             ]
                         },
                         {
@@ -15525,14 +15525,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ……？"
+                                ""
                             ]
                         },
                         {
@@ -15549,45 +15549,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Who are you? Do you have\nsomething to say to me?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミはだれ？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクに何か用でもあるの？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "天使："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ははは、呑気でいいですね。"
+                                ""
                             ]
                         },
                         {
@@ -15604,21 +15580,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: Hahaha, you're so carefree."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　あなたを見つけ次第、"
+                                "Angel: I have received orders to dispose\nof you as soon as I find you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　始末するように命令を受けているのですよ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -15838,14 +15838,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -15981,14 +15981,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -16124,14 +16124,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -16267,14 +16267,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -16410,14 +16410,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -16553,14 +16553,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -16696,14 +16696,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -16839,14 +16839,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -16982,14 +16982,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -17125,14 +17125,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -17268,14 +17268,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -17411,14 +17411,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -17554,14 +17554,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -17697,14 +17697,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -17840,14 +17840,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -17983,14 +17983,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -18126,14 +18126,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -18269,14 +18269,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -18412,14 +18412,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -18555,14 +18555,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -18698,14 +18698,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -18841,14 +18841,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -18984,14 +18984,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -19127,14 +19127,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -19270,14 +19270,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -19413,14 +19413,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -19556,14 +19556,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -19699,14 +19699,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -19842,14 +19842,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -19985,14 +19985,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -20128,14 +20128,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -20271,14 +20271,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -20414,14 +20414,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -20557,14 +20557,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -20700,14 +20700,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -20843,14 +20843,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "２Ｆ　フロアＤ",
+    "displayName": "2F Floor D",
     "encounterList": [],
     "encounterStep": 30,
     "height": 50,
@@ -15613,14 +15613,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there's a\nhidden room connected from here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここから隠し部屋に繋がっているみたい。"
+                                ""
                             ]
                         },
                         {

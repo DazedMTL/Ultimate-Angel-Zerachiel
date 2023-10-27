@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "下水道　Ｃフロア",
+    "displayName": "Sewer C Floor",
     "encounterList": [],
     "encounterStep": 30,
     "height": 50,
@@ -16338,21 +16338,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: This slime has a different\natmosphere from the others. Could it\nbe... the boss?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　他とは違う雰囲気のスライムだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もしかして……親分かな？"
+                                ""
                             ]
                         },
                         {
@@ -16369,14 +16369,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "スライム："
+                                "Slime: Kyu~? Kyu~~~~!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　きゅ～？　きゅ～～～～！！"
+                                ""
                             ]
                         },
                         {
@@ -16393,21 +16393,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems angry... Looks like\nwe have no choice but to fight."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　怒ってるみたい。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……戦うしかなさそうだね。"
+                                ""
                             ]
                         },
                         {
@@ -16424,21 +16424,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Well, if it's just a slime,\nit should be easy. I'll take care of it\nquickly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ま、スライムならザコだから余裕だね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　軽く相手をしてやるよ。"
+                                ""
                             ]
                         },
                         {
@@ -16681,14 +16681,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: That was close... I thought I\nwas going to lose."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　危なかった……負けるかと思ったよ。"
+                                ""
                             ]
                         },
                         {
@@ -16705,21 +16705,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like the other\nslimes ran away after losing their boss."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　親分を失って、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　他のスライムは逃げ出したみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -16736,14 +16736,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's go report to Grandma."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　おばあちゃんに報告しに行こう。"
+                                ""
                             ]
                         },
                         {
@@ -16884,14 +16884,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ...I won't give up just yet."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……まだ、諦めないもん。"
+                                ""
                             ]
                         },
                         {

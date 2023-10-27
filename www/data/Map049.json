@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private Residence",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4322,21 +4322,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "男の子："
+                                "Boy: I recently moved to this town.\nOnee-san, would you like to play\ntogether?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最近、この町に引っ越してきたんだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お姉さん、一緒に遊ぶ？"
+                                ""
                             ]
                         },
                         {
@@ -4574,21 +4574,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "男の子："
+                                "Boy: I'm moving back to the Empire\nagain. Thank you for everything, Onee-\nsan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また帝国に引っ越すことになったんだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お姉さん、今までありがとうね。"
+                                ""
                             ]
                         },
                         {
@@ -4826,21 +4826,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "男の子："
+                                "Boy: It seems like Papa and Mama have a\nlot of luggage and it's difficult."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　パパとママ、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　荷物が多くて大変みたい。"
+                                ""
                             ]
                         },
                         {
@@ -5078,14 +5078,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "男の子："
+                                "Boy: Onee-chan, don't you have money to\nbuy clothes?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お姉ちゃん、服を買うお金がないの？"
+                                ""
                             ]
                         },
                         {
@@ -5341,14 +5341,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: Eh, did you do something\nabout the mice?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　え、ねずみをどうにかしてくれたのかい？"
+                                ""
                             ]
                         },
                         {
@@ -5365,14 +5365,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: Thank you! This is our way of\nsaying thanks."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ありがとう！　これはお礼だよ。"
+                                ""
                             ]
                         },
                         {
@@ -5424,21 +5424,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: Hmm, it seems that there are\nmice living in the attic, and they seem\nto be like monsters..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　うーむ、ねずみが屋根裏に暮らしているのだが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　どうやら魔物のようなんだ……"
+                                ""
                             ]
                         },
                         {
@@ -5455,14 +5455,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: Should we make a request to\nthe Adventurer's Guild..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　冒険者ギルドに依頼を出すべきか…"
+                                ""
                             ]
                         },
                         {
@@ -5554,21 +5554,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: This town is a nice place,\nbut... the religious cult's recruitment\nis persistent."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この町は良いところだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……教団の勧誘がしつこいんだよ。"
+                                ""
                             ]
                         },
                         {
@@ -5650,21 +5650,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems like the cult is\nalso disbanding, so I'm thinking of\nmoving back to my hometown."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団も解散するみたいだし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　故郷へ引っ越そうと思います"
+                                ""
                             ]
                         },
                         {
@@ -5746,14 +5746,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We're planning to move for\nthe sake of the children."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　子供のためにも引っ越す予定なんです。"
+                                ""
                             ]
                         },
                         {
@@ -5835,14 +5835,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Could you please stop\ndressing like that in front of the\nchildren..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　子供の前でその恰好はやめてくれないかな…"
+                                ""
                             ]
                         },
                         {

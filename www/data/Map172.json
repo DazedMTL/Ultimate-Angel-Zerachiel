@@ -1979,52 +1979,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴブリン："
+                                "Goblin: Key! Boss! Outsiders are coming\nsoon!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キー！　ボス！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　よそものが、もうすぐやってきます！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "オルデリック様："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　この砂漠の洞窟に来るとは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　まったくもって命知らずな連中よ。"
+                                ""
                             ]
                         },
                         {
@@ -2041,52 +2010,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オルデリック様："
+                                "Lord Alderic: To come to this desert\ncave, they are truly a reckless bunch."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリン族の恐ろしさを、思い知らせてやるわい！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ガハハハハッ！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ゴブリン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　キー！　さすがです、ボス！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　キキキキキー！"
+                                ""
                             ]
                         },
                         {
@@ -2103,45 +2041,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オルデリック様："
+                                "Lord Alderic: I will make them realize\nthe terror of the goblin tribe!\nGahahaha!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリン族を甘く見やがったら、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こうして、ああして、ギッタギッタにしてやるわ！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "オルデリック様："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ガハハハハハハハハハー！"
+                                ""
                             ]
                         },
                         {
@@ -2158,14 +2072,100 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴブリン："
+                                "Goblin: Key! As expected, Boss!\nKikikikiki!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　キキキキキキキキキキー！"
+                                "Lord Alderic: If they dare to\nunderestimate the goblin tribe, I will\ncrush them completely, like this, and\nlike that!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Lord Alderic: Gahahahahahaha!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Goblin: Kikikikikikikikiki!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2439,14 +2439,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オルデリック様："
+                                "Lord Alderic: Gahahahahahaha!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ギャハハハハハハハハー！"
+                                ""
                             ]
                         },
                         {
@@ -2463,14 +2463,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴブリン："
+                                "Goblin: Kikikikiki..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キキキキキ……"
+                                ""
                             ]
                         },
                         {
@@ -2713,14 +2713,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オルデリック様："
+                                "Lord Alderic: Hm...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ん……？"
+                                ""
                             ]
                         },
                         {

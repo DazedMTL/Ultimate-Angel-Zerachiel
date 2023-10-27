@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "オルフェウス教団",
+    "displayName": "Orpheus Sect",
     "encounterList": [],
     "encounterStep": 30,
     "height": 15,
@@ -2516,21 +2516,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "隊長："
+                                "Captain: Right now, the cult is fighting\nover the successor. It's best not to get\ninvolved."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、教団は後継者争いで喧嘩している。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　近づかないほうがよいぞ。"
+                                ""
                             ]
                         },
                         {
@@ -2617,14 +2617,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "隊長："
+                                "Captain: ...I'll let it slide this time,\nso put on your clothes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……見逃してあげるから、服を着なさい。"
+                                ""
                             ]
                         },
                         {
@@ -2720,45 +2720,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "神官兵："
+                                "The priest soldier: Miss Effy had a\nyounger sister."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様には妹がいたんです。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "神官兵："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　聖女になる前、魔力暴走に巻き込まれてしまい、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　今も遺体が見つからないそうです……"
+                                ""
                             ]
                         },
                         {
@@ -2775,14 +2744,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "神官兵："
+                                "The priest soldier: Before becoming a\nsaint, she was caught up in a magical\npower rampage and her body still hasn't\nbeen found..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　たしか名前は……ノイちゃん、だったかと思います。"
+                                "Priest Soldier: I believe her name\nwas... Noi-chan."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2799,14 +2799,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I see, your younger sister\nwas involved in an accident..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そっか、妹さんが事故で…… "
+                                ""
                             ]
                         },
                         {
@@ -2823,21 +2823,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Yes, if she were alive, she would\nbe around the same age as Zerachiel-\nsama."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ええ、生きていれば"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル様と同じくらいの年ですね。"
+                                ""
                             ]
                         },
                         {
@@ -2912,21 +2912,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "神官兵："
+                                "Priest Soldier: Eh, eeeeeh!? Um, that,\nthe nosebleed..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ、えええええっ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あの、その、鼻血が……"
+                                ""
                             ]
                         },
                         {
@@ -3010,14 +3010,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: Is it you? I'm grateful for\nsaving the Saintess."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミか、聖女様を救ってくれて感謝している。"
+                                ""
                             ]
                         },
                         {
@@ -3099,14 +3099,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: Please don't involve Lady\nEffy..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様を巻き込まないでくれよ……"
+                                ""
                             ]
                         },
                         {
@@ -3429,52 +3429,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: Lady Effy, you reached out to us\noutlaws as well."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様は、私たちのような"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　無法者にも手を差し伸ばしてくれたわ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "騎士："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　おかげで普通の暮らしができた。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　次は私たちが恩を返す番よ。"
+                                ""
                             ]
                         },
                         {
@@ -3491,21 +3460,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: Thanks to you, we were able to\nlive a normal life. Now it's our turn to\nrepay the favor."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ですからエフィー様。"
+                                "Knight: That's why, Lady Effy. If you\never have any troubles, we will always\ncome to your aid."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　困ったことがあれば、いつでも駆けつけますからね。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3522,14 +3522,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: ...Thank you very much."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……ありがとうございます。"
+                                ""
                             ]
                         },
                         {
@@ -3604,14 +3604,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: It makes me sad to think that I\nlost to you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなたに負けたと思うと、悲しくなるわ。"
+                                ""
                             ]
                         },
                         {

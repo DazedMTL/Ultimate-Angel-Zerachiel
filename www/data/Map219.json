@@ -5989,14 +5989,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "？？？："
+                                "???: Hehe, I've been waiting ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うふふ、待っていたわっ♥"
+                                ""
                             ]
                         },
                         {
@@ -6113,14 +6113,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Remiel...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　レミエル……ッ！"
+                                ""
                             ]
                         },
                         {
@@ -6137,38 +6137,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I won't let you escape this time!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今度は逃がさないわよっ！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "レミエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ふふ、威勢が良いわねっ♪"
+                                ""
                             ]
                         },
                         {
@@ -6185,14 +6161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "レミエル："
+                                "Remiel: Hehe, you're quite spirited,\naren't you?♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エデン様は予言していたわよ？"
+                                ""
                             ]
                         },
                         {
@@ -6209,14 +6185,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "レミエル："
+                                "Remiel: Eden-sama had foretold it,\ndidn't he?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                4,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　あなたたちが、この聖域を狙うことを。"
+                                "Remiel: You all are aiming for this\nsanctuary."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6233,14 +6233,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: So they even prepared a\ngiant..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それで巨人まで用意されていたのか……"
+                                ""
                             ]
                         },
                         {
@@ -6257,21 +6257,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Huh? Despite the prophecy, don't\nyou have a lack of fighting power?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へぇ？　予言していたわりには、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦力が少ないんじゃないの？"
+                                ""
                             ]
                         },
                         {
@@ -6288,21 +6288,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "レミエル："
+                                "Remiel: Dealing with you all is enough\nfor little old me, Remi-chan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなたたちの相手は、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　レミィちゃんだけで足りるもの。"
+                                ""
                             ]
                         },
                         {
@@ -6319,21 +6319,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Even though you lost last time,\nyou sure talk big."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　前回、負けたクセに"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ずいぶん大きな口を叩くわね。"
+                                ""
                             ]
                         },
                         {
@@ -6350,14 +6350,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ...What are you plotting?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……なにを企んでいるのさ。"
+                                ""
                             ]
                         },
                         {
@@ -6374,14 +6374,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "レミエル："
+                                "Remiel: Hehe, I'll let you know if you\ncan defeat me ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふふ、私を倒せたら教えてあげるわよ♥"
+                                ""
                             ]
                         },
                         {
@@ -6440,21 +6440,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "レミエル："
+                                "Remiel: I am Remiel, the trusted\nconfidant of Archangel Sariel... I have\ncome."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　熾天使サリエル様の腹心レミエル……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　参りますわ。"
+                                ""
                             ]
                         },
                         {

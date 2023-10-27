@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "蒼の騎士団",
+    "displayName": "Blue Knight Order",
     "encounterList": [],
     "encounterStep": 30,
     "height": 20,
@@ -3430,14 +3430,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hello!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちはっ！"
+                                ""
                             ]
                         },
                         {
@@ -3454,14 +3454,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald:\n...................................."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　………………………………"
+                                ""
                             ]
                         },
                         {
@@ -3478,14 +3478,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: She hasn't noticed me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクに気づいてないや……"
+                                ""
                             ]
                         },
                         {
@@ -3502,14 +3502,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...I can hear you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……聞こえている。"
+                                ""
                             ]
                         },
                         {
@@ -3526,14 +3526,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah! You were ignoring me,\nhuh?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あっ！　無視してたなぁっ！"
+                                ""
                             ]
                         },
                         {
@@ -3550,21 +3550,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...It's just that my voice is\nquiet. Please don't mind it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……オレの声が小さいだけだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気にしないでくれ。"
+                                ""
                             ]
                         },
                         {
@@ -3581,14 +3581,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Surprisingly introverted\npersonality?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　意外と内向的な性格っ！？"
+                                ""
                             ]
                         },
                         {
@@ -3677,21 +3677,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Vaar Castle is to the north.\nYou shouldn't get lost."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……ヴァール城は北にある。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　迷うことはないだろう。"
+                                ""
                             ]
                         },
                         {
@@ -3780,14 +3780,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Take this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……これを持っていけ。"
+                                ""
                             ]
                         },
                         {
@@ -3826,14 +3826,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Thank you, Ishvald."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとう、イシュヴァルド。"
+                                ""
                             ]
                         },
                         {
@@ -3923,14 +3923,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...I'll also help you, Unie and\nthe others."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……オレもユニエたちの手伝いをしてくる。"
+                                ""
                             ]
                         },
                         {
@@ -3947,21 +3947,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: At first, I thought she was\nquiet, but she's surprisingly\ncooperative, isn't she?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最初は無口だと思ったけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　意外と協力的なんだね。"
+                                ""
                             ]
                         },
                         {
@@ -3978,21 +3978,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: She's kind, isn't she? I'll also\nthank her, thank you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　優しいんだろうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクからもお礼を言うよ、ありがとう。"
+                                ""
                             ]
                         },
                         {
@@ -4081,14 +4081,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Lamia has been sighted in\nthe magic ore mountain."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……魔鉱山ではラミアが目撃されている。"
+                                ""
                             ]
                         },
                         {
@@ -4105,14 +4105,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: It would be good to prepare for\nthe deadly poison..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　猛毒の対策をしておくといい……"
+                                ""
                             ]
                         },
                         {
@@ -4129,14 +4129,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Deadly poison is troublesome,\nisn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　猛毒は厄介だね。"
+                                ""
                             ]
                         },
                         {
@@ -4153,21 +4153,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: It would be safer to prepare\nequipment with resistance."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　耐性のある装備を"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　用意したほうが安全じゃろうな。"
+                                ""
                             ]
                         },
                         {
@@ -4358,28 +4358,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...In the Forest of Star\nSingers, many monsters that inflict\nstatus ailments have been sighted."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……星詠みの森は、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　状態異常を仕掛けてくる魔物が"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　数多く目撃されている。"
+                                ""
                             ]
                         },
                         {
@@ -4396,14 +4396,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: It would be good to prepare\ncountermeasures with a ring..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　指輪で対策をしておくといい……"
+                                ""
                             ]
                         },
                         {
@@ -4420,14 +4420,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Thank you for the helpful\ninformation."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　助かる情報をありがとう。"
+                                ""
                             ]
                         },
                         {
@@ -4444,21 +4444,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Since I can't use\ndetoxification magic, it would be better\nto prepare countermeasures."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私は解毒の魔法が使えないから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　対策をしておいたほうがいいわね。"
+                                ""
                             ]
                         },
                         {
@@ -4533,14 +4533,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Captain, I won't lose this\ntime."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……団長、今度は負けない。"
+                                ""
                             ]
                         },
                         {
@@ -4557,14 +4557,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: When you calm down, let's have\nanother match."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　落ち着いたら、また勝負してくれ。"
+                                ""
                             ]
                         },
                         {
@@ -4581,21 +4581,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Yes, as you wish, Ishvald-san."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はい、望むところです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　イシュヴァルドさん。"
+                                ""
                             ]
                         },
                         {
@@ -4612,14 +4612,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Are these two rivals?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この二人、ライバルなのかな？"
+                                ""
                             ]
                         },
                         {
@@ -4636,14 +4636,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: It feels like something is\nabout to happen."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何かありそうな感じがするわね。"
+                                ""
                             ]
                         },
                         {
@@ -4660,14 +4660,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Surprisingly, they might be in\nlove!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　案外、恋仲だったりして！！"
+                                ""
                             ]
                         },
                         {
@@ -4684,14 +4684,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Do you want to be slashed?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……斬られたいか？"
+                                ""
                             ]
                         },
                         {
@@ -4708,21 +4708,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Ah, it's a lie, I'm sorry! Don't\ndraw your sword!! Don't raise it up!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あ、嘘です、ごめんなさい！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　剣を抜かないで！！　振り上げないで！！"
+                                ""
                             ]
                         },
                         {
@@ -4915,45 +4915,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: Oh, hello~! What can I do for\nyou?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、こんにちはぁ～！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうされましたか？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あの、人を探していまして……"
+                                ""
                             ]
                         },
                         {
@@ -4961,7 +4937,7 @@
                             "indent": 0,
                             "parameters": [
                                 "Actor1",
-                                4,
+                                0,
                                 0,
                                 2
                             ]
@@ -4970,38 +4946,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Um, I'm looking for\nsomeone..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエさんという騎士はいますか？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "騎士："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あら、私がユニエですよ～？"
+                                ""
                             ]
                         },
                         {
@@ -5018,38 +4970,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Is there a knight named Unie-\nsan?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あっ、そうだったんだ……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　実は力を貸してほしくて……"
+                                ""
                             ]
                         },
                         {
@@ -5066,14 +4994,86 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Knight: Oh, I'm Unie~?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　なるほどー……"
+                                "Zerachiel: Ah, that's right..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: Actually, I wanted to ask for\nyour help..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Unie: I see..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5099,52 +5099,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: I would be happy to help, but\nright now I have a lot of knight duties\npiled up and my hands are full."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　喜んでご協力をさせて頂きたいのですが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今は騎士団の仕事が山積みで、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　手が空いてないんですよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　（これは難しそうだなぁ……）"
+                                ""
                             ]
                         },
                         {
@@ -5161,14 +5137,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (This seems difficult...)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（あっ、そうだ）"
+                                ""
                             ]
                         },
                         {
@@ -5185,21 +5161,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (Ah, that's right)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　実はアリエスから、"
+                                "Zerachiel: Actually, Aries asked me to\ntalk to you, Unie-san..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエさんに相談してくれって……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5216,107 +5216,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Eh... Ahhh, from Lady Aries!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　え……あああああアリエス様からっ！？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　えっ？　あ、はい、そうですけど……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　もうーっ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　アリエス様の紹介なら"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　先に言ってくださいよー！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　最優先で協力しないと、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　私がお仕置きされちゃうじゃないですかー！"
+                                ""
                             ]
                         },
                         {
@@ -5333,14 +5240,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh? Ah, yes, that's right..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お、お仕置き？"
+                                ""
                             ]
                         },
                         {
@@ -5357,14 +5264,107 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Geez! If it's an introduction from\nLady Aries, you should have said so\nearlier!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　もちろん力をお貸ししますともっ！"
+                                "Unie: If I don't prioritize helping out,\nI'll end up getting punished, you know!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: P-Punishment?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Unie: Of course, I'll lend you my\nstrength!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5381,21 +5381,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Really...? Thank you, Unie-\nsan!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ホント……？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとう、ユニエさんっ！！"
+                                ""
                             ]
                         },
                         {
@@ -5412,14 +5412,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: You can just call me Unie~♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私のことはユニエで構わないですよぅ～♪"
+                                ""
                             ]
                         },
                         {
@@ -5445,14 +5445,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: So, what kind of consultation is\nit?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それで、どういったご相談でしょうか？"
+                                ""
                             ]
                         },
                         {
@@ -5469,14 +5469,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Actually..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　実は……"
+                                ""
                             ]
                         },
                         {
@@ -5528,21 +5528,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: I see... It's the curse of the\nevil god Orpheus, huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なるほど……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　邪神オルフェウスの呪いですか……"
+                                ""
                             ]
                         },
                         {
@@ -5559,14 +5559,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: There's no doubt it's Seizetsu."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『聖絶』で間違いないでしょうね。"
+                                ""
                             ]
                         },
                         {
@@ -5583,38 +5583,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Seizetsu?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖絶？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　神の呪いです。"
+                                ""
                             ]
                         },
                         {
@@ -5631,28 +5607,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: It's a curse from the god."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一般的な呪いと異なり、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その命までも奉納物として、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　神に差し出す呪いですね。"
+                                ""
                             ]
                         },
                         {
@@ -5669,21 +5631,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Unlike typical curses, this curse\nis offered to the gods as a sacrifice,\neven one's own life."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様が衰弱されているのは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それが原因でしょう。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5700,14 +5669,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Effy-sama's weakening is likely\ndue to that."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　命そのものを吸われているわけですから。"
+                                "Unie: Because it means that your very\nlife force is being drained."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5724,45 +5724,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ...Can it be cured?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……治療できる？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　安心してください！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　聖絶の治療法は存在していますので！"
+                                ""
                             ]
                         },
                         {
@@ -5779,21 +5748,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Please rest assured! There is a\ntreatment for Seizetsu!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いくつか素材を集める必要がありますが"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　解呪薬を作れば治せますよ！　多分っ！！"
+                                ""
                             ]
                         },
                         {
@@ -5810,21 +5779,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: You'll need to gather some\nmaterials, but if we make a curse-\nbreaking potion, we can cure it!\nProbably!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ただ、解呪薬の製造は専門外なんですよ。"
+                                "Unie: However, making a curse-breaking\npotion is beyond my expertise. It's\ndifficult for me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私では難しいですね……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5841,38 +5841,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Of course, I'll help too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もちろんボクも手伝うよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それでも難しいかと思います。"
+                                ""
                             ]
                         },
                         {
@@ -5889,28 +5865,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: I still think it's difficult."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そうなると、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　治療薬の専門家を頼る必要が"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あるでしょうね……"
+                                ""
                             ]
                         },
                         {
@@ -5927,21 +5889,59 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: In that case, we'll need to rely\non a specialist in medicinal potions..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル様、"
+                                "Unie: Zerachiel-sama, let's go to the\ncastle together."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一緒に城へ参りましょう。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5958,38 +5958,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Eh... to the castle!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　え……お城に！？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　はい、タイミングが良かったです。"
+                                ""
                             ]
                         },
                         {
@@ -6006,21 +5982,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Yes, the timing was good."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、魔王様の娘の一人が"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　帰ってきているのですが……"
+                                ""
                             ]
                         },
                         {
@@ -6037,28 +6006,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Right now, one of the Demon Lord's\ndaughters has returned..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　その娘が元素薬の製造に精通してまして、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　とんでもない技術です。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　事情を話せば力を貸してくれるかもです。"
+                                ""
                             ]
                         },
                         {
@@ -6075,14 +6037,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: That daughter is well-versed in\nthe production of elemental medicine,\nit's an incredible skill. If we explain\nthe situation, she might lend us her\npower."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　さっそく向かいましょう。"
+                                "Unie: Let's head there right away."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6257,69 +6257,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unié: Captain, everyone, hello~!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　団長、みなさん、こんにちわぁ～！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アゼル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ユニエ、元気そうでなによりです。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　団長、落ち着いたら、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　また一緒にお風呂に入りましょうねぇ～！！"
+                                ""
                             ]
                         },
                         {
@@ -6336,14 +6281,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Unié, it's great to see you\nlooking well."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは……僕はシャワーで充分ですよ。"
+                                ""
                             ]
                         },
                         {
@@ -6360,21 +6305,76 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unié: Captain, when you're free, let's\ntake a bath together again~!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　女の子なんだから、"
+                                "Azel: Ahaha... I'm fine with just taking\na shower."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　もっと身なりを綺麗にしないとですよ～？"
+                                "Unié: Since I'm a girl, I should take\nbetter care of my appearance, you know~?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6391,14 +6391,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Azel, you're weak for Unié,\naren't you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アゼル、ユニエに弱いんだなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -6415,14 +6415,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: It looks like you have a good\nrelationship."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仲が良さそうでいいわね。"
+                                ""
                             ]
                         },
                         {
@@ -6439,14 +6439,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Sachia and I were also like\nthat, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私とサティアも、あんな感じだったわね。"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "炎山の秘境",
+    "displayName": "Enzan's Hidden Wilderness",
     "encounterList": [],
     "encounterStep": 30,
     "height": 15,
@@ -2745,14 +2745,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Rising steam and geothermal heat."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　噴き上がる蒸気と地熱。"
+                                ""
                             ]
                         },
                         {
@@ -2769,28 +2769,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The mountain path, filled with such\nintense heat that it creates a mirage\neven though it's not summer, becomes\nhotter as it approaches the summit,\ngradually sapping away one's stamina..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　夏でもないのに陽炎が生まれるほどの"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　熱気に満ちた山道は頂きへと近づくほどに暑く、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　体力をジワジワと奪われる……"
+                                ""
                             ]
                         },
                         {
@@ -2807,14 +2807,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Uncharted Territory of the Flame\nMountain--"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　炎山の秘境――"
+                                ""
                             ]
                         },
                         {

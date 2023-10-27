@@ -16,7 +16,7 @@
         "volume": 20
     },
     "disableDashing": false,
-    "displayName": "客室",
+    "displayName": "Guest room",
     "encounterList": [],
     "encounterStep": 30,
     "height": 20,

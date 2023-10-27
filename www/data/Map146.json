@@ -1721,14 +1721,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "\\CL Black clouds that cover the\nheavens..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CL天上を塗りつぶす黒い雲……"
+                                ""
                             ]
                         },
                         {
@@ -1745,21 +1745,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "\\CL The dark clouds that were floating\non the distant horizon during the day\nhad gradually covered the sky above me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CL昼間は遠い地平線の彼方に浮かんでいた暗雲が、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\CLいつしか見上げた空を覆い尽くしていた。"
+                                ""
                             ]
                         },
                         {
@@ -1776,14 +1776,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "\\CL The light rain starts to fall, drop\nby drop."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CLぽつり、ぽつりと降りだす小雨。"
+                                ""
                             ]
                         },
                         {
@@ -1875,14 +1875,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女："
+                                "Girl: ........................"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……………………"
+                                ""
                             ]
                         },
                         {
@@ -1899,21 +1899,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "It was just at that moment when a girl\ndressed in mourning clothes was crying\nin front of a gravestone."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　喪服を着た少女が墓石の前で泣いていたのは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　そんな矢先のことだ。"
+                                ""
                             ]
                         },
                         {
@@ -1930,14 +1930,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "...It has been over half a day since the\nfuneral was over."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……葬儀が済んでから、半日以上も経っている。"
+                                ""
                             ]
                         },
                         {
@@ -1954,14 +1954,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "The girl's parents have passed away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　少女の両親は亡くなったのだ。"
+                                ""
                             ]
                         },
                         {
@@ -1978,14 +1978,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Unable to accept that fact, she\ncontinued to cry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　その事実が受け入れられず、ただ泣き続ける。"
+                                ""
                             ]
                         },
                         {
@@ -2002,14 +2002,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "That was the girl's best resistance she\ncould offer right now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それが今の少女に出来る精一杯の抵抗だった。"
+                                ""
                             ]
                         },
                         {
@@ -2067,48 +2067,17 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女："
+                                "Girl: ........................"
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　……………………"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　光を失った緑玉色の瞳。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　唇を噛み締めながら、少女がゆっくりと踵を返した。"
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -2120,64 +2089,95 @@
                         },
                         {
                             "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "The girl slowly turned on her heels, her\ngreen eyes that had lost their light.\nShe bit her lip tightly."
+                            ]
+                        },
+                        {
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　すると、"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "青年："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　悲しい、ですよね"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　そこへ一人の青年が近づき、ぽつりと呟いた。"
+                                "And then,"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Young Man: It's sad, isn't it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "And then, a young man approached and\nmuttered softly."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2253,41 +2253,17 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "青年："
+                                "Young Man: The sadness of losing\nsomeone you love..."
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　「愛する者を失った悲しみは……」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その一言を受けて、少女はゆっくりと顔を上げる。"
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -2299,26 +2275,19 @@
                         },
                         {
                             "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Upon hearing those words, the girl\nslowly lifted her face."
+                            ]
+                        },
+                        {
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　赤の他人。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　知っている顔ではない。"
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -2330,43 +2299,26 @@
                         },
                         {
                             "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Complete stranger. Not a familiar face."
+                            ]
+                        },
+                        {
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それでも嘲笑めいた感情は込めれていなかった。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　だから、少女を励ますための言葉なのだろう。"
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -2378,19 +2330,19 @@
                         },
                         {
                             "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "However, there was no mocking or\nscornful emotion in it."
+                            ]
+                        },
+                        {
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　少女はそう受け取った。"
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -2404,38 +2356,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "青年："
+                                "So, these are words to encourage the\ngirl, I suppose."
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　「安心してください。私たちは家族です」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ふっ、と青年がこぼした一瞬の微笑み。"
+                                "The girl took it that way."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2452,21 +2404,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Young Man: Please rest assured. We are\nfamily."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　寂しそうな表情の中に、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　硝子のような儚い笑みを浮かべて。"
                             ]
                         },
                         {
@@ -2483,14 +2428,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The young man let out a brief smile."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　星詠みの神を名乗る青年は、少女の手を取った。"
+                                "With a lonely expression, she wore a\nfragile smile like glass."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "The young man who claimed to be a\nstargazer god took the girl's hand."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2560,14 +2560,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This is the beginning."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CLこれが始まり"
+                                ""
                             ]
                         },
                         {
@@ -2584,21 +2584,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "This is the beginning of a story woven\nby a girl called an angel and the gods."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CL天使と呼ばれる少女と、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\CL神々が織り成す物語の、その始まりだ"
+                                ""
                             ]
                         },
                         {

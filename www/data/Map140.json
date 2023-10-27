@@ -16,7 +16,7 @@
         "volume": 30
     },
     "disableDashing": false,
-    "displayName": "聖域へ続く道",
+    "displayName": "Road leading to the sanctuary",
     "encounterList": [],
     "encounterStep": 30,
     "height": 40,
@@ -9719,21 +9719,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Due to the powerful disturbance of\nelements occurring in the sacred area,\nthe minimap cannot be confirmed."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※聖域で発生する強力な元素の乱れにより、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　　ミニマップが確認できません。"
+                                ""
                             ]
                         },
                         {
@@ -10398,14 +10398,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Everyone is fighting for\nme..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんなが戦ってくれている……"
+                                ""
                             ]
                         },
                         {
@@ -10422,14 +10422,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Let's go too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクたちも行こう。"
+                                ""
                             ]
                         },
                         {
@@ -10446,14 +10446,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Because everyone's efforts cannot\nbe in vain."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　皆の努力、無駄にはできんからのう。"
+                                ""
                             ]
                         },
                         {
@@ -10470,14 +10470,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: So we should aim for the\nsanctuary deep in this forest, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この森の奥にある聖域を目指せばいいのね？"
+                                ""
                             ]
                         },
                         {
@@ -10494,21 +10494,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: As we go deeper, strong enemies\nshould be waiting. Let's not let our\nguard down."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥へ進むほど強敵が待っているはずよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　油断しないようにね。"
+                                ""
                             ]
                         },
                         {
@@ -10525,14 +10525,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Zerachiel's gang is coming!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル一味、参るぜっ！"
+                                ""
                             ]
                         },
                         {
@@ -11464,21 +11464,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: If you proceed through the\nforest, it will lead you to the\nsanctuary. I'm counting on you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　森を進めば聖域へ繋がっている。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あとは頼んだぞ。"
+                                ""
                             ]
                         },
                         {
@@ -13476,14 +13476,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔王："
+                                "Demon Lord: Let us take care of the\nangels."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使は我々が引き受けよう。"
+                                ""
                             ]
                         },
                         {
@@ -13500,14 +13500,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔王："
+                                "Demon Lord: Zerachiel and the others,\nplease head towards the sacred\nsanctuary."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル殿たちは聖域へ向かってくれ。"
+                                ""
                             ]
                         },
                         {
@@ -13524,14 +13524,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Understood, Demon Lord-sama."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　了解だよ、魔王様。"
+                                ""
                             ]
                         },
                         {
@@ -13673,14 +13673,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "軍司："
+                                "Gunji: Let's proceed with the treatment."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　治療いたしましょう。"
+                                ""
                             ]
                         },
                         {

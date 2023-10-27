@@ -2612,14 +2612,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (......That's the girl from\nearlier)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（……さっきの子だ）"
+                                ""
                             ]
                         },
                         {
@@ -2636,21 +2636,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The girl sighed and absentmindedly stared at the wall.\n\n"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　少女はため息をつきながら、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ぼーっと壁を眺めている。"
+                                ""
                             ]
                         },
                         {
@@ -2667,14 +2667,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Um, I'm sorry about\nearlier..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あの、さっきはごめんなさい……"
+                                ""
                             ]
                         },
                         {
@@ -2722,38 +2722,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女："
+                                "Girl: Ah...the one from earlier..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あ……さきほどの……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "少女："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　いえ、そんなに謝らないでください。"
+                                ""
                             ]
                         },
                         {
@@ -2770,21 +2746,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女："
+                                "Girl: No, please don't apologize so\nmuch."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　鍵をかけ忘れてしまった僕にも、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　落ち度はあるわけですし……"
+                                ""
                             ]
                         },
                         {
@@ -2801,21 +2770,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女："
+                                "Girl: Well, I also made a mistake by\nforgetting to lock the door..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それに、あんなお見苦しいものを……"
+                                "Girl: And, to show you something so\nunsightly... I'm the one who should\napologize, truly sorry..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　僕の方こそ、本当にごめんなさい……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2832,21 +2832,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Saying it's unsightly...\nthat's not true! On the contrary, it was\na feast for the eyes!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　見苦しいなんてそんな！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　むしろ眼福だったよ！！"
+                                ""
                             ]
                         },
                         {
@@ -2863,21 +2863,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Zerachiel exaggeratedly shook her hands\nand head, denying the girl's words."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルが大げさに両手と首を振って、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　少女の言葉を否定する。"
+                                ""
                             ]
                         },
                         {
@@ -2894,21 +2894,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Zerachiel's behavior was strange, so the\ngirl showed me a smile."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そんなザラキエルの仕草がおかしかったのか、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　少女は笑顔を見せてくれた。"
+                                ""
                             ]
                         },
                         {
@@ -2925,17 +2925,17 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "And,"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　そして、"
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -2949,14 +2949,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女："
+                                "Girl: Are you heading to the Demon\nContinent?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミは魔大陸へ向かうの？"
+                                ""
                             ]
                         },
                         {
@@ -2973,45 +2973,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yeah, that's right. What's\nyour name?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、そうだよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミの名前は？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "少女："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　僕はアゼル＝ノルトハイム。"
+                                ""
                             ]
                         },
                         {
@@ -3028,14 +3004,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Girl: I am Azel Nordheim."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　流浪の剣士をしています。"
+                                "Azel: I am a wandering swordsman."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3052,100 +3052,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, you're traveling."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へえ、旅をしているんだ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ボクは事情があってね、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔大陸の魔都ヴァールへ向かう途中なんだ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アゼル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　そうでしたか、魔都ヴァールへ……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アゼル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔大陸の魔物は危険です。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　気をつけてくださいね。"
+                                ""
                             ]
                         },
                         {
@@ -3153,7 +3067,7 @@
                             "indent": 0,
                             "parameters": [
                                 "Actor1",
-                                2,
+                                0,
                                 0,
                                 2
                             ]
@@ -3162,14 +3076,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You see, I have my reasons.\nI'm on my way to the magical city of\nVaal in the Demon Continent."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、心配してくれてありがとう。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3186,21 +3107,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: I see, to the magical city of\nVaal..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　本当は、僕もご一緒できれば"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　よかったのですが……"
+                                ""
                             ]
                         },
                         {
@@ -3217,21 +3131,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: The monsters in the Demon\nContinent are dangerous. Please be\ncareful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうしても、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　寄らないといけない場所がありまして…"
+                                ""
                             ]
                         },
                         {
@@ -3248,52 +3162,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, thank you for worrying\nabout me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、気にしないでよ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　旅は慣れているからさ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　もし魔大陸で会う機会があれば、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　また声をかけさせてね。"
+                                ""
                             ]
                         },
                         {
@@ -3310,28 +3186,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Actually, I wish I could have\njoined you..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はい、楽しみにしています。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっと……"
+                                ""
                             ]
                         },
                         {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
-                                "Actor1",
+                                "Friendly",
                                 0,
                                 0,
                                 2
@@ -3341,21 +3217,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Azel: There's a place I absolutely have\nto visit..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あ、ボクはザラキエル。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　流浪の冒険者……みたいなものかな。"
+                                ""
                             ]
                         },
                         {
@@ -3372,14 +3248,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, don't worry about it.\nI'm used to traveling, you know."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　これからよろしくね。"
+                                "Zerachiel: If we have the chance to meet\nin the Demon Continent, let me call out\nto you again."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3396,14 +3310,100 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Yes, I'm looking forward to it.\nUm..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　はい、よろしくお願いします……っ！"
+                                "Zerachiel: Ah, I'm Zerachiel. A\nwandering adventurer... something like\nthat, I guess."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                2,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: Nice to meet you from now on."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Azel: Yes, nice to meet you...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

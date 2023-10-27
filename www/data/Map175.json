@@ -6174,14 +6174,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I can't find any ore at all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　鉱石まったく見つからないねー。"
+                                ""
                             ]
                         },
                         {
@@ -6198,21 +6198,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Hmmm... I heard there should be\nsome around here..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うーむ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　このあたりにあるという話じゃが……"
+                                ""
                             ]
                         },
                         {
@@ -6318,14 +6318,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like we need to\ninvestigate further inside."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もっと奥を調べないとダメそうだね。"
+                                ""
                             ]
                         },
                         {
@@ -6342,21 +6342,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: The path seems to be getting\nnarrower, so let's proceed with caution."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　道が狭くなっておるじゃろうから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　注意して進むのじゃ。"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "拷問室",
+    "displayName": "Torture Chamber",
     "encounterList": [],
     "encounterStep": 30,
     "height": 13,
@@ -1412,14 +1412,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "What happens next to Zerachiel's\nfate..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この後、ザラキエルの運命は……"
+                                ""
                             ]
                         },
                         {
@@ -1445,8 +1445,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "輪姦される",
-                                    "ゴミとして捨てられた"
+                                    "Gang-raped",
+                                    "Thrown away like garbage"
                                 ],
                                 -1,
                                 0,

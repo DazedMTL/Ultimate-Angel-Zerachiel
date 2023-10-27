@@ -16,7 +16,7 @@
         "volume": 20
     },
     "disableDashing": false,
-    "displayName": "船員の部屋",
+    "displayName": "Crew's Room",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -9387,21 +9387,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "船員："
+                                "Sailor: Young people don't want to\nbecome sailors because sailors have a\nlong life at sea."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　船乗りは海の上で生活が長いから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　若い子は船乗りになりたがらないよ。"
+                                ""
                             ]
                         },
                         {
@@ -9418,14 +9418,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "船員："
+                                "Sailor: Will you become a sailor too?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミも船乗りになるかい？"
+                                ""
                             ]
                         },
                         {
@@ -9648,14 +9648,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "船員："
+                                "Crew Member: This is the crew's room."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは船員の部屋だよ。"
+                                ""
                             ]
                         },
                         {
@@ -9672,14 +9672,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "船員："
+                                "Crew Member: The room next door is the\nguest room."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　隣は客室さ。"
+                                ""
                             ]
                         },
                         {
@@ -9770,14 +9770,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: Nene, do you know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ねね、知ってる？"
+                                ""
                             ]
                         },
                         {
@@ -9785,8 +9785,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "知ってる",
-                                    "知らない"
+                                    "I know",
+                                    "I don't know"
                                 ],
                                 1,
                                 0,
@@ -9816,14 +9816,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: Oh, how boring..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　なぁんだ、つまらない……"
+                                ""
                             ]
                         },
                         {
@@ -9860,21 +9860,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: The Demon Lord has\nthree daughters, but they all have\ndifferent mothers, you know?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　魔王様には三人の娘がいるんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　みんな母親が違うんですってっ！！"
+                                ""
                             ]
                         },
                         {
@@ -9891,14 +9891,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "貴族の娘："
+                                "Noble's Daughter: I would love to meet\nyou once!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　一度お会いしてみたいですっ！"
+                                ""
                             ]
                         },
                         {
@@ -9999,14 +9999,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "The clergy: I am currently on a\npilgrimage to the sacred land of the\nBeast God, Anri."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　獣神アンリの聖地を巡礼中です。"
+                                ""
                             ]
                         },
                         {
@@ -10023,14 +10023,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "船員："
+                                "Crew Member: In the Demon Continent,\nthere is a sacred sanctuary of the Beast\nGod, Anri."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸には、獣神アンリの聖域があるのですよ。"
+                                ""
                             ]
                         },
                         {
@@ -10121,14 +10121,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Ah, I'm cleaning the room."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あぅ、お部屋のお掃除中です。"
+                                ""
                             ]
                         },
                         {
@@ -10145,21 +10145,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Even a little bit of dirt can make\nthe customers uncomfortable, you know..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　少しでも汚れていると、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お客様がご不快になりますからね……"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "オルフェウス教団",
+    "displayName": "Orpheus Sect",
     "encounterList": [],
     "encounterStep": 30,
     "height": 50,
@@ -15574,21 +15574,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh? It seems there's a\npassage behind the flag curtain."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれれ？　"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旗幕の裏に通路があるみたい。"
+                                ""
                             ]
                         },
                         {
@@ -17185,14 +17185,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "I have recovered."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復しました。"
+                                ""
                             ]
                         },
                         {
@@ -17209,14 +17209,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Do you want to save?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　セーブしますか？"
+                                ""
                             ]
                         },
                         {
@@ -17224,8 +17224,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

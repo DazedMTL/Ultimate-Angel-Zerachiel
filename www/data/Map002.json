@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "オルフェウス教団",
+    "displayName": "Orpheus Sect",
     "encounterList": [],
     "encounterStep": 90,
     "height": 50,
@@ -16115,14 +16115,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "神官兵士Ａ："
+                                "Priest Soldier A: Intruders...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　侵入者か……！！"
+                                ""
                             ]
                         },
                         {
@@ -16139,45 +16139,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, they've already noticed\nus."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれ、もう気付かれちゃった。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "神官兵士Ａ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　聖女様のお告げ通りだ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　我らは神託に従うしかあるまい。"
+                                ""
                             ]
                         },
                         {
@@ -16194,21 +16163,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "神官兵士Ｂ："
+                                "Priest Soldier A: It is as the Holy Maiden has foretold. We have no choice but to follow the divine oracle.\n\n"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　了解、捕らえるぞ。"
+                                "Priest Soldier B: Understood, we will\ncapture them. We will hand them over to\nthe Holy Maiden."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖女様へ引き渡すのだ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16225,14 +16225,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like you intend to\nfight me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクと戦うつもりみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -16249,21 +16249,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You will regret aiming your\nweapon at the strongest angel like me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最強天使のボクに武器を向けたこと、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　後悔してもらうよ。"
+                                ""
                             ]
                         },
                         {
@@ -16598,38 +16598,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "神官兵士Ａ："
+                                "Priest Soldier A: Ugh...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　くっ……！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "神官兵士Ｂ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　オレたちじゃ歯が立たないか……"
+                                ""
                             ]
                         },
                         {
@@ -16646,21 +16622,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "神官兵士Ａ："
+                                "Priest Soldier B: I wonder if we can't\nstand a chance against them..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　仕方ない、撤退だ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　聖女様に報告するぞ。"
+                                ""
                             ]
                         },
                         {
@@ -16677,14 +16646,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "神官兵士Ｂ："
+                                "Priest Soldier A: There's no other\nchoice, let's retreat. We'll report to\nthe Holy Maiden."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　……了解。"
+                                "Priest Soldier B: ...Understood."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -17239,14 +17239,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Looks like they ran away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　逃げたみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -17263,21 +17263,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's troublesome to be called\nby my comrades, so let's quickly proceed\nfurther into the depths."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　仲間を呼ばれても面倒だし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　さっさと奥へ進んじゃおうか。"
+                                ""
                             ]
                         },
                         {
@@ -19729,14 +19729,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "I have recovered."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復しました。"
+                                ""
                             ]
                         },
                         {
@@ -19753,14 +19753,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Do you want to save?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　セーブしますか？"
+                                ""
                             ]
                         },
                         {
@@ -19768,8 +19768,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

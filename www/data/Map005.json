@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "オルフェウス教団",
+    "displayName": "Orpheus Sect",
     "encounterList": [],
     "encounterStep": 30,
     "height": 15,
@@ -2622,14 +2622,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれれ……？"
+                                ""
                             ]
                         },
                         {
@@ -2731,14 +2731,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh my... an ambush, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんと～……待ち伏せかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -2755,14 +2755,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: But can you stop me all by\nyourself?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　でも、たった１人でボクを止められるかな？"
+                                ""
                             ]
                         },
                         {
@@ -2850,38 +2850,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "隊長："
+                                "Captain: Young lady, it would be best\nfor you to turn back quietly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　小娘よ、大人しく引き返すがいい。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　悪いけど、そうはいかないよ。"
+                                ""
                             ]
                         },
                         {
@@ -2898,14 +2874,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Sorry, but it's not going to\ngo that way."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ボクにも戦う理由があるからね。"
+                                "Zerachiel: Because I have a reason to\nfight too."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2922,14 +2922,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "隊長："
+                                "Captain: Well then, I have no choice...\nuntil I capture you here...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ならば、仕方あるまい……ここで捕らえるまで……ッ！"
+                                ""
                             ]
                         },
                         {
@@ -2946,14 +2946,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh... that sounds\ninteresting."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へえ～……それは楽しみだね。"
+                                ""
                             ]
                         },
                         {
@@ -2970,14 +2970,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's settle this and see\nwho's stronger."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どっちが強いか、勝負だね。"
+                                ""
                             ]
                         },
                         {
@@ -3104,14 +3104,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "団長："
+                                "Captain: To be defeated by a little\ngirl... I underestimated you...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　小娘にやられるとは、不覚……ッ！"
+                                ""
                             ]
                         },
                         {
@@ -3128,21 +3128,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Uncle, is it already over?\nThis isn't exciting at all~!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　おじさん、もう終わり？　"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　これじゃ全然盛り上がらないよ～！　"
+                                ""
                             ]
                         },
                         {
@@ -3159,14 +3159,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Well then... it's punishment\ntime, isn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それじゃ……お仕置きの時間だよ？"
+                                ""
                             ]
                         },
                         {
@@ -3228,14 +3228,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "隊長："
+                                "Captain: Ugh............!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　くっ…………！！"
+                                ""
                             ]
                         },
                         {
@@ -3275,14 +3275,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "女の声："
+                                "Female Voice: It's you who will be\npunished."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お仕置きされるのは、あなたのほうですよ。"
+                                ""
                             ]
                         },
                         {
@@ -3531,14 +3531,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "隊長："
+                                "Captain: Lady Saint!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　聖女様っ！"
+                                ""
                             ]
                         },
                         {
@@ -3586,14 +3586,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: Oh my, are you the intruder?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あらあら、あなたが侵入者ですか？"
+                                ""
                             ]
                         },
                         {
@@ -3610,14 +3610,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, if I say it's\ndifferent~?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あはは、違うって言ったら～？"
+                                ""
                             ]
                         },
                         {
@@ -3634,21 +3634,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: If you quietly leave the\ntemple, you can avoid getting into\ntrouble."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　大人しく神殿を出ていくならば、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　痛い目に遭わないで済みますよ。"
+                                ""
                             ]
                         },
                         {
@@ -3665,21 +3665,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: That's a cruel joke~. I can't\nabandon my captured comrades."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　キッツイ冗談だね～。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　捕まった仲間たちを見捨てておけないよ。"
+                                ""
                             ]
                         },
                         {
@@ -3703,28 +3703,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: So that means...? You don't\nintend to quietly turn back, do you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それはつまり……？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　大人しく引き返すつもりはない"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ということですね？"
+                                ""
                             ]
                         },
                         {
@@ -3741,38 +3741,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Of course!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もっちろんっ！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "聖女："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あらあら、仕方ない子ですね……"
+                                ""
                             ]
                         },
                         {
@@ -3789,14 +3765,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: Oh my, you're such a\nhelpless child..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　聖女の力を見せてあげましょう。"
+                                "Lady Saint: Let me show you the power of\na saint."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3879,52 +3879,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: M-My strength... I can't\nmuster it... Why..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ち、力が入らない……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　どうして……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "聖女："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あなたのように、私の命を狙う天使は、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　星の数ほどいましたよ。"
+                                ""
                             ]
                         },
                         {
@@ -3941,21 +3910,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: There have been countless\nangels like you who aimed for my life."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　天使の力は脅威です。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ただし……"
+                                ""
                             ]
                         },
                         {
@@ -3972,14 +3941,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: The power of angels is\nformidable. However..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　対策をすれば、赤子と同じようなものです。"
+                                "Lady Saint: If you take precautions,\nit's like dealing with a baby."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3996,38 +3996,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: What... have you done to\nme..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクに……何を、したのさ……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "聖女："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　衰弱の呪詛ですよ。"
+                                ""
                             ]
                         },
                         {
@@ -4044,14 +4020,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: It's a curse of weakness."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あなたの力は呪詛によって失われました。"
+                                ""
                             ]
                         },
                         {
@@ -4068,14 +4044,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: Your power has been lost due\nto a curse."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　もう力は戻りませんよ。"
+                                "Lady Saint: Your power won't return\nanymore."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4092,14 +4092,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: No..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そんな……"
+                                ""
                             ]
                         },
                         {
@@ -4116,21 +4116,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: Regret your audacity in\nrampaging through the temple."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　生意気に神殿を荒らし回ったこと、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　後悔しなさい。"
+                                ""
                             ]
                         },
                         {
@@ -4156,14 +4156,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: My magical power... it has\nall been drained..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　魔力も、全部吸われちゃった……"
+                                ""
                             ]
                         },
                         {
@@ -4180,21 +4180,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I can't lose like this...\nkuuhh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　このまま、負けられないよ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　くぅぅ……！"
+                                ""
                             ]
                         },
                         {
@@ -4312,21 +4312,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "隊長："
+                                "Captain: Give up. Resistance is futile."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　諦めるのだな。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　抵抗は無駄だぞ。"
+                                ""
                             ]
                         },
                         {
@@ -4343,14 +4343,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Don't touch me...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクに、触らないで……！"
+                                ""
                             ]
                         },
                         {
@@ -4367,38 +4367,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Once my power returns, you\nall...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　力が戻ったら、お前たちなんか……！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "聖女："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　残念だけど、そうはならないわ。"
+                                ""
                             ]
                         },
                         {
@@ -4415,14 +4391,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: It's unfortunate, but it\nwon't be that way."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　これからあなたは、すべてを失うのだから。"
+                                ""
                             ]
                         },
                         {
@@ -4439,14 +4415,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "聖女："
+                                "Lady Saint: From now on, you will lose\neverything."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　この娘を拷問室へ連れて行きなさい。"
+                                "Lady Saint: Take this girl to the\ntorture chamber."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4463,21 +4463,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "隊長："
+                                "Captain: In the torture chamber, make\nsure those young ones give her plenty of\nlove and affection."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　拷問室で、若い奴らに"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　たっぷり可愛がってもらうんだな。"
+                                ""
                             ]
                         },
                         {
@@ -4494,14 +4494,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Kuuhh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　くぅっ……"
+                                ""
                             ]
                         },
                         {

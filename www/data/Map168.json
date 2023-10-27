@@ -9119,21 +9119,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I see, so that's why we were\ncalled."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なるほど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それでボクたちが呼ばれたワケか。"
+                                ""
                             ]
                         },
                         {
@@ -9150,14 +9150,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I will gladly lend my strength!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わらわは喜んで力を貸すぞい！"
+                                ""
                             ]
                         },
                         {
@@ -9174,14 +9174,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Yes, I will also cooperate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ええ、私も協力するわ。"
+                                ""
                             ]
                         },
                         {
@@ -9291,14 +9291,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: It seems like there is a\nconnection between Zerachiel and me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルとは縁があるみたいだしね。"
+                                ""
                             ]
                         },
                         {
@@ -9315,14 +9315,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Thank you, everyone!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんな、ありがとうっ！！"
+                                ""
                             ]
                         },
                         {
@@ -9432,21 +9432,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: First, it would be good to head to\nthe Cave of Blazing Sands."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まずは熱砂の洞窟へ"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　向かうのが良いじゃろう。"
+                                ""
                             ]
                         },
                         {
@@ -9463,45 +9463,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Over there, the monsters are\nrelatively weak, so it would be a good\nplace to get used to fighting."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あそこは比較的、魔物が弱く、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦いに慣れるにも良いじゃろうて。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                5,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　洞窟ならボクが一緒に行くよ。"
+                                ""
                             ]
                         },
                         {
@@ -9518,21 +9494,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: If it's a cave, I'll go with\nyou."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                5,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　薄暗いところは慣れてるし、"
+                                "Sachia: I'm used to dark places, so I\nthink I can be of help."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　力になれると思うよ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9611,14 +9611,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I, too, am not good with\ndeserts..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わらわ、砂漠は苦手なのじゃ……"
+                                ""
                             ]
                         },
                         {
@@ -9635,21 +9635,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Same here. It seems like Sachia\njoining us would be a good idea."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　同じく。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　サティアが同行するのが良さそうね。"
+                                ""
                             ]
                         },
                         {
@@ -9666,21 +9666,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: It would be difficult to move\naround if we go into the cave with a\nlarge group. It would be best to go in\nwith just two people."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　洞窟は大人数で潜ると身動きがとれん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　二人で潜るのがベストじゃろうて。"
+                                ""
                             ]
                         },
                         {
@@ -9790,21 +9790,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Zerachiel, with that being said,\nplease take care of me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そういうわけでよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -9821,14 +9821,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yes, please take care of me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、よろしくねっ。"
+                                ""
                             ]
                         },
                         {
@@ -9857,14 +9857,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Sachia has joined the party."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※サティアが仲間に加わりました。"
+                                ""
                             ]
                         },
                         {
@@ -9881,21 +9881,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: If you're feeling uneasy, it might\nbe a good idea to gain some experience\nin unexplored areas."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もし不安なら、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　秘境で経験を積むのも有りじゃぞ。"
+                                ""
                             ]
                         },
                         {
@@ -9912,38 +9912,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Unexplored area...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　秘境……？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                7,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔物の巣食う遺跡じゃな。"
+                                ""
                             ]
                         },
                         {
@@ -9960,21 +9936,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: It's not just a ruin infested with\nmonsters."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                7,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　武器の素材なども落ちておるので、"
+                                "Mel: Since there are also materials for\nweapons and such lying around, it would\nbe good to try exploring as a test."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　試しに探索してみるのも良いじゃろう。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10003,14 +10003,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "※A hidden area in the forest has been\nadded."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※森林の秘境が追加されました。"
+                                ""
                             ]
                         },
                         {
@@ -10027,21 +10027,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The unexplored areas will be unlocked as\nthe story progresses. You can move to\nthem from the OTHER option on the fast\ntravel screen."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　秘境は物語の進行度によって解放されていきます。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ファストトラベル画面のOTHERから移動可能です。　"
+                                ""
                             ]
                         },
                         {
@@ -10377,21 +10377,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: So you are an acquaintance of\nLady Unie? Please make yourself at home."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエ殿のお知り合いでしたか。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうぞゆっくりしていってください。"
+                                ""
                             ]
                         },
                         {
@@ -10482,14 +10482,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: It seems that Lady Unie and Lord\nIshvald were mercenaries."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエ様とイシュヴァルド様は傭兵だったそうですよ。"
+                                ""
                             ]
                         },
                         {
@@ -10506,14 +10506,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: It seems they have known each\nother since they were young."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　幼い頃からの付き合いだとか。"
+                                ""
                             ]
                         },
                         {
@@ -10784,14 +10784,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Since there are few maids,\ncleaning is quite difficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メイドが少ないので、お掃除大変なんですよね……"
+                                ""
                             ]
                         },
                         {

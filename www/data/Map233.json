@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "夢幻の大樹　森林",
+    "displayName": "Forest of the Fantasia Tree",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -5479,14 +5479,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, a slime."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれ、スライムだ。"
+                                ""
                             ]
                         },
                         {
@@ -5494,8 +5494,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "近づく",
-                                    "立ち去る"
+                                    "Approach",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5532,14 +5532,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "When Zerachiel approached, the\natmosphere changed."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ザラキエルが近づくと雰囲気が変わった。"
+                                ""
                             ]
                         },
                         {
@@ -5556,14 +5556,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "Powerful magic is released, and the\nelements engulf everything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　強力な魔力が放出され、元素がすべてを埋めつくす。"
+                                ""
                             ]
                         },
                         {
@@ -5580,14 +5580,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "And your companion, Pururin, was\ntrembling."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そして、あなたの仲間のプルリンが震えていた。"
+                                ""
                             ]
                         },
                         {
@@ -5604,14 +5604,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "You've come this far, human child."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　人の子よ　ここまで来たか　』　"
+                                ""
                             ]
                         },
                         {
@@ -5628,14 +5628,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "The slime's behavior is strange."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　スライムの様子がおかしい。"
+                                ""
                             ]
                         },
                         {
@@ -5652,14 +5652,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "......Have you ever thought about it,\neveryone?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　……諸君らは考えたことはないか？　』　"
+                                ""
                             ]
                         },
                         {
@@ -5676,14 +5676,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "Could it be that even monsters have\ngods?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　魔物にも神がいるのではないか、と　』　"
+                                ""
                             ]
                         },
                         {
@@ -5700,14 +5700,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "I am the god of monsters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　我こそが魔物の神だ　』　"
+                                ""
                             ]
                         },
                         {
@@ -5724,21 +5724,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "Let me tell you, human child, before\nme, the Star God is a weak existence."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　人の子よ　伝えておこう"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　　　我の前では星神など　か弱き存在　』　"
+                                ""
                             ]
                         },
                         {
@@ -5755,21 +5755,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "With my anger, calamity shall arise\nfrom this point onward, and the earth\nshall turn into a scorched wasteland."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　これより厄災が起こる"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　　　我の怒りで地上は焦土と化すだろう　』　"
+                                ""
                             ]
                         },
                         {
@@ -5786,21 +5786,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "When I heard that, Pururin jumped out to\nprotect you all."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それを聞いたとき、プルリンが飛び出した。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あなたたちを庇うように。"
+                                ""
                             ]
                         },
                         {
@@ -5829,21 +5829,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "How foolish... even though there's no\nway I can defeat a god."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　愚かな……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　　　神に勝てるはずがないというのに　』　"
+                                ""
                             ]
                         },
                         {
@@ -5860,14 +5860,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "This is also the saga of those with\nlife..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　これも 命ある者のサガ か……　』　"
+                                ""
                             ]
                         },
                         {
@@ -5884,21 +5884,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "Very well! Let me teach you the power\nof a god!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　いいだろう！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　　　神の力、その身に教えてくれようぞっ！！　』　"
+                                ""
                             ]
                         },
                         {
@@ -8999,14 +8999,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Shall we escape?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　脱出するか？"
+                                ""
                             ]
                         },
                         {
@@ -9014,8 +9014,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "脱出する",
-                                    "まだ頑張る"
+                                    "Escape",
+                                    "Keep going"
                                 ],
                                 1,
                                 0,

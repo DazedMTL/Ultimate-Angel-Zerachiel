@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "魔都ヴァール　城前",
+    "displayName": "Magic Capital Vaal Castle Front",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -3813,14 +3813,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -3956,14 +3956,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Already dead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　すでに息絶えている……"
+                                ""
                             ]
                         },
                         {
@@ -4570,14 +4570,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: T-This is the Flame\nGiant...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こ、こいつは炎の巨人……！？"
+                                ""
                             ]
                         },
                         {
@@ -4594,21 +4594,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: No, it's slightly different... I\nwonder what it is..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ううん、微妙に違うわよ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんなのかしら……"
+                                ""
                             ]
                         },
                         {
@@ -4625,14 +4625,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ...No, it looks like it's\ncoming to attack us!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……いや、襲ってくるみたいだよ！！"
+                                ""
                             ]
                         },
                         {

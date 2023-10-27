@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "アトリエ・ロージェ",
+    "displayName": "Atelier Roje",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4394,14 +4394,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アイテム屋："
+                                "Item Shop Owner: What are you looking\nfor?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何をお探しでしょうか？"
+                                ""
                             ]
                         },
                         {
@@ -4425,14 +4425,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アイテム屋："
+                                "Item Shop Owner: Please come again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また来てくださいね。"
+                                ""
                             ]
                         },
                         {
@@ -4507,14 +4507,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アイテム屋："
+                                "Item Shop Owner: Eh...?\nKyaaaaaaaahhhhhhh!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　え……？　きゃああああああああっ！！"
+                                ""
                             ]
                         },
                         {
@@ -4605,21 +4605,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔術師の少女："
+                                "The Magician Girl: The ring has various\neffects. It's good to try combining them\nin different ways."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　指輪は様々な効果があるの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　色々組み合わせてみるといいわね。"
+                                ""
                             ]
                         },
                         {
@@ -4701,21 +4701,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔術師の少女："
+                                "Magician Girl: I also have to work\nharder. Because I want to protect this\nprogress."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私も、もっとがんばらないと。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　このログレスくらいは守りたいからね。"
+                                ""
                             ]
                         },
                         {
@@ -4797,14 +4797,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔術師の少女："
+                                "The Magician Girl: I've decided to go on\na journey."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私、旅に出ることにしたわ。"
+                                ""
                             ]
                         },
                         {
@@ -4821,21 +4821,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔術師の少女："
+                                "The Magician Girl: I want to learn many\ntypes of magic, broaden my horizons, and\nbe able to save many lives."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　多くの魔法を学んで、多くの見聞を広げて、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たくさんの命を救えるようにね。"
+                                ""
                             ]
                         },
                         {
@@ -4917,14 +4917,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔術師の少女："
+                                "Magician Girl: Oh, you want to be the\nsubject of my experiment?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、実験の材料になりたいの？"
+                                ""
                             ]
                         },
                         {

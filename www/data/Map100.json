@@ -16,7 +16,7 @@
         "volume": 20
     },
     "disableDashing": false,
-    "displayName": "港町　商店通り",
+    "displayName": "Port Town Shopping Street",
     "encounterList": [],
     "encounterStep": 30,
     "height": 29,
@@ -6525,21 +6525,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hello, traveler. Welcome to\nthe port town of Granferia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、旅の方。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港町グランフェリアへようこそっ！"
+                                ""
                             ]
                         },
                         {
@@ -6621,21 +6621,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hello, traveler. Welcome to\nthe port town of Granferia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、旅の方。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港町グランフェリアへようこそっ！"
+                                ""
                             ]
                         },
                         {
@@ -6652,45 +6652,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm calling out to the people\npassing by..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　行き交う人に声をかけてる……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　少しでも魔大陸を"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　好きになってほしいんじゃないかな？"
+                                ""
                             ]
                         },
                         {
@@ -6707,14 +6676,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I hope you'll come to like the\nDemon Continent even just a little bit,\nyou know?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　優しい人だよね。"
+                                "Sachia: You're a kind person, aren't\nyou?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6731,14 +6731,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yes!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うんっ！"
+                                ""
                             ]
                         },
                         {
@@ -6813,21 +6813,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hello, traveler. Welcome to\nthe port town of Granferia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、旅の方。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港町グランフェリアへようこそっ！"
+                                ""
                             ]
                         },
                         {
@@ -6844,14 +6844,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Yes! Nice to meet you!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うむ！　よろしくなのじゃ！！"
+                                ""
                             ]
                         },
                         {
@@ -6926,21 +6926,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hello, traveler. Welcome to\nthe port town of Granferia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、旅の方。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港町グランフェリアへようこそっ！"
+                                ""
                             ]
                         },
                         {
@@ -6957,21 +6957,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I just got lost, but... this is a\nnice port, isn't it!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　道に迷っただけだけど……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは良い港ねっ！"
+                                ""
                             ]
                         },
                         {
@@ -7046,21 +7046,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hello, traveler. Welcome to\nthe port town of Granferia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、旅の方。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港町グランフェリアへようこそっ！"
+                                ""
                             ]
                         },
                         {
@@ -7077,21 +7077,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Hehe, hello. I was greeted\nbefore too, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふふ、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　前も挨拶されたけどね。"
+                                ""
                             ]
                         },
                         {
@@ -7166,21 +7166,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hello, Captain. Welcome to\nthe port town of Granferia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、団長さん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港町グランフェリアへようこそっ！"
+                                ""
                             ]
                         },
                         {
@@ -7197,14 +7197,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Yes, thank you always."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はい、いつもありがとうございます。"
+                                ""
                             ]
                         },
                         {
@@ -7279,21 +7279,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Because of the war, tourists\naren't coming. Thanks to that, we can't\neven give them guidance..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦争で観光客が来ないんです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おかげで案内もできなくて……"
+                                ""
                             ]
                         },
                         {
@@ -7368,21 +7368,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Hello, traveler. Welcome to\nthe port town of Granferia!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、旅の方。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港町グランフェリアへようこそっ！"
+                                ""
                             ]
                         },
                         {
@@ -7466,21 +7466,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: In the Forest of Divine\nProtection, there are these creatures\ncalled Wolfen, which are wolf-like\nmonsters that live there..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神護の森にはウルフェンっていう、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オオカミの魔物が暮らしているんだけど……"
+                                ""
                             ]
                         },
                         {
@@ -7497,14 +7497,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems they are weak\nagainst magic."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔術に弱いらしいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -7586,21 +7586,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: In the Forest of Divine\nProtection, there are these magical\ncreatures called Wolfen that live\nthere, they're wolf-like monsters..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神護の森にはウルフェンっていう、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オオカミの魔物が暮らしているんだけど……"
+                                ""
                             ]
                         },
                         {
@@ -7617,14 +7617,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems they are weak to\nmagic."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔術に弱いらしいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -7641,38 +7641,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I see, I'll make sure to\nremember that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なるほど、覚えておこうっと。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　じゃあ、ボクからもアドバイス。"
+                                ""
                             ]
                         },
                         {
@@ -7689,21 +7665,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Well then, I'll give you some\nadvice too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリンは『防御崩し』の攻撃を"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　仕掛けてくることがあるんだ。"
+                                ""
                             ]
                         },
                         {
@@ -7720,14 +7689,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Goblins sometimes launch\nDefense Break attacks."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　防御の多様には注意しようね。"
+                                "Sachia: Let's be careful of the enemy's\nvarious defenses, okay?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7744,14 +7744,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Are you ready?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　りょうかーい！"
+                                ""
                             ]
                         },
                         {
@@ -7826,21 +7826,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: In the Forest of Divine\nProtection, there are these magical\ncreatures called Wolfen that live\nthere, they're wolf-like monsters..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神護の森にはウルフェンっていう、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オオカミの魔物が暮らしているんだけど……"
+                                ""
                             ]
                         },
                         {
@@ -7857,14 +7857,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems they are weak to\nmagic."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔術に弱いらしいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -7881,14 +7881,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: If I hit with all my strength, it\nwon't matter."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　全力で殴れば関係ないのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -7905,14 +7905,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル：　"
+                                "Zerachiel: You have a point."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一理ある。"
+                                ""
                             ]
                         },
                         {
@@ -7987,21 +7987,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: There are spider-like\nmonsters in the underground volcano, and\nthey seem to be formidable enemies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　地底火山の魔物に蜘蛛系の魔物がいるんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　強敵らしいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -8018,14 +8018,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: It seems like we should be\ncareful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気をつけたほうがよさそうね。"
+                                ""
                             ]
                         },
                         {
@@ -8100,14 +8100,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: You all came from a different\ncontinent, didn't you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなたたち、別の大陸から来たのでしょう？"
+                                ""
                             ]
                         },
                         {
@@ -8124,76 +8124,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Since we've never left this\nisland, we're curious about what's\nhappening out there."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この島から出たことがないから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうなっているのか気になるのよね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　国外へ行く機会って少ないもんね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　敷居も高いし。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　言葉が異なる国もあるわよ。"
+                                ""
                             ]
                         },
                         {
@@ -8210,45 +8155,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Opportunities to go abroad\nare rare. The threshold is also high."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ、そうなんだっ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　世界中の文献を漁っているとき、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　言葉が喋れなくて困ったわよ。"
+                                ""
                             ]
                         },
                         {
@@ -8265,21 +8186,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: There are countries with\ndifferent languages, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仕方ないから現地で覚えたわ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　二か月かかったわよ。"
+                                ""
                             ]
                         },
                         {
@@ -8296,14 +8210,100 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh, is that so!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それも凄いなっ！？"
+                                "Claudia: When I was searching through\nliterature from around the world, I had\ntrouble because I couldn't speak the\nlanguage."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Claudia: Well, I had no choice but to\nlearn it on the spot. It took me two\nmonths."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: That's amazing, isn't it!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8378,21 +8378,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I heard that Zerachiel was\nattacked! How scary..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヴァールが襲われたんですって！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　怖いわねぇ……"
+                                ""
                             ]
                         },
                         {
@@ -8467,21 +8467,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: They say the war is starting!\nI wonder what will happen..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦争がはじまるんですって！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうなるのかねぇ……"
+                                ""
                             ]
                         },
                         {
@@ -8556,21 +8556,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems like a girl defeated\nthe god. Is that true, I wonder?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神様を倒したのは少女らしいよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ホントかねぇ。"
+                                ""
                             ]
                         },
                         {
@@ -8587,14 +8587,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha... I think it's true."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは……ほんとだと思うよ。"
+                                ""
                             ]
                         },
                         {
@@ -8620,14 +8620,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Well, it's hard to believe, isn't\nit?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　まぁ、信じられないですよね。"
+                                ""
                             ]
                         },
                         {
@@ -8721,14 +8721,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Even though we came to the\nDemon Continent, we haven't seen any\ndemons, have we?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸へ来たのに、魔族を見かけないでしょう？"
+                                ""
                             ]
                         },
                         {
@@ -8745,21 +8745,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Since the demons are mostly\nnobles, maybe we can see them if we go\nto the Demon Capital, Vaal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族は貴族ばかりだから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへ行けば見れるかもね。"
+                                ""
                             ]
                         },
                         {
@@ -8841,14 +8841,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Even though we came to the\nDemon Continent, we haven't seen any\ndemons, have we?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸へ来たのに、魔族を見かけないでしょう？"
+                                ""
                             ]
                         },
                         {
@@ -8865,21 +8865,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Since the demons are mostly\nnobles, maybe we can see them if we go\nto the Demon Capital, Vaal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族は貴族ばかりだから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへ行けば見れるかもね。"
+                                ""
                             ]
                         },
                         {
@@ -8896,14 +8896,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Mel was definitely a demon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メルは完全に魔族だったね。"
+                                ""
                             ]
                         },
                         {
@@ -8920,21 +8920,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I think there's only Mel who is\na demon and an adventurer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族で冒険者をしているのって、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メルくらいしかいないんじゃないかな。"
+                                ""
                             ]
                         },
                         {
@@ -8951,14 +8951,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We hardly ever see any\ndemons, do we?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族、ほとんど見かけないもんね。"
+                                ""
                             ]
                         },
                         {
@@ -9033,14 +9033,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Even though we came to the\nDemon Continent, we haven't seen any\ndemons, have we?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸へ来たのに、魔族を見かけないでしょう？"
+                                ""
                             ]
                         },
                         {
@@ -9057,14 +9057,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I didn't pay much attention\nbecause I'm used to it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　見慣れておるから気にしておらんかった。"
+                                ""
                             ]
                         },
                         {
@@ -9081,14 +9081,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Mel, we're friends, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メル、友達だもんね。"
+                                ""
                             ]
                         },
                         {
@@ -9163,14 +9163,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Even though we came to the\nDemon Continent, we haven't seen any\ndemons, have we?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸へ来たのに、魔族を見かけないでしょう？"
+                                ""
                             ]
                         },
                         {
@@ -9187,21 +9187,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Since the demons are mostly\nnobles, maybe we can see them if we go\nto the Demon Capital, Vaal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族は貴族ばかりだから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへ行けば見れるかもね。"
+                                ""
                             ]
                         },
                         {
@@ -9218,21 +9218,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Angels and demons, they're like\nincompatible beings... that's the image,\nright?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使と魔族って、相容れない存在……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みたいなイメージあるわよね。"
+                                ""
                             ]
                         },
                         {
@@ -9249,14 +9249,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Actually, that's not true."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　実際はそんなことないけどね。"
+                                ""
                             ]
                         },
                         {
@@ -9331,14 +9331,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Even though we came to the\nDemon Continent, we haven't seen any\ndemons, have we?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸へ来たのに、魔族を見かけないでしょう？"
+                                ""
                             ]
                         },
                         {
@@ -9355,52 +9355,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Since the demons are mostly\nnobles, maybe we can see them if we go\nto the Demon Capital, Vaal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族は貴族ばかりだから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへ行けば見れるかもね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　私たちのギルドのマスターも、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔族だったりするのよ。"
+                                ""
                             ]
                         },
                         {
@@ -9417,21 +9386,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Even the master of our guild is\na demon, you know."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それと暮らしてる都市の騎士団長も、"
+                                "Claudia: And the captain of the city's\nknight order that I live with is also\nsupposed to be a demon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たしか魔族だったハズよ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9448,14 +9448,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Demons seem to be everywhere,\nsurprisingly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族って、意外とどこにでもいそうだね。"
+                                ""
                             ]
                         },
                         {
@@ -9472,21 +9472,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Yes, that's right. I have three\nacquaintances who are demons."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　知り合いだけで三人はいるわ。"
+                                ""
                             ]
                         },
                         {
@@ -9561,14 +9561,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I wonder what happened for\nangels to attack..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使が襲ってくるなんて、何があったのかしら……"
+                                ""
                             ]
                         },
                         {
@@ -9643,21 +9643,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: The Demon Lord has returned\nand war has broken out so soon... It has\nbecome a dangerous world, hasn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王様が帰ってきて早々に戦争……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　物騒な世の中になったわね。"
+                                ""
                             ]
                         },
                         {
@@ -9732,21 +9732,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that because of this\npeace, the number of tourists has\nincreased."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こうして平和になったからか、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　観光客も増えたわよ。"
+                                ""
                             ]
                         },
                         {
@@ -9839,14 +9839,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -9947,14 +9947,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -9971,14 +9971,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I wonder if I should buy\nsome."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いくつか買って行こうかな。"
+                                ""
                             ]
                         },
                         {
@@ -9995,14 +9995,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I'll buy some souvenirs too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクもお土産に買って行こうっと。"
+                                ""
                             ]
                         },
                         {
@@ -10096,14 +10096,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -10120,14 +10120,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I wonder if I should buy\nsome."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いくつか買って行こうかな。"
+                                ""
                             ]
                         },
                         {
@@ -10144,14 +10144,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I have already bought mine!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　わらわはすでに買ったのじゃ！"
+                                ""
                             ]
                         },
                         {
@@ -10245,14 +10245,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -10269,14 +10269,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I buy it for Aries?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　アリエスに買っていこうかな。"
+                                ""
                             ]
                         },
                         {
@@ -10293,14 +10293,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ララ："
+                                "Lala: I want one for myself too!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あたしも自分用に欲しいわねっ！"
+                                ""
                             ]
                         },
                         {
@@ -10394,14 +10394,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -10418,14 +10418,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I buy it for Aries?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　アリエスに買っていこうかな。"
+                                ""
                             ]
                         },
                         {
@@ -10442,14 +10442,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I wonder if I should buy\nsomething for everyone too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私もみんなに買って行こうかしら。"
+                                ""
                             ]
                         },
                         {
@@ -10543,14 +10543,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -10567,14 +10567,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アゼル："
+                                "Azel: This is an unauthorized stall, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ここ、非許可の露店ですよ。"
+                                ""
                             ]
                         },
                         {
@@ -10591,14 +10591,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Seriously..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　マジかー……"
+                                ""
                             ]
                         },
                         {
@@ -10692,21 +10692,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that a war will\nbegin in the sanctuary. The number of\ncustomers has decreased, hasn't it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　聖域で戦争がはじまるそうです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お客さんが減りましたねぇ……"
+                                ""
                             ]
                         },
                         {
@@ -10800,14 +10800,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems like the war has\nended safely. Thank goodness!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　戦争が無事に終わったみたいでよかったですよ～！"
+                                ""
                             ]
                         },
                         {
@@ -10824,14 +10824,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: So, please make sure to buy\nit!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そういうわけで、是非買っていってくださいー！"
+                                ""
                             ]
                         },
                         {
@@ -10925,14 +10925,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -11014,14 +11014,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -11038,14 +11038,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -11062,14 +11062,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Being cursed itself is rare, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛にかかること自体、稀だもんね。"
+                                ""
                             ]
                         },
                         {
@@ -11144,14 +11144,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -11168,14 +11168,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -11192,14 +11192,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: It would be easier if we were\nselling it, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってれば楽なのにのう。"
+                                ""
                             ]
                         },
                         {
@@ -11274,14 +11274,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -11298,14 +11298,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -11322,14 +11322,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: She wants some unusual medicine,\ndoesn't she?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　変わった薬を欲しがるわね。"
+                                ""
                             ]
                         },
                         {
@@ -11346,21 +11346,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Well, you see, it's necessary\nto help a friend."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ちょっとね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　友達を助けるのに必要なんだ。"
+                                ""
                             ]
                         },
                         {
@@ -11377,21 +11377,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Yes, that's right... I'm sorry, I\nwas careless..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そう、だったの……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ごめんなさい、軽率に……"
+                                ""
                             ]
                         },
                         {
@@ -11408,21 +11408,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: No, it's okay. Thank you for\napologizing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ううん、大丈夫だよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　謝ってくれてありがとう。"
+                                ""
                             ]
                         },
                         {
@@ -11497,14 +11497,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -11521,14 +11521,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -11545,21 +11545,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Unlike epidemics, curses are\ncomplex. It would be surprising if we\nwere selling them."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　流行り病と違って、呪術は複雑だもの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってたら驚きよ。"
+                                ""
                             ]
                         },
                         {
@@ -11634,14 +11634,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that Vaal has been\nattacked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヴァールが襲撃されたらしいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -11658,14 +11658,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: As expected, rumors spread\nquickly, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さすがに噂が広がるのは早いね。"
+                                ""
                             ]
                         },
                         {
@@ -11682,21 +11682,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Well, considering the scale of the\nattack, it can't be helped."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれだけの襲撃でしたからね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仕方ないでしょう。"
+                                ""
                             ]
                         },
                         {
@@ -11771,21 +11771,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents: There's a big commotion\nat the harbor due to the topic of the\nDemon Lord starting a war."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王様が戦争を仕掛けたという話題で、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港は大騒ぎですよ。"
+                                ""
                             ]
                         },
                         {
@@ -11860,14 +11860,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: The war is over, and the\ncustomers have returned."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦争が終わって、お客さんも戻ってきましたよ。"
+                                ""
                             ]
                         },
                         {
@@ -11951,14 +11951,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -12040,14 +12040,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -12064,14 +12064,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There was a tentacle monster\ngirl in the cult, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団に触手の魔物娘がいたなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -12088,14 +12088,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: ...I wonder if there are no\nmonster sons?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……魔物息子っていないのかな？"
+                                ""
                             ]
                         },
                         {
@@ -12112,14 +12112,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ？"
+                                ""
                             ]
                         },
                         {
@@ -12136,21 +12136,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I see a lot of monster girls\naround, but I rarely see any monster\nsons."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘はたくさん見かけるけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物息子は見かけないなーと思って。"
+                                ""
                             ]
                         },
                         {
@@ -12167,14 +12167,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Wasn't it supposed to be\nthere?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アレじゃなかったっけ。"
+                                ""
                             ]
                         },
                         {
@@ -12191,28 +12191,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Men are often attracted to\nbeautiful women regardless of who they\nare, but women prioritize other\nqualities, so there's no need for them\nto disguise themselves as humans, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　男性は美女ならだれでも良い人が多いけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　女性は他を重視するから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　人に擬態する必要がないんじゃない？"
+                                ""
                             ]
                         },
                         {
@@ -12229,14 +12229,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: It's a tough world, isn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　世知辛い理由だなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -12311,14 +12311,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -12335,21 +12335,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There was a goblin named\nOlderic who, for a monster, had\nsurprisingly high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オルデリックっていうゴブリンも、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物にしては知能が高かったよ。"
+                                ""
                             ]
                         },
                         {
@@ -12366,21 +12366,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: If a goblin has high intelligence,\nit seems that their mother is a human."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリンで知能が高い場合、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　母親は人族であるらしいぞい。"
+                                ""
                             ]
                         },
                         {
@@ -12397,21 +12397,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh, could it be that they\nwere forced by the goblins..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ、もしかして"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリンたちに無理やり……"
+                                ""
                             ]
                         },
                         {
@@ -12428,28 +12428,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: No, it seems that when a goblin\ngives birth through pure love, a goblin\nwith high intelligence is born."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いや、ゴブリンと純愛で子供を出産すると、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　知能の高いゴブリンが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　生まれてくるらしいのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -12466,14 +12466,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ...What's the reasoning\nbehind that?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……どういう理屈？"
+                                ""
                             ]
                         },
                         {
@@ -12490,14 +12490,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I have no idea."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さっぱりわからん。"
+                                ""
                             ]
                         },
                         {
@@ -12572,14 +12572,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -12596,21 +12596,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There was a goblin named\nOlderic who, for a monster, had\nsurprisingly high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オルデリックっていうゴブリンも、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物にしては知能が高かったよ。"
+                                ""
                             ]
                         },
                         {
@@ -12627,21 +12627,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I also saw a strange mushroom girl\nin the Forest of Star Divination."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あたしも星詠みの森で、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　変なキノコ娘を見かけたわ。"
+                                ""
                             ]
                         },
                         {
@@ -12716,14 +12716,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -12740,28 +12740,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Many monster girls can\ncommunicate, but because they have\ndifferent common sense from humans,\nthere are often conflicts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘の多くは対話ができるけれど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　やっぱり人族と常識が違うから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　揉めることが多いわね。"
+                                ""
                             ]
                         },
                         {
@@ -12778,21 +12778,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Indeed, I couldn't seem to\nget along with goblins or lamias."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たしかにゴブリンやラミアも、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仲良くなれそうになかったなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -12867,45 +12867,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents say that the god of\ndestruction who created the demon race\nwas accompanied by two divine beasts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族を生み出した破壊の神は、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　二匹の神獣を従えていたそうよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その一匹が、今も幻獣の山で封印されているらしいわね。"
+                                ""
                             ]
                         },
                         {
@@ -12922,14 +12898,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that one of them is\nstill sealed in the Mountain of Mythical\nBeasts."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　立ち入り禁止区域だから、真相は確かめられないけどね。"
+                                "Residents: It's a restricted area, so we\ncan't confirm the truth, though."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12946,21 +12946,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: There are always people trying to\nsell the frozen divine beasts..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　氷漬けの神獣を売り飛ばそうとする者も、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　後を絶たないんですよ……"
+                                ""
                             ]
                         },
                         {
@@ -12977,14 +12977,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: If something happens, it will\nbecome a serious matter..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何かあれば、大変なことになるのですが……"
+                                ""
                             ]
                         },
                         {
@@ -13001,14 +13001,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I wonder where the other divine\nbeast is?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう一匹の神獣はどこにいるのかしら？"
+                                ""
                             ]
                         },
                         {
@@ -13025,14 +13025,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Surprisingly, it might be nearby."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　案外、近くにいるかもしれませんよ。"
+                                ""
                             ]
                         },
                         {
@@ -13049,14 +13049,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Hehe, that would be\ninteresting."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふふ、そうだと面白いわね。"
+                                ""
                             ]
                         },
                         {
@@ -13131,14 +13131,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I wonder what will happen to\nthe Magic Continent from now on..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸はこれからどうなるのかしら……"
+                                ""
                             ]
                         },
                         {
@@ -13213,21 +13213,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We were worried for a while,\nbut we have finally regained our peace."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一時期不安でしたけれど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ようやく落ち着きを取り戻しましたね～。"
+                                ""
                             ]
                         },
                         {
@@ -13320,14 +13320,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -13428,14 +13428,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -13452,14 +13452,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I wonder if I should buy\nsome."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いくつか買って行こうかな。"
+                                ""
                             ]
                         },
                         {
@@ -13476,14 +13476,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I'll buy some souvenirs too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクもお土産に買って行こうっと。"
+                                ""
                             ]
                         },
                         {
@@ -13577,14 +13577,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -13601,14 +13601,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I wonder if I should buy\nsome."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いくつか買って行こうかな。"
+                                ""
                             ]
                         },
                         {
@@ -13625,14 +13625,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I have already bought mine!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　わらわはすでに買ったのじゃ！"
+                                ""
                             ]
                         },
                         {
@@ -13726,14 +13726,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -13750,14 +13750,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I buy it for Aries?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　アリエスに買っていこうかな。"
+                                ""
                             ]
                         },
                         {
@@ -13774,14 +13774,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ララ："
+                                "Lala: I want one for myself too!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あたしも自分用に欲しいわねっ！"
+                                ""
                             ]
                         },
                         {
@@ -13875,14 +13875,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -13899,14 +13899,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Should I buy it for Aries?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　アリエスに買っていこうかな。"
+                                ""
                             ]
                         },
                         {
@@ -13923,14 +13923,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I wonder if I should buy\nsomething for everyone too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私もみんなに買って行こうかしら。"
+                                ""
                             ]
                         },
                         {
@@ -14024,14 +14024,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: If you're looking for\nsouvenirs, please come and buy them\nhere!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お土産なら、是非こちらでお買い求めください！"
+                                ""
                             ]
                         },
                         {
@@ -14048,14 +14048,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "アゼル："
+                                "Azel: This is an unauthorized stall, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ここ、非許可の露店ですよ。"
+                                ""
                             ]
                         },
                         {
@@ -14072,14 +14072,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Seriously..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　マジかー……"
+                                ""
                             ]
                         },
                         {
@@ -14173,21 +14173,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that a war will\nbegin in the sanctuary. The number of\ncustomers has decreased, hasn't it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　聖域で戦争がはじまるそうです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お客さんが減りましたねぇ……"
+                                ""
                             ]
                         },
                         {
@@ -14281,14 +14281,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems like the war ended\nsafely. Thank goodness!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　戦争が無事に終わったみたいでよかったですよ～！"
+                                ""
                             ]
                         },
                         {
@@ -14305,14 +14305,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: So, please make sure to buy\nit!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そういうわけで、是非買っていってくださいー！"
+                                ""
                             ]
                         },
                         {
@@ -14406,14 +14406,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -14495,14 +14495,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -14519,14 +14519,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -14543,14 +14543,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Being cursed itself is rare, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛にかかること自体、稀だもんね。"
+                                ""
                             ]
                         },
                         {
@@ -14625,14 +14625,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -14649,14 +14649,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -14673,14 +14673,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: It would be easier if we were\nselling it, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってれば楽なのにのう。"
+                                ""
                             ]
                         },
                         {
@@ -14755,14 +14755,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -14779,14 +14779,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -14803,14 +14803,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: She wants some unusual medicine,\ndoesn't she?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　変わった薬を欲しがるわね。"
+                                ""
                             ]
                         },
                         {
@@ -14827,21 +14827,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Well, you see, it's necessary\nto help a friend."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ちょっとね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　友達を助けるのに必要なんだ。"
+                                ""
                             ]
                         },
                         {
@@ -14858,21 +14858,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Yes, that's right... I'm sorry, I\nwas careless..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そう、だったの……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ごめんなさい、軽率に……"
+                                ""
                             ]
                         },
                         {
@@ -14889,21 +14889,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: No, it's okay. Thank you for\napologizing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ううん、大丈夫だよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　謝ってくれてありがとう。"
+                                ""
                             ]
                         },
                         {
@@ -14978,14 +14978,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: A curse-breaking medicine? We\ndon't sell that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　呪詛を解く薬？　売ってないわね。"
+                                ""
                             ]
                         },
                         {
@@ -15002,14 +15002,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no way we're selling\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってるわけないかぁ。"
+                                ""
                             ]
                         },
                         {
@@ -15026,21 +15026,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Unlike epidemics, curses are\ncomplex. It would be surprising if we\nwere selling them."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　流行り病と違って、呪術は複雑だもの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　売ってたら驚きよ。"
+                                ""
                             ]
                         },
                         {
@@ -15115,14 +15115,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that Vaal has been\nattacked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヴァールが襲撃されたらしいですよ。"
+                                ""
                             ]
                         },
                         {
@@ -15139,14 +15139,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: As expected, rumors spread\nquickly, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さすがに噂が広がるのは早いね。"
+                                ""
                             ]
                         },
                         {
@@ -15163,21 +15163,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Well, considering the scale of the\nattack, it can't be helped."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれだけの襲撃でしたからね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仕方ないでしょう。"
+                                ""
                             ]
                         },
                         {
@@ -15252,21 +15252,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents: There's a big commotion\nat the port due to the topic of the\nDemon Lord starting a war."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王様が戦争を仕掛けたという話題で、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　港は大騒ぎですよ。"
+                                ""
                             ]
                         },
                         {
@@ -15341,14 +15341,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: The war is over, and the\ncustomers have returned."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦争が終わって、お客さんも戻ってきましたよ。"
+                                ""
                             ]
                         },
                         {
@@ -15432,14 +15432,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -15521,14 +15521,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -15545,14 +15545,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There was a tentacle monster\ngirl in the cult, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団に触手の魔物娘がいたなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -15569,14 +15569,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: ...I wonder if there are no\nmonster sons?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……魔物息子っていないのかな？"
+                                ""
                             ]
                         },
                         {
@@ -15593,14 +15593,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ？"
+                                ""
                             ]
                         },
                         {
@@ -15617,21 +15617,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I see a lot of monster girls\naround, but I rarely see any monster\nsons."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘はたくさん見かけるけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物息子は見かけないなーと思って。"
+                                ""
                             ]
                         },
                         {
@@ -15648,14 +15648,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Wasn't it supposed to be\nthere?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アレじゃなかったっけ。"
+                                ""
                             ]
                         },
                         {
@@ -15672,28 +15672,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Men are often attracted to\nbeautiful women regardless of who they\nare, but women prioritize other\nqualities, so there's no need for them\nto disguise themselves as humans, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　男性は美女ならだれでも良い人が多いけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　女性は他を重視するから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　人に擬態する必要がないんじゃない？"
+                                ""
                             ]
                         },
                         {
@@ -15710,14 +15710,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: It's a tough world, isn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　世知辛い理由だなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -15792,14 +15792,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -15816,21 +15816,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There was a goblin named\nOlderic who had surprisingly high\nintelligence for a monster."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オルデリックっていうゴブリンも、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物にしては知能が高かったよ。"
+                                ""
                             ]
                         },
                         {
@@ -15847,21 +15847,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: If a goblin has high intelligence,\nit seems that their mother is a human."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリンで知能が高い場合、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　母親は人族であるらしいぞい。"
+                                ""
                             ]
                         },
                         {
@@ -15878,21 +15878,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh, could it be that they\nwere forcefully..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ、もしかして"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリンたちに無理やり……"
+                                ""
                             ]
                         },
                         {
@@ -15909,28 +15909,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: No, it seems that when a goblin\ngives birth through pure love, a goblin\nwith high intelligence is born."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いや、ゴブリンと純愛で子供を出産すると、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　知能の高いゴブリンが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　生まれてくるらしいのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -15947,14 +15947,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ...What's the reasoning\nbehind that?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……どういう理屈？"
+                                ""
                             ]
                         },
                         {
@@ -15971,14 +15971,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I have no idea."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さっぱりわからん。"
+                                ""
                             ]
                         },
                         {
@@ -16053,14 +16053,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -16077,21 +16077,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There was a goblin named\nOlderic who, for a monster, had\nsurprisingly high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オルデリックっていうゴブリンも、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物にしては知能が高かったよ。"
+                                ""
                             ]
                         },
                         {
@@ -16108,21 +16108,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I also saw a strange mushroom girl\nin the Forest of Star Divination."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あたしも星詠みの森で、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　変なキノコ娘を見かけたわ。"
+                                ""
                             ]
                         },
                         {
@@ -16197,14 +16197,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Among the monsters, there are\nindividuals with high intelligence."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物の中には高い知能を持つ個体もいるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -16221,28 +16221,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Many monster girls can\ncommunicate, but because they have\ndifferent common sense from humans,\nthere are often conflicts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔物娘の多くは対話ができるけれど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　やっぱり人族と常識が違うから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　揉めることが多いわね。"
+                                ""
                             ]
                         },
                         {
@@ -16259,21 +16259,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Indeed, I couldn't seem to\nget along with goblins or lamias."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たしかにゴブリンやラミアも、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仲良くなれそうになかったなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -16348,45 +16348,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents say that the god of\ndestruction who created the demon race\nwas accompanied by two divine beasts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔族を生み出した破壊の神は、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　二匹の神獣を従えていたそうよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その一匹が、今も幻獣の山で封印されているらしいわね。"
+                                ""
                             ]
                         },
                         {
@@ -16403,14 +16379,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that one of them is\nstill sealed in the Mountain of Mythical\nBeasts."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　立ち入り禁止区域だから、真相は確かめられないけどね。"
+                                "Residents: It's a restricted area, so we\ncan't confirm the truth, though."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16427,21 +16427,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: There are always people trying to\nsell the frozen divine beasts..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　氷漬けの神獣を売り飛ばそうとする者も、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　後を絶たないんですよ……"
+                                ""
                             ]
                         },
                         {
@@ -16458,14 +16458,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: If something happens, it will\nbecome a serious matter..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何かあれば、大変なことになるのですが……"
+                                ""
                             ]
                         },
                         {
@@ -16482,14 +16482,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I wonder where the other divine\nbeast is?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう一匹の神獣はどこにいるのかしら？"
+                                ""
                             ]
                         },
                         {
@@ -16506,14 +16506,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: Surprisingly, it might be nearby."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　案外、近くにいるかもしれませんよ。"
+                                ""
                             ]
                         },
                         {
@@ -16530,14 +16530,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Hehe, that would be\ninteresting."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふふ、そうだと面白いわね。"
+                                ""
                             ]
                         },
                         {
@@ -16612,14 +16612,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I wonder what will happen to\nthe Magic Continent from now on..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸はこれからどうなるのかしら……"
+                                ""
                             ]
                         },
                         {
@@ -16694,21 +16694,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We were worried for a while,\nbut we have finally regained our peace."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一時期不安でしたけれど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ようやく落ち着きを取り戻しましたね～。"
+                                ""
                             ]
                         },
                         {

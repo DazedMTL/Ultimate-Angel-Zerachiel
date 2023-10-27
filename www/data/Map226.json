@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "夢幻の大樹　城壁",
+    "displayName": "Fantasy Tree Rampart",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -5828,14 +5828,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Shall we escape?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　脱出するか？"
+                                ""
                             ]
                         },
                         {
@@ -5843,8 +5843,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "脱出する",
-                                    "まだ頑張る"
+                                    "Escape",
+                                    "Keep going"
                                 ],
                                 1,
                                 0,
@@ -5967,14 +5967,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Shall we escape?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　脱出するか？"
+                                ""
                             ]
                         },
                         {
@@ -5982,9 +5982,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "脱出する",
-                                    "最上層へ移動する",
-                                    "まだ頑張る"
+                                    "Escape",
+                                    "Move to the top floor",
+                                    "Keep going"
                                 ],
                                 1,
                                 0,
@@ -6141,14 +6141,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: This is the Tree of\nFantasia..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここが夢幻の大樹……"
+                                ""
                             ]
                         },
                         {
@@ -6165,45 +6165,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: It doesn't really look like a\nbig tree, does it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんだか大樹っぽくないね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　強力な元素によって、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　内部空間の次元がねじれているのよ。"
+                                ""
                             ]
                         },
                         {
@@ -6220,14 +6189,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: The dimensions of the internal\nspace are twisted by powerful elements."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　外へ落ちたら戻って来れないわよ。"
+                                "Claudia: If you fall outside, you won't\nbe able to come back."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6244,21 +6244,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Uooo... This is a terrifying\nplace..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うおおおおお……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　恐ろしい場所じゃのう……"
+                                ""
                             ]
                         },
                         {
@@ -6275,21 +6275,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Somewhere in this big tree, Lord\nErn is here...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この大樹のどこかに、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エルン様がいるのね……！！"
+                                ""
                             ]
                         },
                         {
@@ -6306,21 +6306,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I heard from Mel that the\nTree of Fantasia is a trial."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メルから聞いたけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『夢幻の大樹』は試練なんだって。"
+                                ""
                             ]
                         },
                         {
@@ -6337,14 +6337,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Those lacking power shall\nonly know death."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『力足りぬ者は死あるのみ』"
+                                ""
                             ]
                         },
                         {
@@ -6361,14 +6361,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's proceed with caution."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気をつけて進んでいこう。"
+                                ""
                             ]
                         },
                         {

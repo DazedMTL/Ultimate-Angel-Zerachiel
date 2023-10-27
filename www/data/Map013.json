@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private Residence",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4494,21 +4494,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Lately, there have been\nnoises coming from the attic. I wonder\nif it's mice?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最近、屋根裏で物音がするのよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ネズミかしら？"
+                                ""
                             ]
                         },
                         {
@@ -4525,14 +4525,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: If someone could get rid of\nthem, I would be grateful and give you a\nreward..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　誰か退治してくれたら、お礼をするんだけど……"
+                                ""
                             ]
                         },
                         {
@@ -4628,21 +4628,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: The noise from the attic has\nstopped. Thank you, miss."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　屋根裏の物音が消えたの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃん、ありがとうね。"
+                                ""
                             ]
                         },
                         {
@@ -4819,21 +4819,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: The noise from the attic has\nstopped. Thank you, miss."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　屋根裏の物音が消えたの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃん、ありがとうね。"
+                                ""
                             ]
                         },
                         {
@@ -4908,21 +4908,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Our house was safe, but it's\nnot a situation where we can simply be\nhappy..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　我が家は無事だったけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　素直に喜べる状況じゃないわ…"
+                                ""
                             ]
                         },
                         {
@@ -5004,21 +5004,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Moving is such a hassle... I\nwonder how it ended up like this..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　引っ越しも大変だわ…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうしてこうなったのかしら…"
+                                ""
                             ]
                         },
                         {
@@ -5100,21 +5100,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Kyaaaaaaa! Please leave!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　きゃああああああああ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　出て行ってください！！"
+                                ""
                             ]
                         },
                         {

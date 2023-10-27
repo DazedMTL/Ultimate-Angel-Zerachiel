@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "魔鉱山　Ｃ層",
+    "displayName": "Magic Ore Mine C Layer",
     "encounterList": [],
     "encounterStep": 30,
     "height": 70,
@@ -28143,14 +28143,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's a hole..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　穴が開いてる……"
+                                ""
                             ]
                         },
                         {
@@ -28176,21 +28176,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ララ："
+                                "Lala: I wonder why? It sends shivers\ndown my spine."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　なぜかしら？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　背筋がぞっとするわ。"
+                                ""
                             ]
                         },
                         {

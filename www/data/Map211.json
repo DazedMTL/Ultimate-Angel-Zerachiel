@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "アトリエ・ロージェ",
+    "displayName": "Atelier Roje",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4450,14 +4450,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アイテム屋："
+                                "Item Shop Owner: It seems like something\nterrible has happened..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　大変なことになってしまいましたね…"
+                                ""
                             ]
                         },
                         {
@@ -4742,14 +4742,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔術師の少女："
+                                "The Magician Girl: Suddenly, an angel\nattacked and the town was set on fire..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使が突然襲ってきて、街が燃やされたの……"
+                                ""
                             ]
                         },
                         {
@@ -4840,14 +4840,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: Ugh, I'm scared..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うぅ、怖いよう……"
+                                ""
                             ]
                         },
                         {
@@ -4952,14 +4952,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: I will give you\ntreatment."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　治療をしてあげるわ。"
+                                ""
                             ]
                         },
                         {
@@ -5044,14 +5044,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: Everyone, do your\nbest."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんな、がんばってね。"
+                                ""
                             ]
                         },
                         {
@@ -5262,21 +5262,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "聖職者："
+                                "Cleric: Why are the angels... Did we\ncommit some kind of sin..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうして天使が…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　我々が何か罪を犯したのでしょうか…"
+                                ""
                             ]
                         },
                         {

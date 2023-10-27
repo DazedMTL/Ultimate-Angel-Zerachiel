@@ -5793,14 +5793,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah! I found some ore!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あっ！　鉱石を見つけたよ！！"
+                                ""
                             ]
                         },
                         {
@@ -5817,14 +5817,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: That looks like \\c[6]Adamantite\nOre\\c[0]."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アレが\\c[6]アダマス鉱石\\c[0]のようじゃな。"
+                                ""
                             ]
                         },
                         {
@@ -5841,14 +5841,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's bring it back right\naway."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さっそく持って帰ろうよ。"
+                                ""
                             ]
                         },
                         {
@@ -5865,14 +5865,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "？？？："
+                                "???: Oh~! It's not going to be that\neasy~??"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お～っと！　そうはいかないよ～？？"
+                                ""
                             ]
                         },
                         {
@@ -5946,14 +5946,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "？？？："
+                                "???: Hello, Helma-chan, I've arrived!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヘルマちゃん、参上っ！！"
+                                ""
                             ]
                         },
                         {
@@ -5970,14 +5970,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's a Lamia..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ラミアだ……"
+                                ""
                             ]
                         },
                         {
@@ -5994,45 +5994,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Mmm, I'm not good with snakes..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　むぅ、ヘビは苦手なのじゃ……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Enemy",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ヘルマ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ここの鉱石はぜーんぶっ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ヘルマちゃんのものだからさぁっ！"
+                                ""
                             ]
                         },
                         {
@@ -6049,14 +6018,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヘルマ："
+                                "Helma: All of the ores here are mine,\nyou know! Because they belong to Helma-\nchan!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Enemy",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　悪いけど諦めてくれないかなぁ？"
+                                "Helma: Can't you just give up already?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6073,14 +6073,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Could you please give me a\nlittle bit..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　少しでいいから分けてもらえないかなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -6097,28 +6097,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヘルマ："
+                                "Helma: No way~♪ Even though I found it\nwith so much effort, there's no way I'm\ngiving it to you~♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　だぁめっ♪"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　せっかく見つけたのに、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あげるわけないぢゃんっ♪"
+                                ""
                             ]
                         },
                         {
@@ -6142,14 +6142,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヘルマ："
+                                "Helma: If you really insist... you\nunderstand, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうしてもって言うなら……わかるよね？"
+                                ""
                             ]
                         },
                         {
@@ -6166,14 +6166,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へっ？"
+                                ""
                             ]
                         },
                         {
@@ -6209,21 +6209,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヘルマ："
+                                "Helma: Take it by force from Helma-chan,\nI dare you!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ヘルマちゃんから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　力尽くで奪ってごらんよぉっ！！"
+                                ""
                             ]
                         },
                         {

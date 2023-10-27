@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "星詠みの森　深層",
+    "displayName": "Forest of Star Singing - Deep Layer",
     "encounterList": [],
     "encounterStep": 30,
     "height": 42,
@@ -11909,14 +11909,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Phew, that feels refreshing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふぅ、さっぱりしたね。"
+                                ""
                             ]
                         },
                         {
@@ -11933,21 +11933,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: My energy has recovered, so\nlet's explore deeper."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　体力も回復したし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もっと奥を探索してみましょう。"
+                                ""
                             ]
                         },
                         {
@@ -12679,14 +12679,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: By the way, do you want me to buy\nsomething for you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ついでに何か買っていく？"
+                                ""
                             ]
                         },
                         {
@@ -12710,21 +12710,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: If you want to recover, it's good\nto drink the water from that lake over\nthere."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復するなら、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そこの湖の水を飲むといいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -12929,21 +12929,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I won't receive resin gems\nfrom Shemini again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう一度、シェミニから"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　樹脂宝石を貰わないと。"
+                                ""
                             ]
                         },
                         {

@@ -4249,21 +4249,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We need to find Aries. I\nthink she might be indoors."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アリエスを探さないと。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　多分、屋内にいると思うんだけど。"
+                                ""
                             ]
                         },
                         {
@@ -4474,14 +4474,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: ........................"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……………………"
+                                ""
                             ]
                         },
                         {
@@ -4571,14 +4571,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Ah, uhh...."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ぁ、う…………"
+                                ""
                             ]
                         },
                         {
@@ -4728,14 +4728,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Lady Effy, have you awakened?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様、目を覚ましましたの！？"
+                                ""
                             ]
                         },
                         {
@@ -4752,21 +4752,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: This... to... Zerachiel-sama..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これ……を……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル、様に……"
+                                ""
                             ]
                         },
                         {
@@ -4783,14 +4783,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Is this... a ring?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これは……指輪？"
+                                ""
                             ]
                         },
                         {
@@ -4968,14 +4968,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: The town is under attack...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街が攻撃を受けておりますの……！？"
+                                ""
                             ]
                         },
                         {
@@ -5023,14 +5023,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: Lady Effy, let's run away!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様、逃げますわよっ！！"
+                                ""
                             ]
                         },
                         {
@@ -5047,14 +5047,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: ...Lady Effy?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……エフィー様？"
+                                ""
                             ]
                         },
                         {

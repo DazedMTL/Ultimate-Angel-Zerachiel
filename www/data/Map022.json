@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private House",
     "encounterList": [],
     "encounterStep": 30,
     "height": 14,
@@ -2605,21 +2605,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Resident: W-Wait! Don't just come into\nsomeone's house without permission!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ちょ、ちょっと！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　人の家に勝手に入って来ないでよ！！"
+                                ""
                             ]
                         },
                         {
@@ -2818,21 +2818,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: W-Wait! Don't come in dressed\nlike that!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ちょ、ちょっと！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そんな恰好で入って来ないでよ！！"
+                                ""
                             ]
                         },
                         {

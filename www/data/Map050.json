@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private House",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4508,14 +4508,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ネズミ："
+                                "Mouse: Squeak? Squeeeeeeeak..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　チュウっ？　チュウウウウ……"
+                                ""
                             ]
                         },
                         {
@@ -4532,14 +4532,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Looking at me with those\nround eyes..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　つぶらな瞳でボクを見てる……"
+                                ""
                             ]
                         },
                         {
@@ -4564,21 +4564,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Mr. Mouse, would you consider\nmoving to another house if I give you\nsome cheese?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ネズミさん、チーズをあげるから"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　他の家に引っ越してくれないかな？"
+                                ""
                             ]
                         },
                         {
@@ -4595,14 +4595,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ネズミ："
+                                "Mouse: *Squeak*♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　チュウっ♪"
+                                ""
                             ]
                         },
                         {
@@ -4872,21 +4872,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like you've moved.\nLet's go report to the lady on the first\nfloor."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　引っ越してくれたみたいだね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　一階の奥さんに報告しよう。"
+                                ""
                             ]
                         },
                         {
@@ -4940,21 +4940,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's a pity to take a life,\nso I wonder if there's another way to\ndrive them away?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　命を奪うのも可哀想だし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　他に追い払う方法はないかな？"
+                                ""
                             ]
                         },
                         {
@@ -4971,14 +4971,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: For example... giving them\nfood?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　例えば……食べ物をあげるとか？"
+                                ""
                             ]
                         },
                         {

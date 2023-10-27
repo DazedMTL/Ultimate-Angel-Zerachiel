@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private House",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4408,45 +4408,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Lately, the behavior of my\nwife and daughter has been strange."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最近、妻と娘の様子がおかしいんだ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ずっと仕事に熱中していたから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　愛想を尽かされたのかもしれない……"
+                                ""
                             ]
                         },
                         {
@@ -4463,21 +4432,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Maybe they got tired of me\nbecause I've been so absorbed in my\nwork..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうにか仲を改善するために、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　プレゼントを贈りたいんだ。"
+                                ""
                             ]
                         },
                         {
@@ -4494,14 +4463,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I want to give them a present\nin order to improve our relationship\nsomehow."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　そこで何か喜びそうなものを買ってきてくれないかな？"
+                                "Residents: Could you buy something that\nthey would be happy with?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4518,14 +4518,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (It looks like you're in\ntrouble, Uncle.)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（おじさん、困ってるみたいだね）"
+                                ""
                             ]
                         },
                         {
@@ -4533,8 +4533,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "任せてよ",
-                                    "立ち去る"
+                                    "Leave it to me",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -4564,38 +4564,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Alright, I'll go look for\nsomething."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いいよ、何か探してくるね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　うん、よろしく頼むよ。"
+                                ""
                             ]
                         },
                         {
@@ -4612,14 +4588,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Residents: Yeah, I'm counting on you."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　代金はボクにツケてくれたら充分だから。"
+                                "Residents: If you let me put it on my\ntab, that would be enough."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4636,14 +4636,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (They would be happier with\nsomething rare, right?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　（珍しい物のほうが喜んでくれるよね）"
+                                ""
                             ]
                         },
                         {
@@ -4660,21 +4660,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (I wonder if there's someone\naround here who sells things that aren't\navailable in this town?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　（この街で売ってないものを扱ってる人、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　　どこかにいないかな？）"
+                                ""
                             ]
                         },
                         {
@@ -4822,14 +4822,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We're counting on you for the\npresents."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　プレゼント、よろしく頼んだよ。"
+                                ""
                             ]
                         },
                         {
@@ -4925,38 +4925,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Uncle, I bought it!♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おじさん、買ってきたよっ♪"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ザラキエルちゃん、ありがとうっ！"
+                                ""
                             ]
                         },
                         {
@@ -4973,14 +4949,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Thank you, Zerachiel-chan!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　これで仲直りできるように頑張るよ。"
+                                "Residents: We'll do our best to\nreconcile with each other."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4997,14 +4997,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Uncle, I'm cheering for you♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おじさん、ボクが応援してるよ♪"
+                                ""
                             ]
                         },
                         {
@@ -5226,14 +5226,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: Zerachiel-chan, I'm glad\nyou're safe."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　ザラキエルちゃん、無事でよかったよ。"
+                                ""
                             ]
                         },
                         {
@@ -5250,45 +5250,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm glad you're doing well\ntoo, Uncle."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　おじさんも元気でよかったよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　襲ってきた天使はキミに似てたけど、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　キミは他の誰とも違う感じがするよ。"
+                                ""
                             ]
                         },
                         {
@@ -5305,38 +5274,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: The angel that attacked looked\nlike you, but you feel different from\nanyone else."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　辛いかもしれない。"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　苦しいかもしれない。"
+                                ""
                             ]
                         },
                         {
@@ -5353,21 +5305,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: It might be tough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　それでも、しっかりご飯を食べて、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　毎日を生きるんだよ。"
+                                ""
                             ]
                         },
                         {
@@ -5384,14 +5329,69 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: It might be tough."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "　辛かったらおじさんが相談に乗るからさ。"
+                                "Resident: Even so, make sure to eat\nproperly and live each day."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "Resident: If it's tough, Uncle will be\nhere to listen to your concerns."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5408,14 +5408,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Uncle..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　おじさん……"
+                                ""
                             ]
                         },
                         {
@@ -5432,14 +5432,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: Hang in there, Zerachiel-chan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　がんばりなよ、ザラキエルちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -5482,14 +5482,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: Hello, Zerachiel-chan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　こんにちわ、ザラキエルちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -5526,45 +5526,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
+                                "Resident: In the end, my wife and\nchildren left me. Now I live alone."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　結局、妻と子供に出ていかれちゃってね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　今は一人暮らしさ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ありゃ、ダメだったんだ……"
+                                ""
                             ]
                         },
                         {
@@ -5581,14 +5557,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh no, it didn't work..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　（おじさん、なんだか可哀想だなぁ……）"
+                                "Zerachiel: (Uncle, you seem so\npitiful...)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5605,14 +5605,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (I wonder if there's anything\nI can do?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　（ボクに出来ることはないかな？）"
+                                ""
                             ]
                         },
                         {
@@ -5630,8 +5630,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\I[583]慰めてあげる",
-                                    "立ち去る"
+                                    "I'll comfort you",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5697,21 +5697,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 4,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -5719,8 +5719,8 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -5757,14 +5757,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "住民："
+                                "Resident: It was a good day today too.\nSee you again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -5836,14 +5836,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "住民："
+                                "Resident: It was a good day today too.\nSee you again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -5944,21 +5944,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 3,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -5966,8 +5966,8 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6004,14 +6004,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "住民："
+                                "Resident: It was a good day today too.\nSee you again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -6069,14 +6069,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "住民："
+                                "Resident: It was a good day today too.\nSee you again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -6158,21 +6158,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: It felt good, thank you. Here,\nas a token of my gratitude."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　気持ちよかったよ、ありがとう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　はい、お礼だよ。"
+                                ""
                             ]
                         },
                         {
@@ -6210,62 +6210,62 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: So few!?"
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　すくなっ！？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　妻へのプレゼントが高かったから、金欠でね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "　\\I[862]50 経験値を手に入れた！"
+                                "Resident: I'm broke because the gift for\nmy wife was expensive..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\I[862] Obtained 50 experience points!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6282,21 +6282,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: W-Well, since you've\nrecovered your energy, I guess it's\nfine!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　ま、まぁ元気になってくれたから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　良しとしよっかっ！"
+                                ""
                             ]
                         },
                         {
@@ -6313,14 +6313,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Resident: This is a secret between the\ntwo of us."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　今回のことは二人だけの秘密だよ。"
+                                ""
                             ]
                         },
                         {
@@ -6337,21 +6337,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I understand. I'll do my best\nto stay healthy too, Uncle."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　分かってるよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　おじさんも元気でやるんだよ。"
+                                ""
                             ]
                         },
                         {
@@ -6489,14 +6489,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Welcome, Zerachiel-chan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、ザラキエルちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -6504,8 +6504,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\I[583]誘ってみる",
-                                    "立ち去る"
+                                    "\\I[583]I'll invite her",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -6571,21 +6571,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 4,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -6593,8 +6593,8 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6631,14 +6631,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "住民："
+                                "Residents: It was a pleasant day today.\nThank you for your continued support."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -6710,14 +6710,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "住民："
+                                "Residents: It was a pleasant day today.\nThank you for your continued support."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -6818,21 +6818,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 3,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -6840,8 +6840,8 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6878,14 +6878,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "住民："
+                                "Residents: It was a pleasant day today.\nThank you for your continued support."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -6943,14 +6943,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "住民："
+                                "Residents: It was a pleasant day today.\nThank you for your continued support."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　今日も気持ち良かったよ、またよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -7032,21 +7032,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Residents: It felt good, thank you.\nHere's a thank you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　気持ちよかったよ、ありがとう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　はい、お礼だよ。"
+                                ""
                             ]
                         },
                         {
@@ -7084,14 +7084,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                ""
+                                "Obtained 300 Rill!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　\\I[591]300 Rill を手に入れた！"
+                                ""
                             ]
                         },
                         {
@@ -7108,62 +7108,62 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: So few!?"
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　すくなっ！？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　妻へのプレゼントが高かったから、金欠でね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "　\\I[862]50 経験値を手に入れた！"
+                                "Residents: I'm broke because the gift\nfor my wife was expensive..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "Obtained 50 experience points!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7180,21 +7180,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: W-Well, since you've\nrecovered your energy, I guess it's\nfine!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　ま、まぁ元気になってくれたから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　良しとしよっかっ！"
+                                ""
                             ]
                         },
                         {
@@ -7211,14 +7211,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Residents: This is a secret between the\ntwo of us."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　今回のことは二人だけの秘密だよ。"
+                                ""
                             ]
                         },
                         {
@@ -7235,21 +7235,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I understand. I'll do my best\nto stay healthy too, Uncle."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　分かってるよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　おじさんも元気でやるんだよ。"
+                                ""
                             ]
                         },
                         {
@@ -7387,14 +7387,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Zerachiel-chan, are you going to leave the town soon?\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルちゃん、そろそろ街を出ていくんだろう？"
+                                ""
                             ]
                         },
                         {
@@ -7411,14 +7411,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It's going to be lonely..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　寂しくなるなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -7435,14 +7435,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ahaha, I'll come back when\nthings have settled down."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、落ち着いたらまた寄るよ。"
+                                ""
                             ]
                         },
                         {
@@ -7459,14 +7459,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Uncle, you have to live your\nlife properly too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おじさんもしっかり生きるんだよ。"
+                                ""
                             ]
                         },
                         {
@@ -7483,14 +7483,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Yes, we're looking forward to\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、楽しみにしているよ。"
+                                ""
                             ]
                         },
                         {
@@ -7507,14 +7507,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (What should I do at the\nend?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（最後にどうしようかなぁ）"
+                                ""
                             ]
                         },
                         {
@@ -7522,8 +7522,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\I[583]誘ってみる",
-                                    "立ち去る"
+                                    "\\I[583] I'll invite her",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -7589,21 +7589,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 4,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -7611,8 +7611,8 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -7649,21 +7649,21 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "住民："
+                                "Residents: Thank you for the memories.\nZerachiel-chan, take care."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　最後に思い出をありがとう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　ザラキエルちゃん、いってらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -7735,21 +7735,21 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "住民："
+                                "Residents: Thank you for the memories.\nZerachiel-chan, take care."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　最後に思い出をありがとう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "　ザラキエルちゃん、いってらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -7850,21 +7850,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
+                                "This is an event that has already\noccurred. Would you like to skip it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "　すでに発生したイベントです。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 3,
-                            "parameters": [
-                                "　スキップしますか？"
+                                ""
                             ]
                         },
                         {
@@ -7872,8 +7872,8 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -7910,21 +7910,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "住民："
+                                "Residents: Thank you for the memories.\nZerachiel-chan, take care."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　最後に思い出をありがとう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　ザラキエルちゃん、いってらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -7982,21 +7982,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "住民："
+                                "Residents: Thank you for the memories.\nZerachiel-chan, take care."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　最後に思い出をありがとう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "　ザラキエルちゃん、いってらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -8078,21 +8078,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Residents: It felt good, thank you.\nHere's our gratitude."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　気持ちよかったよ、ありがとう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　はい、お礼だよ。"
+                                ""
                             ]
                         },
                         {
@@ -8130,14 +8130,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                ""
+                                "Obtained 300 Rill!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　\\I[591]300 Rill を手に入れた！"
+                                ""
                             ]
                         },
                         {
@@ -8154,62 +8154,62 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: So little!?"
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　すくなっ！？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　妻へのプレゼントが高かったから、金欠でね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "　\\I[862]50 経験値を手に入れた！"
+                                "Residents: I'm broke because the gift\nfor my wife was expensive..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "Obtained 50 experience points!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8226,21 +8226,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: W-Well, since you've\nrecovered, I guess it's fine!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　ま、まぁ元気になってくれたから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　良しとしよっかっ！"
+                                ""
                             ]
                         },
                         {
@@ -8257,14 +8257,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "住民："
+                                "Residents: This is a secret between the\ntwo of us."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　今回のことは二人だけの秘密だよ。"
+                                ""
                             ]
                         },
                         {
@@ -8281,21 +8281,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I understand. I'll do my best\nto stay healthy too, Uncle."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　分かってるよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　おじさんも元気でやるんだよ。"
+                                ""
                             ]
                         },
                         {
@@ -8419,14 +8419,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I think it's not good to walk\naround completely naked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いくらなんでも全裸で歩くのはまずいと思うよ。"
+                                ""
                             ]
                         },
                         {
@@ -8510,21 +8510,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Villager: I don't get along with my\nhusband, so I want to break up with him\nquickly..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　亭主とはウマが合わなくて、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　さっさと別れたいんですよねぇ……"
+                                ""
                             ]
                         },
                         {
@@ -8710,21 +8710,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "子供："
+                                "Child: Mama, recently I've been meeting\na young man! He's a kind person who\ngives me sweets!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ママ、最近若い男の人と会ってるのっ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お菓子をくれる優しい人だよ！"
+                                ""
                             ]
                         },
                         {
@@ -9243,21 +9243,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's filled with memories of\nmy wife... I'll leave it alone..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥さんとの思い出がつまっている……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そっとしておこう……"
+                                ""
                             ]
                         },
                         {

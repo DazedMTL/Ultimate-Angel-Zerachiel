@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "魔鉱洞",
+    "displayName": "Demon Ore Cave",
     "encounterList": [],
     "encounterStep": 30,
     "height": 40,
@@ -15841,21 +15841,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Welcome. Is there anything you\nneed?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　必要なものはあるかしら？"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "エリュシオン",
+    "displayName": "Elysion",
     "encounterList": [],
     "encounterStep": 30,
     "height": 114,
@@ -69542,21 +69542,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Eden should be waiting beyond\nthis. I wonder if I'm prepared?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この奥でエデンが待っているはず……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　準備は大丈夫かな？"
+                                ""
                             ]
                         },
                         {
@@ -69564,8 +69564,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "先へ進む",
-                                    "引き返す"
+                                    "Proceed forward",
+                                    "Go back"
                                 ],
                                 1,
                                 0,
@@ -71319,38 +71319,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Effy...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　エフィー……！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "エフィー："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ザラキエル、さん……？"
+                                ""
                             ]
                         },
                         {
@@ -71367,14 +71343,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Zerachiel-san...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　どうして、ここに……"
+                                "Effy: Why are you here...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -71391,45 +71391,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We'll talk later! Right now,\nI'll help you!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　話は後だよ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　今、助けてあげるからっ！！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                5,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "？？？："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　それは困りますね……"
+                                ""
                             ]
                         },
                         {
@@ -71446,21 +71422,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "？？？："
+                                "????: That's troublesome..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                5,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　第七呪詛を苦労して手に入れたのです。"
+                                "????: I went through a lot of trouble to\nobtain the Seventh Curse. I would\nappreciate it if you didn't take it\nwithout permission..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　勝手に持ち出さないで頂きたいのですが……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -71582,21 +71582,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Zerachiel: Welcome to the farthest\nreaches of the world, the land of all\nbeginnings."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ようこそ、世界の最果てにして、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　すべての《始まりの地》へ。"
+                                ""
                             ]
                         },
                         {
@@ -71613,14 +71613,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Star God Eden..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　星神エデン……"
+                                ""
                             ]
                         },
                         {
@@ -71637,21 +71637,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I never thought you would\nshow yourself so boldly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　まさか堂々と姿を見せてくれるなんて、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　思ってもいなかったよ。"
+                                ""
                             ]
                         },
                         {
@@ -71718,14 +71718,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: You have traveled a long\nway to reach here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　遠路はるばる御足労頂いたのです。"
+                                ""
                             ]
                         },
                         {
@@ -71742,14 +71742,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: It would be rude not to\nshow my face."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　顔を見せなくては失礼というものでしょう。"
+                                ""
                             ]
                         },
                         {
@@ -71766,21 +71766,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no need to talk with\nyou, who deceived me, at this point."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　今さら、ボクを騙していた"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お前と話をすることなんてないよ。"
+                                ""
                             ]
                         },
                         {
@@ -71797,38 +71797,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Now, let's have Effy returned\nto me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　さあ、エフィーを返してもらおうか。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　それは難しい相談ですよ、ザラキエル。"
+                                ""
                             ]
                         },
                         {
@@ -71845,21 +71821,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: That's a difficult matter\nto discuss, Zerachiel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　第七呪詛は、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　魂を吸い尽くす力を持っています。"
+                                ""
                             ]
                         },
                         {
@@ -71876,21 +71845,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: The Seventh Curse has the\npower to drain one's soul."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　吸収した魂の数だけ成長する"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　《第七呪詛》を取り込むことで……"
+                                ""
                             ]
                         },
                         {
@@ -71907,21 +71876,52 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: By incorporating the\nSeventh Curse that grows in proportion\nto the number of souls absorbed..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　『世界を一つにする力』を、"
+                                "Star God Eden: I have obtained the power\nto unite the world as one."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私は手に入れることができました。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -71938,14 +71938,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: T-The power to unite the\nworld as one...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　せ、世界を一つにする力……？"
+                                ""
                             ]
                         },
                         {
@@ -71962,14 +71962,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: That is..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それは……"
+                                ""
                             ]
                         },
                         {
@@ -71986,59 +71986,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Such unexpected words have come\nout..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　とんでもない言葉が"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　飛び出して来たのう……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あなたたちの暮らす世界と、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　この世界は、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　もともと一つだったのですよ。"
+                                ""
                             ]
                         },
                         {
@@ -72055,59 +72017,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: The world you live in and\nthis world were originally one."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　しかし、巨大な隕石が落下してきたとき、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　始祖の皇帝によって、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　我々は大陸ごと、この世界に隔離されました。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　多くの国が滅び、多くの民を失い、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　私も力のほとんどを失いましたが……"
+                                ""
                             ]
                         },
                         {
@@ -72124,21 +72055,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: However, when a giant\nmeteorite fell, we were isolated in this\nworld, continent by continent, by the\nEmperor of the Ancestors."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　第七呪詛で力を取り戻し、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　本来持っていた以上の力を手に入れました。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72155,21 +72093,83 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: Many countries have\nperished, many people have been lost,\nand I have also lost most of my power..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　この力があれば世界を……"
+                                "Star God Eden: With the Seventh Curse, I\nhave regained my power and obtained even\nmore power than I originally had."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　我が手にすることが可能なのです。"
+                                "Star God Eden: With this power, it is\npossible to... obtain the world in my\nhands."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72186,14 +72186,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ......!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……！！"
+                                ""
                             ]
                         },
                         {
@@ -72210,14 +72210,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: That is the power of the Seventh\nCurse..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それが第七呪詛の力……"
+                                ""
                             ]
                         },
                         {
@@ -72234,38 +72234,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ララ："
+                                "Lala: This is not a joke..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ちょっと……シャレにならないわね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　第七呪詛は素晴らしい力です。"
+                                ""
                             ]
                         },
                         {
@@ -72282,21 +72258,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: The Seventh Curse is an\namazing power."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　こんな素晴らしいものがあれば、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　もう恐れるものはありません……！"
+                                ""
                             ]
                         },
                         {
@@ -72313,28 +72282,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: If there is such a\nwonderful thing, there is nothing to\nfear anymore...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　卑劣なミシュランの民を滅ぼし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あらゆる不安要素から解放されることで、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　エデンの民だけの世界を追求できる！"
+                                ""
                             ]
                         },
                         {
@@ -72351,21 +72313,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: By annihilating the\ndespicable Michelin people and freeing\nourselves from all sources of anxiety,\nwe can pursue a world exclusively for\nthe people of Eden!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私は今こそ、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　世界のすべてを手に入れましょう！"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72382,14 +72351,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: Now is the time for me to\nobtain everything in the world!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　まさしく神々が望んだ楽園というものです！"
+                                "Star God Eden: Truly, it is the paradise\nthat the gods desired!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72406,14 +72406,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel:\n...................................."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　………………………………"
+                                ""
                             ]
                         },
                         {
@@ -72430,14 +72430,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Eden, can I ask you\nsomething?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　エデン、一ついい？"
+                                ""
                             ]
                         },
                         {
@@ -72454,14 +72454,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Are you happy with that?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それでキミは幸せなの？"
+                                ""
                             ]
                         },
                         {
@@ -72478,14 +72478,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: ...And, what about it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……と、いうと？"
+                                ""
                             ]
                         },
                         {
@@ -72502,14 +72502,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: We are beings of desire."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクたちは欲望の塊だ。"
+                                ""
                             ]
                         },
                         {
@@ -72526,45 +72526,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There are things I want to do\nand things I want to try."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　やりたいこともあるし、したいこともある。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Friendly",
-                                8,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　歴史を辿れば、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　どんな国も戦争を経験しているわ。"
+                                ""
                             ]
                         },
                         {
@@ -72581,21 +72550,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: If you trace history, every\ncountry has experienced war."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　戦争に勝利して、大国になった。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　結局は内乱で国が滅びる……"
+                                ""
                             ]
                         },
                         {
@@ -72612,21 +72581,52 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: We won the war and became a\ngreat nation. But in the end, the\ncountry was destroyed by civil war..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Friendly",
+                                8,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　争いで生まれたものは、"
+                                "Claudia: Those born from conflict will\nperish in conflict."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　争いで滅びていくのよ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72643,45 +72643,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: To prevent that from\nhappening, there is the Seventh Curse."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そうならないように、第七呪詛があるのです。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　この圧倒的な力があれば、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　永遠の楽園を築くことができる……"
+                                ""
                             ]
                         },
                         {
@@ -72698,14 +72667,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: With this overwhelming\npower, we can build an eternal\nparadise..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　私は愚かな王とは違いますよ。"
+                                "Star God Eden: I am different from a\nfoolish king."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72722,21 +72722,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I think even the kings of the\ncountries that perished had the same\nthoughts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　滅んでいった国の王様たちも、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　同じことを考えていたと思うよ。"
+                                ""
                             ]
                         },
                         {
@@ -72753,14 +72753,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ララ："
+                                "Lala: Actually, I am betraying Eden."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　実際、あたしはエデンを裏切ってるしね。"
+                                ""
                             ]
                         },
                         {
@@ -72777,45 +72777,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: There will be more people like\nLala in the future, I suppose."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ララみたいな輩も、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　今後増えていくじゃろう。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ならば、始末するだけです。"
+                                ""
                             ]
                         },
                         {
@@ -72832,14 +72808,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: In that case, I will just\ntake care of it."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　私と有識者がより正しい世界へと導くために。"
+                                "Star God Eden: To lead to a more\nrighteous world, together with the\nknowledgeable."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72856,38 +72856,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Negotiations seem\ndifficult..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　交渉は難しそうだね……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　私からも提案がございます。"
+                                ""
                             ]
                         },
                         {
@@ -72904,28 +72880,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: I also have a proposal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ここまで辿り着いたあなたたちなら、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　これからの世界に何が必要なのか、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　身をもって判っていることでしょう。"
+                                ""
                             ]
                         },
                         {
@@ -72942,14 +72904,52 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: If you have come this\nfar, you must understand what is\nnecessary for the world to come, through\nyour own experiences."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　みなさん、私の試みに協力して欲しいのです。"
+                                "Star God Eden: Everyone, I want you to\ncooperate with my endeavor."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -72966,14 +72966,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　はっ……？"
+                                ""
                             ]
                         },
                         {
@@ -72990,45 +72990,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Cooperation..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　協力って……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　新たな時代を拓くためには、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　新たな視点も必要です。"
+                                ""
                             ]
                         },
                         {
@@ -73045,52 +73014,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: In order to pioneer a new\nera, a fresh perspective is also\nnecessary."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あなたがたが協力してくれれば、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　我々はすべての民を従える、永遠不滅の存在となります。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                2,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　永遠の楽園を、新たな歴史を、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　私たちの手で創り上げることが可能なのですよ。"
+                                ""
                             ]
                         },
                         {
@@ -73107,14 +73045,76 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: If you all cooperate, we\nwill become an eternal and immortal\nexistence, ruling over all people."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　みなさん、ともに夜明けを見届けませんか？"
+                                "Star God Eden: It is possible for us to\ncreate an eternal paradise, a new\nhistory, with our own hands."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                2,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "Star God Eden: Everyone, won't you\nwitness the dawn together with me?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -73131,14 +73131,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel:\n...................................."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　………………………………"
+                                ""
                             ]
                         },
                         {
@@ -73235,45 +73235,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Eden..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　エデン……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor1",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ボクがここへ来た理由を"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　忘れてもらったら困るよ。"
+                                ""
                             ]
                         },
                         {
@@ -73290,14 +73259,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I would be troubled if you\nforgot the reason why I came here."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　ボクたちの目的は最初からひとつだ。"
+                                "Zerachiel: Our goal has always been the\nsame."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -73326,14 +73326,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ...Effy, I came to help you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……エフィー、キミを助けに来た。"
+                                ""
                             ]
                         },
                         {
@@ -73350,14 +73350,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: There is no meaning in\nnegotiations built upon sacrifice."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　犠牲の上に成り立つ交渉に意味はないわ。"
+                                ""
                             ]
                         },
                         {
@@ -73405,21 +73405,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: I don't know Effy, but I\nunderstand that she's suffering."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ボクはエフィーを知らない。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　でも、苦しんでいるのは分かっているよ。"
+                                ""
                             ]
                         },
                         {
@@ -73467,52 +73467,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I hate the Star God. I'd rather\ndie than cooperate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　わらわは星神が嫌いじゃ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　協力するくらいなら死んだ方がマシじゃよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Friendly",
-                                12,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あたしもお断りよ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　どうせ、また裏切るんでしょう？"
+                                ""
                             ]
                         },
                         {
@@ -73529,14 +73498,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ララ："
+                                "Lala: I refuse as well. After all,\nyou'll just betray us again, won't you?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Friendly",
+                                12,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　……エルン様のときみたいに！！"
+                                "Lala: ...Just like when it was Ern-\nsama!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -73553,45 +73553,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: ...It's very\ndisappointing, everyone."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……とても残念ですよ、みなさん。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Enemy",
-                                2,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　神に抗うとは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　やはり下等なミシュランの民……"
+                                ""
                             ]
                         },
                         {
@@ -73608,14 +73577,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: To defy the gods, you\ntruly are a lowly Michelin citizen..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Enemy",
+                                2,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　やはり、失敗作のホムンクルスです。"
+                                "Star God Eden: As expected, a failed\ncreation of a homunculus."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -73632,14 +73632,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: So, that's your true\nintention, Star God."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　やっぱりそれが本音か、星神。"
+                                ""
                             ]
                         },
                         {
@@ -73656,28 +73656,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: The conversation is over,\neveryone. We will now transition to the\nfinal phase of the plan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　話は終わりです、みなさん。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　これより計画を"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　最後のフェーズへ移行します。"
+                                ""
                             ]
                         },
                         {
@@ -73694,38 +73694,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The final phase...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　最後のフェーズ……？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Enemy",
-                                2,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "星神エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ええ、そうです。"
+                                ""
                             ]
                         },
                         {
@@ -73742,14 +73718,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "星神エデン："
+                                "Star God Eden: Yes, that's right."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Enemy",
+                                2,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　第七呪詛の力を解放するだけですよ。"
+                                "Star God Eden: We are just releasing the\npower of the Seventh Curse."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -73879,14 +73879,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ......!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……ッ！！"
+                                ""
                             ]
                         },
                         {
@@ -73903,21 +73903,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エデン："
+                                "Eden: Amazing...! This is the power of\nthe Seventh Curse...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　素晴らしい……！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　これが、第七呪詛の力……！！"
+                                ""
                             ]
                         },
                         {
@@ -73934,14 +73934,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: What is this element..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　なんだよ、この元素……"
+                                ""
                             ]
                         },
                         {
@@ -73958,14 +73958,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: My body is weakening..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　身体が、衰弱していくのじゃ……"
+                                ""
                             ]
                         },
                         {
@@ -73982,14 +73982,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: The elements... and the souls...\nare being sucked in...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　元素が……魂が……吸われているの……？"
+                                ""
                             ]
                         },
                         {
@@ -74006,14 +74006,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: This is bad..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　まずいわね……"
+                                ""
                             ]
                         },
                         {
@@ -74030,38 +74030,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ララ："
+                                "Lala: We won't last long like this..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　このままじゃ長くは持たないわよ……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Enemy",
-                                2,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　いやはや、邪神の叡智は恐ろしいものです。"
+                                ""
                             ]
                         },
                         {
@@ -74078,21 +74054,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エデン："
+                                "Eden: Oh my, the wisdom of the evil god\nis truly terrifying."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Enemy",
+                                2,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　第七呪詛などという禁忌すらも、"
+                                "Eden: It is capable of creating even\nforbidden things like the Seventh Curse."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　生み出してしまうのですから。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -74109,38 +74109,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: ....................."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　…………………"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Enemy",
-                                2,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "エデン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　さあ、禁忌は発動しました。"
+                                ""
                             ]
                         },
                         {
@@ -74157,21 +74133,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エデン："
+                                "Eden: Now, the forbidden curse has been\nactivated."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Enemy",
+                                2,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　私にどう立ち向かうのか、"
+                                "Eden: Show me your power, how will you\nstand against me!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あなたたちの力を見せてくださいっ！！"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -75774,21 +75774,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: It's dangerous ahead. Make sure\nyou're prepared before proceeding."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この先は危険よ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　準備を整えてから進みなさい。"
+                                ""
                             ]
                         },
                         {
@@ -75796,9 +75796,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "アイテムを購入する",
-                                    "装備を改造したい",
-                                    "立ち去る"
+                                    "Buy items",
+                                    "I want to modify my equipment",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -75878,14 +75878,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: I'll also heal you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復もしてあげるわね。"
+                                ""
                             ]
                         },
                         {
@@ -75950,14 +75950,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: This is the final battle, do your\nbest!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これで最後よ、がんばって！！"
+                                ""
                             ]
                         },
                         {
@@ -78549,14 +78549,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Will you escape to the magical city of\nVaal?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールまで脱出しますか？"
+                                ""
                             ]
                         },
                         {
@@ -78564,8 +78564,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

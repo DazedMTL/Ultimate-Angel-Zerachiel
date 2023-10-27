@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "豪邸",
+    "displayName": "Mansion",
     "encounterList": [],
     "encounterStep": 30,
     "height": 35,
@@ -8202,14 +8202,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "メイド："
+                                "Maid: Oh no, it's a mess! I have to\nclean up!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あぁ、大変大変～！　お掃除しないとっ！"
+                                ""
                             ]
                         },
                         {
@@ -8252,14 +8252,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "メイド："
+                                "Maid: Eh............Madam!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　えっ…………奥様っ！？"
+                                ""
                             ]
                         },
                         {
@@ -8276,45 +8276,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh? What are you talking\nabout??"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　へっ？　なんのこと？？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "メイド："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　し、失礼しましたっ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　あまりにも奥様に似ていたもので……！！"
+                                ""
                             ]
                         },
                         {
@@ -8331,21 +8300,52 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "メイド："
+                                "Maid: I-I apologize! You just looked so\nmuch like the madam...!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　しかし、驚きました。"
+                                "Maid: But, I was surprised. You really\nlook so similar..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ほんとうにそっくりです……"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8626,21 +8626,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Master, you raised my salary! I\nwill work even harder than before!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旦那様、お給料を上げてくれたんです！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今まで以上に頑張りますよー！！"
+                                ""
                             ]
                         },
                         {
@@ -8903,21 +8903,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Maybe I should go back to my\nhometown too... I'm worried about my\nfamily."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私も故郷へ帰ろうかなぁ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　家族が心配です"
+                                ""
                             ]
                         },
                         {
@@ -9180,14 +9180,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: I'm quitting my job as a maid this\nmonth!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私、今月でメイドをやめるんです！"
+                                ""
                             ]
                         },
                         {
@@ -9204,14 +9204,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: I want to go back to my hometown\nand put my parents' minds at ease, you\nknow!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　故郷へ帰って、両親を安心させたいですからね！"
+                                ""
                             ]
                         },
                         {
@@ -9474,21 +9474,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Being naked, isn't it wonderful!\nThe mistress was also doing it!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸、いいですよね！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　奥様もされてましたよ！！"
+                                ""
                             ]
                         },
                         {
@@ -9767,14 +9767,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "The maid: The master and mistress had a\nvery good relationship."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旦那様と奥様は大変仲がよろしゅうございました。"
+                                ""
                             ]
                         },
                         {
@@ -9791,21 +9791,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: However, the mistress passed away\ndue to an incurable illness..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　でも、奥様は病気で亡くなりました。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　不治の病ですね……"
+                                ""
                             ]
                         },
                         {
@@ -9887,21 +9887,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Master, I have started eating\nproperly. It's all thanks to you!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旦那様、ご飯をしっかり食べるようになったんです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなた様のおかげですね！"
+                                ""
                             ]
                         },
                         {
@@ -9983,21 +9983,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Master, thanks to you protecting\nus, we are safe."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旦那様、私たちを庇ってくれたの。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おかげで無事よ。"
+                                ""
                             ]
                         },
                         {
@@ -10079,21 +10079,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: I intend to continue being a maid.\nAfter all, I owe it to my master."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私はメイドを続けるつもりよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旦那様には恩もあるしね。"
+                                ""
                             ]
                         },
                         {
@@ -10175,21 +10175,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド："
+                                "Maid: Hehe, the mistress used to undress\nlike that too. It brings back memories."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふふ、奥様もそうして裸になってたのよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　懐かしいわ。"
+                                ""
                             ]
                         },
                         {

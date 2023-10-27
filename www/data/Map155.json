@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "聖域へ続く洞窟",
+    "displayName": "Cave leading to the sanctuary",
     "encounterList": [],
     "encounterStep": 30,
     "height": 50,
@@ -18456,14 +18456,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: Oh, welcome!♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、いらっしゃいっ♪"
+                                ""
                             ]
                         },
                         {
@@ -18480,45 +18480,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Why are you here!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんでいるのっ！？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                6,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "旅の商人："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　困っている人がいたら駆けつける。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それが私のモットーよ。"
+                                ""
                             ]
                         },
                         {
@@ -18535,21 +18504,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: My motto is to rush\nto the aid of anyone in need."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                6,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　欲しいものはあるかしら？"
+                                "Traveling Merchant: Do you have\nsomething you want? I'll take payment,\nthough♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お代は頂くけどねっ♪"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -18573,14 +18573,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: I'll even heal you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復もしてあげるわね。"
+                                ""
                             ]
                         },
                         {
@@ -18665,21 +18665,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: Zerachiel-chan, do\nyour best. I'm cheering for you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルちゃん、がんばってね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　応援しているわよ。"
+                                ""
                             ]
                         },
                         {
@@ -18776,14 +18776,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: Hehe, welcome♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うふふ、いらっしゃい♪"
+                                ""
                             ]
                         },
                         {
@@ -18807,14 +18807,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: I'll even heal you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復もしてあげるわね。"
+                                ""
                             ]
                         },
                         {
@@ -18899,21 +18899,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の商人："
+                                "Traveling Merchant: Zerachiel-chan, do\nyour best. I'm cheering for you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルちゃん、がんばってね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　応援しているわよ。"
+                                ""
                             ]
                         },
                         {

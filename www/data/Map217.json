@@ -5066,14 +5066,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Another ambush...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また待ち伏せか……ッ！！"
+                                ""
                             ]
                         },
                         {
@@ -5090,14 +5090,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "？？？："
+                                "???: Please get down!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　伏せてくださぁいっ！！"
+                                ""
                             ]
                         },
                         {
@@ -5663,14 +5663,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Unie! Ishvald!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエ！　イシュヴァルド！"
+                                ""
                             ]
                         },
                         {
@@ -5841,14 +5841,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: There's someone you want to help,\nright?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　助けたい人がいるのですよね？"
+                                ""
                             ]
                         },
                         {
@@ -5865,14 +5865,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Go ahead. I'll chase after\nthem immediately."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……先へ行け。すぐ追いかける。"
+                                ""
                             ]
                         },
                         {
@@ -5889,14 +5889,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Thank you! Don't push\nyourself too hard, okay!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとう！　無理しないでね！！"
+                                ""
                             ]
                         },
                         {
@@ -6312,14 +6312,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Ahaha, we've been surrounded~!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あはは、囲まれちゃいましたね～！"
+                                ""
                             ]
                         },
                         {
@@ -6345,14 +6345,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Of course. It's the enemy's\nstronghold, after all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……当たり前だ。敵の本拠地だぞ。"
+                                ""
                             ]
                         },
                         {
@@ -6400,52 +6400,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Ahh~! You're making fun of me,\naren't you~?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あぁ～っ！　"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私のこと、バカにしているでしょう～？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　でも、私は知ってますよ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　イシュヴァルド。"
+                                ""
                             ]
                         },
                         {
@@ -6462,14 +6431,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: But, I know, you know? Ishvald."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　あなた、楽しんでいるって。"
+                                "Unie: You're enjoying yourself, aren't\nyou?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6486,45 +6486,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ........................"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……………………"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あなたのことならなんでもわかりますよ～？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　付き合い、長いですからね～！"
+                                ""
                             ]
                         },
                         {
@@ -6541,21 +6510,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: I understand everything about you, you know~? We've been together for a long time, after all~!\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そんなに楽しそうな顔をしているのは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　武術大会で団長と戦ったとき以来ですよね～！"
+                                ""
                             ]
                         },
                         {
@@ -6572,14 +6541,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: You haven't had such a joyful\nexpression since you fought against the\ncaptain in the martial arts tournament,\nright~?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　負けちゃいましたけどー！"
+                                "Unie: I lost, butー!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6627,14 +6627,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Shut up, I'll kill you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……黙れ、殺すぞ。"
+                                ""
                             ]
                         },
                         {
@@ -6651,14 +6651,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Geez, you don't have to be\nembarrassed~!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もうっ、照れなくていいのに～！"
+                                ""
                             ]
                         },
                         {
@@ -6737,38 +6737,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: ...Are you prepared?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……覚悟はできているか？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ユニエ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ええっ、もちろんですよっ！"
+                                ""
                             ]
                         },
                         {
@@ -6785,14 +6761,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ユニエ："
+                                "Unie: Eh, of course!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　背中は任せましたよ、イシュヴァルド。"
+                                "Unie: I'll leave the back to you,\nIshvald."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6809,14 +6809,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イシュヴァルド："
+                                "Ishvald: Ah, of course... Unie."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あぁ、もちろんだ……ユニエ。"
+                                ""
                             ]
                         },
                         {

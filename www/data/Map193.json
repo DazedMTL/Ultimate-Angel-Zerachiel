@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "星詠みの森　深層",
+    "displayName": "Forest of Star Singing - Deep Layer",
     "encounterList": [],
     "encounterStep": 30,
     "height": 42,
@@ -11068,14 +11068,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: I think it's better not to go\nback now..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今は戻らないほうがいいと思うわ……"
+                                ""
                             ]
                         },
                         {
@@ -11092,14 +11092,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: That's true..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それもそうだね……"
+                                ""
                             ]
                         },
                         {
@@ -11305,14 +11305,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: It seems like something serious is\nhappening..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か大変なことになっているみたいね……"
+                                ""
                             ]
                         },
                         {
@@ -11329,14 +11329,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: I wonder if we need an item?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アイテムが必要かしら？"
+                                ""
                             ]
                         },
                         {
@@ -11360,21 +11360,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: If you want to recover, it's good\nto drink the water from that lake over\nthere."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復するなら、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そこの湖の水を飲むといいわよ。"
+                                ""
                             ]
                         },
                         {

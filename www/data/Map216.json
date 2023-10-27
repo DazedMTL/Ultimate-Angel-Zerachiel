@@ -6700,14 +6700,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Surrounded...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　囲まれた……！？"
+                                ""
                             ]
                         },
                         {
@@ -6724,14 +6724,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "？？？："
+                                "???: Leave this to us!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは我らに任せよっ！！"
+                                ""
                             ]
                         },
                         {
@@ -6979,14 +6979,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You all are from the Orpheus\nCult...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミたちは、オルフェウス教団の……！！"
+                                ""
                             ]
                         },
                         {
@@ -7034,21 +7034,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "隊長："
+                                "Captain: When I heard that Lady Effy\nwould be saved, I couldn't believe my\nears."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー殿を助けてくれると聞いたとき、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　耳を疑ったものだ。"
+                                ""
                             ]
                         },
                         {
@@ -7127,21 +7127,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "男の騎士："
+                                "Knight: I never expected someone who\ninfiltrated the cult to try to save Lady\nEffy."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まさか教団に侵入した奴が、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様を助けようとするとは思わなかった。"
+                                ""
                             ]
                         },
                         {
@@ -7220,21 +7220,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の騎士："
+                                "Female Knight: I don't care who it is,\nas long as they save Lady Effy!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　誰であっても、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エフィー様を救ってくれるなら構わないっ！"
+                                ""
                             ]
                         },
                         {
@@ -7313,21 +7313,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "兵士："
+                                "Soldier: We will take care of this!\nPlease proceed ahead!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは自分たちが引き受けます！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　先へ進んでください！"
+                                ""
                             ]
                         },
                         {
@@ -7375,14 +7375,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Thank you all so much!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんな……ありがとうっ！！"
+                                ""
                             ]
                         },
                         {

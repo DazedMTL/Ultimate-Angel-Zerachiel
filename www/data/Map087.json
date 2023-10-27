@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "砂漠の秘境",
+    "displayName": "Desert Wilderness",
     "encounterList": [],
     "encounterStep": 30,
     "height": 15,
@@ -2745,14 +2745,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "A sea of sand that stretches on forever."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どこまでも続く砂の海。"
+                                ""
                             ]
                         },
                         {
@@ -2769,21 +2769,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The scorching heat of the dead land and\nthe pouring sunlight gradually burn my\nskin."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　死んだ大地の熱と降り注ぐ太陽光によって、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　皮膚をジワジワと焼いていく。"
+                                ""
                             ]
                         },
                         {
@@ -2800,14 +2800,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "The Hidden Border of the Desert--"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠の秘境――"
+                                ""
                             ]
                         },
                         {

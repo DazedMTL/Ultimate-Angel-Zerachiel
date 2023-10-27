@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private House",
     "encounterList": [],
     "encounterStep": 30,
     "height": 14,
@@ -2605,14 +2605,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: Mom, you're working all day."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お母さん、一日中働いているの。"
+                                ""
                             ]
                         },
                         {
@@ -2687,14 +2687,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: Mom, I'm in the hospital right\nnow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お母さん、今入院しているの。"
+                                ""
                             ]
                         },
                         {
@@ -2769,21 +2769,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: Mommy's back! Ugh, thank goodness\nyou're safe..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お母さんが帰ってきたのっ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うぅ、無事でよかったぁ……"
+                                ""
                             ]
                         },
                         {
@@ -2858,14 +2858,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女の子："
+                                "Girl: Onee-chan, why are you naked?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お姉ちゃん、どうして裸なの？"
+                                ""
                             ]
                         },
                         {
@@ -2949,14 +2949,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "母親："
+                                "Mother: I've made this girl go through\nsuch a pitiful experience..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この娘には可哀想な想いをさせてしまって……"
+                                ""
                             ]
                         },
                         {
@@ -2973,14 +2973,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "母親："
+                                "Mother: I'm glad we were able to reunite\nsafely."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　無事に再会できてよかったです。"
+                                ""
                             ]
                         },
                         {
@@ -3055,14 +3055,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "母親："
+                                "Mother: You should at least wear some\nclothes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　服くらい着た方がいいわよ"
+                                ""
                             ]
                         },
                         {

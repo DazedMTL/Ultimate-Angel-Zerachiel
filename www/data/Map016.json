@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private House",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4394,14 +4394,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We have to prepare dinner."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ご飯の支度をしないとね。"
+                                ""
                             ]
                         },
                         {
@@ -4483,21 +4483,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents: I'm glad both the master\nand I are safe. However, we're unsure\nwhether to stay in Logres..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　主人も私も無事でよかったです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ただ、ログレスに留まるか悩んでいます……"
+                                ""
                             ]
                         },
                         {
@@ -4579,21 +4579,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Yes, we've decided. We're\ngoing to move from Logres."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うん、決めました。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ログレスから引っ越そうと思います。"
+                                ""
                             ]
                         },
                         {
@@ -4735,21 +4735,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We moved to Logres against\nour will, but the religious group's\nrecruitment is persistent..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　無理してログレスに引っ越してきたんだが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団の勧誘がしつこくて……"
+                                ""
                             ]
                         },
                         {
@@ -4831,21 +4831,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Both my wife and I are safe.\nThis place wasn't attacked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　妻も私も無事だよ"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは襲われなかったんだ。"
+                                ""
                             ]
                         },
                         {
@@ -4927,21 +4927,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Naked girls even come into\nthe house, it's the worst public\nsafety... I want to move..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸の女の子も家に入ってくるし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最悪の治安だ……引っ越したいよ……"
+                                ""
                             ]
                         },
                         {

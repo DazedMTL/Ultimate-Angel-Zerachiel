@@ -16,7 +16,7 @@
         "volume": 100
     },
     "disableDashing": false,
-    "displayName": "神護の森　四層",
+    "displayName": "Forest of Divine Protection, Fourth Floor",
     "encounterList": [],
     "encounterStep": 50,
     "height": 40,
@@ -18757,21 +18757,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, we meet again. Are you going\nto buy something?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、また会ったわね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か買っていく？"
+                                ""
                             ]
                         },
                         {
@@ -18795,21 +18795,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: I'm planning to stay in Vaal for a\nwhile, so let's continue to get along,\nokay?♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　しばらくヴァールに滞在予定だから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今後ともよろしくねっ♪"
+                                ""
                             ]
                         },
                         {

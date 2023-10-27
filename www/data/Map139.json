@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "渓谷の秘境",
+    "displayName": "Hidden Valley",
     "encounterList": [],
     "encounterStep": 30,
     "height": 15,
@@ -2745,14 +2745,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Gray Mountain Range."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　灰色の連峰。"
+                                ""
                             ]
                         },
                         {
@@ -2769,21 +2769,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The land was not black soil or reddish-\nbrown scorched earth, but rather covered\nin solid bedrock."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　黒土でも赤茶けた焦土でもなく、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　その大地は固い岩盤に覆われていた。"
+                                ""
                             ]
                         },
                         {
@@ -2800,14 +2800,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Hidden in the valley--"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　渓谷の秘境――"
+                                ""
                             ]
                         },
                         {

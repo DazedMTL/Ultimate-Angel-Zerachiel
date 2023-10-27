@@ -16,7 +16,7 @@
         "volume": 50
     },
     "disableDashing": false,
-    "displayName": "幻獣の森",
+    "displayName": "Forest of Mythical Beasts",
     "encounterList": [],
     "encounterStep": 30,
     "height": 27,
@@ -6566,21 +6566,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: If you need something, I'll sell\nit to you. I wonder what you need?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　必要なものがあれば売ってあげるわ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何が必要かしら？"
+                                ""
                             ]
                         },
                         {
@@ -6604,21 +6604,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: The outside is full of enemies. Be careful, okay?\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　外は敵でいっぱいよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気をつけてね。"
+                                ""
                             ]
                         },
                         {

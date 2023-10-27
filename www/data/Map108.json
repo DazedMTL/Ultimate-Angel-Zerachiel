@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "熱砂の洞窟　入口",
+    "displayName": "Entrance of the Scorching Sands Cave",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -3836,14 +3836,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, we meet again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、よく会うわね。"
+                                ""
                             ]
                         },
                         {
@@ -3860,45 +3860,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Lulu! Why are you here?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ルルっ！　どうしてここに？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ルル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　このあたりに集落があるって聞いたから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　行商に来たのよ。"
+                                ""
                             ]
                         },
                         {
@@ -3915,14 +3884,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: I heard there's a village around\nhere, so I came for trading."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　で、すでに滅びていたわ。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3939,21 +3915,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: So, it was already destroyed."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　良かったら何か買っていかない？"
+                                "Lulu: If you'd like, would you like to\nbuy something? It's not cheap though."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　安くはないけどね。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3977,21 +3977,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Thank you for your patronage. Take\ncare on your way."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ご利用ありがとうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気をつけて行ってくるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -4202,14 +4202,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: It's better to prepare plenty of\nrecovery potions."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復薬は多めに用意したほうがいいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -4233,14 +4233,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Take care, have a safe trip."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気をつけてね、いってらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -4859,14 +4859,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, we meet again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あら、よく会うわね。"
+                                ""
                             ]
                         },
                         {
@@ -4883,45 +4883,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Lulu! Why are you here?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ルルっ！　どうしてここに？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "Actor2",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ルル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　このあたりに集落があるって聞いたから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　行商に来たのよ。"
+                                ""
                             ]
                         },
                         {
@@ -4938,14 +4907,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ルル："
+                                "Lulu: I heard there's a village around\nhere, so I came for trading."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor2",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　で、すでに滅びていたわ。"
+                                "Lulu: So, it was already destroyed."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4962,14 +4962,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Surely, it's the work of\ngoblins."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　きっと、ゴブリンたちの仕業だね。"
+                                ""
                             ]
                         },
                         {
@@ -4986,21 +4986,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ルル："
+                                "Lulu: If you'd like, would you like to\nbuy something? It's not cheap though."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　良かったら何か買っていかない？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　安くはないけどね。"
+                                ""
                             ]
                         },
                         {
@@ -5024,21 +5024,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Thank you for your patronage. Take\ncare and have a safe journey."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ご利用ありがとうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　気をつけて行ってくるのよ。"
+                                ""
                             ]
                         },
                         {
@@ -5268,14 +5268,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ルル："
+                                "Lulu: It's better to prepare plenty of\nrecovery potions."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　回復薬は多めに用意したほうがいいわよ。"
+                                ""
                             ]
                         },
                         {
@@ -5299,14 +5299,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Take care, have a safe trip."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　気をつけてね、いってらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -5681,14 +5681,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "Lulu's stall is open for business."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　ルルの露店　営業中　』"
+                                ""
                             ]
                         },
                         {

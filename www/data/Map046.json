@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "４Ｆ　フロアＤ",
+    "displayName": "4F Floor D",
     "encounterList": [],
     "encounterStep": 30,
     "height": 50,
@@ -15397,14 +15397,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "There are strong enemies waiting\nahead..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この先には強敵が待ち受けている……"
+                                ""
                             ]
                         },
                         {
@@ -15412,9 +15412,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "先へ進む",
-                                    "引き返す",
-                                    "入口へ戻る"
+                                    "Proceed forward",
+                                    "Go back",
+                                    "Go back to the entrance"
                                 ],
                                 1,
                                 0,
@@ -19554,14 +19554,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: This bookshelf seems to be\nmoving."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この本棚、動くみたい。"
+                                ""
                             ]
                         },
                         {

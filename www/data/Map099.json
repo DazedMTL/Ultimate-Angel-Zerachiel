@@ -16,7 +16,7 @@
         "volume": 20
     },
     "disableDashing": false,
-    "displayName": "港町　船着き場",
+    "displayName": "Port Town Pier",
     "encounterList": [],
     "encounterStep": 30,
     "height": 20,
@@ -3650,45 +3650,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's go on an adventure to\nthe Magic Continent!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸にとうちゃーくっ♪"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　二週間も船の中に押し込められていたから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　身体がなまっちゃうところだったよ。"
+                                ""
                             ]
                         },
                         {
@@ -3705,14 +3674,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I've been cooped up on the\nship for two weeks, so my body was\nstarting to get stiff."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　さてと……魔都ヴァールへ向かわないとね。"
+                                "Zerachiel: Well then... I guess we\nshould head to the magical city of Vaal."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3729,21 +3729,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I wonder if I should ask the\nresidents how to get to the magical city\nof Vaal?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールまでどうやって行くのか、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　住民の人たちから聞いてみようかな？"
+                                ""
                             ]
                         },
                         {
@@ -3772,14 +3772,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Let's gather information about the\nmagical city of Vaal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※魔都ヴァールについての情報を集めましょう。"
+                                ""
                             ]
                         },
                         {
@@ -3974,21 +3974,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女："
+                                "Girl: This is Minato Ward. If you go\nnorth, there's a tavern."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは港区。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　北に進めば酒場があるよ。"
+                                ""
                             ]
                         },
                         {
@@ -4307,14 +4307,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: There are many travelers this\nyear, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今年は旅人が多いのう。"
+                                ""
                             ]
                         },
                         {
@@ -4331,21 +4331,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Earlier, a group of three young\nadventurers came and asked about the way\nto the magical city of Vaal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　先ほど三人組の冒険者のお嬢さんたちが来て、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールへの道を聞きに来たのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -4873,14 +4873,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Welcome, young ladies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんたち、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -4897,14 +4897,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Would you like to have some\ntea?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お茶でも飲んでいくかね？"
+                                ""
                             ]
                         },
                         {
@@ -5439,14 +5439,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Welcome, young ladies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんたち、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -5463,14 +5463,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Would you like to have some\ntea?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お茶でも飲んでいくかね？"
+                                ""
                             ]
                         },
                         {
@@ -6005,14 +6005,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Welcome, young ladies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんたち、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -6029,14 +6029,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Would you like to have some\ntea?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お茶でも飲んでいくかね？"
+                                ""
                             ]
                         },
                         {
@@ -6571,14 +6571,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Welcome, young ladies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんたち、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -6595,14 +6595,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Would you like to have some\ntea?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お茶でも飲んでいくかね？"
+                                ""
                             ]
                         },
                         {
@@ -7137,14 +7137,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Welcome, young ladies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんたち、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -7161,14 +7161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Would you like to have some\ntea?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お茶でも飲んでいくかね？"
+                                ""
                             ]
                         },
                         {
@@ -7696,45 +7696,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: ...I hear that the war is\nstarting."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……戦争が始まると聞く。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "老人："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　また多くの命が失われる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　しかし、それで成り立つのが世界なのじゃろう。"
+                                ""
                             ]
                         },
                         {
@@ -7751,14 +7720,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Many lives will be lost again.\nBut that's how the world works, isn't\nit?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　生き残るのは、果たしてどちらじゃろうな。"
+                                "Old Man: I wonder who will survive in\nthe end."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8286,14 +8286,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Welcome, young ladies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんたち、いらっしゃい。"
+                                ""
                             ]
                         },
                         {
@@ -8310,14 +8310,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Would you like to have some\ntea?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お茶でも飲んでいくかね？"
+                                ""
                             ]
                         },
                         {
@@ -8603,14 +8603,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The tea was delicious, wasn't\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　美味しいお茶だったね。"
+                                ""
                             ]
                         },
                         {
@@ -8627,14 +8627,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "エフィー："
+                                "Effy: You seemed to be having fun,\nGrandpa."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お爺様、楽しそうでしたね。"
+                                ""
                             ]
                         },
                         {

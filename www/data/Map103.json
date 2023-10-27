@@ -1555,21 +1555,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: I'm heading back to the\nEmpire now, but I had a tough time being\nattacked by goblins in the desert."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これから帝国へ帰るんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠でゴブリンに襲われて大変だったわ。"
+                                ""
                             ]
                         },
                         {
@@ -1658,21 +1658,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: I'm heading back to the\nEmpire now, but I had a tough time being\nattacked by goblins in the desert."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これから帝国へ帰るんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠でゴブリンに襲われて大変だったわ。"
+                                ""
                             ]
                         },
                         {
@@ -1689,14 +1689,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Is that so? I hope we don't\nencounter them."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そうなんだ、遭遇しないといいなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -1713,21 +1713,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Since I'm going to infiltrate\ntheir goblin nest, I think we'll\ninevitably encounter them."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そのゴブリンの巣に乗り込むから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　嫌でも遭遇すると思うよ。"
+                                ""
                             ]
                         },
                         {
@@ -1809,21 +1809,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: I'm heading back to the\nEmpire now, but I had a tough time being\nattacked by goblins in the desert."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これから帝国へ帰るんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠でゴブリンに襲われて大変だったわ。"
+                                ""
                             ]
                         },
                         {
@@ -1840,14 +1840,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ehehe, I already defeated\nthem."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えへへ、もう倒しちゃった。"
+                                ""
                             ]
                         },
                         {
@@ -1864,14 +1864,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: I wanted to fight too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わらわも戦いたかったのう。"
+                                ""
                             ]
                         },
                         {
@@ -1953,21 +1953,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: I'm heading back to the\nEmpire now, but I had a tough time being\nattacked by goblins in the desert."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これから帝国へ帰るんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠でゴブリンに襲われて大変だったわ。"
+                                ""
                             ]
                         },
                         {
@@ -1984,14 +1984,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ehehe, I already defeated\nthem."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えへへ、もう倒しちゃった。"
+                                ""
                             ]
                         },
                         {
@@ -2008,21 +2008,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Wow, that's amazing! I almost got\ncaught!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へえ、すごいわねっ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あたしは捕まりそうになったわっ！！"
+                                ""
                             ]
                         },
                         {
@@ -2104,21 +2104,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: I'm heading back to the\nEmpire now, but I had a tough time being\nattacked by goblins in the desert."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これから帝国へ帰るんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　砂漠でゴブリンに襲われて大変だったわ。"
+                                ""
                             ]
                         },
                         {
@@ -2135,14 +2135,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ehehe, I already defeated\nthem."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えへへ、もう倒しちゃった。"
+                                ""
                             ]
                         },
                         {
@@ -2159,14 +2159,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Goblins and orcs are\ntroublesome no matter which country\nyou're in."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゴブリンとオークは、どこの国でも厄介ね。"
+                                ""
                             ]
                         },
                         {

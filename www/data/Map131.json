@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "幻獣の山　中層",
+    "displayName": "Mid-level of the Mountain of Mythical Beasts",
     "encounterList": [],
     "encounterStep": 60,
     "height": 50,
@@ -16997,14 +16997,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: W-What...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　な、何……？"
+                                ""
                             ]
                         },
                         {
@@ -17043,14 +17043,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Something is coming from the\nground!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　地面の中から何か来るわっ！！"
+                                ""
                             ]
                         },
                         {
@@ -18324,14 +18324,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Another earthquake!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また地震っ！？"
+                                ""
                             ]
                         },
                         {
@@ -18348,14 +18348,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: The ground was shaking violently."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　地面が激しく揺れていたわよ。"
+                                ""
                             ]
                         },
                         {
@@ -18522,14 +18522,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Again!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　またぁっ！？"
+                                ""
                             ]
                         },
                         {
@@ -18546,21 +18546,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アゼル："
+                                "Azel: ...Just to be safe, we should\nprobably prepare for battle and stay\nalert."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……念のため、戦闘の準備を。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　注意したほうがいいかもしれません。"
+                                ""
                             ]
                         },
                         {
@@ -18727,14 +18727,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh no, an earthquake."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うわ、地震だ。"
+                                ""
                             ]
                         },
                         {
@@ -18751,14 +18751,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: It was quite big, wasn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　けっこう大きかったわね。"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "民家",
+    "displayName": "Private House",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4394,21 +4394,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: My son became a clergyman,\nbut he never comes back home..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　息子が聖職者になったのだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　全然帰って来ないのよね…"
+                                ""
                             ]
                         },
                         {
@@ -4490,21 +4490,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: My husband died protecting\nme... It's a relief that my son is still\nalive..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旦那が私をかばって亡くなりました…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　息子が生きていたのが救いですよ…"
+                                ""
                             ]
                         },
                         {
@@ -4586,21 +4586,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: My husband was alive! I'm\nreally happy...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旦那が生きていたんです！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私、ほんとに嬉しくって……！"
+                                ""
                             ]
                         },
                         {
@@ -4682,14 +4682,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老婆："
+                                "Old Woman: I don't really understand\nwhat young people are thinking..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　若い子の考えていることは、よくわからんねぇ…"
+                                ""
                             ]
                         },
                         {
@@ -4780,21 +4780,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: It used to be a quiet city, but\never since the temple was built, it has\nbecome lively with an increase in\ntourists."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　昔は静かな都市じゃったが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神殿が建ってから、観光客が増えて賑やかになったよ。"
+                                ""
                             ]
                         },
                         {
@@ -4927,45 +4927,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: After protecting his wife, he\nlost consciousness..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　妻を庇った後、意識を失っていたのじゃが……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "老人："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　最後に見たのは、とんでもない剣技を繰り出す"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　女性の剣士が立っておったよ。"
+                                ""
                             ]
                         },
                         {
@@ -4982,21 +4951,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: The last thing I saw was a\nfemale swordsman displaying incredible\nswordsmanship."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……たしか昔、その姿を"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸で見た覚えがあるのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -5013,14 +4982,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: ...I vaguely remember seeing\nthat figure in the Demon Continent in\nthe past."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　……剣聖ルベリエじゃっただろうか。"
+                                "Old Man: ...Wasn't it Sword Saint\nRuberie?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5102,21 +5102,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "老人："
+                                "Old Man: Young lady, you'll catch a\ncold. Put on some clothes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃん、風邪を引いてしまうよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　服を着なさいな。"
+                                ""
                             ]
                         },
                         {
@@ -5258,21 +5258,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "息子："
+                                "Son: I quit the cult. I want to live in\na way that doesn't shame my father."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団を辞めたんです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　父に恥じないように生きようと思います。"
+                                ""
                             ]
                         },
                         {
@@ -5354,21 +5354,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "息子："
+                                "Son: Ugh, Father is alive! I'm so happy,\nso happy...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うぅ、父が生きていたんです！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　嬉しくて、嬉しくて……！！"
+                                ""
                             ]
                         },
                         {
@@ -5450,21 +5450,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "息子："
+                                "Son: Are you Zerachiel-san? It was\nrumored in the church."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなたがザラキエルさんでしたか。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　教団で噂になっていましたよ。"
+                                ""
                             ]
                         },
                         {
@@ -5481,14 +5481,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "息子："
+                                "Son: You're just as rumored."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　噂通りの人ですね。"
+                                ""
                             ]
                         },
                         {

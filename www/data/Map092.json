@@ -1412,14 +1412,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "After clearing, it will be unlocked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クリア後、解放されます。"
+                                ""
                             ]
                         },
                         {
@@ -1516,8 +1516,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -1744,14 +1744,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "It's scheduled to be implemented in the\nupdate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アップデートで実装予定だよ。"
+                                ""
                             ]
                         },
                         {
@@ -1835,14 +1835,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "After clearing, it will be unlocked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クリア後、解放されます。"
+                                ""
                             ]
                         },
                         {
@@ -1938,8 +1938,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -2092,14 +2092,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "It's scheduled to be implemented in the\nupdate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アップデートで実装予定だよ。"
+                                ""
                             ]
                         },
                         {

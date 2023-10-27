@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "1F「酒場・黄金の梨」",
+    "displayName": "1F Bar: Golden Pear",
     "encounterList": [],
     "encounterStep": 30,
     "height": 17,
@@ -3540,14 +3540,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The old man's fighting tournament has\njust ended, and now there's a war with\nangels."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　闘技大会が終わったかと思えば、今度は天使と戦争とは"
+                                ""
                             ]
                         },
                         {
@@ -3564,14 +3564,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The source of conflict among old people\nis something that never runs out."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　争いの種は永遠に尽きないものじゃな"
+                                ""
                             ]
                         },
                         {
@@ -4127,21 +4127,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "\\c[6]Old man\\c[0] Huh?! What indecent\nattire are you wearing?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ぶふぉっ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　な、なんて破廉恥な格好をしておるのじゃ！？"
+                                ""
                             ]
                         },
                         {
@@ -4522,21 +4522,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Inn: Welcome, hello. The price for one\nnight here is 5 Rill, would you like to\nstay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませ、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こちら一泊５Rillになりますが、お泊りになりますか？"
+                                ""
                             ]
                         },
                         {
@@ -4544,9 +4544,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "回想する",
-                                    "立ち去る"
+                                    "Yes",
+                                    "Recall",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -4644,14 +4644,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: We look forward to your next visit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　またのご利用をお待ちしております。"
+                                ""
                             ]
                         },
                         {
@@ -4678,14 +4678,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: It seems you don't have enough\nmoney..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　お金が足りませんね……"
+                                ""
                             ]
                         },
                         {
@@ -4894,14 +4894,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Innkeeper: Are you Zerachiel-sama?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエル様ですね？"
+                                ""
                             ]
                         },
                         {
@@ -4918,14 +4918,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Innkeeper: We have received a\nreservation from Miss Mel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メル様よりご予約を頂いております。"
+                                ""
                             ]
                         },
                         {
@@ -4942,14 +4942,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah, the fee..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あ、料金は……"
+                                ""
                             ]
                         },
                         {
@@ -4966,21 +4966,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Innkeeper: We have also received the\npayment, so please rest assured."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　料金も受け取っておりますので、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうかご安心ください。"
+                                ""
                             ]
                         },
                         {
@@ -4997,14 +4997,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Thank goodness."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それはよかった。"
+                                ""
                             ]
                         },
                         {
@@ -5021,14 +5021,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (Now, what should I do?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（さて、どうするかな）"
+                                ""
                             ]
                         },
                         {
@@ -5036,8 +5036,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "休む",
-                                    "やめとく"
+                                    "Take a break",
+                                    "I'll pass"
                                 ],
                                 1,
                                 0,
@@ -5067,38 +5067,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm tired today, should I\njust rest now?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　今日は疲れたし、もう休もうかな？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "宿屋："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　それではお部屋へご案内いたします。"
+                                ""
                             ]
                         },
                         {
@@ -5115,14 +5091,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "宿屋："
+                                "Innkeeper: Then, let me guide you to\nyour room."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　ごゆっくりお休みくださいませ。"
+                                "Innkeeper: Please rest comfortably."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5139,14 +5139,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I hope I can have a good\ndream."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　良い夢を見れるといいなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -5416,21 +5416,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Inn: Welcome, hello. The price for one\nnight here is 5 Rill, would you like to\nstay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませ、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こちら一泊５Rillになりますが、お泊りになりますか？"
+                                ""
                             ]
                         },
                         {
@@ -5438,9 +5438,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "回想する",
-                                    "立ち去る"
+                                    "Yes",
+                                    "Recall",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -5538,14 +5538,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: We look forward to your next visit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　またのご利用をお待ちしております。"
+                                ""
                             ]
                         },
                         {
@@ -5572,14 +5572,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: It seems you don't have enough\nmoney..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　お金が足りませんね……"
+                                ""
                             ]
                         },
                         {
@@ -5783,14 +5783,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, young lady."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -5807,14 +5807,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: The one handling the inn\nreception is my daughter."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　宿屋の受付をしているのは娘だよ。"
+                                ""
                             ]
                         },
                         {
@@ -5896,14 +5896,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, young lady."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -5920,14 +5920,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: The one handling the inn\nreception is my daughter."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　宿屋の受付をしているのは娘だよ。"
+                                ""
                             ]
                         },
                         {
@@ -5944,38 +5944,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah, so you run it as a family\nbusiness."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あぁ、家族で経営しているんだね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　この建物も親子のものみたいだよ。"
+                                ""
                             ]
                         },
                         {
@@ -5992,14 +5968,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: It seems like this building is\nalso owned by a parent and child."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                1,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　騎士団は二階を借りているだけみたいだね。"
+                                "Sachia: It seems like the knight order\nis just renting the second floor."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6016,14 +6016,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I thought it belonged to the\nknight order..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　騎士団の所有物だと思ってた……"
+                                ""
                             ]
                         },
                         {
@@ -6098,62 +6098,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Thank you, Rabi-chan, for\nhelping with the cleaning."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ラヴィちゃん、掃除を手伝ってくれてありがとう。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor3",
-                                2,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ラヴィ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お力になれたなら何よりなのじゃ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor1",
-                                4,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　何かあったの？"
+                                ""
                             ]
                         },
                         {
@@ -6170,21 +6122,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: If I could be of help, then that's\nmore than enough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　じつは早めに宿に来てしまったので、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　店主殿のお手伝いをしていたのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -6201,14 +6146,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Is something wrong?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor3",
+                                2,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　あー……なるほどね。"
+                                "Rabi: Actually, I arrived at the inn\nearlier than expected, so I was helping\nthe shopkeeper."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Zerachiel: Ah... I see."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6283,14 +6283,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Welcome, young lady."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃい、お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -6307,14 +6307,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hello, shopkeeper-san."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんにちは、店主さん。"
+                                ""
                             ]
                         },
                         {
@@ -6396,21 +6396,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Oh, Claudia-chan... Alcohol\nis prohibited, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おや、クラウディアちゃん……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お酒は禁止だよ。"
+                                ""
                             ]
                         },
                         {
@@ -6427,14 +6427,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: Oh, discrimination is not good,\nyou know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、差別は良くないわよ？"
+                                ""
                             ]
                         },
                         {
@@ -6451,14 +6451,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shopkeeper: Claudia-chan, you have a\nhabit of undressing quickly, you know..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クラウディアちゃん、すぐ脱ぐ癖あるからねぇ……"
+                                ""
                             ]
                         },
                         {
@@ -6475,14 +6475,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I can't let you drink that..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それは飲ませられないや……"
+                                ""
                             ]
                         },
                         {
@@ -6557,21 +6557,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店主："
+                                "Shop Owner: Opening this shop is all\nthanks to everyone."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こうして店を開けるのも、すべて"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みなさんのおかげですよ。"
+                                ""
                             ]
                         },
                         {
@@ -6588,14 +6588,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm glad if I was able to be\nof help."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お役に立てたならよかったよ。"
+                                ""
                             ]
                         },
                         {
@@ -6621,14 +6621,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Hehe, thank goodness, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ふふ、よかったですね。"
+                                ""
                             ]
                         },
                         {
@@ -6723,14 +6723,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Knights also use this\ntavern."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この酒場は騎士の人たちも利用しているよ。"
+                                ""
                             ]
                         },
                         {
@@ -6747,14 +6747,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Thanks to you, this tavern\nis free from any conflicts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おかげで争いごととは無縁の酒場だよ。"
+                                ""
                             ]
                         },
                         {
@@ -6836,14 +6836,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Knights also use this\ntavern."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この酒場は騎士の人たちも利用しているよ。"
+                                ""
                             ]
                         },
                         {
@@ -6860,14 +6860,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Thanks to you, this tavern\nis free from any conflicts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おかげで争いごととは無縁の酒場だよ。"
+                                ""
                             ]
                         },
                         {
@@ -6884,14 +6884,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: It takes courage to fight here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここで争うのは勇気が必要だね。"
+                                ""
                             ]
                         },
                         {
@@ -6908,14 +6908,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You could get caught if\nyou're not careful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　下手したら捕まるもんね。"
+                                ""
                             ]
                         },
                         {
@@ -6990,14 +6990,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Knight Yuni-chan, she's so cute, isn't she?\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　騎士のユニエちゃん、かわいいよね。"
+                                ""
                             ]
                         },
                         {
@@ -7014,14 +7014,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: I wonder if she has a\nboyfriend..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　彼氏とかいるのかなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -7038,14 +7038,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's no doubt about it,\nI'm in love."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これは惚れてるね、間違いない。"
+                                ""
                             ]
                         },
                         {
@@ -7062,21 +7062,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: It seems that Lady Yuni is close\nwith a knight named Ishvald, they've\nbeen childhood friends."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエ殿ならイシュヴァルドという騎士と"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　幼馴染で親しいみたいじゃよ。"
+                                ""
                             ]
                         },
                         {
@@ -7093,14 +7093,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: S-Such a thing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そ、そんなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -7117,14 +7117,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Ah, I've become so\ndespairing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あー絶望しちゃった……"
+                                ""
                             ]
                         },
                         {
@@ -7199,14 +7199,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: There's a knight named\nIshvald above."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　上にイシュヴァルドって騎士がいるんだけどさ。"
+                                ""
                             ]
                         },
                         {
@@ -7223,21 +7223,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: It seems like the captain\nand vice-captain are absent, so she's\ndoing the miscellaneous tasks alone."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　団長、副団長が不在だから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一人で雑務をしているみたいだよ。"
+                                ""
                             ]
                         },
                         {
@@ -7254,21 +7254,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I've also borrowed Unie,\nso... I feel kind of sorry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニエも借りちゃってるからなぁ……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんだか申し訳ないよ。"
+                                ""
                             ]
                         },
                         {
@@ -7343,14 +7343,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Knights also use this\ntavern."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　この酒場は騎士の人たちも利用しているよ。"
+                                ""
                             ]
                         },
                         {
@@ -7367,14 +7367,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I never expected to be\nthanked this much..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここまで感謝されるとは……"
+                                ""
                             ]
                         },
                         {
@@ -7400,14 +7400,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Hehe, I'm grateful too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ふふ、私も感謝していますよ。"
+                                ""
                             ]
                         },
                         {
@@ -7492,21 +7492,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: The gods were trying to\nannihilate the human race, and the Demon\nLord stopped them..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神が人族を滅ぼそうとしていて、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王がそれを止めた……"
+                                ""
                             ]
                         },
                         {
@@ -7523,14 +7523,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者："
+                                "Adventurer: Something feels different,\ndoesn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんか、変わってるよね。"
+                                ""
                             ]
                         },
                         {
@@ -7547,14 +7547,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Normally, it's the gods who\ndefeat the Demon Lord, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　普通、魔王を神様が倒すもんだよね。"
+                                ""
                             ]
                         },
                         {
@@ -7580,21 +7580,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: It might not be good to determine\none's position based on status, huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　地位で立場を決めるのは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　よろしくないということかもですね。"
+                                ""
                             ]
                         },
                         {
@@ -7695,45 +7695,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: The Demon Lord's legal wife is a\ngenius in swordsmanship."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王様の正妻は剣技の天才なんだ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "騎士："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　でも、魔王様は浮気性でね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　大喧嘩して、魔王様を半殺しにして出て行ったよ。"
+                                ""
                             ]
                         },
                         {
@@ -7750,14 +7719,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: But you know, the Demon Lord is\nquite promiscuous. They had a big fight\nand left after nearly killing the Demon\nLord."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それ以来、魔王様は傷心中さ。"
+                                "Knight: Since then, the Demon Lord has\nbeen heartbroken."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7846,45 +7846,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: The Demon Lord's legal wife is a\ngenius in swordsmanship."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王様の正妻は剣技の天才なんだ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "騎士："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　でも、魔王様は浮気性でね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　大喧嘩して、魔王様を半殺しにして出て行ったよ。"
+                                ""
                             ]
                         },
                         {
@@ -7901,14 +7870,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: But, the Demon Lord is\npromiscuous. They had a big fight and\nleft after nearly killing the Demon\nLord."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それ以来、魔王様は傷心中さ。"
+                                "Knight: Since then, the Demon Lord has\nbeen heartbroken."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7925,14 +7925,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: In every household, the wife is\nalways the strongest, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どこの家庭も奥さんが最強だよね。"
+                                ""
                             ]
                         },
                         {
@@ -7949,14 +7949,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: If we get married, we can\nbecome the strongest too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクたちも結婚したら最強になれるね。"
+                                ""
                             ]
                         },
                         {
@@ -8038,21 +8038,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: The Magic Continent is used for\nexporting rare minerals and medicinal\nherbs, among other materials, to other\ncountries."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸は希少な鉱石や薬草といった素材が採れるから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　他国への輸出に使われているよ。"
+                                ""
                             ]
                         },
                         {
@@ -8069,21 +8069,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Unicorn horns and such are\nvaluable recovery items that can heal\nthe entire party."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ユニコーンの角などは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　全体回復できる貴重な回復アイテムじゃよ。"
+                                ""
                             ]
                         },
                         {
@@ -8100,14 +8100,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It might be a good idea to\nbuy a little."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　少し買っておくといいかもね。"
+                                ""
                             ]
                         },
                         {
@@ -8189,14 +8189,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: There are rumors that the Angel\nrace does exist to some extent..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使族は少なからず存在しているとの噂はあるが……"
+                                ""
                             ]
                         },
                         {
@@ -8213,14 +8213,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: This is the first time I've seen\nthe real thing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　本物を見たのは初めてだ。"
+                                ""
                             ]
                         },
                         {
@@ -8237,14 +8237,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: Hehe, worship me to your heart's\ncontent."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ふふん、存分に拝みなさいよ。"
+                                ""
                             ]
                         },
                         {
@@ -8261,21 +8261,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I shouldn't let it slip that\nI'm actually an angel..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ホントは天使ってこと、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　バレちゃいけないんだけどなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -8357,21 +8357,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: The Demon Lord has three\ndaughters, and it seems that one of them\nis a master of martial arts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔王様には三人の娘がいるんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一人は武術の達人らしいよ。"
+                                ""
                             ]
                         },
                         {
@@ -8453,21 +8453,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "騎士："
+                                "Knight: It's not about gods, demons, or\nhumans... It's not about races, but\nrather, it's the wicked hearts that\nbring calamity, don't you think?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神も魔族も人も……種族じゃなくて、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　邪悪な心こそが災いを生むんじゃないかな。"
+                                ""
                             ]
                         },
                         {
@@ -8493,21 +8493,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: Yes, that's right. It's not good\nto judge based on race."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そうですね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　種族で判断するのは良くないことです。"
+                                ""
                             ]
                         },
                         {
@@ -8524,14 +8524,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You say good things, Effy."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　良いこと言うね、エフィー。"
+                                ""
                             ]
                         },
                         {
@@ -8632,14 +8632,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents: It seems that the Demon\nLord's daughter has returned."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、魔王様の娘が帰ってきているらしいよ。"
+                                ""
                             ]
                         },
                         {
@@ -8656,14 +8656,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I heard she was an adventurer\nin the Empire."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　帝国で冒険者をしていたんだってさ。"
+                                ""
                             ]
                         },
                         {
@@ -8752,14 +8752,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents: It seems that the Demon\nLord's daughter has returned."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、魔王様の娘が帰ってきているらしいよ。"
+                                ""
                             ]
                         },
                         {
@@ -8776,14 +8776,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: I heard she was an adventurer\nin the Empire."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　帝国で冒険者をしていたんだってさ。"
+                                ""
                             ]
                         },
                         {
@@ -8800,14 +8800,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's about Mel, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メルのことだよね。"
+                                ""
                             ]
                         },
                         {
@@ -8824,21 +8824,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Even if Mel is called a\nprincess, we used to play together so I\ndon't feel it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メルがお姫様って言われても、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一緒に遊び回ってたから、実感湧かないや。"
+                                ""
                             ]
                         },
                         {
@@ -8920,21 +8920,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Since bats and snakes drain\nyour stamina, it's easier to defeat them\nall at once."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　コウモリやヘビは体力を吸いとってくるから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一気に倒したほうが楽だよ。"
+                                ""
                             ]
                         },
                         {
@@ -8951,14 +8951,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Area attacks have low power,\nyou know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　全体攻撃は威力が低いもんね。"
+                                ""
                             ]
                         },
                         {
@@ -8975,14 +8975,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Area attacks are disadvantageous\nagainst enemies with high stamina, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　体力が高い敵に全体攻撃は不利なのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -9064,21 +9064,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Oh, there's a girl with\nwings... Is she from the Birdman tribe?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おや、翼を生やした女の子がいる……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　鳥人族かな？"
+                                ""
                             ]
                         },
                         {
@@ -9095,14 +9095,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ララ："
+                                "Lala: I am an angel! Don't lump me\ntogether with them!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あたしは天使よ！　一緒にしないでっ！！"
+                                ""
                             ]
                         },
                         {
@@ -9184,14 +9184,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It seems that the Demon\nLord's daughter has returned."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、魔王様の娘が帰ってきているらしいよ。"
+                                ""
                             ]
                         },
                         {
@@ -9273,21 +9273,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: While business is important,\nright now we want to share the joy of\nhaving achieved peace with everyone."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　商売も大切だけど、今はみんなと"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　平和になった喜びを分かち合いたいです。"
+                                ""
                             ]
                         },
                         {
@@ -9304,14 +9304,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'll celebrate together too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクも一緒にお祝いするよ。"
+                                ""
                             ]
                         },
                         {
@@ -9337,21 +9337,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エフィー："
+                                "Effy: I want to celebrate too... Yay!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私もお祝いしたいです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……イェーイ。"
+                                ""
                             ]
                         },
                         {
@@ -9682,14 +9682,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The old man's fighting tournament has\njust ended, and now there's a war with\nangels."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　闘技大会が終わったかと思えば、今度は天使と戦争とは"
+                                ""
                             ]
                         },
                         {
@@ -9706,14 +9706,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "The source of conflict among old people\nis something that never runs out."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　争いの種は永遠に尽きないものじゃな"
+                                ""
                             ]
                         },
                         {
@@ -10269,21 +10269,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\c[6]老人\\c[0]"
+                                "\\c[6]Old man\\c[0] Huh?! What an indecent\noutfit you're wearing!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ぶふぉっ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　な、なんて破廉恥な格好をしておるのじゃ！？"
+                                ""
                             ]
                         },
                         {
@@ -10724,21 +10724,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, hello. Are you going to buy\nsomething?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か買っていく？"
+                                ""
                             ]
                         },
                         {
@@ -10762,21 +10762,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Thank you for your patronage.\nPlease come again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ご利用ありがとうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また来て頂戴な。"
+                                ""
                             ]
                         },
                         {
@@ -10993,14 +10993,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: It seems like something really\ntroublesome has happened..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　大変なことになっちゃったわね……"
+                                ""
                             ]
                         },
                         {
@@ -11017,14 +11017,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: By the way, do you want to buy\nsomething?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それはそうと、なにか買っていく？"
+                                ""
                             ]
                         },
                         {
@@ -11248,21 +11248,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, hello. Are you going to buy\nsomething?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か買っていく？"
+                                ""
                             ]
                         },
                         {
@@ -11286,21 +11286,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Thank you for your patronage.\nPlease come again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ご利用ありがとうね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また来て頂戴な。"
+                                ""
                             ]
                         },
                         {
@@ -11699,14 +11699,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ……"
+                                ""
                             ]
                         },
                         {
@@ -11723,14 +11723,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The town... is being\nattacked...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　街が、襲われているの……！？"
+                                ""
                             ]
                         },
                         {
@@ -11747,14 +11747,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I have to go and help\neveryone...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんなを助けに行かないと……っ！！"
+                                ""
                             ]
                         },
                         {

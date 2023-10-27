@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "港町　宿屋",
+    "displayName": "Port Town Inn",
     "encounterList": [],
     "encounterStep": 30,
     "height": 14,
@@ -2858,21 +2858,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "宿屋："
+                                "Inn: Welcome, hello. The price for one\nnight here is 5 Rill, would you like to\nstay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いらっしゃいませ、こんにちは。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こちら一泊５Rillになりますが、お泊りになりますか？"
+                                ""
                             ]
                         },
                         {
@@ -2880,9 +2880,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "回想する",
-                                    "立ち去る"
+                                    "Yes",
+                                    "Recall",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -2980,14 +2980,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: We look forward to your next visit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　またのご利用をお待ちしております。"
+                                ""
                             ]
                         },
                         {
@@ -3014,14 +3014,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "宿屋："
+                                "Inn: It seems you don't have enough\nmoney..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　お金が足りませんね……"
+                                ""
                             ]
                         },
                         {
@@ -3409,21 +3409,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "By talking to the innkeeper in the Magic\nContinent, you can move to the flashback\nroom."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔大陸でも宿屋の店主に話しかけることで、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　回想ルームへ移動できます。"
+                                ""
                             ]
                         },
                         {

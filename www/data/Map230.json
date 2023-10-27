@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "夢幻の大樹　城内",
+    "displayName": "Castle of the Fantasia Tree",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -7453,14 +7453,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, what a coincidence to meet\nhere like this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、こんなところで遭うなんて偶然ね。"
+                                ""
                             ]
                         },
                         {
@@ -7477,45 +7477,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Lulu, you seem to appear\neverywhere."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ルルってどこにでもあらわれるね。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Actor2",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ルル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あら、行商人は"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　どこにだって駆けつけるのよ？"
+                                ""
                             ]
                         },
                         {
@@ -7532,21 +7501,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: Oh, merchants like me can rush to\nanywhere, you know?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Actor2",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　せっかくだし、"
+                                "Lulu: Since we're here, why not buy\nsomething?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なにか買っていくでしょ？"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7554,9 +7554,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "アイテムを購入する",
-                                    "装備を改造したい",
-                                    "立ち去る"
+                                    "Buy items",
+                                    "I want to modify my equipment",
+                                    "Leave"
                                 ],
                                 2,
                                 0,
@@ -7636,14 +7636,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ルル："
+                                "Lulu: I'll also give you some healing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　回復もしてあげるわね。"
+                                ""
                             ]
                         },
                         {
@@ -7768,14 +7768,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "マーナガルム："
+                                "Marnagarm: Shall we escape?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　脱出するか？"
+                                ""
                             ]
                         },
                         {
@@ -7783,8 +7783,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "脱出する",
-                                    "まだ頑張る"
+                                    "Escape",
+                                    "Keep going"
                                 ],
                                 1,
                                 0,

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "夢幻の秘境",
+    "displayName": "Enchanted Wilderness",
     "encounterList": [],
     "encounterStep": 30,
     "height": 15,
@@ -2745,21 +2745,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Beyond the sacred sanctuary of the\ndreamlike realm lies the gods' trial."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　夢幻の秘境。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　聖域を超えたさきに続く、神々の試練。"
+                                ""
                             ]
                         },
                         {
@@ -2776,21 +2776,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The terrain twisted by the flow of\nspecial elements, becoming an\nenvironment where scorching heat and\ncold air mix together."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　特殊な元素の流動によって地形が捩じれ、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　灼熱や冷気の混ざり合う環境となった。"
+                                ""
                             ]
                         },
                         {
@@ -2807,14 +2807,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "It's a dangerous unexplored region that\neven top-notch adventurers hesitate to\nenter."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一流の冒険者でも躊躇する危険な秘境だ。"
+                                ""
                             ]
                         },
                         {
@@ -2831,14 +2831,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "You stepped into such an unexplored\nregion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そんな秘境に、あなたは足を踏み入れた。"
+                                ""
                             ]
                         },
                         {

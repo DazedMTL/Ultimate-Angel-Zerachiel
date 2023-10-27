@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "聖域",
+    "displayName": "Holy Sanctuary",
     "encounterList": [],
     "encounterStep": 30,
     "height": 40,
@@ -5529,14 +5529,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Will we escape to the magical city of\nVaal?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔都ヴァールまで脱出しますか？"
+                                ""
                             ]
                         },
                         {
@@ -5544,8 +5544,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

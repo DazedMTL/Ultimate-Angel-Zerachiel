@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "西地区",
+    "displayName": "West District",
     "encounterList": [],
     "encounterStep": 30,
     "height": 40,
@@ -6645,14 +6645,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "The door is tightly closed..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　扉は固く閉じている……"
+                                ""
                             ]
                         },
                         {
@@ -6669,14 +6669,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's something written\nhere."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　何か書いてあるよ"
+                                ""
                             ]
                         },
                         {
@@ -6693,21 +6693,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The brothel is currently under\nrenovation due to various\ncircumstances."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　娼婦の館、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　　　諸事情により改装中　』"
+                                ""
                             ]
                         },
                         {
@@ -6724,14 +6724,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "We are also recruiting prostitutes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　娼婦も募集しております　』"
+                                ""
                             ]
                         },
                         {
@@ -7206,14 +7206,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: (............)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（…………）"
+                                ""
                             ]
                         },
                         {
@@ -7328,14 +7328,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Wahhhhh...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わあああああっ……！？"
+                                ""
                             ]
                         },
                         {
@@ -7364,21 +7364,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Oh... you have such a cute\nreaction. Do you want to do it with me?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　へぇ……かわいい反応してんねぇ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレとヤっていくかい？"
+                                ""
                             ]
                         },
                         {
@@ -7436,14 +7436,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Th-This person...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こっ、こいつぅっ……！"
+                                ""
                             ]
                         },
                         {
@@ -7568,14 +7568,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: If there's a war, the slums\nwill become meaningless."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　戦争になれば、スラム街なんて意味もなくなるよな"
+                                ""
                             ]
                         },
                         {
@@ -7657,21 +7657,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It's fine to move to the\ncapital city... well, I do love this\ntown."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　王都へ移住してもいいんだが……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ま、この街が好きだしな。"
+                                ""
                             ]
                         },
                         {
@@ -7753,21 +7753,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Are you here to attack us? It\nwould be best to stop here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　襲われに来ているのか？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここでは止めた方がいいぜ。"
+                                ""
                             ]
                         },
                         {
@@ -7858,14 +7858,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: If there's work, even I..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　仕事があれば、オレだって……"
+                                ""
                             ]
                         },
                         {
@@ -7947,21 +7947,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Resident: I've decided to work\ndiligently. I feel like I can start over\neven now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレ、真っ当に働くことにしたよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今からでもやり直せる気がするんだ。"
+                                ""
                             ]
                         },
                         {
@@ -8043,21 +8043,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Resident: I'm currently working in\ndelivery service, but it's tougher and\nmore difficult than I thought..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今、宅配の仕事をしているんだけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　思っていたよりも辛くて大変だなぁ…"
+                                ""
                             ]
                         },
                         {
@@ -8139,14 +8139,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Are you also promoting the\nbrothel? Sorry, but I don't have any\nmoney."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お前も娼館の宣伝か？　悪いが、金ならないぜ。"
+                                ""
                             ]
                         },
                         {
@@ -8404,21 +8404,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The residents: Logres used to be a quiet\nand uneventful town, but it was a warmer\nplace than it is now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ログレスは昔、静かで何もない街じゃったけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今よりは心暖かい場所じゃった。"
+                                ""
                             ]
                         },
                         {
@@ -8500,14 +8500,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: ...Did something terrible\nhappen to you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……何か酷いことでもされたのかの。"
+                                ""
                             ]
                         },
                         {
@@ -8649,14 +8649,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: We want to live long, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　長生きしたいですのう"
+                                ""
                             ]
                         },
                         {
@@ -8738,14 +8738,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: It's dangerous to walk around\ndressed like that, young lady..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　その恰好で歩いたら危ないよ、お嬢ちゃん…"
+                                ""
                             ]
                         },
                         {
@@ -8887,14 +8887,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: ...If you don't have any\nbusiness, don't talk to us."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……用がないなら、話しかけるな。"
+                                ""
                             ]
                         },
                         {
@@ -8976,14 +8976,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: ...If it's the boy who was in\nfront of us, he's dead."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……対面にいた少年なら、亡くなったよ。"
+                                ""
                             ]
                         },
                         {
@@ -9065,45 +9065,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "The boy who survived when I, who had no\ndreams or hopes, died... He had so much\npotential..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　夢も希望もなかった俺が生き残って、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　多くの可能性があった少年が死んだんだ……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　……オレ、生きてみるよ。"
+                                ""
                             ]
                         },
                         {
@@ -9120,14 +9096,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Resident: ...I'll try to live."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　そうでもしないと、あの子が可哀想だから……"
+                                "Resident: If I don't do that, that child\nwill be pitiful..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9209,14 +9209,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: ...Don't walk around dressed\nlike that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……そんな恰好で歩き回るんじゃねえよ。"
+                                ""
                             ]
                         },
                         {
@@ -9307,21 +9307,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Even though both mom and dad\nare working, we're struggling to make\nends meet..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　パパもママも働いているのに、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　生活に困窮しているんだ…"
+                                ""
                             ]
                         },
                         {
@@ -9403,21 +9403,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
+                                "Residents: Onee-chan, you're naked! Your\nbreasts are small!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お姉ちゃん、裸だ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おっぱい小さい！"
+                                ""
                             ]
                         },
                         {
@@ -10671,21 +10671,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Today's event: pole dance"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　今日のイベント"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　　　　　　　ポールダンス　』"
+                                ""
                             ]
                         },
                         {
@@ -11269,14 +11269,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, what's inside?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれ、何か入っているよ？"
+                                ""
                             ]
                         },
                         {
@@ -11390,14 +11390,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, it's a Pudding."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なんだ、プルリンかぁ。"
+                                ""
                             ]
                         },
                         {

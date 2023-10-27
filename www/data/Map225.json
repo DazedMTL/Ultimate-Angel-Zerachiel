@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "記憶の断片",
+    "displayName": "Fragment of Memory",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4436,14 +4436,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This occurs as you progress through the\nmain story."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メインストーリーを進めることで発生します。"
+                                ""
                             ]
                         },
                         {
@@ -4560,8 +4560,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -4730,14 +4730,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Investigating the toilet in Aries'\nhideout."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アリエスの隠れ家でトイレを調べる。"
+                                ""
                             ]
                         },
                         {
@@ -4854,8 +4854,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5024,14 +5024,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Investigating the bath at Aries'\nhideout."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　アリエスの隠れ家でお風呂を調べる。"
+                                ""
                             ]
                         },
                         {
@@ -5148,8 +5148,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5318,21 +5318,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "After completing the sub-event at\nLogres' residential house, comfort the\nuncle."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ログレスの民家でサブイベント完了後、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　おじさんを慰める。"
+                                ""
                             ]
                         },
                         {
@@ -5449,8 +5449,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -5619,14 +5619,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Accepting the proposal of a nobleman at\nthe Logres mansion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ログレスの豪邸で、貴族の男の提案を受け入れる。"
+                                ""
                             ]
                         },
                         {
@@ -5743,8 +5743,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -5913,21 +5913,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I completed a subquest at the\nAdventurer's Guild and approached a\nyoung man for prostitution."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　冒険者ギルドでサブクエストを達成し、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　青年に売春を持ちかける。"
+                                ""
                             ]
                         },
                         {
@@ -6044,8 +6044,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -6214,14 +6214,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This occurs as you progress through the\nmain story."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メインストーリーを進めることで発生します。"
+                                ""
                             ]
                         },
                         {
@@ -6470,8 +6470,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -6772,21 +6772,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Investigate the toilet in Aries' hideout\nwith a corruption level of 51 or higher."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度５１以上\\c[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　アリエスの隠れ家でトイレを調べる。"
+                                ""
                             ]
                         },
                         {
@@ -6903,8 +6903,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -7073,14 +7073,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This occurs as you progress through the\nmain story."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メインストーリーを進めることで発生します。"
+                                ""
                             ]
                         },
                         {
@@ -7204,8 +7204,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -7374,28 +7374,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "After completing the sub-event at a\nresident's house in Logres with a\n\\c[6]corruption level of 51 or\nhigher\\c[0], comfort the uncle."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度５１以上\\c[0]"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ログレスの民家でサブイベント完了後、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　おじさんを慰める。"
+                                ""
                             ]
                         },
                         {
@@ -7512,8 +7512,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -7682,14 +7682,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "I repeatedly accept the proposals of the\nnobleman at Logres' mansion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ログレスの豪邸で、貴族の男の提案を何度も受け入れる。"
+                                ""
                             ]
                         },
                         {
@@ -7806,8 +7806,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -7976,28 +7976,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "\\c[6]With a corruption level of 51 or\nhigher, \\c[0]complete a subquest at the\nAdventurer's Guild and proposition a\nyoung man for prostitution."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度５１以上\\c[0]"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　冒険者ギルドでサブクエストを達成し、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　青年に売春を持ちかける。"
+                                ""
                             ]
                         },
                         {
@@ -8114,8 +8114,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -8284,21 +8284,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "At \\c[6]Degradation Level 51 or\nhigher\\c[0], in the northwest of Logres,\nshe receives sexual harassment from a\nboy."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度５１以上\\c[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ログレスの北西で、少年からセクハラを受ける。"
+                                ""
                             ]
                         },
                         {
@@ -8415,8 +8415,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -8585,21 +8585,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Receive training at the brothel in the\nwestern district with a corruption level\nof 31 or higher."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度３１以上\\c[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　西区の娼館で研修を受ける。"
+                                ""
                             ]
                         },
                         {
@@ -8716,8 +8716,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -8768,14 +8768,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "おじさん："
+                                "Uncle: Hey, you must be the new girl\nZerachiel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　やあ、キミが新人のザラキエルちゃんだね。"
+                                ""
                             ]
                         },
                         {
@@ -8792,21 +8792,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "おじさん："
+                                "Uncle: I'll be in charge of your\ntraining. Nice to meet you, today."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私が研修を担当させてもらうよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　今日はよろしくね。"
+                                ""
                             ]
                         },
                         {
@@ -8823,14 +8823,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yes, nice to meet you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　はい、よろしくお願いします。"
+                                ""
                             ]
                         },
                         {
@@ -8847,21 +8847,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "おじさん："
+                                "Uncle: There aren't many young girls who\nvolunteer to become prostitutes, so\nZerachiel-chan will surely become\npopular."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　まだ若いのに娼婦に志願する子は少ないから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ザラキエルちゃんはきっと人気出るだろうね。"
+                                ""
                             ]
                         },
                         {
@@ -8878,14 +8878,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I-I'm not so sure about\nthat..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　そ、そうかなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -8902,21 +8902,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "おじさん："
+                                "Uncle: Well then, shall we start the\ntraining? Could you take off your\nclothes?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それじゃ、研修を開始しようか。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　服を脱いでくれる？"
+                                ""
                             ]
                         },
                         {
@@ -9051,21 +9051,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Defeated by a female knight. *Even if\nyou win, it will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　女騎士に敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -9182,8 +9182,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -9352,21 +9352,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I completed a subquest at the\nAdventurer's Guild and accepted a\nconsultation from a magician."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　冒険者ギルドでサブクエストを達成し、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔術師の相談を引き受ける。"
+                                ""
                             ]
                         },
                         {
@@ -9483,8 +9483,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -9653,14 +9653,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "I will take on a part-time job at a bar\nin the Nishi district."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　西区の酒場でアルバイトを引き受ける。"
+                                ""
                             ]
                         },
                         {
@@ -9777,8 +9777,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -9947,21 +9947,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I am defeated by Princess Loper. *Even\nif I win, it will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　プリンセスローパーに敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -10078,8 +10078,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -10248,21 +10248,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Defeated by the priest soldiers. *Even\nif you win, it will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神官兵に敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -10379,8 +10379,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -10549,21 +10549,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Defeated by a mercenary. ※Even if you\nwin, it will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　傭兵に敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -10680,8 +10680,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -10850,21 +10850,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I will be defeated by the knight. *Even\nif I win, it will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　騎士に敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -10981,8 +10981,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -11151,28 +11151,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "\\c[6]With a corruption level of 51 or\nhigher, \\c[0]complete a subquest at the\nAdventurer's Guild and take on the\nconsultation of a magician."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度５１以上\\c[0]"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　冒険者ギルドでサブクエストを達成し、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魔術師の相談を引き受ける。"
+                                ""
                             ]
                         },
                         {
@@ -11289,8 +11289,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -11459,21 +11459,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I will take on a part-time job at a bar\nin the western district with a\n\\c[6]corruption level of 51 or\nhigher\\c[0]."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度５１以上\\c[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　西区の酒場でアルバイトを引き受ける。"
+                                ""
                             ]
                         },
                         {
@@ -11590,8 +11590,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -11760,21 +11760,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I will be defeated by the saintess.\n*Even if I win, it will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖女に敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -11891,8 +11891,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -12061,21 +12061,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Defeated by a slime. *Even if you win,\nit will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　スライムに敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -12192,8 +12192,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -12355,14 +12355,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリア："
+                                "Aria: You can unlock everything after\nclearing the game."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゲームクリア後に全開放できますよ。"
+                                ""
                             ]
                         },
                         {
@@ -12430,14 +12430,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリア："
+                                "Aria: Shall we unlock all the event\nscenes?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　イベントシーンを全開放します？"
+                                ""
                             ]
                         },
                         {
@@ -12454,21 +12454,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリア："
+                                "Aria: However, you won't be able to\nrevert to the original data. What will\nyou do?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ただし、元のデータには戻せなくなります。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうしますか？"
+                                ""
                             ]
                         },
                         {
@@ -12476,8 +12476,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "全開放する",
-                                    "やめておく"
+                                    "Release all",
+                                    "I'll pass"
                                 ],
                                 1,
                                 0,
@@ -12666,14 +12666,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリア："
+                                "Aria: I've released everything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　全開放しましたよ。"
+                                ""
                             ]
                         },
                         {
@@ -12749,38 +12749,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリア："
+                                "Aria: Ehh, are you talking about me...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　え、私について……ですか？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　私は聖歌隊の天使です。"
+                                ""
                             ]
                         },
                         {
@@ -12797,38 +12773,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリア："
+                                "Aria: I am an angel of the choir."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　エルン様派の天使で、ララの同僚ですよ。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "アリア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　今後もお会いできるかと思います。"
+                                ""
                             ]
                         },
                         {
@@ -12845,21 +12797,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリア："
+                                "Aria: I am an angel from the Elun\nfaction, and Lala's colleague."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ちなみにレスフレーゼはララと被るので、"
+                                "Aria: I hope we can meet again in the\nfuture."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　人気が出ないかぎり、出番は少ないかと思います。"
+                                "Aria: By the way, since Lala and I\noverlap in terms of roles, I think my\nappearances will be limited unless I\nbecome popular."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12964,14 +12964,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "What would you like me to do?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どうされますか？"
+                                ""
                             ]
                         },
                         {
@@ -12979,9 +12979,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "街へ戻る",
-                                    "周回する",
-                                    "もう少し考える"
+                                    "Return to town",
+                                    "Go around",
+                                    "I'll think a little longer"
                                 ],
                                 2,
                                 0,
@@ -13061,14 +13061,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "You can inherit naughty experience\npoints and abilities."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　えっちな経験値 と アビリティ を引き継ぎ可能です。"
+                                ""
                             ]
                         },
                         {
@@ -13085,21 +13085,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "However, please note that the stages of\nthe H events in the story will be\ncarried over, so please understand."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ただし、ストーリー中のＨイベントの"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　段階は引き継ぎますので、ご了承ください。"
+                                ""
                             ]
                         },
                         {
@@ -13239,21 +13239,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Defeated by the Roper. ※Even if you win,\nit will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ローパーに敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -13370,8 +13370,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -13540,21 +13540,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I will be defeated by the captain. *Even\nif I win, it will be recorded."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　隊長に敗北する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※勝利しても登録されます。"
+                                ""
                             ]
                         },
                         {
@@ -13671,8 +13671,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -13841,21 +13841,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "\\c[6]With a corruption level of 31 or\nhigher\\c[0], she approaches two drunken\nmen in a bar in the western district,\noffering them prostitution."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]堕落度３１以上\\c[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　西区の酒場で、酔っ払いの男二人に売春を持ちかける。"
+                                ""
                             ]
                         },
                         {
@@ -13972,8 +13972,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -14142,14 +14142,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This occurs as you progress through the\nmain story."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メインストーリーを進めることで発生します。"
+                                ""
                             ]
                         },
                         {
@@ -14273,8 +14273,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -14443,14 +14443,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This occurs as you progress through the\nmain story."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メインストーリーを進めることで発生します。"
+                                ""
                             ]
                         },
                         {
@@ -14567,8 +14567,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -14737,14 +14737,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "I am defeated in the depths of the\nscorching desert."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　熱砂の砂漠の最奥で敗北する。"
+                                ""
                             ]
                         },
                         {
@@ -14861,8 +14861,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -15031,14 +15031,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "I am defeated at the deepest part of the\nDemon Ore Mine."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　魔鉱山の最奥で敗北する。"
+                                ""
                             ]
                         },
                         {
@@ -15155,8 +15155,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -15318,14 +15318,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "レスフレーゼ："
+                                "Lesflese: After clearing, you will be\nreleased."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クリア後、解放されるわよ。"
+                                ""
                             ]
                         },
                         {
@@ -15393,14 +15393,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "レスフレーゼ："
+                                "Lesfleze: Remembering Sexual Harassment?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　セクハラを回想する？"
+                                ""
                             ]
                         },
                         {
@@ -15408,8 +15408,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -15520,10 +15520,10 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "街中",
-                                    "ギルド",
-                                    "酒場",
-                                    "やめる"
+                                    "In the town",
+                                    "Guild",
+                                    "Tavern",
+                                    "Stop"
                                 ],
                                 3,
                                 0,
@@ -15683,9 +15683,9 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ギルド",
-                                    "ギルド（全裸）",
-                                    "やめる"
+                                    "Guild",
+                                    "Guild (Naked)",
+                                    "Stop"
                                 ],
                                 2,
                                 0,
@@ -16118,10 +16118,10 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "酒場A",
-                                    "酒場B",
-                                    "酒場C",
-                                    "やめる"
+                                    "Tavern A",
+                                    "Bar B",
+                                    "Tavern C",
+                                    "Stop"
                                 ],
                                 3,
                                 0,
@@ -16773,14 +16773,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Defeated in the deepest part of the\nStarry Forest."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　星詠みの森の最奥で敗北する。"
+                                ""
                             ]
                         },
                         {
@@ -16897,8 +16897,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -17067,14 +17067,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This occurs as you progress through the\nmain story."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メインストーリーを進めることで発生します。"
+                                ""
                             ]
                         },
                         {
@@ -17191,8 +17191,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "やめる"
+                                    "Flashback",
+                                    "Stop"
                                 ],
                                 1,
                                 0,
@@ -17361,14 +17361,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This occurs as you progress through the\nmain story."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　メインストーリーを進めることで発生します。"
+                                ""
                             ]
                         },
                         {
@@ -17485,8 +17485,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想",
-                                    "立ち去る"
+                                    "Flashback",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -17655,21 +17655,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "The conditions will be revealed after\nclearing. *This is not an H event."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　クリア後に条件が開示されます。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※Ｈなイベントではありません。"
+                                ""
                             ]
                         },
                         {
@@ -17744,21 +17744,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Clearing the Dream Tree will unlock it.\n*This is not an H event."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　夢幻の大樹をクリアすると解放されます。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　※Ｈなイベントではありません。"
+                                ""
                             ]
                         },
                         {
@@ -17854,21 +17854,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "You can't skip, is that okay? (About 1\nminute and 30 seconds)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　スキップできないですが、よろしいですか？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　（１分３０秒ほど）"
+                                ""
                             ]
                         },
                         {
@@ -17876,8 +17876,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いいよ",
-                                    "ヤダ"
+                                    "Sure, that's fine",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -18227,21 +18227,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "The hidden credits have been unlocked.\nYou can view them from the bottom right\nof the Zerachiel in the flashback room."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　隠しクレジットが解放されました。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　回想ルーム右下のザラキエルから閲覧できます。"
+                                ""
                             ]
                         },
                         {

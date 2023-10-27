@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "オルフェウス教団",
+    "displayName": "Orpheus Sect",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4417,21 +4417,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: Zerachiel-san, good work. Shall I\nperform the treatment?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルさん、お疲れ様です。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　治療いたしましょうか？"
+                                ""
                             ]
                         },
                         {
@@ -4439,8 +4439,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "お願いする",
-                                    "先を急ぐ"
+                                    "Please",
+                                    "Hurry up"
                                 ],
                                 1,
                                 0,
@@ -4518,14 +4518,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "天使："
+                                "Angel: The treatment has been performed."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　治療いたしました。"
+                                ""
                             ]
                         },
                         {
@@ -5100,21 +5100,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel:\nHyaa...ngh...♡Naaahh...hyauuuu......♡"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ひゃぁっ……んぅっ……♡"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　んぁぁっ…、ひゃうううううう……♡"
+                                ""
                             ]
                         },
                         {
@@ -5226,21 +5226,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: G-Gentle... s-stop... ♡ Ahh...\nn-no... it's... too much... ♡"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ゆ、ゆるひ……てっ……♡"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あうぁっ……も、もう……無理ですからぁ……♡"
+                                ""
                             ]
                         },
                         {
@@ -5490,14 +5490,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: No more... I can't take it\nanymore... ♡"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　らめぇ……もう、限界……が……♡"
+                                ""
                             ]
                         },
                         {
@@ -5657,21 +5657,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: I... can't... ahh... like this...\nbeing... \\c[6]the cult's\\c[0]...\nplaything... ♡"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私……もう……ぁっ……こんな……人間に……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\c[6]教団\\c[0]の……慰み……ものにぃっ……♡"
+                                ""
                             ]
                         },
                         {
@@ -6348,14 +6348,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You guys let your guard down,\nhuh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おじさんたち、油断大敵だったねぇ。"
+                                ""
                             ]
                         },
                         {
@@ -6432,21 +6432,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's okay now. I came to help\nyou, so don't worry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう大丈夫だよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクが助けに来てあげたからさ。"
+                                ""
                             ]
                         },
                         {
@@ -6463,21 +6463,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: Thank you... I... am...\ngrateful..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとう……ござ、います……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たすかり、ました……"
+                                ""
                             ]
                         },
                         {
@@ -6494,52 +6494,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: By the way, this place is the\ncult, right? It's strangely filled with\nmagical power, but what happened?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ところで、ここは教団だよね？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　妙に魔力が満ちているけど、何があったの？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "天使："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ここは……表向き、普通の教団ですが……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　人々を集い……祈りを捧げることで……"
+                                ""
                             ]
                         },
                         {
@@ -6556,45 +6525,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: This place... outwardly, it's a\nnormal cult... where people gather...\nand offer prayers..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　邪神を……復活させようとしております……"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "天使："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　私も……調査を、していたのですが……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　捕まってから、ずっと性処理の相手をさせられて……"
+                                ""
                             ]
                         },
                         {
@@ -6611,14 +6556,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "天使："
+                                "Angel: They are trying to revive the\nevil god..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　他の天使も……おそらく……奥で…………"
+                                "Angel: I... was also... investigating...\nbut after being captured, I've been\nforced to be a sexual outlet..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Angel: The other angels... probably...\ndeep inside..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6635,21 +6635,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I see, I understand now.\nLeave the rest to me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なるほど、よく分かったよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　後はボクに任せておいてね。"
+                                ""
                             ]
                         },
                         {
@@ -6666,14 +6666,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'll come to rescue everyone,\nso don't worry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　みんなを助けてくるからさ。"
+                                ""
                             ]
                         },
                         {
@@ -6806,14 +6806,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "※You cannot access the menu screen until\nyou clear the prologue."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※冒頭をクリアするまで、メニュー画面は開けません。"
+                                ""
                             ]
                         },
                         {
@@ -7090,21 +7090,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's like looking at the\nbodies of those who were tortured...\nIt's terrible what they did."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　拷問された人たちの遺体みたい。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　……酷いことをするもんだよ。"
+                                ""
                             ]
                         },
                         {

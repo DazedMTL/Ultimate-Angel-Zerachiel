@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "トネリコの宿",
+    "displayName": "Toneriko Inn",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4236,21 +4236,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: I came to visit the temple,\nit's a magnificent building, isn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神殿を見学に来たのですが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　素晴らしい建物ですね。"
+                                ""
                             ]
                         },
                         {
@@ -4332,21 +4332,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: I never thought angels could be\nsuch terrifying beings..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使があんなに恐ろしい存在だとは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　思ってもいませんでした……"
+                                ""
                             ]
                         },
                         {
@@ -4363,14 +4363,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: I should have worshipped the\nDemon Lord after all..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　やっぱり魔王を崇拝するべきだったなぁ…"
+                                ""
                             ]
                         },
                         {
@@ -4452,21 +4452,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: I wonder if I'll be attacked by\nan angel on my way back... Ugh... I hope\nI'll be okay..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　帰り道、天使に襲われないかなぁ…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うぅ……大丈夫かなぁ……"
+                                ""
                             ]
                         },
                         {
@@ -4548,14 +4548,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: Huh? Did you enter the wrong\nroom, miss?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　？？　お嬢ちゃん、部屋を間違えたのかな？"
+                                ""
                             ]
                         },
                         {
@@ -4646,21 +4646,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: I came here for sightseeing\nwith my grandchild, but I wonder if we\ncan enjoy seeing the temple?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　孫と観光に来たのじゃが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神殿を見て楽しめるんじゃろうか？"
+                                ""
                             ]
                         },
                         {
@@ -4742,21 +4742,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: I came for sightseeing at the\nworst possible timing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　とんでもないタイミングで、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　観光に来てしまったよ……"
+                                ""
                             ]
                         },
                         {
@@ -4838,21 +4838,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: We don't have time for\nsightseeing anymore, so we're planning\nto leave too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう観光してる場合でもないし、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　私らも引き上げる予定だよ。"
+                                ""
                             ]
                         },
                         {
@@ -4934,14 +4934,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "観光客："
+                                "Tourist: If you don't want to be thrown\ninto prison, get out of here quickly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　牢獄に入れられたくなければ、さっさと出ていきな。"
+                                ""
                             ]
                         },
                         {
@@ -5032,21 +5032,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "剣士："
+                                "Swordsman: I stopped by on my journey,\nbut I sense an ominous presence from the\ntemple priests."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　旅のついでに立ち寄ったけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　神殿の聖職者から不吉な気配を感じるんだ。"
+                                ""
                             ]
                         },
                         {
@@ -5128,21 +5128,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "剣士："
+                                "The swordsman: I was about to be killed by an angel, but the old lady in the next room saved me.\n\n"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　天使に見つかって殺されそうだったけど、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　隣の部屋のお婆ちゃんが助けてくれたんだ。"
+                                ""
                             ]
                         },
                         {
@@ -5159,14 +5159,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "剣士："
+                                "Swordsman: She was a master of martial\narts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　拳法の達人だったよ。"
+                                ""
                             ]
                         },
                         {
@@ -5248,21 +5248,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "剣士："
+                                "Swordsman: I took in the old lady next\ndoor as my disciple. We're planning to\nleave Logres together."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　隣の部屋のお婆ちゃんに弟子入れしたんだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一緒にログレスを去る予定だよ。"
+                                ""
                             ]
                         },
                         {
@@ -5344,14 +5344,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "剣士："
+                                "Swordsman: W-What?! Naked!? Put on some\nclothes, clothes!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　は、裸！？　服を着なさい、服を！！"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "熱砂の洞窟　深層",
+    "displayName": "Deep Layer of the Scorching Sands Cave",
     "encounterList": [],
     "encounterStep": 30,
     "height": 21,
@@ -2432,21 +2432,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オルデリック様："
+                                "Lord Zerachiel: You've come back without\nlearning your lesson, huh? I'll show you\nmy power."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　懲りずにまた来たか。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレ様の力を見せてやろう。"
+                                ""
                             ]
                         },
                         {
@@ -2771,14 +2771,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: So this is the \\c[6]Earth's\nJewel\\c[0], huh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　これが\\c[6]大地の宝珠\\c[0]だね。"
+                                ""
                             ]
                         },
                         {
@@ -2795,14 +2795,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サティア："
+                                "Sachia: Thank goodness we found it so\neasily."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あっさり見つかってよかったね。"
+                                ""
                             ]
                         },
                         {
@@ -2819,14 +2819,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Shall we return to the town\nfor now?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　一旦、街に帰ろうか。"
+                                ""
                             ]
                         },
                         {
@@ -2962,14 +2962,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's something written..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なにか書いてある……"
+                                ""
                             ]
                         },
                         {
@@ -2986,14 +2986,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Beast God Henri, the one who loves\npeace."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　平和を愛する者　獣神アンリ　』"
+                                ""
                             ]
                         },
                         {
@@ -3010,14 +3010,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "God Henri, who loves all people..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　すべての民を愛する神　アンリ……　』"
+                                ""
                             ]
                         },
                         {
@@ -3034,14 +3034,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Stopped the war of the gods and led to\npeace..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　神々の戦争を止め、平和へと導いた……　』"
+                                ""
                             ]
                         },
                         {
@@ -3058,14 +3058,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Even now, Henri is somewhere in the\nworld..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　『　今もアンリは、世界のどこかで……　』"
+                                ""
                             ]
                         },
                         {
@@ -3082,14 +3082,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: The text is blurred, I can't\nread the rest."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　文字がかすれて、他は読めなくなってるね。"
+                                ""
                             ]
                         },
                         {

@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "４Ｆ　聖女の間",
+    "displayName": "4F Saint's Chamber",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4582,14 +4582,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Do you want to teleport to the\nentrance?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　入口に転移しますか？"
+                                ""
                             ]
                         },
                         {
@@ -4597,8 +4597,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

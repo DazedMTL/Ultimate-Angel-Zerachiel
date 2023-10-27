@@ -10024,21 +10024,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "When Zerachiel and the others arrived at\nthe sanctuary, the Seventh Curse\nRetrieval Operation was immediately put\ninto action."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\CLザラキエルたちが聖域へ辿り着くと、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\CL第七呪詛奪還作戦がすぐに決行される事となった"
+                                ""
                             ]
                         },
                         {
@@ -10110,14 +10110,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔王："
+                                "Demon Lord: Is it the right time..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　頃合いか……"
+                                ""
                             ]
                         },
                         {
@@ -10174,38 +10174,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔王："
+                                "Demon Lord: \\{Attention, all troops!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\{全軍に告ぐ！"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "Friendly",
-                                3,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "魔王："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　\\{転移門を制圧せよっ！"
+                                ""
                             ]
                         },
                         {
@@ -10222,14 +10198,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔王："
+                                "Demon Lord: \\{Seize control of the\nteleportation gate!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　\\{“道”を拓け！"
+                                ""
                             ]
                         },
                         {
@@ -10246,14 +10222,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔王："
+                                "Demon Lord: Clear the path!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "Friendly",
+                                3,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　\\{英雄殿を送り届けるのだ！"
+                                "Demon Lord: \\{Send the hero to their\ndestination!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

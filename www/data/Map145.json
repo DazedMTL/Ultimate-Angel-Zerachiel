@@ -16,7 +16,7 @@
         "volume": 35
     },
     "disableDashing": false,
-    "displayName": "聖域へ続く洞窟",
+    "displayName": "Cave leading to the sanctuary",
     "encounterList": [],
     "encounterStep": 30,
     "height": 40,
@@ -11161,14 +11161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Do you want to escape from the\nsanctuary?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　聖域から脱出しますか？"
+                                ""
                             ]
                         },
                         {
@@ -11176,8 +11176,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

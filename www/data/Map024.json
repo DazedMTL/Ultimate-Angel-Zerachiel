@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "ピュアブルー",
+    "displayName": "Pure Blue",
     "encounterList": [],
     "encounterStep": 30,
     "height": 25,
@@ -4994,21 +4994,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's not go upstairs without\npermission... I might get scolded..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　勝手に二階へ行くのは止めておこう…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　怒られそうだしね……"
+                                ""
                             ]
                         },
                         {
@@ -5092,38 +5092,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Hello, welcome ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はーい、いらっしゃい♥"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "受付嬢："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　大人の楽園「ピュアブルー」へようこそ♥"
+                                ""
                             ]
                         },
                         {
@@ -5140,21 +5116,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Welcome to the adult\nparadise Pure Blue ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　って、あら……女の子？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お客さんとして来たのかしら？"
+                                ""
                             ]
                         },
                         {
@@ -5171,14 +5140,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Oh... a girl? Did you come\nas a customer?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それとも、ここへ働きに？"
+                                "Receptionist: Or perhaps you're here to\nwork?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5195,14 +5195,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: No, no! I won't work!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　いやいや！　ボクは働かないよ！！"
+                                ""
                             ]
                         },
                         {
@@ -5219,21 +5219,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Oh, that's too bad... If\nyou ever feel like working, feel free to\nlet us know anytime ♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そう、残念ね……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　働きたくなったら、いつでもお声をかけてね♪"
+                                ""
                             ]
                         },
                         {
@@ -5262,14 +5262,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "To work as a prostitute, you need a\ncorruption level of 31 or higher."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　※娼婦として働くには \\c[6]堕落度31以上\\c[0] が必要です。"
+                                ""
                             ]
                         },
                         {
@@ -5344,38 +5344,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Hello, welcome ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　はーい、いらっしゃい♥"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "受付嬢："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　大人の楽園「ピュアブルー」へようこそ♥"
+                                ""
                             ]
                         },
                         {
@@ -5392,21 +5368,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Welcome to the adult\nparadise Pure Blue ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　って、あら……女の子？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お客さんとして来たのかしら？"
+                                ""
                             ]
                         },
                         {
@@ -5423,14 +5392,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Oh... a girl? Did you come\nas a customer?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　それとも、ここへ働きに？"
+                                "Receptionist: Or perhaps you're here to\nwork?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5447,38 +5447,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Huh, can even I work here?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　えっ、ボクでも働けるの？"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "受付嬢："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ええ、もちろんよ♪"
+                                ""
                             ]
                         },
                         {
@@ -5495,21 +5471,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Yes, of course ♪"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃんなら可愛いし、"
+                                "Receptionist: If you're a young lady,\nyou might become popular in no time and\nbe really cute ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あっという間に売れっ子になれるかもしれないわね♥"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5526,14 +5526,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I want to become popular..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクが売れっ子に……"
+                                ""
                             ]
                         },
                         {
@@ -5550,14 +5550,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: If you want to work, feel\nfree to let me know anytime ♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　働きたいなら、いつでも声をかけてね♪"
+                                ""
                             ]
                         },
                         {
@@ -5654,14 +5654,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Oh, welcome ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、いらっしゃい♥"
+                                ""
                             ]
                         },
                         {
@@ -5678,14 +5678,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (Now, what should I do?)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（さて、どうしようか）"
+                                ""
                             ]
                         },
                         {
@@ -5693,8 +5693,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\I[583]娼館で働く",
-                                    "立ち去る"
+                                    "\\I[583]Working at a brothel",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -5724,38 +5724,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Um, I also want to work..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あの、ボクも働きたいんだけど……"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "受付嬢："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　もちろん大歓迎よっ♪"
+                                ""
                             ]
                         },
                         {
@@ -5772,21 +5748,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Of course, a warm welcome\nto you ♪"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　まずは研修を受けてからになるけど、"
+                                "Receptionist: First, you'll need to\nundergo training. Are you okay with\nthat?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　大丈夫かしら？"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5803,14 +5803,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Um, what exactly is this\ntraining you mentioned..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あの、研修っていうのは……"
+                                ""
                             ]
                         },
                         {
@@ -5827,14 +5827,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Of course, it's a naughty\nguidance ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もちろん、えっちな指導よ♥"
+                                ""
                             ]
                         },
                         {
@@ -5851,14 +5851,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yeah, that's how it is..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　うん、そうなるよね……"
+                                ""
                             ]
                         },
                         {
@@ -5875,38 +5875,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: (I wonder if I can do it\nwell...)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　（ボク、上手くできるかなぁ……）"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "受付嬢："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　そんなに怯えることないわよ？"
+                                ""
                             ]
                         },
                         {
@@ -5923,21 +5899,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: There's no need to be so\nscared, you know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ウチの店ではハードなプレイは禁止だから、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ソフトなプレイばかりだから♪"
+                                ""
                             ]
                         },
                         {
@@ -5954,14 +5923,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: At our store, hardcore\nplay is prohibited, so it's only soft\nplay ♪"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "　さっそく研修を始めても大丈夫かしら？"
+                                "Receptionist: Shall we start the\ntraining right away? Is that okay with\nyou?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5978,14 +5978,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Yes, nice to meet you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　うん、よろしくお願いします。"
+                                ""
                             ]
                         },
                         {
@@ -6002,14 +6002,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Well then, I'll make the\narrangements ♪ Do your best!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それじゃ手配するわね♪　がんばってね！"
+                                ""
                             ]
                         },
                         {
@@ -6133,21 +6133,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Zerachiel-chan, welcome ♥\nAre you going to work today?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ザラキエルちゃん、いらっしゃい♥"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日は働いていく？"
+                                ""
                             ]
                         },
                         {
@@ -6164,14 +6164,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Hmm..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うーん……"
+                                ""
                             ]
                         },
                         {
@@ -6179,8 +6179,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "働く",
-                                    "また今度にする"
+                                    "Work",
+                                    "Let's do it another time"
                                 ],
                                 1,
                                 0,
@@ -6210,14 +6210,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Well then, shall I ask for a\nfavor?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それじゃ、お願いしようかな？"
+                                ""
                             ]
                         },
                         {
@@ -6234,21 +6234,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Haaai ♥ Well then, do your\nbest today too, okay? ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　は～い♥"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　それじゃ、今日もがんばってねっ♥"
+                                ""
                             ]
                         },
                         {
@@ -6315,14 +6315,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I'm tired today, so maybe\nanother time?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　今日は疲れてるから、また今度でいいかな？"
+                                ""
                             ]
                         },
                         {
@@ -6339,21 +6339,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Ryouka~i ♥ Take a nice\nrest, okay? ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　りょうか～い♥"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ゆっくり休んでね♥"
+                                ""
                             ]
                         },
                         {
@@ -6438,21 +6438,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: You must be tired today,\nright? Please take care of yourself and\nsee you again tomorrow ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日はもう疲れたでしょう？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　また明日、よろしくお願いするわね♥"
+                                ""
                             ]
                         },
                         {
@@ -6527,14 +6527,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "受付嬢："
+                                "Receptionist: Come back after you put on\nyour clothes♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　服を着てからまた来てね♪"
+                                ""
                             ]
                         },
                         {
@@ -6625,14 +6625,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Are you also a prostitute?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミも娼婦なのか？"
+                                ""
                             ]
                         },
                         {
@@ -6714,14 +6714,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Especially at times like this,\nwe should have fun."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんなときだからこそ、楽しまないとな。"
+                                ""
                             ]
                         },
                         {
@@ -6803,14 +6803,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: I wonder who I should play\nwith today~"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今日は誰と遊ぼうかなーっと"
+                                ""
                             ]
                         },
                         {
@@ -6892,14 +6892,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Whoa!? This service is\namazing!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うおっ！？　すごいサービスだ！！"
+                                ""
                             ]
                         },
                         {
@@ -6990,21 +6990,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: This is a paradise for men.\nIt's not a place for kids to come."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここは男の楽園だ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ガキが来る場所じゃねえぜ。"
+                                ""
                             ]
                         },
                         {
@@ -7086,21 +7086,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: It's better for a young lady\nlike you not to enter this kind of shop."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あんまりこういう店には入らないほうがいいぞ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お嬢ちゃん。"
+                                ""
                             ]
                         },
                         {
@@ -7182,21 +7182,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: To awaken to exhibitionism at\nsuch a young age, you're a terrifying\nyoung lady..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　その年齢で露出に目覚めるとは、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　恐ろしいお嬢ちゃんだぜ……"
+                                ""
                             ]
                         },
                         {
@@ -7287,14 +7287,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Ojou: It's tough having to entertain\ncustomers every day, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　毎日、お客様の相手をするのも大変なのよね。"
+                                ""
                             ]
                         },
                         {
@@ -7376,14 +7376,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Miss: Father, Mother... I wonder if\nyou're safe..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お父さん、お母さん……無事かしら……"
+                                ""
                             ]
                         },
                         {
@@ -7465,14 +7465,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Ojou: Should I start living properly\nsoon?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そろそろ真っ当に生きようかしら？"
+                                ""
                             ]
                         },
                         {
@@ -7554,14 +7554,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Miss: You forgot to change your clothes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなた、着替え忘れてるわよ。"
+                                ""
                             ]
                         },
                         {
@@ -7652,21 +7652,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Ojou: Oh, a newcomer? It's not good to\ndiscriminate against customers."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あら、新入りさん？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お客様を差別してはダメよ。"
+                                ""
                             ]
                         },
                         {
@@ -7683,14 +7683,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Ojou: You know, I can't love any\ncustomer equally."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どんなお客様も平等に愛せないとね。"
+                                ""
                             ]
                         },
                         {
@@ -7772,21 +7772,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Miss: The angels didn't come to the\nbrothel. I suppose they ignored it\nbecause it's just a business."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　娼館に天使は襲ってこなかったわ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　店が店だから無視されたんでしょうね。"
+                                ""
                             ]
                         },
                         {
@@ -7868,21 +7868,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Miss: You're leaving town, aren't you?\nTake care, okay."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あなた、街を出るんでしょう？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　気をつけてね。"
+                                ""
                             ]
                         },
                         {
@@ -7964,14 +7964,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お嬢："
+                                "Miss: I think walking around naked is\nnot a good idea, you know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　裸で歩くのはどうかと思うわよ？"
+                                ""
                             ]
                         },
                         {
@@ -8122,21 +8122,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Hey, please. Please go out\nwith me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なぁ、頼むよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレと付き合ってくれよ。"
+                                ""
                             ]
                         },
                         {
@@ -8218,14 +8218,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Please, I'll do anything!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　頼む！　なんでもするから！"
+                                ""
                             ]
                         },
                         {
@@ -8307,14 +8307,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: We're dating."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　オレたち、付き合っているんだ。"
+                                ""
                             ]
                         },
                         {
@@ -8396,14 +8396,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Wow, scary..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うわっ、怖……っ"
+                                ""
                             ]
                         },
                         {
@@ -8494,21 +8494,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Are you going to become a lady\ntoo? I heard you can make money in the\nadult entertainment industry."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミもお嬢になるのかい？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　風俗は稼げるらしいね。"
+                                ""
                             ]
                         },
                         {
@@ -8590,14 +8590,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Until the very last moment, I\nwant to indulge in pleasure."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　最後の瞬間まで、ボクは快楽に溺れていたいよ。"
+                                ""
                             ]
                         },
                         {
@@ -8679,21 +8679,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Right now, I'm just enjoying\nthis moment. I won't let anyone deny\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ボクは今、この瞬間を楽しんでいるだけなんだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　誰にも否定させないよ。"
+                                ""
                             ]
                         },
                         {
@@ -8775,14 +8775,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "客："
+                                "Customer: Aren't you embarrassed?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　キミ、恥ずかしくないの？"
+                                ""
                             ]
                         },
                         {

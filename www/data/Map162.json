@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "浴室 ＆ トイレ",
+    "displayName": "Bathroom & Toilet",
     "encounterList": [],
     "encounterStep": 30,
     "height": 16,
@@ -3550,14 +3550,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Oh, there's someone taking a\nshower..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あれ、シャワー浴びてる人がいる……"
+                                ""
                             ]
                         },
                         {
@@ -3574,14 +3574,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Let's take a peek~♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　覗いてみよーっとっ♪"
+                                ""
                             ]
                         },
                         {
@@ -3895,14 +3895,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: She was such a kind older\nsister."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　優しいお姉さんだったなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -3919,21 +3919,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: By the way, Lulu with the\nblue hair... I feel like I've heard that\nsomewhere before."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　それにしても、青髪のルル……"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　どこかで聞いたような気がするなぁ。"
+                                ""
                             ]
                         },
                         {
@@ -3950,14 +3950,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: I hope we can meet again."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　またお会いできるといいね。"
+                                ""
                             ]
                         },
                         {
@@ -4232,14 +4232,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: This seems to be the\nrestroom."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ここはお手洗いみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -4256,21 +4256,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Since I wanted to use the\nrestroom anyway, let's make a quick\nstop."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ちょうどお手洗いもしたかったから、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　立ち寄っておこうかな。"
+                                ""
                             ]
                         },
                         {

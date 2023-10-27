@@ -12028,14 +12028,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's a nest of monsters!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　魔物の巣だっ！？"
+                                ""
                             ]
                         },
                         {
@@ -12303,14 +12303,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there are no\nmore monsters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう魔物はいないみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -12563,14 +12563,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there are no\nmore monsters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう魔物はいないみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -12840,14 +12840,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's a nest of monsters!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　魔物の巣だっ！？"
+                                ""
                             ]
                         },
                         {
@@ -13115,14 +13115,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there are no\nmore monsters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう魔物はいないみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -13375,14 +13375,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there are no\nmore monsters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう魔物はいないみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -13717,14 +13717,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "？？？："
+                                "???: Please wait a moment!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お待ちくださいませっ！！"
+                                ""
                             ]
                         },
                         {
@@ -14157,14 +14157,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: You've already revived!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう復活したのっ！？"
+                                ""
                             ]
                         },
                         {
@@ -14181,14 +14181,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: I've always had confidence in\nmy healing abilities, you know ♥"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　昔から、治癒能力だけは自信がございますのっ♥"
+                                ""
                             ]
                         },
                         {
@@ -14205,14 +14205,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クラウディア："
+                                "Claudia: What a troublesome ability..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　厄介な能力ね……"
+                                ""
                             ]
                         },
                         {
@@ -14229,14 +14229,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シェミニ："
+                                "Shemini: This time, I'll come at you\nwith all my might!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　今度は本気で参りますわよっ！！"
+                                ""
                             ]
                         },
                         {
@@ -14488,14 +14488,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It's a nest of monsters!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　魔物の巣だっ！？"
+                                ""
                             ]
                         },
                         {
@@ -14763,14 +14763,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there are no\nmore monsters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう魔物はいないみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -15023,14 +15023,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there are no\nmore monsters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう魔物はいないみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -15300,14 +15300,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\c[31]クラウディア\\c[0]"
+                                "\\c[31]Claudia\\c[0] Is this... a memento\nof an adventurer, I wonder?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　これは…冒険者の遺品かしら？"
+                                ""
                             ]
                         },
                         {
@@ -15599,14 +15599,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there's nothing\nleft."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう何もないみたいだね。"
+                                ""
                             ]
                         },
                         {
@@ -15867,14 +15867,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: It seems like there's nothing\nleft."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう何もないみたいだね。"
+                                ""
                             ]
                         },
                         {

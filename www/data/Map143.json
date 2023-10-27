@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "聖域へ続く道 Ｃ地点",
+    "displayName": "Path leading to the Holy Sanctuary, Point C",
     "encounterList": [],
     "encounterStep": 30,
     "height": 30,
@@ -5841,21 +5841,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: I've prepared the supplies. Take\nwhat you need."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　物資を用意しといた。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　必要なものを持って行くのじゃ。"
+                                ""
                             ]
                         },
                         {
@@ -5879,14 +5879,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: You're not going to take the\nmoney...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　金は取るのじゃな……！？"
+                                ""
                             ]
                         },
                         {
@@ -5903,21 +5903,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メル："
+                                "Mel: Yes, of course. It's because you're\nhere."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　うむ、当然じゃ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おぬしがいるからのう。"
+                                ""
                             ]
                         },
                         {
@@ -5934,14 +5934,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ラヴィ："
+                                "Rabi: Is this my responsibility, I\nwonder!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　わらわの責任かのっ！？"
+                                ""
                             ]
                         },
                         {
@@ -6479,14 +6479,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: I will provide treatment."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　治療いたしますわ。"
+                                ""
                             ]
                         },
                         {
@@ -6571,14 +6571,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: Thank you, Aries!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ありがとう、アリエス！"
+                                ""
                             ]
                         },
                         {
@@ -6595,21 +6595,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アリエス："
+                                "Aries: We're almost at the sanctuary!\nPlease do your best...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もう少しで聖域ですわ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　頑張ってくださいませ……！！"
+                                ""
                             ]
                         },
                         {

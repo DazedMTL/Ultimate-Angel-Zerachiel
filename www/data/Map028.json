@@ -16,7 +16,7 @@
         "volume": 90
     },
     "disableDashing": false,
-    "displayName": "１Ｆ　フロアＤ",
+    "displayName": "1F Floor D",
     "encounterList": [],
     "encounterStep": 30,
     "height": 50,
@@ -17629,14 +17629,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's something written...\nSun God...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　何か書いてある……太陽神……？"
+                                ""
                             ]
                         },
                         {
@@ -17653,14 +17653,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "The Sun God, Jirunitra, is the last god\nto exist on Earth."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　太陽神ジルニトラは地上に存在する最後の神だ。　』"
+                                ""
                             ]
                         },
                         {
@@ -17677,21 +17677,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "Survival has been confirmed on the\nsmall island of Arethia in the Imperial\nTerritory, at Mount Estra..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　帝国領の小島アレーティアのエスタ火山で"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　　　生存が確認されているが……　』"
+                                ""
                             ]
                         },
                         {
@@ -17708,21 +17708,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "Its appearance is far from that of the\ngods... It is truly a demonic dragon."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　その姿は神々とは遠い邪悪な姿……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　　　まさに魔竜である。　』"
+                                ""
                             ]
                         },
                         {
@@ -17739,14 +17739,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "If you get closer, there will be no\nlife."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　『　近づけば命は無いであろう。　』"
+                                ""
                             ]
                         },
                         {
@@ -17833,14 +17833,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
+                                "Zerachiel: There's a hidden staircase\nhere..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　こんなところに隠し階段が……"
+                                ""
                             ]
                         },
                         {
