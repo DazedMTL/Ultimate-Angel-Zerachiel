@@ -20,7 +20,7 @@ Imported.StatusExLabel = true;
             //ザラキエルの場合はエロステを表示
 
             //エロステの項目名
-            var koumoku = ['Chest', 'Sex', 'Anal', 'Pussy', 'Masturbated', 'Climaxes']
+            var koumoku = ['Chest', 'Oral', 'Anal', 'Pussy', 'Masturbation', 'Climax']
             //エロステの項目に入れる変数
             var numEro = [1, 2, 3, 4, 5, 6]
 
