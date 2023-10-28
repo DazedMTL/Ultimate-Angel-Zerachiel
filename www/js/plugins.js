@@ -71,7 +71,7 @@ var $plugins =
         { "name": "Foreground", "status": true, "description": "マップに合わせてスクロールする近景の設定", "parameters": {} },
         { "name": "ForegroundToParallax", "status": true, "description": "Foregroundの遠景化プラグイン", "parameters": {} },
         { "name": "TMBalloonLoop", "status": true, "description": "フキダシアイコンをループ表示させます。", "parameters": {} },
-        { "name": "TMItemCategoryEx", "status": true, "description": "アイテムカテゴリの追加、削除をおこないます。", "parameters": { "categoryList": "\\I[810]Item \\I[755]Weapon \\I[523]Armor \\I[384]Body \\I[811]Ring" } },
+        { "name": "TMItemCategoryEx", "status": true, "description": "アイテムカテゴリの追加、削除をおこないます。", "parameters": { "categoryList": "\\I[810]Item \\I[755]Weapon \\I[523]Head \\I[384]Body \\I[811]Ring" } },
         { "name": "------------------------", "status": true, "description": "----------------------------------------------------------------------------------", "parameters": {} },
         { "name": "MessageAlignmentEC", "status": true, "description": "ver1.04/メッセージのアライメントを変更する制御文字を追加します。", "parameters": { "ExtendEC": "" } },
         { "name": "MKR_ControlCharacterEx", "status": true, "description": "(v1.2.1) 制御文字拡張プラグイン", "parameters": { "Default_SE_Volume": "90", "Default_SE_Pitch": "100", "Default_SE_Pan": "0", "Default_ME_Volume": "90", "Default_ME_Pitch": "100", "Default_ME_Pan": "0", "Default_Wait_Period": "15", "Default_Wait_Line": "60", "Default_Name_Color": "0", "Default_Icon_Margin": "0", "Default_Gold_Background": "0", "Default_Gold_Position": "6", "Message_Icon_Margin": "4" } },
