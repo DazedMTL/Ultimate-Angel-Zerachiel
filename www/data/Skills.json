@@ -190,7 +190,7 @@
             "type": 1,
             "variance": 10
         },
-        "description": "\\I[592] \\c[6]Fires a single fireball, dealing moderate damage.",
+        "description": "\\I[592] \\c[6]Fires a single-target fireball ability, dealing moderate damage.",
         "effects": [
             {
                 "code": 21,
