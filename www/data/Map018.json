@@ -9326,7 +9326,7 @@
                         "wait": false
                     },
                     "moveSpeed": 3,
-                    "moveType": 0,
+                    "moveType": 3,
                     "priorityType": 1,
                     "stepAnime": false,
                     "through": false,
@@ -10426,8 +10426,8 @@
                         "selfSwitchValid": false,
                         "switch1Id": 194,
                         "switch1Valid": true,
-                        "switch2Id": 1,
-                        "switch2Valid": false,
+                        "switch2Id": 10,
+                        "switch2Valid": true,
                         "variableId": 1,
                         "variableValid": false,
                         "variableValue": 0

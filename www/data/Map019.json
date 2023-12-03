@@ -9043,6 +9043,17 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                26,
+                                26,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
                             "code": 121,
                             "indent": 2,
                             "parameters": [
@@ -9118,8 +9129,8 @@
                         "itemValid": false,
                         "selfSwitchCh": "A",
                         "selfSwitchValid": false,
-                        "switch1Id": 1,
-                        "switch1Valid": false,
+                        "switch1Id": 11,
+                        "switch1Valid": true,
                         "switch2Id": 110,
                         "switch2Valid": true,
                         "variableId": 12,
@@ -9747,7 +9758,7 @@
                         "switch2Id": 110,
                         "switch2Valid": true,
                         "variableId": 24,
-                        "variableValid": false,
+                        "variableValid": true,
                         "variableValue": 1
                     },
                     "directionFix": false,
@@ -10435,8 +10446,8 @@
                         "switch1Valid": true,
                         "switch2Id": 110,
                         "switch2Valid": true,
-                        "variableId": 24,
-                        "variableValid": false,
+                        "variableId": 26,
+                        "variableValid": true,
                         "variableValue": 1
                     },
                     "directionFix": false,
@@ -11090,8 +11101,8 @@
                         "switch1Valid": true,
                         "switch2Id": 110,
                         "switch2Valid": true,
-                        "variableId": 24,
-                        "variableValid": false,
+                        "variableId": 26,
+                        "variableValid": true,
                         "variableValue": 1
                     },
                     "directionFix": false,
@@ -13982,6 +13993,17 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                25,
+                                25,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
                             "code": 121,
                             "indent": 2,
                             "parameters": [
@@ -14068,8 +14090,8 @@
                         "selfSwitchValid": false,
                         "switch1Id": 28,
                         "switch1Valid": true,
-                        "switch2Id": 1,
-                        "switch2Valid": false,
+                        "switch2Id": 32,
+                        "switch2Valid": true,
                         "variableId": 12,
                         "variableValid": true,
                         "variableValue": 51
@@ -14677,8 +14699,8 @@
                         "switch1Valid": true,
                         "switch2Id": 85,
                         "switch2Valid": true,
-                        "variableId": 23,
-                        "variableValid": false,
+                        "variableId": 25,
+                        "variableValid": true,
                         "variableValue": 1
                     },
                     "directionFix": false,
@@ -15431,8 +15453,8 @@
                         "switch1Valid": true,
                         "switch2Id": 34,
                         "switch2Valid": true,
-                        "variableId": 23,
-                        "variableValid": false,
+                        "variableId": 25,
+                        "variableValid": true,
                         "variableValue": 1
                     },
                     "directionFix": false,
@@ -16065,12 +16087,12 @@
                         "itemValid": false,
                         "selfSwitchCh": "B",
                         "selfSwitchValid": false,
-                        "switch1Id": 34,
+                        "switch1Id": 28,
                         "switch1Valid": true,
                         "switch2Id": 189,
                         "switch2Valid": true,
-                        "variableId": 23,
-                        "variableValid": false,
+                        "variableId": 25,
+                        "variableValid": true,
                         "variableValue": 1
                     },
                     "directionFix": false,

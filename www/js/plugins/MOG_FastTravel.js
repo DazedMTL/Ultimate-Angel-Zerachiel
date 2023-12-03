@@ -241,6 +241,7 @@ Moghunter.fastTravelOther = [];
 Moghunter.fastTravel_Towns[1] = { name: "港町グランフェリア", x: 2422, y: 785, mapID: 100, mapX: 17, mapY: 1, direction: 2 };
 Moghunter.fastTravel_Towns[2] = { name: "魔都ヴァール", x: 955, y: 920, mapID: 133, mapX: 24, mapY: 26, direction: 8 };
 Moghunter.fastTravel_Towns[3] = { name: "地下火山都市", x: 1820, y: 980, mapID: 178, mapX: 59, mapY: 3, direction: 2 };
+Moghunter.fastTravel_Towns[4] = { name: "地下火山都市2", x: 1820, y: 980, mapID: 178, mapX: 59, mapY: 3, direction: 2 };
 //=============================================================================
 // ** DUNGEONS
 //=============================================================================	
@@ -338,6 +339,7 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 		SceneManager.push(SceneFastTravel);
 		this.wait(10);
 	} else if (command === "enable_town") {
+
 		if ($gameSystem._fastTravelTowns[Number(args[1])]) {
 			$gameSystem._fastTravelTowns[Number(args[1])][0] = true;
 		};
@@ -361,8 +363,76 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 		if ($gameSystem._fastTravelOther[Number(args[1])]) {
 			$gameSystem._fastTravelOther[Number(args[1])][0] = false;
 		};
+	} else if (command === "update_map") { //koke add
+		this._pre_fastTravelTowns = []
+		this._pre_fastTravelDungeons = []
+		this._pre_fastTravelOther = []
+		this._fastTravelData = null;
+		this._fastTravelSelection = [-1, ""];
+		this._fastTravelSelected = false;
+
+		for (var i = 0; i < Moghunter.fastTravel_Towns.length; i++) {
+			this._pre_fastTravelTowns[i] = [false, Moghunter.fastTravel_Towns[i], false];
+		};
+
+		for (var i = 0; i < Moghunter.fastTravelDungeons.length; i++) {
+			this._pre_fastTravelDungeons[i] = [false, Moghunter.fastTravelDungeons[i], false];
+		};
+
+		for (var i = 0; i < Moghunter.fastTravelOther.length; i++) {
+			this._pre_fastTravelOther[i] = [false, Moghunter.fastTravelOther[i], false];
+		};
+
+		for (var i = 1; i < $gameSystem._fastTravelTowns.length; i++) {
+			for (var j = 1; j < this._pre_fastTravelTowns.length; j++) {
+				if ($gameSystem._fastTravelTowns[i][1].name == this._pre_fastTravelTowns[i][1].name) {
+					this._pre_fastTravelTowns[i][0] = $gameSystem._fastTravelTowns[i][0];
+					this._pre_fastTravelTowns[i][2] = $gameSystem._fastTravelTowns[i][2];
+				};
+			};
+		};
+
+		for (var i = 1; i < $gameSystem._fastTravelDungeons.length; i++) {
+			for (var j = 1; j < this._pre_fastTravelDungeons.length; j++) {
+				if ($gameSystem._fastTravelDungeons[i][1].name == this._pre_fastTravelDungeons[i][1].name) {
+					this._pre_fastTravelDungeons[i][0] = $gameSystem._fastTravelDungeons[i][0];
+					this._pre_fastTravelDungeons[i][2] = $gameSystem._fastTravelDungeons[i][2];
+				};
+			};
+		};
+
+		for (var i = 1; i < $gameSystem._fastTravelOther.length; i++) {
+			for (var j = 1; j < this._pre_fastTravelOther.length; j++) {
+				if ($gameSystem._fastTravelOther[i][1].name == this._pre_fastTravelOther[j][1].name) {
+					this._pre_fastTravelOther[i][0] = $gameSystem._fastTravelOther[j][0];
+					this._pre_fastTravelOther[i][2] = $gameSystem._fastTravelOther[j][2];
+				};
+			};
+		};
+
+		for (var i = 0; i < $gameSystem._fastTravelTowns.length; i++) {
+			$gameSystem._fastTravelTowns[i] = null;
+		};
+		for (var i = 0; i < $gameSystem._fastTravelDungeons.length; i++) {
+			$gameSystem._fastTravelDungeons[i] = null;
+		};
+		for (var i = 0; i < $gameSystem._fastTravelOther.length; i++) {
+			$gameSystem._fastTravelOther[i] = null;
+		};
+
+		for (var i = 0; i < this._pre_fastTravelTowns.length; i++) {
+			$gameSystem._fastTravelTowns[i] = this._pre_fastTravelTowns[i];
+		};
+		for (var i = 0; i < this._pre_fastTravelDungeons.length; i++) {
+			$gameSystem._fastTravelDungeons[i] = this._pre_fastTravelDungeons[i];
+		};
+		for (var i = 0; i < this._pre_fastTravelOther.length; i++) {
+			$gameSystem._fastTravelOther[i] = this._pre_fastTravelOther[i];
+		};
+
+		$gameSystem._fastTravelComp = (this._pre_fastTravelTowns.length + this._pre_fastTravelDungeons.length + this._pre_fastTravelOther.length) - 3;
 	};
-	return true;
+
 };
 
 //=============================================================================
@@ -822,6 +892,8 @@ SceneFastTravel.prototype.createCompleted = function () {
 	this._comp.y = Moghunter.fastTravel_Comp_Y
 	this._comp.bitmap.fontSize = Moghunter.fastTravel_Comp_FontSize;
 	var ct = this._DataTown.length + this._DataDungeon.length + this._DataOther.length;
+	//  var perc = Math.floor(ct / $gameSystem._fastTravelComp * 100)
+	//  var total = ct + " / " + $gameSystem._fastTravelComp
 	var perc = Math.floor(ct / $gameSystem._fastTravelComp * 100)
 	var total = ct + " / " + $gameSystem._fastTravelComp
 	this._comp.bitmap.drawText(total + " (" + perc + "%" + ")", 0, 0, 200, 32, "center");

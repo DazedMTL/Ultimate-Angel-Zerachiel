@@ -8961,30 +8961,6 @@
                             "code": 101,
                             "indent": 0,
                             "parameters": [
-                                "Actor1",
-                                1,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Zerachiel: Everyone, let's go!!"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
                                 "Actor3",
                                 4,
                                 0,
@@ -9009,12 +8985,89 @@
                             "code": 0,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "　……手加減は必要ですか？"
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 0,
+                            "parameters": [
+                                [
+                                    "手加減してもらう",
+                                    "本気でかかってこい"
+                                ],
+                                1,
+                                0,
+                                2,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                "手加減してもらう"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                1,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "　みんな、いくよっ！！"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "　かかってきなさい。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "　星々に導かれし申し子たちよ。"
                             ]
                         },
                         {
                             "code": 132,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 {
                                     "name": "Battle_Boss_06",
@@ -9026,22 +9079,22 @@
                         },
                         {
                             "code": 301,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 0,
-                                130,
+                                179,
                                 false,
                                 true
                             ]
                         },
                         {
                             "code": 601,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": []
                         },
                         {
                             "code": 241,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 {
                                     "name": "Event_Hope",
@@ -9053,14 +9106,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 12
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9070,21 +9123,21 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: These are the ones who defeated the\nStar God..."
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 1,
+                            "code": 401,
+                            "indent": 2,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9094,7 +9147,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Is this the last hope...?"
                             ]
@@ -9108,7 +9161,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9118,7 +9171,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Hehe, I certainly witnessed it."
                             ]
@@ -9132,7 +9185,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9142,7 +9195,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: If it's you all, you might be able\nto change the future."
                             ]
@@ -9163,7 +9216,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor1",
                                 4,
@@ -9173,7 +9226,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Zerachiel: Even though you said you were\nserious, it felt like you were holding\nback..."
                             ]
@@ -9194,7 +9247,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9204,7 +9257,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Well, how about it?"
                             ]
@@ -9218,7 +9271,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9228,7 +9281,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Through the battle just now, I\nrealized that I can trust all of you."
                             ]
@@ -9249,7 +9302,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9259,7 +9312,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: ...From now on, there may be a long\nand difficult reality waiting."
                             ]
@@ -9280,7 +9333,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9290,7 +9343,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Even so, if it's all of you... I\nbelieve we can overcome it."
                             ]
@@ -9311,7 +9364,7 @@
                         },
                         {
                             "code": 205,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 1,
                                 {
@@ -9332,7 +9385,7 @@
                         },
                         {
                             "code": 505,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 {
                                     "code": 19,
@@ -9342,7 +9395,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9352,7 +9405,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: Ern-sama, are you going...?"
                             ]
@@ -9366,7 +9419,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9376,7 +9429,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: If that's the case, please take me\nwith you too...!"
                             ]
@@ -9397,7 +9450,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9407,7 +9460,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Lala, even if you're not worried,\nit's okay."
                             ]
@@ -9421,7 +9474,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9431,7 +9484,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: We can meet again."
                             ]
@@ -9445,7 +9498,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9455,7 +9508,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Treasure your comrades and lend a\nhand when they're in trouble."
                             ]
@@ -9476,7 +9529,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9486,7 +9539,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: Ern-sama..."
                             ]
@@ -9500,7 +9553,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9510,7 +9563,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: ...Understood!"
                             ]
@@ -9524,7 +9577,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9534,7 +9587,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: The next time we meet, I'll show\nyou how much stronger I've become!!"
                             ]
@@ -9555,7 +9608,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9565,7 +9618,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: Even without relying on Ern-sama's\npower, I will become strong enough to\nprotect everyone!"
                             ]
@@ -9586,7 +9639,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9596,7 +9649,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: You can become it."
                             ]
@@ -9610,7 +9663,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 4,
@@ -9620,7 +9673,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Ern: Surely, I will become an angel more\nsplendid than anyone else..."
                             ]
@@ -9634,7 +9687,7 @@
                         },
                         {
                             "code": 250,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 {
                                     "name": "Ice7",
@@ -9646,7 +9699,7 @@
                         },
                         {
                             "code": 223,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 [
                                     255,
@@ -9660,7 +9713,7 @@
                         },
                         {
                             "code": 121,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 328,
                                 328,
@@ -9669,7 +9722,7 @@
                         },
                         {
                             "code": 223,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 [
                                     0,
@@ -9683,7 +9736,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 1,
@@ -9693,7 +9746,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Sachia: They've gone..."
                             ]
@@ -9707,7 +9760,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 0,
@@ -9717,7 +9770,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Claudia: It seems like they were waiting\nfor us to come."
                             ]
@@ -9731,7 +9784,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 2,
@@ -9741,7 +9794,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Rabi: You seemed happy to see Lala."
                             ]
@@ -9755,7 +9808,7 @@
                         },
                         {
                             "code": 205,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 7,
                                 {
@@ -9776,7 +9829,7 @@
                         },
                         {
                             "code": 505,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 {
                                     "code": 16,
@@ -9786,7 +9839,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9796,7 +9849,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: I-Is that so?"
                             ]
@@ -9810,7 +9863,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor1",
                                 2,
@@ -9820,7 +9873,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Zerachiel: Yes, I was happy."
                             ]
@@ -9834,7 +9887,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor1",
                                 0,
@@ -9844,7 +9897,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Zerachiel: (Because I was really\nreluctant to part ways)"
                             ]
@@ -9858,7 +9911,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9868,7 +9921,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: Thank you, everyone."
                             ]
@@ -9882,7 +9935,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9892,7 +9945,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: I will become strong. I will show\neveryone that I can become a splendid\nangel more than anyone else."
                             ]
@@ -9913,7 +9966,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9923,7 +9976,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: \\c[6]The god of a new era\\c[0], I\ndon't know who they are..."
                             ]
@@ -9944,7 +9997,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 3,
@@ -9954,7 +10007,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Lala: I will definitely overcome it and\nshow everyone."
                             ]
@@ -9968,7 +10021,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor1",
                                 0,
@@ -9978,7 +10031,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Zerachiel: I won't lose either."
                             ]
@@ -9992,7 +10045,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 0,
@@ -10002,7 +10055,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Claudia: It's going to be tough from now\non, but I feel like we can overcome it\nif we're together."
                             ]
@@ -10030,7 +10083,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 1,
@@ -10040,7 +10093,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Sachia: We have to do our best too."
                             ]
@@ -10054,7 +10107,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor3",
                                 2,
@@ -10064,7 +10117,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Rabi: Yes, that's right!!"
                             ]
@@ -10078,7 +10131,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor1",
                                 0,
@@ -10088,7 +10141,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Zerachiel: Well then, shall we go home?"
                             ]
@@ -10102,7 +10155,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor1",
                                 2,
@@ -10112,7 +10165,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Zerachiel: To Logres, where everyone is\nwaiting."
                             ]
@@ -10126,7 +10179,7 @@
                         },
                         {
                             "code": 231,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 30,
                                 "Black",
@@ -10142,7 +10195,7 @@
                         },
                         {
                             "code": 232,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 30,
                                 0,
@@ -10160,45 +10213,45 @@
                         },
                         {
                             "code": 117,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 81
                             ]
                         },
                         {
                             "code": 230,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 60
                             ]
                         },
                         {
                             "code": 0,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": []
                         },
                         {
                             "code": 603,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": []
                         },
                         {
                             "code": 117,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 12
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 74
                             ]
                         },
                         {
                             "code": 201,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 0,
                                 234,
@@ -10210,10 +10263,64 @@
                         },
                         {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "Actor1",
                                 4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　だめだ、勝てないよ……"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　もっと強くならないと……"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 604,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                "本気でかかってこい"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor1",
+                                1,
                                 0,
                                 2
                             ]
@@ -10229,15 +10336,1190 @@
                             "code": 0,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "　みんな、いくよっ！！"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "　かかってきなさい。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "　星々に導かれし申し子たちよ。"
+                            ]
+                        },
+                        {
+                            "code": 132,
+                            "indent": 1,
+                            "parameters": [
+                                {
+                                    "name": "Battle_Boss_06",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 301,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                178,
+                                false,
+                                true
+                            ]
+                        },
+                        {
+                            "code": 601,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 241,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "name": "Event_Hope",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                12
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　これが星神を倒した者たち……"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　\\c[6]最後の希望\\c[0]ですか……"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　フフ、たしかに見届けさせて頂きました。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　あなたがたなら、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　未来を変えられるかもしれません。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　……これから長く、辛い現実が"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　待ち受けているかもしれません。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　それでも、あなたたちならば……"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　乗り越えられると信じております。"
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 2,
+                            "parameters": [
+                                1,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 19,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "code": 19,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　エルン様、行くのですか……？"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　それならあたしも"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　一緒に連れて行ってください……！"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　ララ、不安にならずとも大丈夫です。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　また、会えますから。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　仲間を大切にして、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　困ったときは手を取り合うのですよ。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　エルン様……"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　……わかりましたっ！"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　次に会うときは、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　もっと強くなってみせますっ！！"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　エルン様の力を借りなくても、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　みんなを守れるようになりますからっ！"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　あなたならなれますよ。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "エルン："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　誰よりも立派な天使に、きっと……"
+                            ]
+                        },
+                        {
+                            "code": 250,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "name": "Ice7",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 223,
+                            "indent": 2,
+                            "parameters": [
+                                [
+                                    255,
+                                    255,
+                                    255,
+                                    0
+                                ],
+                                60,
+                                true
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                328,
+                                328,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 223,
+                            "indent": 2,
+                            "parameters": [
+                                [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                60,
+                                true
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                1,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "サティア："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　行っちゃった……"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "クラウディア："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　私たちが来るのを待っていたみたいね。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                2,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ラヴィ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　ララに会えて、嬉しそうじゃったぞ。"
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 2,
+                            "parameters": [
+                                7,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 16,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "code": 16,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　そ、そうかしら？"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor1",
+                                2,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　うん、喜んでいたよ。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　（すごく名残惜しんでいたからね）"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　みんな、ありがとうね。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　あたし、強くなる。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　誰よりも立派な天使になってみせるわ。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　\\c[6]新たなる時代の神\\c[0]が、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　何者か知らないけれど……"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ララ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　必ず乗り越えてみせるわ。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　ボクも負けないぞ。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "クラウディア："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　これからが大変だけど、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　みんなと一緒なら"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　乗り越えられる気がするわ。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                1,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "サティア："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　ボクたちも頑張らないとね。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor3",
+                                2,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ラヴィ："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　うむ、そうじゃなっ！！"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor1",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　それじゃ、帰ろうか。"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor1",
+                                2,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　みんなの待っているログレスへ。"
+                            ]
+                        },
+                        {
+                            "code": 231,
+                            "indent": 2,
+                            "parameters": [
+                                30,
+                                "Black",
+                                0,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 232,
+                            "indent": 2,
+                            "parameters": [
+                                30,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                255,
+                                0,
+                                60,
+                                true
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                81
+                            ]
+                        },
+                        {
+                            "code": 230,
+                            "indent": 2,
+                            "parameters": [
+                                60
                             ]
                         },
                         {
                             "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 603,
                             "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
                             "parameters": [
-                                ""
+                                12
                             ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                74
+                            ]
+                        },
+                        {
+                            "code": 201,
+                            "indent": 2,
+                            "parameters": [
+                                0,
+                                234,
+                                14,
+                                12,
+                                2,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "Actor1",
+                                4,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ザラキエル："
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　だめだ、勝てないよ……"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "　もっと強くならないと……"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 604,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -10245,7 +11527,7 @@
                             "parameters": []
                         },
                         {
-                            "code": 604,
+                            "code": 404,
                             "indent": 0,
                             "parameters": []
                         },

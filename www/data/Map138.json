@@ -1778,13 +1778,13 @@
                                 0,
                                 0,
                                 0,
-                                -1100,
+                                -1500,
                                 0,
                                 200,
                                 200,
                                 255,
                                 0,
-                                65,
+                                50,
                                 false
                             ]
                         },
@@ -1872,7 +1872,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT Version:_Retail_\nVersion 1.0.0"
+                                "D_TEXT Version:_Retail_\nVersion 1.0.12"
                             ]
                         },
                         {

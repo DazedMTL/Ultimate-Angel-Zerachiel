@@ -882,18 +882,18 @@
     {
         "id": 38,
         "atypeId": 2,
-        "description": "\\I[476] \\c[6]Enhancement\\c[0] Recovers 7% of HP every turn.",
+        "description": "\\I[476] \\c[6]Enhancement\\c[0] Recovers 10% of HP every turn.",
         "etypeId": 4,
         "traits": [
             {
-                "code": 22,
+                "code": 14,
                 "dataId": 7,
-                "value": 0.07
+                "value": 1
             }
         ],
         "iconIndex": 476,
-        "name": "Ring of Regeneration",
-        "note": "<itemCategory:\\I[811]Ring>",
+        "name": "再生の指輪",
+        "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateHP: 10>",
         "params": [
             0,
             0,
@@ -1389,7 +1389,7 @@
             0,
             80,
             0,
-            0,
+            45,
             0,
             0
         ],
@@ -1940,7 +1940,13 @@
         "atypeId": 2,
         "description": "\\I[476] \\c[6]Enhancement\\c[0] Recovers 20 HP every turn.",
         "etypeId": 4,
-        "traits": [],
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 7,
+                "value": 1
+            }
+        ],
         "iconIndex": 476,
         "name": "Ring of Regeneration+",
         "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateHP: 20>\n\n<mat1:a38*1>\n<mat2:I37*1>",

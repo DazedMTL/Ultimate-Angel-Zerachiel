@@ -16253,13 +16253,6 @@
                             ]
                         },
                         {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "PushGab 4 Is_it_because_it's_a_small_castle?"
-                            ]
-                        },
-                        {
                             "code": 0,
                             "indent": 0,
                             "parameters": []

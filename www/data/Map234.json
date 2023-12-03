@@ -6477,6 +6477,91 @@
                     },
                     "list": [
                         {
+                            "code": 205,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 42,
+                                            "parameters": [
+                                                128
+                                            ],
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 15,
+                                            "parameters": [
+                                                120
+                                            ],
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 42,
+                                            "parameters": [
+                                                255
+                                            ],
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 42,
+                                    "parameters": [
+                                        128
+                                    ],
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 15,
+                                    "parameters": [
+                                        120
+                                    ],
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 42,
+                                    "parameters": [
+                                        255
+                                    ],
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 123,
+                            "indent": 0,
+                            "parameters": [
+                                "A",
+                                1
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 0,
                             "parameters": []
@@ -6498,8 +6583,8 @@
                     "moveType": 0,
                     "priorityType": 0,
                     "stepAnime": false,
-                    "through": true,
-                    "trigger": 0,
+                    "through": false,
+                    "trigger": 4,
                     "walkAnime": true
                 },
                 {
@@ -6646,6 +6731,91 @@
                     },
                     "list": [
                         {
+                            "code": 205,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 42,
+                                            "parameters": [
+                                                128
+                                            ],
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 15,
+                                            "parameters": [
+                                                120
+                                            ],
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 42,
+                                            "parameters": [
+                                                255
+                                            ],
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 42,
+                                    "parameters": [
+                                        128
+                                    ],
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 15,
+                                    "parameters": [
+                                        120
+                                    ],
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 42,
+                                    "parameters": [
+                                        255
+                                    ],
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 123,
+                            "indent": 0,
+                            "parameters": [
+                                "A",
+                                1
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 0,
                             "parameters": []
@@ -6668,7 +6838,7 @@
                     "priorityType": 0,
                     "stepAnime": false,
                     "through": true,
-                    "trigger": 0,
+                    "trigger": 4,
                     "walkAnime": true
                 },
                 {

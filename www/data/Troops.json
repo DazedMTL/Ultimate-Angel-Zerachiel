@@ -4,8 +4,8 @@
         "id": 1,
         "members": [
             {
-                "enemyId": 131,
-                "x": 320,
+                "enemyId": 190,
+                "x": 408,
                 "y": 436,
                 "hidden": false
             }
@@ -19295,8 +19295,21 @@
     },
     {
         "id": 178,
-        "members": [],
-        "name": "",
+        "members": [
+            {
+                "enemyId": 192,
+                "x": 256,
+                "y": 444,
+                "hidden": false
+            },
+            {
+                "enemyId": 193,
+                "x": 560,
+                "y": 352,
+                "hidden": true
+            }
+        ],
+        "name": "HD_楽園の守護者",
         "pages": [
             {
                 "conditions": {
@@ -19311,9 +19324,1284 @@
                     "turnA": 0,
                     "turnB": 0,
                     "turnEnding": false,
+                    "turnValid": true
+                },
+                "list": [
+                    {
+                        "code": 117,
+                        "indent": 0,
+                        "parameters": [
+                            5
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　私はあの方から、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　楽園の守護者としての役割を頂きました。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　夢幻の大樹では、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あなたたちを助けてくれる"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　奇跡は起こりません。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　星神を超える絶望を、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あなたたちに教えてあげましょう。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　この星を救いたければ、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　本気の私を倒してみせなさい。"
+                        ]
+                    },
+                    {
+                        "code": 337,
+                        "indent": 0,
+                        "parameters": [
+                            0,
+                            111,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 333,
+                        "indent": 0,
+                        "parameters": [
+                            -1,
+                            0,
+                            41
+                        ]
+                    },
+                    {
+                        "code": 117,
+                        "indent": 0,
+                        "parameters": [
+                            6
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": []
+                    }
+                ],
+                "span": 0
+            },
+            {
+                "conditions": {
+                    "actorHp": 50,
+                    "actorId": 1,
+                    "actorValid": false,
+                    "enemyHp": 35,
+                    "enemyIndex": 0,
+                    "enemyValid": true,
+                    "switchId": 1,
+                    "switchValid": false,
+                    "turnA": 0,
+                    "turnB": 0,
+                    "turnEnding": false,
                     "turnValid": false
                 },
                 "list": [
+                    {
+                        "code": 242,
+                        "indent": 0,
+                        "parameters": [
+                            3
+                        ]
+                    },
+                    {
+                        "code": 230,
+                        "indent": 0,
+                        "parameters": [
+                            60
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Thunder1",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                255,
+                                255,
+                                255,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　苦戦しているようね、エルン……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　その声は……なぜ、あなたがっ！？"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　ここは夢幻の大樹……記憶の集う場所……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　私は残滓に過ぎないけれど……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　未来を救うために私も協力するわ。　』"
+                        ]
+                    },
+                    {
+                        "code": 241,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Boss_08",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Thunder1",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                255,
+                                255,
+                                255,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Thunder7",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                255,
+                                255,
+                                255,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 335,
+                        "indent": 0,
+                        "parameters": [
+                            1
+                        ]
+                    },
+                    {
+                        "code": 283,
+                        "indent": 0,
+                        "parameters": [
+                            "Time1",
+                            "Sanctuary"
+                        ]
+                    },
+                    {
+                        "code": 241,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Boss_08",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ザラキエル："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　も、もう一人出てきたよっ！？"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            1,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "サティア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　待って、あの顔って……！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ラヴィ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あまりにも似ておる……"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ララ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　クラウディアそっくりじゃない……！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あなたは……誰なの……？"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　神獣アルテミス　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　\\c[6]《時》の管理者\\c[0]よ　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ララ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　神獣アルテミスって……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　マーナガルムと対の存在よね……"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　あなたたちは自分たちの世界を……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　　　楽園を護りたいのでしょう？　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　私たちを倒せなければ未来は守れないわよ　』"
+                        ]
+                    },
+                    {
+                        "code": 337,
+                        "indent": 0,
+                        "parameters": [
+                            0,
+                            207,
+                            false
+                        ]
+                    },
+                    {
+                        "code": 230,
+                        "indent": 0,
+                        "parameters": [
+                            240
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ザラキエル："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　この元素は……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　星神を超えているよっ……！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            1,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ザラキエル："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　やるしかなさそうだねっ！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            1,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "サティア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　ボクはちっぽけな存在だけどさ……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　友達は守らせてもらうよ。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ラヴィ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　まったく……こんなに"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　ワクワクする日々が続くとはのう。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ララ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　エルン様、行きますよっ！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　かかってきなさい、ララッ！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　……………………"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　クラウディア……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　あなたが何者かなんて関係ないわ　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　……っ！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　あなたは自分の道を歩みなさい　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　私は未来を守れなかった……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　だから、私のようにならないで　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　……ええ、わかったわ。"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　もう迷わない。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　私は未来を切り開く。"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　みんなと一緒にね。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　ええ、見守っているわ　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　それじゃ、はじめましょう　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　楽園の守護者アルテミス……参ります　』"
+                        ]
+                    },
+                    {
+                        "code": 337,
+                        "indent": 0,
+                        "parameters": [
+                            0,
+                            124,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 333,
+                        "indent": 0,
+                        "parameters": [
+                            -1,
+                            1,
+                            41
+                        ]
+                    },
+                    {
+                        "code": 333,
+                        "indent": 0,
+                        "parameters": [
+                            -1,
+                            0,
+                            42
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Claudia",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Claudia",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 117,
+                        "indent": 0,
+                        "parameters": [
+                            6
+                        ]
+                    },
                     {
                         "code": 0,
                         "indent": 0,
@@ -19326,8 +20614,21 @@
     },
     {
         "id": 179,
-        "members": [],
-        "name": "",
+        "members": [
+            {
+                "enemyId": 135,
+                "x": 256,
+                "y": 444,
+                "hidden": false
+            },
+            {
+                "enemyId": 180,
+                "x": 560,
+                "y": 352,
+                "hidden": true
+            }
+        ],
+        "name": "通常_楽園の守護者",
         "pages": [
             {
                 "conditions": {
@@ -19342,9 +20643,1284 @@
                     "turnA": 0,
                     "turnB": 0,
                     "turnEnding": false,
+                    "turnValid": true
+                },
+                "list": [
+                    {
+                        "code": 117,
+                        "indent": 0,
+                        "parameters": [
+                            5
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　私はあの方から、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　楽園の守護者としての役割を頂きました。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　夢幻の大樹では、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あなたたちを助けてくれる"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　奇跡は起こりません。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　星神を超える絶望を、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あなたたちに教えてあげましょう。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　この星を救いたければ、"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　本気の私を倒してみせなさい。"
+                        ]
+                    },
+                    {
+                        "code": 337,
+                        "indent": 0,
+                        "parameters": [
+                            0,
+                            111,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 333,
+                        "indent": 0,
+                        "parameters": [
+                            -1,
+                            0,
+                            41
+                        ]
+                    },
+                    {
+                        "code": 117,
+                        "indent": 0,
+                        "parameters": [
+                            6
+                        ]
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": []
+                    }
+                ],
+                "span": 0
+            },
+            {
+                "conditions": {
+                    "actorHp": 50,
+                    "actorId": 1,
+                    "actorValid": false,
+                    "enemyHp": 35,
+                    "enemyIndex": 0,
+                    "enemyValid": true,
+                    "switchId": 1,
+                    "switchValid": false,
+                    "turnA": 0,
+                    "turnB": 0,
+                    "turnEnding": false,
                     "turnValid": false
                 },
                 "list": [
+                    {
+                        "code": 242,
+                        "indent": 0,
+                        "parameters": [
+                            3
+                        ]
+                    },
+                    {
+                        "code": 230,
+                        "indent": 0,
+                        "parameters": [
+                            60
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Thunder1",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                255,
+                                255,
+                                255,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　苦戦しているようね、エルン……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　その声は……なぜ、あなたがっ！？"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　ここは夢幻の大樹……記憶の集う場所……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　私は残滓に過ぎないけれど……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　未来を救うために私も協力するわ。　』"
+                        ]
+                    },
+                    {
+                        "code": 241,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Boss_08",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Thunder1",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                255,
+                                255,
+                                255,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Thunder7",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                255,
+                                255,
+                                255,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 335,
+                        "indent": 0,
+                        "parameters": [
+                            1
+                        ]
+                    },
+                    {
+                        "code": 283,
+                        "indent": 0,
+                        "parameters": [
+                            "Time1",
+                            "Sanctuary"
+                        ]
+                    },
+                    {
+                        "code": 241,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Boss_08",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": [
+                            [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            20,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ザラキエル："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　も、もう一人出てきたよっ！？"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            1,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "サティア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　待って、あの顔って……！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ラヴィ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あまりにも似ておる……"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ララ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　クラウディアそっくりじゃない……！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　あなたは……誰なの……？"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　神獣アルテミス　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　\\c[6]《時》の管理者\\c[0]よ　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ララ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　神獣アルテミスって……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　マーナガルムと対の存在よね……"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　あなたたちは自分たちの世界を……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　　　楽園を護りたいのでしょう？　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　私たちを倒せなければ未来は守れないわよ　』"
+                        ]
+                    },
+                    {
+                        "code": 337,
+                        "indent": 0,
+                        "parameters": [
+                            0,
+                            207,
+                            false
+                        ]
+                    },
+                    {
+                        "code": 230,
+                        "indent": 0,
+                        "parameters": [
+                            240
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ザラキエル："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　この元素は……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　星神を超えているよっ……！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor1",
+                            1,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ザラキエル："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　やるしかなさそうだねっ！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            1,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "サティア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　ボクはちっぽけな存在だけどさ……"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　友達は守らせてもらうよ。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            2,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ラヴィ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　まったく……こんなに"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　ワクワクする日々が続くとはのう。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            3,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "ララ："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　エルン様、行きますよっ！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            4,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "エルン："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　かかってきなさい、ララッ！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　……………………"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　クラウディア……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　あなたが何者かなんて関係ないわ　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　……っ！！"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　あなたは自分の道を歩みなさい　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　私は未来を守れなかった……　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　だから、私のようにならないで　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　……ええ、わかったわ。"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　もう迷わない。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "Actor3",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "クラウディア："
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　私は未来を切り開く。"
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　みんなと一緒にね。"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　ええ、見守っているわ　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　それじゃ、はじめましょう　』"
+                        ]
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": [
+                            "",
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            ""
+                        ]
+                    },
+                    {
+                        "code": 401,
+                        "indent": 0,
+                        "parameters": [
+                            "　『　楽園の守護者アルテミス……参ります　』"
+                        ]
+                    },
+                    {
+                        "code": 337,
+                        "indent": 0,
+                        "parameters": [
+                            0,
+                            124,
+                            true
+                        ]
+                    },
+                    {
+                        "code": 333,
+                        "indent": 0,
+                        "parameters": [
+                            -1,
+                            1,
+                            41
+                        ]
+                    },
+                    {
+                        "code": 333,
+                        "indent": 0,
+                        "parameters": [
+                            -1,
+                            0,
+                            42
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Claudia",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 250,
+                        "indent": 0,
+                        "parameters": [
+                            {
+                                "name": "Battle_Claudia",
+                                "volume": 90,
+                                "pitch": 100,
+                                "pan": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": 117,
+                        "indent": 0,
+                        "parameters": [
+                            6
+                        ]
+                    },
                     {
                         "code": 0,
                         "indent": 0,

@@ -309,7 +309,7 @@
         "message2": "",
         "mpCost": 2,
         "name": "Dance of the Sky Slash",
-        "note": "<CriticalC:a.cri + a.luk>\n\n<target action>\nopacity not focus: 0, 15\n\nse: wind1\nmotion thrust: user\njump user: 450%, 30\nmove user: targets, Base, 30\nwait: 15\nmotion swing: user\ncommon event: 31\ncamera focus: targets, center, 15\nzoom: 105%, 15\nwait for jump\n\nDAMAGE RATE: 200%\nanimation 33: target\nani wait: 5\naction effect\nwait: 2\ncamera focus: target, center, 30\nzoom: 100%, 30\nDAMAGE RATE: 100%\n</target action>\n\n<follow action>\nmove user: home, 30\njump user: 100%, 30\nface user: forward\nmotion evade: user\nwait: 12\nopacity not focus: 100%, 15\nwait: 14\nmotion Walk: user\nwait for movement\n</follow action>",
+        "note": "<CriticalC:a.cri + a.luk>\n\n<target action>\nopacity not focus: 0, 15\n\nse: wind1\nmotion thrust: user\njump user: 450%, 30\nmove user: targets, Base, 30\nwait: 15\nmotion swing: user\ncommon event: 31\ncamera focus: targets, center, 15\nzoom: 105%, 15\nwait for jump\n\nDAMAGE RATE: 300%\nanimation 33: target\nani wait: 5\naction effect\nwait: 2\ncamera focus: target, center, 30\nzoom: 100%, 30\nDAMAGE RATE: 100%\n</target action>\n\n<follow action>\nmove user: home, 30\njump user: 100%, 30\nface user: forward\nmotion evade: user\nwait: 12\nopacity not focus: 100%, 15\nwait: 14\nmotion Walk: user\nwait for movement\n</follow action>",
         "occasion": 1,
         "repeats": 1,
         "requiredWtypeId1": 0,
@@ -331,13 +331,13 @@
             "type": 1,
             "variance": 10
         },
-        "description": "\\I[755] \\c[6]She unleashes a powerful slash that deals damage to the target.",
+        "description": "\\I[755] \\c[6]全体\\c[0] 強力な斬撃を飛ばし、対象にダメージを与える。クリティカルしない。\n",
         "effects": [],
         "hitType": 0,
         "iconIndex": 755,
         "message1": "",
         "message2": "",
-        "mpCost": 8,
+        "mpCost": 5,
         "name": "Flash Strike",
         "note": "<whole action>\nse: Attack2\njump user: 150%, 30\nmove user: point, 1640, 402, 30\nface user: forward\nmotion evade: user\nwait: 30\n\ncommon event: 32\nDAMAGE RATE: 200%\nanimation 16: targets\nwait: 4\nmove user: point, -640, 402, 20\nmotion missile: user\nwait: 10\naction effect\nwait: 30\nDAMAGE RATE: 100%\n</whole action>\n\n<target action>\n</target action>\n\n\n<follow action>\nmove user: home, 30\njump user: 100%, 30\nface user: forward\n\nmotion missile: user\nwait: 15\nopacity not focus: 100%, 15\nwait: 14\n\nmotion walk: user\nwait for movement\n</follow action>",
         "occasion": 1,
@@ -629,7 +629,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The user \\c[6]temporarily doubles their attack power, magic power, and defense power\\c[0].",
+        "description": "\\I[720] \\c[6]使用者\\c[0] 戦闘中「攻撃力」「魔力」「防御力」を二倍に上昇させる。\n",
         "effects": [
             {
                 "code": 21,
@@ -6230,7 +6230,7 @@
         "damage": {
             "critical": false,
             "elementId": 1,
-            "formula": "(a.atk * 4 - b.def * 2) * 0.15",
+            "formula": "(a.atk * 4 - b.def * 2) * 0.1",
             "type": 1,
             "variance": 10
         },
@@ -6391,43 +6391,7 @@
         "effects": [
             {
                 "code": 21,
-                "dataId": 6,
-                "value1": 0.8,
-                "value2": 0
-            },
-            {
-                "code": 21,
-                "dataId": 8,
-                "value1": 0.8,
-                "value2": 0
-            },
-            {
-                "code": 21,
-                "dataId": 7,
-                "value1": 0.8,
-                "value2": 0
-            },
-            {
-                "code": 21,
-                "dataId": 22,
-                "value1": 0.75,
-                "value2": 0
-            },
-            {
-                "code": 21,
                 "dataId": 23,
-                "value1": 0.5,
-                "value2": 0
-            },
-            {
-                "code": 21,
-                "dataId": 24,
-                "value1": 0.5,
-                "value2": 0
-            },
-            {
-                "code": 21,
-                "dataId": 25,
                 "value1": 0.5,
                 "value2": 0
             }
@@ -6465,12 +6429,6 @@
             {
                 "code": 21,
                 "dataId": 7,
-                "value1": 1,
-                "value2": 0
-            },
-            {
-                "code": 21,
-                "dataId": 23,
                 "value1": 0.5,
                 "value2": 0
             }
@@ -6508,12 +6466,6 @@
             {
                 "code": 21,
                 "dataId": 8,
-                "value1": 1,
-                "value2": 0
-            },
-            {
-                "code": 21,
-                "dataId": 25,
                 "value1": 0.5,
                 "value2": 0
             }
@@ -6547,14 +6499,7 @@
             "variance": 10
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 22,
-                "value1": 1,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 0,
         "iconIndex": 599,
         "message1": "",
@@ -6584,14 +6529,7 @@
             "variance": 5
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 24,
-                "value1": 1,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 0,
         "iconIndex": 599,
         "message1": "",

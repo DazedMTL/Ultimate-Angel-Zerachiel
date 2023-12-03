@@ -7,15 +7,15 @@
  * @author terunon (AliasAche)
  *
  * @help
- * ƒƒjƒ…[ã‚ÅƒRƒ‚ƒ“ƒCƒxƒ“ƒg‚ðŒÄ‚ÔƒAƒCƒeƒ€‚ðŽg—p‚µ‚Äƒƒjƒ…[‚ª•Â‚¶‚ç‚ê‚½‚Æ‚«A
- * Œ³‚Ì‰æ–Ê‚É–ß‚·ˆ—‚ð’ñ‹Ÿ‚µ‚Ü‚·B
- * Ä’è‹`‚ðs‚Á‚Ä‚¢‚é‚Ì‚Åã‚Ì•û‚É”z’u‚µ‚Ä‚­‚¾‚³‚¢B
+ * ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ÅƒRï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ÔƒAï¿½Cï¿½eï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Äƒï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ê‚½ï¿½Æ‚ï¿½ï¿½A
+ * ï¿½ï¿½ï¿½Ì‰ï¿½Ê‚É–ß‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ * ï¿½Ä’ï¿½`ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Åï¿½Ì•ï¿½ï¿½É”zï¿½uï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
  *
- * ‘ÎÛƒRƒ‚ƒ“ƒCƒxƒ“ƒg‚Ì––”ö‚ÉƒXƒNƒŠƒvƒgFthis.sceneRestore()‚Æ“ü‚ê‚é‚±‚Æ‚ÅŽg—p‚Å‚«‚Ü‚·B
+ * ï¿½ÎÛƒRï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½Ì–ï¿½ï¿½ï¿½ï¿½ÉƒXï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½Fthis.sceneRestore()ï¿½Æ“ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ÅŽgï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
  *
- * ƒNƒŒƒWƒbƒg‚Æ‚µ‚ÄAuterunoniƒGƒCƒŠƒAƒXƒGƒCƒNjv‚Ì‘fÞ‚ðŽg—p‚µ‚½Ž|‚ð
- * ReadMe‚Ü‚½‚Íƒuƒ‰ƒEƒU“™‚ÌŽ‹”F‚Å‚«‚éêŠ‚É‹LÚ‚µ‚Ä‚¢‚½‚¾‚¯‚ê‚ÎA
- * ‰c—˜”ñ‰c—˜–â‚í‚¸A‚ ‚ç‚ä‚éƒcƒN[ƒ‹MVì•i‚ÅŽg—pE‰ü•Ï‚¢‚½‚¾‚¯‚Ü‚·B
+ * ï¿½Nï¿½ï¿½ï¿½Wï¿½bï¿½gï¿½Æ‚ï¿½ï¿½ÄAï¿½uterunonï¿½iï¿½Gï¿½Cï¿½ï¿½ï¿½Aï¿½Xï¿½Gï¿½Cï¿½Nï¿½jï¿½vï¿½Ì‘fï¿½Þ‚ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½
+ * ReadMeï¿½Ü‚ï¿½ï¿½Íƒuï¿½ï¿½ï¿½Eï¿½Uï¿½ï¿½ï¿½ÌŽï¿½ï¿½Fï¿½Å‚ï¿½ï¿½ï¿½êŠï¿½É‹Lï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎA
+ * ï¿½cï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½í‚¸ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½Nï¿½[ï¿½ï¿½MVï¿½ï¿½iï¿½ÅŽgï¿½pï¿½Eï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
  *
  * Copyright (c) 2016 terunon (AliasAche)
  * You can use and modify it for every your commercial/non-commercial RPG Maker MV game

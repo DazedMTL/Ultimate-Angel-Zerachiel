@@ -9781,13 +9781,13 @@
         "name": "Guardian of Paradise",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 956>\n\nHide HP\n\n\n",
         "params": [
-            750000,
+            500000,
             9999,
-            400,
-            200,
-            300,
-            200,
-            150,
+            260,
+            100,
+            210,
+            100,
+            128,
             1
         ]
     },
@@ -13194,14 +13194,14 @@
         "name": "Artemis of Paradise",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1154>\n\nHide HP",
         "params": [
-            300000,
+            240000,
             9999,
             100,
-            500,
-            400,
-            500,
-            142,
-            10
+            100,
+            260,
+            100,
+            120,
+            1
         ]
     },
     {
@@ -13906,6 +13906,446 @@
             200,
             170,
             10
+        ]
+    },
+    {
+        "id": 189,
+        "actions": [
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0,
+                "conditionType": 0,
+                "rating": 5,
+                "skillId": 1
+            }
+        ],
+        "battlerHue": 0,
+        "battlerName": "",
+        "dropItems": [
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            }
+        ],
+        "exp": 0,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0.95
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.05
+            },
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "gold": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            100,
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+        ]
+    },
+    {
+        "id": 190,
+        "actions": [
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0,
+                "conditionType": 0,
+                "rating": 5,
+                "skillId": 25
+            }
+        ],
+        "battlerHue": 0,
+        "battlerName": "Enemy_01",
+        "dropItems": [
+            {
+                "kind": 0,
+                "dataId": 0,
+                "denominator": 4
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            }
+        ],
+        "exp": 10000,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0.95
+            },
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 1.2
+            }
+        ],
+        "gold": 1,
+        "name": "神官兵",
+        "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1097>",
+        "params": [
+            200,
+            0,
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+        ]
+    },
+    {
+        "id": 191,
+        "actions": [
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0,
+                "conditionType": 0,
+                "rating": 5,
+                "skillId": 1
+            }
+        ],
+        "battlerHue": 0,
+        "battlerName": "",
+        "dropItems": [
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            }
+        ],
+        "exp": 0,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0.95
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.05
+            },
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "gold": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            100,
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+        ]
+    },
+    {
+        "id": 192,
+        "actions": [
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0,
+                "conditionType": 0,
+                "rating": 5,
+                "skillId": 185
+            },
+            {
+                "conditionParam1": 0.75,
+                "conditionParam2": 0.99,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 184
+            },
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0.74,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 186
+            },
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0,
+                "conditionType": 0,
+                "rating": 5,
+                "skillId": 187
+            }
+        ],
+        "battlerHue": 0,
+        "battlerName": "Elun",
+        "dropItems": [
+            {
+                "kind": 3,
+                "dataId": 86,
+                "denominator": 1
+            },
+            {
+                "kind": 0,
+                "dataId": 0,
+                "denominator": 1
+            },
+            {
+                "kind": 0,
+                "dataId": 0,
+                "denominator": 1
+            }
+        ],
+        "exp": 0,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0.95
+            },
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.7
+            },
+            {
+                "code": 63,
+                "dataId": 1,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 22,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 23,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
+            }
+        ],
+        "gold": 99999,
+        "name": "楽園の守護者",
+        "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 956>\n\nHide HP\n",
+        "params": [
+            750000,
+            9999,
+            400,
+            200,
+            300,
+            200,
+            140,
+            1
+        ]
+    },
+    {
+        "id": 193,
+        "actions": [
+            {
+                "conditionParam1": 0.41,
+                "conditionParam2": 1,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 189
+            },
+            {
+                "conditionParam1": 0.41,
+                "conditionParam2": 1,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 190
+            },
+            {
+                "conditionParam1": 0.41,
+                "conditionParam2": 0.99,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 191
+            },
+            {
+                "conditionParam1": 0.41,
+                "conditionParam2": 0.99,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 192
+            },
+            {
+                "conditionParam1": 0.31,
+                "conditionParam2": 0.4,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 192
+            },
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0.4,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 193
+            },
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0.4,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 193
+            },
+            {
+                "conditionParam1": 0,
+                "conditionParam2": 0.3,
+                "conditionType": 2,
+                "rating": 5,
+                "skillId": 193
+            }
+        ],
+        "battlerHue": 0,
+        "battlerName": "Artemis",
+        "dropItems": [
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            },
+            {
+                "dataId": 1,
+                "denominator": 1,
+                "kind": 0
+            }
+        ],
+        "exp": 0,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0.95
+            },
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            },
+            {
+                "code": 63,
+                "dataId": 1,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 22,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 23,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
+            }
+        ],
+        "gold": 0,
+        "name": "楽園のアルテミス",
+        "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1154>\n\nHide HP",
+        "params": [
+            300000,
+            9999,
+            100,
+            500,
+            400,
+            500,
+            140,
+            1
         ]
     }
 ]
