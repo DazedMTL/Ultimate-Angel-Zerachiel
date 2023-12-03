@@ -254,6 +254,17 @@ Imported.TMGreedShop = true;
   };
 
   //-----------------------------------------------------------------------------
+  // Game_Party
+  //
+
+  Game_Party.prototype.numItemsWithEquips = function (item) {
+    const numItems = this.numItems(item);
+    const equips = [].concat(...$gameParty.members().map(member => member.equips()));
+    const numEquips = equips.filter(equip => equip && equip === item).length;
+    return numItems + numEquips;
+  };
+
+  //-----------------------------------------------------------------------------
   // Game_Temp
   //
 
@@ -322,7 +333,7 @@ Imported.TMGreedShop = true;
     var lh = Math.floor(this.lineHeight() * rate);
     var materialItem = DataManager.materialToItem(material);
     var need = material.need * amount;
-    var n = $gameParty.numItems(materialItem);
+    var n = $gameParty.numItemsWithEquips(materialItem);
     var text = DataManager.isConsumableMaterial(materialItem) ? '' + n + '/' : '--/';
     text += ('   ' + need).substr(-3);
     this.drawStretchIcon(x, y, materialItem.iconIndex, rate);
@@ -416,7 +427,7 @@ Imported.TMGreedShop = true;
       for (var i = 0; i < materials.length; i++) {
         var material = materials[i];
         var matItem = DataManager.materialToItem(material);
-        if ($gameParty.numItems(matItem) < material.need) {
+        if ($gameParty.numItemsWithEquips(matItem) < material.need) {
           return false;
         }
       }
@@ -488,7 +499,7 @@ Imported.TMGreedShop = true;
         for (var j = 0; j < keys.length; j++) {
           var material = materials[keys[j] - 1];
           var matItem = DataManager.materialToItem(material);
-          if (!$gameParty.hasItem(matItem, false)) {
+          if (!$gameParty.hasItem(matItem, true)) {
             this._data.splice(i, 1);
             this._price.splice(i, 1);
             break;
@@ -716,7 +727,7 @@ Imported.TMGreedShop = true;
         var material = materials[i];
         var item = DataManager.materialToItem(material);
         if (DataManager.isConsumableMaterial(item)) {
-          $gameParty.loseItem(item, material.need * number);
+          $gameParty.loseItem(item, material.need * number, true);
         }
       }
       this._materialWindow.refresh();
@@ -732,7 +743,7 @@ Imported.TMGreedShop = true;
         var material = materials[i];
         var item = DataManager.materialToItem(material);
         if (DataManager.isConsumableMaterial(item)) {
-          var n = $gameParty.numItems(item);
+          var n = $gameParty.numItemsWithEquips(item);
           result = Math.min(result, Math.floor(n / material.need));
         }
       }

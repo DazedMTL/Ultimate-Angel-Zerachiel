@@ -1034,7 +1034,7 @@
         "occasion": 2,
         "price": 10,
         "repeats": 1,
-        "scope": 7,
+        "scope": 11,
         "speed": 0,
         "successRate": 100,
         "tpGain": 0
@@ -1223,7 +1223,7 @@
     },
     {
         "id": 44,
-        "animationId": 0,
+        "animationId": 193,
         "consumable": true,
         "damage": {
             "critical": false,
@@ -1232,17 +1232,30 @@
             "type": 0,
             "variance": 20
         },
-        "description": "",
-        "effects": [],
+        "description": "\\I[646] \\c[6]全員\\c[0]　死の呪いによって全滅しそうだ……",
+        "effects": [
+            {
+                "code": 11,
+                "dataId": 0,
+                "value1": -1,
+                "value2": 0
+            },
+            {
+                "code": 21,
+                "dataId": 1,
+                "value1": 1,
+                "value2": 0
+            }
+        ],
         "hitType": 0,
-        "iconIndex": 0,
+        "iconIndex": 646,
         "itypeId": 1,
-        "name": "",
-        "note": "",
-        "occasion": 3,
-        "price": 0,
+        "name": "死の刻印",
+        "note": "<itemCategory:\\I[810]道具>",
+        "occasion": 1,
+        "price": 10,
         "repeats": 1,
-        "scope": 7,
+        "scope": 8,
         "speed": 0,
         "successRate": 100,
         "tpGain": 0
