@@ -17933,7 +17933,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　グランフェリアまで帰還しますか？"
+                                "Will you return to Granferia?"
                             ]
                         },
                         {
@@ -17941,8 +17941,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

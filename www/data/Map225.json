@@ -17997,28 +17997,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴッド："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　Ver1.0.6からスキル習得レベルが変更となった。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　それに伴い、セーブデータを移行したとき、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　習得不可能なスキルが発生してしまう。"
+                                "God: The skill acquisition level has changed from\nVer1.0.6. As a result, when transferring the save\ndata, it may become impossible to acquire certain\nskills."
                             ]
                         },
                         {
@@ -18035,21 +18014,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴッド："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　そこで我が現在のレベルで、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　未収得のスキルを伝授しよう。"
+                                "God: Therefore, at our current level, let me\nbestow upon you the skills you have not yet\nacquired."
                             ]
                         },
                         {
@@ -18866,21 +18831,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴッド："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　これで習得できたはずだ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　確認したまえ。"
+                                "God: You should have acquired it now. Confirm it."
                             ]
                         },
                         {
@@ -18957,14 +18908,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴッド："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　『　きゅ～？　きゅっ！　きゅっ！　』"
+                                "God: \"Kyu~? Kyu! Kyu!\""
                             ]
                         },
                         {

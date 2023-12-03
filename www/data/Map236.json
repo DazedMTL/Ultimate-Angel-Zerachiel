@@ -8993,8 +8993,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "手加減してもらう",
-                                    "本気でかかってこい"
+                                    "Go easy on me",
+                                    "Bring it on"
                                 ],
                                 1,
                                 0,
@@ -9024,14 +9024,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　みんな、いくよっ！！"
+                                "Zerachiel: Everyone, let's go!!"
                             ]
                         },
                         {
@@ -9048,21 +9041,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　かかってきなさい。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　星々に導かれし申し子たちよ。"
+                                "Ern: Come at me. You children guided by the stars."
                             ]
                         },
                         {
@@ -10275,21 +10254,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　だめだ、勝てないよ……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　もっと強くならないと……"
+                                "Zerachiel: No, I can't win... I need to become\nstronger..."
                             ]
                         },
                         {
@@ -10353,21 +10318,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　かかってきなさい。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　星々に導かれし申し子たちよ。"
+                                "Ern: Come at me. You children guided by the stars."
                             ]
                         },
                         {
@@ -10430,14 +10381,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　これが星神を倒した者たち……"
+                                "Ern: These are the ones who defeated the Star\nGod..."
                             ]
                         },
                         {
@@ -10454,14 +10398,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　\\c[6]最後の希望\\c[0]ですか……"
+                                "Ern: \\c[6]Is this the last hope\\c[0]..."
                             ]
                         },
                         {
@@ -10478,14 +10415,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　フフ、たしかに見届けさせて頂きました。"
+                                "Ern: Hehe, I certainly witnessed it."
                             ]
                         },
                         {
@@ -10502,21 +10432,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　あなたがたなら、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　未来を変えられるかもしれません。"
+                                "Ern: Perhaps you can change the future."
                             ]
                         },
                         {
@@ -10533,21 +10449,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　……これから長く、辛い現実が"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　待ち受けているかもしれません。"
+                                "Ern: ...There may be a long and difficult reality\nahead."
                             ]
                         },
                         {
@@ -10564,21 +10466,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　それでも、あなたたちならば……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　乗り越えられると信じております。"
+                                "Ern: Even so, I believe that you can overcome it."
                             ]
                         },
                         {
@@ -10626,14 +10514,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　エルン様、行くのですか……？"
+                                "Lala: Are you leaving, Lord Ern...?"
                             ]
                         },
                         {
@@ -10650,21 +10531,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　それならあたしも"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　一緒に連れて行ってください……！"
+                                "Lala: Then please take me with you...!"
                             ]
                         },
                         {
@@ -10681,14 +10548,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　ララ、不安にならずとも大丈夫です。"
+                                "Ern: Lala, there's no need to worry."
                             ]
                         },
                         {
@@ -10705,14 +10565,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　また、会えますから。"
+                                "Ern: We will meet again."
                             ]
                         },
                         {
@@ -10729,21 +10582,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　仲間を大切にして、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　困ったときは手を取り合うのですよ。"
+                                "Ern: Treasure your companions and lend a hand when\nthey are in trouble."
                             ]
                         },
                         {
@@ -10760,14 +10599,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　エルン様……"
+                                "Lala: Lord Ern..."
                             ]
                         },
                         {
@@ -10784,14 +10616,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　……わかりましたっ！"
+                                "Lala: ...Understood!"
                             ]
                         },
                         {
@@ -10808,21 +10633,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　次に会うときは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　もっと強くなってみせますっ！！"
+                                "Lala: I will show you how much stronger I've\nbecome when we meet next time!!"
                             ]
                         },
                         {
@@ -10839,21 +10650,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　エルン様の力を借りなくても、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　みんなを守れるようになりますからっ！"
+                                "Lala: I will be able to protect everyone without\nrelying on Lord Ern's power!"
                             ]
                         },
                         {
@@ -10870,14 +10667,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　あなたならなれますよ。"
+                                "Ern: You can become that person."
                             ]
                         },
                         {
@@ -10894,14 +10684,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "エルン："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　誰よりも立派な天使に、きっと……"
+                                "Ern: Surely, you will become a splendid angel more\nthan anyone else..."
                             ]
                         },
                         {
@@ -10967,14 +10750,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　行っちゃった……"
+                                "Satya: He's gone..."
                             ]
                         },
                         {
@@ -10991,14 +10767,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　私たちが来るのを待っていたみたいね。"
+                                "Claudia: It seems like he was waiting for us to\ncome."
                             ]
                         },
                         {
@@ -11015,14 +10784,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ラヴィ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　ララに会えて、嬉しそうじゃったぞ。"
+                                "Rabi: He seemed so happy to see Lala."
                             ]
                         },
                         {
@@ -11070,14 +10832,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　そ、そうかしら？"
+                                "Lala: I-is that so?"
                             ]
                         },
                         {
@@ -11094,14 +10849,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　うん、喜んでいたよ。"
+                                "Zerachiel: Yes, she was delighted."
                             ]
                         },
                         {
@@ -11118,14 +10866,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　（すごく名残惜しんでいたからね）"
+                                "Zerachiel: (Because she was so reluctant to part\nways)"
                             ]
                         },
                         {
@@ -11142,14 +10883,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　みんな、ありがとうね。"
+                                "Lala: Thank you, everyone."
                             ]
                         },
                         {
@@ -11166,21 +10900,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　あたし、強くなる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　誰よりも立派な天使になってみせるわ。"
+                                "Lala: I will become stronger. I will show that I\ncan become a splendid angel more than anyone else."
                             ]
                         },
                         {
@@ -11197,21 +10917,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　\\c[6]新たなる時代の神\\c[0]が、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　何者か知らないけれど……"
+                                "Lala: \\c[6]The god of the new era\\c[0], I don't\nknow who that is..."
                             ]
                         },
                         {
@@ -11228,14 +10934,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ララ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　必ず乗り越えてみせるわ。"
+                                "Lala: I will definitely overcome it."
                             ]
                         },
                         {
@@ -11252,14 +10951,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　ボクも負けないぞ。"
+                                "Zerachiel: I won't lose either."
                             ]
                         },
                         {
@@ -11276,28 +10968,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "クラウディア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　これからが大変だけど、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　みんなと一緒なら"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　乗り越えられる気がするわ。"
+                                "Claudia: It's going to be tough from now on, but I\nfeel like we can overcome it if we're all\ntogether."
                             ]
                         },
                         {
@@ -11314,14 +10985,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "サティア："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　ボクたちも頑張らないとね。"
+                                "Satya: We have to do our best too."
                             ]
                         },
                         {
@@ -11338,14 +11002,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ラヴィ："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　うむ、そうじゃなっ！！"
+                                "Rabi: Yes, that's right!!"
                             ]
                         },
                         {
@@ -11362,14 +11019,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　それじゃ、帰ろうか。"
+                                "Zerachiel: Well then, shall we go back?"
                             ]
                         },
                         {
@@ -11386,14 +11036,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　みんなの待っているログレスへ。"
+                                "Zerachiel: To Logres where everyone is waiting."
                             ]
                         },
                         {
@@ -11494,21 +11137,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　だめだ、勝てないよ……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "　もっと強くならないと……"
+                                "Zerachiel: No, I can't win... I have to become\nstronger..."
                             ]
                         },
                         {

@@ -19127,7 +19127,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　入口まで転移しますか？"
+                                "Do you want to teleport to the entrance?"
                             ]
                         },
                         {
@@ -19135,8 +19135,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -19288,7 +19288,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　入口まで転移しますか？"
+                                "Do you want to teleport to the entrance?"
                             ]
                         },
                         {
@@ -19296,8 +19296,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

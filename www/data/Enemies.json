@@ -14019,7 +14019,7 @@
             }
         ],
         "gold": 1,
-        "name": "神官兵",
+        "name": "English Translation of Line 1\nPriest Soldier",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1097>",
         "params": [
             200,
@@ -14194,7 +14194,7 @@
             }
         ],
         "gold": 99999,
-        "name": "楽園の守護者",
+        "name": "English Translation of Line 1\nGuardian of Paradise",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 956>\n\nHide HP\n",
         "params": [
             750000,
@@ -14335,7 +14335,7 @@
             }
         ],
         "gold": 0,
-        "name": "楽園のアルテミス",
+        "name": "English Translation of Line 1:\nArtemis of Paradise",
         "note": "<反転なし>\n<サイズ変更なし>\n\n//CTB、アイコン\n<CTB Icon: 1154>\n\nHide HP",
         "params": [
             300000,

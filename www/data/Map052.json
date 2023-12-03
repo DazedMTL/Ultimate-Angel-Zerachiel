@@ -3670,21 +3670,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　これは転移結晶……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　二階に繋がっているみたいだね。"
+                                "Zerachiel: This is a teleportation crystal... It\nseems to be connected to the second floor."
                             ]
                         },
                         {
@@ -3708,7 +3694,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　二階に移動しますか？"
+                                "Will you move to the second floor?"
                             ]
                         },
                         {
@@ -3716,8 +3702,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -4064,7 +4050,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　三階に移動しますか？"
+                                "Will you move to the third floor?"
                             ]
                         },
                         {
@@ -4072,8 +4058,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -4412,7 +4398,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　四階に移動しますか？"
+                                "Will you move to the fourth floor?"
                             ]
                         },
                         {
@@ -4420,8 +4406,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -4760,7 +4746,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　『聖女の間』に移動しますか？"
+                                "Do you want to move to the \"Holy Maiden's\nChamber\"?"
                             ]
                         },
                         {
@@ -4768,8 +4754,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

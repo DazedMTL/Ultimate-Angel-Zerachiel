@@ -32,7 +32,7 @@
         "name": "Zerachiel",
         "nickname": "",
         "note": "<SBI画像:Actor_Zarakielu2>\n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>\n\n//CTB、アイコン\n<CTB Icon: 928>\n<icon: 928> \n\n//\n\n通常攻撃\nHP回復魔法使用時\n<recoverVoice:FCS2_011_Tool use1>\n\nHP回復以外の味方向け魔法使用時\n<friendMagicVoice:FCS2_050_Recover3>\n\n味方向け以外の魔法を使用した時\n<magicVoice:FCS2_038_Medium attack1,FCS2_039_Medium attack2,FCS2_040_Medium attack3,FCS2_041_Medium attack4,FCS2_042_Medium attack5>\n\n必殺技を使用した時\n<skillVoice:FCS2_043_Strong attack1,FCS2_044_Strong attack2,FCS2_045_Strong attack3,FCS2_046_Strong attack4,FCS2_047_Strong attack5>\n\nダメージを受けた時\n<damageVoice:FCS2_021_Damage1,FCS2_026_Large damage1,FCS2_023_Damage3,FCS2_024_Damage4,FCS2_025_Damage5>\n\n攻撃を回避した時\n<evadeVoice:FCS2_031_No damage1>\n\n味方からHP回復魔法を受けた時\n<fromAllyVoice:FCS2_095_Thank you1,FCS2_096_Thank you2>\n\n戦闘不能時\n<defeatedVoice:FCS2_019_Unable to fight1,FCS2_020_Unable to fight2>\n\n戦闘開始時\n<firstVoice:FCS2_001_Start1,FCS2_002_Start2>\n\n戦闘勝利時\n<victoryVoice:FCS2_003_Victory1,FCS2_004_Victory2>\n",
-        "profile": "A girl with an innocent personality. She came to help her friends who were taken away by\nthe command of the main god."
+        "profile": "A girl with an innocent personality. She came to help her friends who were taken\naway by the command of the main god."
     },
     {
         "id": 2,
@@ -173,7 +173,7 @@
         "name": "Pururin",
         "nickname": "",
         "note": "<SBI画像:Actor_Pururin>\n\n//CTB、アイコン\n<CTB Icon: 946>\n<icon: 946> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 2000\n</Set Sts Data>",
-        "profile": "Zerachiel's friend. They have resistance to sealing. They are always there to help her in\ntimes of trouble, a reliable presence."
+        "profile": "Zerachiel's friend. They have resistance to sealing. They are always there to\nhelp her in times of trouble, a reliable presence."
     },
     {
         "id": 8,
@@ -212,7 +212,7 @@
         "name": "Claudia",
         "nickname": "",
         "note": "<SBI画像:Actor_Claudia>\n\n//CTB、アイコン\n<CTB Icon: 912>\n<icon: 912> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "I am an adventurer and magician from the Imperial Territory of Aretia. I may have a cold\npersonality, but I don't dislike people."
+        "profile": "I am an adventurer and magician from the Imperial Territory of Aretia. I may\nhave a cold personality, but I don't dislike people."
     },
     {
         "id": 9,
@@ -256,7 +256,7 @@
         "name": "Sachia",
         "nickname": "",
         "note": "<SBI画像:Actor_Sathia>\n\n//CTB、アイコン\n<CTB Icon: 914>\n<icon: 914> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "A adventurer and thief from the Imperial territory of Aretia. She is friendly with\neveryone, always cheerful, and loves treasure."
+        "profile": "A adventurer and thief from the Imperial territory of Aretia. She is friendly\nwith everyone, always cheerful, and loves treasure."
     },
     {
         "id": 10,
@@ -295,7 +295,7 @@
         "name": "Rabi",
         "nickname": "",
         "note": "<SBI画像:Actor_Ravie>\n\n//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "An adventurer and martial artist from the Imperial territory of Aretia. She enjoys\ntraining her own body and is always seeking out strong opponents."
+        "profile": "An adventurer and martial artist from the Imperial territory of Aretia. She\nenjoys training her own body and is always seeking out strong opponents."
     },
     {
         "id": 11,
@@ -490,7 +490,7 @@
         "name": "Lala",
         "nickname": "",
         "note": "<SBI画像:Actor_LaLa>\n\n//CTB、アイコン\n<CTB Icon: 915>\n<icon: 915> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "The girl who can't be honest, an angel. She is searching for a certain person and\ntraveling all over the world."
+        "profile": "The girl who can't be honest, an angel. She is searching for a certain person\nand traveling all over the world."
     },
     {
         "id": 16,
@@ -542,6 +542,6 @@
         "name": "Pururin",
         "nickname": "",
         "note": "<SBI画像:Actor_Pururin>\n\n//CTB、アイコン\n<CTB Icon: 946>\n<icon: 946> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "Zerachiel's friend. They have resistance to sealing. They are always there to help her in\ntimes of trouble, a reliable presence."
+        "profile": "Zerachiel's friend. They have resistance to sealing. They are always there to\nhelp her in times of trouble, a reliable presence."
     }
 ]

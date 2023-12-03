@@ -160,7 +160,7 @@
             "type": 0,
             "variance": 5
         },
-        "description": "\\I[624] \\c[6]User\\c[0] Summons a friend who helped them when they were lost in the forest\nlong ago. Has seal resistance.",
+        "description": "\\I[624] \\c[6]User\\c[0] Summons a friend who helped them when they were lost in\nthe forest long ago. Has seal resistance.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 946,
@@ -331,7 +331,7 @@
             "type": 1,
             "variance": 10
         },
-        "description": "\\I[755] \\c[6]全体\\c[0] 強力な斬撃を飛ばし、対象にダメージを与える。クリティカルしない。\n",
+        "description": "\\I[755] \\c[6]Whole\\c[0] Unleashes a powerful slashing attack, dealing damage to\nthe target. Does not critical.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 755,
@@ -495,7 +495,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[691] \\c[6]Individual\\c[0] Reduces physical damage taken for a certain period of time.",
+        "description": "\\I[691] \\c[6]Individual\\c[0] Reduces physical damage taken for a certain period\nof time.",
         "effects": [
             {
                 "code": 21,
@@ -532,7 +532,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[693] \\c[6]Individual\\c[0] Reduces damage taken from magic attacks for a certain period\nof time.",
+        "description": "\\I[693] \\c[6]Individual\\c[0] Reduces damage taken from magic attacks for a\ncertain period of time.",
         "effects": [
             {
                 "code": 21,
@@ -599,7 +599,7 @@
             "type": 1,
             "variance": 10
         },
-        "description": "\\I[755] \\c[6]A powerful slashing technique that combines the fire element. It deals\nmassive damage.",
+        "description": "\\I[755] \\c[6]A powerful slashing technique that combines the fire element. It\ndeals massive damage.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 755,
@@ -629,7 +629,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[720] \\c[6]使用者\\c[0] 戦闘中「攻撃力」「魔力」「防御力」を二倍に上昇させる。\n",
+        "description": "\\c[6]User\\c[0] Doubles Attack Power, Magic Power, and Defense during\nbattle.",
         "effects": [
             {
                 "code": 21,
@@ -1921,7 +1921,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals damage.",
+        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals\ndamage.",
         "effects": [
             {
                 "code": 21,
@@ -1988,7 +1988,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals damage.",
+        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals\ndamage.",
         "effects": [
             {
                 "code": 21,
@@ -4335,7 +4335,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[592]\\{ \\c[6]Compressing and exploding the fire element, causing medium damage to all.",
+        "description": "\\I[592]\\{ \\c[6]Compressing and exploding the fire element, causing medium damage\nto all.",
         "effects": [
             {
                 "code": 21,
@@ -5806,7 +5806,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals damage.",
+        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals\ndamage.",
         "effects": [
             {
                 "code": 21,
@@ -5929,7 +5929,7 @@
             "type": 1,
             "variance": 30
         },
-        "description": "\\I[597]\\{ \\c[6]A blade created solely from \\c[0]elemental power, dealing massive damage.",
+        "description": "\\I[597]\\{ \\c[6]A blade created solely from \\c[0]elemental power, dealing massive\ndamage.",
         "effects": [
             {
                 "code": 21,
@@ -6160,7 +6160,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals damage.",
+        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals\ndamage.",
         "effects": [
             {
                 "code": 21,
@@ -6320,7 +6320,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals damage.",
+        "description": "\\I[594] \\c[6]A single-target magic that unleashes a lightning strike and deals\ndamage.",
         "effects": [
             {
                 "code": 21,
@@ -6618,7 +6618,7 @@
             "type": 1,
             "variance": 30
         },
-        "description": "\\I[597]\\{ \\c[6]A blade created solely from \\c[0]elemental power, dealing massive damage.",
+        "description": "\\I[597]\\{ \\c[6]A blade created solely from \\c[0]elemental power, dealing massive\ndamage.",
         "effects": [
             {
                 "code": 21,
@@ -6967,7 +6967,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "To those who saw this, I stopped using Lala's special attack because she got angry.",
+        "description": "To those who saw this, I stopped using Lala's special attack because she got\nangry.",
         "effects": [
             {
                 "code": 21,
@@ -9524,7 +9524,7 @@
             "type": 1,
             "variance": 10
         },
-        "description": "\\I[755] \\c[6]A powerful slashing technique that combines the fire element. Deals massive\ndamage.",
+        "description": "\\I[755] \\c[6]A powerful slashing technique that combines the fire element. Deals\nmassive damage.",
         "effects": [],
         "hitType": 1,
         "iconIndex": 755,
@@ -9584,7 +9584,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[597] \\c[6]A single \\c[0]creates a powerful sword wind, cutting through the target.",
+        "description": "\\I[597] \\c[6]A single \\c[0]creates a powerful sword wind, cutting through the\ntarget.",
         "effects": [
             {
                 "code": 21,
@@ -9621,7 +9621,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[597] \\c[6]The whole \\c[0]creates a powerful sword wind and cuts through the target.",
+        "description": "\\I[597] \\c[6]The whole \\c[0]creates a powerful sword wind and cuts through the\ntarget.",
         "effects": [
             {
                 "code": 21,
@@ -9688,7 +9688,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[594] \\c[6]A magic that unleashes a lightning attack and deals damage to the entire\n\\c[0]area.",
+        "description": "\\I[594] \\c[6]A magic that unleashes a lightning attack and deals damage to the\nentire \\c[0]area.",
         "effects": [
             {
                 "code": 21,
@@ -9994,7 +9994,7 @@
             "type": 1,
             "variance": 10
         },
-        "description": "\\I[592] \\c[6]Single-target \\c[0]burns to ashes, dealing massive damage. Lala's customized\nversion.",
+        "description": "\\I[592] \\c[6]Single-target \\c[0]burns to ashes, dealing massive damage. Lala's\ncustomized version.",
         "effects": [
             {
                 "code": 21,
@@ -10098,7 +10098,7 @@
             "type": 1,
             "variance": 10
         },
-        "description": "\\I[681] \\c[6]She shoots arrows into the sky, causing them to rain down like a shower and\ndeal small damage. Occasionally inflicts attack power reduction.",
+        "description": "\\I[681] \\c[6]She shoots arrows into the sky, causing them to rain down like a\nshower and deal small damage. Occasionally inflicts attack power reduction.",
         "effects": [
             {
                 "code": 21,
@@ -10359,7 +10359,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "Claudia's self-defense technique, she cuts through enemies with a blade of magical power.",
+        "description": "Claudia's self-defense technique, she cuts through enemies with a blade of\nmagical power.",
         "effects": [],
         "hitType": 1,
         "iconIndex": 599,
@@ -10620,7 +10620,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[597] \\c[6]She wraps herself in wind and unleashes a series of slashing attacks.",
+        "description": "\\I[597] \\c[6]She wraps herself in wind and unleashes a series of slashing\nattacks.",
         "effects": [
             {
                 "code": 21,
@@ -10754,7 +10754,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "Single target. Does not crit. Deals an attack that ignores defense, and occasionally\ncauses confusion.",
+        "description": "Single target. Does not crit. Deals an attack that ignores defense, and\noccasionally causes confusion.",
         "effects": [],
         "hitType": 1,
         "iconIndex": 682,
@@ -10814,7 +10814,7 @@
             "type": 1,
             "variance": 20
         },
-        "description": "\\I[682] \\c[6]She fiercely punches the ground, occasionally releasing shockwaves that\ndecrease speed.",
+        "description": "\\I[682] \\c[6]She fiercely punches the ground, occasionally releasing shockwaves\nthat decrease speed.",
         "effects": [
             {
                 "code": 21,
@@ -12471,7 +12471,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[758] \\c[6]Effect\\c[0] Item recovery rate is increased by 1.5 times. It is always active\non the menu screen.",
+        "description": "\\I[758] \\c[6]Effect\\c[0] Item recovery rate is increased by 1.5 times. It is\nalways active on the menu screen.",
         "effects": [],
         "hitType": 1,
         "iconIndex": 758,
@@ -12501,7 +12501,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[721] \\c[6]Effect\\c[0] The power entrusted by the evil god Orpheus. All stats greatly\nincrease.",
+        "description": "\\I[721] \\c[6]Effect\\c[0] The power entrusted by the evil god Orpheus. All stats\ngreatly increase.",
         "effects": [],
         "hitType": 1,
         "iconIndex": 721,
@@ -12591,7 +12591,7 @@
             "type": 1,
             "variance": 4
         },
-        "description": "\\I[759] \\c[6]Solo \\c[0]Supreme magic that borrows the power of an evil god to annihilate\nthe target.",
+        "description": "\\I[759] \\c[6]Solo \\c[0]Supreme magic that borrows the power of an evil god to\nannihilate the target.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 759,
@@ -12621,7 +12621,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[759] \\c[6]Effect\\c[0] Fully restores the HP of all allies (greatly) + enhances all\nstats + HP/MP regeneration.",
+        "description": "\\I[759] \\c[6]Effect\\c[0] Fully restores the HP of all allies (greatly) +\nenhances all stats + HP/MP regeneration.",
         "effects": [],
         "hitType": 1,
         "iconIndex": 759,
@@ -12651,7 +12651,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[759] \\c[6]Effect\\c[0] No matter what dire situation you find yourself in, I will\ndefinitely save you.",
+        "description": "\\I[759] \\c[6]Effect\\c[0] No matter what dire situation you find yourself in, I\nwill definitely save you.",
         "effects": [
             {
                 "code": 44,

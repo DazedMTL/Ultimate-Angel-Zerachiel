@@ -300,7 +300,7 @@
     {
         "id": 10,
         "animationId": 1,
-        "description": "\\I[361] \\c[6]A scythe\\c[0] that houses the divine beast of a shark that summons tornadoes.\nIt possesses a divine power.",
+        "description": "\\I[361] \\c[6]A scythe\\c[0] that houses the divine beast of a shark that summons\ntornadoes. It possesses a divine power.",
         "etypeId": 1,
         "traits": [
             {
@@ -564,7 +564,7 @@
     {
         "id": 18,
         "animationId": 0,
-        "description": "\\I[273] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a goddess.",
+        "description": "\\I[273] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a\ngoddess.",
         "etypeId": 1,
         "traits": [
             {
@@ -597,7 +597,7 @@
     {
         "id": 19,
         "animationId": 0,
-        "description": "\\I[274] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing elemental\npower.",
+        "description": "\\I[274] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing\nelemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -729,7 +729,7 @@
     {
         "id": 23,
         "animationId": 0,
-        "description": "\\I[289] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and ease of\ncarrying.",
+        "description": "\\I[289] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and\nease of carrying.",
         "etypeId": 1,
         "traits": [
             {
@@ -795,7 +795,7 @@
     {
         "id": 25,
         "animationId": 0,
-        "description": "\\I[291] \\c[6]Short Sword\\c[0] A special short sword imbued with a high concentration of\nelemental power.",
+        "description": "\\I[291] \\c[6]Short Sword\\c[0] A special short sword imbued with a high\nconcentration of elemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -1026,7 +1026,7 @@
     {
         "id": 32,
         "animationId": 0,
-        "description": "\\I[341] The legendary bow left behind by a master archer. It has a high critical rate.",
+        "description": "\\I[341] The legendary bow left behind by a master archer. It has a high critical\nrate.",
         "etypeId": 1,
         "traits": [
             {
@@ -3765,7 +3765,7 @@
     {
         "id": 115,
         "animationId": 1,
-        "description": "\\I[358] \\c[6]The scythe of the fallen angel wielded by those who defy the \\c[0]Great\nScythe\\c[0] god.",
+        "description": "\\I[358] \\c[6]The scythe of the fallen angel wielded by those who defy the\n\\c[0]Great Scythe\\c[0] god.",
         "etypeId": 1,
         "traits": [
             {
@@ -3798,7 +3798,7 @@
     {
         "id": 116,
         "animationId": 1,
-        "description": "\\I[358] \\c[6]The scythe\\c[0] of the fallen angel wielded by those who defy the gods.",
+        "description": "\\I[358] \\c[6]The scythe\\c[0] of the fallen angel wielded by those who defy the\ngods.",
         "etypeId": 1,
         "traits": [
             {
@@ -3831,7 +3831,7 @@
     {
         "id": 117,
         "animationId": 1,
-        "description": "\\I[358] \\c[6]The Scythe of the Fallen Angel wielded by those who defy the \\c[0]God.",
+        "description": "\\I[358] \\c[6]The Scythe of the Fallen Angel wielded by those who defy the\n\\c[0]God.",
         "etypeId": 1,
         "traits": [
             {
@@ -3864,7 +3864,7 @@
     {
         "id": 118,
         "animationId": 1,
-        "description": "\\I[358] \\c[6]The scythe of the fallen angel wielded by those who defy the \\c[0]Great\nScythe\\c[0] god.",
+        "description": "\\I[358] \\c[6]The scythe of the fallen angel wielded by those who defy the\n\\c[0]Great Scythe\\c[0] god.",
         "etypeId": 1,
         "traits": [
             {
@@ -3897,7 +3897,7 @@
     {
         "id": 119,
         "animationId": 1,
-        "description": "\\I[358] \\c[6]The scythe\\c[0] of the fallen angel wielded by those who defy the gods.",
+        "description": "\\I[358] \\c[6]The scythe\\c[0] of the fallen angel wielded by those who defy the\ngods.",
         "etypeId": 1,
         "traits": [
             {
@@ -3930,7 +3930,7 @@
     {
         "id": 120,
         "animationId": 1,
-        "description": "\\I[358] \\c[6]The Scythe of the Fallen Angel wielded by those who defy the \\c[0]God.",
+        "description": "\\I[358] \\c[6]The Scythe of the Fallen Angel wielded by those who defy the\n\\c[0]God.",
         "etypeId": 1,
         "traits": [
             {
@@ -4425,7 +4425,7 @@
     {
         "id": 135,
         "animationId": 1,
-        "description": "\\I[377] \\c[6]Grim Reaper's Scythe\\c[0]. A scythe that brings salvation. Attacks all\nenemies. Can be inherited.",
+        "description": "\\I[377] \\c[6]Grim Reaper's Scythe\\c[0]. A scythe that brings salvation. Attacks\nall enemies. Can be inherited.",
         "etypeId": 1,
         "traits": [
             {
@@ -4458,7 +4458,7 @@
     {
         "id": 136,
         "animationId": 0,
-        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a goddess.",
+        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a\ngoddess.",
         "etypeId": 1,
         "traits": [
             {
@@ -4491,7 +4491,7 @@
     {
         "id": 137,
         "animationId": 0,
-        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a goddess.",
+        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a\ngoddess.",
         "etypeId": 1,
         "traits": [
             {
@@ -4524,7 +4524,7 @@
     {
         "id": 138,
         "animationId": 0,
-        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a goddess.",
+        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a\ngoddess.",
         "etypeId": 1,
         "traits": [
             {
@@ -4557,7 +4557,7 @@
     {
         "id": 139,
         "animationId": 0,
-        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a goddess.",
+        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a\ngoddess.",
         "etypeId": 1,
         "traits": [
             {
@@ -4590,7 +4590,7 @@
     {
         "id": 140,
         "animationId": 0,
-        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a goddess.",
+        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a\ngoddess.",
         "etypeId": 1,
         "traits": [
             {
@@ -4623,7 +4623,7 @@
     {
         "id": 141,
         "animationId": 0,
-        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a goddess.",
+        "description": "\\I[1489] \\c[6]The Great Staff\\c[0], a sacred staff adorned with the design of a\ngoddess.",
         "etypeId": 1,
         "traits": [
             {
@@ -4689,7 +4689,7 @@
     {
         "id": 143,
         "animationId": 0,
-        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing elemental\npower.",
+        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing\nelemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -4722,7 +4722,7 @@
     {
         "id": 144,
         "animationId": 0,
-        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing elemental\npower.",
+        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing\nelemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -4755,7 +4755,7 @@
     {
         "id": 145,
         "animationId": 0,
-        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing elemental\npower.",
+        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing\nelemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -4788,7 +4788,7 @@
     {
         "id": 146,
         "animationId": 0,
-        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing elemental\npower.",
+        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing\nelemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -4821,7 +4821,7 @@
     {
         "id": 147,
         "animationId": 0,
-        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing elemental\npower.",
+        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing\nelemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -4854,7 +4854,7 @@
     {
         "id": 148,
         "animationId": 0,
-        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing elemental\npower.",
+        "description": "\\I[1490] \\c[6]The Great Staff\\c[0] A staff embedded with crystals containing\nelemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -5151,7 +5151,7 @@
     {
         "id": 157,
         "animationId": 0,
-        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great sage who\nmastered magic.",
+        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great\nsage who mastered magic.",
         "etypeId": 1,
         "traits": [
             {
@@ -5184,7 +5184,7 @@
     {
         "id": 158,
         "animationId": 0,
-        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great sage who\nmastered magic.",
+        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great\nsage who mastered magic.",
         "etypeId": 1,
         "traits": [
             {
@@ -5217,7 +5217,7 @@
     {
         "id": 159,
         "animationId": 0,
-        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great sage who\nmastered magic.",
+        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great\nsage who mastered magic.",
         "etypeId": 1,
         "traits": [
             {
@@ -5250,7 +5250,7 @@
     {
         "id": 160,
         "animationId": 0,
-        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great sage who\nmastered magic.",
+        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great\nsage who mastered magic.",
         "etypeId": 1,
         "traits": [
             {
@@ -5283,7 +5283,7 @@
     {
         "id": 161,
         "animationId": 0,
-        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great sage who\nmastered magic.",
+        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great\nsage who mastered magic.",
         "etypeId": 1,
         "traits": [
             {
@@ -5316,7 +5316,7 @@
     {
         "id": 162,
         "animationId": 0,
-        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great sage who\nmastered magic.",
+        "description": "\\I[1492] \\c[6]The Great Staff\\c[0] A replica of the staff beloved by the great\nsage who mastered magic.",
         "etypeId": 1,
         "traits": [
             {
@@ -5382,7 +5382,7 @@
     {
         "id": 164,
         "animationId": 0,
-        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and easy\nportability.",
+        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and\neasy portability.",
         "etypeId": 1,
         "traits": [
             {
@@ -5415,7 +5415,7 @@
     {
         "id": 165,
         "animationId": 0,
-        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and easy\nportability.",
+        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and\neasy portability.",
         "etypeId": 1,
         "traits": [
             {
@@ -5448,7 +5448,7 @@
     {
         "id": 166,
         "animationId": 0,
-        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and easy\nportability.",
+        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and\neasy portability.",
         "etypeId": 1,
         "traits": [
             {
@@ -5481,7 +5481,7 @@
     {
         "id": 167,
         "animationId": 0,
-        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and easy\nportability.",
+        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and\neasy portability.",
         "etypeId": 1,
         "traits": [
             {
@@ -5514,7 +5514,7 @@
     {
         "id": 168,
         "animationId": 0,
-        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and ease of\ncarrying.",
+        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and\nease of carrying.",
         "etypeId": 1,
         "traits": [
             {
@@ -5547,7 +5547,7 @@
     {
         "id": 169,
         "animationId": 0,
-        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and ease of\ncarrying.",
+        "description": "\\I[1505] \\c[6]Short Sword\\c[0] A popular short sword due to its lightness and\nease of carrying.",
         "etypeId": 1,
         "traits": [
             {
@@ -5844,7 +5844,7 @@
     {
         "id": 178,
         "animationId": 0,
-        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high concentration of\nelemental power.",
+        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high\nconcentration of elemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -5877,7 +5877,7 @@
     {
         "id": 179,
         "animationId": 0,
-        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high concentration of\nelemental power.",
+        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high\nconcentration of elemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -5910,7 +5910,7 @@
     {
         "id": 180,
         "animationId": 0,
-        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high concentration of\nelemental power.",
+        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high\nconcentration of elemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -5943,7 +5943,7 @@
     {
         "id": 181,
         "animationId": 0,
-        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high concentration of\nelemental power.",
+        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high\nconcentration of elemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -5976,7 +5976,7 @@
     {
         "id": 182,
         "animationId": 0,
-        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high concentration of\nelemental power.",
+        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high\nconcentration of elemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -6009,7 +6009,7 @@
     {
         "id": 183,
         "animationId": 0,
-        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high concentration of\nelemental power.",
+        "description": "\\I[1507] \\c[6]Short Sword\\c[0] A special short sword imbued with a high\nconcentration of elemental power.",
         "etypeId": 1,
         "traits": [
             {
@@ -6306,7 +6306,7 @@
     {
         "id": 192,
         "animationId": 0,
-        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy handling.",
+        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy\nhandling.",
         "etypeId": 1,
         "traits": [
             {
@@ -6339,7 +6339,7 @@
     {
         "id": 193,
         "animationId": 0,
-        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy handling.",
+        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy\nhandling.",
         "etypeId": 1,
         "traits": [
             {
@@ -6372,7 +6372,7 @@
     {
         "id": 194,
         "animationId": 0,
-        "description": "\\I[1540] \\c[6]Gauntlets\\c[0] Gauntlets that have been processed to be easy to handle.",
+        "description": "\\I[1540] \\c[6]Gauntlets\\c[0] Gauntlets that have been processed to be easy to\nhandle.",
         "etypeId": 1,
         "traits": [
             {
@@ -6405,7 +6405,7 @@
     {
         "id": 195,
         "animationId": 0,
-        "description": "\\I[1540] \\c[6]Gauntlets\\c[0] Gauntlets that have been processed to be easy to handle.",
+        "description": "\\I[1540] \\c[6]Gauntlets\\c[0] Gauntlets that have been processed to be easy to\nhandle.",
         "etypeId": 1,
         "traits": [
             {
@@ -6438,7 +6438,7 @@
     {
         "id": 196,
         "animationId": 0,
-        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy handling.",
+        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy\nhandling.",
         "etypeId": 1,
         "traits": [
             {
@@ -6471,7 +6471,7 @@
     {
         "id": 197,
         "animationId": 0,
-        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy handling.",
+        "description": "\\I[1540] \\c[6]Gauntlet\\c[0] A gauntlet that has been processed for easy\nhandling.",
         "etypeId": 1,
         "traits": [
             {
@@ -7230,7 +7230,7 @@
     {
         "id": 220,
         "animationId": 0,
-        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high critical rate.",
+        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high\ncritical rate.",
         "etypeId": 1,
         "traits": [
             {
@@ -7263,7 +7263,7 @@
     {
         "id": 221,
         "animationId": 0,
-        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high critical rate.",
+        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high\ncritical rate.",
         "etypeId": 1,
         "traits": [
             {
@@ -7296,7 +7296,7 @@
     {
         "id": 222,
         "animationId": 0,
-        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high critical rate.",
+        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high\ncritical rate.",
         "etypeId": 1,
         "traits": [
             {
@@ -7329,7 +7329,7 @@
     {
         "id": 223,
         "animationId": 0,
-        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high critical rate.",
+        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high\ncritical rate.",
         "etypeId": 1,
         "traits": [
             {
@@ -7362,7 +7362,7 @@
     {
         "id": 224,
         "animationId": 0,
-        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high critical rate.",
+        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high\ncritical rate.",
         "etypeId": 1,
         "traits": [
             {
@@ -7395,7 +7395,7 @@
     {
         "id": 225,
         "animationId": 0,
-        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high critical rate.",
+        "description": "\\I[1557] The legendary bow left behind by a master archer. It has a high\ncritical rate.",
         "etypeId": 1,
         "traits": [
             {

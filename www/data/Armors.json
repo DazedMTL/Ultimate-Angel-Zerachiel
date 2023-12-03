@@ -396,7 +396,7 @@
     {
         "id": 18,
         "atypeId": 1,
-        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful\nprotection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
@@ -549,7 +549,7 @@
     {
         "id": 25,
         "atypeId": 2,
-        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful\nprotection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
@@ -705,7 +705,7 @@
     {
         "id": 31,
         "atypeId": 2,
-        "description": "\\I[464] \\c[6]Strengthen\\c[0] Increases your maximum HP by 10 points. Recovers 3 points of\nHP every turn.",
+        "description": "\\I[464] \\c[6]Strengthen\\c[0] Increases your maximum HP by 10 points. Recovers 3\npoints of HP every turn.",
         "etypeId": 4,
         "traits": [],
         "iconIndex": 464,
@@ -726,7 +726,7 @@
     {
         "id": 32,
         "atypeId": 2,
-        "description": "\\I[465] \\c[6]Enhancement\\c[0] Increases your maximum MP by 10 points. Prevents sealing.",
+        "description": "\\I[465] \\c[6]Enhancement\\c[0] Increases your maximum MP by 10 points. Prevents\nsealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -753,7 +753,7 @@
     {
         "id": 33,
         "atypeId": 2,
-        "description": "\\I[467] \\c[6]Enhancement\\c[0] Increases own defense by 12 points. Prevents defense\ndecrease.",
+        "description": "\\I[467] \\c[6]Enhancement\\c[0] Increases own defense by 12 points. Prevents\ndefense decrease.",
         "etypeId": 4,
         "traits": [
             {
@@ -780,7 +780,7 @@
     {
         "id": 34,
         "atypeId": 2,
-        "description": "\\I[466] \\c[6]Enhance\\c[0] Increases own attack power by 12 points. Prevents decrease in\nattack power.",
+        "description": "\\I[466] \\c[6]Enhance\\c[0] Increases own attack power by 12 points. Prevents\ndecrease in attack power.",
         "etypeId": 4,
         "traits": [
             {
@@ -807,7 +807,7 @@
     {
         "id": 35,
         "atypeId": 2,
-        "description": "\\I[470] \\c[6]Enhancement\\c[0] Increases own magic power by 12 points. Prevents sealing.",
+        "description": "\\I[470] \\c[6]Enhancement\\c[0] Increases own magic power by 12 points. Prevents\nsealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -834,7 +834,7 @@
     {
         "id": 36,
         "atypeId": 2,
-        "description": "\\I[468] \\c[6]Enhancement\\c[0] Increases own agility by 12 points. Prevents decrease in\nagility.",
+        "description": "\\I[468] \\c[6]Enhancement\\c[0] Increases own agility by 12 points. Prevents\ndecrease in agility.",
         "etypeId": 4,
         "traits": [
             {
@@ -892,7 +892,7 @@
             }
         ],
         "iconIndex": 476,
-        "name": "再生の指輪",
+        "name": "English Translation of Line = Ring of Regeneration",
         "note": "<itemCategory:\\I[811]Ring>\n\n<CustomRegenerateHP: 10>",
         "params": [
             0,
@@ -936,7 +936,7 @@
     {
         "id": 40,
         "atypeId": 1,
-        "description": "\\I[760] \\c[6]A ring imbued with the blessing of the Holy Maiden. Recovers 3 MP every turn.\nGrants immunity to all status ailments.",
+        "description": "\\I[760] \\c[6]A ring imbued with the blessing of the Holy Maiden. Recovers 3 MP\nevery turn. Grants immunity to all status ailments.",
         "etypeId": 4,
         "traits": [
             {
@@ -1419,7 +1419,7 @@
     {
         "id": 59,
         "atypeId": 2,
-        "description": "\\I[406] Armor made from specially polished high-strength steel. Evasion rate +15%.",
+        "description": "\\I[406] Armor made from specially polished high-strength steel. Evasion rate\n+15%.",
         "etypeId": 3,
         "traits": [
             {
@@ -1446,7 +1446,7 @@
     {
         "id": 60,
         "atypeId": 1,
-        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful\nprotection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
@@ -1605,7 +1605,7 @@
     {
         "id": 67,
         "atypeId": 2,
-        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful protection.",
+        "description": "\\I[762] Clothing bestowed upon the Archangel of Flame, imbued with powerful\nprotection.",
         "etypeId": 3,
         "traits": [],
         "iconIndex": 762,
@@ -1761,7 +1761,7 @@
     {
         "id": 73,
         "atypeId": 2,
-        "description": "\\I[464] \\c[6]Strengthen\\c[0] Increases own maximum HP by 20 points. Recovers 7 points of\nHP every turn.",
+        "description": "\\I[464] \\c[6]Strengthen\\c[0] Increases own maximum HP by 20 points. Recovers 7\npoints of HP every turn.",
         "etypeId": 4,
         "traits": [],
         "iconIndex": 464,
@@ -1782,7 +1782,7 @@
     {
         "id": 74,
         "atypeId": 2,
-        "description": "\\I[465] \\c[6]Enhance\\c[0] Increases your maximum MP by 20 points. Recovers 1 MP every\nturn. Prevents sealing.",
+        "description": "\\I[465] \\c[6]Enhance\\c[0] Increases your maximum MP by 20 points. Recovers 1 MP\nevery turn. Prevents sealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -1809,7 +1809,7 @@
     {
         "id": 75,
         "atypeId": 2,
-        "description": "\\I[467] \\c[6]Enhancement\\c[0] Increases own defense by 24 points. Prevents defense\ndecrease.",
+        "description": "\\I[467] \\c[6]Enhancement\\c[0] Increases own defense by 24 points. Prevents\ndefense decrease.",
         "etypeId": 4,
         "traits": [
             {
@@ -1836,7 +1836,7 @@
     {
         "id": 76,
         "atypeId": 2,
-        "description": "\\I[466] \\c[6]Enhancement\\c[0] Increases own attack power by 24 points. Prevents decrease\nin attack power.",
+        "description": "\\I[466] \\c[6]Enhancement\\c[0] Increases own attack power by 24 points. Prevents\ndecrease in attack power.",
         "etypeId": 4,
         "traits": [
             {
@@ -1863,7 +1863,7 @@
     {
         "id": 77,
         "atypeId": 2,
-        "description": "\\I[470] \\c[6]Enhancement\\c[0] Increases own magic power by 24 points. Prevents sealing.",
+        "description": "\\I[470] \\c[6]Enhancement\\c[0] Increases own magic power by 24 points. Prevents\nsealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -1890,7 +1890,7 @@
     {
         "id": 78,
         "atypeId": 2,
-        "description": "\\I[468] \\c[6]Enhancement\\c[0] Increases own agility by 24 points. Prevents decrease in\nagility.",
+        "description": "\\I[468] \\c[6]Enhancement\\c[0] Increases own agility by 24 points. Prevents\ndecrease in agility.",
         "etypeId": 4,
         "traits": [
             {
@@ -1965,7 +1965,7 @@
     {
         "id": 81,
         "atypeId": 2,
-        "description": "\\I[472] \\c[6]Enhancement\\c[0] Maximum MP increased by 30 points, Magic increased by 32\npoints, Seal nullified, MP recovers by 3 points every turn, and MP consumption reduced by\nhalf.",
+        "description": "\\I[472] \\c[6]Enhancement\\c[0] Maximum MP increased by 30 points, Magic increased\nby 32 points, Seal nullified, MP recovers by 3 points every turn, and MP\nconsumption reduced by half.",
         "etypeId": 4,
         "traits": [
             {
@@ -1997,7 +1997,7 @@
     {
         "id": 82,
         "atypeId": 1,
-        "description": "\\I[760] \\c[6]A ring imbued with the protection of a strengthened saint. Recovers 5 MP\nevery turn. Provides resistance against severe poison, sleep, confusion, and sealing.",
+        "description": "\\I[760] \\c[6]A ring imbued with the protection of a strengthened saint. Recovers\n5 MP every turn. Provides resistance against severe poison, sleep, confusion,\nand sealing.",
         "etypeId": 4,
         "traits": [
             {
@@ -2066,7 +2066,7 @@
     {
         "id": 84,
         "atypeId": 2,
-        "description": "\\I[463] \\c[6]Strengthen\\c[0] Increases maximum HP by 20 points and attack power by 24\npoints. Recovers 10 points of HP every turn.",
+        "description": "\\I[463] \\c[6]Strengthen\\c[0] Increases maximum HP by 20 points and attack power\nby 24 points. Recovers 10 points of HP every turn.",
         "etypeId": 4,
         "traits": [
             {
@@ -2098,7 +2098,7 @@
     {
         "id": 85,
         "atypeId": 2,
-        "description": "\\I[462] \\c[6]Enhances\\c[0] maximum MP by 20 points and magic power by 24 points. Nullifies\nseal. Recovers 2 MP every turn.",
+        "description": "\\I[462] \\c[6]Enhances\\c[0] maximum MP by 20 points and magic power by 24 points.\nNullifies seal. Recovers 2 MP every turn.",
         "etypeId": 4,
         "traits": [
             {
@@ -2125,7 +2125,7 @@
     {
         "id": 86,
         "atypeId": 2,
-        "description": "\\I[40] \\c[6]Enhancement\\c[0] Enhances all stats. Nullifies seal. Recovers 8 MP every turn.\nTransferable.",
+        "description": "\\I[40] \\c[6]Enhancement\\c[0] Enhances all stats. Nullifies seal. Recovers 8 MP\nevery turn. Transferable.",
         "etypeId": 4,
         "traits": [
             {

@@ -10818,21 +10818,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "釣りおじさん："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　郊外で釣りが出来るのを知っているかい？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　魚が大好きだから高額で買い取るよ。"
+                                "Fishing Old Man: Do you know that you can fish in\nthe outskirts? I love fish, so I'll buy them at a\nhigh price."
                             ]
                         },
                         {
@@ -10840,8 +10826,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "魚を買い取ってもらう",
-                                    "立ち去る"
+                                    "Get the fish bought",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -10949,21 +10935,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "釣りおじさん："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　また釣れたら持ってきてね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　いくらでも買い取るよ。"
+                                "Fishing Old Man: Bring them to me if you catch\nmore. I'll buy as many as you can get."
                             ]
                         },
                         {
@@ -12336,28 +12308,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お嬢ちゃん、かわいいね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　おじさんのご奉仕してくれないかな？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　３０００リル払うからさ。"
+                                "Resident: \"Miss, you're cute. Won't you let me\nserve you, young lady? I'll pay you 3000 ril.\""
                             ]
                         },
                         {
@@ -12374,14 +12325,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　あはは、お断りするよ。"
+                                "Zerachiel: \"Haha, I'll have to decline.\""
                             ]
                         },
                         {
@@ -12417,7 +12361,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　堕落度３１以上でイベントが発生します。"
+                                "An event will occur when the corruption level is\n31 or higher."
                             ]
                         },
                         {
@@ -12506,28 +12450,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　お嬢ちゃん、かわいいね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　おじさんのご奉仕してくれないかな？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　３０００リル払うからさ。"
+                                "Resident: Miss, you're cute. How about serving me,\nold man? I'll pay 3000 ril."
                             ]
                         },
                         {
@@ -12544,14 +12467,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　３０００リル……"
+                                "Zerachiel: 3000 ril..."
                             ]
                         },
                         {
@@ -12568,14 +12484,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　（すごい大金だ、どうしよう）"
+                                "Zerachiel: (That's a lot of money, what should I\ndo?)"
                             ]
                         },
                         {
@@ -12583,8 +12492,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いいよ",
-                                    "立ち去る"
+                                    "Sure, go ahead",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -12614,14 +12523,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　お金くれるなら構わないよ。"
+                                "Zerachiel: I don't mind if you give me money."
                             ]
                         },
                         {
@@ -12638,21 +12540,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ホントかい？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　さっそく部屋へ行こうよ。"
+                                "Resident: Really? Let's go to the room right away."
                             ]
                         },
                         {
@@ -12676,21 +12564,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　今日はありがとう。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　またよろしくね。"
+                                "Resident: Thank you for today. See you again."
                             ]
                         },
                         {
@@ -12840,28 +12714,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　ザラキエルちゃん、こんにちわ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　今日もご奉仕してくれないかな？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　３０００リル払うよ。"
+                                "Resident: Zerachiel-chan, hello. Will you serve me\ntoday as well? I'll pay 3000 ril."
                             ]
                         },
                         {
@@ -12878,14 +12731,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　うーん……"
+                                "Zerachiel: Hmm..."
                             ]
                         },
                         {
@@ -12893,8 +12739,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いいよ",
-                                    "立ち去る"
+                                    "Sure, go ahead",
+                                    "Leave"
                                 ],
                                 1,
                                 0,
@@ -12924,14 +12770,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ザラキエル："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　いいよ、ご奉仕してあげる。"
+                                "Zerachiel: Okay, I'll serve you."
                             ]
                         },
                         {
@@ -12948,21 +12787,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　ありがとう。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　さっそく部屋へ向かおうか。"
+                                "Resident: Thank you. Shall we head to the room\nright away?"
                             ]
                         },
                         {
@@ -12995,21 +12820,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　いつもありがとう。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　またよろしくお願いするよ。"
+                                "Resident: Thank you as always. I'll rely on you\nagain."
                             ]
                         },
                         {
@@ -13128,21 +12939,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "住民："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　今日はありがとう。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　またよろしくね。"
+                                "Resident: Thank you for today. Let's work together\nagain."
                             ]
                         },
                         {

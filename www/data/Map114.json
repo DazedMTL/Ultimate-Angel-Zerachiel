@@ -4324,7 +4324,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　ダンジョンの奥まで転移しますか？"
+                                "Will you teleport to the depths of the dungeon?"
                             ]
                         },
                         {
@@ -4332,8 +4332,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
