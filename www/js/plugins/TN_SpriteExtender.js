@@ -12,7 +12,7 @@
  * @param 胴体の引き伸ばし率
  * @desc 1でデフォルトと同じ頭身になります。高いほど頭身が上がります。
  * @default 1.42
- * 
+ *
  * @param 頭の範囲
  * @desc 歩行グラフィック上端を0とし、ここに指定した値までは引き伸ばしを行いません。
  * @default 14
@@ -38,7 +38,7 @@
  * 引き伸ばし方が気に入らない場合は、0.1～0.01単位で各値を調節してみてください。
  * 数値によっては、ホコグラの上端に別のホコグラ由来の線が見えることがありますが、
  * 0.01ほど数値を調整すれば消失します。
- * 
+ *
  * 再定義を含むため、プラグインリストの上の方への適用が望ましいです。
  * -----------------------------------------------------------
  * 【！】 有償ライセンスプラグイン
@@ -69,7 +69,7 @@
  *
  * ※ライセンス違反作品を発見した場合は、作者へご連絡いただくか
  * 各投稿サイトの通報機能で当該作品をご通報ください。
- * 
+ *
  * This plugin can be used only by the users who have added the license roster below:
  *   https://ch.nicovideo.jp/terunon/blomaga/ar1083931
  *
@@ -80,4 +80,102 @@
  * please report to me or the owner of the website.
  */
 
-(function () { var parameters = PluginManager.parameters("TN_SpriteExtender"); var bodyRate = Number(parameters["\u80f4\u4f53\u306e\u5f15\u304d\u4f38\u3070\u3057\u7387"]); var bodyMargin = Number(parameters["\u982d\u306e\u7bc4\u56f2"]); var disableKeys = String(parameters["\u9664\u5916\u30d5\u30a1\u30a4\u30eb\uff08\u90e8\u5206\u4e00\u81f4\uff09"]).split(","); var disableFiles = String(parameters["\u9664\u5916\u30d5\u30a1\u30a4\u30eb\uff08\u5b8c\u5168\u4e00\u81f4\uff09"]).split(","); var disableKeysL = disableKeys.length; var disableFilesL = disableFiles.length; var bushHeight = parameters["\u8302\u307f\u30bf\u30a4\u30eb\u306e\u9ad8\u3055\u3092\u7d71\u4e00"] === "true"; Sprite_Character.prototype.updateBitmap = function () { if (this.isImageChanged()) { this._tilesetId = $gameMap.tilesetId(); this._tileId = this._character.tileId(); this._characterName = this._character.characterName(); this._characterIndex = this._character.characterIndex(); this._isSeperated = this.isSeperated(); if (this._tileId > 0) this.setTileBitmap(); else this.setCharacterBitmap() } }; var TN_dn = 172; Sprite_Character.prototype.isSeperated = function () { for (var i = 0; i < disableKeysL; i++)if (this._characterName.contains(disableKeys[i])) return false; for (var i$0 = 0; i$0 < disableFilesL; i$0++)if (this._characterName === disableFiles[i$0]) return false; return true }; Sprite_Character.prototype.updateCharacterFrameDef = Sprite_Character.prototype.updateCharacterFrame; Sprite_Character.prototype.updateCharacterFrameSep = function () { var pw = this.patternWidth(); var ph = this.patternHeight(); var sx = (this.characterBlockX() + this.characterPatternX()) * pw; var sy = (this.characterBlockY() + this.characterPatternY()) * ph; this.createHalfBodySprites(); if (this._bushDepth > 0) this._lowerBody.opacity = 128; else this._lowerBody.opacity = 255; this._upperBody.bitmap = this.bitmap; this._upperBody.visible = true; this._lowerBody.bitmap = this.bitmap; this._lowerBody.visible = true; this._upperBody.y = -bodyMargin * bodyRate; this._lowerBody.scale.y = bodyRate; this._upperBody.setFrame(sx, sy, pw, ph - bodyMargin); this._lowerBody.setFrame(sx, sy + ph - bodyMargin, pw, bodyMargin); this.setFrame(sx, sy, 0, ph); var tone = this._character._tone; if (tone) { this._upperBody.setColorTone(tone); this._lowerBody.setColorTone(tone) } }; Sprite_Character.prototype.updateCharacterFrame = function () { if (this.isSeperated()) this.updateCharacterFrameSep(); else this.updateCharacterFrameDef() }; if (bushHeight) Sprite_Character.prototype.updateCharacterFrameDef = function () { var pw = this.patternWidth(); var ph = this.patternHeight(); var sx = (this.characterBlockX() + this.characterPatternX()) * pw; var sy = (this.characterBlockY() + this.characterPatternY()) * ph; this.createHalfBodySprites(); if (this._bushDepth > 0) this._lowerBody.opacity = 128; else this._lowerBody.opacity = 255; this._upperBody.bitmap = this.bitmap; this._upperBody.visible = true; this._lowerBody.bitmap = this.bitmap; this._lowerBody.visible = true; this._upperBody.y = -bodyMargin * bodyRate; this._upperBody.setFrame(sx, sy, pw, ph - bodyMargin * bodyRate); this._lowerBody.setFrame(sx, sy + ph - bodyMargin * bodyRate, pw, bodyMargin * bodyRate); this.setFrame(sx, sy, 0, ph); var tone = this._character._tone; if (tone) { this._upperBody.setColorTone(tone); this._lowerBody.setColorTone(tone) } } })();
+(function () {
+  var parameters = PluginManager.parameters("TN_SpriteExtender");
+  var bodyRate = Number(
+    parameters["\u80f4\u4f53\u306e\u5f15\u304d\u4f38\u3070\u3057\u7387"]
+  );
+  var bodyMargin = Number(parameters["\u982d\u306e\u7bc4\u56f2"]);
+  var disableKeys = String(
+    parameters[
+      "\u9664\u5916\u30d5\u30a1\u30a4\u30eb\uff08\u90e8\u5206\u4e00\u81f4\uff09"
+    ]
+  ).split(",");
+  var disableFiles = String(
+    parameters[
+      "\u9664\u5916\u30d5\u30a1\u30a4\u30eb\uff08\u5b8c\u5168\u4e00\u81f4\uff09"
+    ]
+  ).split(",");
+  var disableKeysL = disableKeys.length;
+  var disableFilesL = disableFiles.length;
+  var bushHeight =
+    parameters[
+      "\u8302\u307f\u30bf\u30a4\u30eb\u306e\u9ad8\u3055\u3092\u7d71\u4e00"
+    ] === "true";
+  Sprite_Character.prototype.updateBitmap = function () {
+    if (this.isImageChanged()) {
+      this._tilesetId = $gameMap.tilesetId();
+      this._tileId = this._character.tileId();
+      this._characterName = this._character.characterName();
+      this._characterIndex = this._character.characterIndex();
+      this._isSeperated = this.isSeperated();
+      if (this._tileId > 0) this.setTileBitmap();
+      else this.setCharacterBitmap();
+    }
+  };
+  var TN_dn = 172;
+  Sprite_Character.prototype.isSeperated = function () {
+    for (var i = 0; i < disableKeysL; i++)
+      if (this._characterName.contains(disableKeys[i])) return false;
+    for (var i$0 = 0; i$0 < disableFilesL; i$0++)
+      if (this._characterName === disableFiles[i$0]) return false;
+    return true;
+  };
+  Sprite_Character.prototype.updateCharacterFrameDef =
+    Sprite_Character.prototype.updateCharacterFrame;
+  Sprite_Character.prototype.updateCharacterFrameSep = function () {
+    var pw = this.patternWidth();
+    var ph = this.patternHeight();
+    var sx = (this.characterBlockX() + this.characterPatternX()) * pw;
+    var sy = (this.characterBlockY() + this.characterPatternY()) * ph;
+    this.createHalfBodySprites();
+    if (this._bushDepth > 0) this._lowerBody.opacity = 128;
+    else this._lowerBody.opacity = 255;
+    this._upperBody.bitmap = this.bitmap;
+    this._upperBody.visible = true;
+    this._lowerBody.bitmap = this.bitmap;
+    this._lowerBody.visible = true;
+    this._upperBody.y = -bodyMargin * bodyRate;
+    this._lowerBody.scale.y = bodyRate;
+    this._upperBody.setFrame(sx, sy, pw, ph - bodyMargin);
+    this._lowerBody.setFrame(sx, sy + ph - bodyMargin, pw, bodyMargin);
+    this.setFrame(sx, sy, 0, ph);
+    var tone = this._character._tone;
+    if (tone) {
+      this._upperBody.setColorTone(tone);
+      this._lowerBody.setColorTone(tone);
+    }
+  };
+  Sprite_Character.prototype.updateCharacterFrame = function () {
+    if (this.isSeperated()) this.updateCharacterFrameSep();
+    else this.updateCharacterFrameDef();
+  };
+  if (bushHeight)
+    Sprite_Character.prototype.updateCharacterFrameDef = function () {
+      var pw = this.patternWidth();
+      var ph = this.patternHeight();
+      var sx = (this.characterBlockX() + this.characterPatternX()) * pw;
+      var sy = (this.characterBlockY() + this.characterPatternY()) * ph;
+      this.createHalfBodySprites();
+      if (this._bushDepth > 0) this._lowerBody.opacity = 128;
+      else this._lowerBody.opacity = 255;
+      this._upperBody.bitmap = this.bitmap;
+      this._upperBody.visible = true;
+      this._lowerBody.bitmap = this.bitmap;
+      this._lowerBody.visible = true;
+      this._upperBody.y = -bodyMargin * bodyRate;
+      this._upperBody.setFrame(sx, sy, pw, ph - bodyMargin * bodyRate);
+      this._lowerBody.setFrame(
+        sx,
+        sy + ph - bodyMargin * bodyRate,
+        pw,
+        bodyMargin * bodyRate
+      );
+      this.setFrame(sx, sy, 0, ph);
+      var tone = this._character._tone;
+      if (tone) {
+        this._upperBody.setColorTone(tone);
+        this._lowerBody.setColorTone(tone);
+      }
+    };
+})();

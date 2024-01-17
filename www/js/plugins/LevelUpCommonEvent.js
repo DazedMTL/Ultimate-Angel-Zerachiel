@@ -25,44 +25,42 @@
  */
 
 (function () {
+  var pluginName = "LevelUpCommonEvent";
+  var parameters = PluginManager.parameters(pluginName);
 
-    var pluginName = 'LevelUpCommonEvent';
-    var parameters = PluginManager.parameters(pluginName);
+  var switchNum = Number(parameters["プラグイン無効化スイッチ番号"]);
 
-    var switchNum = Number(parameters['プラグイン無効化スイッチ番号']);
+  var regex = /<LevelUpCommonEvent:\s*(\d+)>/i;
 
-    var regex = /<LevelUpCommonEvent:\s*(\d+)>/i;
+  var _Game_Actor_levelUp = Game_Actor.prototype.levelUp;
+  Game_Actor.prototype.levelUp = function () {
+    _Game_Actor_levelUp.call(this);
 
-    var _Game_Actor_levelUp = Game_Actor.prototype.levelUp;
-    Game_Actor.prototype.levelUp = function () {
-        _Game_Actor_levelUp.call(this);
-
-        // バトルテスト中は実行しない
-        if (DataManager.isBattleTest()) {
-            return;
-        }
-
-        // スイッチで無効化されている場合は実行しない
-        if (switchNum > 0 && $gameSwitches.value(switchNum)) {
-            return;
-        }
-
-        var levelUpCommonEventId = this.levelUpCommonEventId();
-        if (levelUpCommonEventId > 0) {
-            $gameTemp.reserveCommonEvent(levelUpCommonEventId);
-        }
+    // バトルテスト中は実行しない
+    if (DataManager.isBattleTest()) {
+      return;
     }
 
-    Game_Actor.prototype.levelUpCommonEventId = function () {
-        if (this._levelUpCommonEventId !== undefined) {
-            return this._levelUpCommonEventId;
-        }
-        this._levelUpCommonEventId = 0;
-        var result = regex.exec(this.actor().note);
-        if (result) {
-            this._levelUpCommonEventId = Math.floor(result[1]);
-        }
-        return this._levelUpCommonEventId;
+    // スイッチで無効化されている場合は実行しない
+    if (switchNum > 0 && $gameSwitches.value(switchNum)) {
+      return;
     }
 
+    var levelUpCommonEventId = this.levelUpCommonEventId();
+    if (levelUpCommonEventId > 0) {
+      $gameTemp.reserveCommonEvent(levelUpCommonEventId);
+    }
+  };
+
+  Game_Actor.prototype.levelUpCommonEventId = function () {
+    if (this._levelUpCommonEventId !== undefined) {
+      return this._levelUpCommonEventId;
+    }
+    this._levelUpCommonEventId = 0;
+    var result = regex.exec(this.actor().note);
+    if (result) {
+      this._levelUpCommonEventId = Math.floor(result[1]);
+    }
+    return this._levelUpCommonEventId;
+  };
 })();

@@ -82,83 +82,84 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'MasterVolumeOption';
+  "use strict";
+  var pluginName = "MasterVolumeOption";
 
-    //=============================================================================
-    // ローカル関数
-    //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
-    //=============================================================================
-    var getParamString = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
-        }
-        return '';
-    };
+  //=============================================================================
+  // ローカル関数
+  //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
+  //=============================================================================
+  var getParamString = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
+    }
+    return "";
+  };
 
-    var getParamNumber = function (paramNames, min, max) {
-        var value = getParamString(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(value) || 0).clamp(min, max);
-    };
+  var getParamNumber = function (paramNames, min, max) {
+    var value = getParamString(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(value) || 0).clamp(min, max);
+  };
 
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var param = {};
-    param.itemName = getParamString(['ItemName', '項目名称']);
-    param.defaultValue = getParamNumber(['DefaultValue', '初期値']);
-    param.offsetValue = getParamNumber(['OffsetValue', '音量の増減量']);//ツミオ加筆
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var param = {};
+  param.itemName = getParamString(["ItemName", "項目名称"]);
+  param.defaultValue = getParamNumber(["DefaultValue", "初期値"]);
+  param.offsetValue = getParamNumber(["OffsetValue", "音量の増減量"]); //ツミオ加筆
 
-    //=============================================================================
-    // ConfigManager
-    //  マスターボリュームの設定機能を追加します。
-    //=============================================================================
-    Object.defineProperty(ConfigManager, 'masterVolume', {
-        get: function () {
-            return Math.floor(AudioManager._masterVolume * 100);
-        },
-        set: function (value) {
-            AudioManager.masterVolume = value.clamp(0, 100) / 100;
-        }
-    });
+  //=============================================================================
+  // ConfigManager
+  //  マスターボリュームの設定機能を追加します。
+  //=============================================================================
+  Object.defineProperty(ConfigManager, "masterVolume", {
+    get: function () {
+      return Math.floor(AudioManager._masterVolume * 100);
+    },
+    set: function (value) {
+      AudioManager.masterVolume = value.clamp(0, 100) / 100;
+    },
+  });
 
-    var _ConfigManager_makeData = ConfigManager.makeData;
-    ConfigManager.makeData = function () {
-        var config = _ConfigManager_makeData.apply(this, arguments);
-        config.masterVolume = this.masterVolume;
-        return config;
-    };
+  var _ConfigManager_makeData = ConfigManager.makeData;
+  ConfigManager.makeData = function () {
+    var config = _ConfigManager_makeData.apply(this, arguments);
+    config.masterVolume = this.masterVolume;
+    return config;
+  };
 
-    var _ConfigManager_applyData = ConfigManager.applyData;
-    ConfigManager.applyData = function (config) {
-        _ConfigManager_applyData.apply(this, arguments);
-        var symbol = 'masterVolume';
-        this.masterVolume = config.hasOwnProperty(symbol) ? this.readVolume(config, symbol) : param.defaultValue;
-    };
+  var _ConfigManager_applyData = ConfigManager.applyData;
+  ConfigManager.applyData = function (config) {
+    _ConfigManager_applyData.apply(this, arguments);
+    var symbol = "masterVolume";
+    this.masterVolume = config.hasOwnProperty(symbol)
+      ? this.readVolume(config, symbol)
+      : param.defaultValue;
+  };
 
-    //=============================================================================
-    // Window_Options
-    //  マスターボリュームの設定項目を追加します。
-    //=============================================================================
-    var _Window_Options_addVolumeOptions = Window_Options.prototype.addVolumeOptions;
-    Window_Options.prototype.addVolumeOptions = function () {
-        this.addCommand(param.itemName, 'masterVolume');
-        _Window_Options_addVolumeOptions.apply(this, arguments);
-    };
+  //=============================================================================
+  // Window_Options
+  //  マスターボリュームの設定項目を追加します。
+  //=============================================================================
+  var _Window_Options_addVolumeOptions =
+    Window_Options.prototype.addVolumeOptions;
+  Window_Options.prototype.addVolumeOptions = function () {
+    this.addCommand(param.itemName, "masterVolume");
+    _Window_Options_addVolumeOptions.apply(this, arguments);
+  };
 
-    //=============================================================================
-    // Window_Options
-    //  バーの移動量の設定を付け加えます（ツミオ加筆）
-    //=============================================================================
-    var _Window_Options_volumeOffset = Window_Options.prototype.volumeOffset;
-    Window_Options.prototype.volumeOffset = function () {
-        _Window_Options_volumeOffset.call(this);
-        return param.offsetValue;
-    };
-
+  //=============================================================================
+  // Window_Options
+  //  バーの移動量の設定を付け加えます（ツミオ加筆）
+  //=============================================================================
+  var _Window_Options_volumeOffset = Window_Options.prototype.volumeOffset;
+  Window_Options.prototype.volumeOffset = function () {
+    _Window_Options_volumeOffset.call(this);
+    return param.offsetValue;
+  };
 })();
-

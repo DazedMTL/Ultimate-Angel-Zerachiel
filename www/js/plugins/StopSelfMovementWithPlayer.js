@@ -76,8 +76,8 @@
   //
   // process parameters
   //
-  var parameters = PluginManager.parameters('StopSelfMovementWithPlayer');
-  var validateSwitchId = Number(parameters['Varidate Switch ID'] || 0);
+  var parameters = PluginManager.parameters("StopSelfMovementWithPlayer");
+  var validateSwitchId = Number(parameters["Varidate Switch ID"] || 0);
 
   //
   // process plugin commands
@@ -86,14 +86,14 @@
     Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'StopSelfMovementWithPlayer') {
+    if (command === "StopSelfMovementWithPlayer") {
       switch (args[0]) {
-        case 'on':
-        case 'ON':
+        case "on":
+        case "ON":
           $gameSystem.forceStopEvent = true;
           break;
-        case 'off':
-        case 'OFF':
+        case "off":
+        case "OFF":
           $gameSystem.forceStopEvent = false;
           break;
       }
@@ -147,5 +147,4 @@
       _Game_Event_updateSelfMovement.call(this);
     }
   };
-
 })();

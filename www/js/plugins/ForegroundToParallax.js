@@ -50,14 +50,14 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    var _Spriteset_Map_createForeground = Spriteset_Map.prototype.createForeground;
-    Spriteset_Map.prototype.createForeground = function () {
-        _Spriteset_Map_createForeground.apply(this, arguments);
-        this._baseSprite.removeChild(this._foreground);
-        var newIndex = this._baseSprite.getChildIndex(this._parallax);
-        this._baseSprite.addChildAt(this._foreground, newIndex);
-    };
+  var _Spriteset_Map_createForeground =
+    Spriteset_Map.prototype.createForeground;
+  Spriteset_Map.prototype.createForeground = function () {
+    _Spriteset_Map_createForeground.apply(this, arguments);
+    this._baseSprite.removeChild(this._foreground);
+    var newIndex = this._baseSprite.getChildIndex(this._parallax);
+    this._baseSprite.addChildAt(this._foreground, newIndex);
+  };
 })();
-

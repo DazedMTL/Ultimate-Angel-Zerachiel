@@ -1,11 +1,30 @@
-'use strict';
+"use strict";
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _createClass = (function () {
+  function defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];
+      descriptor.enumerable = descriptor.enumerable || false;
+      descriptor.configurable = true;
+      if ("value" in descriptor) descriptor.writable = true;
+      Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }
+  return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) defineProperties(Constructor, staticProps);
+    return Constructor;
+  };
+})();
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
 
 //=============================================================================
-// EISPreRun.js                                                             
+// EISPreRun.js
 //=============================================================================
 
 /*:
@@ -40,57 +59,66 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 * --Kino
 */
 (function () {
-
   var params = $plugins.filter(function (plugin) {
-    return (/<EIS_PreRun>/ig.test(plugin.description)
-    );
+    return /<EIS_PreRun>/gi.test(plugin.description);
   })[0].parameters;
-  var cmmnEvents = params['Pre Run Common Event IDs'].split(",").map(function (element) {
-    return Number(element.trim());
-  });
+  var cmmnEvents = params["Pre Run Common Event IDs"]
+    .split(",")
+    .map(function (element) {
+      return Number(element.trim());
+    });
 
   function setup() {
-    'use strict';
+    "use strict";
     //=============================================================================
     //  CommonEventObserver
     //=============================================================================
 
-    var CommonEventObserver = function () {
+    var CommonEventObserver = (function () {
       function CommonEventObserver() {
         _classCallCheck(this, CommonEventObserver);
       }
 
-      _createClass(CommonEventObserver, null, [{
-        key: 'start',
-        value: function start() {
-          this.update();
-        }
-      }, {
-        key: 'update',
-        value: function update() {
-          this.handleCommonEvents();
-          this.requestUpdate();
-        }
-      }, {
-        key: 'handleCommonEvents',
-        value: function handleCommonEvents() {
-          if ($gameMap.mapId() !== 0 && !$gameMap._interpreter.isRunning() && !$gameTemp.isCommonEventReserved() && cmmnEvents.length > 0) {
-            $gameTemp.reserveCommonEvent(cmmnEvents.dequeue());
-          }
-        }
-      }, {
-        key: 'requestUpdate',
-        value: function requestUpdate() {
-          requestAnimationFrame(this.update.bind(this));
-        }
-      }]);
+      _createClass(CommonEventObserver, null, [
+        {
+          key: "start",
+          value: function start() {
+            this.update();
+          },
+        },
+        {
+          key: "update",
+          value: function update() {
+            this.handleCommonEvents();
+            this.requestUpdate();
+          },
+        },
+        {
+          key: "handleCommonEvents",
+          value: function handleCommonEvents() {
+            if (
+              $gameMap.mapId() !== 0 &&
+              !$gameMap._interpreter.isRunning() &&
+              !$gameTemp.isCommonEventReserved() &&
+              cmmnEvents.length > 0
+            ) {
+              $gameTemp.reserveCommonEvent(cmmnEvents.dequeue());
+            }
+          },
+        },
+        {
+          key: "requestUpdate",
+          value: function requestUpdate() {
+            requestAnimationFrame(this.update.bind(this));
+          },
+        },
+      ]);
 
       return CommonEventObserver;
-    }();
+    })();
     //=============================================================================
-    //  DataManager                                                             
+    //  DataManager
     //=============================================================================
-
 
     var _DataManager_createGameObjects = DataManager.createGameObjects;
     DataManager.createGameObjects = function () {
@@ -103,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
     //=============================================================================
     //  Array
-    //=============================================================================    
+    //=============================================================================
     Array.prototype.enqueue = function (value) {
       this.reverse();
       this.push(value);

@@ -58,57 +58,63 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'FastForwardCustomize';
+  "use strict";
+  var pluginName = "FastForwardCustomize";
 
-    //=============================================================================
-    // ローカル関数
-    //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
-    //=============================================================================
-    var getParamString = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
-        }
-        return '';
-    };
+  //=============================================================================
+  // ローカル関数
+  //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
+  //=============================================================================
+  var getParamString = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
+    }
+    return "";
+  };
 
-    var getParamNumber = function (paramNames, min, max) {
-        var value = getParamString(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(value) || 0).clamp(min, max);
-    };
+  var getParamNumber = function (paramNames, min, max) {
+    var value = getParamString(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(value) || 0).clamp(min, max);
+  };
 
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var param = {};
-    param.eventSpeedVariableId = getParamNumber(['EventSpeedVariableId', 'イベント速度変数']);
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var param = {};
+  param.eventSpeedVariableId = getParamNumber([
+    "EventSpeedVariableId",
+    "イベント速度変数",
+  ]);
 
-    var _Scene_Map_updateMainMultiply = Scene_Map.prototype.updateMainMultiply;
-    Scene_Map.prototype.updateMainMultiply = function () {
-        _Scene_Map_updateMainMultiply.apply(this, arguments);
-        if (this.isFastForward()) {
-            this.updateMainForMoreFast();
-        }
-    };
+  var _Scene_Map_updateMainMultiply = Scene_Map.prototype.updateMainMultiply;
+  Scene_Map.prototype.updateMainMultiply = function () {
+    _Scene_Map_updateMainMultiply.apply(this, arguments);
+    if (this.isFastForward()) {
+      this.updateMainForMoreFast();
+    }
+  };
 
-    Scene_Map.prototype.updateMainForMoreFast = function () {
-        var updateCount = this.getFastSpeed() - 1;
-        for (var i = 0; i < updateCount; i++) {
-            this.updateMain();
-        }
-    };
+  Scene_Map.prototype.updateMainForMoreFast = function () {
+    var updateCount = this.getFastSpeed() - 1;
+    for (var i = 0; i < updateCount; i++) {
+      this.updateMain();
+    }
+  };
 
-    var _Scene_Map_isFastForward = Scene_Map.prototype.isFastForward;
-    Scene_Map.prototype.isFastForward = function () {
-        return _Scene_Map_isFastForward.apply(this, arguments) && this.getFastSpeed() > 0;
-    };
+  var _Scene_Map_isFastForward = Scene_Map.prototype.isFastForward;
+  Scene_Map.prototype.isFastForward = function () {
+    return (
+      _Scene_Map_isFastForward.apply(this, arguments) && this.getFastSpeed() > 0
+    );
+  };
 
-    Scene_Map.prototype.getFastSpeed = function () {
-        return param.eventSpeedVariableId > 0 ? $gameVariables.value(param.eventSpeedVariableId) : 1;
-    };
+  Scene_Map.prototype.getFastSpeed = function () {
+    return param.eventSpeedVariableId > 0
+      ? $gameVariables.value(param.eventSpeedVariableId)
+      : 1;
+  };
 })();
-

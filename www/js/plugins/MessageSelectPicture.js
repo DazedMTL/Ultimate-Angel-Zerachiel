@@ -57,126 +57,130 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    var getArgNumber = function (arg, min, max) {
-        if (arguments.length <= 2) min = -Infinity;
-        if (arguments.length <= 3) max = Infinity;
-        return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
-    };
+  var getArgNumber = function (arg, min, max) {
+    if (arguments.length <= 2) min = -Infinity;
+    if (arguments.length <= 3) max = Infinity;
+    return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
+  };
 
-    var convertEscapeCharacters = function (text) {
-        if (text == null) text = '';
-        var win = SceneManager._scene._windowLayer.children[0];
-        return win ? win.convertEscapeCharacters(text) : text;
-    };
+  var convertEscapeCharacters = function (text) {
+    if (text == null) text = "";
+    var win = SceneManager._scene._windowLayer.children[0];
+    return win ? win.convertEscapeCharacters(text) : text;
+  };
 
-    var getCommandName = function (command) {
-        return (command || '').toUpperCase();
-    };
+  var getCommandName = function (command) {
+    return (command || "").toUpperCase();
+  };
 
-    //=============================================================================
-    // Game_Interpreter
-    //  プラグインコマンドを追加定義します。
-    //=============================================================================
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _Game_Interpreter_pluginCommand.apply(this, arguments);
-        this.pluginCommandMessageSelectPicture(command, args);
-    };
+  //=============================================================================
+  // Game_Interpreter
+  //  プラグインコマンドを追加定義します。
+  //=============================================================================
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _Game_Interpreter_pluginCommand.apply(this, arguments);
+    this.pluginCommandMessageSelectPicture(command, args);
+  };
 
-    Game_Interpreter.prototype.pluginCommandMessageSelectPicture = function (command, args) {
-        switch (getCommandName(command)) {
-            case '選択肢ピクチャ設定':
-            case 'MSP_SET':
-                var index = getArgNumber(args[1], 1) - 1;
-                var pictureId = getArgNumber(args[0], 1, $gameScreen.maxPictures());
-                $gameMessage.setSelectPictureId(index, pictureId);
-                break;
-        }
-    };
-
-    var _Game_Message_initialize = Game_Message.prototype.initialize;
-    Game_Message.prototype.initialize = function () {
-        _Game_Message_initialize.apply(this, arguments);
-        this.clearSelectPictures();
-    };
-
-    Game_Message.prototype.setSelectPictureId = function (index, pictureId) {
-        this._selectPictures.push({ index: index, pictureId: pictureId });
-    };
-
-    Game_Message.prototype.clearSelectPictures = function () {
-        this._selectPictures = [];
-    };
-
-    Game_Message.prototype.getSelectPictures = function () {
-        return this._selectPictures;
-    };
-
-    var _Game_Message_onChoice = Game_Message.prototype.onChoice;
-    Game_Message.prototype.onChoice = function (n) {
-        _Game_Message_onChoice.apply(this, arguments);
-        this.clearSelectPictures();
-    };
-
-    Game_Picture.prototype.setOpacity = function (value) {
-        this._opacity = value;
-    };
-
-    var _Window_ChoiceList_update = Window_ChoiceList.prototype.update;
-    Window_ChoiceList.prototype.update = function () {
-        _Window_ChoiceList_update.apply(this, arguments);
-        if (this.isOpen()) {
-            this.updateSelectPicture();
-        }
-    };
-
-    Window_ChoiceList.prototype.updateSelectPicture = function () {
-        $gameMessage.getSelectPictures().forEach(function (data) {
-            var picture = $gameScreen.picture(data.pictureId);
-            if (!picture) {
-                return;
-            }
-            picture.setOpacity(data.index === this.findMessageIndex() ? 255 : 0);
-        }, this);
-    };
-
-    // for MPP_ChoiceEX.js start
-    Window_ChoiceList.prototype.findMessageIndex = function () {
-        var index = this.index();
-        if ($gameMessage.hiddenIndexList) {
-            $gameMessage.hiddenIndexList.forEach(function (hidden, i) {
-                if (hidden && index >= i) {
-                    index++;
-                }
-            });
-        }
-        return index;
-    };
-
-    var _Game_Interpreter_setupChoices = Game_Interpreter.prototype.setupChoices;
-    Game_Interpreter.prototype.setupChoices = function (params) {
-        if (this.addChoices) {
-            $gameMessage.hiddenIndexList = [];
-        }
-        _Game_Interpreter_setupChoices.apply(this, arguments);
-    };
-
-    var _Game_Interpreter_addChoices = Game_Interpreter.prototype.addChoices;
-    Game_Interpreter.prototype.addChoices = function (params, i, data, d) {
-        var regIf = /\s*if\((.+?)\)/;
-        var hiddenIndexList = $gameMessage.hiddenIndexList;
-        for (var n = 0; n < params[0].length; n++) {
-            var str = params[0][n];
-            if (regIf.test(str)) {
-                str = str.replace(regIf, '');
-                hiddenIndexList.push(RegExp.$1 && !this.evalChoice(RegExp.$1));
-            } else {
-                hiddenIndexList.push(false);
-            }
-        }
-        return _Game_Interpreter_addChoices.apply(this, arguments);
+  Game_Interpreter.prototype.pluginCommandMessageSelectPicture = function (
+    command,
+    args
+  ) {
+    switch (getCommandName(command)) {
+      case "選択肢ピクチャ設定":
+      case "MSP_SET":
+        var index = getArgNumber(args[1], 1) - 1;
+        var pictureId = getArgNumber(args[0], 1, $gameScreen.maxPictures());
+        $gameMessage.setSelectPictureId(index, pictureId);
+        break;
     }
-    // for MPP_ChoiceEX.js end
+  };
+
+  var _Game_Message_initialize = Game_Message.prototype.initialize;
+  Game_Message.prototype.initialize = function () {
+    _Game_Message_initialize.apply(this, arguments);
+    this.clearSelectPictures();
+  };
+
+  Game_Message.prototype.setSelectPictureId = function (index, pictureId) {
+    this._selectPictures.push({ index: index, pictureId: pictureId });
+  };
+
+  Game_Message.prototype.clearSelectPictures = function () {
+    this._selectPictures = [];
+  };
+
+  Game_Message.prototype.getSelectPictures = function () {
+    return this._selectPictures;
+  };
+
+  var _Game_Message_onChoice = Game_Message.prototype.onChoice;
+  Game_Message.prototype.onChoice = function (n) {
+    _Game_Message_onChoice.apply(this, arguments);
+    this.clearSelectPictures();
+  };
+
+  Game_Picture.prototype.setOpacity = function (value) {
+    this._opacity = value;
+  };
+
+  var _Window_ChoiceList_update = Window_ChoiceList.prototype.update;
+  Window_ChoiceList.prototype.update = function () {
+    _Window_ChoiceList_update.apply(this, arguments);
+    if (this.isOpen()) {
+      this.updateSelectPicture();
+    }
+  };
+
+  Window_ChoiceList.prototype.updateSelectPicture = function () {
+    $gameMessage.getSelectPictures().forEach(function (data) {
+      var picture = $gameScreen.picture(data.pictureId);
+      if (!picture) {
+        return;
+      }
+      picture.setOpacity(data.index === this.findMessageIndex() ? 255 : 0);
+    }, this);
+  };
+
+  // for MPP_ChoiceEX.js start
+  Window_ChoiceList.prototype.findMessageIndex = function () {
+    var index = this.index();
+    if ($gameMessage.hiddenIndexList) {
+      $gameMessage.hiddenIndexList.forEach(function (hidden, i) {
+        if (hidden && index >= i) {
+          index++;
+        }
+      });
+    }
+    return index;
+  };
+
+  var _Game_Interpreter_setupChoices = Game_Interpreter.prototype.setupChoices;
+  Game_Interpreter.prototype.setupChoices = function (params) {
+    if (this.addChoices) {
+      $gameMessage.hiddenIndexList = [];
+    }
+    _Game_Interpreter_setupChoices.apply(this, arguments);
+  };
+
+  var _Game_Interpreter_addChoices = Game_Interpreter.prototype.addChoices;
+  Game_Interpreter.prototype.addChoices = function (params, i, data, d) {
+    var regIf = /\s*if\((.+?)\)/;
+    var hiddenIndexList = $gameMessage.hiddenIndexList;
+    for (var n = 0; n < params[0].length; n++) {
+      var str = params[0][n];
+      if (regIf.test(str)) {
+        str = str.replace(regIf, "");
+        hiddenIndexList.push(RegExp.$1 && !this.evalChoice(RegExp.$1));
+      } else {
+        hiddenIndexList.push(false);
+      }
+    }
+    return _Game_Interpreter_addChoices.apply(this, arguments);
+  };
+  // for MPP_ChoiceEX.js end
 })();

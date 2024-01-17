@@ -16,7 +16,7 @@
  * @help
  * 戦闘開始時にパーティコマンドを飛ばします。
  * 先頭のアクターでキャンセルすると、パーティコマンドに戻ります。
- * 
+ *
  * パーティコマンドウィンドウでキャンセルすると、戦うを選んだ状態になります。
  *
  * プラグインコマンドはありません。
@@ -30,22 +30,20 @@
  */
 
 (function () {
-      'use strict';
+  "use strict";
 
+  const _Scene_Battle_prototype_startPartyCommandSelection =
+    Scene_Battle.prototype.startPartyCommandSelection;
+  Scene_Battle.prototype.startPartyCommandSelection = function () {
+    this.selectNextCommand();
+  };
 
-
-      const _Scene_Battle_prototype_startPartyCommandSelection = Scene_Battle.prototype.startPartyCommandSelection
-      Scene_Battle.prototype.startPartyCommandSelection = function () {
-            this.selectNextCommand();
-      };
-
-      Scene_Battle.prototype.selectPreviousCommand = function () {
-            BattleManager.selectPreviousCommand();
-            if (BattleManager.isInputting() && BattleManager.actor()) {
-                  this.startActorCommandSelection();
-            } else {
-                  _Scene_Battle_prototype_startPartyCommandSelection.call(this);
-            }
-      };
-
+  Scene_Battle.prototype.selectPreviousCommand = function () {
+    BattleManager.selectPreviousCommand();
+    if (BattleManager.isInputting() && BattleManager.actor()) {
+      this.startActorCommandSelection();
+    } else {
+      _Scene_Battle_prototype_startPartyCommandSelection.call(this);
+    }
+  };
 })();

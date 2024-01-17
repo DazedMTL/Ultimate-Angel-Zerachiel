@@ -36,8 +36,8 @@
  * @default 100
  * @type number
  * @min 1
- * @parent 
- * 
+ * @parent
+ *
  *
  * @param BustUpFiles
  * @desc バストアップ用画像リスト。
@@ -116,7 +116,7 @@
  * ・バストアップ画像や立ち絵画像は通常のピクチャとして配置されます。
  * ・対応するバストアップ画像や立ち絵画像がない場合は通常の顔画像が表示されます。
  * ・モードはプラグインコマンドで切り替えることができます（下記使い方の６を参照）。
- * 
+ *
  * 〇「バストアップモード」
  * 　・通常の顔画像の位置に、ウィンドウより上層に配置されます。
  * 　・画像は（原則として）プラグインパラメータで指定した大きさの物を使用します。
@@ -132,11 +132,11 @@
  *
  * ※画像の準備等、お膳立ての部分が多いプラグインです。
  * 　下記説明を参考に頑張って準備してくださいm(__)m
- * 
  *
- * 
+ *
+ *
  * ★使用方法
- * 
+ *
  * １．トリアコンタン様作のPicturePriorityCustomize.jsを有効にし、
  * 　　各プラグインパラメータを設定して下さい。
  * 　　※このとき、"上層ピクチャ番号"には100より小さな数値を、
@@ -150,12 +150,12 @@
  * 　　・エディタで画像を選ぶときに表示する画像。通常の顔画像と同じ画像規格。
  * 　　・ゲーム画面に表示される画像ではないので、適当なものでも大丈夫です。
  * 　　　　0 | 1 | 2 | 3
- * 　　　　4 | 5 | 6 | 7 
+ * 　　　　4 | 5 | 6 | 7
  *　　　　↑エディタ表示用画像インデックス番号
  *  　　　　バストアップ用画像と立ち絵用画像のファイル名に使用します。
  *　　■バストアップ用画像
  * 　　・バストアップモードの時に顔画像の代わりに表示する画像。
- * 　　・１つの画像に１つのバストアップ。 
+ * 　　・１つの画像に１つのバストアップ。
  * 　　・すべてのバストアップ用画像は原則として『同じ大きさ』。
  *　　 ・ファイル名は○○○〇_X　の形に統一
  *　　　 〇〇〇〇：エディタ表示用画像の名前（拡張子なし）
@@ -210,233 +210,328 @@
  */
 
 (function () {
+  "use strict";
+  var pluginName = "IZ_MessageWindow";
 
-    'use strict'
-    var pluginName = 'IZ_MessageWindow';
+  function toNumber(str, def) {
+    return isNaN(str) ? def : +(str || def);
+  }
 
-    function toNumber(str, def) {
-        return isNaN(str) ? def : +(str || def);
+  //■プラグインパラメータ
+  var parameters = PluginManager.parameters(pluginName);
+
+  //バストアップ用
+  var BustUpPictureId = parseInt(parameters["BustUpPictureId"]) || 100;
+  var BustUpWidth = toNumber(parameters["BustUpWidth"], 200);
+  var BustUpHeight = toNumber(parameters["BustUpHeight"], 250);
+  var BustUpPosX = toNumber(parameters["BustUpPosX"], 10);
+  var BustUpPosY = toNumber(parameters["BustUpPosY"], 0);
+  var buf = PluginManager.parameters(pluginName)["BustUpFiles"];
+  var BustUpFiles = JSON.parse(buf);
+
+  //立ち絵用
+  var STPictureId = parseInt(parameters["STPictureId"]) || 50;
+  var STPosX = toNumber(parameters["STPosX"], 0);
+  var STPosY = toNumber(parameters["STPosY"], 0);
+  var stf = PluginManager.parameters(pluginName)["STFiles"];
+  var STFiles = JSON.parse(stf);
+  var STZoom = toNumber(parameters["STZoom"], 1);
+
+  //バストアップモード・立ち絵モード管理変数
+  var mode = toNumber(parameters["DefaultPictureMode"], 0);
+
+  //■モード切替（プラグインコマンド）
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _Game_Interpreter_pluginCommand.call(this, command, args);
+    if (command === "MWPic") {
+      switch (args[0]) {
+        case "BustUp":
+          mode = 0;
+          break;
+        case "Standing":
+          mode = 1;
+          break;
+      }
     }
+  };
 
-    //■プラグインパラメータ
-    var parameters = PluginManager.parameters(pluginName);
+  var _GameMessage_clear = Game_Message.prototype.clear;
+  Game_Message.prototype.clear = function () {
+    _GameMessage_clear.call(this);
+    this._bustUpName = ""; //バストアップ名を追加
+    this._standName = ""; //立ち絵名を追加
+  };
 
-    //バストアップ用
-    var BustUpPictureId = parseInt(parameters['BustUpPictureId']) || 100;
-    var BustUpWidth = toNumber(parameters['BustUpWidth'], 200);
-    var BustUpHeight = toNumber(parameters['BustUpHeight'], 250);
-    var BustUpPosX = toNumber(parameters['BustUpPosX'], 10);
-    var BustUpPosY = toNumber(parameters['BustUpPosY'], 0);
-    var buf = PluginManager.parameters(pluginName)['BustUpFiles'];
-    var BustUpFiles = JSON.parse(buf);
+  Game_Message.prototype.bustUpName = function () {
+    return this._bustUpName;
+  };
 
-    //立ち絵用
-    var STPictureId = parseInt(parameters['STPictureId']) || 50;
-    var STPosX = toNumber(parameters['STPosX'], 0);
-    var STPosY = toNumber(parameters['STPosY'], 0);
-    var stf = PluginManager.parameters(pluginName)['STFiles'];
-    var STFiles = JSON.parse(stf);
-    var STZoom = toNumber(parameters['STZoom'], 1);
+  Game_Message.prototype.standName = function () {
+    return this._standName;
+  };
 
-    //バストアップモード・立ち絵モード管理変数
-    var mode = toNumber(parameters['DefaultPictureMode'], 0);
-
-    //■モード切替（プラグインコマンド）
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _Game_Interpreter_pluginCommand.call(this, command, args);
-        if (command === 'MWPic') {
-            switch (args[0]) {
-                case 'BustUp':
-                    mode = 0;
-                    break;
-                case 'Standing':
-                    mode = 1;
-                    break;
-            }
+  var _Game_Message_setFaceImage = Game_Message.prototype.setFaceImage;
+  Game_Message.prototype.setFaceImage = function (faceName, faceIndex) {
+    var buName = faceName + "_" + faceIndex;
+    var stName = faceName + "_s" + faceIndex;
+    if (mode == 0) {
+      for (var i = 0, len = BustUpFiles.length; i < len; i++) {
+        if (i in BustUpFiles && BustUpFiles[i] === buName) {
+          this._bustUpName = buName;
+          break;
         }
-    };
-
-
-    var _GameMessage_clear = Game_Message.prototype.clear;
-    Game_Message.prototype.clear = function () {
-        _GameMessage_clear.call(this);
-        this._bustUpName = '';//バストアップ名を追加
-        this._standName = '';//立ち絵名を追加
-    };
-
-    Game_Message.prototype.bustUpName = function () {
-        return this._bustUpName;
-    };
-
-    Game_Message.prototype.standName = function () {
-        return this._standName;
-    };
-
-    var _Game_Message_setFaceImage = Game_Message.prototype.setFaceImage;
-    Game_Message.prototype.setFaceImage = function (faceName, faceIndex) {
-        var buName = faceName + '_' + faceIndex;
-        var stName = faceName + '_s' + faceIndex;
-        if (mode == 0) {
-            for (var i = 0, len = BustUpFiles.length; i < len; i++) {
-                if (i in BustUpFiles && BustUpFiles[i] === buName) {
-                    this._bustUpName = buName;
-                    break;
-                }
-            }
-            if (this._bustUpName === '') {
-                _Game_Message_setFaceImage.call(this, faceName, faceIndex);
-            }
-        } else if (mode == 1) {
-            for (var i = 0, len = STFiles.length; i < len; i++) {
-                if (i in STFiles && STFiles[i] === stName) {
-                    this._standName = stName;
-                    break;
-                }
-            }
-            if (this._standName === '') {
-                _Game_Message_setFaceImage.call(this, faceName, faceIndex);
-            }
+      }
+      if (this._bustUpName === "") {
+        _Game_Message_setFaceImage.call(this, faceName, faceIndex);
+      }
+    } else if (mode == 1) {
+      for (var i = 0, len = STFiles.length; i < len; i++) {
+        if (i in STFiles && STFiles[i] === stName) {
+          this._standName = stName;
+          break;
         }
-
-    };
-
-
-    var _Window_Message_newLineX = Window_Message.prototype.newLineX;
-    Window_Message.prototype.newLineX = function () {
-        if (mode == 0 && $gameMessage.bustUpName() !== '') {
-            return BustUpPosX + BustUpWidth + 10;
-        } else if (mode == 1 && $gameMessage.standName() !== '') {
-            return 0;
-        } else {
-            return _Window_Message_newLineX.call(this);
-        }
-    };
-
-
-    //ここで競合が起きないようにしたい！
-    var _Window_Message_startMessage = Window_Message.prototype.startMessage;
-    Window_Message.prototype.startMessage = function () {
-        this._textState = {};
-        this._textState.index = 0;
-        this._textState.text = "\x1b8" + this.convertEscapeCharacters($gameMessage.allText());//最初に挿入したエスケープキャラクターによってピクチャ配置イベントを呼び出す
-        this.newPage(this._textState);
-        this.updatePlacement();
-        this.updateBackground();
-        this.open();
-    };
-
-    var _Window_Message_checkToNotClose = Window_Message.prototype.checkToNotClose;
-    Window_Message.prototype.checkToNotClose = function () {
-        _Window_Message_checkToNotClose.apply(this, arguments);
-        if (!this.doesContinue()) {
-            $gameScreen.erasePicture(this.izPictureNumber());//_
-        }
-    };
-
-    //ピクチャ番号をモードによって変更する関数を追加
-    Window_Message.prototype.izPictureNumber = function () {
-        return mode == 0 ? BustUpPictureId : STPictureId;
+      }
+      if (this._standName === "") {
+        _Game_Message_setFaceImage.call(this, faceName, faceIndex);
+      }
     }
+  };
 
-    Window_Message.prototype.izPictureName = function () {
-        return mode == 0 ? $gameMessage.bustUpName() : $gameMessage.standName();
+  var _Window_Message_newLineX = Window_Message.prototype.newLineX;
+  Window_Message.prototype.newLineX = function () {
+    if (mode == 0 && $gameMessage.bustUpName() !== "") {
+      return BustUpPosX + BustUpWidth + 10;
+    } else if (mode == 1 && $gameMessage.standName() !== "") {
+      return 0;
+    } else {
+      return _Window_Message_newLineX.call(this);
     }
+  };
 
-    Window_Message.prototype.izPicturePosX = function () {
-        return mode == 0 ? BustUpPosX : STPosX;
+  //ここで競合が起きないようにしたい！
+  var _Window_Message_startMessage = Window_Message.prototype.startMessage;
+  Window_Message.prototype.startMessage = function () {
+    this._textState = {};
+    this._textState.index = 0;
+    this._textState.text =
+      "\x1b8" + this.convertEscapeCharacters($gameMessage.allText()); //最初に挿入したエスケープキャラクターによってピクチャ配置イベントを呼び出す
+    this.newPage(this._textState);
+    this.updatePlacement();
+    this.updateBackground();
+    this.open();
+  };
+
+  var _Window_Message_checkToNotClose =
+    Window_Message.prototype.checkToNotClose;
+  Window_Message.prototype.checkToNotClose = function () {
+    _Window_Message_checkToNotClose.apply(this, arguments);
+    if (!this.doesContinue()) {
+      $gameScreen.erasePicture(this.izPictureNumber()); //_
     }
+  };
 
-    Window_Message.prototype.izPicturePosY = function () {
-        if (mode == 0) {
-            return this._positionType * (Graphics.boxHeight - this.height) / 2 + this.height - BustUpHeight - BustUpPosY;
-        } else {
-            return STPosY;
-        }
+  //ピクチャ番号をモードによって変更する関数を追加
+  Window_Message.prototype.izPictureNumber = function () {
+    return mode == 0 ? BustUpPictureId : STPictureId;
+  };
 
+  Window_Message.prototype.izPictureName = function () {
+    return mode == 0 ? $gameMessage.bustUpName() : $gameMessage.standName();
+  };
+
+  Window_Message.prototype.izPicturePosX = function () {
+    return mode == 0 ? BustUpPosX : STPosX;
+  };
+
+  Window_Message.prototype.izPicturePosY = function () {
+    if (mode == 0) {
+      return (
+        (this._positionType * (Graphics.boxHeight - this.height)) / 2 +
+        this.height -
+        BustUpHeight -
+        BustUpPosY
+      );
+    } else {
+      return STPosY;
     }
+  };
 
-    Window_Message.prototype.izPictureZoom = function () {
-        return mode == 0 ? 100 : STZoom * 100;
+  Window_Message.prototype.izPictureZoom = function () {
+    return mode == 0 ? 100 : STZoom * 100;
+  };
+
+  var _Window_Message_processEscapeCharacter =
+    Window_Message.prototype.processEscapeCharacter;
+  Window_Message.prototype.processEscapeCharacter = function (code, textState) {
+    switch (code) {
+      case "8":
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          this.izPictureName(),
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "0":
+        var name = this.izPictureName().replace(/[0-9]$/, "0");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "1":
+        var name = this.izPictureName().replace(/[0-9]$/, "1");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "2":
+        var name = this.izPictureName().replace(/[0-9]$/, "2");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "3":
+        var name = this.izPictureName().replace(/[0-9]$/, "3");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "4":
+        var name = this.izPictureName().replace(/[0-9]$/, "4");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "5":
+        var name = this.izPictureName().replace(/[0-9]$/, "5");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "6":
+        var name = this.izPictureName().replace(/[0-9]$/, "6");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+      case "7":
+        var name = this.izPictureName().replace(/[0-9]$/, "7");
+        $gameScreen.showPicture(
+          this.izPictureNumber(),
+          name,
+          0,
+          this.izPicturePosX(),
+          this.izPicturePosY(),
+          this.izPictureZoom(),
+          this.izPictureZoom(),
+          255,
+          0
+        );
+        break;
+
+      case "$":
+        this._goldWindow.open();
+        break;
+      case ".":
+        this.startWait(15);
+        break;
+      case "|":
+        this.startWait(60);
+        break;
+      case "!":
+        this.startPause();
+        break;
+      case ">":
+        this._lineShowFast = true;
+        break;
+      case "<":
+        this._lineShowFast = false;
+        break;
+      case "^":
+        this._pauseSkip = true;
+        break;
+      default:
+        Window_Base.prototype.processEscapeCharacter.call(
+          this,
+          code,
+          textState
+        );
+        break;
     }
+  };
 
-    var _Window_Message_processEscapeCharacter = Window_Message.prototype.processEscapeCharacter;
-    Window_Message.prototype.processEscapeCharacter = function (code, textState) {
-        switch (code) {
-            case '8':
-                $gameScreen.showPicture(this.izPictureNumber(), this.izPictureName(), 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '0':
-                var name = this.izPictureName().replace(/[0-9]$/, '0');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '1':
-                var name = this.izPictureName().replace(/[0-9]$/, '1');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '2':
-                var name = this.izPictureName().replace(/[0-9]$/, '2');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '3':
-                var name = this.izPictureName().replace(/[0-9]$/, '3');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '4':
-                var name = this.izPictureName().replace(/[0-9]$/, '4');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '5':
-                var name = this.izPictureName().replace(/[0-9]$/, '5');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '6':
-                var name = this.izPictureName().replace(/[0-9]$/, '6');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-            case '7':
-                var name = this.izPictureName().replace(/[0-9]$/, '7');
-                $gameScreen.showPicture(this.izPictureNumber(), name, 0, this.izPicturePosX(), this.izPicturePosY(), this.izPictureZoom(), this.izPictureZoom(), 255, 0);
-                break;
-
-            case '$':
-                this._goldWindow.open();
-                break;
-            case '.':
-                this.startWait(15);
-                break;
-            case '|':
-                this.startWait(60);
-                break;
-            case '!':
-                this.startPause();
-                break;
-            case '>':
-                this._lineShowFast = true;
-                break;
-            case '<':
-                this._lineShowFast = false;
-                break;
-            case '^':
-                this._pauseSkip = true;
-                break;
-            default:
-                Window_Base.prototype.processEscapeCharacter.call(this, code, textState);
-                break;
-        }
+  Window_Message.prototype.obtainEscapeCode = function (textState) {
+    textState.index++;
+    var regExp = /^[\$\.\|\^!><\{\}\\]|^[A-Z]+|[012345678]/i;
+    var arr = regExp.exec(textState.text.slice(textState.index));
+    if (arr) {
+      textState.index += arr[0].length;
+      return arr[0].toUpperCase();
+    } else {
+      return "";
     }
-
-    Window_Message.prototype.obtainEscapeCode = function (textState) {
-        textState.index++;
-        var regExp = /^[\$\.\|\^!><\{\}\\]|^[A-Z]+|[012345678]/i;
-        var arr = regExp.exec(textState.text.slice(textState.index));
-        if (arr) {
-            textState.index += arr[0].length;
-            return arr[0].toUpperCase();
-        } else {
-            return '';
-        }
-    };
-
-
+  };
 })();

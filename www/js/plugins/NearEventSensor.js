@@ -163,214 +163,265 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'NearEventSensor';
-    var metaTagPrefix = 'NES';
+  "use strict";
+  var pluginName = "NearEventSensor";
+  var metaTagPrefix = "NES";
 
-    var getParamOther = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
-        }
-        return null;
-    };
-
-    var getParamNumber = function (paramNames, min, max) {
-        var value = getParamOther(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(value, 10) || 0).clamp(min, max);
-    };
-
-    var getParamBoolean = function (paramNames) {
-        var value = (getParamOther(paramNames) || '').toUpperCase();
-        return value === 'ON' || value === 'TRUE';
-    };
-
-    var getParamJson = function (paramNames, defaultValue) {
-        var value = getParamOther(paramNames);
-        try {
-            value = JSON.parse(value);
-            if (value === null) {
-                value = defaultValue;
-            }
-        } catch (e) {
-            alert(`!!!Plugin param is wrong.!!!\nPlugin:.js\nName:[]\nValue:`);
-            value = defaultValue;
-        }
-        return value;
-    };
-
-    var getArgNumber = function (arg, min, max) {
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
-    };
-
-    var getArgBoolean = function (arg) {
-        return arg === true ? true : (arg || '').toUpperCase() === 'ON' || (arg || '').toUpperCase() === 'TRUE';
-    };
-
-    var getMetaValue = function (object, name) {
-        var metaTagName = metaTagPrefix + (name ? name : '');
-        return object.meta.hasOwnProperty(metaTagName) ? object.meta[metaTagName] : undefined;
-    };
-
-    var getMetaValues = function (object, names) {
-        if (!Array.isArray(names)) return getMetaValue(object, names);
-        for (var i = 0, n = names.length; i < n; i++) {
-            var value = getMetaValue(object, names[i]);
-            if (value !== undefined) return value;
-        }
-        return undefined;
-    };
-
-    var convertEscapeCharacters = function (text) {
-        if (text == null) text = '';
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text) : text;
-    };
-
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var paramDefaultFlash = getParamBoolean(['DefaultFlash', 'デフォルトフラッシュ']);
-    var paramDefaultBalloon = getParamNumber(['DefaultBalloon', 'デフォルトフキダシ'], 0);
-    var paramDisableEmpty = getParamBoolean(['DisableEmpty', '空イベントは無効']);
-    var paramSensorDistance = getParamNumber(['SensorDistance', '感知距離'], 1);
-    var paramFlashColor = getParamJson(['FlashColor', 'フラッシュカラー'], null);
-    var paramFlashDuration = getParamNumber(['FlashDuration', 'フラッシュ時間'], 1);
-    var paramBalloonInterval = getParamNumber(['BalloonInterval', 'フキダシ間隔'], 0);
-    var paramConsiderationDir = getParamBoolean(['ConsiderationDir', '向きを考慮']);
-    if (paramFlashColor) {
-        paramFlashColor = [paramFlashColor.Red, paramFlashColor.Green, paramFlashColor.Blue, paramFlashColor.Alpha];
+  var getParamOther = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
     }
+    return null;
+  };
 
-    //=============================================================================
-    // Sprite_Character
-    //  キャラクターのフラッシュ機能を追加定義します。
-    //=============================================================================
-    var _Sprite_CharacterUpdate = Sprite_Character.prototype.update;
-    Sprite_Character.prototype.update = function () {
-        _Sprite_CharacterUpdate.call(this);
-        this.updateFlash();
-    };
+  var getParamNumber = function (paramNames, min, max) {
+    var value = getParamOther(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(value, 10) || 0).clamp(min, max);
+  };
 
-    Sprite_Character.prototype.updateFlash = function () {
-        if (this._character.isFlash()) {
-            this.setBlendColor(this._character._flashColor);
-        }
-    };
+  var getParamBoolean = function (paramNames) {
+    var value = (getParamOther(paramNames) || "").toUpperCase();
+    return value === "ON" || value === "TRUE";
+  };
 
-    //=============================================================================
-    // Game_CharacterBase
-    //  キャラクターのフラッシュ機能を追加定義します。
-    //=============================================================================
-    var _Game_CharacterBaseInitMembers = Game_CharacterBase.prototype.initMembers;
-    Game_CharacterBase.prototype.initMembers = function () {
-        _Game_CharacterBaseInitMembers.call(this);
-        this._flashColor = false;
-        this._flashDuration = 0;
-    };
+  var getParamJson = function (paramNames, defaultValue) {
+    var value = getParamOther(paramNames);
+    try {
+      value = JSON.parse(value);
+      if (value === null) {
+        value = defaultValue;
+      }
+    } catch (e) {
+      alert(`!!!Plugin param is wrong.!!!\nPlugin:.js\nName:[]\nValue:`);
+      value = defaultValue;
+    }
+    return value;
+  };
 
-    var _Game_CharacterBaseUpdate = Game_CharacterBase.prototype.update;
-    Game_CharacterBase.prototype.update = function () {
-        _Game_CharacterBaseUpdate.call(this);
-        this.updateFlash();
-    };
+  var getArgNumber = function (arg, min, max) {
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
+  };
 
-    Game_CharacterBase.prototype.startFlash = function (flashColor, flashDuration) {
-        this._flashColor = flashColor;
-        this._flashDuration = flashDuration;
-    };
+  var getArgBoolean = function (arg) {
+    return arg === true
+      ? true
+      : (arg || "").toUpperCase() === "ON" ||
+          (arg || "").toUpperCase() === "TRUE";
+  };
 
-    Game_CharacterBase.prototype.isFlash = function () {
-        return this._flashDuration > 0;
-    };
+  var getMetaValue = function (object, name) {
+    var metaTagName = metaTagPrefix + (name ? name : "");
+    return object.meta.hasOwnProperty(metaTagName)
+      ? object.meta[metaTagName]
+      : undefined;
+  };
 
-    Game_CharacterBase.prototype.updateFlash = function () {
-        if (this.isFlash()) {
-            this._flashColor[3] = this._flashColor[3] * (this._flashDuration - 1) / this._flashDuration;
-            this._flashDuration--;
-        }
-    };
+  var getMetaValues = function (object, names) {
+    if (!Array.isArray(names)) return getMetaValue(object, names);
+    for (var i = 0, n = names.length; i < n; i++) {
+      var value = getMetaValue(object, names[i]);
+      if (value !== undefined) return value;
+    }
+    return undefined;
+  };
 
-    //=============================================================================
-    // Game_Event
-    //  プレイヤーとの距離を測り、必要な場合にエフェクトさせる機能を追加定義します。
-    //=============================================================================
-    var _Game_EventUpdate = Game_Event.prototype.update;
-    Game_Event.prototype.update = function () {
-        _Game_EventUpdate.apply(this, arguments);
-        if (this.page()) {
-            this.updateSensorEffect();
-        }
-    };
+  var convertEscapeCharacters = function (text) {
+    if (text == null) text = "";
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text)
+      : text;
+  };
 
-    Game_Event.prototype.updateSensorEffect = function () {
-        if (this.isEmptyValidate() && this.isVeryNearThePlayer() && !$gameMap.isEventRunning() && this.isValidSensor()) {
-            if (!this.isFlash() && this.isFlashEvent() && paramFlashColor) {
-                this.startFlash(paramFlashColor.clone(), paramFlashDuration);
-            }
-            var balloonId = this.getSensorBalloonId();
-            if (!this.isBalloonPlaying() && balloonId) {
-                if (this._balloonInterval <= 0) {
-                    this.requestBalloon(balloonId);
-                    this._balloonInterval = paramBalloonInterval;
-                } else {
-                    this._balloonInterval--;
-                }
-            }
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var paramDefaultFlash = getParamBoolean([
+    "DefaultFlash",
+    "デフォルトフラッシュ",
+  ]);
+  var paramDefaultBalloon = getParamNumber(
+    ["DefaultBalloon", "デフォルトフキダシ"],
+    0
+  );
+  var paramDisableEmpty = getParamBoolean(["DisableEmpty", "空イベントは無効"]);
+  var paramSensorDistance = getParamNumber(["SensorDistance", "感知距離"], 1);
+  var paramFlashColor = getParamJson(["FlashColor", "フラッシュカラー"], null);
+  var paramFlashDuration = getParamNumber(
+    ["FlashDuration", "フラッシュ時間"],
+    1
+  );
+  var paramBalloonInterval = getParamNumber(
+    ["BalloonInterval", "フキダシ間隔"],
+    0
+  );
+  var paramConsiderationDir = getParamBoolean([
+    "ConsiderationDir",
+    "向きを考慮",
+  ]);
+  if (paramFlashColor) {
+    paramFlashColor = [
+      paramFlashColor.Red,
+      paramFlashColor.Green,
+      paramFlashColor.Blue,
+      paramFlashColor.Alpha,
+    ];
+  }
+
+  //=============================================================================
+  // Sprite_Character
+  //  キャラクターのフラッシュ機能を追加定義します。
+  //=============================================================================
+  var _Sprite_CharacterUpdate = Sprite_Character.prototype.update;
+  Sprite_Character.prototype.update = function () {
+    _Sprite_CharacterUpdate.call(this);
+    this.updateFlash();
+  };
+
+  Sprite_Character.prototype.updateFlash = function () {
+    if (this._character.isFlash()) {
+      this.setBlendColor(this._character._flashColor);
+    }
+  };
+
+  //=============================================================================
+  // Game_CharacterBase
+  //  キャラクターのフラッシュ機能を追加定義します。
+  //=============================================================================
+  var _Game_CharacterBaseInitMembers = Game_CharacterBase.prototype.initMembers;
+  Game_CharacterBase.prototype.initMembers = function () {
+    _Game_CharacterBaseInitMembers.call(this);
+    this._flashColor = false;
+    this._flashDuration = 0;
+  };
+
+  var _Game_CharacterBaseUpdate = Game_CharacterBase.prototype.update;
+  Game_CharacterBase.prototype.update = function () {
+    _Game_CharacterBaseUpdate.call(this);
+    this.updateFlash();
+  };
+
+  Game_CharacterBase.prototype.startFlash = function (
+    flashColor,
+    flashDuration
+  ) {
+    this._flashColor = flashColor;
+    this._flashDuration = flashDuration;
+  };
+
+  Game_CharacterBase.prototype.isFlash = function () {
+    return this._flashDuration > 0;
+  };
+
+  Game_CharacterBase.prototype.updateFlash = function () {
+    if (this.isFlash()) {
+      this._flashColor[3] =
+        (this._flashColor[3] * (this._flashDuration - 1)) / this._flashDuration;
+      this._flashDuration--;
+    }
+  };
+
+  //=============================================================================
+  // Game_Event
+  //  プレイヤーとの距離を測り、必要な場合にエフェクトさせる機能を追加定義します。
+  //=============================================================================
+  var _Game_EventUpdate = Game_Event.prototype.update;
+  Game_Event.prototype.update = function () {
+    _Game_EventUpdate.apply(this, arguments);
+    if (this.page()) {
+      this.updateSensorEffect();
+    }
+  };
+
+  Game_Event.prototype.updateSensorEffect = function () {
+    if (
+      this.isEmptyValidate() &&
+      this.isVeryNearThePlayer() &&
+      !$gameMap.isEventRunning() &&
+      this.isValidSensor()
+    ) {
+      if (!this.isFlash() && this.isFlashEvent() && paramFlashColor) {
+        this.startFlash(paramFlashColor.clone(), paramFlashDuration);
+      }
+      var balloonId = this.getSensorBalloonId();
+      if (!this.isBalloonPlaying() && balloonId) {
+        if (this._balloonInterval <= 0) {
+          this.requestBalloon(balloonId);
+          this._balloonInterval = paramBalloonInterval;
         } else {
-            this._balloonInterval = 0;
+          this._balloonInterval--;
         }
-    };
+      }
+    } else {
+      this._balloonInterval = 0;
+    }
+  };
 
-    Game_Event.prototype.isEmptyValidate = function () {
-        var list = this.list();
-        return (list && list.length > 1) || !paramDisableEmpty;
-    };
+  Game_Event.prototype.isEmptyValidate = function () {
+    var list = this.list();
+    return (list && list.length > 1) || !paramDisableEmpty;
+  };
 
-    Game_Event.prototype.isFlashEvent = function () {
-        var useFlash = getMetaValues(this.event(), ['フラッシュ対象', 'FlashEvent']);
-        return useFlash ? getArgBoolean(useFlash) : paramDefaultFlash;
-    };
+  Game_Event.prototype.isFlashEvent = function () {
+    var useFlash = getMetaValues(this.event(), [
+      "フラッシュ対象",
+      "FlashEvent",
+    ]);
+    return useFlash ? getArgBoolean(useFlash) : paramDefaultFlash;
+  };
 
-    Game_Event.prototype.isValidSensor = function () {
-        return this.isValidSensorSwitch() && this.isValidSensorSelfSwitch();
-    };
+  Game_Event.prototype.isValidSensor = function () {
+    return this.isValidSensorSwitch() && this.isValidSensorSelfSwitch();
+  };
 
-    Game_Event.prototype.isValidSensorSwitch = function () {
-        var switchId = getMetaValues(this.event(), ['スイッチ', 'Switch']);
-        return switchId ? $gameSwitches.value(getArgNumber(switchId, 1)) : true;
-    };
+  Game_Event.prototype.isValidSensorSwitch = function () {
+    var switchId = getMetaValues(this.event(), ["スイッチ", "Switch"]);
+    return switchId ? $gameSwitches.value(getArgNumber(switchId, 1)) : true;
+  };
 
-    Game_Event.prototype.isValidSensorSelfSwitch = function () {
-        var selfSwitchType = getMetaValues(this.event(), ['セルフスイッチ', 'SelfSwitch']);
-        return selfSwitchType ? $gameSelfSwitches.value([this._mapId, this._eventId, selfSwitchType.toUpperCase()]) : true;
-    };
+  Game_Event.prototype.isValidSensorSelfSwitch = function () {
+    var selfSwitchType = getMetaValues(this.event(), [
+      "セルフスイッチ",
+      "SelfSwitch",
+    ]);
+    return selfSwitchType
+      ? $gameSelfSwitches.value([
+          this._mapId,
+          this._eventId,
+          selfSwitchType.toUpperCase(),
+        ])
+      : true;
+  };
 
-    Game_Event.prototype.getSensorBalloonId = function () {
-        var balloonId = getMetaValues(this.event(), ['フキダシ対象', 'BalloonEvent']);
-        return balloonId ? getArgNumber(balloonId, 0) : paramDefaultBalloon;
-    };
+  Game_Event.prototype.getSensorBalloonId = function () {
+    var balloonId = getMetaValues(this.event(), [
+      "フキダシ対象",
+      "BalloonEvent",
+    ]);
+    return balloonId ? getArgNumber(balloonId, 0) : paramDefaultBalloon;
+  };
 
-    Game_Event.prototype.isVeryNearThePlayer = function () {
-        var sx = this.deltaXFrom($gamePlayer.x);
-        var sy = this.deltaYFrom($gamePlayer.y);
-        var ax = Math.abs(sx);
-        var ay = Math.abs(sy);
-        var result = (ax + ay <= paramSensorDistance);
-        if (result && paramConsiderationDir) {
-            if (ax > ay) {
-                return $gamePlayer.direction() === (sx > 0 ? 6 : 4);
-            } else if (sy !== 0) {
-                return $gamePlayer.direction() === (sy > 0 ? 2 : 8);
-            } else {
-                return true;
-            }
-        }
-        return result;
-    };
+  Game_Event.prototype.isVeryNearThePlayer = function () {
+    var sx = this.deltaXFrom($gamePlayer.x);
+    var sy = this.deltaYFrom($gamePlayer.y);
+    var ax = Math.abs(sx);
+    var ay = Math.abs(sy);
+    var result = ax + ay <= paramSensorDistance;
+    if (result && paramConsiderationDir) {
+      if (ax > ay) {
+        return $gamePlayer.direction() === (sx > 0 ? 6 : 4);
+      } else if (sy !== 0) {
+        return $gamePlayer.direction() === (sy > 0 ? 2 : 8);
+      } else {
+        return true;
+      }
+    }
+    return result;
+  };
 })();

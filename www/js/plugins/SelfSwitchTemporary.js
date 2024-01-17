@@ -53,73 +53,83 @@
  */
 
 (function () {
-    'use strict';
-    var metaTagPrefix = 'SST_';
+  "use strict";
+  var metaTagPrefix = "SST_";
 
-    //=============================================================================
-    // ローカル関数
-    //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
-    //=============================================================================
-    var getMetaValue = function (object, name) {
-        var metaTagName = metaTagPrefix + name;
-        return object.meta.hasOwnProperty(metaTagName) ? convertEscapeCharacters(object.meta[metaTagName]) : undefined;
-    };
+  //=============================================================================
+  // ローカル関数
+  //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
+  //=============================================================================
+  var getMetaValue = function (object, name) {
+    var metaTagName = metaTagPrefix + name;
+    return object.meta.hasOwnProperty(metaTagName)
+      ? convertEscapeCharacters(object.meta[metaTagName])
+      : undefined;
+  };
 
-    var getMetaValues = function (object, names) {
-        for (var i = 0, n = names.length; i < n; i++) {
-            var value = getMetaValue(object, names[i]);
-            if (value !== undefined) return value;
-        }
-        return undefined;
-    };
+  var getMetaValues = function (object, names) {
+    for (var i = 0, n = names.length; i < n; i++) {
+      var value = getMetaValue(object, names[i]);
+      if (value !== undefined) return value;
+    }
+    return undefined;
+  };
 
-    var getArgArrayString = function (args) {
-        var values = args.split(',');
-        for (var i = 0; i < values.length; i++) {
-            values[i] = values[i].trim();
-        }
-        return values;
-    };
+  var getArgArrayString = function (args) {
+    var values = args.split(",");
+    for (var i = 0; i < values.length; i++) {
+      values[i] = values[i].trim();
+    }
+    return values;
+  };
 
-    var convertEscapeCharacters = function (text) {
-        if (isNotAString(text)) return text;
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text) : text;
-    };
+  var convertEscapeCharacters = function (text) {
+    if (isNotAString(text)) return text;
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text)
+      : text;
+  };
 
-    var isNotAString = function (args) {
-        return String(args) !== args;
-    };
+  var isNotAString = function (args) {
+    return String(args) !== args;
+  };
 
-    //=============================================================================
-    // Game_Map
-    //  セットアップ時に一時セルフスイッチを解除します。
-    //=============================================================================
-    var _Game_Map_setupEvents = Game_Map.prototype.setupEvents;
-    Game_Map.prototype.setupEvents = function () {
-        _Game_Map_setupEvents.apply(this, arguments);
-        this.events().forEach(function (event) {
-            event.clearTemporarySelfSwitchIfNeed();
-        });
-    };
+  //=============================================================================
+  // Game_Map
+  //  セットアップ時に一時セルフスイッチを解除します。
+  //=============================================================================
+  var _Game_Map_setupEvents = Game_Map.prototype.setupEvents;
+  Game_Map.prototype.setupEvents = function () {
+    _Game_Map_setupEvents.apply(this, arguments);
+    this.events().forEach(function (event) {
+      event.clearTemporarySelfSwitchIfNeed();
+    });
+  };
 
-    //=============================================================================
-    // Game_Event
-    //  セットアップ時に一時セルフスイッチを解除します。
-    //=============================================================================
-    Game_Event.prototype.clearTemporarySelfSwitchIfNeed = function () {
-        var selfSwitchTypes = getMetaValues(this.event(), ['Switch', 'スイッチ']);
-        if (!selfSwitchTypes) return;
-        this.clearTemporarySelfSwitch(selfSwitchTypes === true ? ['A', 'B', 'C', 'D'] : getArgArrayString(selfSwitchTypes));
-    };
+  //=============================================================================
+  // Game_Event
+  //  セットアップ時に一時セルフスイッチを解除します。
+  //=============================================================================
+  Game_Event.prototype.clearTemporarySelfSwitchIfNeed = function () {
+    var selfSwitchTypes = getMetaValues(this.event(), ["Switch", "スイッチ"]);
+    if (!selfSwitchTypes) return;
+    this.clearTemporarySelfSwitch(
+      selfSwitchTypes === true
+        ? ["A", "B", "C", "D"]
+        : getArgArrayString(selfSwitchTypes)
+    );
+  };
 
-    Game_Event.prototype.clearTemporarySelfSwitch = function (selfSwitchTypes) {
-        var mapId = $gameMap.mapId();
-        var eventId = this.eventId();
-        selfSwitchTypes.forEach(function (selfSwitchType) {
-            $gameSelfSwitches.setValue([mapId, eventId, selfSwitchType.toUpperCase()], false);
-        });
-        this.refresh();
-    };
+  Game_Event.prototype.clearTemporarySelfSwitch = function (selfSwitchTypes) {
+    var mapId = $gameMap.mapId();
+    var eventId = this.eventId();
+    selfSwitchTypes.forEach(function (selfSwitchType) {
+      $gameSelfSwitches.setValue(
+        [mapId, eventId, selfSwitchType.toUpperCase()],
+        false
+      );
+    });
+    this.refresh();
+  };
 })();
-

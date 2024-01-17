@@ -12,7 +12,7 @@
  * @default  cannot move by the numb!
  *
  * @help This plugin does not provide plugin commands.
- * 
+ *
  * State Note:
  * to invoke this state, write down the state's note as follows.
  *   <numb_rate:35> # cannot execute action by 35%
@@ -32,7 +32,7 @@
  * @help このプラグインにプラグインコマンドはありません。
  *  痺れ(numb)は、入力は常に受け付けるものの特定の確率で動けなくなる状態で
  * ツクール標準の眠り/麻痺とは異なります。
- * 
+ *
  * 書式:
  * 「ステート」のメモに以下のように書いてください。
  *   <numb_rate:35>
@@ -43,7 +43,6 @@
  */
 
 (function () {
-
   Game_BattlerBase.prototype.numb_occur = function () {
     for (var id = 0; id < this._states.length; id++) {
       var stateId = this._states[id];
@@ -68,12 +67,9 @@
   };
 
   Window_BattleLog.prototype.displayNumbOccur = function (subject) {
-    var parameters = PluginManager.parameters('NumbState');
-    var NumbText = String(parameters['NumbMsg'] ||
-      " cannot move by the numb!");
-    this.push('addText', subject.name() + NumbText);
-    this.push('clear');
+    var parameters = PluginManager.parameters("NumbState");
+    var NumbText = String(parameters["NumbMsg"] || " cannot move by the numb!");
+    this.push("addText", subject.name() + NumbText);
+    this.push("clear");
   };
-
 })();
-

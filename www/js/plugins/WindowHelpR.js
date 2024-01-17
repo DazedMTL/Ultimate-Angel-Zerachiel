@@ -11,7 +11,7 @@
 //
 
 var Imported = Imported || {};
-Imported['WindowHelpR'] = 1.00;
+Imported["WindowHelpR"] = 1.0;
 
 /*:
  * @plugindesc ver1.00/ヘルプウィンドウの文字サイズを変更できるようにして、配置を中央寄せにします。また、フレームの４隅に情報を表示できるようにします。
@@ -118,240 +118,274 @@ Imported['WindowHelpR'] = 1.00;
  */
 
 (function () {
+  "use strict";
 
-    'use strict';
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  var parameters = PluginManager.parameters("WindowHelpR");
+  var fontSize = Number(parameters["FontSize"]);
+  var frameTextFontSize = Number(parameters["FrameTextFontSize"]);
+  var itemTopLeftText = parameters["ItemTopLeftText"];
+  var itemTopRightText = parameters["ItemTopRightText"];
+  var itemBottomLeftText = parameters["ItemBottomLeftText"];
+  var itemBottomRightText = parameters["ItemBottomRightText"];
+  var skillTopLeftText = parameters["SkillTopLeftText"];
+  var skillTopRightText = parameters["SkillTopRightText"];
+  var skillBottomLeftText = parameters["SkillBottomLeftText"];
+  var skillBottomRightText = parameters["SkillBottomRightText"];
+  var frameTextPaddingX = Number(parameters["FrameTextPaddingX"]);
+  var frameTextPaddingY = Number(parameters["FrameTextPaddingY"]);
+  var hideCategories = parameters["HideCategories"].split(",");
 
-    var parameters = PluginManager.parameters('WindowHelpR');
-    var fontSize = Number(parameters['FontSize']);
-    var frameTextFontSize = Number(parameters['FrameTextFontSize']);
-    var itemTopLeftText = parameters['ItemTopLeftText'];
-    var itemTopRightText = parameters['ItemTopRightText'];
-    var itemBottomLeftText = parameters['ItemBottomLeftText'];
-    var itemBottomRightText = parameters['ItemBottomRightText'];
-    var skillTopLeftText = parameters['SkillTopLeftText'];
-    var skillTopRightText = parameters['SkillTopRightText'];
-    var skillBottomLeftText = parameters['SkillBottomLeftText'];
-    var skillBottomRightText = parameters['SkillBottomRightText'];
-    var frameTextPaddingX = Number(parameters['FrameTextPaddingX']);
-    var frameTextPaddingY = Number(parameters['FrameTextPaddingY']);
-    var hideCategories = parameters['HideCategories'].split(',');
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
-
-    if (!Imported['MessageAlignmentEC']) {
-        Window_Base.prototype.textWidthEx = function (text) {
-            var result = 0;
-            text = text.replace(/\x1bC\[\d+\]/gi, '');
-            text = text.replace(/\x1bI\[\d+\]/gi, function () {
-                result += Window_Base._iconWidth;
-                return '';
-            }.bind(this));
-            for (var i = 0, max = text.length; i < max; i++) {
-                var c = text[i];
-                if (c === '\x1b') {
-                    i++;
-                    c = text[i];
-                    if (c === '{') {
-                        this.makeFontBigger();
-                    } else if (c === '}') {
-                        this.makeFontSmaller();
-                    } else if (c === 'F' && text[i + 1] === 'S') {
-                        var cc = '\x1b';
-                        for (var j = i; j < max; j++) {
-                            cc += text[j];
-                            if (text[j] === ']') {
-                                if (cc.match(/\x1bFS\[(\d+)\]/i)) this.contents.fontSize = Number(RegExp.$1);
-                                i = j;
-                                break;
-                            }
-                        }
-                    }
-                } else {
-                    result += this.textWidth(c);
-                }
+  if (!Imported["MessageAlignmentEC"]) {
+    Window_Base.prototype.textWidthEx = function (text) {
+      var result = 0;
+      text = text.replace(/\x1bC\[\d+\]/gi, "");
+      text = text.replace(
+        /\x1bI\[\d+\]/gi,
+        function () {
+          result += Window_Base._iconWidth;
+          return "";
+        }.bind(this)
+      );
+      for (var i = 0, max = text.length; i < max; i++) {
+        var c = text[i];
+        if (c === "\x1b") {
+          i++;
+          c = text[i];
+          if (c === "{") {
+            this.makeFontBigger();
+          } else if (c === "}") {
+            this.makeFontSmaller();
+          } else if (c === "F" && text[i + 1] === "S") {
+            var cc = "\x1b";
+            for (var j = i; j < max; j++) {
+              cc += text[j];
+              if (text[j] === "]") {
+                if (cc.match(/\x1bFS\[(\d+)\]/i))
+                  this.contents.fontSize = Number(RegExp.$1);
+                i = j;
+                break;
+              }
             }
-            return result;
-        };
+          }
+        } else {
+          result += this.textWidth(c);
+        }
+      }
+      return result;
+    };
+  }
+
+  ////////////////////////////////////////////////////////////////////////////////////
+
+  var __WHelp_initialize = Window_Help.prototype.initialize;
+  Window_Help.prototype.initialize = function (x, y, width, height) {
+    __WHelp_initialize.call(this, x, y, width, height);
+    this.createHelpSprite();
+  };
+
+  Window_Help.prototype.createHelpSprite = function () {
+    this._helpSprites = [];
+    var size = frameTextFontSize + 2;
+    for (var i = 0; i < 4; i++) {
+      var sprite = new Sprite();
+      var bitmap = new Bitmap(Math.floor(Graphics.boxWidth / 2), size);
+      sprite.x = (this.width - bitmap.width) * (i % 2);
+      sprite.x += sprite.x === 0 ? frameTextPaddingX : -frameTextPaddingX;
+      sprite.y = (this.height - size) * Math.floor(i / 2);
+      sprite.y += sprite.y === 0 ? frameTextPaddingY : -frameTextPaddingY;
+      sprite.bitmap = bitmap;
+      this.addChild(sprite);
+      this._helpSprites[i] = sprite;
     }
+    this.refreshHelpSprites();
+  };
 
-    ////////////////////////////////////////////////////////////////////////////////////
-
-    var __WHelp_initialize = Window_Help.prototype.initialize;
-    Window_Help.prototype.initialize = function (x, y, width, height) {
-        __WHelp_initialize.call(this, x, y, width, height);
-        this.createHelpSprite();
-    };
-
-    Window_Help.prototype.createHelpSprite = function () {
-        this._helpSprites = [];
-        var size = frameTextFontSize + 2;
-        for (var i = 0; i < 4; i++) {
-            var sprite = new Sprite();
-            var bitmap = new Bitmap(Math.floor(Graphics.boxWidth / 2), size);
-            sprite.x = (this.width - bitmap.width) * (i % 2);
-            sprite.x += sprite.x === 0 ? frameTextPaddingX : -frameTextPaddingX;
-            sprite.y = (this.height - size) * Math.floor(i / 2);
-            sprite.y += sprite.y === 0 ? frameTextPaddingY : -frameTextPaddingY;
-            sprite.bitmap = bitmap;
-            this.addChild(sprite);
-            this._helpSprites[i] = sprite;
-        }
-        this.refreshHelpSprites();
-    };
-
-    Window_Help.prototype.refreshHelpSprites = function () {
-        var ary1 = [itemTopLeftText, itemTopRightText, itemBottomLeftText, itemBottomRightText];
-        var ary2 = [skillTopLeftText, skillTopRightText, skillBottomLeftText, skillBottomRightText];
-        var ary = DataManager.isSkill(this._item) ? ary2 : ary1;
-        var size = frameTextFontSize;
-        var contents = this.contents;
-        if (!this._helpSprites) this._helpSprites = [];
-        for (var i = 0; i < 4; i++) {
-            var sprite = this._helpSprites[i];
-            sprite.bitmap.clear();
-            if (ary[i] && this._item) {
-                var text = ary[i];
-                var item = this._item;
-                var f1 = false;
-                var f2 = false;
-                sprite.bitmap.fontSize = size;
-                text = text.replace(/_meta\[(.+)\]/, function () {
-                    f2 = true;
-                    var t = item.meta[arguments[1]];
-                    if (t) {
-                        f1 = true;
-                        return t;
-                    } else {
-                        return '';
-                    }
-                }.bind(this));
-                text = text.replace(/_value/, function () {
-                    var price = item.price ? item.price : 0;
-                    f2 = true;
-                    if (item.meta['価値']) price = Number(item.meta['価値']);
-                    if (item.meta['value']) price = Number(item.meta['value']);
-                    if (price > 0) {
-                        f1 = true;
-                        return price;
-                    } else {
-                        return '';
-                    }
-                }.bind(this));
-                text = text.replace(/_price/, function () {
-                    var price = (item.price ? item.price : 0) / 2;
-                    f2 = true;
-                    if (price > 0) {
-                        f1 = true;
-                        return price;
-                    } else {
-                        return '';
-                    }
-                }.bind(this));
-                text = text.replace(/_element/, function () {
-                    var id = item.damage ? item.damage.elementId : 0;
-                    f2 = true;
-                    if (Imported['StatusUpReward']) id = DataManager.itemExElement(item);
-                    if (id > 0) {
-                        f1 = true;
-                        return $dataSystem.elements[id];
-                    } else {
-                        return '';
-                    }
-                }.bind(this));
-                if (Imported['SecondaryCategories']) {
-                    text = text.replace(/_categories/, function () {
-                        var t = '';
-                        f2 = true;
-                        var cs = DataManager.itemSecondaryCategories(item);
-                        cs = cs.filter(function (c) { return hideCategories.indexOf(c) < 0 });
-                        if (cs.length > 0) {
-                            f1 = true;
-                            cs.sort();
-                            for (var i = 0, max = cs.length; i < max; i++) t += '(' + cs[i] + ')';
-                        }
-                        return t;
-                    }.bind(this));
-                }
-                if (Imported['LimitPossession']) {
-                    var s = PluginManager.parameters('LimitPossession')['NumberOfDecimalPlace'];
-                    text = text.replace(/_weight/, function () {
-                        f2 = true;
-                        var weight = DataManager.itemWeight(item);
-                        if (weight > 0) {
-                            f1 = true;
-                            return weight.toFixed(Number(s));
-                        } else {
-                            return '';
-                        }
-
-                    }.bind(this));
-                }
-                if ((f1 && f2) || !f2) {
-                    this.contents = sprite.bitmap;
-                    this._callSpriteEx = true;
-                    var w = this.textWidthEx(this.convertEscapeCharacters(text));
-                    this.drawTextEx(text, sprite.width - w, -2);
-                    this._callSpriteEx = false;
-                }
+  Window_Help.prototype.refreshHelpSprites = function () {
+    var ary1 = [
+      itemTopLeftText,
+      itemTopRightText,
+      itemBottomLeftText,
+      itemBottomRightText,
+    ];
+    var ary2 = [
+      skillTopLeftText,
+      skillTopRightText,
+      skillBottomLeftText,
+      skillBottomRightText,
+    ];
+    var ary = DataManager.isSkill(this._item) ? ary2 : ary1;
+    var size = frameTextFontSize;
+    var contents = this.contents;
+    if (!this._helpSprites) this._helpSprites = [];
+    for (var i = 0; i < 4; i++) {
+      var sprite = this._helpSprites[i];
+      sprite.bitmap.clear();
+      if (ary[i] && this._item) {
+        var text = ary[i];
+        var item = this._item;
+        var f1 = false;
+        var f2 = false;
+        sprite.bitmap.fontSize = size;
+        text = text.replace(
+          /_meta\[(.+)\]/,
+          function () {
+            f2 = true;
+            var t = item.meta[arguments[1]];
+            if (t) {
+              f1 = true;
+              return t;
+            } else {
+              return "";
             }
+          }.bind(this)
+        );
+        text = text.replace(
+          /_value/,
+          function () {
+            var price = item.price ? item.price : 0;
+            f2 = true;
+            if (item.meta["価値"]) price = Number(item.meta["価値"]);
+            if (item.meta["value"]) price = Number(item.meta["value"]);
+            if (price > 0) {
+              f1 = true;
+              return price;
+            } else {
+              return "";
+            }
+          }.bind(this)
+        );
+        text = text.replace(
+          /_price/,
+          function () {
+            var price = (item.price ? item.price : 0) / 2;
+            f2 = true;
+            if (price > 0) {
+              f1 = true;
+              return price;
+            } else {
+              return "";
+            }
+          }.bind(this)
+        );
+        text = text.replace(
+          /_element/,
+          function () {
+            var id = item.damage ? item.damage.elementId : 0;
+            f2 = true;
+            if (Imported["StatusUpReward"])
+              id = DataManager.itemExElement(item);
+            if (id > 0) {
+              f1 = true;
+              return $dataSystem.elements[id];
+            } else {
+              return "";
+            }
+          }.bind(this)
+        );
+        if (Imported["SecondaryCategories"]) {
+          text = text.replace(
+            /_categories/,
+            function () {
+              var t = "";
+              f2 = true;
+              var cs = DataManager.itemSecondaryCategories(item);
+              cs = cs.filter(function (c) {
+                return hideCategories.indexOf(c) < 0;
+              });
+              if (cs.length > 0) {
+                f1 = true;
+                cs.sort();
+                for (var i = 0, max = cs.length; i < max; i++)
+                  t += "(" + cs[i] + ")";
+              }
+              return t;
+            }.bind(this)
+          );
         }
-        this.contents = contents;
-    };
-
-    Window_Help.prototype.clearHelpSprites = function () {
-        for (var i = 0; i < 4; i++) {
-            if (this._helpSprites[i]) this._helpSprites[i].bitmap.clear();
+        if (Imported["LimitPossession"]) {
+          var s =
+            PluginManager.parameters("LimitPossession")["NumberOfDecimalPlace"];
+          text = text.replace(
+            /_weight/,
+            function () {
+              f2 = true;
+              var weight = DataManager.itemWeight(item);
+              if (weight > 0) {
+                f1 = true;
+                return weight.toFixed(Number(s));
+              } else {
+                return "";
+              }
+            }.bind(this)
+          );
         }
-    };
-
-    Window_Help.prototype.fittingHeight = function (numLine) {
-        var height = Window_Base.prototype.fittingHeight.call(this, numLine);
-        return height + 24;
-    };
-
-    Window_Help.prototype.standardFontSize = function () {
-        if (this._callSpriteEx) return frameTextFontSize;
-        var fs = fontSize || Window_Base.prototype.standardFontSize.call(this);
-        return fs;
-    };
-
-    Window_Help.prototype.standardPadding = function () {
-        return 6;
-    };
-
-    var __WHelp_setItem = Window_Help.prototype.setItem;
-    Window_Help.prototype.setItem = function (item) {
-        this._item = item;
-        __WHelp_setItem.call(this, item);
-    };
-
-    var __WHelp_setText = Window_Help.prototype.setText;
-    Window_Help.prototype.setText = function (text) {
-        __WHelp_setText.call(this, text);
-        this.clearHelpSprites();
-        if (text) this.refreshHelpSprites();
-    };
-
-    var __WHelp_clear = Window_Help.prototype.clear;
-    Window_Help.prototype.clear = function () {
-        __WHelp_clear.call(this);
-        this._item = null;
-        this.refreshHelpSprites();
-    };
-
-    Window_Help.prototype.refresh = function () {
-        this.contents.clear();
-        if (this._text) {
-            var text = this._text.replace(/\\n/gi, '\n');
-            var l = text.split('\n').length;
-            var h = this.standardFontSize() + 2;
-            var y = Math.floor((this.contentsHeight() / 2) - (h * (l / 2))) - 8;
-            this.drawTextEx(text, this.textPadding(), y);
+        if ((f1 && f2) || !f2) {
+          this.contents = sprite.bitmap;
+          this._callSpriteEx = true;
+          var w = this.textWidthEx(this.convertEscapeCharacters(text));
+          this.drawTextEx(text, sprite.width - w, -2);
+          this._callSpriteEx = false;
         }
-    };
+      }
+    }
+    this.contents = contents;
+  };
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_Help.prototype.clearHelpSprites = function () {
+    for (var i = 0; i < 4; i++) {
+      if (this._helpSprites[i]) this._helpSprites[i].bitmap.clear();
+    }
+  };
 
-}());
+  Window_Help.prototype.fittingHeight = function (numLine) {
+    var height = Window_Base.prototype.fittingHeight.call(this, numLine);
+    return height + 24;
+  };
+
+  Window_Help.prototype.standardFontSize = function () {
+    if (this._callSpriteEx) return frameTextFontSize;
+    var fs = fontSize || Window_Base.prototype.standardFontSize.call(this);
+    return fs;
+  };
+
+  Window_Help.prototype.standardPadding = function () {
+    return 6;
+  };
+
+  var __WHelp_setItem = Window_Help.prototype.setItem;
+  Window_Help.prototype.setItem = function (item) {
+    this._item = item;
+    __WHelp_setItem.call(this, item);
+  };
+
+  var __WHelp_setText = Window_Help.prototype.setText;
+  Window_Help.prototype.setText = function (text) {
+    __WHelp_setText.call(this, text);
+    this.clearHelpSprites();
+    if (text) this.refreshHelpSprites();
+  };
+
+  var __WHelp_clear = Window_Help.prototype.clear;
+  Window_Help.prototype.clear = function () {
+    __WHelp_clear.call(this);
+    this._item = null;
+    this.refreshHelpSprites();
+  };
+
+  Window_Help.prototype.refresh = function () {
+    this.contents.clear();
+    if (this._text) {
+      var text = this._text.replace(/\\n/gi, "\n");
+      var l = text.split("\n").length;
+      var h = this.standardFontSize() + 2;
+      var y = Math.floor(this.contentsHeight() / 2 - h * (l / 2)) - 8;
+      this.drawTextEx(text, this.textPadding(), y);
+    }
+  };
+
+  ////////////////////////////////////////////////////////////////////////////////////
+})();

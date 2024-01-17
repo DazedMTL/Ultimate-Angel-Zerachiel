@@ -23,8 +23,8 @@
 //
 var _kzr_DMN_Scene_Map_start = Scene_Map.prototype.start;
 Scene_Map.prototype.start = function () {
-    _kzr_DMN_Scene_Map_start.call(this);
-    this._mapNameWindow.open();
+  _kzr_DMN_Scene_Map_start.call(this);
+  this._mapNameWindow.open();
 };
 
 //-----------------------------------------------------------------------------
@@ -32,17 +32,17 @@ Scene_Map.prototype.start = function () {
 //
 var _kzr_DMN_Window_MapName_open = Window_MapName.prototype.open;
 Window_MapName.prototype.open = function () {
-    if ($gameMap.displayName() !== $gameTemp._kzr_displayName) {
-        _kzr_DMN_Window_MapName_open.call(this);
-        $gameTemp._kzr_displayName = $gameMap.displayName();
-    }
+  if ($gameMap.displayName() !== $gameTemp._kzr_displayName) {
+    _kzr_DMN_Window_MapName_open.call(this);
+    $gameTemp._kzr_displayName = $gameMap.displayName();
+  }
 };
 
 //-----------------------------------------------------------------------------
 // Game_Temp
 //
-var _kzr_DMN_Game_Temp_initialize = Game_Temp.prototype.initialize
+var _kzr_DMN_Game_Temp_initialize = Game_Temp.prototype.initialize;
 Game_Temp.prototype.initialize = function () {
-    _kzr_DMN_Game_Temp_initialize.call(this);
-    this._kzr_displayName = "";
+  _kzr_DMN_Game_Temp_initialize.call(this);
+  this._kzr_displayName = "";
 };

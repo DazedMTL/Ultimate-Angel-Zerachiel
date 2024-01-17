@@ -112,14 +112,14 @@
  */
 
 (() => {
-  const pluginName = 'RatesSum';
+  const pluginName = "RatesSum";
   //
   // process parameters
   //
   const parameters = PluginManager.parameters(pluginName);
-  const doApplyToElement = eval(parameters['doApplyToElement'] || 'true');
-  const doApplyToDebuff = eval(parameters['doApplyToDebuff'] || 'true');
-  const doApplyToState = eval(parameters['doApplyToState'] || 'true');
+  const doApplyToElement = eval(parameters["doApplyToElement"] || "true");
+  const doApplyToDebuff = eval(parameters["doApplyToDebuff"] || "true");
+  const doApplyToState = eval(parameters["doApplyToState"] || "true");
 
   //
   // new trait sum routine
@@ -157,5 +157,4 @@
       return this.traitsSum2(Game_BattlerBase.TRAIT_STATE_RATE, stateId);
     };
   }
-
 })();

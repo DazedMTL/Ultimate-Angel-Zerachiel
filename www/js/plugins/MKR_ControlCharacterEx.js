@@ -299,359 +299,430 @@
  * @default 4
  *
  * ==============================================================================
-*/
+ */
 
 var Imported = Imported || {};
 Imported.MKR_ControlCharacterEx = true;
 
 (function () {
-    'use strict';
+  "use strict";
 
-    var PN = "MKR_ControlCharacterEx";
+  var PN = "MKR_ControlCharacterEx";
 
-    var CheckParam = function (type, param, def, min, max) {
-        var Parameters, regExp, value;
-        Parameters = PluginManager.parameters(PN);
+  var CheckParam = function (type, param, def, min, max) {
+    var Parameters, regExp, value;
+    Parameters = PluginManager.parameters(PN);
 
-        if (arguments.length < 4) {
-            min = -Infinity;
-            max = Infinity;
-        }
-        if (arguments.length < 5) {
-            max = Infinity;
-        }
-        if (param in Parameters) {
-            value = String(Parameters[param]);
+    if (arguments.length < 4) {
+      min = -Infinity;
+      max = Infinity;
+    }
+    if (arguments.length < 5) {
+      max = Infinity;
+    }
+    if (param in Parameters) {
+      value = String(Parameters[param]);
+    } else {
+      throw new Error(
+        "[CheckParam] プラグインパラメーターがありません: " + param
+      );
+    }
+
+    value = value.replace(/\\/g, "\x1b");
+    value = value.replace(/\x1b\x1b/g, "\\");
+
+    regExp = /(\x1bV|\x1bN)\[\d+\]/i;
+    if (!regExp.test(value)) {
+      switch (type) {
+        case "num":
+          if (value == "") {
+            value = isFinite(def) ? parseInt(def, 10) : 0;
+          } else {
+            value = isFinite(value)
+              ? parseInt(value, 10)
+              : isFinite(def)
+              ? parseInt(def, 10)
+              : 0;
+            value = value.clamp(min, max);
+          }
+          break;
+        case "string":
+          value = value;
+          break;
+        default:
+          throw new Error(
+            "[CheckParam] " + param + "のタイプが不正です: " + type
+          );
+          break;
+      }
+    }
+
+    return [value, type, def, min, max, param];
+  };
+
+  var CEC = function (params) {
+    var text, value, type, def, min, max, param;
+    type = params[1];
+    text = String(params[0]);
+    text = text.replace(/\\/g, "\x1b");
+    text = text.replace(/\x1b\x1b/g, "\\");
+    type = params[1];
+    def = params[2];
+    min = params[3];
+    max = params[4];
+    param = params[5];
+
+    text = text.replace(
+      /\x1bV\[\d+\]/i,
+      function () {
+        return String(ConvVb(text));
+      }.bind(this)
+    );
+
+    switch (type) {
+      case "num":
+        value = isFinite(text)
+          ? parseInt(text, 10)
+          : isFinite(def)
+          ? parseInt(def, 10)
+          : 0;
+        value = value.clamp(min, max);
+        break;
+      case "string":
+        if (text == "") {
+          value = def != "" ? def : value;
         } else {
-            throw new Error("[CheckParam] プラグインパラメーターがありません: " + param);
+          value = text;
         }
+        break;
+      default:
+        throw new Error("[CEC] " + param + "のタイプが不正です: " + type);
+        break;
+    }
 
-        value = value.replace(/\\/g, '\x1b');
-        value = value.replace(/\x1b\x1b/g, '\\');
+    return value;
+  };
 
-        regExp = /(\x1bV|\x1bN)\[\d+\]/i;
-        if (!regExp.test(value)) {
-            switch (type) {
-                case "num":
-                    if (value == "") {
-                        value = (isFinite(def)) ? parseInt(def, 10) : 0;
-                    } else {
-                        value = (isFinite(value)) ? parseInt(value, 10) : (isFinite(def)) ? parseInt(def, 10) : 0;
-                        value = value.clamp(min, max);
-                    }
-                    break;
-                case "string":
-                    value = value;
-                    break;
-                default:
-                    throw new Error("[CheckParam] " + param + "のタイプが不正です: " + type);
-                    break;
+  var ConvVb = function (text) {
+    var num;
+
+    if (typeof text == "string") {
+      text = text.replace(
+        /\x1bV\[(\d+)\]/i,
+        function () {
+          num = parseInt(arguments[1]);
+          return $gameVariables.value(num);
+        }.bind(this)
+      );
+      text = text.replace(
+        /\x1bV\[(\d+)\]/i,
+        function () {
+          num = parseInt(arguments[1]);
+          return $gameVariables.value(num);
+        }.bind(this)
+      );
+    }
+
+    return text;
+  };
+
+  var DefSeVolume,
+    DefSePitch,
+    DefSePan,
+    DefWaitPeriod,
+    DefWaitLine,
+    DefNameColor,
+    DefGoldBackground,
+    DefGoldPosition,
+    DefMeVolume,
+    DefMePitch,
+    DefMePan,
+    MesIconMargin;
+  DefSeVolume = CheckParam("num", "Default_SE_Volume", 90, 20, 100);
+  DefSePitch = CheckParam("num", "Default_SE_Pitch", 100, 50, 150);
+  DefSePan = CheckParam("num", "Default_SE_Pan", 0, -100, 100);
+  DefWaitPeriod = CheckParam("num", "Default_Wait_Period", 15, 0);
+  DefWaitLine = CheckParam("num", "Default_Wait_Line", 60, 0);
+  DefNameColor = CheckParam("num", "Default_Name_Color", 0, 0);
+  DefGoldBackground = CheckParam("num", "Default_Gold_Background", 0, 0, 2);
+  DefGoldPosition = CheckParam("num", "Default_Gold_Position", 0, 0, 8);
+  DefMeVolume = CheckParam("num", "Default_ME_Volume", 90, 20, 100);
+  DefMePitch = CheckParam("num", "Default_ME_Pitch", 100, 50, 150);
+  DefMePan = CheckParam("num", "Default_ME_Pan", 0, -100, 100);
+  MesIconMargin = CheckParam("num", "Message_Icon_Margin", 4, 0);
+
+  //=========================================================================
+  // Game_Message
+  //  設定保持用変数を定義します。
+  //
+  //=========================================================================
+  var _Game_Message_clear = Game_Message.prototype.clear;
+  Game_Message.prototype.clear = function () {
+    _Game_Message_clear.call(this);
+
+    this._iconMargin = MesIconMargin[0];
+  };
+
+  Game_Message.prototype.iconMargin = function () {
+    return this._iconMargin;
+  };
+
+  Game_Message.prototype.setIconMargin = function (margin) {
+    this._iconMargin = margin;
+  };
+
+  //=========================================================================
+  // Window_Base
+  //  制御文字を追加定義します。
+  //
+  //=========================================================================
+  var _Window_Base_obtainEscapeCode = Window_Base.prototype.obtainEscapeCode;
+  Window_Base.prototype.obtainEscapeCode = function (textState) {
+    var regExp, arr;
+    textState.index++;
+    regExp = /^(SE|\$|ME|IM)\[.*?\]/i;
+    arr = regExp.exec(textState.text.slice(textState.index));
+
+    if (arr) {
+      textState.index += arr[0].length;
+      return arr[0];
+    } else {
+      textState.index--;
+      return _Window_Base_obtainEscapeCode.call(this, textState);
+    }
+  };
+
+  var _Window_Base_convertEscapeCharacters =
+    Window_Base.prototype.convertEscapeCharacters;
+  Window_Base.prototype.convertEscapeCharacters = function (text) {
+    var name, nameColor;
+    nameColor = CEC(DefNameColor);
+
+    text = text.replace(/\\/g, "\x1b");
+    text = text.replace(/\x1b\x1b/g, "\\");
+
+    text = text.replace(
+      /\x1bC\[(\d+)\]\x1bN\[([\d,]+)\]/gi,
+      function () {
+        name = this.sliceName(arguments[2], "Actor");
+        return "\x1bC[" + parseInt(arguments[1]) + "]" + name + "\x1bC[0]";
+      }.bind(this)
+    );
+    text = text.replace(
+      /\x1bN\[([\d,]+)\]/gi,
+      function () {
+        name = this.sliceName(arguments[1], "Actor");
+        if (nameColor != 0) {
+          return "\x1bC[" + nameColor + "]" + name + "\x1bC[0]";
+        }
+        return name != "" ? name : arguments[0];
+      }.bind(this)
+    );
+
+    text = text.replace(
+      /\x1bC\[(\d+)\]\x1bP\[([\d,]+)\]/gi,
+      function () {
+        name = this.sliceName(arguments[2], "Party");
+        return "\x1bC[" + parseInt(arguments[1]) + "]" + name + "\x1bC[0]";
+      }.bind(this)
+    );
+    text = text.replace(
+      /\x1bP\[([\d,]+)\]/gi,
+      function () {
+        name = this.sliceName(arguments[1], "Party");
+        if (nameColor != 0) {
+          return "\x1bC[" + nameColor + "]" + name + "\x1bC[0]";
+        }
+        return name != "" ? name : arguments[0];
+      }.bind(this)
+    );
+
+    return _Window_Base_convertEscapeCharacters.call(this, text);
+  };
+
+  var _Window_Base_processDrawIcon = Window_Base.prototype.processDrawIcon;
+  Window_Base.prototype.processDrawIcon = function (iconIndex, textState) {
+    var x, ret, iconMargin;
+    x = textState.x;
+    iconMargin = $gameMessage.iconMargin();
+    ret = _Window_Base_processDrawIcon.apply(this, arguments);
+    textState.x = x + Window_Base._iconWidth + iconMargin;
+
+    return ret;
+  };
+
+  Window_Base.prototype.sliceName = function (param, type) {
+    let arg, num, name, len;
+    arg = param.split(",");
+    num = 0;
+    name = "";
+
+    if (isFinite(arg[0])) {
+      num = parseInt(arg[0]);
+      name =
+        type == "Actor"
+          ? this.actorName(parseInt(num))
+          : this.partyMemberName(parseInt(num));
+    }
+    len = arg.length > 1 && isFinite(arg[1]) ? parseInt(arg[1]) : name.length;
+    if (name != "" && len > 0 && name.length >= len) {
+      name = name.slice(0, len);
+    }
+
+    return name;
+  };
+
+  //=========================================================================
+  // Window_Message
+  //  制御文字を追加定義します。
+  //
+  //=========================================================================
+  var _Window_Message_processEscapeCharacter =
+    Window_Message.prototype.processEscapeCharacter;
+  Window_Message.prototype.processEscapeCharacter = function (code, textState) {
+    var regExp,
+      arr,
+      res,
+      se,
+      seVolume,
+      sePitch,
+      sePan,
+      waitPeriod,
+      waitLine,
+      goldBackground,
+      goldPosition,
+      me,
+      meVolume,
+      mePitch,
+      mePan,
+      iconMargin;
+    waitPeriod = CEC(DefWaitPeriod);
+    waitLine = CEC(DefWaitLine);
+    goldBackground = CEC(DefGoldBackground);
+    goldPosition = CEC(DefGoldPosition);
+    regExp = /^(SE|\$|ME|IM)(\[.*?\])?$/i;
+    arr = regExp.exec(code);
+
+    if (arr) {
+      if (arr[2]) {
+        arr[2] = arr[2].replace(/[\[\]]/g, "");
+      }
+      switch (arr[1].toUpperCase()) {
+        case "SE":
+          se = {};
+          seVolume = CEC(DefSeVolume);
+          sePitch = CEC(DefSePitch);
+          sePan = CEC(DefSePan);
+          if (arr[2]) {
+            res = arr[2].split(",");
+          }
+          se["name"] = res[0] ? res[0].trim() : "";
+          se["volume"] = isFinite(res[1]) ? parseInt(res[1], 10) : seVolume;
+          se["pitch"] = isFinite(res[2]) ? parseInt(res[2], 10) : sePitch;
+          se["pan"] = isFinite(res[3]) ? parseInt(res[3], 10) : sePan;
+          AudioManager.playSe(se);
+          break;
+        case "ME":
+          me = {};
+          meVolume = CEC(DefMeVolume);
+          mePitch = CEC(DefMePitch);
+          mePan = CEC(DefMePan);
+          if (arr[2]) {
+            res = arr[2].split(",");
+          }
+          me["name"] = res[0] ? res[0].trim() : "";
+          me["volume"] = isFinite(res[1]) ? parseInt(res[1], 10) : meVolume;
+          me["pitch"] = isFinite(res[2]) ? parseInt(res[2], 10) : mePitch;
+          me["pan"] = isFinite(res[3]) ? parseInt(res[3], 10) : mePan;
+          AudioManager.playMe(me);
+          break;
+        case "$":
+          if (arr[2]) {
+            res = arr[2].split(",");
+            goldBackground =
+              res[0] && isFinite(res[0])
+                ? parseInt(res[0], 10)
+                : goldBackground;
+            goldPosition =
+              res[1] && isFinite(res[1]) ? parseInt(res[1], 10) : goldPosition;
+          }
+          this._goldWindow.open(
+            goldBackground,
+            goldPosition,
+            $gameMessage.positionType()
+          );
+          break;
+        case "IM":
+          if (arr[2] != "" && isFinite(arr[2])) {
+            iconMargin = parseInt(arr[2], 10);
+            if (iconMargin >= 0) {
+              $gameMessage.setIconMargin(iconMargin);
             }
-        }
+          }
+          break;
+        default:
+          _Window_Message_processEscapeCharacter.call(this, code, textState);
+      }
+    } else {
+      switch (code) {
+        case ".":
+          this.startWait(waitPeriod);
+          break;
+        case "|":
+          this.startWait(waitLine);
+          break;
+        default:
+          _Window_Message_processEscapeCharacter.call(this, code, textState);
+      }
+    }
+  };
 
-        return [value, type, def, min, max, param];
-    };
+  //=========================================================================
+  // Window_Gold
+  //  所持金表示ウィンドウの背景/位置を変更可能にします。
+  //
+  //=========================================================================
+  var _Window_Gold_open = Window_Gold.prototype.open;
+  Window_Gold.prototype.open = function (
+    background,
+    positionType,
+    messagePositionType
+  ) {
+    var positionTypeX, positionTypeY;
+    if (background) {
+      this._background = background;
+      this.setBackgroundType(this._background);
+    }
+    if (positionType) {
+      this._positionType = positionType;
+      this.setPositionType(this._positionType);
+      positionTypeX = Math.floor(this._positionType / 3);
+      positionTypeY =
+        this._positionType > 2
+          ? this._positionType - 3 * positionTypeX
+          : this._positionType;
+      this.x = (positionTypeX * (Graphics.boxWidth - this.width)) / 2;
+      this.y = (positionTypeY * (Graphics.boxHeight - this.height)) / 2;
+    } else {
+      this._positionType = 0;
+      this.setPositionType(this._positionType);
+      this.x = 0;
+      this.y = 0;
+    }
+    _Window_Gold_open.call(this);
+  };
 
-    var CEC = function (params) {
-        var text, value, type, def, min, max, param;
-        type = params[1];
-        text = String(params[0]);
-        text = text.replace(/\\/g, '\x1b');
-        text = text.replace(/\x1b\x1b/g, '\\');
-        type = params[1];
-        def = params[2];
-        min = params[3];
-        max = params[4];
-        param = params[5];
+  var _Window_Gold_initialize = Window_Gold.prototype.initialize;
+  Window_Gold.prototype.initialize = function (x, y) {
+    _Window_Gold_initialize.call(this, x, y);
+    this._positionType = 0;
+  };
 
-        text = text.replace(/\x1bV\[\d+\]/i, function () {
-            return String(ConvVb(text));
-        }.bind(this));
+  Window_Gold.prototype.positionType = function () {
+    return this._positionType;
+  };
 
-        switch (type) {
-            case "num":
-                value = (isFinite(text)) ? parseInt(text, 10) : (isFinite(def)) ? parseInt(def, 10) : 0;
-                value = value.clamp(min, max);
-                break;
-            case "string":
-                if (text == "") {
-                    value = (def != "") ? def : value;
-                } else {
-                    value = text;
-                }
-                break;
-            default:
-                throw new Error("[CEC] " + param + "のタイプが不正です: " + type);
-                break;
-        }
-
-        return value;
-    };
-
-    var ConvVb = function (text) {
-        var num;
-
-        if (typeof text == "string") {
-            text = text.replace(/\x1bV\[(\d+)\]/i, function () {
-                num = parseInt(arguments[1]);
-                return $gameVariables.value(num);
-            }.bind(this));
-            text = text.replace(/\x1bV\[(\d+)\]/i, function () {
-                num = parseInt(arguments[1]);
-                return $gameVariables.value(num);
-            }.bind(this));
-        }
-
-        return text;
-    };
-
-    var DefSeVolume, DefSePitch, DefSePan, DefWaitPeriod, DefWaitLine, DefNameColor,
-        DefGoldBackground, DefGoldPosition,
-        DefMeVolume, DefMePitch, DefMePan, MesIconMargin;
-    DefSeVolume = CheckParam("num", "Default_SE_Volume", 90, 20, 100);
-    DefSePitch = CheckParam("num", "Default_SE_Pitch", 100, 50, 150);
-    DefSePan = CheckParam("num", "Default_SE_Pan", 0, -100, 100);
-    DefWaitPeriod = CheckParam("num", "Default_Wait_Period", 15, 0);
-    DefWaitLine = CheckParam("num", "Default_Wait_Line", 60, 0);
-    DefNameColor = CheckParam("num", "Default_Name_Color", 0, 0);
-    DefGoldBackground = CheckParam("num", "Default_Gold_Background", 0, 0, 2);
-    DefGoldPosition = CheckParam("num", "Default_Gold_Position", 0, 0, 8);
-    DefMeVolume = CheckParam("num", "Default_ME_Volume", 90, 20, 100);
-    DefMePitch = CheckParam("num", "Default_ME_Pitch", 100, 50, 150);
-    DefMePan = CheckParam("num", "Default_ME_Pan", 0, -100, 100);
-    MesIconMargin = CheckParam("num", "Message_Icon_Margin", 4, 0);
-
-
-    //=========================================================================
-    // Game_Message
-    //  設定保持用変数を定義します。
-    //
-    //=========================================================================
-    var _Game_Message_clear = Game_Message.prototype.clear;
-    Game_Message.prototype.clear = function () {
-        _Game_Message_clear.call(this);
-
-        this._iconMargin = MesIconMargin[0];
-    };
-
-    Game_Message.prototype.iconMargin = function () {
-        return this._iconMargin;
-    };
-
-    Game_Message.prototype.setIconMargin = function (margin) {
-        this._iconMargin = margin;
-    };
-
-
-    //=========================================================================
-    // Window_Base
-    //  制御文字を追加定義します。
-    //
-    //=========================================================================
-    var _Window_Base_obtainEscapeCode = Window_Base.prototype.obtainEscapeCode;
-    Window_Base.prototype.obtainEscapeCode = function (textState) {
-        var regExp, arr;
-        textState.index++;
-        regExp = /^(SE|\$|ME|IM)\[.*?\]/i;
-        arr = regExp.exec(textState.text.slice(textState.index));
-
-        if (arr) {
-            textState.index += arr[0].length;
-            return arr[0];
-        } else {
-            textState.index--;
-            return _Window_Base_obtainEscapeCode.call(this, textState);
-        }
-    };
-
-    var _Window_Base_convertEscapeCharacters = Window_Base.prototype.convertEscapeCharacters;
-    Window_Base.prototype.convertEscapeCharacters = function (text) {
-        var name, nameColor;
-        nameColor = CEC(DefNameColor);
-
-        text = text.replace(/\\/g, '\x1b');
-        text = text.replace(/\x1b\x1b/g, '\\');
-
-        text = text.replace(/\x1bC\[(\d+)\]\x1bN\[([\d,]+)\]/gi, function () {
-            name = this.sliceName(arguments[2], "Actor");
-            return '\x1bC[' + parseInt(arguments[1]) + ']' + name + '\x1bC[0]';
-        }.bind(this));
-        text = text.replace(/\x1bN\[([\d,]+)\]/gi, function () {
-            name = this.sliceName(arguments[1], "Actor");
-            if (nameColor != 0) {
-                return '\x1bC[' + nameColor + ']' + name + '\x1bC[0]';
-            }
-            return name != "" ? name : arguments[0];
-        }.bind(this));
-
-        text = text.replace(/\x1bC\[(\d+)\]\x1bP\[([\d,]+)\]/gi, function () {
-            name = this.sliceName(arguments[2], "Party");
-            return '\x1bC[' + parseInt(arguments[1]) + ']' + name + '\x1bC[0]';
-        }.bind(this));
-        text = text.replace(/\x1bP\[([\d,]+)\]/gi, function () {
-            name = this.sliceName(arguments[1], "Party");
-            if (nameColor != 0) {
-                return '\x1bC[' + nameColor + ']' + name + '\x1bC[0]';
-            }
-            return name != "" ? name : arguments[0];
-        }.bind(this));
-
-        return _Window_Base_convertEscapeCharacters.call(this, text);
-    };
-
-    var _Window_Base_processDrawIcon = Window_Base.prototype.processDrawIcon;
-    Window_Base.prototype.processDrawIcon = function (iconIndex, textState) {
-        var x, ret, iconMargin;
-        x = textState.x;
-        iconMargin = $gameMessage.iconMargin();
-        ret = _Window_Base_processDrawIcon.apply(this, arguments);
-        textState.x = x + Window_Base._iconWidth + iconMargin;
-
-        return ret;
-    };
-
-    Window_Base.prototype.sliceName = function (param, type) {
-        let arg, num, name, len;
-        arg = param.split(",");
-        num = 0;
-        name = "";
-
-        if (isFinite(arg[0])) {
-            num = parseInt(arg[0]);
-            name = type == "Actor" ? this.actorName(parseInt(num)) : this.partyMemberName(parseInt(num));
-        }
-        len = (arg.length > 1 && isFinite(arg[1])) ? parseInt(arg[1]) : name.length;
-        if (name != "" && len > 0 && name.length >= len) {
-            name = name.slice(0, len);
-        }
-
-        return name;
-    };
-
-
-    //=========================================================================
-    // Window_Message
-    //  制御文字を追加定義します。
-    //
-    //=========================================================================
-    var _Window_Message_processEscapeCharacter = Window_Message.prototype.processEscapeCharacter;
-    Window_Message.prototype.processEscapeCharacter = function (code, textState) {
-        var regExp, arr, res, se, seVolume, sePitch, sePan, waitPeriod, waitLine,
-            goldBackground, goldPosition, me, meVolume, mePitch, mePan, iconMargin;
-        waitPeriod = CEC(DefWaitPeriod);
-        waitLine = CEC(DefWaitLine);
-        goldBackground = CEC(DefGoldBackground);
-        goldPosition = CEC(DefGoldPosition);
-        regExp = /^(SE|\$|ME|IM)(\[.*?\])?$/i;
-        arr = regExp.exec(code);
-
-        if (arr) {
-            if (arr[2]) {
-                arr[2] = arr[2].replace(/[\[\]]/g, "");
-            }
-            switch (arr[1].toUpperCase()) {
-                case "SE":
-                    se = {};
-                    seVolume = CEC(DefSeVolume);
-                    sePitch = CEC(DefSePitch);
-                    sePan = CEC(DefSePan);
-                    if (arr[2]) {
-                        res = arr[2].split(",");
-                    }
-                    se["name"] = (res[0]) ? res[0].trim() : "";
-                    se["volume"] = (isFinite(res[1])) ? parseInt(res[1], 10) : seVolume;
-                    se["pitch"] = (isFinite(res[2])) ? parseInt(res[2], 10) : sePitch;
-                    se["pan"] = (isFinite(res[3])) ? parseInt(res[3], 10) : sePan;
-                    AudioManager.playSe(se);
-                    break;
-                case "ME":
-                    me = {};
-                    meVolume = CEC(DefMeVolume);
-                    mePitch = CEC(DefMePitch);
-                    mePan = CEC(DefMePan);
-                    if (arr[2]) {
-                        res = arr[2].split(",");
-                    }
-                    me["name"] = (res[0]) ? res[0].trim() : "";
-                    me["volume"] = (isFinite(res[1])) ? parseInt(res[1], 10) : meVolume;
-                    me["pitch"] = (isFinite(res[2])) ? parseInt(res[2], 10) : mePitch;
-                    me["pan"] = (isFinite(res[3])) ? parseInt(res[3], 10) : mePan;
-                    AudioManager.playMe(me);
-                    break;
-                case '$':
-                    if (arr[2]) {
-                        res = arr[2].split(",");
-                        goldBackground = (res[0] && isFinite(res[0])) ? parseInt(res[0], 10) : goldBackground;
-                        goldPosition = (res[1] && isFinite(res[1])) ? parseInt(res[1], 10) : goldPosition;
-                    }
-                    this._goldWindow.open(goldBackground, goldPosition, $gameMessage.positionType());
-                    break;
-                case 'IM':
-                    if (arr[2] != "" && isFinite(arr[2])) {
-                        iconMargin = parseInt(arr[2], 10);
-                        if (iconMargin >= 0) {
-                            $gameMessage.setIconMargin(iconMargin);
-                        }
-                    }
-                    break;
-                default:
-                    _Window_Message_processEscapeCharacter.call(this, code, textState);
-            }
-        } else {
-            switch (code) {
-                case '.':
-                    this.startWait(waitPeriod);
-                    break;
-                case '|':
-                    this.startWait(waitLine);
-                    break;
-                default:
-                    _Window_Message_processEscapeCharacter.call(this, code, textState);
-            }
-        }
-    };
-
-
-    //=========================================================================
-    // Window_Gold
-    //  所持金表示ウィンドウの背景/位置を変更可能にします。
-    //
-    //=========================================================================
-    var _Window_Gold_open = Window_Gold.prototype.open;
-    Window_Gold.prototype.open = function (background, positionType, messagePositionType) {
-        var positionTypeX, positionTypeY;
-        if (background) {
-            this._background = background;
-            this.setBackgroundType(this._background);
-        }
-        if (positionType) {
-            this._positionType = positionType;
-            this.setPositionType(this._positionType);
-            positionTypeX = Math.floor(this._positionType / 3);
-            positionTypeY = (this._positionType > 2) ? this._positionType - 3 * positionTypeX : this._positionType;
-            this.x = positionTypeX * (Graphics.boxWidth - this.width) / 2;
-            this.y = positionTypeY * (Graphics.boxHeight - this.height) / 2;
-        } else {
-            this._positionType = 0;
-            this.setPositionType(this._positionType);
-            this.x = 0;
-            this.y = 0;
-        }
-        _Window_Gold_open.call(this);
-    };
-
-    var _Window_Gold_initialize = Window_Gold.prototype.initialize;
-    Window_Gold.prototype.initialize = function (x, y) {
-        _Window_Gold_initialize.call(this, x, y);
-        this._positionType = 0;
-    };
-
-    Window_Gold.prototype.positionType = function () {
-        return this._positionType;
-    };
-
-    Window_Gold.prototype.setPositionType = function (positionType) {
-        this._positionType = positionType;
-    };
-
+  Window_Gold.prototype.setPositionType = function (positionType) {
+    this._positionType = positionType;
+  };
 })();

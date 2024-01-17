@@ -29,17 +29,16 @@
  * @default 9
  */
 
-
 (function () {
-  var parameters = PluginManager.parameters('Weather_Title');
-  var weatherType = parameters['weatherType'];
-  var weatherPower = Number(parameters['weatherPower']);
+  var parameters = PluginManager.parameters("Weather_Title");
+  var weatherType = parameters["weatherType"];
+  var weatherPower = Number(parameters["weatherPower"]);
 
   Scene_Title.prototype.createWeather = function () {
-    this.weatherEffect = new Weather()
+    this.weatherEffect = new Weather();
     this.addChild(this.weatherEffect);
-    this.weatherEffect.type = weatherType
-    this.weatherEffect.power = weatherPower
+    this.weatherEffect.type = weatherType;
+    this.weatherEffect.power = weatherPower;
   };
 
   var _Scene_Title_create = Scene_Title.prototype.create;
@@ -53,5 +52,4 @@
     _Scene_Title_update.call(this);
     this.weatherEffect.update();
   };
-
 })();

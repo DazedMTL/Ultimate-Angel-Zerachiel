@@ -16,14 +16,13 @@
 var Imported = Imported || {};
 Imported.Galv_NewItemIndication = true;
 
-var Galv = Galv || {};              // Galv's main object
-Galv.NII = Galv.NII || {};          // Galv's stuff
-
+var Galv = Galv || {}; // Galv's main object
+Galv.NII = Galv.NII || {}; // Galv's stuff
 
 //-----------------------------------------------------------------------------
 /*:
  * @plugindesc (v.1.2) Adds a 'new' icon over items that have been obtained for the first time
- * 
+ *
  * @author Galv - galvs-scripts.com
  *
  * @param New Icon Image
@@ -46,7 +45,7 @@ Galv.NII = Galv.NII || {};          // Galv's stuff
  * ----------------------------------------------------------------------------
  * This plugin adds an image over weapon/item/armor icons that have been
  * obtained for the first time in the game to indicate that it's a new item.
- * This 'new' image disappears once the player examines it (moves the cursor 
+ * This 'new' image disappears once the player examines it (moves the cursor
  * over it to see the help text and then moves away from it) in the menu.
  *
  * This image should be placed in /img/system/ and works best if it is the same
@@ -55,109 +54,109 @@ Galv.NII = Galv.NII || {};          // Galv's stuff
  *
  */
 
-
-
 //-----------------------------------------------------------------------------
 //  CODE STUFFS
 //-----------------------------------------------------------------------------
 
 (function () {
+  Galv.NII.newIcon = PluginManager.parameters("Galv_NewItemIndication")[
+    "New Icon Image"
+  ];
+  Galv.NII.ox = Number(
+    PluginManager.parameters("Galv_NewItemIndication")["Icon X Offset"]
+  );
+  Galv.NII.oy = Number(
+    PluginManager.parameters("Galv_NewItemIndication")["Icon Y Offset"]
+  );
 
-	Galv.NII.newIcon = PluginManager.parameters('Galv_NewItemIndication')["New Icon Image"];
-	Galv.NII.ox = Number(PluginManager.parameters('Galv_NewItemIndication')["Icon X Offset"]);
-	Galv.NII.oy = Number(PluginManager.parameters('Galv_NewItemIndication')["Icon Y Offset"]);
+  Galv.NII.becomeOld = function (item) {
+    if (!item) return;
+    if (item.itypeId) var type = "items";
+    if (item.wtypeId) var type = "weapons";
+    if (item.atypeId) var type = "armors";
 
-	Galv.NII.becomeOld = function (item) {
-		if (!item) return;
-		if (item.itypeId) var type = 'items';
-		if (item.wtypeId) var type = 'weapons';
-		if (item.atypeId) var type = 'armors';
+    if (type) {
+      $gameSystem._seenItems[type][item.id] = 1;
+      return true;
+    }
+    return false;
+  };
 
-		if (type) {
-			$gameSystem._seenItems[type][item.id] = 1;
-			return true;
-		}
-		return false;
-	};
+  //-----------------------------------------------------------------------------
+  //  SCENE BOOT
+  //-----------------------------------------------------------------------------
 
+  Galv.NII.Scene_Boot_loadSystemImages = Scene_Boot.loadSystemImages;
+  Scene_Boot.loadSystemImages = function () {
+    Galv.NII.Scene_Boot_loadSystemImages.call(this);
+    ImageManager.reserveSystem(Galv.NII.newIcon);
+  };
 
-	//-----------------------------------------------------------------------------
-	//  SCENE BOOT
-	//-----------------------------------------------------------------------------
+  //-----------------------------------------------------------------------------
+  //  GAME SYSTEM
+  //-----------------------------------------------------------------------------
 
-	Galv.NII.Scene_Boot_loadSystemImages = Scene_Boot.loadSystemImages;
-	Scene_Boot.loadSystemImages = function () {
-		Galv.NII.Scene_Boot_loadSystemImages.call(this);
-		ImageManager.reserveSystem(Galv.NII.newIcon);
-	};
+  Galv.NII.Game_System_initialize = Game_System.prototype.initialize;
+  Game_System.prototype.initialize = function () {
+    Galv.NII.Game_System_initialize.call(this);
+    this._seenItems = {
+      items: [], // each index contains undefined or 0 (new), 1 (old/not seen)
+      weapons: [],
+      armors: [],
+    };
+  };
 
+  //-----------------------------------------------------------------------------
+  //  WINDOW ITEMLIST
+  //-----------------------------------------------------------------------------
 
-	//-----------------------------------------------------------------------------
-	//  GAME SYSTEM
-	//-----------------------------------------------------------------------------
+  Galv.NII.Window_ItemList_initialize = Window_ItemList.prototype.initialize;
+  Window_ItemList.prototype.initialize = function (x, y, width, height) {
+    Galv.NII.Window_ItemList_initialize.call(this, x, y, width, height);
+    this._viewedNewIndex = null;
+  };
 
-	Galv.NII.Game_System_initialize = Game_System.prototype.initialize;
-	Game_System.prototype.initialize = function () {
-		Galv.NII.Game_System_initialize.call(this);
-		this._seenItems = {
-			items: [],     // each index contains undefined or 0 (new), 1 (old/not seen)
-			weapons: [],
-			armors: []
-		};
-	};
+  Galv.NII.Window_ItemList_drawItemName =
+    Window_ItemList.prototype.drawItemName;
+  Window_ItemList.prototype.drawItemName = function (item, x, y, width) {
+    Galv.NII.Window_ItemList_drawItemName.call(this, item, x, y, width);
+    if (item) {
+      if (item.itypeId) var type = "items";
+      if (item.wtypeId) var type = "weapons";
+      if (item.atypeId) var type = "armors";
 
+      if (type && !$gameSystem._seenItems[type][item.id]) {
+        var bitmap = ImageManager.loadSystem(Galv.NII.newIcon);
+        var pw = bitmap.width;
+        var ph = bitmap.height;
+        var sx = 0;
+        var sy = 0;
+        this.contents.blt(bitmap, sx, sy, pw, ph, x + 2, y + 2);
+      }
+    }
+  };
 
-	//-----------------------------------------------------------------------------
-	//  WINDOW ITEMLIST
-	//-----------------------------------------------------------------------------
+  Galv.NII.Window_ItemList_deactivate = Window_ItemList.prototype.deactivate;
+  Window_ItemList.prototype.deactivate = function () {
+    Galv.NII.Window_ItemList_deactivate.call(this);
+    if (this._viewedNewIndex != null) {
+      this.refresh();
+      this._viewedNewIndex = null;
+    }
+  };
 
-	Galv.NII.Window_ItemList_initialize = Window_ItemList.prototype.initialize;
-	Window_ItemList.prototype.initialize = function (x, y, width, height) {
-		Galv.NII.Window_ItemList_initialize.call(this, x, y, width, height);
-		this._viewedNewIndex = null;
-	};
+  Galv.NII.Window_ItemList_updateHelp = Window_ItemList.prototype.updateHelp;
+  Window_ItemList.prototype.updateHelp = function () {
+    Galv.NII.Window_ItemList_updateHelp.call(this);
 
-	Galv.NII.Window_ItemList_drawItemName = Window_ItemList.prototype.drawItemName;
-	Window_ItemList.prototype.drawItemName = function (item, x, y, width) {
-		Galv.NII.Window_ItemList_drawItemName.call(this, item, x, y, width);
-		if (item) {
-			if (item.itypeId) var type = 'items';
-			if (item.wtypeId) var type = 'weapons';
-			if (item.atypeId) var type = 'armors';
+    if (this._viewedNewIndex != null) {
+      this.redrawItem(this._viewedNewIndex);
+      this._viewedNewIndex = null;
+    }
 
-			if (type && !$gameSystem._seenItems[type][item.id]) {
-				var bitmap = ImageManager.loadSystem(Galv.NII.newIcon);
-				var pw = bitmap.width;
-				var ph = bitmap.height;
-				var sx = 0;
-				var sy = 0;
-				this.contents.blt(bitmap, sx, sy, pw, ph, x + 2, y + 2);
-			}
-		}
-	};
-
-	Galv.NII.Window_ItemList_deactivate = Window_ItemList.prototype.deactivate;
-	Window_ItemList.prototype.deactivate = function () {
-		Galv.NII.Window_ItemList_deactivate.call(this);
-		if (this._viewedNewIndex != null) {
-			this.refresh();
-			this._viewedNewIndex = null;
-		}
-	};
-
-	Galv.NII.Window_ItemList_updateHelp = Window_ItemList.prototype.updateHelp;
-	Window_ItemList.prototype.updateHelp = function () {
-		Galv.NII.Window_ItemList_updateHelp.call(this);
-
-		if (this._viewedNewIndex != null) {
-			this.redrawItem(this._viewedNewIndex);
-			this._viewedNewIndex = null;
-		}
-
-		var addToOld = Galv.NII.becomeOld(this.item());
-		if (addToOld) {
-			this._viewedNewIndex = this.index();
-		}
-	};
-
+    var addToOld = Galv.NII.becomeOld(this.item());
+    if (addToOld) {
+      this._viewedNewIndex = this.index();
+    }
+  };
 })();

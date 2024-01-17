@@ -65,129 +65,127 @@
  */
 
 (function () {
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _Game_Interpreter_pluginCommand.call(this, command, args);
+    if (command === "PictureWipe") {
+      var pictureId = Number(args[0]);
+      var wipeType = String(args[1]) || "down";
+      var wipeDirection = String(args[2]) || "in";
+      var wipeMaxFrames = Number(args[3]) || 60;
+      var picture = $gameScreen.picture(pictureId);
+      if (picture) {
+        picture.wipeType = wipeType;
+        picture.wipeDirection = wipeDirection;
+        picture.wipeMaxFrames = wipeMaxFrames;
+        picture.wipeIndex = 0;
+      }
+    }
+  };
 
-    var _Game_Interpreter_pluginCommand =
-        Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _Game_Interpreter_pluginCommand.call(this, command, args);
-        if (command === 'PictureWipe') {
-            var pictureId = Number(args[0]);
-            var wipeType = String(args[1]) || 'down';
-            var wipeDirection = String(args[2]) || 'in';
-            var wipeMaxFrames = Number(args[3]) || 60;
-            var picture = $gameScreen.picture(pictureId);
-            if (picture) {
-                picture.wipeType = wipeType;
-                picture.wipeDirection = wipeDirection;
-                picture.wipeMaxFrames = wipeMaxFrames;
-                picture.wipeIndex = 0;
-            }
+  var _Game_Picture_update = Game_Picture.prototype.update;
+  Game_Picture.prototype.update = function () {
+    _Game_Picture_update.call(this);
+    this.updateWipe();
+  };
+
+  Game_Picture.prototype.updateWipe = function () {
+    if (this.wipeIndex < this.wipeMaxFrames) {
+      this.wipeIndex++;
+    }
+  };
+
+  var _Sprite_Picture_update = Sprite_Picture.prototype.update;
+  Sprite_Picture.prototype.update = function () {
+    _Sprite_Picture_update.call(this);
+    if (this.picture() && this.visible) {
+      this.updateWipe();
+    }
+  };
+
+  Sprite_Picture.prototype.updateWipe = function () {
+    var picture = this.picture();
+    if (picture.wipeIndex < picture.wipeMaxFrames) {
+      var source = ImageManager.loadPicture(this._pictureName);
+      if (source.isReady()) {
+        if (!this.bitmap || this.bitmap === source) {
+          this.bitmap = new Bitmap(source.width, source.height);
         }
-    };
-
-    var _Game_Picture_update = Game_Picture.prototype.update;
-    Game_Picture.prototype.update = function () {
-        _Game_Picture_update.call(this);
-        this.updateWipe();
-    };
-
-    Game_Picture.prototype.updateWipe = function () {
-        if (this.wipeIndex < this.wipeMaxFrames) {
-            this.wipeIndex++;
+        var density = 0;
+        if (picture.wipeDirection === "in") {
+          density = picture.wipeIndex / picture.wipeMaxFrames;
+        } else if (picture.wipeDirection === "out") {
+          density = 1 - picture.wipeIndex / picture.wipeMaxFrames;
         }
-    };
+        this.bitmap.clear();
+        this.paintWipe(this.bitmap, picture.wipeType, density);
+        var context = this.bitmap.context;
+        context.save();
+        context.globalCompositeOperation = "source-in";
+        context.drawImage(source.canvas, 0, 0);
+        context.restore();
+      }
+    } else if (picture.wipeDirection === "in") {
+      this.bitmap = ImageManager.loadPicture(this._pictureName);
+    } else if (picture.wipeDirection === "out") {
+      this.bitmap.clear();
+    }
+  };
 
-    var _Sprite_Picture_update = Sprite_Picture.prototype.update;
-    Sprite_Picture.prototype.update = function () {
-        _Sprite_Picture_update.call(this);
-        if (this.picture() && this.visible) {
-            this.updateWipe();
+  Sprite_Picture.prototype.paintWipe = function (bitmap, type, density) {
+    var blindSize = 48;
+    var w = bitmap.width;
+    var h = bitmap.height;
+    var cx = w / 2;
+    var cy = h / 2;
+    var color = "white";
+    var size, i, j;
+    switch (type) {
+      case "down":
+        size = h * density;
+        bitmap.fillRect(0, 0, w, size, color);
+        break;
+      case "up":
+        size = h * density;
+        bitmap.fillRect(0, h - size, w, size, color);
+        break;
+      case "right":
+        size = w * density;
+        bitmap.fillRect(0, 0, size, h, color);
+        break;
+      case "left":
+        size = w * density;
+        bitmap.fillRect(w - size, 0, size, h, color);
+        break;
+      case "square":
+        size = (Math.max(w, h) / 2) * density;
+        bitmap.fillRect(cx - size, cy - size, size * 2, size * 2, color);
+        break;
+      case "circle":
+        size = (Math.sqrt(w * w + h * h) / 2) * density;
+        bitmap.drawCircle(cx, cy, size, color);
+        break;
+      case "hblind":
+        size = blindSize * density;
+        for (i = 0; i < h; i += blindSize) {
+          bitmap.fillRect(0, i, w, size, color);
         }
-    };
-
-    Sprite_Picture.prototype.updateWipe = function () {
-        var picture = this.picture();
-        if (picture.wipeIndex < picture.wipeMaxFrames) {
-            var source = ImageManager.loadPicture(this._pictureName);
-            if (source.isReady()) {
-                if (!this.bitmap || this.bitmap === source) {
-                    this.bitmap = new Bitmap(source.width, source.height);
-                }
-                var density = 0;
-                if (picture.wipeDirection === 'in') {
-                    density = picture.wipeIndex / picture.wipeMaxFrames;
-                } else if (picture.wipeDirection === 'out') {
-                    density = 1 - picture.wipeIndex / picture.wipeMaxFrames;
-                }
-                this.bitmap.clear();
-                this.paintWipe(this.bitmap, picture.wipeType, density);
-                var context = this.bitmap.context;
-                context.save();
-                context.globalCompositeOperation = 'source-in';
-                context.drawImage(source.canvas, 0, 0);
-                context.restore();
-            }
-        } else if (picture.wipeDirection === 'in') {
-            this.bitmap = ImageManager.loadPicture(this._pictureName);
-        } else if (picture.wipeDirection === 'out') {
-            this.bitmap.clear();
+        break;
+      case "vblind":
+        size = blindSize * density;
+        for (i = 0; i < w; i += blindSize) {
+          bitmap.fillRect(i, 0, size, h, color);
         }
-    };
-
-    Sprite_Picture.prototype.paintWipe = function (bitmap, type, density) {
-        var blindSize = 48;
-        var w = bitmap.width;
-        var h = bitmap.height;
-        var cx = w / 2;
-        var cy = h / 2;
-        var color = 'white';
-        var size, i, j;
-        switch (type) {
-            case 'down':
-                size = h * density;
-                bitmap.fillRect(0, 0, w, size, color);
-                break;
-            case 'up':
-                size = h * density;
-                bitmap.fillRect(0, h - size, w, size, color);
-                break;
-            case 'right':
-                size = w * density;
-                bitmap.fillRect(0, 0, size, h, color);
-                break;
-            case 'left':
-                size = w * density;
-                bitmap.fillRect(w - size, 0, size, h, color);
-                break;
-            case 'square':
-                size = Math.max(w, h) / 2 * density;
-                bitmap.fillRect(cx - size, cy - size, size * 2, size * 2, color);
-                break;
-            case 'circle':
-                size = Math.sqrt(w * w + h * h) / 2 * density;
-                bitmap.drawCircle(cx, cy, size, color);
-                break;
-            case 'hblind':
-                size = blindSize * density;
-                for (i = 0; i < h; i += blindSize) {
-                    bitmap.fillRect(0, i, w, size, color);
-                }
-                break;
-            case 'vblind':
-                size = blindSize * density;
-                for (i = 0; i < w; i += blindSize) {
-                    bitmap.fillRect(i, 0, size, h, color);
-                }
-                break;
-            case 'grid':
-                size = blindSize * density;
-                for (i = 0; i < h; i += blindSize) {
-                    for (j = 0; j < w; j += blindSize) {
-                        bitmap.fillRect(j, i, size, size, color);
-                    }
-                }
-                break;
+        break;
+      case "grid":
+        size = blindSize * density;
+        for (i = 0; i < h; i += blindSize) {
+          for (j = 0; j < w; j += blindSize) {
+            bitmap.fillRect(j, i, size, size, color);
+          }
         }
-    };
-
+        break;
+    }
+  };
 })();

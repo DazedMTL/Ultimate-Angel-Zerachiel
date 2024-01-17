@@ -48,7 +48,7 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    Input.keyMapper[18] = 'alt';
+  Input.keyMapper[18] = "alt";
 })();

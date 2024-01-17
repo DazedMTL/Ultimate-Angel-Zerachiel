@@ -141,82 +141,81 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'ImageSmoothSetting';
+  "use strict";
+  var pluginName = "ImageSmoothSetting";
 
-    //=============================================================================
-    // ローカル関数
-    //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
-    //=============================================================================
-    var getParamString = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
-        }
-        return '';
-    };
+  //=============================================================================
+  // ローカル関数
+  //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
+  //=============================================================================
+  var getParamString = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
+    }
+    return "";
+  };
 
-    var getParamBoolean = function (paramNames) {
-        var value = getParamString(paramNames);
-        return value.toUpperCase() === 'ON';
-    };
+  var getParamBoolean = function (paramNames) {
+    var value = getParamString(paramNames);
+    return value.toUpperCase() === "ON";
+  };
 
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var param = {};
-    param.tileset = getParamBoolean(['Tileset', 'タイルセット']);
-    param.system = getParamBoolean(['System', 'システム']);
-    param.character = getParamBoolean(['Character', 'キャラクター']);
-    param.title = getParamBoolean(['Title', 'タイトル']);
-    param.picture = getParamBoolean(['Picture', 'ピクチャ']);
-    param.parallax = getParamBoolean(['Parallax', '遠景']);
-    param.face = getParamBoolean(['Face', 'フェイス']);
-    param.battler = getParamBoolean(['Battler', 'バトラー']);
-    param.battleBack = getParamBoolean(['BattleBack', '戦闘背景']);
-    param.animation = getParamBoolean(['Animation', 'アニメーション']);
-    param.dynamicImage = getParamBoolean(['DynamicImage', '動的画像']);
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var param = {};
+  param.tileset = getParamBoolean(["Tileset", "タイルセット"]);
+  param.system = getParamBoolean(["System", "システム"]);
+  param.character = getParamBoolean(["Character", "キャラクター"]);
+  param.title = getParamBoolean(["Title", "タイトル"]);
+  param.picture = getParamBoolean(["Picture", "ピクチャ"]);
+  param.parallax = getParamBoolean(["Parallax", "遠景"]);
+  param.face = getParamBoolean(["Face", "フェイス"]);
+  param.battler = getParamBoolean(["Battler", "バトラー"]);
+  param.battleBack = getParamBoolean(["BattleBack", "戦闘背景"]);
+  param.animation = getParamBoolean(["Animation", "アニメーション"]);
+  param.dynamicImage = getParamBoolean(["DynamicImage", "動的画像"]);
 
-    //=============================================================================
-    // ImageManager
-    //  画像種別ごとにぼかしを個別設定可能にします。
-    //=============================================================================
-    ImageManager._smoothMap = {
-        'img/animations/': param.animation,
-        'img/battlebacks1/': param.battleBack,
-        'img/battlebacks2/': param.battleBack,
-        'img/enemies/': param.battler,
-        'img/characters/': param.character,
-        'img/faces/': param.face,
-        'img/parallaxes/': param.parallax,
-        'img/pictures/': param.picture,
-        'img/sv_actors/': param.battler,
-        'img/sv_enemies/': param.battler,
-        'img/system/': param.system,
-        'img/tilesets/': param.tileset,
-        'img/titles1/': param.title,
-        'img/titles2/': param.title
-    };
+  //=============================================================================
+  // ImageManager
+  //  画像種別ごとにぼかしを個別設定可能にします。
+  //=============================================================================
+  ImageManager._smoothMap = {
+    "img/animations/": param.animation,
+    "img/battlebacks1/": param.battleBack,
+    "img/battlebacks2/": param.battleBack,
+    "img/enemies/": param.battler,
+    "img/characters/": param.character,
+    "img/faces/": param.face,
+    "img/parallaxes/": param.parallax,
+    "img/pictures/": param.picture,
+    "img/sv_actors/": param.battler,
+    "img/sv_enemies/": param.battler,
+    "img/system/": param.system,
+    "img/tilesets/": param.tileset,
+    "img/titles1/": param.title,
+    "img/titles2/": param.title,
+  };
 
-    var _ImageManager_loadBitmap = ImageManager.loadBitmap;
-    ImageManager.loadBitmap = function (folder, filename, hue, smooth) {
-        if (this._smoothMap.hasOwnProperty(folder)) {
-            arguments[3] = this._smoothMap[folder];
-        }
-        return _ImageManager_loadBitmap.apply(this, arguments);
-    };
+  var _ImageManager_loadBitmap = ImageManager.loadBitmap;
+  ImageManager.loadBitmap = function (folder, filename, hue, smooth) {
+    if (this._smoothMap.hasOwnProperty(folder)) {
+      arguments[3] = this._smoothMap[folder];
+    }
+    return _ImageManager_loadBitmap.apply(this, arguments);
+  };
 
-    //=============================================================================
-    // Bitmap
-    //  動的作成画像にぼかしを設定可能にします。
-    //=============================================================================
-    var _Bitmap_initialize = Bitmap.prototype.initialize;
-    Bitmap.prototype.initialize = function (width, height) {
-        _Bitmap_initialize.apply(this, arguments);
-        if (param.dynamicImage) {
-            this.smooth = true;
-        }
-    };
+  //=============================================================================
+  // Bitmap
+  //  動的作成画像にぼかしを設定可能にします。
+  //=============================================================================
+  var _Bitmap_initialize = Bitmap.prototype.initialize;
+  Bitmap.prototype.initialize = function (width, height) {
+    _Bitmap_initialize.apply(this, arguments);
+    if (param.dynamicImage) {
+      this.smooth = true;
+    }
+  };
 })();
-

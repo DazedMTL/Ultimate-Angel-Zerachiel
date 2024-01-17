@@ -13,14 +13,14 @@
  * @help
  * === Description ===
  * Show pictures on title screen.
- * 
+ *
  * Nothing plugin command this plugin.
- * 
- * 
+ *
+ *
  * === Change Log ===
  * June 5, 2019 ver1.00 Initial release.
- * 
- * 
+ *
+ *
  * === Manual & License(Japanese) ===
  * https://www.5ing-myway.com/rpgmaker-plugin-mt_titlepictures/
  *
@@ -58,95 +58,96 @@
  * @type file
  * @dir img/pictures
  * @require 1
- * 
+ *
  * @param switch
  * @text スイッチ
  * @desc ピクチャを表示させるスイッチを選択してください。(オンの時にピクチャ表示)
  * @type switch
- * 
+ *
  * @param firstBoot
  * @text 初回起動時
  * @desc 初回起動時(セーブデータがない時)にピクチャを表示するか
  * @type boolean
  * @default true
- * 
-*/
+ *
+ */
 
 var Imported = Imported || {};
 Imported.MT_TitlePictures = true;
 
 (function () {
-	'use strict';
+  "use strict";
 
-	var PLUGIN_NAME = 'MT_TitlePictures';
-	var PARAM_NAME = 'titlePicturesVisible';
-	var params = PluginManager.parameters(PLUGIN_NAME)['pictures'];
-	params = toObject(params);
+  var PLUGIN_NAME = "MT_TitlePictures";
+  var PARAM_NAME = "titlePicturesVisible";
+  var params = PluginManager.parameters(PLUGIN_NAME)["pictures"];
+  params = toObject(params);
 
-	// Scene_Title(rpg_scenes.js)をオーバーライドして処理を呼びだし
-	var _Scene_Title_createForeground = Scene_Title.prototype.createForeground;
-	Scene_Title.prototype.createForeground = function () {
-		this.showPictures();
-		_Scene_Title_createForeground.call(this);
-	};
+  // Scene_Title(rpg_scenes.js)をオーバーライドして処理を呼びだし
+  var _Scene_Title_createForeground = Scene_Title.prototype.createForeground;
+  Scene_Title.prototype.createForeground = function () {
+    this.showPictures();
+    _Scene_Title_createForeground.call(this);
+  };
 
-	//ピクチャ表示処理
-	Scene_Title.prototype.showPictures = function () {
-		var globalData = DataManager.loadGlobalInfo();
-		var latestSaveId = DataManager.latestSavefileId();
-		var latestFile = globalData[latestSaveId];
+  //ピクチャ表示処理
+  Scene_Title.prototype.showPictures = function () {
+    var globalData = DataManager.loadGlobalInfo();
+    var latestSaveId = DataManager.latestSavefileId();
+    var latestFile = globalData[latestSaveId];
 
-		// 初回起動判定
-		var firstBoot = true;
-		if (latestFile != null) {
-			if (latestFile.hasOwnProperty(PARAM_NAME)) {
-				firstBoot = false;
-			};
-		}
+    // 初回起動判定
+    var firstBoot = true;
+    if (latestFile != null) {
+      if (latestFile.hasOwnProperty(PARAM_NAME)) {
+        firstBoot = false;
+      }
+    }
 
-		// ピクチャ表示
-		for (var i = 0; i < params.length; i++) {
-			var picture = params[i];
+    // ピクチャ表示
+    for (var i = 0; i < params.length; i++) {
+      var picture = params[i];
 
-			var visible;
-			if (firstBoot) {
-				visible = picture['firstBoot'];
-			} else {
-				visible = latestFile[PARAM_NAME][i];
-			}
+      var visible;
+      if (firstBoot) {
+        visible = picture["firstBoot"];
+      } else {
+        visible = latestFile[PARAM_NAME][i];
+      }
 
-			if (visible) {
-				var titleSprite = new Sprite(ImageManager.loadPicture(picture['fileName']));
-				this.addChild(titleSprite);
-			}
-		}
-	};
+      if (visible) {
+        var titleSprite = new Sprite(
+          ImageManager.loadPicture(picture["fileName"])
+        );
+        this.addChild(titleSprite);
+      }
+    }
+  };
 
+  // セーブ時にスイッチの値を保存
+  // DataManageer(rpg_managers.js)をオーバーライド
+  var _DataManager_makeSavefileInfo = DataManager.makeSavefileInfo;
+  DataManager.makeSavefileInfo = function () {
+    var info = _DataManager_makeSavefileInfo.apply(this, arguments);
+    this.saveTitlePicturesVisible(info);
+    return info;
+  };
 
-	// セーブ時にスイッチの値を保存
-	// DataManageer(rpg_managers.js)をオーバーライド
-	var _DataManager_makeSavefileInfo = DataManager.makeSavefileInfo;
-	DataManager.makeSavefileInfo = function () {
-		var info = _DataManager_makeSavefileInfo.apply(this, arguments);
-		this.saveTitlePicturesVisible(info);
-		return info;
-	};
+  DataManager.saveTitlePicturesVisible = function (info) {
+    info[PARAM_NAME] = [];
+    for (var i = 0; i < params.length; i++) {
+      info[PARAM_NAME].push($gameSwitches.value(params[i]["switch"]));
+    }
+  };
 
-	DataManager.saveTitlePicturesVisible = function (info) {
-		info[PARAM_NAME] = [];
-		for (var i = 0; i < params.length; i++) {
-			info[PARAM_NAME].push($gameSwitches.value(params[i]['switch']));
-		}
-	};
+  // プラグインパラメータをオブジェクトに変換
+  function toObject(params) {
+    params = JSON.parse(params).map(function (data) {
+      var obj = JSON.parse(data);
+      obj["firstBoot"] = obj["firstBoot"].toLowerCase() === "true";
+      return obj;
+    });
 
-	// プラグインパラメータをオブジェクトに変換
-	function toObject(params) {
-		params = JSON.parse(params).map(function (data) {
-			var obj = JSON.parse(data);
-			obj['firstBoot'] = (obj['firstBoot'].toLowerCase() === "true");
-			return obj;
-		});
-
-		return params;
-	}
+    return params;
+  }
 })();

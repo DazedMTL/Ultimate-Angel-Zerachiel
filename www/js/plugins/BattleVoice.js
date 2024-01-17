@@ -21,13 +21,13 @@
  * @target MV
  * @plugindesc [Ver2.1.0]Play voice SE at battle when actor does spcified action
  * @author Sasuke KANNAZUKI
- * 
+ *
  * @param ON switch ID
  * @desc play se only when the switch is ON.
  * This setting interlocks with option Battle Voice.
  * @type switch
  * @default 1
- * 
+ *
  * @param volume
  * @desc volume of SEs. this setting is common among all voice SEs.
  * (Default:90)
@@ -35,7 +35,7 @@
  * @min 0
  * @max 100000
  * @default 90
- * 
+ *
  * @param pitch
  * @desc pitch of SEs. this setting is common among all voice SEs.
  * (Default:100)
@@ -51,7 +51,7 @@
  * @min -100
  * @max 100
  * @default 0
- * 
+ *
  * @param Battle Voice Name at Option
  * @desc display name at option
  * @type text
@@ -116,13 +116,13 @@
  * @noteDir audio/se/
  * @noteType file
  * @noteData actors
- * 
+ *
  * @noteParam victoryVoice
  * @noteRequire 1
  * @noteDir audio/se/
  * @noteType file
  * @noteData actors
- * 
+ *
  * @noteParam counterVoice
  * @noteRequire 1
  * @noteDir audio/se/
@@ -174,7 +174,7 @@
  * if plural actors attend the battle, randomly selected actor's SE is adopted.  * <firstVoice:filename>   plays when battle starts except surprised.
  * <victoryVoice:filename>   plays when battle finishes.
  *
- * *NOTE* Here 'magic' skill means its 'Skill Type' is included in 
+ * *NOTE* Here 'magic' skill means its 'Skill Type' is included in
  *  '[SV]Magic Skills' on 'System '.
  *
  * [Advanced option 1]
@@ -183,7 +183,7 @@
  * <attackVoice:atk1,atk2,atk3>
  * in this case, at attack, plays atk1 atk2, or atk3 randomly.
  *
- * If set no SE one of filenames, 
+ * If set no SE one of filenames,
  * <attackVoice:atk1,atk2,$>
  * in this case, at attack, plays atk1 atk2, or doesn't play SE.
  *
@@ -197,7 +197,7 @@
  *  'Play SE' on the Contents.
  *
  * [Plugin Commands]
- * 
+ *
  * **Set voice on each situation**
  * BattleVoice set arg1 arg2 arg3
  *  - arg1 must be actor id.
@@ -493,19 +493,19 @@
  * http://opensource.org/licenses/mit-license.php
  */
 (function () {
-  var pluginName = 'BattleVoice';
+  var pluginName = "BattleVoice";
 
   //
   // process parameters
   //
   var parameters = PluginManager.parameters(pluginName);
-  var pitch = Number(parameters['pitch'] || 100);
-  var volume = Number(parameters['volume'] || 90);
-  var pan = Number(parameters['pan'] || 0);
-  var playSwitchId = Number(parameters['ON switch ID'] || 1);
-  var strBattleVoice = parameters['Battle Voice Name at Option'] ||
-    'Battle Voice';
-  var waitForReceive = Number(parameters['waitForReceive'] || 30);
+  var pitch = Number(parameters["pitch"] || 100);
+  var volume = Number(parameters["volume"] || 90);
+  var pan = Number(parameters["pan"] || 0);
+  var playSwitchId = Number(parameters["ON switch ID"] || 1);
+  var strBattleVoice =
+    parameters["Battle Voice Name at Option"] || "Battle Voice";
+  var waitForReceive = Number(parameters["waitForReceive"] || 30);
 
   //
   // process plugin commands
@@ -522,22 +522,22 @@
       actor.battleVoices = actor.battleVoices || {};
       actor.skillVoices = actor.skillVoices || {};
       switch (args[0]) {
-        case 'set':
+        case "set":
           actor.battleVoices[args[2]] = args[3];
           break;
-        case 'reset':
+        case "reset":
           actor.battleVoices[args[2]] = null;
           break;
-        case 'allReset':
+        case "allReset":
           actor.battleVoices = {};
           break;
-        case 'skillSet':
+        case "skillSet":
           actor.skillVoices[+args[2]] = args[3];
           break;
-        case 'skillReset':
+        case "skillReset":
           actor.skillVoices[+args[2]] = null;
           break;
-        case 'skillAllReset':
+        case "skillAllReset":
           actor.skillVoices = {};
           break;
       }
@@ -555,27 +555,25 @@
     Window_Options.prototype.makeCommandList;
   Window_Options.prototype.makeCommandList = function () {
     if (doesDisplaySpecialOptions()) {
-      this.addCommand(strBattleVoice, 'battleVoice');
+      this.addCommand(strBattleVoice, "battleVoice");
     }
     _Window_Options_makeCommandList.call(this);
   };
 
-  var _Window_Options_getConfigValue =
-    Window_Options.prototype.getConfigValue;
+  var _Window_Options_getConfigValue = Window_Options.prototype.getConfigValue;
   Window_Options.prototype.getConfigValue = function (symbol) {
     switch (symbol) {
-      case 'battleVoice':
+      case "battleVoice":
         return $gameSwitches.value(playSwitchId);
       default:
         return _Window_Options_getConfigValue.call(this, symbol);
     }
   };
 
-  var _Window_Options_setConfigValue =
-    Window_Options.prototype.setConfigValue;
+  var _Window_Options_setConfigValue = Window_Options.prototype.setConfigValue;
   Window_Options.prototype.setConfigValue = function (symbol, volume) {
     switch (symbol) {
-      case 'battleVoice':
+      case "battleVoice":
         return $gameSwitches.setValue(playSwitchId, volume);
       default:
         return _Window_Options_setConfigValue.call(this, symbol, volume);
@@ -599,7 +597,7 @@
     if (!name) {
       return name;
     }
-    var names = name.split(',');
+    var names = name.split(",");
     return names[Math.randomInt(names.length)];
   };
 
@@ -608,7 +606,7 @@
     audio.name = name;
     audio.pitch = pitch;
     audio.volume = volume;
-    audio.pan = pan
+    audio.pan = pan;
     return audio;
   };
 
@@ -616,47 +614,47 @@
     if (!canPlayActorVoice()) {
       return;
     }
-    var name = '';
+    var name = "";
     var a = actor.battleVoices || {};
     var m = actor.actor().meta;
     switch (type) {
-      case 'attack':
+      case "attack":
         name = split(a.attack || m.attackVoice);
         break;
-      case 'recover':
+      case "recover":
         name = split(a.recover || m.recoverVoice);
         break;
-      case 'friendmagic':
+      case "friendmagic":
         name = split(a.friendMagic || m.friendMagicVoice || m.magicVoice);
         break;
-      case 'magic':
+      case "magic":
         name = split(a.magic || m.magicVoice);
         break;
-      case 'skill':
+      case "skill":
         name = split(a.skill || m.skillVoice);
         break;
-      case 'damage':
+      case "damage":
         name = split(a.damage || m.damageVoice);
         break;
-      case 'evade':
+      case "evade":
         name = split(a.evade || m.evadeVoice);
         break;
-      case 'dead':
+      case "dead":
         name = split(a.dead || m.defeatedVoice);
         break;
-      case 'counter':
+      case "counter":
         name = split(a.counter || m.counterVoice);
         break;
-      case 'reflect':
+      case "reflect":
         name = split(a.reflect || m.reflectVoice);
         break;
-      case 'fromAlly':
+      case "fromAlly":
         name = split(a.fromAlly || m.fromAllyVoice);
         break;
-      case 'first':
+      case "first":
         name = split(a.first || m.firstVoice);
         break;
-      case 'victory':
+      case "victory":
         name = split(a.victory || m.victoryVoice);
         break;
     }
@@ -693,43 +691,43 @@
     if (isSkillVoice(this, action)) {
       playSkillVoice(this, action);
     } else if (action.isAttack()) {
-      playActorVoice(this, 'attack');
+      playActorVoice(this, "attack");
     } else if (action.isMagicSkill() && action.isHpRecover()) {
-      playActorVoice(this, 'recover');
+      playActorVoice(this, "recover");
     } else if (action.isMagicSkill() && action.isForFriend()) {
-      playActorVoice(this, 'friendmagic');
+      playActorVoice(this, "friendmagic");
     } else if (action.isMagicSkill()) {
-      playActorVoice(this, 'magic');
+      playActorVoice(this, "magic");
     } else if (action.isSkill() && !action.isGuard()) {
-      playActorVoice(this, 'skill');
+      playActorVoice(this, "skill");
     }
   };
 
   var _Game_Actor_performDamage = Game_Actor.prototype.performDamage;
   Game_Actor.prototype.performDamage = function () {
     _Game_Actor_performDamage.call(this);
-    playActorVoice(this, 'damage');
+    playActorVoice(this, "damage");
   };
 
   var _Game_Actor_performEvasion = Game_Actor.prototype.performEvasion;
   Game_Actor.prototype.performEvasion = function () {
     _Game_Actor_performEvasion.call(this);
-    playActorVoice(this, 'evade');
+    playActorVoice(this, "evade");
   };
 
   var _Game_Actor_performCollapse = Game_Actor.prototype.performCollapse;
   Game_Actor.prototype.performCollapse = function () {
     _Game_Actor_performCollapse.call(this);
     if ($gameParty.inBattle()) {
-      playActorVoice(this, 'dead');
+      playActorVoice(this, "dead");
     }
   };
 
   var _BattleManager_invokeCounterAttack = BattleManager.invokeCounterAttack;
   BattleManager.invokeCounterAttack = function (subject, target) {
-    1
+    1;
     if (target.isActor()) {
-      playActorVoice(target, 'counter');
+      playActorVoice(target, "counter");
     }
     _BattleManager_invokeCounterAttack.call(this, subject, target);
   };
@@ -738,7 +736,7 @@
     BattleManager.invokeMagicReflection;
   BattleManager.invokeMagicReflection = function (subject, target) {
     if (target.isActor()) {
-      playActorVoice(target, 'reflect');
+      playActorVoice(target, "reflect");
     }
     _BattleManager_invokeMagicReflection.call(this, subject, target);
   };
@@ -747,14 +745,16 @@
   Game_System.prototype.onBattleStart = function () {
     _Game_System_onBattleStart.call(this);
     var candidates = $gameParty.aliveMembers().filter(function (actor) {
-      return actor.actor().meta.firstVoice ||
-        (actor.battleVoices && actor.battleVoices.first);
+      return (
+        actor.actor().meta.firstVoice ||
+        (actor.battleVoices && actor.battleVoices.first)
+      );
     });
     if (candidates.length > 0) {
       var index = Math.randomInt(candidates.length);
       var actor = candidates[index];
       if (!BattleManager._surprise) {
-        playActorVoice(actor, 'first');
+        playActorVoice(actor, "first");
       }
     }
   };
@@ -762,13 +762,15 @@
   var _BattleManager_processVictory = BattleManager.processVictory;
   BattleManager.processVictory = function () {
     var candidates = $gameParty.aliveMembers().filter(function (actor) {
-      return actor.actor().meta.victoryVoice ||
-        (actor.battleVoices && actor.battleVoices.victory);
+      return (
+        actor.actor().meta.victoryVoice ||
+        (actor.battleVoices && actor.battleVoices.victory)
+      );
     });
     if (candidates.length > 0) {
       var index = Math.randomInt(candidates.length);
       var actor = candidates[index];
-      playActorVoice(actor, 'victory');
+      playActorVoice(actor, "victory");
     }
     _BattleManager_processVictory.call(this);
   };
@@ -790,15 +792,15 @@
   };
 
   Window_BattleLog.prototype.playReceiveVoice = function (target) {
-    playActorVoice(target, 'fromAlly');
+    playActorVoice(target, "fromAlly");
   };
 
   var _Window_BattleLog_performRecovery =
     Window_BattleLog.prototype.performRecovery;
   Window_BattleLog.prototype.performRecovery = function (target) {
     if (target.doesPlayFromAlly()) {
-      this.push('waitAlly');
-      this.push('playReceiveVoice', target);
+      this.push("waitAlly");
+      this.push("playReceiveVoice", target);
     }
     _Window_BattleLog_performRecovery.call(this, target);
   };

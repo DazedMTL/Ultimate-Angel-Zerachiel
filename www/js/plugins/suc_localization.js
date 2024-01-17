@@ -3,7 +3,7 @@
 //=============================================================================
 /*:ja
  * @plugindesc サキュバス専用
- * 
+ *
  * @param id_desc_cost
  * @default (コスト:{0})
  * @param id_empty_state
@@ -21,4 +21,6 @@
  * @param id_battle_turnend
  * @default ターン終了
  */
-Nnfs.localization = Nnfs.parseDeep(PluginManager.parameters('suc_localization'));
+Nnfs.localization = Nnfs.parseDeep(
+  PluginManager.parameters("suc_localization")
+);

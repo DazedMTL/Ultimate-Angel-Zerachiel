@@ -30,11 +30,11 @@
  */
 
 (function () {
-
   //var parameters = PluginManager.parameters('BordSkin');
 
-  Game_BattlerBase.prototype.paramPlus2 = function (paramId) { //新規
-    var str1 = 'BS' + paramId;
+  Game_BattlerBase.prototype.paramPlus2 = function (paramId) {
+    //新規
+    var str1 = "BS" + paramId;
     var amount = 0;
     this._states.forEach(function (stateId) {
       var val1 = Number($dataStates[stateId].meta[str1] || 0);
@@ -51,5 +51,4 @@
     var minValue = this.paramMin(paramId);
     return Math.round(value.clamp(minValue, maxValue));
   };
-
 })();

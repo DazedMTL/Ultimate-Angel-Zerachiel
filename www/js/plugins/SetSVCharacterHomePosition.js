@@ -2,7 +2,6 @@
 // SetSVCharacterHomePosition.js
 //=============================================================================
 
-
 /*:
  * @plugindesc Set the home position of side view battlers.
  * @author Ritz
@@ -13,10 +12,9 @@
  *
  */
 (function () {
-  'use strict';
+  "use strict";
 
   Sprite_Actor.prototype.setActorHome = function (index) {
     this.setHome(400 + index * 32, 280 + index * 48);
   };
-
 })();

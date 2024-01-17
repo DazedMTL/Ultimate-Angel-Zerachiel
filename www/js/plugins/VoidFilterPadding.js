@@ -7,9 +7,8 @@
  * @plugindesc 古いPCでフィルタすると画面が拡大するのを抑止
  * @author kido0617
  * @help
- * 
-*/
-
+ *
+ */
 
 (function () {
   Sprite.voidFilter.padding = 0;

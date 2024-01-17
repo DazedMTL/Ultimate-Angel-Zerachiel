@@ -12,155 +12,155 @@ Yanfly.BattleCursor.version = 1.04;
 
 //=============================================================================
 /*:
-* @plugindesc v1.04 Adds a cursor to battle when selecting allies and/or
-* enemies for targeting.
-* @author Yanfly Engine Plugins
-*
-* @param Ally Cursor
-* @type file
-* @dir img/pictures/
-* @require 1
-* @desc The filename name of the image used found within the project's
-* img/pictures/ folder. Do not include the file extension.
-* @default Crystal_Blue_4x2
-*
-* @param Enemy Cursor
-* @type file
-* @dir img/pictures/
-* @require 1
-* @desc The filename name of the image used found within the project's
-* img/pictures/ folder. Do not include the file extension.
-* @default Crystal_Red_4x2
-*
-* @param Anchor X
-* @type combo
-* @option left
-* @option center
-* @option right
-* @desc This is the default X origin point of the sprite.
-* left     center     right
-* @default center
-*
-* @param Anchor Y
-* @type combo
-* @option top
-* @option middle
-* @option bottom
-* @desc This is the default Y origin point of the sprite.
-* top     middle     bottom
-* @default bottom
-*
-* @param Position X
-* @type combo
-* @option left
-* @option center
-* @option right
-* @desc This is the default X position of the sprite on the target.
-* left     center     right
-* @default center
-*
-* @param Position Y
-* @type combo
-* @option top
-* @option middle
-* @option bottom
-* @desc This is the default Y position of the sprite on the target.
-* top     middle     bottom
-* @default top
-*
-* @help
-* ============================================================================
-* Introduction
-* ============================================================================
-*
-* This plugin allows you to set custom cursors when selecting allies and/or
-* enemies for targeting while in battle. This is to help with better visual
-* cues when picking a target if the flashing battler isn't enough.
-*
-* ============================================================================
-* Instructions - Cursor Filenames
-* ============================================================================
-*
-* Save your cursor into your game project's img/pictures folder. This will be
-* where your project will get all of its pictures from.
-*
-* The filename plays an important role in the way the cursors work. It will be
-* used to determine the number of frames used by the cursor. It will work in
-* the following format:
-*
-*      filename_WidthxHeight
-* 
-* Therefore, when using 'Crystal_Blue_4x2', it means there will be 4 frames
-* usable from left to right and 2 frames usable from top to bottom. It will
-* have a width of 4 frames and a height of 2.
-*
-* If the format isn't used, then the dimensions will default to 1x1.
-*
-* ============================================================================
-* Notetags
-* ============================================================================
-*
-* You can use the following notetags to adjust the cursor settings for your
-* actors and enemies.
-*
-* Actor and Enemy Notetags:
-*
-*   <Battle Select Cursor: filename>
-*   - This will change the filename of the cursor image used for this actor or
-*   enemy when selected. The same rules apply as the ones listed in the
-*   Instructions - Cursor Filenames section of the help file.
-*
-*   <Battle Select Cursor Anchor X: Left>
-*   <Battle Select Cursor Anchor X: Center>
-*   <Battle Select Cursor Anchor X: Right>
-*   <Battle Select Cursor Anchor Y: Top>
-*   <Battle Select Cursor Anchor Y: Middle>
-*   <Battle Select Cursor Anchor Y: Bottom>
-*   - These notetags determine where the origin point of the cursor sprite
-*   should be.
-*
-*   <Battle Select Cursor Position X: Left>
-*   <Battle Select Cursor Position X: Center>
-*   <Battle Select Cursor Position X: Right>
-*   <Battle Select Cursor Position Y: Top>
-*   <Battle Select Cursor Position Y: Middle>
-*   <Battle Select Cursor Position Y: Bottom>
-*   - These notetags determine where the select cursor will appear on the
-*   actor or enemy when targeting them.
-*
-* ============================================================================
-* Changelog
-* ============================================================================
-*
-* Version 1.04:
-* - Updated for RPG Maker MV version 1.5.0.
-*
-* Version 1.03:
-* - Updated plugin to keep the battle select cursor on top of animated enemies
-* from the YEP_X_AnimatedSVEnemies plugin.
-*
-* Version 1.02:
-* - Optimized plugin to use less resources.
-*
-* Version 1.01a:
-* - Fixed a bug that caused the game to crash if an actor leaves mid-battle.
-* - Fixed a documentation error for the notetags.
-*/
+ * @plugindesc v1.04 Adds a cursor to battle when selecting allies and/or
+ * enemies for targeting.
+ * @author Yanfly Engine Plugins
+ *
+ * @param Ally Cursor
+ * @type file
+ * @dir img/pictures/
+ * @require 1
+ * @desc The filename name of the image used found within the project's
+ * img/pictures/ folder. Do not include the file extension.
+ * @default Crystal_Blue_4x2
+ *
+ * @param Enemy Cursor
+ * @type file
+ * @dir img/pictures/
+ * @require 1
+ * @desc The filename name of the image used found within the project's
+ * img/pictures/ folder. Do not include the file extension.
+ * @default Crystal_Red_4x2
+ *
+ * @param Anchor X
+ * @type combo
+ * @option left
+ * @option center
+ * @option right
+ * @desc This is the default X origin point of the sprite.
+ * left     center     right
+ * @default center
+ *
+ * @param Anchor Y
+ * @type combo
+ * @option top
+ * @option middle
+ * @option bottom
+ * @desc This is the default Y origin point of the sprite.
+ * top     middle     bottom
+ * @default bottom
+ *
+ * @param Position X
+ * @type combo
+ * @option left
+ * @option center
+ * @option right
+ * @desc This is the default X position of the sprite on the target.
+ * left     center     right
+ * @default center
+ *
+ * @param Position Y
+ * @type combo
+ * @option top
+ * @option middle
+ * @option bottom
+ * @desc This is the default Y position of the sprite on the target.
+ * top     middle     bottom
+ * @default top
+ *
+ * @help
+ * ============================================================================
+ * Introduction
+ * ============================================================================
+ *
+ * This plugin allows you to set custom cursors when selecting allies and/or
+ * enemies for targeting while in battle. This is to help with better visual
+ * cues when picking a target if the flashing battler isn't enough.
+ *
+ * ============================================================================
+ * Instructions - Cursor Filenames
+ * ============================================================================
+ *
+ * Save your cursor into your game project's img/pictures folder. This will be
+ * where your project will get all of its pictures from.
+ *
+ * The filename plays an important role in the way the cursors work. It will be
+ * used to determine the number of frames used by the cursor. It will work in
+ * the following format:
+ *
+ *      filename_WidthxHeight
+ *
+ * Therefore, when using 'Crystal_Blue_4x2', it means there will be 4 frames
+ * usable from left to right and 2 frames usable from top to bottom. It will
+ * have a width of 4 frames and a height of 2.
+ *
+ * If the format isn't used, then the dimensions will default to 1x1.
+ *
+ * ============================================================================
+ * Notetags
+ * ============================================================================
+ *
+ * You can use the following notetags to adjust the cursor settings for your
+ * actors and enemies.
+ *
+ * Actor and Enemy Notetags:
+ *
+ *   <Battle Select Cursor: filename>
+ *   - This will change the filename of the cursor image used for this actor or
+ *   enemy when selected. The same rules apply as the ones listed in the
+ *   Instructions - Cursor Filenames section of the help file.
+ *
+ *   <Battle Select Cursor Anchor X: Left>
+ *   <Battle Select Cursor Anchor X: Center>
+ *   <Battle Select Cursor Anchor X: Right>
+ *   <Battle Select Cursor Anchor Y: Top>
+ *   <Battle Select Cursor Anchor Y: Middle>
+ *   <Battle Select Cursor Anchor Y: Bottom>
+ *   - These notetags determine where the origin point of the cursor sprite
+ *   should be.
+ *
+ *   <Battle Select Cursor Position X: Left>
+ *   <Battle Select Cursor Position X: Center>
+ *   <Battle Select Cursor Position X: Right>
+ *   <Battle Select Cursor Position Y: Top>
+ *   <Battle Select Cursor Position Y: Middle>
+ *   <Battle Select Cursor Position Y: Bottom>
+ *   - These notetags determine where the select cursor will appear on the
+ *   actor or enemy when targeting them.
+ *
+ * ============================================================================
+ * Changelog
+ * ============================================================================
+ *
+ * Version 1.04:
+ * - Updated for RPG Maker MV version 1.5.0.
+ *
+ * Version 1.03:
+ * - Updated plugin to keep the battle select cursor on top of animated enemies
+ * from the YEP_X_AnimatedSVEnemies plugin.
+ *
+ * Version 1.02:
+ * - Optimized plugin to use less resources.
+ *
+ * Version 1.01a:
+ * - Fixed a bug that caused the game to crash if an actor leaves mid-battle.
+ * - Fixed a documentation error for the notetags.
+ */
 //=============================================================================
 
 //=============================================================================
 // Parameter Variables
 //=============================================================================
 
-Yanfly.Parameters = PluginManager.parameters('YEP_BattleSelectCursor');
+Yanfly.Parameters = PluginManager.parameters("YEP_BattleSelectCursor");
 Yanfly.Param = Yanfly.Param || {};
 
-Yanfly.Param.BattleCursorAlly = String(Yanfly.Parameters['Ally Cursor']);
-Yanfly.Param.BattleCursorEnemy = String(Yanfly.Parameters['Enemy Cursor']);
-Yanfly.Param.BattleCursorAnchorX = String(Yanfly.Parameters['Anchor X']);
-Yanfly.Param.BattleCursorAnchorY = String(Yanfly.Parameters['Anchor Y']);
-Yanfly.Param.BattleCursorPosX = String(Yanfly.Parameters['Position X']);
-Yanfly.Param.BattleCursorPosY = String(Yanfly.Parameters['Position Y']);
+Yanfly.Param.BattleCursorAlly = String(Yanfly.Parameters["Ally Cursor"]);
+Yanfly.Param.BattleCursorEnemy = String(Yanfly.Parameters["Enemy Cursor"]);
+Yanfly.Param.BattleCursorAnchorX = String(Yanfly.Parameters["Anchor X"]);
+Yanfly.Param.BattleCursorAnchorY = String(Yanfly.Parameters["Anchor Y"]);
+Yanfly.Param.BattleCursorPosX = String(Yanfly.Parameters["Position X"]);
+Yanfly.Param.BattleCursorPosY = String(Yanfly.Parameters["Position Y"]);
 
 //=============================================================================
 // DataManager
@@ -195,8 +195,8 @@ DataManager.processBattleCursorNotetags1 = function (group, isActor) {
       anchorX: Yanfly.Param.BattleCursorAnchorX,
       anchorY: Yanfly.Param.BattleCursorAnchorY,
       posX: Yanfly.Param.BattleCursorPosX,
-      posY: Yanfly.Param.BattleCursorPosY
-    }
+      posY: Yanfly.Param.BattleCursorPosY,
+    };
 
     for (var i = 0; i < notedata.length; i++) {
       var line = notedata[i];
@@ -205,38 +205,38 @@ DataManager.processBattleCursorNotetags1 = function (group, isActor) {
       } else if (line.match(/<BATTLE SELECT CURSOR ANCHOR X:[ ](.*)>/i)) {
         var text = String(RegExp.$1);
         if (text.match(/LEFT/i)) {
-          obj.battleSelectCursorSettings.anchorX = 'left';
+          obj.battleSelectCursorSettings.anchorX = "left";
         } else if (text.match(/RIGHT/i)) {
-          obj.battleSelectCursorSettings.anchorX = 'right';
+          obj.battleSelectCursorSettings.anchorX = "right";
         } else {
-          obj.battleSelectCursorSettings.anchorX = 'center';
+          obj.battleSelectCursorSettings.anchorX = "center";
         }
       } else if (line.match(/<BATTLE SELECT CURSOR ANCHOR Y:[ ](.*)>/i)) {
         var text = String(RegExp.$1);
         if (text.match(/TOP/i)) {
-          obj.battleSelectCursorSettings.anchorY = 'top';
+          obj.battleSelectCursorSettings.anchorY = "top";
         } else if (text.match(/BOTTOM/i)) {
-          obj.battleSelectCursorSettings.anchorY = 'bottom';
+          obj.battleSelectCursorSettings.anchorY = "bottom";
         } else {
-          obj.battleSelectCursorSettings.anchorY = 'center';
+          obj.battleSelectCursorSettings.anchorY = "center";
         }
       } else if (line.match(/<BATTLE SELECT CURSOR POSITION X:[ ](.*)>/i)) {
         var text = String(RegExp.$1);
         if (text.match(/LEFT/i)) {
-          obj.battleSelectCursorSettings.posX = 'left';
+          obj.battleSelectCursorSettings.posX = "left";
         } else if (text.match(/RIGHT/i)) {
-          obj.battleSelectCursorSettings.posX = 'right';
+          obj.battleSelectCursorSettings.posX = "right";
         } else {
-          obj.battleSelectCursorSettings.posX = 'center';
+          obj.battleSelectCursorSettings.posX = "center";
         }
       } else if (line.match(/<BATTLE SELECT CURSOR POSITION Y:[ ](.*)>/i)) {
         var text = String(RegExp.$1);
         if (text.match(/TOP/i)) {
-          obj.battleSelectCursorSettings.posY = 'top';
+          obj.battleSelectCursorSettings.posY = "top";
         } else if (text.match(/BOTTOM/i)) {
-          obj.battleSelectCursorSettings.posY = 'bottom';
+          obj.battleSelectCursorSettings.posY = "bottom";
         } else {
-          obj.battleSelectCursorSettings.posY = 'center';
+          obj.battleSelectCursorSettings.posY = "center";
         }
       }
     }
@@ -256,8 +256,8 @@ Game_Battler.prototype.battleSelectCursorSettings = function () {
     anchorX: Yanfly.Param.BattleCursorAnchorX,
     anchorY: Yanfly.Param.BattleCursorAnchorY,
     posX: Yanfly.Param.BattleCursorPosX,
-    posY: Yanfly.Param.BattleCursorPosY
-  }
+    posY: Yanfly.Param.BattleCursorPosY,
+  };
 };
 
 //=============================================================================
@@ -367,16 +367,16 @@ Sprite_BattleSelectCursor.prototype.setBattler = function (battler) {
 };
 
 Sprite_BattleSelectCursor.prototype.updateAnchor = function () {
-  if (this._settings.anchorX === 'left') {
+  if (this._settings.anchorX === "left") {
     this.anchor.x = 0;
-  } else if (this._settings.anchorX === 'right') {
+  } else if (this._settings.anchorX === "right") {
     this.anchor.x = 1;
   } else {
     this.anchor.x = 0.5;
   }
-  if (this._settings.anchorY === 'top') {
+  if (this._settings.anchorY === "top") {
     this.anchor.y = 0;
-  } else if (this._settings.anchorY === 'bottom') {
+  } else if (this._settings.anchorY === "bottom") {
     this.anchor.y = 1;
   } else {
     this.anchor.y = 0.5;
@@ -427,16 +427,16 @@ Sprite_BattleSelectCursor.prototype.updatePosition = function () {
     var width = this.parent.width;
     var height = this.parent.height;
   }
-  if (this._settings.posX === 'left') {
+  if (this._settings.posX === "left") {
     this.x = width / -2;
-  } else if (this._settings.posX === 'right') {
+  } else if (this._settings.posX === "right") {
     this.x = width / 2;
   } else {
     this.x = 0;
   }
-  if (this._settings.posY === 'top') {
+  if (this._settings.posY === "top") {
     this.y = height * -1;
-  } else if (this._settings.posY === 'bottom') {
+  } else if (this._settings.posY === "bottom") {
     this.y = 0;
   } else {
     this.y = height / -2;
@@ -444,7 +444,7 @@ Sprite_BattleSelectCursor.prototype.updatePosition = function () {
 };
 
 Sprite_BattleSelectCursor.prototype.updateFrame = function () {
-  --this._frameUpdateCount
+  --this._frameUpdateCount;
   if (this._frameUpdateCount === 0) {
     this._frameUpdateCount = 10;
     this._index += 1;
@@ -453,7 +453,7 @@ Sprite_BattleSelectCursor.prototype.updateFrame = function () {
   if (this._battler && this._battler.isSelected()) {
     var pw = this.bitmap.width / this._frameCols;
     var ph = this.bitmap.height / this._frameRows;
-    var sx = this._index % this._frameCols * pw;
+    var sx = (this._index % this._frameCols) * pw;
     var sy = Math.floor(this._index / this._frameCols) * ph;
     if (!this._initialLoad) {
       this.opacity = 255;

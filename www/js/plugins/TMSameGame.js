@@ -101,17 +101,16 @@ var Imported = Imported || {};
 Imported.TMSameGame = true;
 
 (function () {
-
-  var parameters = PluginManager.parameters('TMSameGame');
-  var samegameCommand = parameters['samegameCommand'];
-  var a = parameters['samegameIcons'].split(' ');
+  var parameters = PluginManager.parameters("TMSameGame");
+  var samegameCommand = parameters["samegameCommand"];
+  var a = parameters["samegameIcons"].split(" ");
   var samegameIcons = [];
   for (var i = 0; i < a.length; i++) {
     samegameIcons[i] = Number(a[i]);
   }
-  var a = parameters['timeupSe'].split(' ');
+  var a = parameters["timeupSe"].split(" ");
   var timeupSe = { name: a[0], volume: a[1], pitch: a[2], pan: a[3] };
-  var a = parameters['clearSe'].split(' ');
+  var a = parameters["clearSe"].split(" ");
   var clearSe = { name: a[0], volume: a[1], pitch: a[2], pan: a[3] };
 
   //-----------------------------------------------------------------------------
@@ -166,7 +165,7 @@ Imported.TMSameGame = true;
   };
 
   Game_Temp.prototype.samegameIcons = function (index) {
-    return this._samegameIcons ? this._samegameIcons[index] : 0
+    return this._samegameIcons ? this._samegameIcons[index] : 0;
   };
 
   Game_Temp.prototype.samegameAllIconsS = function () {
@@ -211,7 +210,7 @@ Imported.TMSameGame = true;
   };
 
   Game_Message.prototype.setSamegame = function (choices, cancelType) {
-    var a = choices[1].split(' ');
+    var a = choices[1].split(" ");
     this._samegameWidth = Number(a[0]);
     this._samegameHeight = Number(a[1]);
     this._samegameCellWidth = Number(a[2]);
@@ -227,7 +226,7 @@ Imported.TMSameGame = true;
 
   var _Game_Message_isBusy = Game_Message.prototype.isBusy;
   Game_Message.prototype.isBusy = function () {
-    return (_Game_Message_isBusy.call(this) || this.isSamegame());
+    return _Game_Message_isBusy.call(this) || this.isSamegame();
   };
 
   //-----------------------------------------------------------------------------
@@ -248,27 +247,30 @@ Imported.TMSameGame = true;
       $gameMessage.setSamegame(choices, cancelType);
       $gameMessage.setChoiceBackground(background);
       $gameMessage.setChoicePositionType(positionType);
-      $gameMessage.setChoiceCallback(function (n) {
-        this._branch[this._indent] = n;
-      }.bind(this));
+      $gameMessage.setChoiceCallback(
+        function (n) {
+          this._branch[this._indent] = n;
+        }.bind(this)
+      );
     } else {
       _Game_Interpreter_setupChoices.call(this, params);
     }
   };
 
-  var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
-    if (command === 'samegameScore') {
+    if (command === "samegameScore") {
       $gameVariables.setValue(+args[0], $gameTemp.samegameScore());
-    } else if (command === 'samegameTime') {
+    } else if (command === "samegameTime") {
       $gameVariables.setValue(+args[0], $gameTemp.samegameTime());
-    } else if (command === 'samegameAllIcons') {
+    } else if (command === "samegameAllIcons") {
       $gameVariables.setValue(+args[0], $gameTemp.samegameAllIcons());
-    } else if (command === 'samegameIcons') {
+    } else if (command === "samegameIcons") {
       $gameVariables.setValue(+args[1], $gameTemp.samegameIcons(+args[0]));
-    } else if (command === 'samegameAllIconsS') {
+    } else if (command === "samegameAllIconsS") {
       $gameVariables.setValue(+args[0], $gameTemp.samegameAllIconsS());
-    } else if (command === 'samegameIconsS') {
+    } else if (command === "samegameIconsS") {
       $gameVariables.setValue(+args[1], $gameTemp.samegameIconsS(+args[0]));
     } else {
       _Game_Interpreter_pluginCommand.call(this, command, args);
@@ -310,8 +312,9 @@ Imported.TMSameGame = true;
   };
 
   Window_Samegame.prototype.isCursorMovable = function () {
-    return Window_Selectable.prototype.isCursorMovable &&
-      this._samegameState === -1;
+    return (
+      Window_Selectable.prototype.isCursorMovable && this._samegameState === -1
+    );
   };
 
   Window_Samegame.prototype.start = function () {
@@ -393,7 +396,8 @@ Imported.TMSameGame = true;
   };
 
   Window_Samegame.prototype.windowWidth = function () {
-    var width = $gameMessage.samegameWidth() * $gameMessage.samegameCellWidth() +
+    var width =
+      $gameMessage.samegameWidth() * $gameMessage.samegameCellWidth() +
       this.padding * 2;
     return Math.min(width, Graphics.boxWidth);
   };
@@ -409,11 +413,11 @@ Imported.TMSameGame = true;
       if (this._samegameState === -1) {
         // this.updateTime(); //koke
         // this.updateScore(); //koke
-      } else if (Input.isTriggered('ok') || (TouchInput.isTriggered())) {
+      } else if (Input.isTriggered("ok") || TouchInput.isTriggered()) {
         $gameMessage.onChoice(this._samegameState);
         this.endSamegame();
         SoundManager.playOk();
-      } else if (Input.isTriggered('escape') || (TouchInput.isCancelled())) {
+      } else if (Input.isTriggered("escape") || TouchInput.isCancelled()) {
         $gameMessage.onChoice(this._samegameState);
         this.endSamegame();
         SoundManager.playCancel();
@@ -435,7 +439,10 @@ Imported.TMSameGame = true;
 
   Window_Samegame.prototype.updateScore = function () {
     var time = new Date();
-    $gameTemp.setSamegameScore(this._samegameScore, time - this._samegameStartTime);
+    $gameTemp.setSamegameScore(
+      this._samegameScore,
+      time - this._samegameStartTime
+    );
   };
 
   Window_Samegame.prototype.gameOver = function (state) {
@@ -472,9 +479,18 @@ Imported.TMSameGame = true;
       this.drawIcon(samegameIcons[iconIndex], rect.x, rect.y);
     }
     if (index === this.index()) {
-      bitmap = ImageManager.loadSystem('SamegameCursor');
-      this.contents.blt(bitmap, 0, 0, 32, 32, rect.x, rect.y,
-        this._samegameCellWidth, this._samegameCellHeight);
+      bitmap = ImageManager.loadSystem("SamegameCursor");
+      this.contents.blt(
+        bitmap,
+        0,
+        0,
+        32,
+        32,
+        rect.x,
+        rect.y,
+        this._samegameCellWidth,
+        this._samegameCellHeight
+      );
     }
   };
 
@@ -501,7 +517,7 @@ Imported.TMSameGame = true;
     var height = 36;
     var y = this.contents.height - height;
     this.contents.clearRect(0, y, width, height);
-    this.drawText(Math.floor(time / 1000) + ' 秒', 0, y, width, 'right');
+    this.drawText(Math.floor(time / 1000) + " 秒", 0, y, width, "right");
   };
 
   Window_Samegame.prototype.refreshScore = function () {
@@ -509,7 +525,7 @@ Imported.TMSameGame = true;
     var height = 36;
     var y = this._samegameHeight * this._samegameCellHeight;
     this.contents.clearRect(0, y, width, height);
-    this.drawText(this._samegameScore + ' 点', 0, y, width, 'right')
+    this.drawText(this._samegameScore + " 点", 0, y, width, "right");
   };
 
   Window_Samegame.prototype.isOkEnabled = function () {
@@ -538,7 +554,10 @@ Imported.TMSameGame = true;
       var n = this._deleteTargets.length;
       if (n >= 2) {
         this.gainScore(n);
-        $gameTemp.loseSamegameIcon(this._samegameMap[this._deleteTargets[0]], n);
+        $gameTemp.loseSamegameIcon(
+          this._samegameMap[this._deleteTargets[0]],
+          n
+        );
         this.deleteIcons();
         this.sortIcons();
         this.refresh();
@@ -565,10 +584,12 @@ Imported.TMSameGame = true;
 
   Window_Samegame.prototype.addSweepTarget = function (index, targetIcon) {
     var iconIndex = this._samegameMap[index];
-    if (iconIndex === targetIcon &&
+    if (
+      iconIndex === targetIcon &&
       this._deleteTargets.indexOf(index) === -1 &&
       this._checkTargets.indexOf(index) === -1 &&
-      this.isIndexValid(index)) {
+      this.isIndexValid(index)
+    ) {
       this._checkTargets.push(index);
     }
   };
@@ -600,7 +621,7 @@ Imported.TMSameGame = true;
       }
     }
     for (var x = 0; x < this._samegameWidth; x++) {
-      var y = this._samegameHeight - 1
+      var y = this._samegameHeight - 1;
       if (this._samegameMap[x + y * this._samegameWidth] === -1) {
         for (var x2 = x + 1; x2 < this._samegameWidth; x2++) {
           if (this._samegameMap[x2 + y * this._samegameWidth] >= 0) {
@@ -656,16 +677,20 @@ Imported.TMSameGame = true;
     return _Window_Message_subWindows.call(this).concat(this._samegameWindow);
   };
 
-  var _Window_Message_createSubWindows = Window_Message.prototype.createSubWindows;
+  var _Window_Message_createSubWindows =
+    Window_Message.prototype.createSubWindows;
   Window_Message.prototype.createSubWindows = function () {
     _Window_Message_createSubWindows.call(this);
     this._samegameWindow = new Window_Samegame(this);
   };
 
-  var _Window_Message_isAnySubWindowActive = Window_Message.prototype.isAnySubWindowActive;
+  var _Window_Message_isAnySubWindowActive =
+    Window_Message.prototype.isAnySubWindowActive;
   Window_Message.prototype.isAnySubWindowActive = function () {
-    return (_Window_Message_isAnySubWindowActive.call(this) ||
-      this._samegameWindow.active);
+    return (
+      _Window_Message_isAnySubWindowActive.call(this) ||
+      this._samegameWindow.active
+    );
   };
 
   var _Window_Message_startInput = Window_Message.prototype.startInput;
@@ -684,7 +709,6 @@ Imported.TMSameGame = true;
   var _Scene_Boot_loadSystemImages = Scene_Boot.prototype.loadSystemImages;
   Scene_Boot.prototype.loadSystemImages = function () {
     _Scene_Boot_loadSystemImages.call(this);
-    ImageManager.loadSystem('SamegameCursor');
+    ImageManager.loadSystem("SamegameCursor");
   };
-
 })();

@@ -36,36 +36,43 @@
  */
 
 (function () {
-    var plugin = 'FixedPosition';
+  var plugin = "FixedPosition";
 
-    var params = PluginManager.parameters(plugin);
-    var fixedStartPosition = params['Fixed Start Position'].toLowerCase() === 'true';
-    var fixedInputPosition = params['Fixed Input Position'].toLowerCase() === 'true';
-    var fixedAttackPosition = params['Fixed Attack Position'].toLowerCase() === 'true';
+  var params = PluginManager.parameters(plugin);
+  var fixedStartPosition =
+    params["Fixed Start Position"].toLowerCase() === "true";
+  var fixedInputPosition =
+    params["Fixed Input Position"].toLowerCase() === "true";
+  var fixedAttackPosition =
+    params["Fixed Attack Position"].toLowerCase() === "true";
 
-    // Object Property for Plugin
-    function pprop(obj) {
-        return (obj[plugin] = obj[plugin] || {});
+  // Object Property for Plugin
+  function pprop(obj) {
+    return (obj[plugin] = obj[plugin] || {});
+  }
+
+  //=========================================================================
+  // Sprite_Actor
+  //=========================================================================
+
+  var _alias_Sprite_Actor_moveToStartPosition =
+    Sprite_Actor.prototype.moveToStartPosition;
+  Sprite_Actor.prototype.moveToStartPosition = function () {
+    _alias_Sprite_Actor_moveToStartPosition.call(this);
+    if (fixedStartPosition) {
+      this.startMove(0, 0, 0);
     }
+  };
 
-    //=========================================================================
-    // Sprite_Actor
-    //=========================================================================
-
-    var _alias_Sprite_Actor_moveToStartPosition = Sprite_Actor.prototype.moveToStartPosition;
-    Sprite_Actor.prototype.moveToStartPosition = function () {
-        _alias_Sprite_Actor_moveToStartPosition.call(this);
-        if (fixedStartPosition) {
-            this.startMove(0, 0, 0);
-        }
+  var _alias_Sprite_Actor_updateTargetPosition =
+    Sprite_Actor.prototype.updateTargetPosition;
+  Sprite_Actor.prototype.updateTargetPosition = function () {
+    _alias_Sprite_Actor_updateTargetPosition.call(this);
+    if (
+      (this._actor.isInputting() && fixedInputPosition) ||
+      (this._actor.isActing() && fixedAttackPosition)
+    ) {
+      this.startMove(0, 0, 0);
     }
-
-    var _alias_Sprite_Actor_updateTargetPosition = Sprite_Actor.prototype.updateTargetPosition;
-    Sprite_Actor.prototype.updateTargetPosition = function () {
-        _alias_Sprite_Actor_updateTargetPosition.call(this);
-        if ((this._actor.isInputting() && fixedInputPosition) ||
-            (this._actor.isActing()) && fixedAttackPosition) {
-            this.startMove(0, 0, 0);
-        }
-    };
-}());
+  };
+})();

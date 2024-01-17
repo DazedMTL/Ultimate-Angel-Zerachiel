@@ -72,137 +72,163 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    const Torigoya = (window.Torigoya = window.Torigoya || {});
+  const Torigoya = (window.Torigoya = window.Torigoya || {});
 
-    function getPluginName() {
-        const cs = document.currentScript;
-        return cs ? cs.src.split('/').pop().replace(/\.js$/, '') : 'Torigoya_CustomRegenerate';
+  function getPluginName() {
+    const cs = document.currentScript;
+    return cs
+      ? cs.src.split("/").pop().replace(/\.js$/, "")
+      : "Torigoya_CustomRegenerate";
+  }
+
+  function pickStringValueFromParameter(parameter, key, defaultValue = "") {
+    if (!parameter.hasOwnProperty(key)) return defaultValue;
+    return "".concat(parameter[key] || "");
+  }
+
+  function readParameter() {
+    const parameter = PluginManager.parameters(getPluginName());
+    return {
+      version: "1.1.1",
+      advancedNoteTagHp: pickStringValueFromParameter(
+        parameter,
+        "advancedNoteTagHp",
+        "CustomRegenerateHP"
+      ),
+      advancedNoteTagMp: pickStringValueFromParameter(
+        parameter,
+        "advancedNoteTagMp",
+        "CustomRegenerateMP"
+      ),
+      advancedNoteTagTp: pickStringValueFromParameter(
+        parameter,
+        "advancedNoteTagTp",
+        "CustomRegenerateTP"
+      ),
+    };
+  }
+
+  function customEval(a, code) {
+    try {
+      return parseInt(eval(code), 10);
+    } catch (e) {
+      console.error(e);
+      return 0;
     }
+  }
 
-    function pickStringValueFromParameter(parameter, key, defaultValue = '') {
-        if (!parameter.hasOwnProperty(key)) return defaultValue;
-        return ''.concat(parameter[key] || '');
-    }
+  function applyCustomRegenerateHp(noteTag) {
+    const tmpBattlerHpMap = new WeakMap();
 
-    function readParameter() {
-        const parameter = PluginManager.parameters(getPluginName());
-        return {
-            version: '1.1.1',
-            advancedNoteTagHp: pickStringValueFromParameter(parameter, 'advancedNoteTagHp', 'CustomRegenerateHP'),
-            advancedNoteTagMp: pickStringValueFromParameter(parameter, 'advancedNoteTagMp', 'CustomRegenerateMP'),
-            advancedNoteTagTp: pickStringValueFromParameter(parameter, 'advancedNoteTagTp', 'CustomRegenerateTP'),
-        };
-    }
+    const upstream_Game_Battler_regenerateHp =
+      Game_Battler.prototype.regenerateHp;
+    Game_Battler.prototype.regenerateHp = function () {
+      tmpBattlerHpMap.set(this, true);
+      upstream_Game_Battler_regenerateHp.apply(this);
 
-    function customEval(a, code) {
-        try {
-            return parseInt(eval(code), 10);
-        } catch (e) {
-            console.error(e);
-            return 0;
-        }
-    }
-
-    function applyCustomRegenerateHp(noteTag) {
-        const tmpBattlerHpMap = new WeakMap();
-
-        const upstream_Game_Battler_regenerateHp = Game_Battler.prototype.regenerateHp;
-        Game_Battler.prototype.regenerateHp = function () {
-            tmpBattlerHpMap.set(this, true);
-            upstream_Game_Battler_regenerateHp.apply(this);
-
-            if (tmpBattlerHpMap.get(this)) {
-                tmpBattlerHpMap.delete(this);
-                const minRecover = -this.maxSlipDamage();
-                const value = Math.max(this.torigoya_customRegenerateHp(), minRecover);
-                if (value !== 0) this.gainHp(value);
-            }
-        };
-
-        const upstream_Game_Battler_gainHp = Game_Battler.prototype.gainHp;
-        Game_Battler.prototype.gainHp = function (value) {
-            if (tmpBattlerHpMap.get(this)) {
-                tmpBattlerHpMap.delete(this);
-                const minRecover = -this.maxSlipDamage();
-                value = Math.max(value + this.torigoya_customRegenerateHp(), minRecover);
-                if (value === 0) return;
-            }
-
-            upstream_Game_Battler_gainHp.call(this, value);
-        };
-
-        Game_Battler.prototype.torigoya_customRegenerateHp = function () {
-            return this.traitObjects()
-                .filter((obj) => obj.meta[noteTag])
-                .map((obj) => customEval(this, obj.meta[noteTag]))
-                .reduce((a, b) => a + b, 0);
-        };
-    }
-
-    function applyCustomRegenerateMp(noteTag) {
-        const tmpBattlerMpMap = new WeakMap();
-
-        const upstream_Game_Battler_regenerateMp = Game_Battler.prototype.regenerateMp;
-        Game_Battler.prototype.regenerateMp = function () {
-            tmpBattlerMpMap.set(this, true);
-            upstream_Game_Battler_regenerateMp.apply(this);
-
-            if (tmpBattlerMpMap.get(this)) {
-                tmpBattlerMpMap.delete(this);
-                const value = this.torigoya_customRegenerateMp();
-                if (value !== 0) this.gainMp(value);
-            }
-        };
-
-        const upstream_Game_Battler_gainMp = Game_Battler.prototype.gainMp;
-        Game_Battler.prototype.gainMp = function (value) {
-            if (tmpBattlerMpMap.get(this)) {
-                tmpBattlerMpMap.delete(this);
-                value += this.torigoya_customRegenerateMp();
-                if (value === 0) return;
-            }
-
-            upstream_Game_Battler_gainMp.call(this, value);
-        };
-
-        Game_Battler.prototype.torigoya_customRegenerateMp = function () {
-            return this.traitObjects()
-                .filter((obj) => obj.meta[noteTag])
-                .map((obj) => customEval(this, obj.meta[noteTag]))
-                .reduce((a, b) => a + b, 0);
-        };
-    }
-
-    function applyCustomRegenerateTp(noteTag) {
-        const upstream_Game_Battler_regenerateTp = Game_Battler.prototype.regenerateTp;
-        Game_Battler.prototype.regenerateTp = function () {
-            const value = this.torigoya_customRegenerateTp();
-            upstream_Game_Battler_regenerateTp.apply(this);
-            this.gainSilentTp(value);
-        };
-
-        Game_Battler.prototype.torigoya_customRegenerateTp = function () {
-            return this.traitObjects()
-                .filter((obj) => obj.meta[noteTag])
-                .map((obj) => customEval(this, obj.meta[noteTag]))
-                .reduce((a, b) => a + b, 0);
-        };
-    }
-
-    Torigoya.CustomRegenerate = {
-        name: getPluginName(),
-        parameter: readParameter(),
+      if (tmpBattlerHpMap.get(this)) {
+        tmpBattlerHpMap.delete(this);
+        const minRecover = -this.maxSlipDamage();
+        const value = Math.max(this.torigoya_customRegenerateHp(), minRecover);
+        if (value !== 0) this.gainHp(value);
+      }
     };
 
-    if (Torigoya.CustomRegenerate.parameter.advancedNoteTagHp) {
-        applyCustomRegenerateHp(Torigoya.CustomRegenerate.parameter.advancedNoteTagHp);
-    }
-    if (Torigoya.CustomRegenerate.parameter.advancedNoteTagMp) {
-        applyCustomRegenerateMp(Torigoya.CustomRegenerate.parameter.advancedNoteTagMp);
-    }
-    if (Torigoya.CustomRegenerate.parameter.advancedNoteTagTp) {
-        applyCustomRegenerateTp(Torigoya.CustomRegenerate.parameter.advancedNoteTagTp);
-    }
+    const upstream_Game_Battler_gainHp = Game_Battler.prototype.gainHp;
+    Game_Battler.prototype.gainHp = function (value) {
+      if (tmpBattlerHpMap.get(this)) {
+        tmpBattlerHpMap.delete(this);
+        const minRecover = -this.maxSlipDamage();
+        value = Math.max(
+          value + this.torigoya_customRegenerateHp(),
+          minRecover
+        );
+        if (value === 0) return;
+      }
+
+      upstream_Game_Battler_gainHp.call(this, value);
+    };
+
+    Game_Battler.prototype.torigoya_customRegenerateHp = function () {
+      return this.traitObjects()
+        .filter((obj) => obj.meta[noteTag])
+        .map((obj) => customEval(this, obj.meta[noteTag]))
+        .reduce((a, b) => a + b, 0);
+    };
+  }
+
+  function applyCustomRegenerateMp(noteTag) {
+    const tmpBattlerMpMap = new WeakMap();
+
+    const upstream_Game_Battler_regenerateMp =
+      Game_Battler.prototype.regenerateMp;
+    Game_Battler.prototype.regenerateMp = function () {
+      tmpBattlerMpMap.set(this, true);
+      upstream_Game_Battler_regenerateMp.apply(this);
+
+      if (tmpBattlerMpMap.get(this)) {
+        tmpBattlerMpMap.delete(this);
+        const value = this.torigoya_customRegenerateMp();
+        if (value !== 0) this.gainMp(value);
+      }
+    };
+
+    const upstream_Game_Battler_gainMp = Game_Battler.prototype.gainMp;
+    Game_Battler.prototype.gainMp = function (value) {
+      if (tmpBattlerMpMap.get(this)) {
+        tmpBattlerMpMap.delete(this);
+        value += this.torigoya_customRegenerateMp();
+        if (value === 0) return;
+      }
+
+      upstream_Game_Battler_gainMp.call(this, value);
+    };
+
+    Game_Battler.prototype.torigoya_customRegenerateMp = function () {
+      return this.traitObjects()
+        .filter((obj) => obj.meta[noteTag])
+        .map((obj) => customEval(this, obj.meta[noteTag]))
+        .reduce((a, b) => a + b, 0);
+    };
+  }
+
+  function applyCustomRegenerateTp(noteTag) {
+    const upstream_Game_Battler_regenerateTp =
+      Game_Battler.prototype.regenerateTp;
+    Game_Battler.prototype.regenerateTp = function () {
+      const value = this.torigoya_customRegenerateTp();
+      upstream_Game_Battler_regenerateTp.apply(this);
+      this.gainSilentTp(value);
+    };
+
+    Game_Battler.prototype.torigoya_customRegenerateTp = function () {
+      return this.traitObjects()
+        .filter((obj) => obj.meta[noteTag])
+        .map((obj) => customEval(this, obj.meta[noteTag]))
+        .reduce((a, b) => a + b, 0);
+    };
+  }
+
+  Torigoya.CustomRegenerate = {
+    name: getPluginName(),
+    parameter: readParameter(),
+  };
+
+  if (Torigoya.CustomRegenerate.parameter.advancedNoteTagHp) {
+    applyCustomRegenerateHp(
+      Torigoya.CustomRegenerate.parameter.advancedNoteTagHp
+    );
+  }
+  if (Torigoya.CustomRegenerate.parameter.advancedNoteTagMp) {
+    applyCustomRegenerateMp(
+      Torigoya.CustomRegenerate.parameter.advancedNoteTagMp
+    );
+  }
+  if (Torigoya.CustomRegenerate.parameter.advancedNoteTagTp) {
+    applyCustomRegenerateTp(
+      Torigoya.CustomRegenerate.parameter.advancedNoteTagTp
+    );
+  }
 })();

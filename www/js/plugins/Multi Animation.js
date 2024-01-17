@@ -18,6 +18,8 @@
  */
 
 Game_Battler.prototype.startAnimation = function (animationId, mirror, delay) {
-    var data = { animationId: animationId, mirror: mirror, delay: delay };
-    if (this._animations.length === 0) { this._animations.push(data); }
+  var data = { animationId: animationId, mirror: mirror, delay: delay };
+  if (this._animations.length === 0) {
+    this._animations.push(data);
+  }
 };

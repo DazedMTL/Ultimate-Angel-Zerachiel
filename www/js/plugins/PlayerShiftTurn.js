@@ -66,47 +66,48 @@
  *  このプラグインはもうあなたのものです。
  */
 (function () {
-    'use strict';
-    var pluginName = 'PlayerShiftTurn';
+  "use strict";
+  var pluginName = "PlayerShiftTurn";
 
-    var createPluginParameter = function (pluginName) {
-        var paramReplacer = function (key, value) {
-            if (value === 'null') {
-                return value;
-            }
-            if (value[0] === '"' && value[value.length - 1] === '"') {
-                return value;
-            }
-            try {
-                return JSON.parse(value);
-            } catch (e) {
-                return value;
-            }
-        };
-        var parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
-        PluginManager.setParameters(pluginName, parameter);
-        return parameter;
+  var createPluginParameter = function (pluginName) {
+    var paramReplacer = function (key, value) {
+      if (value === "null") {
+        return value;
+      }
+      if (value[0] === '"' && value[value.length - 1] === '"') {
+        return value;
+      }
+      try {
+        return JSON.parse(value);
+      } catch (e) {
+        return value;
+      }
     };
+    var parameter = JSON.parse(
+      JSON.stringify(PluginManager.parameters(pluginName), paramReplacer)
+    );
+    PluginManager.setParameters(pluginName, parameter);
+    return parameter;
+  };
 
-    var param = createPluginParameter(pluginName);
+  var param = createPluginParameter(pluginName);
 
-    //=============================================================================
-    // Game_Player
-    //  指定したボタンが押されていた場合にプレイヤーを移動させずに向きだけ変更します。
-    //=============================================================================
-    var _Game_Player_executeMove = Game_Player.prototype.executeMove;
-    Game_Player.prototype.executeMove = function (direction) {
-        if (Input.isPressed(param.buttonName) && this.isValidShiftTurn()) {
-            if (direction === Input.dir4) {
-                this.setDirection(direction);
-            }
-        } else {
-            _Game_Player_executeMove.apply(this, arguments);
-        }
-    };
+  //=============================================================================
+  // Game_Player
+  //  指定したボタンが押されていた場合にプレイヤーを移動させずに向きだけ変更します。
+  //=============================================================================
+  var _Game_Player_executeMove = Game_Player.prototype.executeMove;
+  Game_Player.prototype.executeMove = function (direction) {
+    if (Input.isPressed(param.buttonName) && this.isValidShiftTurn()) {
+      if (direction === Input.dir4) {
+        this.setDirection(direction);
+      }
+    } else {
+      _Game_Player_executeMove.apply(this, arguments);
+    }
+  };
 
-    Game_Player.prototype.isValidShiftTurn = function () {
-        return !param.validSwitchId || $gameSwitches.value(param.validSwitchId);
-    };
+  Game_Player.prototype.isValidShiftTurn = function () {
+    return !param.validSwitchId || $gameSwitches.value(param.validSwitchId);
+  };
 })();
-

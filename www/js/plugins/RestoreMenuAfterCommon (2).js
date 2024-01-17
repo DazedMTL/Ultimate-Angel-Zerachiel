@@ -27,36 +27,34 @@ var aliasAcheCommon = false;
 var aliasAcheSelectRestore = false;
 
 (function () {
+  Scene_Item.prototype.popScene = function () {
+    if (aliasAcheCommon) {
+      aliasAcheCommon = false;
+      aliasAcheSelectRestore = false;
+      SceneManager.goto(Scene_Menu);
+    } else {
+      SceneManager.pop();
+    }
+  };
 
-    Scene_Item.prototype.popScene = function () {
-        if (aliasAcheCommon) {
-            aliasAcheCommon = false;
-            aliasAcheSelectRestore = false;
-            SceneManager.goto(Scene_Menu);
-        } else {
-            SceneManager.pop();
-        }
-    };
+  Game_Interpreter.prototype.sceneRestore = function () {
+    if (!$gameParty.inBattle()) {
+      aliasAcheCommon = true;
+      aliasAcheSelectRestore = true;
+      SceneManager.push(Scene_Item);
+    }
+  };
 
-    Game_Interpreter.prototype.sceneRestore = function () {
-        if (!$gameParty.inBattle()) {
-            aliasAcheCommon = true;
-            aliasAcheSelectRestore = true;
-            SceneManager.push(Scene_Item);
-        }
-    };
-
-    Scene_Item.prototype.update = function () {
-        if (aliasAcheSelectRestore) {
-            aliasAcheSelectRestore = false;
-            this.onCategoryOk();
-            this._categoryWindow.deactivate();
-            if ($gameParty.numItems($gameParty.lastItem()) > 0) {
-                this.onItemOk();
-                this._itemWindow.deactivate();
-            }
-        }
-        Scene_Base.prototype.update.call(this);
-    };
-
+  Scene_Item.prototype.update = function () {
+    if (aliasAcheSelectRestore) {
+      aliasAcheSelectRestore = false;
+      this.onCategoryOk();
+      this._categoryWindow.deactivate();
+      if ($gameParty.numItems($gameParty.lastItem()) > 0) {
+        this.onItemOk();
+        this._itemWindow.deactivate();
+      }
+    }
+    Scene_Base.prototype.update.call(this);
+  };
 })();

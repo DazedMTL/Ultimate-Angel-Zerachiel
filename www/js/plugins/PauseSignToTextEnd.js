@@ -66,79 +66,89 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'PauseSignToTextEnd';
+  "use strict";
+  var pluginName = "PauseSignToTextEnd";
 
-    //=============================================================================
-    // ローカル関数
-    //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
-    //=============================================================================
-    var getParamString = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
-        }
-        return '';
-    };
+  //=============================================================================
+  // ローカル関数
+  //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
+  //=============================================================================
+  var getParamString = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
+    }
+    return "";
+  };
 
-    var getParamNumber = function (paramNames, min, max) {
-        var value = getParamString(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(value) || 0).clamp(min, max);
-    };
+  var getParamNumber = function (paramNames, min, max) {
+    var value = getParamString(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(value) || 0).clamp(min, max);
+  };
 
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var param = {};
-    param.invisibleSwitchId = getParamNumber(['InvisibleSwitchId', '非表示スイッチ番号'], 0);
-    param.validateSwitchId = getParamNumber(['ValidateSwitchId', '有効スイッチ番号'], 0);
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var param = {};
+  param.invisibleSwitchId = getParamNumber(
+    ["InvisibleSwitchId", "非表示スイッチ番号"],
+    0
+  );
+  param.validateSwitchId = getParamNumber(
+    ["ValidateSwitchId", "有効スイッチ番号"],
+    0
+  );
 
-    //=============================================================================
-    // Window_Message
-    //  ポーズサインの位置を変更します。
-    //=============================================================================
-    var _Window_Message_startPause = Window_Message.prototype.startPause;
-    Window_Message.prototype.startPause = function () {
-        _Window_Message_startPause.apply(this, arguments);
-        if (this.isValidPauseSignTextEnd()) {
-            this.setPauseSignToTextEnd();
-        } else {
-            this._refreshPauseSign();
-        }
-    };
+  //=============================================================================
+  // Window_Message
+  //  ポーズサインの位置を変更します。
+  //=============================================================================
+  var _Window_Message_startPause = Window_Message.prototype.startPause;
+  Window_Message.prototype.startPause = function () {
+    _Window_Message_startPause.apply(this, arguments);
+    if (this.isValidPauseSignTextEnd()) {
+      this.setPauseSignToTextEnd();
+    } else {
+      this._refreshPauseSign();
+    }
+  };
 
-    Window_Message.prototype.isValidPauseSignTextEnd = function () {
-        return !param.validateSwitchId || $gameSwitches.value(param.validateSwitchId);
-    };
+  Window_Message.prototype.isValidPauseSignTextEnd = function () {
+    return (
+      !param.validateSwitchId || $gameSwitches.value(param.validateSwitchId)
+    );
+  };
 
-    Window_Message.prototype.isVisiblePauseSign = function () {
-        return !$gameSwitches.value(param.invisibleSwitchId);
-    };
+  Window_Message.prototype.isVisiblePauseSign = function () {
+    return !$gameSwitches.value(param.invisibleSwitchId);
+  };
 
-    Window_Message.prototype.setPauseSignToTextEnd = function () {
-        var textState = this._textState;
-        var x = this.padding + textState.x;
-        var y = this.padding + textState.y + textState.height;
-        this._windowPauseSignSprite.anchor.x = 0;
-        this._windowPauseSignSprite.anchor.y = 1;
-        // _windowPauseSignSpriteの絶対座標に小数点以下の端数が出ると表示がおかしくなるので調整
-        x -= this.x - Math.floor(this.x);
-        this._windowPauseSignSprite.move(x, y);
-    };
+  Window_Message.prototype.setPauseSignToTextEnd = function () {
+    var textState = this._textState;
+    var x = this.padding + textState.x;
+    var y = this.padding + textState.y + textState.height;
+    this._windowPauseSignSprite.anchor.x = 0;
+    this._windowPauseSignSprite.anchor.y = 1;
+    // _windowPauseSignSpriteの絶対座標に小数点以下の端数が出ると表示がおかしくなるので調整
+    x -= this.x - Math.floor(this.x);
+    this._windowPauseSignSprite.move(x, y);
+  };
 
-    var _Window_Message__updatePauseSign = Window_Message.prototype.hasOwnProperty('_updatePauseSign') ?
-        Window_Message.prototype._updatePauseSign : null;
-    Window_Message.prototype._updatePauseSign = function () {
-        if (_Window_Message__updatePauseSign) {
-            _Window_Message__updatePauseSign.apply(this, arguments);
-        } else {
-            Window_Base.prototype._updatePauseSign.apply(this, arguments);
-        }
-        if (!this.isPopup || !this.isPopup()) {
-            this._windowPauseSignSprite.visible = this.isVisiblePauseSign();
-        }
-    };
+  var _Window_Message__updatePauseSign =
+    Window_Message.prototype.hasOwnProperty("_updatePauseSign")
+      ? Window_Message.prototype._updatePauseSign
+      : null;
+  Window_Message.prototype._updatePauseSign = function () {
+    if (_Window_Message__updatePauseSign) {
+      _Window_Message__updatePauseSign.apply(this, arguments);
+    } else {
+      Window_Base.prototype._updatePauseSign.apply(this, arguments);
+    }
+    if (!this.isPopup || !this.isPopup()) {
+      this._windowPauseSignSprite.visible = this.isVisiblePauseSign();
+    }
+  };
 })();

@@ -724,1221 +724,1359 @@
  */
 
 (function () {
-    'use strict';
-
-    const Torigoya = (window.Torigoya = window.Torigoya || {});
-
-    function getPluginName() {
-        const cs = document.currentScript;
-        return cs ? cs.src.split('/').pop().replace(/\.js$/, '') : 'Torigoya_SkillCutIn';
-    }
-
-    function pickStringValueFromParameter(parameter, key, defaultValue = '') {
-        if (!parameter.hasOwnProperty(key)) return defaultValue;
-        return `${parameter[key] || ''}`;
-    }
-
-    function pickIntegerValueFromParameter(parameter, key, defaultValue = 0) {
-        if (!parameter.hasOwnProperty(key) || parameter[key] === '') return defaultValue;
-        return parseInt(parameter[key], 10);
-    }
-
-    function pickNumberValueFromParameter(parameter, key, defaultValue = 0) {
-        if (!parameter.hasOwnProperty(key) || parameter[key] === '') return defaultValue;
-        return parseFloat(parameter[key]);
-    }
-
-    function pickNoteStringValueFromParameter(parameter, key, defaultValue = '') {
-        if (!parameter.hasOwnProperty(key)) return defaultValue;
-        return (parameter[key].startsWith('"') ? JSON.parse(parameter[key]) : parameter[key]) || '';
-    }
-
-    function pickBooleanValueFromParameter(parameter, key, defaultValue = 'false') {
-        return `${parameter[key] || defaultValue}` === 'true';
-    }
-
-    function pickStructActorCutinSet(parameter) {
-        parameter = parameter || {};
-        if (typeof parameter === 'string') parameter = JSON.parse(parameter);
-        return {
-            picture: pickStringValueFromParameter(parameter, 'picture', ''),
-            pictureX: pickIntegerValueFromParameter(parameter, 'pictureX', 0),
-            pictureY: pickIntegerValueFromParameter(parameter, 'pictureY', 0),
-            pictureScale: pickNumberValueFromParameter(parameter, 'pictureScale', 1),
-            backColor1: pickStringValueFromParameter(parameter, 'backColor1', ''),
-            backColor2: pickStringValueFromParameter(parameter, 'backColor2', ''),
-            backTone: ((parameter) => {
-                return pickStructColorCustomize(parameter);
-            })(parameter.backTone),
-            borderTone: ((parameter) => {
-                return pickStructColorCustomize(parameter);
-            })(parameter.borderTone),
-            backImage1: pickStringValueFromParameter(parameter, 'backImage1', ''),
-            backImage2: pickStringValueFromParameter(parameter, 'backImage2', ''),
-            borderImage: pickStringValueFromParameter(parameter, 'borderImage', ''),
-            borderBlendMode: pickStringValueFromParameter(parameter, 'borderBlendMode', ''),
-            sound: ((parameter) => {
-                return pickStructSound(parameter);
-            })(parameter.sound),
-            note: pickNoteStringValueFromParameter(parameter, 'note', ''),
-            actorId: pickIntegerValueFromParameter(parameter, 'actorId', 0),
-            skillId: pickIntegerValueFromParameter(parameter, 'skillId', 0),
-        };
-    }
-
-    function pickStructEnemyCutinSet(parameter) {
-        parameter = parameter || {};
-        if (typeof parameter === 'string') parameter = JSON.parse(parameter);
-        return {
-            picture: pickStringValueFromParameter(parameter, 'picture', ''),
-            pictureX: pickIntegerValueFromParameter(parameter, 'pictureX', 0),
-            pictureY: pickIntegerValueFromParameter(parameter, 'pictureY', 0),
-            pictureScale: pickNumberValueFromParameter(parameter, 'pictureScale', 1),
-            backColor1: pickStringValueFromParameter(parameter, 'backColor1', ''),
-            backColor2: pickStringValueFromParameter(parameter, 'backColor2', ''),
-            backTone: ((parameter) => {
-                return pickStructColorCustomize(parameter);
-            })(parameter.backTone),
-            borderTone: ((parameter) => {
-                return pickStructColorCustomize(parameter);
-            })(parameter.borderTone),
-            backImage1: pickStringValueFromParameter(parameter, 'backImage1', ''),
-            backImage2: pickStringValueFromParameter(parameter, 'backImage2', ''),
-            borderImage: pickStringValueFromParameter(parameter, 'borderImage', ''),
-            borderBlendMode: pickStringValueFromParameter(parameter, 'borderBlendMode', ''),
-            sound: ((parameter) => {
-                return pickStructSound(parameter);
-            })(parameter.sound),
-            note: pickNoteStringValueFromParameter(parameter, 'note', ''),
-            enemyId: pickIntegerValueFromParameter(parameter, 'enemyId', 0),
-            skillId: pickIntegerValueFromParameter(parameter, 'skillId', 0),
-        };
-    }
-
-    function pickStructColor(parameter) {
-        parameter = parameter || {};
-        if (typeof parameter === 'string') parameter = JSON.parse(parameter);
-        return {
-            red: pickIntegerValueFromParameter(parameter, 'red', 0),
-            green: pickIntegerValueFromParameter(parameter, 'green', 0),
-            blue: pickIntegerValueFromParameter(parameter, 'blue', 0),
-        };
-    }
-
-    function pickStructColorCustomize(parameter) {
-        parameter = parameter || {};
-        if (typeof parameter === 'string') parameter = JSON.parse(parameter);
-        return {
-            isUse: pickBooleanValueFromParameter(parameter, 'isUse', 'false'),
-            red: pickIntegerValueFromParameter(parameter, 'red', 0),
-            green: pickIntegerValueFromParameter(parameter, 'green', 0),
-            blue: pickIntegerValueFromParameter(parameter, 'blue', 0),
-        };
-    }
-
-    function pickStructSound(parameter) {
-        parameter = parameter || {};
-        if (typeof parameter === 'string') parameter = JSON.parse(parameter);
-        return {
-            name: pickStringValueFromParameter(parameter, 'name', ''),
-            volume: pickIntegerValueFromParameter(parameter, 'volume', 90),
-            pitch: pickIntegerValueFromParameter(parameter, 'pitch', 100),
-            pan: pickIntegerValueFromParameter(parameter, 'pan', 0),
-        };
-    }
-
-    function readParameter() {
-        const parameter = PluginManager.parameters(getPluginName());
-        return {
-            version: '1.3.2',
-            actorConfig: ((parameters) => {
-                parameters = parameters || [];
-                if (typeof parameters === 'string') parameters = JSON.parse(parameters);
-                return parameters.map((parameter) => {
-                    return pickStructActorCutinSet(parameter);
-                });
-            })(parameter.actorConfig),
-            enemyConfig: ((parameters) => {
-                parameters = parameters || [];
-                if (typeof parameters === 'string') parameters = JSON.parse(parameters);
-                return parameters.map((parameter) => {
-                    return pickStructEnemyCutinSet(parameter);
-                });
-            })(parameter.enemyConfig),
-            commonBackImage1: pickStringValueFromParameter(parameter, 'commonBackImage1', 'CutIn_back1'),
-            commonBackImage2: pickStringValueFromParameter(parameter, 'commonBackImage2', 'CutIn_back2'),
-            commonBorderImage: pickStringValueFromParameter(parameter, 'commonBorderImage', 'CutIn_border'),
-            commonBorderBlendMode: pickStringValueFromParameter(parameter, 'commonBorderBlendMode', 'add'),
-            commonBorderSpeed: pickIntegerValueFromParameter(parameter, 'commonBorderSpeed', 30),
-            commonSound: ((parameter) => {
-                return pickStructSound(parameter);
-            })(parameter.commonSound),
-            cutInLayer: pickStringValueFromParameter(parameter, 'cutInLayer', 'foreground'),
-            cutInOpenAndCloseTime: pickIntegerValueFromParameter(parameter, 'cutInOpenAndCloseTime', 25),
-            cutInStopTime: pickIntegerValueFromParameter(parameter, 'cutInStopTime', 10),
-            actorBackColor1: pickStringValueFromParameter(parameter, 'actorBackColor1', '#000033'),
-            actorBackColor2: pickStringValueFromParameter(parameter, 'actorBackColor2', '#6666ff'),
-            actorBackTone: ((parameter) => {
-                return pickStructColor(parameter);
-            })(parameter.actorBackTone),
-            actorBorderTone: ((parameter) => {
-                return pickStructColor(parameter);
-            })(parameter.actorBorderTone),
-            enemyBackColor1: pickStringValueFromParameter(parameter, 'enemyBackColor1', '#330000'),
-            enemyBackColor2: pickStringValueFromParameter(parameter, 'enemyBackColor2', '#ff6666'),
-            enemyBackTone: ((parameter) => {
-                return pickStructColor(parameter);
-            })(parameter.enemyBackTone),
-            enemyBorderTone: ((parameter) => {
-                return pickStructColor(parameter);
-            })(parameter.enemyBorderTone),
-        };
-    }
-
-    function unescapeMetaString(string) {
-        return `${string || ''}`.trim().replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-    }
-
-    function evalCondition(a, code) {
-        try {
-            return !!eval(code);
-        } catch (e) {
-            if ($gameTemp.isPlaytest()) console.error(e);
-            return false;
-        }
-    }
-
-    class Sprite_CutInBase extends Sprite {
-        constructor(params) {
-            super();
-            this._params = params;
-            this._callback = null;
-            this._isPlaying = false;
-            this._isStarting = false;
-            this.anchor.x = this.anchor.y = 0.5;
-            this.visible = false;
-            this.onCreate();
-        }
-
-        get params() {
-            return this._params;
-        }
-
-        /**
-         * metaから指定keyを読み取る
-         * @param {String | String[]} keys
-         * @param {any} defaultValue
-         * @returns {any}
-         */
-        getMeta(keys, defaultValue = undefined) {
-            if (Array.isArray(keys)) {
-                for (const key of keys) {
-                    if (this.params.meta[key] !== undefined) return this.params.meta[key];
-                }
-            } else {
-                if (this.params.meta[keys] !== undefined) return this.params.meta[keys];
-            }
-            return defaultValue;
-        }
-
-        /**
-         * 全体の表示角度を取得
-         * @returns {number}
-         */
-        getMainRotation() {
-            if (!this._mainRotationCache) {
-                const rotation = this.getMeta(['rotate', '角度'], undefined);
-                if (rotation === undefined) {
-                    if (this.params.isEnemy) {
-                        this._mainRotationCache = Math.atan2(-Graphics.height, -Graphics.width);
-                    } else {
-                        this._mainRotationCache = Math.atan2(-Graphics.height, Graphics.width);
-                    }
-                } else {
-                    this._mainRotationCache = (parseFloat(rotation) * Math.PI) / 180;
-                }
-            }
-            return this._mainRotationCache;
-        }
-
-        /**
-         * カットイン幅を取得
-         * ※カットイン幅は画面の対角線の長さになる
-         * @returns {number}
-         */
-        getMainWidth() {
-            if (!this._mainWidthCache) {
-                this._mainWidthCache = Math.ceil(Math.sqrt(Math.pow(Graphics.width, 2) + Math.pow(Graphics.height, 2)));
-            }
-            return this._mainWidthCache;
-        }
-
-        /**
-         * 破棄
-         */
-        destroy() {
-            this.onDestroy();
-            if (Sprite.prototype.destroy) {
-                Sprite.prototype.destroy.apply(this);
-            }
-        }
-
-        /**
-         * 再生開始
-         * @returns {Promise}
-         */
-        play() {
-            if (this._isPlaying) Promise.reject('isPlaying');
-
-            return new Promise((resolve) => {
-                this._callback = resolve;
-                this._isPlaying = true;
-            });
-        }
-
-        /**
-         * 再生終了
-         * このメソッドを外部から呼び出すことはない
-         */
-        finish() {
-            if (!this._isPlaying) return;
-            if (this._callback) this._callback();
-            this._callback = null;
-            this._isPlaying = false;
-            this._isStarting = false;
-        }
-
-        /**
-         * 更新
-         */
-        update() {
-            if (this._isStarting) {
-                this.onUpdate();
-            } else if (this._isPlaying) {
-                if (this.isReady()) {
-                    this._isStarting = true;
-                    this.visible = true;
-                    this.onStart();
-                }
-            }
-
-            super.update();
-        }
-
-        /**
-         * 画像等のリソース読み込みが完了しているか
-         * @returns {boolean}
-         */
-        isReady() {
-            return ImageManager.isReady();
-        }
-
-        /**
-         * カットイン効果音の再生
-         */
-        playSe() {
-            const sound = this.getConfigSound();
-            if (sound) AudioManager.playSe(sound);
-        }
-
-        /**
-         * カットイン効果音の取得
-         * @returns {null|any}
-         */
-        getConfigSound() {
-            if (this.params.sound && this.params.sound.name) {
-                return this.params.sound;
-            } else if (Torigoya.SkillCutIn.parameter.commonSound && Torigoya.SkillCutIn.parameter.commonSound.name) {
-                return Torigoya.SkillCutIn.parameter.commonSound;
-            }
-            return null;
-        }
-
-        /**
-         * 背景画像1のファイル名を取得
-         * @returns {string}
-         */
-        getCutInBackImageName1() {
-            if (this.params.backImage1) return this.params.backImage1;
-            return Torigoya.SkillCutIn.parameter.commonBackImage1;
-        }
-
-        /**
-         * 背景画像2のファイル名を取得
-         * @returns {string}
-         */
-        getCutInBackImageName2() {
-            if (this.params.backImage2) return this.params.backImage2;
-            return Torigoya.SkillCutIn.parameter.commonBackImage2;
-        }
-
-        /**
-         * 境界線画像のファイル名を取得
-         * @returns {string}
-         */
-        getCutInBorderImageName() {
-            if (this.params.borderImage) return this.params.borderImage;
-            return Torigoya.SkillCutIn.parameter.commonBorderImage;
-        }
-
-        /**
-         * 境界線画像のブレンドモードを取得
-         * @returns {PIXI.BLEND_MODES}
-         */
-        getCutInBorderBlendMode() {
-            const mode = this.params.borderBlendMode || Torigoya.SkillCutIn.parameter.commonBorderBlendMode;
-            switch (mode) {
-                case 'add':
-                    return PIXI.BLEND_MODES.ADD;
-                case 'normal':
-                default:
-                    return PIXI.BLEND_MODES.NORMAL;
-            }
-        }
-
-        /**
-         * 背景色1を取得
-         * @returns {string}
-         */
-        getBackColor1() {
-            if (this.params.backColor1) return this.params.backColor1;
-
-            if (this.params.isEnemy) {
-                return Torigoya.SkillCutIn.parameter.enemyBackColor1;
-            } else {
-                return Torigoya.SkillCutIn.parameter.actorBackColor1;
-            }
-        }
-
-        /**
-         * 背景色2を取得
-         * @returns {string}
-         */
-        getBackColor2() {
-            if (this.params.backColor2) return this.params.backColor2;
-            if (this.params.backColor1) return this.params.backColor1;
-
-            if (this.params.isEnemy) {
-                return Torigoya.SkillCutIn.parameter.enemyBackColor2 || Torigoya.SkillCutIn.parameter.enemyBackColor1;
-            } else {
-                return Torigoya.SkillCutIn.parameter.actorBackColor2 || Torigoya.SkillCutIn.parameter.actorBackColor1;
-            }
-        }
-
-        /**
-         * 背景色のトーンを取得
-         * @returns {number[]}
-         */
-        getBackTone() {
-            if (this.params.backTone && this.params.backTone.isUse) {
-                const tone = this.params.backTone;
-                return [tone.red, tone.green, tone.blue, 0];
-            } else if (this.params.isEnemy) {
-                const tone = Torigoya.SkillCutIn.parameter.enemyBackTone;
-                return [tone.red, tone.green, tone.blue, 0];
-            } else {
-                const tone = Torigoya.SkillCutIn.parameter.actorBackTone;
-                return [tone.red, tone.green, tone.blue, 0];
-            }
-        }
-
-        /**
-         * 境界線のトーンを取得
-         * @returns {number[]}
-         */
-        getBorderTone() {
-            if (this.params.borderTone && this.params.borderTone.isUse) {
-                const tone = this.params.borderTone;
-                return [tone.red, tone.green, tone.blue, 0];
-            } else if (this.params.isEnemy) {
-                const tone = Torigoya.SkillCutIn.parameter.enemyBorderTone;
-                return [tone.red, tone.green, tone.blue, 0];
-            } else {
-                const tone = Torigoya.SkillCutIn.parameter.actorBorderTone;
-                return [tone.red, tone.green, tone.blue, 0];
-            }
-        }
-
-        /**
-         * 生成処理（継承先で上書き）
-         */
-        onCreate() {
-            // override me
-        }
-
-        /**
-         * 開始処理（継承先で上書き）
-         */
-        onStart() {
-            // override me
-        }
-
-        /**
-         * 更新処理（継承先で上書き）
-         */
-        onUpdate() {
-            // override me
-        }
-
-        /**
-         * 破棄処理（継承先で上書き）
-         */
-        onDestroy() {
-            // override me
-        }
-    }
-
-    function callBitmapLoaded(bitmap, callback) {
-        if (bitmap.isReady()) {
-            callback();
-        } else {
-            bitmap.addLoadListener(callback);
-        }
-    }
-
-    function easingBounce(n) {
-        const s = 1.70158;
-        const t2 = n - 1;
-        return t2 * t2 * ((s + 1) * t2 + s) + 1;
-    }
-
-    class Sprite_CutInWoss extends Sprite_CutInBase {
-        getMainSmallHeight() {
-            if (!this._mainSmallHeightCache) {
-                this._mainSmallHeightCache = this.getMainWidth() / 4;
-            }
-            return this._mainSmallHeightCache;
-        }
-
-        getMainLargeHeight() {
-            if (!this._mainLargeHeightCache) {
-                this._mainLargeHeightCache = this.getMainWidth() / 2;
-            }
-            return this._mainLargeHeightCache;
-        }
-
-        getBorderSpeed() {
-            return Torigoya.SkillCutIn.parameter.commonBorderSpeed;
-        }
-
-        getOpenAndCloseTime() {
-            return Torigoya.SkillCutIn.parameter.cutInOpenAndCloseTime;
-        }
-
-        getStopTime() {
-            return Torigoya.SkillCutIn.parameter.cutInStopTime;
-        }
-
-        onCreate() {
-            this._createMask();
-            this._createGlobalBackPlaneSprite();
-            this._createGlobalBackEffectSprite();
-            this._createMainBackSprite();
-            this._createCharacterSprite();
-            this._createBorderSprites();
-        }
-
-        _createMask() {
-            const w = this.getMainWidth();
-            const h1 = this.getMainSmallHeight();
-            const h2 = this.getMainLargeHeight();
-
-            this._maskShape = new PIXI.Graphics();
-            this._maskShape.clear();
-            this._maskShape.beginFill(0xffffff);
-            this._maskShape.moveTo(0, (h2 - h1) / 2);
-            this._maskShape.lineTo(w, 0);
-            this._maskShape.lineTo(w, h2);
-            this._maskShape.lineTo(0, h2 - (h2 - h1) / 2);
-            this._maskShape.endFill();
-            this._maskShape.pivot = new PIXI.Point(w / 2, h2 / 2);
-            this._maskShape.scale.y = 0;
-
-            this._maskShape.rotation = this.getMainRotation();
-
-            this.addChild(this._maskShape);
-        }
-
-        _createGlobalBackPlaneSprite() {
-            const size = this.getMainWidth();
-            const colorBitmap = new Bitmap(32, 32);
-            colorBitmap.fillAll('#000000');
-            this._globalBackPlaneSprite = new Sprite(colorBitmap);
-            this._globalBackPlaneSprite.scale.x = this._globalBackPlaneSprite.scale.y = size / colorBitmap.width;
-            this._globalBackPlaneSprite.anchor.x = this._globalBackPlaneSprite.anchor.y = 0.5;
-            this._globalBackPlaneSprite.opacity = 0;
-            this.addChild(this._globalBackPlaneSprite);
-        }
-
-        _createGlobalBackEffectSprite() {
-            const size = this.getMainWidth();
-            const bitmap = ImageManager.loadPicture(this.getCutInBackImageName1());
-            const shapeHeight = (this.getMainLargeHeight() - this.getMainSmallHeight()) / 2;
-            const r = Math.atan2(shapeHeight, this.getMainWidth());
-            const colorTone = this.getBackTone();
-
-            this._globalBackEffectSprites = new Array(2).fill(0).map((_, i) => {
-                const mask = new PIXI.Graphics();
-                mask.beginFill(0xffffff);
-                mask.moveTo(0, 0);
-                mask.lineTo(size, 0);
-                mask.lineTo(size, size / 2);
-                mask.lineTo(0, size / 2);
-                mask.lineTo(0, 0);
-                mask.endFill();
-                mask.pivot = new PIXI.Point(size / 2, i === 0 ? size / 2 : 0);
-                mask.rotation = this.getMainRotation();
-                this.addChild(mask);
-
-                const wrapperSprite = new Sprite();
-                wrapperSprite.opacity = 0;
-                wrapperSprite.mask = mask;
-                wrapperSprite.x = Math.cos(r) * shapeHeight * (i === 0 ? -1 : 1);
-                wrapperSprite.y = shapeHeight * (i === 0 ? -1 : 1);
-                wrapperSprite.rotation = this.getMainRotation() + (i === 0 ? -1 : 1) * r;
-                wrapperSprite.setColorTone(colorTone);
-                wrapperSprite.blendMode = PIXI.BLEND_MODES.ADD;
-                this.addChild(wrapperSprite);
-
-                const sprite = new TilingSprite(bitmap);
-                sprite.move(-size, -size, size * 2, size * 2);
-                wrapperSprite.addChild(sprite);
-
-                return sprite;
-            });
-        }
-
-        _createMainBackSprite() {
-            const width = this.getMainWidth();
-            const height = this.getMainLargeHeight();
-
-            const color1 = this.getBackColor1();
-            const color2 = this.getBackColor2();
-
-            const colorBitmap = new Bitmap(64, 64);
-            colorBitmap.gradientFillRect(0, 0, colorBitmap.width, colorBitmap.height / 2, color1, color2, true);
-            colorBitmap.gradientFillRect(
-                0,
-                colorBitmap.height / 2,
-                colorBitmap.width,
-                colorBitmap.height / 2,
-                color2,
-                color1,
-                true
-            );
-
-            this._mainBackSprite = new Sprite(colorBitmap);
-            this._mainBackSprite.anchor.x = this._mainBackSprite.anchor.y = 0.5;
-            this._mainBackSprite.scale.x = width / colorBitmap.width;
-            this._mainBackSprite.scale.y = height / colorBitmap.height;
-            this._mainBackSprite.rotation = this.getMainRotation();
-            this._mainBackSprite.mask = this._maskShape;
-            this.addChild(this._mainBackSprite);
-
-            const wrapperSprite = new Sprite();
-            wrapperSprite.rotation = this.getMainRotation();
-            wrapperSprite.mask = this._maskShape;
-            this.addChild(wrapperSprite);
-
-            const effectBitmap = ImageManager.loadPicture(this.getCutInBackImageName2());
-            this._mainBackEffectSprite = new TilingSprite(effectBitmap);
-            this._mainBackEffectSprite.blendMode = PIXI.BLEND_MODES.ADD;
-            this._mainBackEffectSprite.opacity = 128;
-            this._mainBackEffectSprite.move(-width / 2, -height / 2, width, height);
-            wrapperSprite.addChild(this._mainBackEffectSprite);
-        }
-
-        _createCharacterSprite() {
-            const l = this.getMainWidth() / 2;
-            const x = -Math.cos(this.getMainRotation()) * l;
-            const y = -Math.sin(this.getMainRotation()) * l;
-
-            this._characterSprite = new Sprite();
-            this._characterSprite.addChild(this._createCharacterInnerSprite());
-            this._characterSprite.x = x;
-            this._characterSprite.y = y;
-            this._characterSprite.scale.x = this._characterSprite.scale.y = 2;
-            this._characterSprite.mask = this._maskShape;
-            this.addChild(this._characterSprite);
-
-            const blurInner = this._createCharacterInnerSprite();
-            blurInner.blendMode = PIXI.BLEND_MODES.ADD;
-            this._blurCharacterSprite = new Sprite();
-            this._blurCharacterSprite.addChild(blurInner);
-            this._blurCharacterSprite.opacity = 0;
-            this._blurCharacterSprite.scale.x = this._characterSprite.scale.y = 2;
-            this._blurCharacterSprite.mask = this._maskShape;
-            this.addChild(this._blurCharacterSprite);
-        }
-
-        _createCharacterInnerSprite() {
-            const characterBitmap = ImageManager.loadPicture(this.params.picture);
-            const sprite = new Sprite(characterBitmap);
-            sprite.anchor.x = sprite.anchor.y = 0.5;
-
-            sprite.x = this.params.pictureX;
-            sprite.y = this.params.pictureY;
-            sprite.scale.x = sprite.scale.y = this.params.pictureScale;
-
-            return sprite;
-        }
-
-        _createBorderSprites() {
-            const borderBitmap = ImageManager.loadPicture(this.getCutInBorderImageName());
-            const colorTone = this.getBorderTone();
-
-            this._borderSprites = new Array(2).fill(0).map((_, i) => {
-                const wrapperSprite = new Sprite();
-                wrapperSprite.rotation = this.getMainRotation();
-                wrapperSprite.scale.y = 0;
-                wrapperSprite.setColorTone(colorTone);
-                this.addChild(wrapperSprite);
-
-                const sprite = new TilingSprite(borderBitmap);
-                callBitmapLoaded(borderBitmap, () => {
-                    const w = this.getMainWidth();
-                    const h = borderBitmap.height;
-                    sprite.move(-w / 2, -h / 2, w, h);
-                });
-                sprite.blendMode = this.getCutInBorderBlendMode();
-                wrapperSprite.addChild(sprite);
-                return sprite;
-            });
-        }
-
-        onStart() {
-            this.playSe();
-
-            this._onStartShape();
-            this._onStartGlobalBackPlane();
-            this._onStartGlobalBackEffect();
-            this._onStartBorders();
-            this._onStartCharacter();
-        }
-
-        _onStartShape() {
-            Torigoya.FrameTween.create(this._maskShape.scale)
-                .to(
-                    {
-                        y: 1,
-                    },
-                    this.getOpenAndCloseTime(),
-                    easingBounce
-                )
-                .wait(this.getStopTime())
-                .to(
-                    {
-                        y: 0,
-                    },
-                    this.getOpenAndCloseTime(),
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .call(() => this.finish())
-                .start();
-        }
-
-        _onStartGlobalBackPlane() {
-            Torigoya.FrameTween.create(this._globalBackPlaneSprite)
-                .to(
-                    {
-                        opacity: 128,
-                    },
-                    this.getOpenAndCloseTime(),
-                    easingBounce
-                )
-                .wait(this.getStopTime())
-                .to(
-                    {
-                        opacity: 0,
-                    },
-                    this.getOpenAndCloseTime(),
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .start();
-        }
-
-        _onStartGlobalBackEffect() {
-            this._globalBackEffectSprites.forEach((sprite) => {
-                const wrapper = sprite.parent;
-                Torigoya.FrameTween.create(wrapper)
-                    .to(
-                        {
-                            opacity: 255,
-                        },
-                        this.getOpenAndCloseTime(),
-                        easingBounce
-                    )
-                    .wait(this.getStopTime())
-                    .to(
-                        {
-                            opacity: 0,
-                        },
-                        this.getOpenAndCloseTime(),
-                        Torigoya.FrameTween.Easing.easeOutCubic
-                    )
-                    .start();
-            });
-        }
-
-        _onStartBorders() {
-            this._borderSprites.forEach((sprite) => {
-                const wrapper = sprite.parent;
-                Torigoya.FrameTween.create(wrapper.scale)
-                    .to(
-                        {
-                            y: 1,
-                        },
-                        this.getOpenAndCloseTime(),
-                        easingBounce
-                    )
-                    .wait(this.getStopTime())
-                    .to(
-                        {
-                            y: 0,
-                        },
-                        this.getOpenAndCloseTime(),
-                        Torigoya.FrameTween.Easing.easeOutCubic
-                    )
-                    .start();
-            });
-        }
-
-        _onStartCharacter() {
-            Torigoya.FrameTween.create(this._characterSprite)
-                .to(
-                    {
-                        x: 0,
-                        y: 0,
-                        opacity: 255,
-                    },
-                    this.getOpenAndCloseTime(),
-                    easingBounce
-                )
-                .wait(this.getStopTime())
-                .to(
-                    {
-                        opacity: 0,
-                    },
-                    this.getOpenAndCloseTime(),
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .start();
-
-            Torigoya.FrameTween.create(this._characterSprite.scale)
-                .to(
-                    {
-                        x: 1,
-                        y: 1,
-                    },
-                    this.getOpenAndCloseTime(),
-                    easingBounce
-                )
-                .wait(this.getStopTime())
-                .to(
-                    {
-                        x: 3,
-                        y: 3,
-                    },
-                    this.getOpenAndCloseTime(),
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .start();
-
-            const blurAnimationTime = this.getOpenAndCloseTime() / 2;
-
-            Torigoya.FrameTween.create(this._blurCharacterSprite)
-                .wait(blurAnimationTime)
-                .to(
-                    {
-                        opacity: 255,
-                    },
-                    blurAnimationTime,
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .to(
-                    {
-                        opacity: 0,
-                    },
-                    blurAnimationTime,
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .start();
-
-            Torigoya.FrameTween.create(this._blurCharacterSprite.scale)
-                .wait(blurAnimationTime)
-                .to(
-                    {
-                        x: 1,
-                        y: 1,
-                    },
-                    blurAnimationTime,
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .to(
-                    {
-                        x: 3,
-                        y: 3,
-                    },
-                    blurAnimationTime,
-                    Torigoya.FrameTween.Easing.easeOutCubic
-                )
-                .start();
-        }
-
-        onUpdate() {
-            this._mainBackEffectSprite.origin.x -= 30;
-            this._globalBackEffectSprites.forEach((sprite, i) => {
-                sprite.origin.x += i === 0 ? -45 : 45;
-            });
-            this._onUpdateBorders();
-        }
-
-        _onUpdateBorders() {
-            const shapeHeight = ((this.getMainLargeHeight() - this.getMainSmallHeight()) / 2) * this._maskShape.scale.y;
-            const length =
-                ((this.getMainSmallHeight() + (this.getMainLargeHeight() - this.getMainSmallHeight()) / 2) / 2) *
-                this._maskShape.scale.y;
-            const r = Math.atan2(shapeHeight, this.getMainWidth());
-
-            this._borderSprites.forEach((sprite, i) => {
-                const wrapperSprite = sprite.parent;
-                const r2 = this.getMainRotation() + (i === 0 ? -1 : 1) * r;
-                wrapperSprite.rotation = r2 + (i === 1 ? Math.PI : 0);
-                const r3 = r2 + Math.PI / 2;
-                wrapperSprite.x = Math.cos(r3) * length * (i === 0 ? -1 : 1);
-                wrapperSprite.y = Math.sin(r3) * length * (i === 0 ? -1 : 1);
-
-                sprite.origin.x += this.getBorderSpeed();
-            });
-        }
-
-        onDestroy() {
-            if (this._globalBackPlaneSprite.destroy) {
-                this._globalBackPlaneSprite.destroy();
-            } else {
-                this._globalBackPlaneSprite.bitmap.resize(1, 1);
-            }
-
-            if (this._mainBackSprite.bitmap.destroy) {
-                this._mainBackSprite.bitmap.destroy();
-            } else {
-                this._mainBackSprite.bitmap.resize(1, 1);
-            }
-            this._mainBackSprite.bitmap = null;
-        }
-    }
-
-    class CutInManagerClass {
-        constructor() {
-            this._configCache = new Map();
-            this._cutInParameter = null;
-        }
-
-        reset() {
-            this.clear();
-            this._configCache.clear();
-        }
-
-        clear() {
-            this._cutInParameter = null;
-        }
-
-        setParameter(config, isEnemy = false) {
-            this._cutInParameter = Object.assign({ isEnemy }, config);
-        }
-
-        getConfigByActor(actor, item) {
-            const actorId = actor.actorId();
-
-            if (DataManager.isSkill(item)) {
-                const key = `actorSkill::${actorId}::${item.id}`;
-                const cache = this._configCache.get(key);
-                if (cache) return cache;
-
-                const result = Torigoya.SkillCutIn.parameter.actorConfig.filter(
-                    (config) => config.actorId === actorId && config.skillId === item.id
-                );
-                this._configCache.set(key, result);
-
-                return result;
-            } else if (DataManager.isItem(item)) {
-                const key = `actorItem::${actorId}::${item.id}`;
-                const cache = this._configCache.get(key);
-                if (cache) return cache;
-
-                const result = Torigoya.SkillCutIn.parameter.actorConfig.filter(
-                    (config) =>
-                        config.actorId === actorId &&
-                        parseInt(config.meta['item'] || config.meta['アイテム'] || 0, 10) === item.id
-                );
-                this._configCache.set(key, result);
-
-                return result;
-            } else {
-                return [];
-            }
-        }
-
-        getConfigByEnemy(enemy, item) {
-            const enemyId = enemy.enemyId();
-
-            if (DataManager.isSkill(item)) {
-                const key = `enemySkill::${enemyId}::${item.id}`;
-                const cache = this._configCache.get(key);
-                if (cache) return cache;
-
-                const result = Torigoya.SkillCutIn.parameter.enemyConfig.filter(
-                    (config) => config.enemyId === enemyId && config.skillId === item.id
-                );
-                this._configCache.set(key, result);
-
-                return result;
-            } else {
-                return [];
-            }
-        }
-
-        getConfigByNameFromActor(name) {
-            const key = `nameFromActor::${name}`;
-            const cache = this._configCache.get(key);
-            if (cache) return cache;
-
-            const result = Torigoya.SkillCutIn.parameter.actorConfig.filter(
-                (config) => (config.meta['name'] || config.meta['呼び出し名'] || '').trim() === name
-            );
-            this._configCache.set(key, result);
-
-            return result;
-        }
-
-        getConfigByNameFromEnemy(name) {
-            const key = `nameFromEnemy::${name}`;
-            const cache = this._configCache.get(key);
-            if (cache) return cache;
-
-            const result = Torigoya.SkillCutIn.parameter.enemyConfig.filter(
-                (config) => (config.meta['name'] || config.meta['呼び出し名'] || '').trim() === name
-            );
-            this._configCache.set(key, result);
-
-            return result;
-        }
-
-        canPlayConfig(config, battler) {
-            const condition = unescapeMetaString(config.meta['condition'] || config.meta['条件'] || '');
-            if (condition && !evalCondition(battler, condition)) return false;
-
-            return true;
-        }
-
-        isPlaying() {
-            return !!this._cutInParameter;
-        }
-
-        getParameter() {
-            return this._cutInParameter;
-        }
-
-        detectCutInClass() {
-            return Sprite_CutInWoss;
-        }
-    }
-
-    const CutInManager = new CutInManagerClass();
-
-    function applyPluginToSpritesetBattle() {
-        const upstream_Spriteset_Battle_isEffecting = Spriteset_Battle.prototype.isEffecting;
-        Spriteset_Battle.prototype.isEffecting = function () {
-            return upstream_Spriteset_Battle_isEffecting.apply(this) || CutInManager.isPlaying();
-        };
-    }
-
-    function applyPluginToBattleManager() {
-        const upstream_BattleManager_startAction = BattleManager.startAction;
-        BattleManager.startAction = function () {
-            this.torigoyaSkillCutIn_playCutIn();
-            upstream_BattleManager_startAction.apply(this);
-        };
-
-        BattleManager.torigoyaSkillCutIn_playCutIn = function () {
-            const subject = this._subject;
-            if (!subject) return;
-
-            const action = subject.currentAction();
-            const item = action && action.item();
-            if (!item) return;
-
-            const configs = subject.isEnemy()
-                ? CutInManager.getConfigByEnemy(subject, item)
-                : CutInManager.getConfigByActor(subject, item);
-            if (configs.length === 0) return;
-
-            const config = configs.find((config) => CutInManager.canPlayConfig(config, subject));
-            if (!config) return;
-
-            CutInManager.setParameter(config, subject.isEnemy());
-
-            this._logWindow.setWaitMode('effect');
-        };
-    }
-
-    function applyPluginToGameInterpreter() {
-        const upstream_Game_Interpreter_updateWaitMode = Game_Interpreter.prototype.updateWaitMode;
-        Game_Interpreter.prototype.updateWaitMode = function () {
-            if (this._waitMode === 'torigoyaSkillCutIn') {
-                return CutInManager.isPlaying();
-            }
-
-            return upstream_Game_Interpreter_updateWaitMode.apply(this);
-        };
-    }
-
-    function createAndPlayCutInSprite() {
-        const klass = CutInManager.detectCutInClass();
-        if (!klass) {
-            console.error('カットイン用のSpriteクラスが見つかりません');
-            CutInManager.clear();
-            return;
-        }
-
-        const parent = this._torigoyaSkillCutIn_cutInContainer || this;
-
-        this._torigoyaSkillCutIn_cutInSprite = new klass(CutInManager.getParameter());
-        this._torigoyaSkillCutIn_cutInSprite.x = Graphics.width / 2;
-        this._torigoyaSkillCutIn_cutInSprite.y = Graphics.height / 2;
-        parent.addChild(this._torigoyaSkillCutIn_cutInSprite);
-
-        this._torigoyaSkillCutIn_cutInSprite.play().then(() => {
-            CutInManager.clear();
-            parent.removeChild(this._torigoyaSkillCutIn_cutInSprite);
-            this._torigoyaSkillCutIn_cutInSprite.destroy();
-            this._torigoyaSkillCutIn_cutInSprite = null;
+  "use strict";
+
+  const Torigoya = (window.Torigoya = window.Torigoya || {});
+
+  function getPluginName() {
+    const cs = document.currentScript;
+    return cs
+      ? cs.src.split("/").pop().replace(/\.js$/, "")
+      : "Torigoya_SkillCutIn";
+  }
+
+  function pickStringValueFromParameter(parameter, key, defaultValue = "") {
+    if (!parameter.hasOwnProperty(key)) return defaultValue;
+    return `${parameter[key] || ""}`;
+  }
+
+  function pickIntegerValueFromParameter(parameter, key, defaultValue = 0) {
+    if (!parameter.hasOwnProperty(key) || parameter[key] === "")
+      return defaultValue;
+    return parseInt(parameter[key], 10);
+  }
+
+  function pickNumberValueFromParameter(parameter, key, defaultValue = 0) {
+    if (!parameter.hasOwnProperty(key) || parameter[key] === "")
+      return defaultValue;
+    return parseFloat(parameter[key]);
+  }
+
+  function pickNoteStringValueFromParameter(parameter, key, defaultValue = "") {
+    if (!parameter.hasOwnProperty(key)) return defaultValue;
+    return (
+      (parameter[key].startsWith('"')
+        ? JSON.parse(parameter[key])
+        : parameter[key]) || ""
+    );
+  }
+
+  function pickBooleanValueFromParameter(
+    parameter,
+    key,
+    defaultValue = "false"
+  ) {
+    return `${parameter[key] || defaultValue}` === "true";
+  }
+
+  function pickStructActorCutinSet(parameter) {
+    parameter = parameter || {};
+    if (typeof parameter === "string") parameter = JSON.parse(parameter);
+    return {
+      picture: pickStringValueFromParameter(parameter, "picture", ""),
+      pictureX: pickIntegerValueFromParameter(parameter, "pictureX", 0),
+      pictureY: pickIntegerValueFromParameter(parameter, "pictureY", 0),
+      pictureScale: pickNumberValueFromParameter(parameter, "pictureScale", 1),
+      backColor1: pickStringValueFromParameter(parameter, "backColor1", ""),
+      backColor2: pickStringValueFromParameter(parameter, "backColor2", ""),
+      backTone: ((parameter) => {
+        return pickStructColorCustomize(parameter);
+      })(parameter.backTone),
+      borderTone: ((parameter) => {
+        return pickStructColorCustomize(parameter);
+      })(parameter.borderTone),
+      backImage1: pickStringValueFromParameter(parameter, "backImage1", ""),
+      backImage2: pickStringValueFromParameter(parameter, "backImage2", ""),
+      borderImage: pickStringValueFromParameter(parameter, "borderImage", ""),
+      borderBlendMode: pickStringValueFromParameter(
+        parameter,
+        "borderBlendMode",
+        ""
+      ),
+      sound: ((parameter) => {
+        return pickStructSound(parameter);
+      })(parameter.sound),
+      note: pickNoteStringValueFromParameter(parameter, "note", ""),
+      actorId: pickIntegerValueFromParameter(parameter, "actorId", 0),
+      skillId: pickIntegerValueFromParameter(parameter, "skillId", 0),
+    };
+  }
+
+  function pickStructEnemyCutinSet(parameter) {
+    parameter = parameter || {};
+    if (typeof parameter === "string") parameter = JSON.parse(parameter);
+    return {
+      picture: pickStringValueFromParameter(parameter, "picture", ""),
+      pictureX: pickIntegerValueFromParameter(parameter, "pictureX", 0),
+      pictureY: pickIntegerValueFromParameter(parameter, "pictureY", 0),
+      pictureScale: pickNumberValueFromParameter(parameter, "pictureScale", 1),
+      backColor1: pickStringValueFromParameter(parameter, "backColor1", ""),
+      backColor2: pickStringValueFromParameter(parameter, "backColor2", ""),
+      backTone: ((parameter) => {
+        return pickStructColorCustomize(parameter);
+      })(parameter.backTone),
+      borderTone: ((parameter) => {
+        return pickStructColorCustomize(parameter);
+      })(parameter.borderTone),
+      backImage1: pickStringValueFromParameter(parameter, "backImage1", ""),
+      backImage2: pickStringValueFromParameter(parameter, "backImage2", ""),
+      borderImage: pickStringValueFromParameter(parameter, "borderImage", ""),
+      borderBlendMode: pickStringValueFromParameter(
+        parameter,
+        "borderBlendMode",
+        ""
+      ),
+      sound: ((parameter) => {
+        return pickStructSound(parameter);
+      })(parameter.sound),
+      note: pickNoteStringValueFromParameter(parameter, "note", ""),
+      enemyId: pickIntegerValueFromParameter(parameter, "enemyId", 0),
+      skillId: pickIntegerValueFromParameter(parameter, "skillId", 0),
+    };
+  }
+
+  function pickStructColor(parameter) {
+    parameter = parameter || {};
+    if (typeof parameter === "string") parameter = JSON.parse(parameter);
+    return {
+      red: pickIntegerValueFromParameter(parameter, "red", 0),
+      green: pickIntegerValueFromParameter(parameter, "green", 0),
+      blue: pickIntegerValueFromParameter(parameter, "blue", 0),
+    };
+  }
+
+  function pickStructColorCustomize(parameter) {
+    parameter = parameter || {};
+    if (typeof parameter === "string") parameter = JSON.parse(parameter);
+    return {
+      isUse: pickBooleanValueFromParameter(parameter, "isUse", "false"),
+      red: pickIntegerValueFromParameter(parameter, "red", 0),
+      green: pickIntegerValueFromParameter(parameter, "green", 0),
+      blue: pickIntegerValueFromParameter(parameter, "blue", 0),
+    };
+  }
+
+  function pickStructSound(parameter) {
+    parameter = parameter || {};
+    if (typeof parameter === "string") parameter = JSON.parse(parameter);
+    return {
+      name: pickStringValueFromParameter(parameter, "name", ""),
+      volume: pickIntegerValueFromParameter(parameter, "volume", 90),
+      pitch: pickIntegerValueFromParameter(parameter, "pitch", 100),
+      pan: pickIntegerValueFromParameter(parameter, "pan", 0),
+    };
+  }
+
+  function readParameter() {
+    const parameter = PluginManager.parameters(getPluginName());
+    return {
+      version: "1.3.2",
+      actorConfig: ((parameters) => {
+        parameters = parameters || [];
+        if (typeof parameters === "string") parameters = JSON.parse(parameters);
+        return parameters.map((parameter) => {
+          return pickStructActorCutinSet(parameter);
         });
+      })(parameter.actorConfig),
+      enemyConfig: ((parameters) => {
+        parameters = parameters || [];
+        if (typeof parameters === "string") parameters = JSON.parse(parameters);
+        return parameters.map((parameter) => {
+          return pickStructEnemyCutinSet(parameter);
+        });
+      })(parameter.enemyConfig),
+      commonBackImage1: pickStringValueFromParameter(
+        parameter,
+        "commonBackImage1",
+        "CutIn_back1"
+      ),
+      commonBackImage2: pickStringValueFromParameter(
+        parameter,
+        "commonBackImage2",
+        "CutIn_back2"
+      ),
+      commonBorderImage: pickStringValueFromParameter(
+        parameter,
+        "commonBorderImage",
+        "CutIn_border"
+      ),
+      commonBorderBlendMode: pickStringValueFromParameter(
+        parameter,
+        "commonBorderBlendMode",
+        "add"
+      ),
+      commonBorderSpeed: pickIntegerValueFromParameter(
+        parameter,
+        "commonBorderSpeed",
+        30
+      ),
+      commonSound: ((parameter) => {
+        return pickStructSound(parameter);
+      })(parameter.commonSound),
+      cutInLayer: pickStringValueFromParameter(
+        parameter,
+        "cutInLayer",
+        "foreground"
+      ),
+      cutInOpenAndCloseTime: pickIntegerValueFromParameter(
+        parameter,
+        "cutInOpenAndCloseTime",
+        25
+      ),
+      cutInStopTime: pickIntegerValueFromParameter(
+        parameter,
+        "cutInStopTime",
+        10
+      ),
+      actorBackColor1: pickStringValueFromParameter(
+        parameter,
+        "actorBackColor1",
+        "#000033"
+      ),
+      actorBackColor2: pickStringValueFromParameter(
+        parameter,
+        "actorBackColor2",
+        "#6666ff"
+      ),
+      actorBackTone: ((parameter) => {
+        return pickStructColor(parameter);
+      })(parameter.actorBackTone),
+      actorBorderTone: ((parameter) => {
+        return pickStructColor(parameter);
+      })(parameter.actorBorderTone),
+      enemyBackColor1: pickStringValueFromParameter(
+        parameter,
+        "enemyBackColor1",
+        "#330000"
+      ),
+      enemyBackColor2: pickStringValueFromParameter(
+        parameter,
+        "enemyBackColor2",
+        "#ff6666"
+      ),
+      enemyBackTone: ((parameter) => {
+        return pickStructColor(parameter);
+      })(parameter.enemyBackTone),
+      enemyBorderTone: ((parameter) => {
+        return pickStructColor(parameter);
+      })(parameter.enemyBorderTone),
+    };
+  }
+
+  function unescapeMetaString(string) {
+    return `${string || ""}`.trim().replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+  }
+
+  function evalCondition(a, code) {
+    try {
+      return !!eval(code);
+    } catch (e) {
+      if ($gameTemp.isPlaytest()) console.error(e);
+      return false;
+    }
+  }
+
+  class Sprite_CutInBase extends Sprite {
+    constructor(params) {
+      super();
+      this._params = params;
+      this._callback = null;
+      this._isPlaying = false;
+      this._isStarting = false;
+      this.anchor.x = this.anchor.y = 0.5;
+      this.visible = false;
+      this.onCreate();
     }
 
-    function commandShowActorCutIn({ name }) {
-        const config = CutInManager.getConfigByNameFromActor(name)[0];
-        if (!config) {
-            return;
+    get params() {
+      return this._params;
+    }
+
+    /**
+     * metaから指定keyを読み取る
+     * @param {String | String[]} keys
+     * @param {any} defaultValue
+     * @returns {any}
+     */
+    getMeta(keys, defaultValue = undefined) {
+      if (Array.isArray(keys)) {
+        for (const key of keys) {
+          if (this.params.meta[key] !== undefined) return this.params.meta[key];
         }
-        CutInManager.setParameter(config, false);
-        this.setWaitMode('torigoyaSkillCutIn');
+      } else {
+        if (this.params.meta[keys] !== undefined) return this.params.meta[keys];
+      }
+      return defaultValue;
     }
 
-    function commandShowEnemyCutIn({ name }) {
-        const config = CutInManager.getConfigByNameFromEnemy(name)[0];
-        if (!config) {
-            return;
-        }
-        CutInManager.setParameter(config, true);
-        this.setWaitMode('torigoyaSkillCutIn');
-    }
-
-    function createCutInContainer() {
-        if (this._torigoyaSkillCutIn_cutInContainer) return;
-        this._torigoyaSkillCutIn_cutInContainer = new Sprite();
-
-        const layer = Torigoya.SkillCutIn.parameter.cutInLayer;
-
-        if (this._windowLayer && layer !== 'foreground') {
-            const windowIndex = this.getChildIndex(this._windowLayer);
-            switch (Torigoya.SkillCutIn.parameter.cutInLayer) {
-                case 'upperWindow':
-                    this.addChildAt(this._torigoyaSkillCutIn_cutInContainer, windowIndex + 1);
-                    break;
-                case 'lowerWindow':
-                    this.addChildAt(this._torigoyaSkillCutIn_cutInContainer, windowIndex);
-                    break;
-                default:
-                    this.addChild(this._torigoyaSkillCutIn_cutInContainer);
-            }
+    /**
+     * 全体の表示角度を取得
+     * @returns {number}
+     */
+    getMainRotation() {
+      if (!this._mainRotationCache) {
+        const rotation = this.getMeta(["rotate", "角度"], undefined);
+        if (rotation === undefined) {
+          if (this.params.isEnemy) {
+            this._mainRotationCache = Math.atan2(
+              -Graphics.height,
+              -Graphics.width
+            );
+          } else {
+            this._mainRotationCache = Math.atan2(
+              -Graphics.height,
+              Graphics.width
+            );
+          }
         } else {
-            this.addChild(this._torigoyaSkillCutIn_cutInContainer);
+          this._mainRotationCache = (parseFloat(rotation) * Math.PI) / 180;
         }
+      }
+      return this._mainRotationCache;
     }
 
-    Torigoya.SkillCutIn = {
-        name: getPluginName(),
-        parameter: readParameter(),
+    /**
+     * カットイン幅を取得
+     * ※カットイン幅は画面の対角線の長さになる
+     * @returns {number}
+     */
+    getMainWidth() {
+      if (!this._mainWidthCache) {
+        this._mainWidthCache = Math.ceil(
+          Math.sqrt(Math.pow(Graphics.width, 2) + Math.pow(Graphics.height, 2))
+        );
+      }
+      return this._mainWidthCache;
+    }
+
+    /**
+     * 破棄
+     */
+    destroy() {
+      this.onDestroy();
+      if (Sprite.prototype.destroy) {
+        Sprite.prototype.destroy.apply(this);
+      }
+    }
+
+    /**
+     * 再生開始
+     * @returns {Promise}
+     */
+    play() {
+      if (this._isPlaying) Promise.reject("isPlaying");
+
+      return new Promise((resolve) => {
+        this._callback = resolve;
+        this._isPlaying = true;
+      });
+    }
+
+    /**
+     * 再生終了
+     * このメソッドを外部から呼び出すことはない
+     */
+    finish() {
+      if (!this._isPlaying) return;
+      if (this._callback) this._callback();
+      this._callback = null;
+      this._isPlaying = false;
+      this._isStarting = false;
+    }
+
+    /**
+     * 更新
+     */
+    update() {
+      if (this._isStarting) {
+        this.onUpdate();
+      } else if (this._isPlaying) {
+        if (this.isReady()) {
+          this._isStarting = true;
+          this.visible = true;
+          this.onStart();
+        }
+      }
+
+      super.update();
+    }
+
+    /**
+     * 画像等のリソース読み込みが完了しているか
+     * @returns {boolean}
+     */
+    isReady() {
+      return ImageManager.isReady();
+    }
+
+    /**
+     * カットイン効果音の再生
+     */
+    playSe() {
+      const sound = this.getConfigSound();
+      if (sound) AudioManager.playSe(sound);
+    }
+
+    /**
+     * カットイン効果音の取得
+     * @returns {null|any}
+     */
+    getConfigSound() {
+      if (this.params.sound && this.params.sound.name) {
+        return this.params.sound;
+      } else if (
+        Torigoya.SkillCutIn.parameter.commonSound &&
+        Torigoya.SkillCutIn.parameter.commonSound.name
+      ) {
+        return Torigoya.SkillCutIn.parameter.commonSound;
+      }
+      return null;
+    }
+
+    /**
+     * 背景画像1のファイル名を取得
+     * @returns {string}
+     */
+    getCutInBackImageName1() {
+      if (this.params.backImage1) return this.params.backImage1;
+      return Torigoya.SkillCutIn.parameter.commonBackImage1;
+    }
+
+    /**
+     * 背景画像2のファイル名を取得
+     * @returns {string}
+     */
+    getCutInBackImageName2() {
+      if (this.params.backImage2) return this.params.backImage2;
+      return Torigoya.SkillCutIn.parameter.commonBackImage2;
+    }
+
+    /**
+     * 境界線画像のファイル名を取得
+     * @returns {string}
+     */
+    getCutInBorderImageName() {
+      if (this.params.borderImage) return this.params.borderImage;
+      return Torigoya.SkillCutIn.parameter.commonBorderImage;
+    }
+
+    /**
+     * 境界線画像のブレンドモードを取得
+     * @returns {PIXI.BLEND_MODES}
+     */
+    getCutInBorderBlendMode() {
+      const mode =
+        this.params.borderBlendMode ||
+        Torigoya.SkillCutIn.parameter.commonBorderBlendMode;
+      switch (mode) {
+        case "add":
+          return PIXI.BLEND_MODES.ADD;
+        case "normal":
+        default:
+          return PIXI.BLEND_MODES.NORMAL;
+      }
+    }
+
+    /**
+     * 背景色1を取得
+     * @returns {string}
+     */
+    getBackColor1() {
+      if (this.params.backColor1) return this.params.backColor1;
+
+      if (this.params.isEnemy) {
+        return Torigoya.SkillCutIn.parameter.enemyBackColor1;
+      } else {
+        return Torigoya.SkillCutIn.parameter.actorBackColor1;
+      }
+    }
+
+    /**
+     * 背景色2を取得
+     * @returns {string}
+     */
+    getBackColor2() {
+      if (this.params.backColor2) return this.params.backColor2;
+      if (this.params.backColor1) return this.params.backColor1;
+
+      if (this.params.isEnemy) {
+        return (
+          Torigoya.SkillCutIn.parameter.enemyBackColor2 ||
+          Torigoya.SkillCutIn.parameter.enemyBackColor1
+        );
+      } else {
+        return (
+          Torigoya.SkillCutIn.parameter.actorBackColor2 ||
+          Torigoya.SkillCutIn.parameter.actorBackColor1
+        );
+      }
+    }
+
+    /**
+     * 背景色のトーンを取得
+     * @returns {number[]}
+     */
+    getBackTone() {
+      if (this.params.backTone && this.params.backTone.isUse) {
+        const tone = this.params.backTone;
+        return [tone.red, tone.green, tone.blue, 0];
+      } else if (this.params.isEnemy) {
+        const tone = Torigoya.SkillCutIn.parameter.enemyBackTone;
+        return [tone.red, tone.green, tone.blue, 0];
+      } else {
+        const tone = Torigoya.SkillCutIn.parameter.actorBackTone;
+        return [tone.red, tone.green, tone.blue, 0];
+      }
+    }
+
+    /**
+     * 境界線のトーンを取得
+     * @returns {number[]}
+     */
+    getBorderTone() {
+      if (this.params.borderTone && this.params.borderTone.isUse) {
+        const tone = this.params.borderTone;
+        return [tone.red, tone.green, tone.blue, 0];
+      } else if (this.params.isEnemy) {
+        const tone = Torigoya.SkillCutIn.parameter.enemyBorderTone;
+        return [tone.red, tone.green, tone.blue, 0];
+      } else {
+        const tone = Torigoya.SkillCutIn.parameter.actorBorderTone;
+        return [tone.red, tone.green, tone.blue, 0];
+      }
+    }
+
+    /**
+     * 生成処理（継承先で上書き）
+     */
+    onCreate() {
+      // override me
+    }
+
+    /**
+     * 開始処理（継承先で上書き）
+     */
+    onStart() {
+      // override me
+    }
+
+    /**
+     * 更新処理（継承先で上書き）
+     */
+    onUpdate() {
+      // override me
+    }
+
+    /**
+     * 破棄処理（継承先で上書き）
+     */
+    onDestroy() {
+      // override me
+    }
+  }
+
+  function callBitmapLoaded(bitmap, callback) {
+    if (bitmap.isReady()) {
+      callback();
+    } else {
+      bitmap.addLoadListener(callback);
+    }
+  }
+
+  function easingBounce(n) {
+    const s = 1.70158;
+    const t2 = n - 1;
+    return t2 * t2 * ((s + 1) * t2 + s) + 1;
+  }
+
+  class Sprite_CutInWoss extends Sprite_CutInBase {
+    getMainSmallHeight() {
+      if (!this._mainSmallHeightCache) {
+        this._mainSmallHeightCache = this.getMainWidth() / 4;
+      }
+      return this._mainSmallHeightCache;
+    }
+
+    getMainLargeHeight() {
+      if (!this._mainLargeHeightCache) {
+        this._mainLargeHeightCache = this.getMainWidth() / 2;
+      }
+      return this._mainLargeHeightCache;
+    }
+
+    getBorderSpeed() {
+      return Torigoya.SkillCutIn.parameter.commonBorderSpeed;
+    }
+
+    getOpenAndCloseTime() {
+      return Torigoya.SkillCutIn.parameter.cutInOpenAndCloseTime;
+    }
+
+    getStopTime() {
+      return Torigoya.SkillCutIn.parameter.cutInStopTime;
+    }
+
+    onCreate() {
+      this._createMask();
+      this._createGlobalBackPlaneSprite();
+      this._createGlobalBackEffectSprite();
+      this._createMainBackSprite();
+      this._createCharacterSprite();
+      this._createBorderSprites();
+    }
+
+    _createMask() {
+      const w = this.getMainWidth();
+      const h1 = this.getMainSmallHeight();
+      const h2 = this.getMainLargeHeight();
+
+      this._maskShape = new PIXI.Graphics();
+      this._maskShape.clear();
+      this._maskShape.beginFill(0xffffff);
+      this._maskShape.moveTo(0, (h2 - h1) / 2);
+      this._maskShape.lineTo(w, 0);
+      this._maskShape.lineTo(w, h2);
+      this._maskShape.lineTo(0, h2 - (h2 - h1) / 2);
+      this._maskShape.endFill();
+      this._maskShape.pivot = new PIXI.Point(w / 2, h2 / 2);
+      this._maskShape.scale.y = 0;
+
+      this._maskShape.rotation = this.getMainRotation();
+
+      this.addChild(this._maskShape);
+    }
+
+    _createGlobalBackPlaneSprite() {
+      const size = this.getMainWidth();
+      const colorBitmap = new Bitmap(32, 32);
+      colorBitmap.fillAll("#000000");
+      this._globalBackPlaneSprite = new Sprite(colorBitmap);
+      this._globalBackPlaneSprite.scale.x =
+        this._globalBackPlaneSprite.scale.y = size / colorBitmap.width;
+      this._globalBackPlaneSprite.anchor.x =
+        this._globalBackPlaneSprite.anchor.y = 0.5;
+      this._globalBackPlaneSprite.opacity = 0;
+      this.addChild(this._globalBackPlaneSprite);
+    }
+
+    _createGlobalBackEffectSprite() {
+      const size = this.getMainWidth();
+      const bitmap = ImageManager.loadPicture(this.getCutInBackImageName1());
+      const shapeHeight =
+        (this.getMainLargeHeight() - this.getMainSmallHeight()) / 2;
+      const r = Math.atan2(shapeHeight, this.getMainWidth());
+      const colorTone = this.getBackTone();
+
+      this._globalBackEffectSprites = new Array(2).fill(0).map((_, i) => {
+        const mask = new PIXI.Graphics();
+        mask.beginFill(0xffffff);
+        mask.moveTo(0, 0);
+        mask.lineTo(size, 0);
+        mask.lineTo(size, size / 2);
+        mask.lineTo(0, size / 2);
+        mask.lineTo(0, 0);
+        mask.endFill();
+        mask.pivot = new PIXI.Point(size / 2, i === 0 ? size / 2 : 0);
+        mask.rotation = this.getMainRotation();
+        this.addChild(mask);
+
+        const wrapperSprite = new Sprite();
+        wrapperSprite.opacity = 0;
+        wrapperSprite.mask = mask;
+        wrapperSprite.x = Math.cos(r) * shapeHeight * (i === 0 ? -1 : 1);
+        wrapperSprite.y = shapeHeight * (i === 0 ? -1 : 1);
+        wrapperSprite.rotation =
+          this.getMainRotation() + (i === 0 ? -1 : 1) * r;
+        wrapperSprite.setColorTone(colorTone);
+        wrapperSprite.blendMode = PIXI.BLEND_MODES.ADD;
+        this.addChild(wrapperSprite);
+
+        const sprite = new TilingSprite(bitmap);
+        sprite.move(-size, -size, size * 2, size * 2);
+        wrapperSprite.addChild(sprite);
+
+        return sprite;
+      });
+    }
+
+    _createMainBackSprite() {
+      const width = this.getMainWidth();
+      const height = this.getMainLargeHeight();
+
+      const color1 = this.getBackColor1();
+      const color2 = this.getBackColor2();
+
+      const colorBitmap = new Bitmap(64, 64);
+      colorBitmap.gradientFillRect(
+        0,
+        0,
+        colorBitmap.width,
+        colorBitmap.height / 2,
+        color1,
+        color2,
+        true
+      );
+      colorBitmap.gradientFillRect(
+        0,
+        colorBitmap.height / 2,
+        colorBitmap.width,
+        colorBitmap.height / 2,
+        color2,
+        color1,
+        true
+      );
+
+      this._mainBackSprite = new Sprite(colorBitmap);
+      this._mainBackSprite.anchor.x = this._mainBackSprite.anchor.y = 0.5;
+      this._mainBackSprite.scale.x = width / colorBitmap.width;
+      this._mainBackSprite.scale.y = height / colorBitmap.height;
+      this._mainBackSprite.rotation = this.getMainRotation();
+      this._mainBackSprite.mask = this._maskShape;
+      this.addChild(this._mainBackSprite);
+
+      const wrapperSprite = new Sprite();
+      wrapperSprite.rotation = this.getMainRotation();
+      wrapperSprite.mask = this._maskShape;
+      this.addChild(wrapperSprite);
+
+      const effectBitmap = ImageManager.loadPicture(
+        this.getCutInBackImageName2()
+      );
+      this._mainBackEffectSprite = new TilingSprite(effectBitmap);
+      this._mainBackEffectSprite.blendMode = PIXI.BLEND_MODES.ADD;
+      this._mainBackEffectSprite.opacity = 128;
+      this._mainBackEffectSprite.move(-width / 2, -height / 2, width, height);
+      wrapperSprite.addChild(this._mainBackEffectSprite);
+    }
+
+    _createCharacterSprite() {
+      const l = this.getMainWidth() / 2;
+      const x = -Math.cos(this.getMainRotation()) * l;
+      const y = -Math.sin(this.getMainRotation()) * l;
+
+      this._characterSprite = new Sprite();
+      this._characterSprite.addChild(this._createCharacterInnerSprite());
+      this._characterSprite.x = x;
+      this._characterSprite.y = y;
+      this._characterSprite.scale.x = this._characterSprite.scale.y = 2;
+      this._characterSprite.mask = this._maskShape;
+      this.addChild(this._characterSprite);
+
+      const blurInner = this._createCharacterInnerSprite();
+      blurInner.blendMode = PIXI.BLEND_MODES.ADD;
+      this._blurCharacterSprite = new Sprite();
+      this._blurCharacterSprite.addChild(blurInner);
+      this._blurCharacterSprite.opacity = 0;
+      this._blurCharacterSprite.scale.x = this._characterSprite.scale.y = 2;
+      this._blurCharacterSprite.mask = this._maskShape;
+      this.addChild(this._blurCharacterSprite);
+    }
+
+    _createCharacterInnerSprite() {
+      const characterBitmap = ImageManager.loadPicture(this.params.picture);
+      const sprite = new Sprite(characterBitmap);
+      sprite.anchor.x = sprite.anchor.y = 0.5;
+
+      sprite.x = this.params.pictureX;
+      sprite.y = this.params.pictureY;
+      sprite.scale.x = sprite.scale.y = this.params.pictureScale;
+
+      return sprite;
+    }
+
+    _createBorderSprites() {
+      const borderBitmap = ImageManager.loadPicture(
+        this.getCutInBorderImageName()
+      );
+      const colorTone = this.getBorderTone();
+
+      this._borderSprites = new Array(2).fill(0).map((_, i) => {
+        const wrapperSprite = new Sprite();
+        wrapperSprite.rotation = this.getMainRotation();
+        wrapperSprite.scale.y = 0;
+        wrapperSprite.setColorTone(colorTone);
+        this.addChild(wrapperSprite);
+
+        const sprite = new TilingSprite(borderBitmap);
+        callBitmapLoaded(borderBitmap, () => {
+          const w = this.getMainWidth();
+          const h = borderBitmap.height;
+          sprite.move(-w / 2, -h / 2, w, h);
+        });
+        sprite.blendMode = this.getCutInBorderBlendMode();
+        wrapperSprite.addChild(sprite);
+        return sprite;
+      });
+    }
+
+    onStart() {
+      this.playSe();
+
+      this._onStartShape();
+      this._onStartGlobalBackPlane();
+      this._onStartGlobalBackEffect();
+      this._onStartBorders();
+      this._onStartCharacter();
+    }
+
+    _onStartShape() {
+      Torigoya.FrameTween.create(this._maskShape.scale)
+        .to(
+          {
+            y: 1,
+          },
+          this.getOpenAndCloseTime(),
+          easingBounce
+        )
+        .wait(this.getStopTime())
+        .to(
+          {
+            y: 0,
+          },
+          this.getOpenAndCloseTime(),
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .call(() => this.finish())
+        .start();
+    }
+
+    _onStartGlobalBackPlane() {
+      Torigoya.FrameTween.create(this._globalBackPlaneSprite)
+        .to(
+          {
+            opacity: 128,
+          },
+          this.getOpenAndCloseTime(),
+          easingBounce
+        )
+        .wait(this.getStopTime())
+        .to(
+          {
+            opacity: 0,
+          },
+          this.getOpenAndCloseTime(),
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .start();
+    }
+
+    _onStartGlobalBackEffect() {
+      this._globalBackEffectSprites.forEach((sprite) => {
+        const wrapper = sprite.parent;
+        Torigoya.FrameTween.create(wrapper)
+          .to(
+            {
+              opacity: 255,
+            },
+            this.getOpenAndCloseTime(),
+            easingBounce
+          )
+          .wait(this.getStopTime())
+          .to(
+            {
+              opacity: 0,
+            },
+            this.getOpenAndCloseTime(),
+            Torigoya.FrameTween.Easing.easeOutCubic
+          )
+          .start();
+      });
+    }
+
+    _onStartBorders() {
+      this._borderSprites.forEach((sprite) => {
+        const wrapper = sprite.parent;
+        Torigoya.FrameTween.create(wrapper.scale)
+          .to(
+            {
+              y: 1,
+            },
+            this.getOpenAndCloseTime(),
+            easingBounce
+          )
+          .wait(this.getStopTime())
+          .to(
+            {
+              y: 0,
+            },
+            this.getOpenAndCloseTime(),
+            Torigoya.FrameTween.Easing.easeOutCubic
+          )
+          .start();
+      });
+    }
+
+    _onStartCharacter() {
+      Torigoya.FrameTween.create(this._characterSprite)
+        .to(
+          {
+            x: 0,
+            y: 0,
+            opacity: 255,
+          },
+          this.getOpenAndCloseTime(),
+          easingBounce
+        )
+        .wait(this.getStopTime())
+        .to(
+          {
+            opacity: 0,
+          },
+          this.getOpenAndCloseTime(),
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .start();
+
+      Torigoya.FrameTween.create(this._characterSprite.scale)
+        .to(
+          {
+            x: 1,
+            y: 1,
+          },
+          this.getOpenAndCloseTime(),
+          easingBounce
+        )
+        .wait(this.getStopTime())
+        .to(
+          {
+            x: 3,
+            y: 3,
+          },
+          this.getOpenAndCloseTime(),
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .start();
+
+      const blurAnimationTime = this.getOpenAndCloseTime() / 2;
+
+      Torigoya.FrameTween.create(this._blurCharacterSprite)
+        .wait(blurAnimationTime)
+        .to(
+          {
+            opacity: 255,
+          },
+          blurAnimationTime,
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .to(
+          {
+            opacity: 0,
+          },
+          blurAnimationTime,
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .start();
+
+      Torigoya.FrameTween.create(this._blurCharacterSprite.scale)
+        .wait(blurAnimationTime)
+        .to(
+          {
+            x: 1,
+            y: 1,
+          },
+          blurAnimationTime,
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .to(
+          {
+            x: 3,
+            y: 3,
+          },
+          blurAnimationTime,
+          Torigoya.FrameTween.Easing.easeOutCubic
+        )
+        .start();
+    }
+
+    onUpdate() {
+      this._mainBackEffectSprite.origin.x -= 30;
+      this._globalBackEffectSprites.forEach((sprite, i) => {
+        sprite.origin.x += i === 0 ? -45 : 45;
+      });
+      this._onUpdateBorders();
+    }
+
+    _onUpdateBorders() {
+      const shapeHeight =
+        ((this.getMainLargeHeight() - this.getMainSmallHeight()) / 2) *
+        this._maskShape.scale.y;
+      const length =
+        ((this.getMainSmallHeight() +
+          (this.getMainLargeHeight() - this.getMainSmallHeight()) / 2) /
+          2) *
+        this._maskShape.scale.y;
+      const r = Math.atan2(shapeHeight, this.getMainWidth());
+
+      this._borderSprites.forEach((sprite, i) => {
+        const wrapperSprite = sprite.parent;
+        const r2 = this.getMainRotation() + (i === 0 ? -1 : 1) * r;
+        wrapperSprite.rotation = r2 + (i === 1 ? Math.PI : 0);
+        const r3 = r2 + Math.PI / 2;
+        wrapperSprite.x = Math.cos(r3) * length * (i === 0 ? -1 : 1);
+        wrapperSprite.y = Math.sin(r3) * length * (i === 0 ? -1 : 1);
+
+        sprite.origin.x += this.getBorderSpeed();
+      });
+    }
+
+    onDestroy() {
+      if (this._globalBackPlaneSprite.destroy) {
+        this._globalBackPlaneSprite.destroy();
+      } else {
+        this._globalBackPlaneSprite.bitmap.resize(1, 1);
+      }
+
+      if (this._mainBackSprite.bitmap.destroy) {
+        this._mainBackSprite.bitmap.destroy();
+      } else {
+        this._mainBackSprite.bitmap.resize(1, 1);
+      }
+      this._mainBackSprite.bitmap = null;
+    }
+  }
+
+  class CutInManagerClass {
+    constructor() {
+      this._configCache = new Map();
+      this._cutInParameter = null;
+    }
+
+    reset() {
+      this.clear();
+      this._configCache.clear();
+    }
+
+    clear() {
+      this._cutInParameter = null;
+    }
+
+    setParameter(config, isEnemy = false) {
+      this._cutInParameter = Object.assign({ isEnemy }, config);
+    }
+
+    getConfigByActor(actor, item) {
+      const actorId = actor.actorId();
+
+      if (DataManager.isSkill(item)) {
+        const key = `actorSkill::${actorId}::${item.id}`;
+        const cache = this._configCache.get(key);
+        if (cache) return cache;
+
+        const result = Torigoya.SkillCutIn.parameter.actorConfig.filter(
+          (config) => config.actorId === actorId && config.skillId === item.id
+        );
+        this._configCache.set(key, result);
+
+        return result;
+      } else if (DataManager.isItem(item)) {
+        const key = `actorItem::${actorId}::${item.id}`;
+        const cache = this._configCache.get(key);
+        if (cache) return cache;
+
+        const result = Torigoya.SkillCutIn.parameter.actorConfig.filter(
+          (config) =>
+            config.actorId === actorId &&
+            parseInt(
+              config.meta["item"] || config.meta["アイテム"] || 0,
+              10
+            ) === item.id
+        );
+        this._configCache.set(key, result);
+
+        return result;
+      } else {
+        return [];
+      }
+    }
+
+    getConfigByEnemy(enemy, item) {
+      const enemyId = enemy.enemyId();
+
+      if (DataManager.isSkill(item)) {
+        const key = `enemySkill::${enemyId}::${item.id}`;
+        const cache = this._configCache.get(key);
+        if (cache) return cache;
+
+        const result = Torigoya.SkillCutIn.parameter.enemyConfig.filter(
+          (config) => config.enemyId === enemyId && config.skillId === item.id
+        );
+        this._configCache.set(key, result);
+
+        return result;
+      } else {
+        return [];
+      }
+    }
+
+    getConfigByNameFromActor(name) {
+      const key = `nameFromActor::${name}`;
+      const cache = this._configCache.get(key);
+      if (cache) return cache;
+
+      const result = Torigoya.SkillCutIn.parameter.actorConfig.filter(
+        (config) =>
+          (config.meta["name"] || config.meta["呼び出し名"] || "").trim() ===
+          name
+      );
+      this._configCache.set(key, result);
+
+      return result;
+    }
+
+    getConfigByNameFromEnemy(name) {
+      const key = `nameFromEnemy::${name}`;
+      const cache = this._configCache.get(key);
+      if (cache) return cache;
+
+      const result = Torigoya.SkillCutIn.parameter.enemyConfig.filter(
+        (config) =>
+          (config.meta["name"] || config.meta["呼び出し名"] || "").trim() ===
+          name
+      );
+      this._configCache.set(key, result);
+
+      return result;
+    }
+
+    canPlayConfig(config, battler) {
+      const condition = unescapeMetaString(
+        config.meta["condition"] || config.meta["条件"] || ""
+      );
+      if (condition && !evalCondition(battler, condition)) return false;
+
+      return true;
+    }
+
+    isPlaying() {
+      return !!this._cutInParameter;
+    }
+
+    getParameter() {
+      return this._cutInParameter;
+    }
+
+    detectCutInClass() {
+      return Sprite_CutInWoss;
+    }
+  }
+
+  const CutInManager = new CutInManagerClass();
+
+  function applyPluginToSpritesetBattle() {
+    const upstream_Spriteset_Battle_isEffecting =
+      Spriteset_Battle.prototype.isEffecting;
+    Spriteset_Battle.prototype.isEffecting = function () {
+      return (
+        upstream_Spriteset_Battle_isEffecting.apply(this) ||
+        CutInManager.isPlaying()
+      );
+    };
+  }
+
+  function applyPluginToBattleManager() {
+    const upstream_BattleManager_startAction = BattleManager.startAction;
+    BattleManager.startAction = function () {
+      this.torigoyaSkillCutIn_playCutIn();
+      upstream_BattleManager_startAction.apply(this);
     };
 
-    Torigoya.SkillCutIn.parameter.actorConfig.forEach((config) => DataManager.extractMetadata(config));
-    Torigoya.SkillCutIn.parameter.enemyConfig.forEach((config) => DataManager.extractMetadata(config));
+    BattleManager.torigoyaSkillCutIn_playCutIn = function () {
+      const subject = this._subject;
+      if (!subject) return;
 
-    Torigoya.SkillCutIn.CutInManager = CutInManager;
-    Torigoya.SkillCutIn.Sprite_CutInBase = Sprite_CutInBase;
-    Torigoya.SkillCutIn.Sprite_CutInWoss = Sprite_CutInWoss;
+      const action = subject.currentAction();
+      const item = action && action.item();
+      if (!item) return;
 
-    applyPluginToBattleManager();
-    applyPluginToSpritesetBattle();
-    applyPluginToGameInterpreter();
+      const configs = subject.isEnemy()
+        ? CutInManager.getConfigByEnemy(subject, item)
+        : CutInManager.getConfigByActor(subject, item);
+      if (configs.length === 0) return;
 
-    (() => {
-        // -------------------------------------------------------------------------
-        // Scene_Base
+      const config = configs.find((config) =>
+        CutInManager.canPlayConfig(config, subject)
+      );
+      if (!config) return;
 
-        const upstream_Scene_Base_detachReservation = Scene_Base.prototype.detachReservation;
-        Scene_Base.prototype.detachReservation = function () {
-            CutInManager.reset();
-            upstream_Scene_Base_detachReservation.apply(this);
-        };
+      CutInManager.setParameter(config, subject.isEnemy());
 
-        // -------------------------------------------------------------------------
-        // Scene_Map
+      this._logWindow.setWaitMode("effect");
+    };
+  }
 
-        const upstream_Scene_Map_update = Scene_Map.prototype.update;
-        Scene_Map.prototype.update = function () {
-            upstream_Scene_Map_update.apply(this);
-            this.torigoyaSkillCutIn_updateCutIn();
-        };
+  function applyPluginToGameInterpreter() {
+    const upstream_Game_Interpreter_updateWaitMode =
+      Game_Interpreter.prototype.updateWaitMode;
+    Game_Interpreter.prototype.updateWaitMode = function () {
+      if (this._waitMode === "torigoyaSkillCutIn") {
+        return CutInManager.isPlaying();
+      }
 
-        Scene_Map.prototype.torigoyaSkillCutIn_updateCutIn = function () {
-            if (!CutInManager.isPlaying()) return;
-            if (this._torigoyaSkillCutIn_cutInSprite) return;
+      return upstream_Game_Interpreter_updateWaitMode.apply(this);
+    };
+  }
 
-            this.torigoyaSkillCutIn_createCutInContainer();
-            this.torigoyaSkillCutIn_createAndPlayCutInSprite();
-        };
+  function createAndPlayCutInSprite() {
+    const klass = CutInManager.detectCutInClass();
+    if (!klass) {
+      console.error("カットイン用のSpriteクラスが見つかりません");
+      CutInManager.clear();
+      return;
+    }
 
-        Scene_Map.prototype.torigoyaSkillCutIn_createCutInContainer = createCutInContainer;
-        Scene_Map.prototype.torigoyaSkillCutIn_createAndPlayCutInSprite = createAndPlayCutInSprite;
+    const parent = this._torigoyaSkillCutIn_cutInContainer || this;
 
-        // -------------------------------------------------------------------------
-        // Scene_Battle
+    this._torigoyaSkillCutIn_cutInSprite = new klass(
+      CutInManager.getParameter()
+    );
+    this._torigoyaSkillCutIn_cutInSprite.x = Graphics.width / 2;
+    this._torigoyaSkillCutIn_cutInSprite.y = Graphics.height / 2;
+    parent.addChild(this._torigoyaSkillCutIn_cutInSprite);
 
-        const upstream_Scene_Battle_update = Scene_Battle.prototype.update;
-        Scene_Battle.prototype.update = function () {
-            upstream_Scene_Battle_update.apply(this);
-            this.torigoyaSkillCutIn_updateCutIn();
-        };
+    this._torigoyaSkillCutIn_cutInSprite.play().then(() => {
+      CutInManager.clear();
+      parent.removeChild(this._torigoyaSkillCutIn_cutInSprite);
+      this._torigoyaSkillCutIn_cutInSprite.destroy();
+      this._torigoyaSkillCutIn_cutInSprite = null;
+    });
+  }
 
-        Scene_Battle.prototype.torigoyaSkillCutIn_updateCutIn = function () {
-            if (!CutInManager.isPlaying()) return;
-            if (this._torigoyaSkillCutIn_cutInSprite) return;
+  function commandShowActorCutIn({ name }) {
+    const config = CutInManager.getConfigByNameFromActor(name)[0];
+    if (!config) {
+      return;
+    }
+    CutInManager.setParameter(config, false);
+    this.setWaitMode("torigoyaSkillCutIn");
+  }
 
-            this.torigoyaSkillCutIn_createCutInContainer();
-            this.torigoyaSkillCutIn_createAndPlayCutInSprite();
-        };
+  function commandShowEnemyCutIn({ name }) {
+    const config = CutInManager.getConfigByNameFromEnemy(name)[0];
+    if (!config) {
+      return;
+    }
+    CutInManager.setParameter(config, true);
+    this.setWaitMode("torigoyaSkillCutIn");
+  }
 
-        Scene_Battle.prototype.torigoyaSkillCutIn_createCutInContainer = createCutInContainer;
-        Scene_Battle.prototype.torigoyaSkillCutIn_createAndPlayCutInSprite = createAndPlayCutInSprite;
+  function createCutInContainer() {
+    if (this._torigoyaSkillCutIn_cutInContainer) return;
+    this._torigoyaSkillCutIn_cutInContainer = new Sprite();
 
-        // -------------------------------------------------------------------------
-        // プラグインコマンド
+    const layer = Torigoya.SkillCutIn.parameter.cutInLayer;
 
-        const upstream_Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-        Game_Interpreter.prototype.pluginCommand = function (command, args) {
-            switch (command) {
-                case 'ShowActorCutIn':
-                case '味方カットイン':
-                    commandShowActorCutIn.call(this, { name: `${args[0]}`.trim() });
-                    return;
-                case 'ShowEnemyCutIn':
-                case '敵カットイン':
-                    commandShowEnemyCutIn.call(this, { name: `${args[0]}`.trim() });
-                    return;
-            }
-            upstream_Game_Interpreter_pluginCommand.apply(this, arguments);
-        };
-    })();
+    if (this._windowLayer && layer !== "foreground") {
+      const windowIndex = this.getChildIndex(this._windowLayer);
+      switch (Torigoya.SkillCutIn.parameter.cutInLayer) {
+        case "upperWindow":
+          this.addChildAt(
+            this._torigoyaSkillCutIn_cutInContainer,
+            windowIndex + 1
+          );
+          break;
+        case "lowerWindow":
+          this.addChildAt(this._torigoyaSkillCutIn_cutInContainer, windowIndex);
+          break;
+        default:
+          this.addChild(this._torigoyaSkillCutIn_cutInContainer);
+      }
+    } else {
+      this.addChild(this._torigoyaSkillCutIn_cutInContainer);
+    }
+  }
+
+  Torigoya.SkillCutIn = {
+    name: getPluginName(),
+    parameter: readParameter(),
+  };
+
+  Torigoya.SkillCutIn.parameter.actorConfig.forEach((config) =>
+    DataManager.extractMetadata(config)
+  );
+  Torigoya.SkillCutIn.parameter.enemyConfig.forEach((config) =>
+    DataManager.extractMetadata(config)
+  );
+
+  Torigoya.SkillCutIn.CutInManager = CutInManager;
+  Torigoya.SkillCutIn.Sprite_CutInBase = Sprite_CutInBase;
+  Torigoya.SkillCutIn.Sprite_CutInWoss = Sprite_CutInWoss;
+
+  applyPluginToBattleManager();
+  applyPluginToSpritesetBattle();
+  applyPluginToGameInterpreter();
+
+  (() => {
+    // -------------------------------------------------------------------------
+    // Scene_Base
+
+    const upstream_Scene_Base_detachReservation =
+      Scene_Base.prototype.detachReservation;
+    Scene_Base.prototype.detachReservation = function () {
+      CutInManager.reset();
+      upstream_Scene_Base_detachReservation.apply(this);
+    };
+
+    // -------------------------------------------------------------------------
+    // Scene_Map
+
+    const upstream_Scene_Map_update = Scene_Map.prototype.update;
+    Scene_Map.prototype.update = function () {
+      upstream_Scene_Map_update.apply(this);
+      this.torigoyaSkillCutIn_updateCutIn();
+    };
+
+    Scene_Map.prototype.torigoyaSkillCutIn_updateCutIn = function () {
+      if (!CutInManager.isPlaying()) return;
+      if (this._torigoyaSkillCutIn_cutInSprite) return;
+
+      this.torigoyaSkillCutIn_createCutInContainer();
+      this.torigoyaSkillCutIn_createAndPlayCutInSprite();
+    };
+
+    Scene_Map.prototype.torigoyaSkillCutIn_createCutInContainer =
+      createCutInContainer;
+    Scene_Map.prototype.torigoyaSkillCutIn_createAndPlayCutInSprite =
+      createAndPlayCutInSprite;
+
+    // -------------------------------------------------------------------------
+    // Scene_Battle
+
+    const upstream_Scene_Battle_update = Scene_Battle.prototype.update;
+    Scene_Battle.prototype.update = function () {
+      upstream_Scene_Battle_update.apply(this);
+      this.torigoyaSkillCutIn_updateCutIn();
+    };
+
+    Scene_Battle.prototype.torigoyaSkillCutIn_updateCutIn = function () {
+      if (!CutInManager.isPlaying()) return;
+      if (this._torigoyaSkillCutIn_cutInSprite) return;
+
+      this.torigoyaSkillCutIn_createCutInContainer();
+      this.torigoyaSkillCutIn_createAndPlayCutInSprite();
+    };
+
+    Scene_Battle.prototype.torigoyaSkillCutIn_createCutInContainer =
+      createCutInContainer;
+    Scene_Battle.prototype.torigoyaSkillCutIn_createAndPlayCutInSprite =
+      createAndPlayCutInSprite;
+
+    // -------------------------------------------------------------------------
+    // プラグインコマンド
+
+    const upstream_Game_Interpreter_pluginCommand =
+      Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+      switch (command) {
+        case "ShowActorCutIn":
+        case "味方カットイン":
+          commandShowActorCutIn.call(this, { name: `${args[0]}`.trim() });
+          return;
+        case "ShowEnemyCutIn":
+        case "敵カットイン":
+          commandShowEnemyCutIn.call(this, { name: `${args[0]}`.trim() });
+          return;
+      }
+      upstream_Game_Interpreter_pluginCommand.apply(this, arguments);
+    };
+  })();
 })();

@@ -23,13 +23,13 @@
 var Imported = Imported || {};
 Imported.Galv_MessageBackground = true;
 
-var Galv = Galv || {};        // Galv's main object
-Galv.MBG = Galv.MBG || {};    // Galv's Message Background stuff
-Galv.Mstyle = Galv.Mstyle || {};  // Compatibility
+var Galv = Galv || {}; // Galv's main object
+Galv.MBG = Galv.MBG || {}; // Galv's Message Background stuff
+Galv.Mstyle = Galv.Mstyle || {}; // Compatibility
 //-----------------------------------------------------------------------------
 /*:
  * @plugindesc (v.2.0) Displays an image behind messages in place of the windowskin
- * 
+ *
  * @author Galv - galvs-scripts.com
  *
  * @param Image Variable ID
@@ -61,155 +61,155 @@ Galv.Mstyle = Galv.Mstyle || {};  // Compatibility
  * shows the image partially transparent and Transparent makes it invisible.
  */
 
-
 //-----------------------------------------------------------------------------
 //  CODE STUFFS
 //-----------------------------------------------------------------------------
 
-
-
 (function () {
-	Galv.MBG.v = Number(PluginManager.parameters('Galv_MessageBackground')["Image Variable ID"]);
-	Galv.MBG.s = Number(PluginManager.parameters('Galv_MessageBackground')["Disable Switch ID"]);
-	Galv.MBG.disable = false;
-	Galv.MBG.window = null;
+  Galv.MBG.v = Number(
+    PluginManager.parameters("Galv_MessageBackground")["Image Variable ID"]
+  );
+  Galv.MBG.s = Number(
+    PluginManager.parameters("Galv_MessageBackground")["Disable Switch ID"]
+  );
+  Galv.MBG.disable = false;
+  Galv.MBG.window = null;
 
+  Galv.MBG.Scene_Map_create = Scene_Map.prototype.create;
+  Scene_Map.prototype.create = function () {
+    Galv.MBG.disable = false;
+    Galv.MBG.window = null;
+    Galv.MBG.Scene_Map_create.call(this);
+  };
 
-	Galv.MBG.Scene_Map_create = Scene_Map.prototype.create;
-	Scene_Map.prototype.create = function () {
-		Galv.MBG.disable = false;
-		Galv.MBG.window = null;
-		Galv.MBG.Scene_Map_create.call(this);
-	};
+  // ---------------- WINDOW MESSAGE
 
+  // WINDOW MESSAGE START MESSAGE - MOD
+  Galv.MBG.Window_Message_startMessage = Window_Message.prototype.startMessage;
+  Window_Message.prototype.startMessage = function () {
+    // Create graphic when window is displayed
+    if (Galv.Mstyle.target) {
+      Galv.MBG.disable = true;
+    } else {
+      Galv.MBG.disable = false;
+    }
 
-	// ---------------- WINDOW MESSAGE
+    Galv.MBG.window = this;
+    Galv.MBG.Window_Message_startMessage.call(this);
+  };
 
-	// WINDOW MESSAGE START MESSAGE - MOD
-	Galv.MBG.Window_Message_startMessage = Window_Message.prototype.startMessage;
-	Window_Message.prototype.startMessage = function () {
-		// Create graphic when window is displayed
-		if (Galv.Mstyle.target) {
-			Galv.MBG.disable = true;
-		} else {
-			Galv.MBG.disable = false;
-		};
+  // WINDOW MESSAGE SET BACKGROUND TYPE
 
-		Galv.MBG.window = this;
-		Galv.MBG.Window_Message_startMessage.call(this);
-	};
+  Galv.MBG.Window_Message_setBackgroundType =
+    Window_Message.prototype.setBackgroundType;
+  Window_Message.prototype.setBackgroundType = function (type) {
+    if (Galv.Mstyle.target) {
+      this.opacity = Galv.Mstyle.opacity;
+    } else if (!$gameSwitches.value(Galv.MBG.s)) {
+      this.opacity = 0;
+      this.hideBackgroundDimmer();
+      return;
+    }
+    Galv.MBG.Window_Message_setBackgroundType.call(this, type);
+  };
 
-	// WINDOW MESSAGE SET BACKGROUND TYPE
+  // ---------------- SCENE MAP
 
-	Galv.MBG.Window_Message_setBackgroundType = Window_Message.prototype.setBackgroundType;
-	Window_Message.prototype.setBackgroundType = function (type) {
-		if (Galv.Mstyle.target) {
-			this.opacity = Galv.Mstyle.opacity;
-		} else if (!$gameSwitches.value(Galv.MBG.s)) {
-			this.opacity = 0;
-			this.hideBackgroundDimmer();
-			return;
-		};
-		Galv.MBG.Window_Message_setBackgroundType.call(this, type);
-	};
+  Galv.MBG.Scene_Map_createWindowLayer = Scene_Map.prototype.createWindowLayer;
+  Scene_Map.prototype.createWindowLayer = function () {
+    this._msgBgSprite = new Sprite_GalvMsgBg();
+    this._msgBgSprite.z = -1000;
+    this.addChild(this._msgBgSprite);
+    Galv.MBG.Scene_Map_createWindowLayer.call(this);
+  };
 
+  // ---------------- SCENE BATTLE
 
-
-	// ---------------- SCENE MAP
-
-	Galv.MBG.Scene_Map_createWindowLayer = Scene_Map.prototype.createWindowLayer;
-	Scene_Map.prototype.createWindowLayer = function () {
-		this._msgBgSprite = new Sprite_GalvMsgBg();
-		this._msgBgSprite.z = -1000;
-		this.addChild(this._msgBgSprite);
-		Galv.MBG.Scene_Map_createWindowLayer.call(this);
-	};
-
-
-	// ---------------- SCENE BATTLE
-
-	Galv.MBG.Scene_Battle_createWindowLayer = Scene_Battle.prototype.createWindowLayer;
-	Scene_Battle.prototype.createWindowLayer = function () {
-		this._msgBgSprite = new Sprite_GalvMsgBg();
-		this._msgBgSprite.z = -1000;
-		this.addChild(this._msgBgSprite);
-		Galv.MBG.Scene_Battle_createWindowLayer.call(this);
-	};
-
+  Galv.MBG.Scene_Battle_createWindowLayer =
+    Scene_Battle.prototype.createWindowLayer;
+  Scene_Battle.prototype.createWindowLayer = function () {
+    this._msgBgSprite = new Sprite_GalvMsgBg();
+    this._msgBgSprite.z = -1000;
+    this.addChild(this._msgBgSprite);
+    Galv.MBG.Scene_Battle_createWindowLayer.call(this);
+  };
 })();
 
 // ---------------- SPRITE GALVMSGBG - NEW
 
 function Sprite_GalvMsgBg() {
-	this.initialize.apply(this, arguments);
+  this.initialize.apply(this, arguments);
 }
 
 Sprite_GalvMsgBg.prototype = Object.create(Sprite.prototype);
 Sprite_GalvMsgBg.prototype.constructor = Sprite_GalvMsgBg;
 
 Sprite_GalvMsgBg.prototype.initialize = function () {
-	Sprite.prototype.initialize.call(this);
-	this.opacity = 0;
-	this.loadBitmap();
-	this.update();
+  Sprite.prototype.initialize.call(this);
+  this.opacity = 0;
+  this.loadBitmap();
+  this.update();
 };
 
 Sprite_GalvMsgBg.prototype.update = function () {
-	Sprite.prototype.update.call(this);
-	if (Galv.MBG.window) this.controlBitmap();
+  Sprite.prototype.update.call(this);
+  if (Galv.MBG.window) this.controlBitmap();
 };
 
 Sprite_GalvMsgBg.prototype.loadBitmap = function () {
-	this.imageID = $gameVariables.value(Galv.MBG.v);
-	this.bitmap = ImageManager.loadSystem('msgimg_' + this.imageID);
-	this.x = 0
-	this.z = 10;
-	this.maxopac = 255;
+  this.imageID = $gameVariables.value(Galv.MBG.v);
+  this.bitmap = ImageManager.loadSystem("msgimg_" + this.imageID);
+  this.x = 0;
+  this.z = 10;
+  this.maxopac = 255;
 };
 
 Sprite_GalvMsgBg.prototype.controlBitmap = function () {
-	if ($gameSwitches.value(Galv.MBG.s) || Galv.MBG.window.openness <= 0 || Galv.MBG.disable) {
-		this.opacity = 0;
-		this.maxopac = 255;
-		return;
-	};
-	if (this.imageID != $gameVariables.value(Galv.MBG.v)) this.loadBitmap();  // If image changed, reload bitmap
+  if (
+    $gameSwitches.value(Galv.MBG.s) ||
+    Galv.MBG.window.openness <= 0 ||
+    Galv.MBG.disable
+  ) {
+    this.opacity = 0;
+    this.maxopac = 255;
+    return;
+  }
+  if (this.imageID != $gameVariables.value(Galv.MBG.v)) this.loadBitmap(); // If image changed, reload bitmap
 
-	// Control image opacity
-	switch ($gameMessage.background()) {
-		case 0:
-			// Window
-			this.opacity = Math.min(Galv.MBG.window._openness, this.maxopac);
-			break;
-		case 1:
-			// Dim
-			this.opacity = Galv.MBG.window._openness * 0.5;
-			this.maxopac = this.opacity;
-			break;
-		case 2:
-			// Transparent
-			this.opacity = 0;
-			this.maxopac = 0;
-			break;
-	};
+  // Control image opacity
+  switch ($gameMessage.background()) {
+    case 0:
+      // Window
+      this.opacity = Math.min(Galv.MBG.window._openness, this.maxopac);
+      break;
+    case 1:
+      // Dim
+      this.opacity = Galv.MBG.window._openness * 0.5;
+      this.maxopac = this.opacity;
+      break;
+    case 2:
+      // Transparent
+      this.opacity = 0;
+      this.maxopac = 0;
+      break;
+  }
 
-	// Don't change y value if closing as it reverts to positiontype 2
-	if (Galv.MBG.window.isClosing()) return;
+  // Don't change y value if closing as it reverts to positiontype 2
+  if (Galv.MBG.window.isClosing()) return;
 
-	// Control image position
-	switch ($gameMessage.positionType()) {
-		case 0:
-			//top
-			this.y = -(this.bitmap.height * 0.333);
-			break;
-		case 1:
-			// middle
-			this.y = (Graphics.boxHeight / 2) - (this.bitmap.height / 2)
-			break;
-		case 2:
-			//bottom
-			this.y = Graphics.boxHeight - (this.bitmap.height * 0.666);
-			break;
-	};
+  // Control image position
+  switch ($gameMessage.positionType()) {
+    case 0:
+      //top
+      this.y = -(this.bitmap.height * 0.333);
+      break;
+    case 1:
+      // middle
+      this.y = Graphics.boxHeight / 2 - this.bitmap.height / 2;
+      break;
+    case 2:
+      //bottom
+      this.y = Graphics.boxHeight - this.bitmap.height * 0.666;
+      break;
+  }
 };
-

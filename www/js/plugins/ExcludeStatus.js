@@ -37,38 +37,46 @@
  */
 
 (function () {
-    var parameters = PluginManager.parameters('ExcludeStatus');
-    var ExcludeStatus = parameters['Exclude Status'];
+  var parameters = PluginManager.parameters("ExcludeStatus");
+  var ExcludeStatus = parameters["Exclude Status"];
 
-    ExcludeStatus = ExcludeStatus.split(',');
+  ExcludeStatus = ExcludeStatus.split(",");
 
-    Window_Status.prototype.drawParameters = function (x, y) {
-        var lineHeight = this.lineHeight();
-        var line = 0;
-        for (var i = 0; i < 6; i++) {
-            if (!ExcludeStatus.some(function (s) { return i + 1 === Number(s); })) {
-                var paramId = i + 2;
-                var y2 = y + lineHeight * line;
-                this.changeTextColor(this.systemColor());
-                this.drawText(TextManager.param(paramId), x, y2, 160);
-                this.resetTextColor();
-                this.drawText(this._actor.param(paramId), x + 160, y2, 60, 'right');
-                line++;
-            }
+  Window_Status.prototype.drawParameters = function (x, y) {
+    var lineHeight = this.lineHeight();
+    var line = 0;
+    for (var i = 0; i < 6; i++) {
+      if (
+        !ExcludeStatus.some(function (s) {
+          return i + 1 === Number(s);
+        })
+      ) {
+        var paramId = i + 2;
+        var y2 = y + lineHeight * line;
+        this.changeTextColor(this.systemColor());
+        this.drawText(TextManager.param(paramId), x, y2, 160);
+        this.resetTextColor();
+        this.drawText(this._actor.param(paramId), x + 160, y2, 60, "right");
+        line++;
+      }
+    }
+  };
+
+  Window_EquipStatus.prototype.refresh = function () {
+    this.contents.clear();
+    if (this._actor) {
+      this.drawActorName(this._actor, this.textPadding(), 0);
+      var line = 0;
+      for (var i = 0; i < 6; i++) {
+        if (
+          !ExcludeStatus.some(function (s) {
+            return i + 1 === Number(s);
+          })
+        ) {
+          this.drawItem(0, this.lineHeight() * (1 + line), 2 + i);
+          line++;
         }
-    };
-
-    Window_EquipStatus.prototype.refresh = function () {
-        this.contents.clear();
-        if (this._actor) {
-            this.drawActorName(this._actor, this.textPadding(), 0);
-            var line = 0;
-            for (var i = 0; i < 6; i++) {
-                if (!ExcludeStatus.some(function (s) { return i + 1 === Number(s); })) {
-                    this.drawItem(0, this.lineHeight() * (1 + line), 2 + i);
-                    line++;
-                }
-            }
-        }
-    };
-}());
+      }
+    }
+  };
+})();

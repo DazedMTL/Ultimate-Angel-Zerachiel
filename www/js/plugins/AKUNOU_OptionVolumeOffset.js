@@ -22,19 +22,17 @@
  */
 
 (function () {
+  var parameters = PluginManager.parameters("AKUNOU_OptionVolumeOffset");
+  var offset = Number(parameters["Offset"] || 1);
 
-	var parameters = PluginManager.parameters('AKUNOU_OptionVolumeOffset');
-	var offset = Number(parameters['Offset'] || 1);
+  //-------------------------------------------------------------------------
+  // Window_Options
+  //-------------------------------------------------------------------------
 
-	//-------------------------------------------------------------------------
-	// Window_Options
-	//-------------------------------------------------------------------------
-
-	Window_Options.prototype.volumeOffset = function () {
-		if (offset <= 0) {
-			return 1;
-		}
-		return offset;
-	};
-
+  Window_Options.prototype.volumeOffset = function () {
+    if (offset <= 0) {
+      return 1;
+    }
+    return offset;
+  };
 })();

@@ -158,42 +158,41 @@
  *
  * TMGoldLevelUp.js（お金でレベルアップ）と併用する場合、TMGoldLevelUp.jsの
  * バージョンが Ver1.11 以上である必要があります。
- * 
+ *
  */
 
 var Imported = Imported || {};
 Imported.TMRingCommand = true;
 
 (function () {
-
-  var parameters = PluginManager.parameters('TMRingCommand');
-  var useEscape = parameters['useEscape'] === '1' ? true : false;
-  var useCaption = parameters['useCaption'] === '1' ? true : false;
-  var saveLastIndex = parameters['saveLastIndex'] === '1' ? true : false;
-  var openResetIndex = parameters['openResetIndex'] === '1' ? true : false;
-  var openGoldWindow = parameters['openGoldWindow'] === '1' ? true : false;
-  var goldWindowX = Number(parameters['goldWindowX']);
-  var goldWindowY = Number(parameters['goldWindowY']);
-  var seOpenCommand = (new Function("return " + parameters['seOpenCommand']))();
-  var seCloseCommand = (new Function("return " + parameters['seCloseCommand']))();
+  var parameters = PluginManager.parameters("TMRingCommand");
+  var useEscape = parameters["useEscape"] === "1" ? true : false;
+  var useCaption = parameters["useCaption"] === "1" ? true : false;
+  var saveLastIndex = parameters["saveLastIndex"] === "1" ? true : false;
+  var openResetIndex = parameters["openResetIndex"] === "1" ? true : false;
+  var openGoldWindow = parameters["openGoldWindow"] === "1" ? true : false;
+  var goldWindowX = Number(parameters["goldWindowX"]);
+  var goldWindowY = Number(parameters["goldWindowY"]);
+  var seOpenCommand = new Function("return " + parameters["seOpenCommand"])();
+  var seCloseCommand = new Function("return " + parameters["seCloseCommand"])();
   var commandIcon = {};
-  commandIcon['item'] = Number(parameters['commandIconItem']);
-  commandIcon['skill'] = Number(parameters['commandIconSkill']);
-  commandIcon['equip'] = Number(parameters['commandIconEquip']);
-  commandIcon['status'] = Number(parameters['commandIconStatus']);
-  commandIcon['formation'] = Number(parameters['commandIconFormation']);
-  commandIcon['options'] = Number(parameters['commandIconOptions']);
-  commandIcon['save'] = Number(parameters['commandIconSave']);
-  commandIcon['gameEnd'] = Number(parameters['commandIconGameEnd']);
-  commandIcon['goldLevelUp'] = Number(parameters['commandIconGoldLevelUp']);
-  var rotateDuration = Number(parameters['rotateDuration']);
-  var iconDistX = Number(parameters['iconDistX']);
-  var iconDistY = Number(parameters['iconDistY']);
-  var iconSelectScale = Number(parameters['iconSelectScale']);
-  var captionWidth = Number(parameters['captionWidth']);
-  var captionHeight = Number(parameters['captionHeight']);
-  var captionShiftX = Number(parameters['captionShiftX']);
-  var captionShiftY = Number(parameters['captionShiftY']);
+  commandIcon["item"] = Number(parameters["commandIconItem"]);
+  commandIcon["skill"] = Number(parameters["commandIconSkill"]);
+  commandIcon["equip"] = Number(parameters["commandIconEquip"]);
+  commandIcon["status"] = Number(parameters["commandIconStatus"]);
+  commandIcon["formation"] = Number(parameters["commandIconFormation"]);
+  commandIcon["options"] = Number(parameters["commandIconOptions"]);
+  commandIcon["save"] = Number(parameters["commandIconSave"]);
+  commandIcon["gameEnd"] = Number(parameters["commandIconGameEnd"]);
+  commandIcon["goldLevelUp"] = Number(parameters["commandIconGoldLevelUp"]);
+  var rotateDuration = Number(parameters["rotateDuration"]);
+  var iconDistX = Number(parameters["iconDistX"]);
+  var iconDistY = Number(parameters["iconDistY"]);
+  var iconSelectScale = Number(parameters["iconSelectScale"]);
+  var captionWidth = Number(parameters["captionWidth"]);
+  var captionHeight = Number(parameters["captionHeight"]);
+  var captionShiftX = Number(parameters["captionShiftX"]);
+  var captionShiftY = Number(parameters["captionShiftY"]);
 
   //-----------------------------------------------------------------------------
   // Game_Temp
@@ -260,8 +259,8 @@ Imported.TMRingCommand = true;
     this.anchor.x = 0.5;
     this.anchor.y = 0.5;
     this._commandName = name;
-    this.bitmap = ImageManager.loadSystem('IconSet');
-    var bx = commandIcon[name] % 16 * Window_Base._iconWidth;
+    this.bitmap = ImageManager.loadSystem("IconSet");
+    var bx = (commandIcon[name] % 16) * Window_Base._iconWidth;
     var by = Math.floor(commandIcon[name] / 16) * Window_Base._iconHeight;
     this.setFrame(bx, by, Window_Base._iconWidth, Window_Base._iconHeight);
     this._targetPosAngle = 0;
@@ -269,7 +268,8 @@ Imported.TMRingCommand = true;
   };
 
   Sprite_TMRingCommandIcon.prototype.setIndex = function (index) {
-    this._targetPosAngle = Math.PI * 2 / this.parent._commandSprites.length * index;
+    this._targetPosAngle =
+      ((Math.PI * 2) / this.parent._commandSprites.length) * index;
     var r = this._targetPosAngle - this._posAngle;
     r -= Math.floor(r / (Math.PI * 2)) * (Math.PI * 2);
     if (r > Math.PI) {
@@ -285,11 +285,11 @@ Imported.TMRingCommand = true;
 
   Sprite_TMRingCommandIcon.prototype.isEnabled = function () {
     switch (this._commandName) {
-      case 'save':
+      case "save":
         return this.isSaveEnabled();
-      case 'options':
+      case "options":
         return this.isOptionsEnabled();
-      case 'gameEnd':
+      case "gameEnd":
         return this.isGameEndEnabled();
       default:
         return this.areMainCommandsEnabled();
@@ -333,7 +333,7 @@ Imported.TMRingCommand = true;
       scale *= iconSelectScale;
     }
     this.scale.set(scale, scale);
-    this.opacity = this.isEnabled() ? 255 : 160
+    this.opacity = this.isEnabled() ? 255 : 160;
   };
 
   //-----------------------------------------------------------------------------
@@ -345,7 +345,8 @@ Imported.TMRingCommand = true;
   }
 
   Sprite_TMRingCommandCaption.prototype = Object.create(Sprite.prototype);
-  Sprite_TMRingCommandCaption.prototype.constructor = Sprite_TMRingCommandCaption;
+  Sprite_TMRingCommandCaption.prototype.constructor =
+    Sprite_TMRingCommandCaption;
 
   Sprite_TMRingCommandCaption.prototype.initialize = function () {
     Sprite.prototype.initialize.call(this);
@@ -353,7 +354,7 @@ Imported.TMRingCommand = true;
     this.anchor.y = 0.5;
     this.x = captionShiftX;
     this.y = captionShiftY;
-    this._commandName = '';
+    this._commandName = "";
     this.bitmap = new Bitmap(captionWidth, captionHeight);
   };
 
@@ -367,10 +368,16 @@ Imported.TMRingCommand = true;
   Sprite_TMRingCommandCaption.prototype.refresh = function () {
     this.bitmap.clear();
     this.bitmap.paintOpacity = 160;
-    this.bitmap.fillRect(0, 0, 240, 48, '#000000');
+    this.bitmap.fillRect(0, 0, 240, 48, "#000000");
     this.bitmap.paintOpacity = 255;
-    this.bitmap.drawText(TextManager[this._commandName], 0, 0,
-      captionWidth, captionHeight, 'center');
+    this.bitmap.drawText(
+      TextManager[this._commandName],
+      0,
+      0,
+      captionWidth,
+      captionHeight,
+      "center"
+    );
   };
 
   //-----------------------------------------------------------------------------
@@ -394,7 +401,7 @@ Imported.TMRingCommand = true;
   };
 
   Sprite_TMRingCommand.prototype.makeCommandList = function () {
-    this._commandSprites = []
+    this._commandSprites = [];
     this.addMainCommands();
     this.addFormationCommand();
     this.addOptionsCommand();
@@ -408,31 +415,31 @@ Imported.TMRingCommand = true;
   };
 
   Sprite_TMRingCommand.prototype.addMainCommands = function () {
-    if (this.needsCommand('item')) {
-      var sprite = new Sprite_TMRingCommandIcon('item');
+    if (this.needsCommand("item")) {
+      var sprite = new Sprite_TMRingCommandIcon("item");
       this._commandSprites.push(sprite);
       this.addChild(sprite);
     }
-    if (this.needsCommand('skill')) {
-      var sprite = new Sprite_TMRingCommandIcon('skill');
+    if (this.needsCommand("skill")) {
+      var sprite = new Sprite_TMRingCommandIcon("skill");
       this._commandSprites.push(sprite);
       this.addChild(sprite);
     }
-    if (this.needsCommand('equip')) {
-      var sprite = new Sprite_TMRingCommandIcon('equip');
+    if (this.needsCommand("equip")) {
+      var sprite = new Sprite_TMRingCommandIcon("equip");
       this._commandSprites.push(sprite);
       this.addChild(sprite);
     }
-    if (this.needsCommand('status')) {
-      var sprite = new Sprite_TMRingCommandIcon('status');
+    if (this.needsCommand("status")) {
+      var sprite = new Sprite_TMRingCommandIcon("status");
       this._commandSprites.push(sprite);
       this.addChild(sprite);
     }
   };
 
   Sprite_TMRingCommand.prototype.addFormationCommand = function () {
-    if (this.needsCommand('formation')) {
-      var sprite = new Sprite_TMRingCommandIcon('formation');
+    if (this.needsCommand("formation")) {
+      var sprite = new Sprite_TMRingCommandIcon("formation");
       this._commandSprites.push(sprite);
       this.addChild(sprite);
     }
@@ -440,28 +447,28 @@ Imported.TMRingCommand = true;
 
   Sprite_TMRingCommand.prototype.addOriginalCommand = function () {
     if (Imported.TMGoldLevelUp && TextManager.goldLevelUp) {
-      var sprite = new Sprite_TMRingCommandIcon('goldLevelUp');
+      var sprite = new Sprite_TMRingCommandIcon("goldLevelUp");
       this._commandSprites.push(sprite);
       this.addChild(sprite);
     }
   };
 
   Sprite_TMRingCommand.prototype.addOptionsCommand = function () {
-    var sprite = new Sprite_TMRingCommandIcon('options');
+    var sprite = new Sprite_TMRingCommandIcon("options");
     this._commandSprites.push(sprite);
     this.addChild(sprite);
   };
 
   Sprite_TMRingCommand.prototype.addSaveCommand = function () {
-    if (this.needsCommand('save')) {
-      var sprite = new Sprite_TMRingCommandIcon('save');
+    if (this.needsCommand("save")) {
+      var sprite = new Sprite_TMRingCommandIcon("save");
       this._commandSprites.push(sprite);
       this.addChild(sprite);
     }
   };
 
   Sprite_TMRingCommand.prototype.addGameEndCommand = function () {
-    var sprite = new Sprite_TMRingCommandIcon('gameEnd');
+    var sprite = new Sprite_TMRingCommandIcon("gameEnd");
     this._commandSprites.push(sprite);
     this.addChild(sprite);
   };
@@ -470,17 +477,17 @@ Imported.TMRingCommand = true;
     var flags = $dataSystem.menuCommands;
     if (flags) {
       switch (name) {
-        case 'item':
+        case "item":
           return flags[0];
-        case 'skill':
+        case "skill":
           return flags[1];
-        case 'equip':
+        case "equip":
           return flags[2];
-        case 'status':
+        case "status":
           return flags[3];
-        case 'formation':
+        case "formation":
           return flags[4];
-        case 'save':
+        case "save":
           return flags[5];
       }
     }
@@ -501,7 +508,9 @@ Imported.TMRingCommand = true;
       if (this._commandRadius < 4) {
         if (this._commandRadius === 0) {
           if (openResetIndex) {
-            this._commandIndex = saveLastIndex ? $gameTemp.ringCommandLastIndex() : 0;
+            this._commandIndex = saveLastIndex
+              ? $gameTemp.ringCommandLastIndex()
+              : 0;
             this.refresh();
           }
           AudioManager.playSe(seOpenCommand);
@@ -531,29 +540,36 @@ Imported.TMRingCommand = true;
   };
 
   Sprite_TMRingCommand.prototype.updateVisible = function () {
-    if (SceneManager._scene.isBusy() || $gameMap.isEventRunning() ||
-      !$gameSystem.isMenuEnabled()) {
+    if (
+      SceneManager._scene.isBusy() ||
+      $gameMap.isEventRunning() ||
+      !$gameSystem.isMenuEnabled()
+    ) {
       $gameTemp.setRingCommandVisible(false);
     } else if (useEscape) {
     } else {
-      $gameTemp.setRingCommandVisible(Input.isPressed('control'));
+      $gameTemp.setRingCommandVisible(Input.isPressed("control"));
     }
 
     this.visible = this._commandRadius > 0;
   };
 
   Sprite_TMRingCommand.prototype.updateInput = function () {
-    if (Input.isRepeated('left') || (TouchInput.isRepeated() &&
-      TouchInput.x < $gamePlayer.screenX() - 24)) {
-      this._commandIndex--
+    if (
+      Input.isRepeated("left") ||
+      (TouchInput.isRepeated() && TouchInput.x < $gamePlayer.screenX() - 24)
+    ) {
+      this._commandIndex--;
       if (this._commandIndex < 0) {
         this._commandIndex = this._commandSprites.length - 1;
       }
       this.refresh();
       SoundManager.playCursor();
     }
-    if (Input.isRepeated('right') || (TouchInput.isRepeated() &&
-      TouchInput.x > $gamePlayer.screenX() + 24)) {
+    if (
+      Input.isRepeated("right") ||
+      (TouchInput.isRepeated() && TouchInput.x > $gamePlayer.screenX() + 24)
+    ) {
       this._commandIndex++;
       if (this._commandIndex >= this._commandSprites.length) {
         this._commandIndex = 0;
@@ -561,40 +577,43 @@ Imported.TMRingCommand = true;
       this.refresh();
       SoundManager.playCursor();
     }
-    if (Input.isTriggered('ok') || (TouchInput.isTriggered() &&
-      TouchInput.x >= $gamePlayer.screenX() - 24 &&
-      TouchInput.x <= $gamePlayer.screenX() + 24)) {
+    if (
+      Input.isTriggered("ok") ||
+      (TouchInput.isTriggered() &&
+        TouchInput.x >= $gamePlayer.screenX() - 24 &&
+        TouchInput.x <= $gamePlayer.screenX() + 24)
+    ) {
       var sprite = this._commandSprites[this._commandIndex];
       if (sprite.isEnabled()) {
         switch (sprite.name()) {
-          case 'item':
+          case "item":
             $gameTemp.setCalledByRingCommand(true);
             SceneManager.push(Scene_Item);
             break;
-          case 'skill':
+          case "skill":
             $gameTemp.setCalledByRingCommand(true);
             SceneManager.push(Scene_Skill);
             break;
-          case 'equip':
+          case "equip":
             SceneManager.push(Scene_Equip);
             break;
-          case 'status':
+          case "status":
             $gameTemp.setCalledByRingCommand(true);
             SceneManager.push(Scene_Status);
             break;
-          case 'formation':
+          case "formation":
             SceneManager.push(Scene_RCFormation);
             break;
-          case 'options':
+          case "options":
             SceneManager.push(Scene_Options);
             break;
-          case 'save':
+          case "save":
             SceneManager.push(Scene_Save);
             break;
-          case 'gameEnd':
+          case "gameEnd":
             SceneManager.push(Scene_GameEnd);
             break;
-          case 'goldLevelUp':
+          case "goldLevelUp":
             SceneManager.push(TMParam.Scene_GoldLevelUp);
             break;
         }
@@ -609,8 +628,11 @@ Imported.TMRingCommand = true;
         SoundManager.playBuzzer();
       }
     }
-    if (useEscape && this._commandRadius === 4 &&
-      (Input.isTriggered('menu') || TouchInput.isCancelled())) {
+    if (
+      useEscape &&
+      this._commandRadius === 4 &&
+      (Input.isTriggered("menu") || TouchInput.isCancelled())
+    ) {
       $gameTemp.setRingCommandVisible(false);
     }
   };
@@ -627,7 +649,8 @@ Imported.TMRingCommand = true;
   // Spriteset_Map
   //
 
-  var _Spriteset_Map_createLowerLayer = Spriteset_Map.prototype.createLowerLayer;
+  var _Spriteset_Map_createLowerLayer =
+    Spriteset_Map.prototype.createLowerLayer;
   Spriteset_Map.prototype.createLowerLayer = function () {
     _Spriteset_Map_createLowerLayer.call(this);
     this.createRingCommand();
@@ -675,7 +698,8 @@ Imported.TMRingCommand = true;
   // Window_Message
   //
 
-  var _Window_Message_updatePlacement = Window_Message.prototype.updatePlacement;
+  var _Window_Message_updatePlacement =
+    Window_Message.prototype.updatePlacement;
   Window_Message.prototype.updatePlacement = function () {
     _Window_Message_updatePlacement.call(this);
     this._goldWindow.x = Graphics.boxWidth - this._goldWindow.width;
@@ -692,7 +716,7 @@ Imported.TMRingCommand = true;
       $gameTemp.setCalledByRingCommand(false);
       this._actorWindow.refresh();
     }
-  }
+  };
 
   //-----------------------------------------------------------------------------
   // Scene_Skill
@@ -706,7 +730,7 @@ Imported.TMRingCommand = true;
       this._actorWindow.refresh();
       this._statusWindow.refresh();
     }
-  }
+  };
 
   //-----------------------------------------------------------------------------
   // Scene_Status
@@ -719,7 +743,7 @@ Imported.TMRingCommand = true;
       $gameTemp.setCalledByRingCommand(false);
       this._statusWindow.refresh();
     }
-  }
+  };
 
   //-----------------------------------------------------------------------------
   // Scene_Map
@@ -761,8 +785,8 @@ Imported.TMRingCommand = true;
     this._statusWindow.setFormationMode(true);
     this._statusWindow.selectLast();
     this._statusWindow.activate();
-    this._statusWindow.setHandler('ok', this.onFormationOk.bind(this));
-    this._statusWindow.setHandler('cancel', this.onFormationCancel.bind(this));
+    this._statusWindow.setHandler("ok", this.onFormationOk.bind(this));
+    this._statusWindow.setHandler("cancel", this.onFormationCancel.bind(this));
   };
 
   Scene_RCFormation.prototype.createStatusWindow = function () {
@@ -793,5 +817,4 @@ Imported.TMRingCommand = true;
       this.popScene();
     }
   };
-
 })();

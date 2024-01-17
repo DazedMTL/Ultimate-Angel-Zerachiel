@@ -23,7 +23,7 @@
  *
  * @param BgmName 1
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -36,7 +36,7 @@
  *
  * @param BgmName 2
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -49,7 +49,7 @@
  *
  * @param BgmName 3
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -62,7 +62,7 @@
  *
  * @param BgmName 4
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -75,7 +75,7 @@
  *
  * @param BgmName 5
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -88,7 +88,7 @@
  *
  * @param BgmName 6
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -101,7 +101,7 @@
  *
  * @param BgmName 7
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -114,7 +114,7 @@
  *
  * @param BgmName 8
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -127,7 +127,7 @@
  *
  * @param BgmName 9
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -140,7 +140,7 @@
  *
  * @param BgmName 10
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -153,7 +153,7 @@
  *
  * @param BgmName 11
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -166,7 +166,7 @@
  *
  * @param BgmName 12
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -179,7 +179,7 @@
  *
  * @param BgmName 13
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -192,7 +192,7 @@
  *
  * @param BgmName 14
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -205,7 +205,7 @@
  *
  * @param BgmName 15
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -218,7 +218,7 @@
  *
  * @param BgmName 16
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -231,7 +231,7 @@
  *
  * @param BgmName 17
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -244,7 +244,7 @@
  *
  * @param BgmName 18
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -257,7 +257,7 @@
  *
  * @param BgmName 19
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -270,7 +270,7 @@
  *
  * @param BgmName 20
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -283,7 +283,7 @@
  *
  * @param BgmName 21
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -296,7 +296,7 @@
  *
  * @param BgmName 22
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -309,7 +309,7 @@
  *
  * @param BgmName 23
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -322,7 +322,7 @@
  *
  * @param BgmName 24
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -335,7 +335,7 @@
  *
  * @param BgmName 25
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -348,7 +348,7 @@
  *
  * @param BgmName 26
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -361,7 +361,7 @@
  *
  * @param BgmName 27
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -374,7 +374,7 @@
  *
  * @param BgmName 28
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -387,7 +387,7 @@
  *
  * @param BgmName 29
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -400,7 +400,7 @@
  *
  * @param BgmName 30
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -413,7 +413,7 @@
  *
  * @param BgmName 31
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -426,7 +426,7 @@
  *
  * @param BgmName 32
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -439,7 +439,7 @@
  *
  * @param BgmName 33
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -452,7 +452,7 @@
  *
  * @param BgmName 34
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -465,7 +465,7 @@
  *
  * @param BgmName 35
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -478,7 +478,7 @@
  *
  * @param BgmName 36
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -491,7 +491,7 @@
  *
  * @param BgmName 37
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -504,7 +504,7 @@
  *
  * @param BgmName 38
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -517,7 +517,7 @@
  *
  * @param BgmName 39
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -530,7 +530,7 @@
  *
  * @param BgmName 40
  * @desc 音量を設定するBGM
- * @default 
+ * @default
  * @type file
  * @dir audio/bgm
  *
@@ -540,7 +540,7 @@
  * @type number
  * @min -1
  * @max 100
- * 
+ *
  * @help
  * BGMを再生する音量を、プラグインで設定した値に統一します。
  * BGMごとに音量を設定します。
@@ -549,7 +549,7 @@
  * 拡張子を除外して入力してください。
  * × sample.ogg
  * ○ sample
- * 
+ *
  * 指定した番号のスイッチがオンの場合、プラグインの機能は無効になり、
  * 通常の(イベントコマンドなどで指定した)音量で再生されます。
  *
@@ -562,40 +562,38 @@
  *
  * [ 更新 2019/1/11 ]
  * インポートしたBGMを一覧から選択可能に(MV 1.5.0以降)
- * 
+ *
  *
  */
 
 (function () {
+  var volumeList = {};
 
-    var volumeList = {};
+  var parameters = PluginManager.parameters("Kpp_BgmVolume");
 
-    var parameters = PluginManager.parameters('Kpp_BgmVolume');
+  var disableSwitch = Number(parameters["DisableSwitch"] || 0);
 
-    var disableSwitch = Number(parameters['DisableSwitch'] || 0);
+  for (var i = 1; i <= 40; i++) {
+    var bgmName = String(parameters["BgmName " + i] || "");
+    if (bgmName != "") {
+      var bgmVolume = Number(parameters["Volume " + i] || -1);
+      if (bgmVolume > 100) {
+        bgmVolume = 100;
+      }
+      if (bgmVolume >= 0) {
+        volumeList[bgmName] = bgmVolume;
+      }
+    }
+  }
 
-    for (var i = 1; i <= 40; i++) {
-        var bgmName = String(parameters['BgmName ' + i] || "");
-        if (bgmName != "") {
-            var bgmVolume = Number(parameters['Volume ' + i] || -1);
-            if (bgmVolume > 100) {
-                bgmVolume = 100;
-            }
-            if (bgmVolume >= 0) {
-                volumeList[bgmName] = bgmVolume;
-            }
-        }
+  var _AudioManager_playBgm = AudioManager.playBgm;
+  AudioManager.playBgm = function (bgm, pos) {
+    if (disableSwitch <= 0 || !$gameSwitches.value(disableSwitch)) {
+      if (bgm.name in volumeList) {
+        bgm.volume = volumeList[bgm.name];
+      }
     }
 
-    var _AudioManager_playBgm = AudioManager.playBgm;
-    AudioManager.playBgm = function (bgm, pos) {
-        if (disableSwitch <= 0 || !$gameSwitches.value(disableSwitch)) {
-            if (bgm.name in volumeList) {
-                bgm.volume = volumeList[bgm.name];
-            }
-        }
-
-        _AudioManager_playBgm.call(this, bgm, pos);
-    };
-
-}());
+    _AudioManager_playBgm.call(this, bgm, pos);
+  };
+})();
