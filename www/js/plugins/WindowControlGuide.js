@@ -11,7 +11,7 @@
 //
 
 var Imported = Imported || {};
-Imported['WindowControlGuide'] = 1.00;
+Imported["WindowControlGuide"] = 1.0;
 
 /*:
  * @plugindesc ver1.00/操作説明など、任意のテキストを表示するウィンドウをアイテム画面などに追加します。
@@ -91,302 +91,317 @@ Imported['WindowControlGuide'] = 1.00;
  */
 
 (function () {
+  "use strict";
 
-    'use strict';
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  var parameters = PluginManager.parameters("WindowControlGuide");
+  var itemCategoryGuide = parameters["ItemCategoryGuide"];
+  var itemListGuide = parameters["ItemListGuide"];
+  var equipCommandGuide = parameters["EquipCommandGuide"];
+  var equipSlotGuide = parameters["EquipSlotGuide"];
+  var equipListGuide = parameters["EquipItemGuide"];
+  var skillTypeGuide = parameters["SkillTypeGuide"];
+  var skillListGuide = parameters["SkillListGuide"];
+  var sellItemGuide = parameters["SellItemGuide"];
+  var itemDropGuide = parameters["ItemDropGuide"];
+  var itemAbolitionGuide = parameters["ItemAbolitionGuide"];
+  var itemAbolitionDropGuide = parameters["ItemAbolitionDropGuide"];
 
-    var parameters = PluginManager.parameters('WindowControlGuide');
-    var itemCategoryGuide = parameters['ItemCategoryGuide'];
-    var itemListGuide = parameters['ItemListGuide'];
-    var equipCommandGuide = parameters['EquipCommandGuide'];
-    var equipSlotGuide = parameters['EquipSlotGuide'];
-    var equipListGuide = parameters['EquipItemGuide'];
-    var skillTypeGuide = parameters['SkillTypeGuide'];
-    var skillListGuide = parameters['SkillListGuide'];
-    var sellItemGuide = parameters['SellItemGuide'];
-    var itemDropGuide = parameters['ItemDropGuide'];
-    var itemAbolitionGuide = parameters['ItemAbolitionGuide'];
-    var itemAbolitionDropGuide = parameters['ItemAbolitionDropGuide'];
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_Selectable.prototype.setGuideWindow = function (window) {
+    this._guideWindow = window;
+  };
 
-    Window_Selectable.prototype.setGuideWindow = function (window) {
-        this._guideWindow = window;
-    };
+  Window_Selectable.prototype.setGuideText = function (text) {
+    if (this._guideWindow) this._guideWindow.setText(text);
+  };
 
-    Window_Selectable.prototype.setGuideText = function (text) {
-        if (this._guideWindow) this._guideWindow.setText(text);
-    };
+  var __WSelectable_activate = Window_Selectable.prototype.activate;
+  Window_Selectable.prototype.activate = function () {
+    __WSelectable_activate.call(this);
+    this.setGuideText(this.guideText());
+  };
 
-    var __WSelectable_activate = Window_Selectable.prototype.activate;
-    Window_Selectable.prototype.activate = function () {
-        __WSelectable_activate.call(this);
-        this.setGuideText(this.guideText());
-    };
+  Window_Selectable.prototype.guideText = function () {
+    return "";
+  };
 
-    Window_Selectable.prototype.guideText = function () {
-        return '';
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  function Window_ItemGuide() {
+    this.initialize.apply(this, arguments);
+  }
 
-    function Window_ItemGuide() {
-        this.initialize.apply(this, arguments);
+  Window_ItemGuide.prototype = Object.create(Window_Base.prototype);
+  Window_ItemGuide.prototype.constructor = Window_ItemGuide;
+
+  Window_ItemGuide.prototype.initialize = function (x, y, width) {
+    Window_Base.prototype.initialize.call(
+      this,
+      x,
+      y,
+      width,
+      this.windowHeight()
+    );
+    this.createSprite();
+    this.setText("");
+  };
+
+  Window_ItemGuide.prototype.createSprite = function () {
+    this._sprite = new Sprite();
+    this._sprite.x = 4;
+    this._sprite.y = 4;
+    this.addChild(this._sprite);
+  };
+
+  Window_ItemGuide.prototype.windowHeight = function () {
+    return 36;
+  };
+
+  Window_ItemGuide.prototype.standardFontSize = function () {
+    return 20;
+  };
+
+  Window_ItemGuide.prototype.setText = function (text) {
+    this._text = text;
+    this.refresh();
+  };
+
+  Window_ItemGuide.prototype.refresh = function () {
+    if (this._sprite.bitmap) this._sprite.bitmap.clear();
+    if (this._text) {
+      var w = this.width - 8;
+      var h = 24;
+      var bitmap = new Bitmap(w, h);
+      bitmap.fontSize = 20;
+      this.contents = bitmap;
+      var width = this.textWidthEx(this.convertEscapeCharacters(this._text));
+      var x = (w - width) / 2;
+      this.drawTextEx(this._text, x, 0);
+      this._sprite.bitmap = bitmap;
+      this.contents = null;
     }
+  };
 
-    Window_ItemGuide.prototype = Object.create(Window_Base.prototype);
-    Window_ItemGuide.prototype.constructor = Window_ItemGuide;
-
-    Window_ItemGuide.prototype.initialize = function (x, y, width) {
-        Window_Base.prototype.initialize.call(this, x, y, width, this.windowHeight());
-        this.createSprite();
-        this.setText('');
-    };
-
-    Window_ItemGuide.prototype.createSprite = function () {
-        this._sprite = new Sprite();
-        this._sprite.x = 4;
-        this._sprite.y = 4;
-        this.addChild(this._sprite);
-    };
-
-    Window_ItemGuide.prototype.windowHeight = function () {
-        return 36;
-    };
-
-    Window_ItemGuide.prototype.standardFontSize = function () {
-        return 20;
-    };
-
-    Window_ItemGuide.prototype.setText = function (text) {
-        this._text = text;
-        this.refresh();
-    };
-
-    Window_ItemGuide.prototype.refresh = function () {
-        if (this._sprite.bitmap) this._sprite.bitmap.clear();
-        if (this._text) {
-            var w = this.width - 8;
-            var h = 24;
-            var bitmap = new Bitmap(w, h);
-            bitmap.fontSize = 20;
-            this.contents = bitmap;
-            var width = this.textWidthEx(this.convertEscapeCharacters(this._text));
-            var x = (w - width) / 2;
-            this.drawTextEx(this._text, x, 0);
-            this._sprite.bitmap = bitmap;
-            this.contents = null;
-        }
-    };
-
-
-    if (!Imported['MessageAlignmentEC']) {
-        Window_ItemGuide.prototype.textWidthEx = function (text) {
-            var result = 0;
-            text = text.replace(/\x1bC\[\d+\]/gi, '');
-            text = text.replace(/\x1bI\[\d+\]/gi, function () {
-                result += Window_Base._iconWidth;
-                return '';
-            }.bind(this));
-            for (var i = 0, max = text.length; i < max; i++) {
-                var c = text[i];
-                if (c === '\x1b') {
-                    i++;
-                    c = text[i];
-                    if (c === '{') {
-                        this.makeFontBigger();
-                    } else if (c === '}') {
-                        this.makeFontSmaller();
-                    } else if (c === 'F' && text[i + 1] === 'S') {
-                        var cc = '\x1b';
-                        for (var j = i; j < max; j++) {
-                            cc += text[j];
-                            if (text[j] === ']') {
-                                if (cc.match(/\x1bFS\[(\d+)\]/i)) this.contents.fontSize = Number(RegExp.$1);
-                                i = j;
-                                break;
-                            }
-                        }
-                    }
-                } else {
-                    result += this.textWidth(c);
-                }
+  if (!Imported["MessageAlignmentEC"]) {
+    Window_ItemGuide.prototype.textWidthEx = function (text) {
+      var result = 0;
+      text = text.replace(/\x1bC\[\d+\]/gi, "");
+      text = text.replace(
+        /\x1bI\[\d+\]/gi,
+        function () {
+          result += Window_Base._iconWidth;
+          return "";
+        }.bind(this)
+      );
+      for (var i = 0, max = text.length; i < max; i++) {
+        var c = text[i];
+        if (c === "\x1b") {
+          i++;
+          c = text[i];
+          if (c === "{") {
+            this.makeFontBigger();
+          } else if (c === "}") {
+            this.makeFontSmaller();
+          } else if (c === "F" && text[i + 1] === "S") {
+            var cc = "\x1b";
+            for (var j = i; j < max; j++) {
+              cc += text[j];
+              if (text[j] === "]") {
+                if (cc.match(/\x1bFS\[(\d+)\]/i))
+                  this.contents.fontSize = Number(RegExp.$1);
+                i = j;
+                break;
+              }
             }
-            return result;
-        };
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////
-
-    Window_ItemCategory.prototype.guideText = function () {
-        return itemCategoryGuide;
-    };
-
-    ////////////////////////////////////////////////////////////////////////////////////
-
-    Window_ItemList.prototype.setGuideWindow = function (window) {
-        Window_Selectable.prototype.setGuideWindow.call(this, window);
-        this.height = this.height - 36;
-        this.refresh();
-    };
-
-    Window_ItemList.prototype.guideText = function () {
-        if (Imported['LimitPossession']) {
-            if (this._abolitionMode) {
-                return this._category === 'drop' ? itemAbolitionDropGuide : itemAbolitionGuide;
-            } else {
-                return this._category === 'drop' ? itemDropGuide : itemListGuide;
-            }
+          }
         } else {
-            return itemListGuide;
+          result += this.textWidth(c);
         }
+      }
+      return result;
     };
+  }
 
-    var __WIList_refresh = Window_ItemList.prototype.refresh;
-    Window_ItemList.prototype.refresh = function () {
-        __WIList_refresh.call(this);
-        if (this.active) this.setGuideText(this.guideText());
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_ItemCategory.prototype.guideText = function () {
+    return itemCategoryGuide;
+  };
 
-    Window_EquipCommand.prototype.guideText = function () {
-        return equipCommandGuide;
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_ItemList.prototype.setGuideWindow = function (window) {
+    Window_Selectable.prototype.setGuideWindow.call(this, window);
+    this.height = this.height - 36;
+    this.refresh();
+  };
 
-    Window_EquipSlot.prototype.guideText = function () {
-        return equipSlotGuide;
-    };
+  Window_ItemList.prototype.guideText = function () {
+    if (Imported["LimitPossession"]) {
+      if (this._abolitionMode) {
+        return this._category === "drop"
+          ? itemAbolitionDropGuide
+          : itemAbolitionGuide;
+      } else {
+        return this._category === "drop" ? itemDropGuide : itemListGuide;
+      }
+    } else {
+      return itemListGuide;
+    }
+  };
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  var __WIList_refresh = Window_ItemList.prototype.refresh;
+  Window_ItemList.prototype.refresh = function () {
+    __WIList_refresh.call(this);
+    if (this.active) this.setGuideText(this.guideText());
+  };
 
-    Window_EquipItem.prototype.guideText = function () {
-        return equipListGuide;
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_EquipCommand.prototype.guideText = function () {
+    return equipCommandGuide;
+  };
 
-    Window_SkillType.prototype.guideText = function () {
-        return skillTypeGuide;
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_EquipSlot.prototype.guideText = function () {
+    return equipSlotGuide;
+  };
 
-    Window_SkillList.prototype.setGuideWindow = function (window) {
-        Window_Selectable.prototype.setGuideWindow.call(this, window);
-        this.height = this.height - 36;
-        this.refresh();
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    Window_SkillList.prototype.guideText = function () {
-        return skillListGuide;
-    };
+  Window_EquipItem.prototype.guideText = function () {
+    return equipListGuide;
+  };
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    Window_ShopSell.prototype.setGuideWindow = function (window) {
-        Window_Selectable.prototype.setGuideWindow.call(this, window);
-        this.height = this.height - 36;
-        this.refresh();
-    };
+  Window_SkillType.prototype.guideText = function () {
+    return skillTypeGuide;
+  };
 
-    Window_ShopSell.prototype.guideText = function () {
-        return sellItemGuide;
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_SkillList.prototype.setGuideWindow = function (window) {
+    Window_Selectable.prototype.setGuideWindow.call(this, window);
+    this.height = this.height - 36;
+    this.refresh();
+  };
 
-    var __SItem_create = Scene_Item.prototype.create;
-    Scene_Item.prototype.create = function () {
-        __SItem_create.call(this);
-        if (itemCategoryGuide || itemDropGuide || itemListGuide || itemAbolitionGuide || itemAbolitionDropGuide) {
-            this.createGuideWindow();
-            this._itemWindow.setGuideWindow(this._guideWindow);
-            this._categoryWindow.setGuideWindow(this._guideWindow);
-            this._guideWindow.y = this._itemWindow.y + this._itemWindow.height;
-            if (this._categoryWindow.active) this._categoryWindow.activate();
-            if (this._itemWindow.active) this._itemWindow.activate();
-        }
-    };
+  Window_SkillList.prototype.guideText = function () {
+    return skillListGuide;
+  };
 
-    Scene_Item.prototype.createGuideWindow = function () {
-        var x = this._itemWindow.x;
-        var y = 0;
-        this._guideWindow = new Window_ItemGuide(x, y, this._itemWindow.width);
-        this._windowLayer.addChildAt(this._guideWindow, 0);
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  Window_ShopSell.prototype.setGuideWindow = function (window) {
+    Window_Selectable.prototype.setGuideWindow.call(this, window);
+    this.height = this.height - 36;
+    this.refresh();
+  };
 
-    var __SEquip_create = Scene_Equip.prototype.create;
-    Scene_Equip.prototype.create = function () {
-        __SEquip_create.call(this);
-        if (equipCommandGuide || equipSlotGuide || equipListGuide) {
-            this.createGuideWindow();
-            this._commandWindow.setGuideWindow(this._guideWindow);
-            this._slotWindow.setGuideWindow(this._guideWindow);
-            this._itemWindow.setGuideWindow(this._guideWindow);
-            this._guideWindow.y = this._itemWindow.y + this._itemWindow.height;
-            if (this._commandWindow.active) this._commandWindow.activate();
-            if (this._slotWindow.active) this._slotWindow.activate();
-            if (this._itemWindow.active) this._itemWindow.activate();
-        }
-    };
+  Window_ShopSell.prototype.guideText = function () {
+    return sellItemGuide;
+  };
 
-    Scene_Equip.prototype.createGuideWindow = function () {
-        var x = this._itemWindow.x;
-        var y = 0;
-        this._guideWindow = new Window_ItemGuide(x, y, this._itemWindow.width);
-        this._windowLayer.addChildAt(this._guideWindow, 0);
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  var __SItem_create = Scene_Item.prototype.create;
+  Scene_Item.prototype.create = function () {
+    __SItem_create.call(this);
+    if (
+      itemCategoryGuide ||
+      itemDropGuide ||
+      itemListGuide ||
+      itemAbolitionGuide ||
+      itemAbolitionDropGuide
+    ) {
+      this.createGuideWindow();
+      this._itemWindow.setGuideWindow(this._guideWindow);
+      this._categoryWindow.setGuideWindow(this._guideWindow);
+      this._guideWindow.y = this._itemWindow.y + this._itemWindow.height;
+      if (this._categoryWindow.active) this._categoryWindow.activate();
+      if (this._itemWindow.active) this._itemWindow.activate();
+    }
+  };
 
-    var __SSkill_create = Scene_Skill.prototype.create;
-    Scene_Skill.prototype.create = function () {
-        __SSkill_create.call(this);
-        if (skillListGuide || skillTypeGuide) {
-            this.createGuideWindow();
-            this._skillTypeWindow.setGuideWindow(this._guideWindow);
-            this._itemWindow.setGuideWindow(this._guideWindow);
-            this._guideWindow.y = this._itemWindow.y + this._itemWindow.height;
-            if (this._skillTypeWindow.active) this._skillTypeWindow.activate();
-            if (this._itemWindow.active) this._itemWindow.activate();
-        }
-    };
+  Scene_Item.prototype.createGuideWindow = function () {
+    var x = this._itemWindow.x;
+    var y = 0;
+    this._guideWindow = new Window_ItemGuide(x, y, this._itemWindow.width);
+    this._windowLayer.addChildAt(this._guideWindow, 0);
+  };
 
-    Scene_Skill.prototype.createGuideWindow = function () {
-        var x = this._itemWindow.x;
-        var y = 0;
-        this._guideWindow = new Window_ItemGuide(x, y, this._itemWindow.width);
-        this._windowLayer.addChildAt(this._guideWindow, 0);
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  var __SEquip_create = Scene_Equip.prototype.create;
+  Scene_Equip.prototype.create = function () {
+    __SEquip_create.call(this);
+    if (equipCommandGuide || equipSlotGuide || equipListGuide) {
+      this.createGuideWindow();
+      this._commandWindow.setGuideWindow(this._guideWindow);
+      this._slotWindow.setGuideWindow(this._guideWindow);
+      this._itemWindow.setGuideWindow(this._guideWindow);
+      this._guideWindow.y = this._itemWindow.y + this._itemWindow.height;
+      if (this._commandWindow.active) this._commandWindow.activate();
+      if (this._slotWindow.active) this._slotWindow.activate();
+      if (this._itemWindow.active) this._itemWindow.activate();
+    }
+  };
 
-    var __SShop_create = Scene_Shop.prototype.create;
-    Scene_Shop.prototype.create = function () {
-        __SShop_create.call(this);
-        if (sellItemGuide) {
-            this.createGuideWindow();
-            this._sellWindow.setGuideWindow(this._guideWindow);
-            this._categoryWindow.setGuideWindow(this._guideWindow);
-            this._guideWindow.y = this._sellWindow.y + this._sellWindow.height;
-            if (this._categoryWindow.active) this._categoryWindow.activate();
-            if (this._sellWindow.active) this._sellWindow.activate();
-        }
-    };
+  Scene_Equip.prototype.createGuideWindow = function () {
+    var x = this._itemWindow.x;
+    var y = 0;
+    this._guideWindow = new Window_ItemGuide(x, y, this._itemWindow.width);
+    this._windowLayer.addChildAt(this._guideWindow, 0);
+  };
 
-    Scene_Shop.prototype.createGuideWindow = function () {
-        var x = this._sellWindow.x;
-        var y = 0;
-        this._guideWindow = new Window_ItemGuide(x, y, this._sellWindow.width);
-        this._windowLayer.addChildAt(this._guideWindow, 0);
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  var __SSkill_create = Scene_Skill.prototype.create;
+  Scene_Skill.prototype.create = function () {
+    __SSkill_create.call(this);
+    if (skillListGuide || skillTypeGuide) {
+      this.createGuideWindow();
+      this._skillTypeWindow.setGuideWindow(this._guideWindow);
+      this._itemWindow.setGuideWindow(this._guideWindow);
+      this._guideWindow.y = this._itemWindow.y + this._itemWindow.height;
+      if (this._skillTypeWindow.active) this._skillTypeWindow.activate();
+      if (this._itemWindow.active) this._itemWindow.activate();
+    }
+  };
 
-}());
+  Scene_Skill.prototype.createGuideWindow = function () {
+    var x = this._itemWindow.x;
+    var y = 0;
+    this._guideWindow = new Window_ItemGuide(x, y, this._itemWindow.width);
+    this._windowLayer.addChildAt(this._guideWindow, 0);
+  };
+
+  ////////////////////////////////////////////////////////////////////////////////////
+
+  var __SShop_create = Scene_Shop.prototype.create;
+  Scene_Shop.prototype.create = function () {
+    __SShop_create.call(this);
+    if (sellItemGuide) {
+      this.createGuideWindow();
+      this._sellWindow.setGuideWindow(this._guideWindow);
+      this._categoryWindow.setGuideWindow(this._guideWindow);
+      this._guideWindow.y = this._sellWindow.y + this._sellWindow.height;
+      if (this._categoryWindow.active) this._categoryWindow.activate();
+      if (this._sellWindow.active) this._sellWindow.activate();
+    }
+  };
+
+  Scene_Shop.prototype.createGuideWindow = function () {
+    var x = this._sellWindow.x;
+    var y = 0;
+    this._guideWindow = new Window_ItemGuide(x, y, this._sellWindow.width);
+    this._windowLayer.addChildAt(this._guideWindow, 0);
+  };
+
+  ////////////////////////////////////////////////////////////////////////////////////
+})();

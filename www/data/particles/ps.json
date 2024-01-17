@@ -1,419 +1,419 @@
 {
-	"hbreak1": {
-		"filepath": "card_system/ps_heart",
-		"anchor": [
-			0.5,
-			0.5
-		],
-		"blendMode": 3,
-		"maxSize": 16,
-		"loop": false,
-		"duration": 110,
-		"emit": {
-			"bursts": [
-				[
-					0,
-					8
-				],
-				[
-					30,
-					8
-				],
-				[
-					60,
-					8
-				]
-			]
-		},
-		"lifetime": [
-			30,
-			50
-		],
-		"position": {
-			"startX": [
-				-20,
-				20
-			],
-			"startY": [
-				-5,
-				5
-			]
-		},
-		"velocity": {
-			"initX": [
-				-14,
-				14
-			],
-			"initY": [
-				-14,
-				14
-			],
-			"speedX": 0,
-			"speedY": 0,
-			"dampen": [
-				1,
-				0.1
-			]
-		},
-		"rotation": {
-			"start": [
-				-1,
-				1
-			],
-			"end": [
-				-2,
-				2
-			]
-		},
-		"scale": {
-			"start": [
-				0.5,
-				0.9
-			],
-			"end": [
-				0.4,
-				0.6
-			]
-		},
-		"size": {},
-		"opacity": {
-			"start": 255,
-			"end": 128
-		},
-		"color": {
-			"start": [
-				128,
-				0,
-				255,
-				150
-			]
-		}
-	},
-	"ShieldBreak1": {
-		"filepath": "card_system/ps_shieldbreak",
-		"anchor": [
-			0.5,
-			0.5
-		],
-		"blendMode": 0,
-		"maxSize": 4,
-		"loop": false,
-		"duration": 120,
-		"emit": {
-			"bursts": [
-				[
-					0,
-					4
-				]
-			]
-		},
-		"lifetime": 120,
-		"position": {
-			"startX": [
-				-65,
-				-75
-			],
-			"startY": [
-				-5,
-				5
-			]
-		},
-		"velocity": {
-			"initX": [
-				-2,
-				2
-			],
-			"initY": [
-				-4,
-				-6
-			],
-			"speedX": 0,
-			"speedY": 0.2
-		},
-		"rotation": {
-			"start": [
-				-10,
-				10
-			],
-			"end": [
-				-70,
-				70
-			]
-		},
-		"scale": {
-			"start": 1
-		},
-		"size": {},
-		"opacity": {
-			"start": 255,
-			"end": 255
-		},
-		"color": {}
-	},
-	"ShieldBreak2": {
-		"filepath": "card_system/ps_blast",
-		"anchor": [
-			0.5,
-			0.5
-		],
-		"blendMode": 1,
-		"maxSize": 2,
-		"loop": false,
-		"duration": 60,
-		"emit": {
-			"bursts": [
-				[
-					0,
-					1
-				]
-			]
-		},
-		"lifetime": 60,
-		"position": {
-			"startX": -70,
-			"startY": 0
-		},
-		"rotation": {
-			"start": [
-				0,
-				360
-			]
-		},
-		"scale": {
-			"start": 1,
-			"end": 0
-		},
-		"size": {},
-		"opacity": {
-			"start": 255,
-			"end": 0
-		},
-		"color": {
-			"start": [
-				255,
-				255,
-				255,
-				255
-			]
-		}
-	},
-	"Blast": {
-		"filepath": "card_system/ps_blast",
-		"anchor": [
-			0.5,
-			0.5
-		],
-		"blendMode": 1,
-		"maxSize": 3,
-		"loop": false,
-		"duration": 30,
-		"emit": {
-			"bursts": [
-				[
-					0,
-					1
-				],
-				[
-					5,
-					1
-				],
-				[
-					10,
-					1
-				]
-			]
-		},
-		"lifetime": [
-			3,
-			7
-		],
-		"position": {
-			"startX": [
-				-50,
-				50
-			],
-			"startY": [
-				-50,
-				50
-			]
-		},
-		"rotation": {
-			"start": [
-				0,
-				360
-			]
-		},
-		"scale": {
-			"start": 1.5,
-			"end": 2.5
-		},
-		"size": {},
-		"opacity": {
-			"start": 255,
-			"end": 0
-		},
-		"color": {}
-	},
-	"Kira": {
-		"filepath": "card_system/ps_kira",
-		"anchor": [
-			0.5,
-			0.5
-		],
-		"blendMode": 1,
-		"maxSize": 50,
-		"loop": false,
-		"duration": 60,
-		"emit": {
-			"interval": 1
-		},
-		"lifetime": [
-			5,
-			10
-		],
-		"position": {
-			"startX": [
-				-100,
-				100
-			],
-			"startY": [
-				-200,
-				100
-			]
-		},
-		"rotation": {
-			"start": [
-				0,
-				360
-			]
-		},
-		"scale": {
-			"start": 1,
-			"end": 0.5
-		},
-		"size": {},
-		"opacity": {
-			"start": 255,
-			"end": 0
-		},
-		"color": {}
-	},
-	"Outline": {
-		"filepath": "card_system/ps_outline",
-		"anchor": [
-			0.5,
-			0.5
-		],
-		"blendMode": 3,
-		"maxSize": 3,
-		"loop": true,
-		"duration": 120,
-		"emit": {
-			"interval": 40
-		},
-		"lifetime": 120,
-		"position": {},
-		"rotation": {},
-		"scale": {
-			"start": 1,
-			"end": 1.1
-		},
-		"size": {},
-		"opacity": {
-			"start": 255,
-			"end": 0
-		},
-		"color": {}
-	},
-	"ShowTransformCard": {
-		"filepath": "card_system/ps_vglow",
-		"anchor": [
-			0.5,
-			1.0
-		],
-		"blendMode": 1,
-		"maxSize": 7,
-		"loop": false,
-		"duration": 100,
-		"emit": {
-			"interval": [
-				3,
-				8
-			]
-		},
-		"lifetime": [
-			5,
-			20
-		],
-		"position": {},
-		"rotation": {},
-		"scale": {},
-		"size": {},
-		"opacity": {
-			"start": [
-				255,
-				60
-			],
-			"end": 50
-		},
-		"color": {
-			"start": [
-				128,
-				0,
-				255,
-				150
-			]
-		}
-	},
-	"Light": {
-		"filepath": "card_system/ps_light",
-		"anchor": [
-			0.5,
-			0.5
-		],
-		"blendMode": 1,
-		"maxSize": 10,
-		"loop": false,
-		"duration": 100,
-		"emit": {
-			"interval": [
-				5,
-				10
-			]
-		},
-		"lifetime": [
-			4,
-			8
-		],
-		"position": {
-			"startX": 512,
-			"startY": 288
-		},
-		"rotation": {
-			"start": [
-				0,
-				360
-			]
-		},
-		"scale": {
-			"startX": 3.5,
-			"startY": 4.0
-		},
-		"size": {},
-		"opacity": {
-			"start": [
-				255,
-				60
-			],
-			"end": 20
-		},
-		"color": {
-			"start": [
-				0,
-				0,
-				0,
-				50
-			]
-		}
-	}
+    "hbreak1": {
+        "filepath": "card_system/ps_heart",
+        "anchor": [
+            0.5,
+            0.5
+        ],
+        "blendMode": 3,
+        "maxSize": 16,
+        "loop": false,
+        "duration": 110,
+        "emit": {
+            "bursts": [
+                [
+                    0,
+                    8
+                ],
+                [
+                    30,
+                    8
+                ],
+                [
+                    60,
+                    8
+                ]
+            ]
+        },
+        "lifetime": [
+            30,
+            50
+        ],
+        "position": {
+            "startX": [
+                -20,
+                20
+            ],
+            "startY": [
+                -5,
+                5
+            ]
+        },
+        "velocity": {
+            "initX": [
+                -14,
+                14
+            ],
+            "initY": [
+                -14,
+                14
+            ],
+            "speedX": 0,
+            "speedY": 0,
+            "dampen": [
+                1,
+                0.1
+            ]
+        },
+        "rotation": {
+            "start": [
+                -1,
+                1
+            ],
+            "end": [
+                -2,
+                2
+            ]
+        },
+        "scale": {
+            "start": [
+                0.5,
+                0.9
+            ],
+            "end": [
+                0.4,
+                0.6
+            ]
+        },
+        "size": {},
+        "opacity": {
+            "start": 255,
+            "end": 128
+        },
+        "color": {
+            "start": [
+                128,
+                0,
+                255,
+                150
+            ]
+        }
+    },
+    "ShieldBreak1": {
+        "filepath": "card_system/ps_shieldbreak",
+        "anchor": [
+            0.5,
+            0.5
+        ],
+        "blendMode": 0,
+        "maxSize": 4,
+        "loop": false,
+        "duration": 120,
+        "emit": {
+            "bursts": [
+                [
+                    0,
+                    4
+                ]
+            ]
+        },
+        "lifetime": 120,
+        "position": {
+            "startX": [
+                -65,
+                -75
+            ],
+            "startY": [
+                -5,
+                5
+            ]
+        },
+        "velocity": {
+            "initX": [
+                -2,
+                2
+            ],
+            "initY": [
+                -4,
+                -6
+            ],
+            "speedX": 0,
+            "speedY": 0.2
+        },
+        "rotation": {
+            "start": [
+                -10,
+                10
+            ],
+            "end": [
+                -70,
+                70
+            ]
+        },
+        "scale": {
+            "start": 1
+        },
+        "size": {},
+        "opacity": {
+            "start": 255,
+            "end": 255
+        },
+        "color": {}
+    },
+    "ShieldBreak2": {
+        "filepath": "card_system/ps_blast",
+        "anchor": [
+            0.5,
+            0.5
+        ],
+        "blendMode": 1,
+        "maxSize": 2,
+        "loop": false,
+        "duration": 60,
+        "emit": {
+            "bursts": [
+                [
+                    0,
+                    1
+                ]
+            ]
+        },
+        "lifetime": 60,
+        "position": {
+            "startX": -70,
+            "startY": 0
+        },
+        "rotation": {
+            "start": [
+                0,
+                360
+            ]
+        },
+        "scale": {
+            "start": 1,
+            "end": 0
+        },
+        "size": {},
+        "opacity": {
+            "start": 255,
+            "end": 0
+        },
+        "color": {
+            "start": [
+                255,
+                255,
+                255,
+                255
+            ]
+        }
+    },
+    "Blast": {
+        "filepath": "card_system/ps_blast",
+        "anchor": [
+            0.5,
+            0.5
+        ],
+        "blendMode": 1,
+        "maxSize": 3,
+        "loop": false,
+        "duration": 30,
+        "emit": {
+            "bursts": [
+                [
+                    0,
+                    1
+                ],
+                [
+                    5,
+                    1
+                ],
+                [
+                    10,
+                    1
+                ]
+            ]
+        },
+        "lifetime": [
+            3,
+            7
+        ],
+        "position": {
+            "startX": [
+                -50,
+                50
+            ],
+            "startY": [
+                -50,
+                50
+            ]
+        },
+        "rotation": {
+            "start": [
+                0,
+                360
+            ]
+        },
+        "scale": {
+            "start": 1.5,
+            "end": 2.5
+        },
+        "size": {},
+        "opacity": {
+            "start": 255,
+            "end": 0
+        },
+        "color": {}
+    },
+    "Kira": {
+        "filepath": "card_system/ps_kira",
+        "anchor": [
+            0.5,
+            0.5
+        ],
+        "blendMode": 1,
+        "maxSize": 50,
+        "loop": false,
+        "duration": 60,
+        "emit": {
+            "interval": 1
+        },
+        "lifetime": [
+            5,
+            10
+        ],
+        "position": {
+            "startX": [
+                -100,
+                100
+            ],
+            "startY": [
+                -200,
+                100
+            ]
+        },
+        "rotation": {
+            "start": [
+                0,
+                360
+            ]
+        },
+        "scale": {
+            "start": 1,
+            "end": 0.5
+        },
+        "size": {},
+        "opacity": {
+            "start": 255,
+            "end": 0
+        },
+        "color": {}
+    },
+    "Outline": {
+        "filepath": "card_system/ps_outline",
+        "anchor": [
+            0.5,
+            0.5
+        ],
+        "blendMode": 3,
+        "maxSize": 3,
+        "loop": true,
+        "duration": 120,
+        "emit": {
+            "interval": 40
+        },
+        "lifetime": 120,
+        "position": {},
+        "rotation": {},
+        "scale": {
+            "start": 1,
+            "end": 1.1
+        },
+        "size": {},
+        "opacity": {
+            "start": 255,
+            "end": 0
+        },
+        "color": {}
+    },
+    "ShowTransformCard": {
+        "filepath": "card_system/ps_vglow",
+        "anchor": [
+            0.5,
+            1.0
+        ],
+        "blendMode": 1,
+        "maxSize": 7,
+        "loop": false,
+        "duration": 100,
+        "emit": {
+            "interval": [
+                3,
+                8
+            ]
+        },
+        "lifetime": [
+            5,
+            20
+        ],
+        "position": {},
+        "rotation": {},
+        "scale": {},
+        "size": {},
+        "opacity": {
+            "start": [
+                255,
+                60
+            ],
+            "end": 50
+        },
+        "color": {
+            "start": [
+                128,
+                0,
+                255,
+                150
+            ]
+        }
+    },
+    "Light": {
+        "filepath": "card_system/ps_light",
+        "anchor": [
+            0.5,
+            0.5
+        ],
+        "blendMode": 1,
+        "maxSize": 10,
+        "loop": false,
+        "duration": 100,
+        "emit": {
+            "interval": [
+                5,
+                10
+            ]
+        },
+        "lifetime": [
+            4,
+            8
+        ],
+        "position": {
+            "startX": 512,
+            "startY": 288
+        },
+        "rotation": {
+            "start": [
+                0,
+                360
+            ]
+        },
+        "scale": {
+            "startX": 3.5,
+            "startY": 4.0
+        },
+        "size": {},
+        "opacity": {
+            "start": [
+                255,
+                60
+            ],
+            "end": 20
+        },
+        "color": {
+            "start": [
+                0,
+                0,
+                0,
+                50
+            ]
+        }
+    }
 }

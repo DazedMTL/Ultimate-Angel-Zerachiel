@@ -18,44 +18,44 @@
  * TMPlugin - ターン移動 ver1.0.2
  *
  * 使い方:
- * 
+ *
  *   イベントのメモ、または実行内容の一番上にある注釈コマンド内に
  *   <turnMove> というタグを書き込むことで、そのイベントにだけ
  *   ターン移動を適用します。
  *   <turnMove> の代わりに <ターン移動> でもかまいません。
- * 
+ *
  *   ターン移動イベントの自律移動は以下のように設定してください。
  *     プレイヤーと同じ速度で移動する場合
  *       速度  4:標準速
  *       頻度  3:標準
- * 
+ *
  *     プレイヤーが１歩移動する間に２歩移動する場合
  *       速度  5:２倍速
  *       頻度  4:高
- * 
+ *
  *     プレイヤーが２歩移動する間に１歩移動する場合
  *       速度  4:標準速
  *       頻度  1:最低
- * 
+ *
  *   また、<turnMove> / <ターン移動> タグの代わりに
  *   <alwaysTurnMove> / <常にターン移動> タグを使用することで、
  *   イベントが画面外にいてもターン移動が実行されるようになります。
  *
  *   このプラグインは RPGツクールMV Version 1.5.1 で動作確認をしています。
- * 
+ *
  *   このプラグインはMITライセンスのもとに配布しています、商用利用、
  *   改造、再配布など、自由にお使いいただけます。
- * 
- * 
+ *
+ *
  * プラグインコマンド:
- * 
+ *
  *   stopTurnMove
  *     すべてのイベントのターン移動を無効化します。
  *     (ゲーム開始時はターン移動が有効になっています)
- * 
+ *
  *   startTurnMove
  *     stopTurnMove で無効化したターン移動を有効化します。
- * 
+ *
  *   skipTurnMove
  *     プレイヤーを移動させずにターン移動イベントのみを移動させます、
  *     移動量はプレイヤーの１歩分です。
@@ -69,7 +69,6 @@ var TMPlugin = TMPlugin || {};
 if (!TMPlugin.EventBase) {
   TMPlugin.EventBase = true;
   (function () {
-
     var _Game_Event_setupPage = Game_Event.prototype.setupPage;
     Game_Event.prototype.setupPage = function () {
       _Game_Event_setupPage.call(this);
@@ -82,11 +81,12 @@ if (!TMPlugin.EventBase) {
       var list = this.list();
       for (var i = 0; i < list.length; i++) {
         var command = list[i];
-        if (command && command.code == 108 || command.code == 408) {
-          for (; ;) {
+        if ((command && command.code == 108) || command.code == 408) {
+          for (;;) {
             var match = re.exec(command.parameters[0]);
             if (match) {
-              this._commentParams[match[1]] = match[2] === ':' ? match[3] : true;
+              this._commentParams[match[1]] =
+                match[2] === ":" ? match[3] : true;
             } else {
               break;
             }
@@ -100,12 +100,10 @@ if (!TMPlugin.EventBase) {
     Game_Event.prototype.loadTagParam = function (paramName) {
       return this._commentParams[paramName] || this.event().meta[paramName];
     };
-
   })();
 } // TMPlugin.EventBase
 
 (function () {
-
   //-----------------------------------------------------------------------------
   // Game_Map
   //
@@ -144,10 +142,13 @@ if (!TMPlugin.EventBase) {
   Game_Event.prototype.setupPage = function () {
     _Game_Event_setupPage.call(this);
     if (this._pageIndex >= 0) {
-      this._alwaysTurnMove = this.loadTagParam('alwaysTurnMove') ||
-        this.loadTagParam('常にターン移動');
-      this._turnMove = this._alwaysTurnMove || this.loadTagParam('turnMove') ||
-        this.loadTagParam('ターン移動');
+      this._alwaysTurnMove =
+        this.loadTagParam("alwaysTurnMove") ||
+        this.loadTagParam("常にターン移動");
+      this._turnMove =
+        this._alwaysTurnMove ||
+        this.loadTagParam("turnMove") ||
+        this.loadTagParam("ターン移動");
       this._turnMoveCount = 0;
     }
   };
@@ -182,16 +183,16 @@ if (!TMPlugin.EventBase) {
   // Game_Interpreter
   //
 
-  var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'stopTurnMove') {
+    if (command === "stopTurnMove") {
       $gamePlayer.disableTurnMove();
-    } else if (command === 'startTurnMove') {
+    } else if (command === "startTurnMove") {
       $gamePlayer.enableTurnMove();
-    } else if (command === 'skipTurnMove') {
+    } else if (command === "skipTurnMove") {
       $gameMap.updateTurnMove();
     }
   };
-
 })();

@@ -11,7 +11,7 @@
 //
 
 var Imported = Imported || {};
-Imported['MessageAlignmentEC'] = 1.04;
+Imported["MessageAlignmentEC"] = 1.04;
 /*:
  * @plugindesc ver1.04/メッセージのアライメントを変更する制御文字を追加します。
  * @author Yana
@@ -77,179 +77,261 @@ Imported['MessageAlignmentEC'] = 1.04;
  */
 
 (function () {
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
+  var parameters = PluginManager.parameters("MessageAlignmentEC");
+  var extendEC = parameters["ExtendEC"].split(",");
 
-    var parameters = PluginManager.parameters('MessageAlignmentEC');
-    var extendEC = parameters['ExtendEC'].split(',');
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
-
-    Window_Base.prototype.textWidthEx = function (text) {
-        var result = 0;
-        text = text.replace(/\x1bC\[\d+\]/gi, '');
-        text = text.replace(/\x1bI\[\d+\]/gi, function () {
-            result += Window_Base._iconWidth;
-            return '';
-        }.bind(this));
-        for (var i = 0, max = text.length; i < max; i++) {
-            var c = text[i];
-            if (c === '\x1b') {
-                i++;
-                c = text[i];
-                if (c === '{') {
-                    this.makeFontBigger();
-                } else if (c === '}') {
-                    this.makeFontSmaller();
-                } else if (c === 'F' && text[i + 1] === 'S') {
-                    var cc = '\x1b';
-                    for (var j = i; j < max; j++) {
-                        cc += text[j];
-                        if (text[j] === ']') {
-                            if (cc.match(/\x1bFS\[(\d+)\]/i)) this.contents.fontSize = Number(RegExp.$1);
-                            i = j;
-                            break;
-                        }
-                    }
-                }
-            } else {
-                result += this.textWidth(c);
+  Window_Base.prototype.textWidthEx = function (text) {
+    var result = 0;
+    text = text.replace(/\x1bC\[\d+\]/gi, "");
+    text = text.replace(
+      /\x1bI\[\d+\]/gi,
+      function () {
+        result += Window_Base._iconWidth;
+        return "";
+      }.bind(this)
+    );
+    for (var i = 0, max = text.length; i < max; i++) {
+      var c = text[i];
+      if (c === "\x1b") {
+        i++;
+        c = text[i];
+        if (c === "{") {
+          this.makeFontBigger();
+        } else if (c === "}") {
+          this.makeFontSmaller();
+        } else if (c === "F" && text[i + 1] === "S") {
+          var cc = "\x1b";
+          for (var j = i; j < max; j++) {
+            cc += text[j];
+            if (text[j] === "]") {
+              if (cc.match(/\x1bFS\[(\d+)\]/i))
+                this.contents.fontSize = Number(RegExp.$1);
+              i = j;
+              break;
             }
+          }
         }
-        return result;
-    };
+      } else {
+        result += this.textWidth(c);
+      }
+    }
+    return result;
+  };
 
-    Window_Base.prototype.setAlignment = function (text, col, max) {
-        if (this._aligns === undefined) {
-            this._aligns = [];
+  Window_Base.prototype.setAlignment = function (text, col, max) {
+    if (this._aligns === undefined) {
+      this._aligns = [];
+    }
+    text = text.replace(
+      /\x1bLL/i,
+      function () {
+        for (var j = col; j < max; j++) {
+          this._aligns[j] = null;
         }
-        text = text.replace(/\x1bLL/i, function () {
-            for (var j = col; j < max; j++) {
-                this._aligns[j] = null;
-            }
-            return '';
-        }.bind(this));
-        text = text.replace(/\x1bCL/i, function () {
-            for (var j = col; j < max; j++) {
-                this._aligns[j] = 'center';
-            }
-            return '';
-        }.bind(this));
-        text = text.replace(/\x1bRL/i, function () {
-            for (var j = col; j < max; j++) {
-                this._aligns[j] = 'right';
-            }
-            return '';
-        }.bind(this));
-        return text;
-    };
-
-    ////////////////////////////////////////////////////////////////////////////////////
-
-    // 再定義
-    Window_ScrollText.prototype.refresh = function () {
-        var textState = { index: 0 };
-        textState.text = this.convertEscapeCharacters(this._text);
-        this.resetFontSettings();
-        this._allTextHeight = this.calcTextHeight(textState, true);
-        var texts = this._text.split('\n');
-        this.createContents();
-        this.origin.y = -this.height;
-        var yy = 0;
-        var fontSize = this.contents.fontSize;
-        this._aligns = [];
-        for (var i = 0, max = texts.length; i < max; i++) {
-            var text = texts[i];
-            var text2 = this.convertEscapeCharacters(text);
-            if (fontSize > this.standardFontSize()) {
-                var n = Math.ceil((fontSize - this.standardFontSize()) / 12);
-                for (var j = 0; j < n; j++) { text = '\\{' + text }
-            }
-            if (fontSize < this.standardFontSize()) { text = '\\}' + text }
-            var height = this.calcTextHeight({ index: 0, text: text2 }, false);
-            text2 = this.setAlignment(text2, i, max);
-            var textWidth = this.textWidthEx(text2);
-            var sx = 0;
-            if (this._aligns[i] === 'center') {
-                sx = (this.contentsWidth() - this.textPadding() - textWidth) / 2;
-            } else if (this._aligns[i] === 'right') {
-                sx = this.contentsWidth() - this.textPadding() - textWidth;
-            }
-            this.drawTextEx(text, this.textPadding() + sx, 1 + yy);
-            fontSize = this.contents.fontSize;
-            yy += height;
+        return "";
+      }.bind(this)
+    );
+    text = text.replace(
+      /\x1bCL/i,
+      function () {
+        for (var j = col; j < max; j++) {
+          this._aligns[j] = "center";
         }
-    };
-
-    ////////////////////////////////////////////////////////////////////////////////////
-
-    var __WMessage_startMessage = Window_Message.prototype.startMessage;
-    Window_Message.prototype.startMessage = function () {
-        this._callStart = true;
-        __WMessage_startMessage.call(this);
-        this._callStart = false;
-    };
-
-    Window_Message.prototype.checkTextWidth = function () {
-        this._currentPage = 0;
-        var texts = this._textState.text.split('\n');
-        this._corX = [0, 0, 0, 0];
-        this._aligns = [];
-        var fontSize = this.contents.fontSize;
-        var ary = this.zeroWidthEscapes();
-        for (var i = 0, max = texts.length; i < max; i++) {
-            var text = texts[i];
-            for (var j = 0, jmax = ary.length; j < jmax; j++) {
-                var regExp = new RegExp('\\x1b' + ary[j] + '(?:\\[.+?\\])*', 'gi');
-                text = text.replace(regExp, '');
-            }
-            text = this.setAlignment(text, i, max);
-            this._corX[i] = this.textWidthEx(text);
+        return "";
+      }.bind(this)
+    );
+    text = text.replace(
+      /\x1bRL/i,
+      function () {
+        for (var j = col; j < max; j++) {
+          this._aligns[j] = "right";
         }
-        this.contents.fontSize = fontSize;
-    };
+        return "";
+      }.bind(this)
+    );
+    return text;
+  };
 
-    Window_Message.prototype.zeroWidthEscapes = function () {
-        var ary = ['\\.', '\\|', '\\$', '>', '<', '!', '\\^'];
-        if (extendEC.length > 0 && extendEC[0] !== '') { ary = ary.concat(extendEC) }
-        if (Imported['yExtendEscapeCharacters']) {
-            var ary2 = ['BGM', 'BGS', 'SE', 'ME', 'FRT', 'FFV', 'FFH', 'FO', 'FCI', 'FSN', 'FCT', 'FBC',
-                'WC', 'WCW', 'DWC', 'DWCW', 'MMW', 'RMW', 'OMW', 'BLN', 'ANI', 'SPIC', 'MPIC',
-                'ZPIC', 'OPIC', 'ORPIC', 'RPIC', 'APIC', 'TPIC', 'NCPIC', 'CFPIC', 'CTPIC',
-                'CXPIC', 'BNPIC', 'FIPIC', 'FOPIC'];
-            ary = ary.concat(ary2);
-        }
-        if (Imported['StandPictureEC']) {
-            var ary2 = ['WT', 'SP', 'HP', 'CP', 'RP', 'MP', 'ZP', 'RMP', 'RRP', 'RZP', 'TP', 'CFP',
-                'COP', 'BCP', 'LS', 'LE', 'BP', 'OP', 'SFR', 'SBK', 'MC', 'RMC', 'ZC', 'RZC',
-                'RC', 'RRC', 'RPC', 'ZPC', 'SAC'];
-            ary = ary.concat(ary2);
-        }
-        return ary;
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    var __WMessage_newLineX = Window_Message.prototype.newLineX;
-    Window_Message.prototype.newLineX = function () {
-        if (this._callStart) {
-            this.checkTextWidth()
+  // 再定義
+  Window_ScrollText.prototype.refresh = function () {
+    var textState = { index: 0 };
+    textState.text = this.convertEscapeCharacters(this._text);
+    this.resetFontSettings();
+    this._allTextHeight = this.calcTextHeight(textState, true);
+    var texts = this._text.split("\n");
+    this.createContents();
+    this.origin.y = -this.height;
+    var yy = 0;
+    var fontSize = this.contents.fontSize;
+    this._aligns = [];
+    for (var i = 0, max = texts.length; i < max; i++) {
+      var text = texts[i];
+      var text2 = this.convertEscapeCharacters(text);
+      if (fontSize > this.standardFontSize()) {
+        var n = Math.ceil((fontSize - this.standardFontSize()) / 12);
+        for (var j = 0; j < n; j++) {
+          text = "\\{" + text;
         }
-        var newX = __WMessage_newLineX.call(this);
-        var width = this.contents.width;
-        if (this._rightFace) { width -= 168 }
-        if (this._aligns[this._currentPage] === 'center') {
-            newX = ((width - newX) - this._corX[this._currentPage]) / 2 + newX;
-        } else if (this._aligns[this._currentPage] === 'right') {
-            newX = width - this._corX[this._currentPage];
-        }
-        return newX;
-    };
+      }
+      if (fontSize < this.standardFontSize()) {
+        text = "\\}" + text;
+      }
+      var height = this.calcTextHeight({ index: 0, text: text2 }, false);
+      text2 = this.setAlignment(text2, i, max);
+      var textWidth = this.textWidthEx(text2);
+      var sx = 0;
+      if (this._aligns[i] === "center") {
+        sx = (this.contentsWidth() - this.textPadding() - textWidth) / 2;
+      } else if (this._aligns[i] === "right") {
+        sx = this.contentsWidth() - this.textPadding() - textWidth;
+      }
+      this.drawTextEx(text, this.textPadding() + sx, 1 + yy);
+      fontSize = this.contents.fontSize;
+      yy += height;
+    }
+  };
 
-    var __WMessage_processNewLine = Window_BattleLog.prototype.processNewLine;
-    Window_Message.prototype.processNewLine = function (textState) {
-        __WMessage_processNewLine.call(this, textState);
-        this._currentPage += 1;
-        this._textState.x = this.newLineX();
-    };
+  ////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////
-}());
+  var __WMessage_startMessage = Window_Message.prototype.startMessage;
+  Window_Message.prototype.startMessage = function () {
+    this._callStart = true;
+    __WMessage_startMessage.call(this);
+    this._callStart = false;
+  };
+
+  Window_Message.prototype.checkTextWidth = function () {
+    this._currentPage = 0;
+    var texts = this._textState.text.split("\n");
+    this._corX = [0, 0, 0, 0];
+    this._aligns = [];
+    var fontSize = this.contents.fontSize;
+    var ary = this.zeroWidthEscapes();
+    for (var i = 0, max = texts.length; i < max; i++) {
+      var text = texts[i];
+      for (var j = 0, jmax = ary.length; j < jmax; j++) {
+        var regExp = new RegExp("\\x1b" + ary[j] + "(?:\\[.+?\\])*", "gi");
+        text = text.replace(regExp, "");
+      }
+      text = this.setAlignment(text, i, max);
+      this._corX[i] = this.textWidthEx(text);
+    }
+    this.contents.fontSize = fontSize;
+  };
+
+  Window_Message.prototype.zeroWidthEscapes = function () {
+    var ary = ["\\.", "\\|", "\\$", ">", "<", "!", "\\^"];
+    if (extendEC.length > 0 && extendEC[0] !== "") {
+      ary = ary.concat(extendEC);
+    }
+    if (Imported["yExtendEscapeCharacters"]) {
+      var ary2 = [
+        "BGM",
+        "BGS",
+        "SE",
+        "ME",
+        "FRT",
+        "FFV",
+        "FFH",
+        "FO",
+        "FCI",
+        "FSN",
+        "FCT",
+        "FBC",
+        "WC",
+        "WCW",
+        "DWC",
+        "DWCW",
+        "MMW",
+        "RMW",
+        "OMW",
+        "BLN",
+        "ANI",
+        "SPIC",
+        "MPIC",
+        "ZPIC",
+        "OPIC",
+        "ORPIC",
+        "RPIC",
+        "APIC",
+        "TPIC",
+        "NCPIC",
+        "CFPIC",
+        "CTPIC",
+        "CXPIC",
+        "BNPIC",
+        "FIPIC",
+        "FOPIC",
+      ];
+      ary = ary.concat(ary2);
+    }
+    if (Imported["StandPictureEC"]) {
+      var ary2 = [
+        "WT",
+        "SP",
+        "HP",
+        "CP",
+        "RP",
+        "MP",
+        "ZP",
+        "RMP",
+        "RRP",
+        "RZP",
+        "TP",
+        "CFP",
+        "COP",
+        "BCP",
+        "LS",
+        "LE",
+        "BP",
+        "OP",
+        "SFR",
+        "SBK",
+        "MC",
+        "RMC",
+        "ZC",
+        "RZC",
+        "RC",
+        "RRC",
+        "RPC",
+        "ZPC",
+        "SAC",
+      ];
+      ary = ary.concat(ary2);
+    }
+    return ary;
+  };
+
+  var __WMessage_newLineX = Window_Message.prototype.newLineX;
+  Window_Message.prototype.newLineX = function () {
+    if (this._callStart) {
+      this.checkTextWidth();
+    }
+    var newX = __WMessage_newLineX.call(this);
+    var width = this.contents.width;
+    if (this._rightFace) {
+      width -= 168;
+    }
+    if (this._aligns[this._currentPage] === "center") {
+      newX = (width - newX - this._corX[this._currentPage]) / 2 + newX;
+    } else if (this._aligns[this._currentPage] === "right") {
+      newX = width - this._corX[this._currentPage];
+    }
+    return newX;
+  };
+
+  var __WMessage_processNewLine = Window_BattleLog.prototype.processNewLine;
+  Window_Message.prototype.processNewLine = function (textState) {
+    __WMessage_processNewLine.call(this, textState);
+    this._currentPage += 1;
+    this._textState.x = this.newLineX();
+  };
+
+  ////////////////////////////////////////////////////////////////////////////////////
+})();

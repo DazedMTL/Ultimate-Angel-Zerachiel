@@ -12,12 +12,12 @@
  * @param Title Effect Type
  * @desc 0:none >=1: display the same effect as plugin parameter at title
  * @default 0
- * 
+ *
  * @requiredAssets img/system/RE_001
  * @requiredAssets img/system/RE_002
  * @requiredAssets img/system/RE_003
- * 
- * @help 
+ *
+ * @help
  * At first you have to do:
  * This plugin requires 3 image files to run.
  * Put RE_001, RE_002, RE_003 at img/system.
@@ -38,7 +38,7 @@
  *  0 : disappear
  * ex:
  * DiffuseEffect start 1    # start effect "diffuse from center"
- * 
+ *
  * DiffuseEffect end        # effects disappear immidiately
  * DiffuseEffect fade       # effects fade out and then disappear
  *
@@ -61,8 +61,8 @@
  * @requiredAssets img/system/RE_001
  * @requiredAssets img/system/RE_002
  * @requiredAssets img/system/RE_003
- * 
- * @help 
+ *
+ * @help
  * 最初にすべきこと:
  * このプラグインの実行には、添付の画像ファイルが必要です。
  * img/system フォルダに、RE_001, RE_002, RE_003を置いて下さい。
@@ -84,7 +84,7 @@
  *  0 : 消去
  * ex:
  * DiffuseEffect start 1    # "中心から発散" エフェクトを開始
- * 
+ *
  * DiffuseEffect end        # エフェクトの終了（即時）
  * DiffuseEffect fade       # フェードアウトしながらエフェクトを終了
  *
@@ -103,8 +103,8 @@
   //
   // process parameters
   //
-  var parameters = PluginManager.parameters('DiffuseEffect');
-  var titleType = Number(parameters['Title Effect Type'] || 0);
+  var parameters = PluginManager.parameters("DiffuseEffect");
+  var titleType = Number(parameters["Title Effect Type"] || 0);
 
   //
   // process plugin command
@@ -113,15 +113,15 @@
     Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'DiffuseEffect') {
+    if (command === "DiffuseEffect") {
       switch (args[0]) {
-        case 'start':
+        case "start":
           $gameScreen.startREffect(Number(args[1]) || 0);
           break;
-        case 'end':
+        case "end":
           $gameScreen.endREffect();
           break;
-        case 'fade':
+        case "fade":
           $gameScreen.fadeREffect();
           break;
       }
@@ -195,7 +195,7 @@
   Sprite_REffect.prototype.reset = function () {
     this.effectType = 0;
     this.initialPos = new Point(0, 0);
-    this.moveAngle = new Point(0.0, 0.0);   // radian
+    this.moveAngle = new Point(0.0, 0.0); // radian
     this.radius = 0.0;
     this.blendMode = Graphics.BLEND_ADD;
     this.bitmap = null;
@@ -260,7 +260,10 @@
   };
 
   Sprite_REffect.prototype.getZoom = function () {
-    return (this.radius * this.moveAngle.y / Graphics.width / 1.5 + 0.8) * (this.opacity / 200.0);
+    return (
+      ((this.radius * this.moveAngle.y) / Graphics.width / 1.5 + 0.8) *
+      (this.opacity / 200.0)
+    );
   };
 
   Sprite_REffect.prototype.setup = function (type) {
@@ -287,7 +290,7 @@
         this.duration = Math.randomInt(100) + 80;
         this.setStartPos(2, 2);
         this.setMoveAngle(Math.randomInt(2 * Math.PI * 100));
-        this.setGraphic('RE_001');
+        this.setGraphic("RE_001");
         break;
       case 2:
         this.radius = Math.randomInt(Graphics.width / 3) + 45.0;
@@ -295,34 +298,40 @@
         this.duration = Math.randomInt(100) + 90;
         this.setStartPos(2, 2);
         this.setMoveAngle(Math.randomInt(2 * Math.PI * 100));
-        this.setGraphic('RE_001');
+        this.setGraphic("RE_001");
         break;
       case 3:
         this.radius = Math.randomInt(Graphics.width / 2) + 1.0;
         this.moveSpeed = (Math.randomInt(75) + 1) * 0.01 + 0.75;
         this.duration = Math.randomInt(100) + 80;
         this.setStartPos(2, 1);
-        this.setMoveAngle(Math.randomInt(2 * Math.PI * 100),
-          Math.randomInt(Math.PI * 100));
-        this.setGraphic('RE_001');
+        this.setMoveAngle(
+          Math.randomInt(2 * Math.PI * 100),
+          Math.randomInt(Math.PI * 100)
+        );
+        this.setGraphic("RE_001");
         break;
       case 4:
         this.radius = Math.randomInt(Graphics.width / 2) + 1.0;
         this.moveSpeed = (Math.randomInt(75) + 1) * 0.01 + 0.75;
         this.duration = Math.randomInt(100) + 80;
         this.setStartPos(0, 1);
-        this.setMoveAngle(Math.randomInt(2 * Math.PI * 100),
-          Math.randomInt(Math.PI * 100));
-        this.setGraphic('RE_001');
+        this.setMoveAngle(
+          Math.randomInt(2 * Math.PI * 100),
+          Math.randomInt(Math.PI * 100)
+        );
+        this.setGraphic("RE_001");
         break;
       case 5:
         this.radius = Math.randomInt(Graphics.width / 2) + 1.0;
         this.moveSpeed = (Math.randomInt(75) + 1) * 0.01 + 0.75;
         this.duration = Math.randomInt(100) + 120;
         this.setStartPos(3, 1);
-        this.setMoveAngle(Math.randomInt(Math.PI * 100) + 90,
-          Math.randomInt(Math.PI * 100));
-        this.setGraphic('RE_001');
+        this.setMoveAngle(
+          Math.randomInt(Math.PI * 100) + 90,
+          Math.randomInt(Math.PI * 100)
+        );
+        this.setGraphic("RE_001");
         break;
     }
     this.maxOpacity = Math.randomInt(160) + 40;
@@ -337,7 +346,7 @@
         this.nextAngle = Math.randomInt(360) * 1.0;
         this.collapseSpeed = 1;
         this.setStartPos(2, 3);
-        this.setGraphic('RE_002');
+        this.setGraphic("RE_002");
         break;
       case 22:
         this.radius = Math.randomInt(60) + 1.0;
@@ -345,7 +354,7 @@
         this.nextAngle = Math.randomInt(360) * 1.0;
         this.collapseSpeed = Math.randomInt(3) === 0 ? 2 : 1;
         this.setStartPos(0, 3);
-        this.setGraphic('RE_002');
+        this.setGraphic("RE_002");
         break;
       case 23:
         this.radius = 270;
@@ -353,7 +362,7 @@
         this.nextAngle = Sprite_REffect.span ? 0.0 : 180.0;
         this.collapseSpeed = 0;
         this.setStartPos(2, 3);
-        this.setGraphic('RE_002');
+        this.setGraphic("RE_002");
         break;
     }
     this.opacity = 255;
@@ -362,7 +371,7 @@
 
   Sprite_REffect.prototype.setupSnow = function () {
     this.setStartPos(0, 1);
-    this.setGraphic('RE_003');
+    this.setGraphic("RE_003");
     var z = Math.randomInt(100);
     if (z <= 49) {
       this.setZoom((3 + Math.randomInt(2)) / 10.0);
@@ -400,7 +409,10 @@
     this.x = Math.floor(this.getX());
     this.y = Math.floor(this.getY());
     this.setZoom(this.getZoom());
-    this.opacity = Math.min(this.opacity + (this.duration > 0 ? 1 : -1), this.maxOpacity);
+    this.opacity = Math.min(
+      this.opacity + (this.duration > 0 ? 1 : -1),
+      this.maxOpacity
+    );
   };
 
   Sprite_REffect.prototype.updateSpiral = function () {
@@ -410,7 +422,7 @@
     }
     this.setMoveAngle(this.nextAngle * 1.74533);
     this.x = this.getX();
-    this.y = Math.round(this.floatY -= this.moveSpeed);
+    this.y = Math.round((this.floatY -= this.moveSpeed));
     this.setZoom(this.getZoom());
     this.opacity -= this.collapseSpeed;
   };
@@ -423,7 +435,7 @@
     }
     this.setMoveAngle(this.nextAngle * 1.74533);
     this.x = this.getX();
-    this.y = Math.round(this.floatY += this.moveSpeed);
+    this.y = Math.round((this.floatY += this.moveSpeed));
     this.opacity = this.duration;
   };
 
@@ -553,11 +565,9 @@
     this.effectType = titleType;
   };
 
-  REffectsTitle.prototype.updateReset = function () {
-  };
+  REffectsTitle.prototype.updateReset = function () {};
 
-  REffectsTitle.prototype.updateChangeType = function () {
-  };
+  REffectsTitle.prototype.updateChangeType = function () {};
 
   var _Scene_Title_createForeground = Scene_Title.prototype.createForeground;
   Scene_Title.prototype.createForeground = function () {
@@ -566,5 +576,4 @@
       this.addChild(new REffectsTitle());
     }
   };
-
 })();

@@ -80,7 +80,7 @@
  * @default []
  */
 /*~struct~ItemPrice:
- * 
+ *
  * @param Id
  * @desc アイテム
  * @text アイテム
@@ -106,7 +106,7 @@
  * @default 100
  */
 /*~struct~WeaponPrice:
- * 
+ *
  * @param Id
  * @desc 武器
  * @text 武器
@@ -132,7 +132,7 @@
  * @default 100
  */
 /*~struct~ArmorPrice:
- * 
+ *
  * @param Id
  * @desc 防具
  * @text 防具
@@ -277,17 +277,20 @@
  */
 
 (function () {
-  'use strict';
-  const pluginName = document.currentScript.src.replace(/^.*\/(.*).js$/, function () {
-    return arguments[1];
-  });
+  "use strict";
+  const pluginName = document.currentScript.src.replace(
+    /^.*\/(.*).js$/,
+    function () {
+      return arguments[1];
+    }
+  );
   const pluginParameters = PluginManager.parameters(pluginName);
 
   const ITEM_CATEGORIES = {
-    ITEM: 'item',
-    WEAPON: 'weapon',
-    ARMOR: 'armor',
-    KEY_ITEM: 'keyItem'
+    ITEM: "item",
+    WEAPON: "weapon",
+    ARMOR: "armor",
+    KEY_ITEM: "keyItem",
   };
 
   /**
@@ -308,16 +311,24 @@
     }
 
     /**
-     * @param {string} json 
+     * @param {string} json
      * @return {CustomPriceSetting}
      */
     static fromJson(json) {
       const parsed = JsonEx.parse(json);
       return new CustomPriceSetting(
-        JsonEx.parse(parsed['Item Prices'] || '[]').map(price => SellingPrice.fromJson(price)),
-        JsonEx.parse(parsed['Weapon Prices'] || '[]').map(price => SellingPrice.fromJson(price)),
-        JsonEx.parse(parsed['Armor Prices'] || '[]').map(price => SellingPrice.fromJson(price)),
-        JsonEx.parse(parsed['Conditions'] || '[]').map(condition => SellingPriceCondition.fromJson(condition))
+        JsonEx.parse(parsed["Item Prices"] || "[]").map((price) =>
+          SellingPrice.fromJson(price)
+        ),
+        JsonEx.parse(parsed["Weapon Prices"] || "[]").map((price) =>
+          SellingPrice.fromJson(price)
+        ),
+        JsonEx.parse(parsed["Armor Prices"] || "[]").map((price) =>
+          SellingPrice.fromJson(price)
+        ),
+        JsonEx.parse(parsed["Conditions"] || "[]").map((condition) =>
+          SellingPriceCondition.fromJson(condition)
+        )
       );
     }
 
@@ -326,7 +337,7 @@
      * @return {boolean}
      */
     isEnabled() {
-      return this._conditions.some(condition => condition.isConditionOk());
+      return this._conditions.some((condition) => condition.isConditionOk());
     }
 
     /**
@@ -340,13 +351,19 @@
       let priceSetting = null;
       switch (category) {
         case ITEM_CATEGORIES.ITEM:
-          priceSetting = this._itemPrices.find(itemPrice => itemPrice.id === id);
+          priceSetting = this._itemPrices.find(
+            (itemPrice) => itemPrice.id === id
+          );
           break;
         case ITEM_CATEGORIES.WEAPON:
-          priceSetting = this._weaponPrices.find(weaponPrice => weaponPrice.id === id);
+          priceSetting = this._weaponPrices.find(
+            (weaponPrice) => weaponPrice.id === id
+          );
           break;
         case ITEM_CATEGORIES.ARMOR:
-          priceSetting = this._armorPrices.find(armorPrice => armorPrice.id === id);
+          priceSetting = this._armorPrices.find(
+            (armorPrice) => armorPrice.id === id
+          );
           break;
         default:
           break;
@@ -373,16 +390,16 @@
     }
 
     /**
-     * @param {string} json 
+     * @param {string} json
      * @return {SellingPrice}
      */
     static fromJson(json) {
       const parsed = JsonEx.parse(json);
       return new SellingPrice(
-        Number(parsed['Id'] || 0),
-        Number(parsed['Selling Price'] || 0),
-        String(parsed['Change Base Selling Price'] || 'true') === 'true',
-        Number(parsed['Selling Price Rate'] || 100)
+        Number(parsed["Id"] || 0),
+        Number(parsed["Selling Price"] || 0),
+        String(parsed["Change Base Selling Price"] || "true") === "true",
+        Number(parsed["Selling Price Rate"] || 100)
       );
     }
 
@@ -433,7 +450,7 @@
      * @return {number}
      */
     calcPrice(category) {
-      return Math.floor(this.basePrice(category) * this._priceRate / 100);
+      return Math.floor((this.basePrice(category) * this._priceRate) / 100);
     }
   }
 
@@ -450,7 +467,15 @@
      * @param {SellCountCondition} sellCountWeapon 武器売却数
      * @param {SellCountCondition} sellCountArmor 防具売却数
      */
-    constructor(switch_, variable, upperLimit, lowerLimit, sellCountItem, sellCountWeapon, sellCountArmor) {
+    constructor(
+      switch_,
+      variable,
+      upperLimit,
+      lowerLimit,
+      sellCountItem,
+      sellCountWeapon,
+      sellCountArmor
+    ) {
       this._switch = switch_;
       this._variable = variable;
       this._upperLimit = upperLimit;
@@ -461,19 +486,34 @@
     }
 
     /**
-     * @param {string} json 
+     * @param {string} json
      * @return {SellingPriceCondition}
      */
     static fromJson(json) {
       const parsed = JsonEx.parse(json);
       return new SellingPriceCondition(
-        Number(parsed['Switch'] || 0),
-        Number(parsed['Variable'] || 0),
-        VariableLimit.fromJson(parsed['Variable Upper Limit'] || '{"Enabled": "true", "Variable Limit": "0"}'),
-        VariableLimit.fromJson(parsed['Variable Lower Limit'] || '{"Enabled": "true", "Variable Limit": "0"}'),
-        SellCountCondition.fromJson(ITEM_CATEGORIES.ITEM, parsed['Sell Count Item Condition'] || '{}'),
-        SellCountCondition.fromJson(ITEM_CATEGORIES.WEAPON, parsed['Sell Count Weapon Condition'] || '{}'),
-        SellCountCondition.fromJson(ITEM_CATEGORIES.ARMOR, parsed['Sell Count Armor Condition'] || '{}')
+        Number(parsed["Switch"] || 0),
+        Number(parsed["Variable"] || 0),
+        VariableLimit.fromJson(
+          parsed["Variable Upper Limit"] ||
+            '{"Enabled": "true", "Variable Limit": "0"}'
+        ),
+        VariableLimit.fromJson(
+          parsed["Variable Lower Limit"] ||
+            '{"Enabled": "true", "Variable Limit": "0"}'
+        ),
+        SellCountCondition.fromJson(
+          ITEM_CATEGORIES.ITEM,
+          parsed["Sell Count Item Condition"] || "{}"
+        ),
+        SellCountCondition.fromJson(
+          ITEM_CATEGORIES.WEAPON,
+          parsed["Sell Count Weapon Condition"] || "{}"
+        ),
+        SellCountCondition.fromJson(
+          ITEM_CATEGORIES.ARMOR,
+          parsed["Sell Count Armor Condition"] || "{}"
+        )
       );
     }
 
@@ -482,13 +522,18 @@
      * @return {boolean}
      */
     isConditionOk() {
-      return (this._switch <= 0 || $gameSwitches.value(this._switch)) &&
+      return (
+        (this._switch <= 0 || $gameSwitches.value(this._switch)) &&
         (this._variable <= 0 ||
-          (!this._upperLimit.isEnabled || $gameVariables.value(this._variable) <= this._upperLimit.limit) &&
-          (!this._lowerLimit.isEnabled || $gameVariables.value(this._variable) >= this._lowerLimit.limit)) &&
+          ((!this._upperLimit.isEnabled ||
+            $gameVariables.value(this._variable) <= this._upperLimit.limit) &&
+            (!this._lowerLimit.isEnabled ||
+              $gameVariables.value(this._variable) >=
+                this._lowerLimit.limit))) &&
         this._sellCountConditionItem.isConditionOk() &&
         this._sellCountConditionWeapon.isConditionOk() &&
-        this._sellCountConditionArmor.isConditionOk();
+        this._sellCountConditionArmor.isConditionOk()
+      );
     }
   }
 
@@ -506,14 +551,14 @@
     }
 
     /**
-     * @param {string} json 
+     * @param {string} json
      * @return {VariableLimit}
      */
     static fromJson(json) {
       const parsed = JsonEx.parse(json);
       return new VariableLimit(
-        String(parsed['Enabled'] || 'true') === 'true',
-        Number(parsed['Variable Limit'] || 0)
+        String(parsed["Enabled"] || "true") === "true",
+        Number(parsed["Variable Limit"] || 0)
       );
     }
 
@@ -537,7 +582,7 @@
    */
   class SellCountCondition {
     /**
-     * 
+     *
      * @param {string} category アイテムカテゴリ
      * @param {number} id アイテムID
      * @param {VariableLimit} upperLimit 上限値
@@ -559,9 +604,15 @@
       const parsed = JsonEx.parse(json);
       return new SellCountCondition(
         category,
-        Number(parsed['Id'] || 0),
-        VariableLimit.fromJson(parsed['Sell Count Upper Limit'] || '{"Enabled": "true", "Variable Limit": "0"}'),
-        VariableLimit.fromJson(parsed['Sell Count Lower Limit'] || '{"Enabled": "true", "Variable Limit": "0"}')
+        Number(parsed["Id"] || 0),
+        VariableLimit.fromJson(
+          parsed["Sell Count Upper Limit"] ||
+            '{"Enabled": "true", "Variable Limit": "0"}'
+        ),
+        VariableLimit.fromJson(
+          parsed["Sell Count Lower Limit"] ||
+            '{"Enabled": "true", "Variable Limit": "0"}'
+        )
       );
     }
 
@@ -570,9 +621,15 @@
      * @return {boolean}
      */
     isConditionOk() {
-      return (this._id <= 0 ||
-        (!this._upperLimit.isEnabled || $gameSystem.sellCount(this._category, this._id) <= this._upperLimit.limit) &&
-        (!this._lowerLimit.isEnabled || $gameSystem.sellCount(this._category, this._id) >= this._lowerLimit.limit));
+      return (
+        this._id <= 0 ||
+        ((!this._upperLimit.isEnabled ||
+          $gameSystem.sellCount(this._category, this._id) <=
+            this._upperLimit.limit) &&
+          (!this._lowerLimit.isEnabled ||
+            $gameSystem.sellCount(this._category, this._id) >=
+              this._lowerLimit.limit))
+      );
     }
   }
 
@@ -613,8 +670,12 @@
 
   window[SellCount.name] = SellCount;
 
-  const settings = JsonEx.parse(pluginParameters['Custom Price Setting'] || '[]').map(json => CustomPriceSetting.fromJson(json));
-  const sellCountIdVariable = Number(pluginParameters['Sell Count Id variable'] || 0);
+  const settings = JsonEx.parse(
+    pluginParameters["Custom Price Setting"] || "[]"
+  ).map((json) => CustomPriceSetting.fromJson(json));
+  const sellCountIdVariable = Number(
+    pluginParameters["Sell Count Id variable"] || 0
+  );
 
   const _Game_System_initialize = Game_System.prototype.initialize;
   Game_System.prototype.initialize = function () {
@@ -635,8 +696,12 @@
   };
 
   Game_System.prototype.currentSellCounts = function () {
-    const sellCountId = sellCountIdVariable > 0 ? $gameVariables.value(sellCountIdVariable) : 0;
-    if (this._sellCounts.length <= sellCountId || !Array.isArray(this._sellCounts[sellCountId])) {
+    const sellCountId =
+      sellCountIdVariable > 0 ? $gameVariables.value(sellCountIdVariable) : 0;
+    if (
+      this._sellCounts.length <= sellCountId ||
+      !Array.isArray(this._sellCounts[sellCountId])
+    ) {
       this._sellCounts[sellCountId] = [];
     }
     return this._sellCounts[sellCountId];
@@ -644,7 +709,9 @@
 
   Game_System.prototype.sellCountPlus = function (category, id, count) {
     const sellCounts = this.currentSellCounts();
-    const sellCount = sellCounts.find(sellCount => sellCount.category === category && sellCount.id === id);
+    const sellCount = sellCounts.find(
+      (sellCount) => sellCount.category === category && sellCount.id === id
+    );
     if (sellCount) {
       sellCount.sellItem(count);
     } else {
@@ -654,22 +721,34 @@
 
   Game_System.prototype.sellCount = function (category, id) {
     const sellCounts = this.currentSellCounts();
-    const sellCount = sellCounts.find(sellCount => sellCount.category === category && sellCount.id === id);
+    const sellCount = sellCounts.find(
+      (sellCount) => sellCount.category === category && sellCount.id === id
+    );
     return sellCount ? sellCount.count : 0;
   };
 
   const _Scene_Shop_sellingPrice = Scene_Shop.prototype.sellingPrice;
   Scene_Shop.prototype.sellingPrice = function () {
-    const customPrice = settings.filter(setting => setting.isEnabled())
-      .map(setting => setting.customPriceOf(this._item.id, this._categoryWindow.currentSymbol()))
-      .find(price => price);
+    const customPrice = settings
+      .filter((setting) => setting.isEnabled())
+      .map((setting) =>
+        setting.customPriceOf(
+          this._item.id,
+          this._categoryWindow.currentSymbol()
+        )
+      )
+      .find((price) => price);
     return customPrice ? customPrice : _Scene_Shop_sellingPrice.call(this);
   };
 
   const _Scene_Shop_doSell = Scene_Shop.prototype.doSell;
   Scene_Shop.prototype.doSell = function (number) {
     _Scene_Shop_doSell.call(this, number);
-    $gameSystem.sellCountPlus(DataManager.itemCategory(this._item), this._item.id, number);
+    $gameSystem.sellCountPlus(
+      DataManager.itemCategory(this._item),
+      this._item.id,
+      number
+    );
   };
 
   const _Window_ShopSell_isEnabled = Window_ShopSell.prototype.isEnabled;
@@ -677,10 +756,13 @@
     if (!item) {
       return false;
     }
-    const customPrice = settings.filter(setting => setting.isEnabled())
-      .map(setting => setting.customPriceOf(item.id, this._category))
-      .find(price => price);
-    return customPrice ? customPrice > 0 : _Window_ShopSell_isEnabled.call(this, item);
+    const customPrice = settings
+      .filter((setting) => setting.isEnabled())
+      .map((setting) => setting.customPriceOf(item.id, this._category))
+      .find((price) => price);
+    return customPrice
+      ? customPrice > 0
+      : _Window_ShopSell_isEnabled.call(this, item);
   };
 
   /**

@@ -190,49 +190,48 @@
  *   キャラごとの違いを際立たせることができるかもしれません。
  *
  * プラグインコマンドはありません。
- * 
+ *
  */
 
 var Imported = Imported || {};
 Imported.TMStatusMenuEx = true;
 
 (function () {
-
-  var parameters = PluginManager.parameters('TMStatusMenuEx');
-  Input.keyMapper[+parameters['']] = '';
-  var useOkButton = parameters[''] === '' ? true : false;
-  var horzLineHeight = +parameters['horzLineHeight'];
-  var xparamText = parameters['xparamText'].split(',');
-  var sparamText = parameters['sparamText'].split(',');
-  var paramNameX = +parameters['paramNameX'];
-  var paramNameWidth = +parameters['paramNameWidth'];
-  var paramX = +parameters['paramX'];
-  var paramWidth = +parameters['paramWidth'];
-  var xparamNameX = +parameters['xparamNameX'];
-  var xparamNameWidth = +parameters['xparamNameWidth'];
-  var xparamX = +parameters['xparamX'];
-  var xparamWidth = +parameters['xparamWidth'];
-  var xparamFixed = +parameters['xparamFixed'];
-  var sparamNameX = +parameters['sparamNameX'];
-  var sparamNameWidth = +parameters['sparamNameWidth'];
-  var sparamX = +parameters['sparamX'];
-  var sparamWidth = +parameters['sparamWidth'];
-  var sparamFixed = +parameters['sparamFixed'];
-  var elementResistX = +parameters['elementResistX'];
-  var elementResistWidth = +parameters['elementResistWidth'];
-  var elementResistIds = parameters['elementResistIds'].split(',');
-  var elementResistIconIds = parameters['elementResistIconIds'].split(',');
-  var pdrIconId = +parameters['pdrIconId'];
-  var mdrIconId = +parameters['mdrIconId'];
-  var stateResistX = +parameters['stateResistX'];
-  var stateResistWidth = +parameters['stateResistWidth'];
-  var stateResistIds = parameters['stateResistIds'].split(',');
-  var resistFixed = +parameters['resistFixed'];
-  var paramBackGround = parameters['paramBackGround'] === '1' ? true : false;
-  var paramBackGroundOpacity = +parameters['paramBackGroundOpacity'];
-  var useNicknameEx = parameters['useNicknameEx'] === '1' ? true : false;
-  var useMaxLevel = parameters['useMaxLevel'] === '1' ? true : false;
-  var maxLevelColor = +parameters['maxLevelColor'];
+  var parameters = PluginManager.parameters("TMStatusMenuEx");
+  Input.keyMapper[+parameters[""]] = "";
+  var useOkButton = parameters[""] === "" ? true : false;
+  var horzLineHeight = +parameters["horzLineHeight"];
+  var xparamText = parameters["xparamText"].split(",");
+  var sparamText = parameters["sparamText"].split(",");
+  var paramNameX = +parameters["paramNameX"];
+  var paramNameWidth = +parameters["paramNameWidth"];
+  var paramX = +parameters["paramX"];
+  var paramWidth = +parameters["paramWidth"];
+  var xparamNameX = +parameters["xparamNameX"];
+  var xparamNameWidth = +parameters["xparamNameWidth"];
+  var xparamX = +parameters["xparamX"];
+  var xparamWidth = +parameters["xparamWidth"];
+  var xparamFixed = +parameters["xparamFixed"];
+  var sparamNameX = +parameters["sparamNameX"];
+  var sparamNameWidth = +parameters["sparamNameWidth"];
+  var sparamX = +parameters["sparamX"];
+  var sparamWidth = +parameters["sparamWidth"];
+  var sparamFixed = +parameters["sparamFixed"];
+  var elementResistX = +parameters["elementResistX"];
+  var elementResistWidth = +parameters["elementResistWidth"];
+  var elementResistIds = parameters["elementResistIds"].split(",");
+  var elementResistIconIds = parameters["elementResistIconIds"].split(",");
+  var pdrIconId = +parameters["pdrIconId"];
+  var mdrIconId = +parameters["mdrIconId"];
+  var stateResistX = +parameters["stateResistX"];
+  var stateResistWidth = +parameters["stateResistWidth"];
+  var stateResistIds = parameters["stateResistIds"].split(",");
+  var resistFixed = +parameters["resistFixed"];
+  var paramBackGround = parameters["paramBackGround"] === "1" ? true : false;
+  var paramBackGroundOpacity = +parameters["paramBackGroundOpacity"];
+  var useNicknameEx = parameters["useNicknameEx"] === "1" ? true : false;
+  var useMaxLevel = parameters["useMaxLevel"] === "1" ? true : false;
+  var maxLevelColor = +parameters["maxLevelColor"];
 
   //-----------------------------------------------------------------------------
   // Window_Base
@@ -249,22 +248,31 @@ Imported.TMStatusMenuEx = true;
       this.drawText(TextManager.levelA, x, y, 48);
       var level = actor.level;
       var maxLevel = actor.maxLevel();
-      var color1 = level === maxLevel ? this.textColor(maxLevelColor) : this.normalColor();
-      this.drawCurrentAndMax(level, maxLevel, x, y, this.levelWidth(),
-        color1, this.normalColor());
+      var color1 =
+        level === maxLevel ? this.textColor(maxLevelColor) : this.normalColor();
+      this.drawCurrentAndMax(
+        level,
+        maxLevel,
+        x,
+        y,
+        this.levelWidth(),
+        color1,
+        this.normalColor()
+      );
     } else {
       _Window_Base_drawActorLevel.call(this, actor, x, y);
     }
   };
 
-  var _Window_Base_drawActorSimpleStatus = Window_Base.prototype.drawActorSimpleStatus;
+  var _Window_Base_drawActorSimpleStatus =
+    Window_Base.prototype.drawActorSimpleStatus;
   Window_Base.prototype.drawActorSimpleStatus = function (actor, x, y, width) {
     if (useNicknameEx) {
       var lineHeight = this.lineHeight();
       y -= lineHeight * 0.5 - 8;
       this.contents.fontSize = 20;
       var text = actor.nickname() + actor.currentClass().name;
-      this.contents.drawText(text, x, y, width, 20, 'left');
+      this.contents.drawText(text, x, y, width, 20, "left");
       this.resetFontSettings();
       var x2 = x + 180;
       y += 20;
@@ -321,7 +329,13 @@ Imported.TMStatusMenuEx = true;
       this.resetTextColor();
       var x = this.textWidth(this._actor.name()) + 6;
       var text = this._actor.nickname() + this._actor.currentClass().name;
-      this.drawText(text, x, y, this.contents.width - x - this.textPadding(), 'right');
+      this.drawText(
+        text,
+        x,
+        y,
+        this.contents.width - x - this.textPadding(),
+        "right"
+      );
     } else {
       _Window_Status_drawBlock1.call(this, y);
     }
@@ -342,16 +356,26 @@ Imported.TMStatusMenuEx = true;
 
   Window_Status.prototype.drawHorzLine = function (y) {
     this.contents.paintOpacity = 48;
-    this.contents.fillRect(0, y + horzLineHeight / 2 - 1,
-      this.contentsWidth(), 2, this.lineColor());
+    this.contents.fillRect(
+      0,
+      y + horzLineHeight / 2 - 1,
+      this.contentsWidth(),
+      2,
+      this.lineColor()
+    );
     this.contents.paintOpacity = 255;
     return y + horzLineHeight;
   };
 
   Window_Status.prototype.drawParamBackGround = function (x, y, width) {
     this.contents.paintOpacity = paramBackGroundOpacity;
-    this.contents.fillRect(x, y + this.lineHeight() / 2, width,
-      this.lineHeight() / 2, this.gaugeBackColor());
+    this.contents.fillRect(
+      x,
+      y + this.lineHeight() / 2,
+      width,
+      this.lineHeight() / 2,
+      this.gaugeBackColor()
+    );
     this.contents.paintOpacity = 255;
   };
 
@@ -375,7 +399,7 @@ Imported.TMStatusMenuEx = true;
         this.changeTextColor(this.systemColor());
         this.drawText(TextManager.param(paramId), x, y, w);
         this.resetTextColor();
-        this.drawText(this._actor.param(paramId), x2, y, w2, 'right');
+        this.drawText(this._actor.param(paramId), x2, y, w2, "right");
         y += lineHeight;
       }
     }
@@ -394,7 +418,7 @@ Imported.TMStatusMenuEx = true;
         this.drawText(xparamText[i], x, y, w);
         this.resetTextColor();
         var value = this._actor.xparam(i) * 100;
-        this.drawText(value.toFixed(xparamFixed), x2, y, w2, 'right');
+        this.drawText(value.toFixed(xparamFixed), x2, y, w2, "right");
         y += lineHeight;
       }
     }
@@ -413,7 +437,7 @@ Imported.TMStatusMenuEx = true;
         this.drawText(xparamText[i], x, y, w);
         this.resetTextColor();
         var value = this._actor.xparam(i) * 100;
-        this.drawText(value.toFixed(xparamFixed) + '%', x2, y, w2, 'right');
+        this.drawText(value.toFixed(xparamFixed) + "%", x2, y, w2, "right");
         y += lineHeight;
       }
     }
@@ -424,7 +448,7 @@ Imported.TMStatusMenuEx = true;
         this.drawText(sparamText[i], x, y, w);
         this.resetTextColor();
         var value = this._actor.sparam(i) * 100;
-        this.drawText(value.toFixed(sparamFixed) + '%', x2, y, w2, 'right');
+        this.drawText(value.toFixed(sparamFixed) + "%", x2, y, w2, "right");
         y += lineHeight;
       }
     }
@@ -438,16 +462,26 @@ Imported.TMStatusMenuEx = true;
       if (paramBackGround) this.drawParamBackGround(x, y, w);
       this.drawIcon(pdrIconId, x, y);
       var n = this._actor.pdr * 100;
-      this.drawText(n.toFixed(resistFixed) + '%', x + Window_Base._iconWidth,
-        y, w - Window_Base._iconWidth, 'right');
+      this.drawText(
+        n.toFixed(resistFixed) + "%",
+        x + Window_Base._iconWidth,
+        y,
+        w - Window_Base._iconWidth,
+        "right"
+      );
       y += lineHeight;
     }
     if (mdrIconId > 0) {
       if (paramBackGround) this.drawParamBackGround(x, y, w);
       this.drawIcon(mdrIconId, x, y);
       var n = this._actor.mdr * 100;
-      this.drawText(n.toFixed(resistFixed) + '%', x + Window_Base._iconWidth,
-        y, w - Window_Base._iconWidth, 'right');
+      this.drawText(
+        n.toFixed(resistFixed) + "%",
+        x + Window_Base._iconWidth,
+        y,
+        w - Window_Base._iconWidth,
+        "right"
+      );
       y += lineHeight;
     }
     for (var i = 0; i < elementResistIds.length; i++) {
@@ -455,8 +489,13 @@ Imported.TMStatusMenuEx = true;
       var elementId = +elementResistIds[i];
       this.drawIcon(elementResistIconIds[i], x, y);
       var n = this._actor.elementRate(elementId) * 100;
-      this.drawText(n.toFixed(resistFixed) + '%', x + Window_Base._iconWidth,
-        y, w - Window_Base._iconWidth, 'right');
+      this.drawText(
+        n.toFixed(resistFixed) + "%",
+        x + Window_Base._iconWidth,
+        y,
+        w - Window_Base._iconWidth,
+        "right"
+      );
       y += lineHeight;
     }
   };
@@ -471,8 +510,13 @@ Imported.TMStatusMenuEx = true;
       this.drawIcon($dataStates[stateId].iconIndex, x, y);
       var n = this._actor.stateRate(stateId) * 100;
       if (this._actor.isStateResist(stateId)) n = 0;
-      this.drawText(n.toFixed(resistFixed) + '%', x + Window_Base._iconWidth,
-        y, w - Window_Base._iconWidth, 'right');
+      this.drawText(
+        n.toFixed(resistFixed) + "%",
+        x + Window_Base._iconWidth,
+        y,
+        w - Window_Base._iconWidth,
+        "right"
+      );
       y += lineHeight;
     }
   };
@@ -490,12 +534,13 @@ Imported.TMStatusMenuEx = true;
   var _Scene_Status_update = Scene_Status.prototype.update;
   Scene_Status.prototype.update = function () {
     _Scene_Status_update.call(this);
-    if (Input.isTriggered('description') ||
-      (useOkButton && Input.isTriggered('ok'))) {
+    if (
+      Input.isTriggered("description") ||
+      (useOkButton && Input.isTriggered("ok"))
+    ) {
       SoundManager.playOk();
       this._statusWindow.changeParameterMode();
       this._statusWindow.activate();
     }
   };
-
 })();

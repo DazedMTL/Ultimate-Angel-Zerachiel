@@ -4,13 +4,11 @@
  */
 
 (function () {
-
-	BattleManager.startBattle = function () {
-		this._phase = 'start';
-		$gameSystem.onBattleStart();
-		$gameParty.onBattleStart();
-		$gameTroop.onBattleStart();
-		//this.displayStartMessages();
-	};
-
+  BattleManager.startBattle = function () {
+    this._phase = "start";
+    $gameSystem.onBattleStart();
+    $gameParty.onBattleStart();
+    $gameTroop.onBattleStart();
+    //this.displayStartMessages();
+  };
 })();

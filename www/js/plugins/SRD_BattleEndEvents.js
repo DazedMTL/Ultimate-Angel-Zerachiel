@@ -29,7 +29,7 @@
  * SumRndmDde
  *
  *
- * This plugin allows Common Events to be played at the end of the battle 
+ * This plugin allows Common Events to be played at the end of the battle
  * depending on the results.
  *
  *
@@ -37,9 +37,9 @@
  *  Plugin Commands
  * ==============================================================================
  *
- * The following Plugin Commands can be used throughout your game to change the 
+ * The following Plugin Commands can be used throughout your game to change the
  * Common Events called at the end of the battle. These can even be used in
- * troop events to dynamically change what Common Event will be played at the 
+ * troop events to dynamically change what Common Event will be played at the
  * end of the battle.
  *
  *
@@ -59,7 +59,7 @@
  * ==============================================================================
  *  End of Help File
  * ==============================================================================
- * 
+ *
  * Welcome to the bottom of the Help file.
  *
  *
@@ -79,87 +79,89 @@ var SRD = SRD || {};
 SRD.BattleEndEvents = SRD.BattleEndEvents || {};
 
 var Imported = Imported || {};
-Imported["SumRndmDde Battle End Events"] = 1.00;
+Imported["SumRndmDde Battle End Events"] = 1.0;
 
 (function (_) {
+  "use strict";
 
-	"use strict";
+  //-----------------------------------------------------------------------------
+  // SRD.BattleEndEvents
+  //-----------------------------------------------------------------------------
 
-	//-----------------------------------------------------------------------------
-	// SRD.BattleEndEvents
-	//-----------------------------------------------------------------------------
+  const params = PluginManager.parameters("SRD_BattleEndEvents");
 
-	const params = PluginManager.parameters('SRD_BattleEndEvents');
+  _.win = parseInt(params["Win Common Event"]);
+  _.lose = parseInt(params["Lose Common Event"]);
+  _.escape = parseInt(params["Escape Common Event"]);
+  _.abort = parseInt(params["Abort Common Event"]);
+  _.var = parseInt(params["Troop ID Variable"]);
 
-	_.win = parseInt(params['Win Common Event']);
-	_.lose = parseInt(params['Lose Common Event']);
-	_.escape = parseInt(params['Escape Common Event']);
-	_.abort = parseInt(params['Abort Common Event']);
-	_.var = parseInt(params['Troop ID Variable']);
+  //-----------------------------------------------------------------------------
+  // BattleManager
+  //-----------------------------------------------------------------------------
 
-	//-----------------------------------------------------------------------------
-	// BattleManager
-	//-----------------------------------------------------------------------------
+  _.BattleManager_initMembers = BattleManager.initMembers;
+  BattleManager.initMembers = function () {
+    _.BattleManager_initMembers.apply(this, arguments);
+    this._endEventsInterpreter = new Game_Interpreter();
+  };
 
-	_.BattleManager_initMembers = BattleManager.initMembers;
-	BattleManager.initMembers = function () {
-		_.BattleManager_initMembers.apply(this, arguments);
-		this._endEventsInterpreter = new Game_Interpreter();
-	};
+  _.BattleManager_endBattle = BattleManager.endBattle;
+  BattleManager.endBattle = function (result) {
+    if (_.var !== 0) {
+      $gameVariables.setValue(_.var, $gameTroop._troopId);
+    }
+    this.checkBattleEndCommonEvent(result);
+    _.BattleManager_endBattle.apply(this, arguments);
+  };
 
-	_.BattleManager_endBattle = BattleManager.endBattle;
-	BattleManager.endBattle = function (result) {
-		if (_.var !== 0) {
-			$gameVariables.setValue(_.var, $gameTroop._troopId);
-		}
-		this.checkBattleEndCommonEvent(result);
-		_.BattleManager_endBattle.apply(this, arguments);
-	};
+  BattleManager.checkBattleEndCommonEvent = function (result) {
+    switch (result) {
+      case 0:
+        if (_.win !== 0)
+          this._endEventsInterpreter.setup($dataCommonEvents[_.win].list);
+        break;
+      case 1:
+        if (this._escaped) {
+          if (_.escape !== 0)
+            this._endEventsInterpreter.setup($dataCommonEvents[_.escape].list);
+        } else {
+          if (_.abort !== 0)
+            this._endEventsInterpreter.setup($dataCommonEvents[_.abort].list);
+        }
+        break;
+      case 2:
+        if (_.lose !== 0)
+          this._endEventsInterpreter.setup($dataCommonEvents[_.lose].list);
+        break;
+    }
+  };
 
-	BattleManager.checkBattleEndCommonEvent = function (result) {
-		switch (result) {
-			case 0:
-				if (_.win !== 0) this._endEventsInterpreter.setup($dataCommonEvents[_.win].list);
-				break;
-			case 1:
-				if (this._escaped) {
-					if (_.escape !== 0) this._endEventsInterpreter.setup($dataCommonEvents[_.escape].list);
-				} else {
-					if (_.abort !== 0) this._endEventsInterpreter.setup($dataCommonEvents[_.abort].list);
-				}
-				break;
-			case 2:
-				if (_.lose !== 0) this._endEventsInterpreter.setup($dataCommonEvents[_.lose].list);
-				break;
-		}
-	};
+  _.BattleManager_updateBattleEnd = BattleManager.updateBattleEnd;
+  BattleManager.updateBattleEnd = function () {
+    if (this._endEventsInterpreter.isRunning()) {
+      this._endEventsInterpreter.update();
+      return;
+    }
+    _.BattleManager_updateBattleEnd.apply(this, arguments);
+  };
 
-	_.BattleManager_updateBattleEnd = BattleManager.updateBattleEnd;
-	BattleManager.updateBattleEnd = function () {
-		if (this._endEventsInterpreter.isRunning()) {
-			this._endEventsInterpreter.update();
-			return;
-		}
-		_.BattleManager_updateBattleEnd.apply(this, arguments);
-	};
+  //-----------------------------------------------------------------------------
+  // Game_Interpreter
+  //-----------------------------------------------------------------------------
 
-	//-----------------------------------------------------------------------------
-	// Game_Interpreter
-	//-----------------------------------------------------------------------------
-
-	_.Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-	Game_Interpreter.prototype.pluginCommand = function (command, args) {
-		_.Game_Interpreter_pluginCommand.apply(this, arguments);
-		const com = command.trim().toLowerCase();
-		if (com === 'setwincommonevent') {
-			_.win = parseInt(args[0]);
-		} else if (com === 'setlosecommonevent') {
-			_.lose = parseInt(args[0]);
-		} else if (com === 'setescapecommonevent') {
-			_.escape = parseInt(args[0]);
-		} else if (com === 'setabortcommonevent') {
-			_.abort = parseInt(args[0]);
-		}
-	};
-
+  _.Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _.Game_Interpreter_pluginCommand.apply(this, arguments);
+    const com = command.trim().toLowerCase();
+    if (com === "setwincommonevent") {
+      _.win = parseInt(args[0]);
+    } else if (com === "setlosecommonevent") {
+      _.lose = parseInt(args[0]);
+    } else if (com === "setescapecommonevent") {
+      _.escape = parseInt(args[0]);
+    } else if (com === "setabortcommonevent") {
+      _.abort = parseInt(args[0]);
+    }
+  };
 })(SRD.BattleEndEvents);

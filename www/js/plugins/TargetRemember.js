@@ -42,7 +42,7 @@
  *
  * オプションから『コマンド記憶』をONにしたとき、
  * コマンドだけでなくターゲットも同時に記憶します。
- *　
+ *
  * このプラグインにはプラグインコマンドはありません。
  *
  * 利用規約：
@@ -52,67 +52,73 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    const _Scene_Battle_startEnemySelection = Scene_Battle.prototype.startEnemySelection;
-    Scene_Battle.prototype.startEnemySelection = function () {
-        _Scene_Battle_startEnemySelection.apply(this, arguments);
-        this._enemyWindow.selectLast();
-    };
+  const _Scene_Battle_startEnemySelection =
+    Scene_Battle.prototype.startEnemySelection;
+  Scene_Battle.prototype.startEnemySelection = function () {
+    _Scene_Battle_startEnemySelection.apply(this, arguments);
+    this._enemyWindow.selectLast();
+  };
 
-    const _Scene_Battle_startActorSelection = Scene_Battle.prototype.startActorSelection;
-    Scene_Battle.prototype.startActorSelection = function () {
-        _Scene_Battle_startActorSelection.apply(this, arguments);
-        this._actorWindow.selectLast();
-    };
+  const _Scene_Battle_startActorSelection =
+    Scene_Battle.prototype.startActorSelection;
+  Scene_Battle.prototype.startActorSelection = function () {
+    _Scene_Battle_startActorSelection.apply(this, arguments);
+    this._actorWindow.selectLast();
+  };
 
-    const _Scene_Battle_onActorOk = Scene_Battle.prototype.onActorOk;
-    Scene_Battle.prototype.onActorOk = function () {
-        BattleManager.actor().setLastBattleTarget(this._actorWindow.actor(this._actorWindow.index()));
-        _Scene_Battle_onActorOk.apply(this, arguments);
-    };
+  const _Scene_Battle_onActorOk = Scene_Battle.prototype.onActorOk;
+  Scene_Battle.prototype.onActorOk = function () {
+    BattleManager.actor().setLastBattleTarget(
+      this._actorWindow.actor(this._actorWindow.index())
+    );
+    _Scene_Battle_onActorOk.apply(this, arguments);
+  };
 
-    const _Scene_Battle_onEnemyOk = Scene_Battle.prototype.onEnemyOk;
-    Scene_Battle.prototype.onEnemyOk = function () {
-        BattleManager.actor().setLastBattleTarget(this._enemyWindow.enemy(this._enemyWindow.index()));
-        _Scene_Battle_onEnemyOk.apply(this, arguments);
-    };
+  const _Scene_Battle_onEnemyOk = Scene_Battle.prototype.onEnemyOk;
+  Scene_Battle.prototype.onEnemyOk = function () {
+    BattleManager.actor().setLastBattleTarget(
+      this._enemyWindow.enemy(this._enemyWindow.index())
+    );
+    _Scene_Battle_onEnemyOk.apply(this, arguments);
+  };
 
-    Window_BattleActor.prototype.selectLast = function () {
-        const actor = BattleManager.actor();
-        if (!ConfigManager.commandRemember || !actor) {
-            return;
-        }
-        const index = $gameParty.members().indexOf(actor.lastBattleTarget())
-        if (index >= 0) {
-            this.select(index);
-        }
-    };
+  Window_BattleActor.prototype.selectLast = function () {
+    const actor = BattleManager.actor();
+    if (!ConfigManager.commandRemember || !actor) {
+      return;
+    }
+    const index = $gameParty.members().indexOf(actor.lastBattleTarget());
+    if (index >= 0) {
+      this.select(index);
+    }
+  };
 
-    Window_BattleEnemy.prototype.selectLast = function () {
-        const actor = BattleManager.actor();
-        if (!ConfigManager.commandRemember || !actor) {
-            return;
-        }
-        const index = this._enemies.indexOf(actor.lastBattleTarget());
-        if (index >= 0) {
-            this.select(index);
-        }
-    };
+  Window_BattleEnemy.prototype.selectLast = function () {
+    const actor = BattleManager.actor();
+    if (!ConfigManager.commandRemember || !actor) {
+      return;
+    }
+    const index = this._enemies.indexOf(actor.lastBattleTarget());
+    if (index >= 0) {
+      this.select(index);
+    }
+  };
 
-    Game_Actor.prototype.lastBattleTarget = function () {
-        return this._lastBattleTarget;
-    };
+  Game_Actor.prototype.lastBattleTarget = function () {
+    return this._lastBattleTarget;
+  };
 
-    Game_Actor.prototype.setLastBattleTarget = function (target) {
-        this._lastBattleTarget = target;
-    };
+  Game_Actor.prototype.setLastBattleTarget = function (target) {
+    this._lastBattleTarget = target;
+  };
 
-    const _BattleManager_endBattle = BattleManager.endBattle
-    BattleManager.endBattle = function (result) {
-        _BattleManager_endBattle.apply(this, arguments);
-        $gameParty.members().forEach(function (actor) {
-            actor.setLastBattleTarget(null);
-        });
-    };
+  const _BattleManager_endBattle = BattleManager.endBattle;
+  BattleManager.endBattle = function (result) {
+    _BattleManager_endBattle.apply(this, arguments);
+    $gameParty.members().forEach(function (actor) {
+      actor.setLastBattleTarget(null);
+    });
+  };
 })();

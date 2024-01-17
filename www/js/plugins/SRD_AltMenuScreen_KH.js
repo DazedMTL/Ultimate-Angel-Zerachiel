@@ -22,7 +22,7 @@
  * @default false
  *
  * @param Max Commands
- * @desc The maximum amount of commands for the Command Window. 
+ * @desc The maximum amount of commands for the Command Window.
  * Use if using a unique screen resolution.
  * @default 9
  *
@@ -328,8 +328,8 @@
  *  -  Customizable descriptions for each command
  *  -  A map display
  *  -  A location display which can be customized per each map
- * 
- * 
+ *
+ *
  * ==========================================================================
  *  How to Set Descriptions for Commands
  * ==========================================================================
@@ -344,7 +344,7 @@
  * insert descriptions for them through the "Custom Desc." Parameters.
  *
  * First, find the symbol for the command.
- * This may be located in the help file for the Plugin it was added in or 
+ * This may be located in the help file for the Plugin it was added in or
  * displayed through some Parameters. Anyway, insert that symbol into a
  * "Command Symbol" Parameter.
  *
@@ -369,7 +369,7 @@
  * ==========================================================================
  *  End of Help File
  * ==========================================================================
- * 
+ *
  * Welcome to the bottom of the Help file.
  *
  *
@@ -385,346 +385,433 @@
  */
 
 (function () {
+  "use strict";
 
-	"use strict";
+  var params = PluginManager.parameters("SRD_AltMenuScreen_KH");
 
-	var params = PluginManager.parameters('SRD_AltMenuScreen_KH');
+  var descs = {};
+  descs["item"] = String(params["Item Desc."]);
+  descs["skill"] = String(params["Skill Desc."]);
+  descs["equip"] = String(params["Equip Desc."]);
+  descs["status"] = String(params["Status Desc."]);
+  descs["Erosute"] = String(params["Formation Desc."]);
+  descs["options"] = String(params["Options Desc."]);
+  descs["save"] = String(params["Save Desc."]);
+  descs["gameEnd"] = String(params["Game End Desc."]);
 
-	var descs = {};
-	descs['item'] = String(params['Item Desc.']);
-	descs['skill'] = String(params['Skill Desc.']);
-	descs['equip'] = String(params['Equip Desc.']);
-	descs['status'] = String(params['Status Desc.']);
-	descs['Erosute'] = String(params['Formation Desc.']);
-	descs['options'] = String(params['Options Desc.']);
-	descs['save'] = String(params['Save Desc.']);
-	descs['gameEnd'] = String(params['Game End Desc.']);
+  for (var i = 1; i <= 20; i++) {
+    var sym = String(params["Command Symbol " + i]);
+    if (sym.trim().length > 0) {
+      descs[sym] = String(params["Command Desc. " + i]);
+    }
+  }
 
-	for (var i = 1; i <= 20; i++) {
-		var sym = String(params['Command Symbol ' + i]);
-		if (sym.trim().length > 0) {
-			descs[sym] = String(params['Command Desc. ' + i]);
-		}
-	}
+  var transition =
+    String(params["Use Transition"]).trim().toLowerCase() === "true";
+  var useCharacters =
+    String(params["Use Characters"]).trim().toLowerCase() === "true";
+  var useDisplayName =
+    String(params["Use Display Name"]).trim().toLowerCase() === "true";
+  var drawTp = String(params["Show TP"]).trim().toLowerCase() === "true";
+  var maxCommands = parseInt(params["Max Commands"]);
+  var playTimeText = String(params["Play Time Text"]);
+  var currencyText = String(params["Currency Text"]);
+  var mapText = String(params["Map Text"]);
+  var locationText = String(params["Location Text"]);
+  var squishPlayTime = true;
+  var characterSizeX = 48;
+  var characterSizeY = 48;
+  var statusPosition = String(params["Status Position"]).trim().toLowerCase();
+  var commandWidth = parseInt(params["Command Width"]);
+  var statusCols = parseInt(params["Status Cols"]);
+  var mapColor = String(params["Map Color"]);
+  var goldColor = String(params["Currency Color"]);
+  var timeColor = String(params["Play Time Color"]);
+  var locationColor = String(params["Location Color"]);
+  var xSpeed = parseInt(params["Command Speed"]); //10;
+  var xSpeed2 = parseInt(params["Status Speed"]); //24;
+  var ySpeed = parseInt(params["Location Speed"]); //4;
+  var ySpeed2 = parseInt(params["Gold Speed"]); //6;
 
-	var transition = String(params['Use Transition']).trim().toLowerCase() === 'true';
-	var useCharacters = String(params['Use Characters']).trim().toLowerCase() === 'true';
-	var useDisplayName = String(params['Use Display Name']).trim().toLowerCase() === 'true';
-	var drawTp = String(params['Show TP']).trim().toLowerCase() === 'true';
-	var maxCommands = parseInt(params['Max Commands']);
-	var playTimeText = String(params['Play Time Text']);
-	var currencyText = String(params['Currency Text']);
-	var mapText = String(params['Map Text']);
-	var locationText = String(params['Location Text']);
-	var squishPlayTime = true;
-	var characterSizeX = 48;
-	var characterSizeY = 48;
-	var statusPosition = String(params['Status Position']).trim().toLowerCase();
-	var commandWidth = parseInt(params['Command Width']);
-	var statusCols = parseInt(params['Status Cols']);
-	var mapColor = String(params['Map Color']);
-	var goldColor = String(params['Currency Color']);
-	var timeColor = String(params['Play Time Color']);
-	var locationColor = String(params['Location Color']);
-	var xSpeed = parseInt(params['Command Speed']);//10;
-	var xSpeed2 = parseInt(params['Status Speed']);//24;
-	var ySpeed = parseInt(params['Location Speed']);//4;
-	var ySpeed2 = parseInt(params['Gold Speed']);//6;
+  var m_rows = parseInt(params["Map Rows"]);
+  var gt_rows = parseInt(params["Gold/Time Rows"]);
 
-	var m_rows = parseInt(params['Map Rows']);
-	var gt_rows = parseInt(params['Gold/Time Rows']);
+  var _Scene_Menu_create = Scene_Menu.prototype.create;
+  Scene_Menu.prototype.create = function () {
+    _Scene_Menu_create.call(this);
+    this._windowLayer.removeChild(this._goldWindow);
+    this._windowGoldAndTime = new Window_GoldAndTime(0, 0, this._commandWindow);
+    this._windowLocation = new Window_Location(0, 0);
+    this._windowGoldAndTime.y =
+      Graphics.boxHeight - this._windowGoldAndTime.height;
+    this.addWindow(this._windowGoldAndTime);
+    this.addWindow(this._windowLocation);
 
-	var _Scene_Menu_create = Scene_Menu.prototype.create;
-	Scene_Menu.prototype.create = function () {
-		_Scene_Menu_create.call(this);
-		this._windowLayer.removeChild(this._goldWindow);
-		this._windowGoldAndTime = new Window_GoldAndTime(0, 0, this._commandWindow);
-		this._windowLocation = new Window_Location(0, 0);
-		this._windowGoldAndTime.y = Graphics.boxHeight - this._windowGoldAndTime.height;
-		this.addWindow(this._windowGoldAndTime);
-		this.addWindow(this._windowLocation);
+    this._commandWindow.y =
+      this._windowLocation.y + this._windowLocation.height;
+    if (statusPosition === "top") this._statusWindow.y = this._commandWindow.y;
+    else
+      this._statusWindow.y =
+        this._windowGoldAndTime.y - this._statusWindow.height;
 
-		this._commandWindow.y = this._windowLocation.y + this._windowLocation.height;
-		if (statusPosition === 'top') this._statusWindow.y = this._commandWindow.y;
-		else this._statusWindow.y = this._windowGoldAndTime.y - this._statusWindow.height;
+    if (transition && SceneManager.isPreviousScene(Scene_Map)) {
+      this._menuTransitionInfo = [
+        this._commandWindow.x,
+        this._statusWindow.x,
+        this._windowGoldAndTime.y,
+        this._windowLocation.y,
+      ];
+      this._commandWindow.x = -this._commandWindow.width;
+      this._statusWindow.x = Graphics.width;
+      this._windowGoldAndTime.y = Graphics.height;
+      this._windowLocation.y = -this._windowLocation.height;
 
-		if (transition && SceneManager.isPreviousScene(Scene_Map)) {
-			this._menuTransitionInfo = [this._commandWindow.x, this._statusWindow.x, this._windowGoldAndTime.y, this._windowLocation.y];
-			this._commandWindow.x = -this._commandWindow.width;
-			this._statusWindow.x = Graphics.width;
-			this._windowGoldAndTime.y = Graphics.height;
-			this._windowLocation.y = -this._windowLocation.height;
+      this._isUpdating = true;
+    } else {
+      this._isUpdating = false;
+    }
+  };
+  if (transition) {
+    var _Scene_Menu_update = Scene_Menu.prototype.update;
+    Scene_Menu.prototype.update = function () {
+      _Scene_Menu_update.call(this);
+      if (this._isUpdating) {
+        if (this._commandWindow.x < this._menuTransitionInfo[0] - xSpeed)
+          this._commandWindow.x += xSpeed;
+        else this._commandWindow.x = this._menuTransitionInfo[0];
+        if (this._statusWindow.x > this._menuTransitionInfo[1] + xSpeed2)
+          this._statusWindow.x -= xSpeed2;
+        else this._statusWindow.x = this._menuTransitionInfo[1];
 
-			this._isUpdating = true;
-		} else {
-			this._isUpdating = false;
-		}
-	};
-	if (transition) {
-		var _Scene_Menu_update = Scene_Menu.prototype.update;
-		Scene_Menu.prototype.update = function () {
-			_Scene_Menu_update.call(this);
-			if (this._isUpdating) {
-				if (this._commandWindow.x < this._menuTransitionInfo[0] - xSpeed) this._commandWindow.x += xSpeed;
-				else this._commandWindow.x = this._menuTransitionInfo[0];
-				if (this._statusWindow.x > this._menuTransitionInfo[1] + xSpeed2) this._statusWindow.x -= xSpeed2;
-				else this._statusWindow.x = this._menuTransitionInfo[1];
+        if (this._windowLocation.y < this._menuTransitionInfo[3] - ySpeed)
+          this._windowLocation.y += ySpeed;
+        else this._windowLocation.y = this._menuTransitionInfo[3];
+        if (this._windowGoldAndTime.y > this._menuTransitionInfo[2] + ySpeed2)
+          this._windowGoldAndTime.y -= ySpeed2;
+        else this._windowGoldAndTime.y = this._menuTransitionInfo[2];
 
-				if (this._windowLocation.y < this._menuTransitionInfo[3] - ySpeed) this._windowLocation.y += ySpeed;
-				else this._windowLocation.y = this._menuTransitionInfo[3];
-				if (this._windowGoldAndTime.y > this._menuTransitionInfo[2] + ySpeed2) this._windowGoldAndTime.y -= ySpeed2;
-				else this._windowGoldAndTime.y = this._menuTransitionInfo[2];
+        if (
+          this._commandWindow.x === this._menuTransitionInfo[0] &&
+          this._statusWindow.x === this._menuTransitionInfo[1] &&
+          this._windowGoldAndTime.y === this._menuTransitionInfo[2] &&
+          this._windowLocation.y === this._menuTransitionInfo[3]
+        ) {
+          this._isUpdating = false;
+        }
+      }
+    };
+  }
 
-				if (this._commandWindow.x === this._menuTransitionInfo[0] && this._statusWindow.x === this._menuTransitionInfo[1] &&
-					this._windowGoldAndTime.y === this._menuTransitionInfo[2] && this._windowLocation.y === this._menuTransitionInfo[3]) {
-					this._isUpdating = false;
-				}
-			}
-		};
-	}
+  if (useCharacters) {
+    Window_Base.prototype.drawCharacterAnimated = function (
+      characterName,
+      characterIndex,
+      x,
+      y,
+      width,
+      height,
+      frame
+    ) {
+      var bitmap = ImageManager.loadCharacter(characterName);
+      var big = ImageManager.isBigCharacter(characterName);
+      var pw = bitmap.width / (big ? 3 : 12);
+      var ph = bitmap.height / (big ? 4 : 8);
+      var n = characterIndex;
+      var sx = ((n % 4) * 3 + 1) * pw + frame * 48;
+      var sy = Math.floor(n / 4) * 4 * ph;
+      this.contents.blt(
+        bitmap,
+        sx,
+        sy,
+        pw,
+        ph,
+        x - pw / 2,
+        y - ph,
+        width,
+        height
+      );
+    };
+  }
 
-	if (useCharacters) {
-		Window_Base.prototype.drawCharacterAnimated = function (characterName, characterIndex, x, y, width, height, frame) {
-			var bitmap = ImageManager.loadCharacter(characterName);
-			var big = ImageManager.isBigCharacter(characterName);
-			var pw = bitmap.width / (big ? 3 : 12);
-			var ph = bitmap.height / (big ? 4 : 8);
-			var n = characterIndex;
-			var sx = ((n % 4 * 3 + 1) * pw) + (frame * 48);
-			var sy = ((Math.floor(n / 4) * 4) * ph);
-			this.contents.blt(bitmap, sx, sy, pw, ph, x - pw / 2, y - ph, width, height);
-		};
-	}
+  Window_MenuCommand.prototype.windowWidth = function () {
+    return commandWidth;
+  };
+  Window_MenuCommand.prototype.numVisibleRows = function () {
+    return Math.min(this.maxItems(), maxCommands);
+  };
 
-	Window_MenuCommand.prototype.windowWidth = function () {
-		return commandWidth;
-	};
-	Window_MenuCommand.prototype.numVisibleRows = function () {
-		return Math.min(this.maxItems(), maxCommands);
-	};
+  var _Window_MenuStatus_initialize = Window_MenuStatus.prototype.initialize;
+  Window_MenuStatus.prototype.initialize = function (x, y) {
+    _Window_MenuStatus_initialize.call(this, x, y);
+    this._tick = 0;
+    this._frame = 0;
+  };
+  Window_MenuStatus.prototype.windowWidth = function () {
+    return Graphics.boxWidth - commandWidth;
+  };
+  Window_MenuStatus.prototype.windowHeight = function () {
+    var result =
+      Graphics.height -
+      Window_GoldAndTime.prototype.windowHeight.call(this) -
+      Window_Location.prototype.windowHeight.call(this);
+    if (useCharacters) {
+      result *= 3 / 4;
+      result -= this.lineHeight();
+      if (!drawTp) result -= this.lineHeight();
+    }
+    return result;
+  };
+  Window_MenuStatus.prototype.maxCols = function () {
+    return statusCols;
+  };
+  Window_MenuStatus.prototype.numVisibleRows = function () {
+    return 1;
+  };
+  Window_MenuStatus.prototype.drawActorName = function (actor, x, y, width) {
+    width = width || 168;
+    this.changeTextColor(this.hpColor(actor));
+    var direction = useCharacters ? "right" : "left";
+    this.drawText(actor.name(), x, y, width, direction);
+  };
+  if (useCharacters) {
+    var _Window_MenuStatus_update = Window_MenuStatus.prototype.update;
+    Window_MenuStatus.prototype.update = function () {
+      _Window_MenuStatus_update.call(this);
+      this._tick += 1;
+      if (this._tick >= 20) {
+        this._frame += 1;
+        if (this._frame > 2) this._frame = -1;
+        this.refresh();
+        this._tick = 0;
+      }
+    };
+  }
+  Window_MenuStatus.prototype.drawItemImage = function (index) {
+    var actor = $gameParty.members()[index];
+    var rect = this.itemRect(index);
+    this.changePaintOpacity(actor.isBattleMember());
+    if (useCharacters) {
+      var frame = this._frame === 2 ? 0 : this._frame;
+      this.drawCharacterAnimated(
+        actor.characterName(),
+        actor.characterIndex(),
+        rect.x + characterSizeX / 2,
+        rect.y + characterSizeY,
+        characterSizeX,
+        characterSizeY,
+        frame
+      );
+    } else {
+      this.drawActorFace(
+        actor,
+        rect.x + rect.width / 2 - Window_Base._faceWidth / 2,
+        rect.y,
+        Window_Base._faceWidth,
+        Window_Base._faceHeight
+      );
+    }
+    this.changePaintOpacity(true);
+  };
+  Window_MenuStatus.prototype.drawItemStatus = function (index) {
+    var actor = $gameParty.members()[index];
+    var rect = this.itemRect(index);
+    var x = rect.x + 4;
+    var y = rect.y;
+    if (!useCharacters) y += rect.height / 2;
+    else y += characterSizeY / 2;
+    if (drawTp && !useCharacters) {
+      y -= this.lineHeight() / 2;
+    }
+    var width = rect.width - 8;
+    var lineHeight = this.lineHeight();
+    this.drawActorName(actor, x, y, width);
+    this.drawActorLevel(actor, x, y + lineHeight, width);
+    this.drawActorHp(actor, x, y + lineHeight * 2, width);
+    this.drawActorMp(actor, x, y + lineHeight * 3, width);
+    if (drawTp) this.drawActorTp(actor, x, y + lineHeight * 4, width);
+    this.resetFontSettings();
+  };
 
-	var _Window_MenuStatus_initialize = Window_MenuStatus.prototype.initialize;
-	Window_MenuStatus.prototype.initialize = function (x, y) {
-		_Window_MenuStatus_initialize.call(this, x, y);
-		this._tick = 0;
-		this._frame = 0;
-	};
-	Window_MenuStatus.prototype.windowWidth = function () {
-		return Graphics.boxWidth - commandWidth;
-	};
-	Window_MenuStatus.prototype.windowHeight = function () {
-		var result = Graphics.height - Window_GoldAndTime.prototype.windowHeight.call(this) - Window_Location.prototype.windowHeight.call(this);
-		if (useCharacters) {
-			result *= (3 / 4);
-			result -= this.lineHeight();
-			if (!drawTp) result -= this.lineHeight();
-		}
-		return result;
-	};
-	Window_MenuStatus.prototype.maxCols = function () {
-		return statusCols;
-	};
-	Window_MenuStatus.prototype.numVisibleRows = function () {
-		return 1;
-	};
-	Window_MenuStatus.prototype.drawActorName = function (actor, x, y, width) {
-		width = width || 168;
-		this.changeTextColor(this.hpColor(actor));
-		var direction = (useCharacters) ? 'right' : 'left';
-		this.drawText(actor.name(), x, y, width, direction);
-	};
-	if (useCharacters) {
-		var _Window_MenuStatus_update = Window_MenuStatus.prototype.update;
-		Window_MenuStatus.prototype.update = function () {
-			_Window_MenuStatus_update.call(this);
-			this._tick += 1;
-			if (this._tick >= 20) {
-				this._frame += 1;
-				if (this._frame > 2) this._frame = -1;
-				this.refresh();
-				this._tick = 0;
-			}
-		};
-	}
-	Window_MenuStatus.prototype.drawItemImage = function (index) {
-		var actor = $gameParty.members()[index];
-		var rect = this.itemRect(index);
-		this.changePaintOpacity(actor.isBattleMember());
-		if (useCharacters) {
-			var frame = (this._frame === 2) ? 0 : this._frame;
-			this.drawCharacterAnimated(actor.characterName(), actor.characterIndex(),
-				rect.x + (characterSizeX / 2), rect.y + (characterSizeY), characterSizeX, characterSizeY, frame);
-		} else {
-			this.drawActorFace(actor, rect.x + (rect.width / 2) - (Window_Base._faceWidth / 2), rect.y, Window_Base._faceWidth, Window_Base._faceHeight);
-		}
-		this.changePaintOpacity(true);
-	};
-	Window_MenuStatus.prototype.drawItemStatus = function (index) {
-		var actor = $gameParty.members()[index];
-		var rect = this.itemRect(index);
-		var x = rect.x + 4;
-		var y = rect.y;
-		if (!useCharacters) y += (rect.height / 2);
-		else y += (characterSizeY / 2);
-		if (drawTp && !useCharacters) {
-			y -= this.lineHeight() / 2;
-		}
-		var width = rect.width - 8;
-		var lineHeight = this.lineHeight();
-		this.drawActorName(actor, x, y, width);
-		this.drawActorLevel(actor, x, y + lineHeight, width);
-		this.drawActorHp(actor, x, y + lineHeight * 2, width);
-		this.drawActorMp(actor, x, y + lineHeight * 3, width);
-		if (drawTp) this.drawActorTp(actor, x, y + lineHeight * 4, width);
-		this.resetFontSettings();
-	};
+  function Window_GoldAndTime() {
+    this.initialize.apply(this, arguments);
+  }
+  Window_GoldAndTime.prototype = Object.create(Window_Base.prototype);
+  Window_GoldAndTime.prototype.constructor = Window_GoldAndTime;
+  Window_GoldAndTime.prototype.initialize = function (x, y, commandWindow) {
+    var width = this.windowWidth();
+    var height = this.windowHeight();
+    Window_Base.prototype.initialize.call(this, x, y, width, height);
+    this._commandWindow = commandWindow;
+    this._value = "";
+    this.refresh();
+  };
+  Window_GoldAndTime.prototype.windowWidth = function () {
+    return Graphics.width;
+  };
+  Window_GoldAndTime.prototype.windowHeight = function () {
+    return this.fittingHeight(gt_rows);
+  };
+  Window_GoldAndTime.prototype.refresh = function () {
+    var x = this.textPadding();
+    var y1 = this.contentsHeight() / 4 - this.windowHeight() / 8;
+    var y2 = this.contentsHeight() * (3 / 4) - this.windowHeight() / 8;
+    var width = (this.contents.width - this.textPadding() * 2) * (1 / 3);
+    this.contents.clear();
+    this.setTextColor1();
+    this.drawText(currencyText, x, y1, width2, "left");
+    this.resetTextColor();
+    this.drawCurrencyValue(this.value(), this.currencyUnit(), x, y1, width);
+    this.resetTextColor();
+    var width2 = squishPlayTime ? width - this.textWidth("00:00:00") : width;
+    this.drawTime();
+    this.drawVertLine(width + 30);
+    this.drawVertLine(width + 40);
+    var x2 = width + 70;
+    this.drawCommand();
+  };
+  Window_GoldAndTime.prototype.drawTime = function () {
+    var x = this.textPadding();
+    var y = this.contentsHeight() * (3 / 4) - this.windowHeight() / 8;
+    var width = (this.contents.width - this.textPadding() * 2) * (1 / 3);
+    var width2 = squishPlayTime ? width - this.textWidth("00:00:00") : width;
+    this.contents.clearRect(x, y, width + 10, this.lineHeight());
+    this.setTextColor2();
+    this.drawText(playTimeText, x, y, width2, "left");
+    this.resetTextColor();
+    this.drawText($gameSystem.playtimeText(), x, y, width, "right");
+  };
+  Window_GoldAndTime.prototype.drawCommand = function () {
+    if (this._value != this._commandWindow.currentData().symbol) {
+      var width = (this.contents.width - this.textPadding() * 2) * (1 / 3);
+      var width3 = this.contents.width - this.textPadding() * 2 - x2;
+      var x2 = width + 70;
+      this._value = this._commandWindow.currentData().symbol;
+      if (descs[this._value]) {
+        var text = descs[this._value].replace(
+          /<br>/gi,
+          function () {
+            return "\n";
+          }.bind(this)
+        );
+        this.drawTextEx(text, x2, 0);
+      }
+    }
+  };
+  Window_GoldAndTime.prototype.drawVertLine = function (x) {
+    this.contents.paintOpacity = 48;
+    this.contents.fillRect(x, 0, 2, this.contentsHeight(), this.normalColor());
+    this.contents.paintOpacity = 255;
+  };
+  Window_GoldAndTime.prototype.value = function () {
+    return $gameParty.gold();
+  };
+  Window_GoldAndTime.prototype.currencyUnit = function () {
+    return TextManager.currencyUnit;
+  };
+  Window_GoldAndTime.prototype.open = function () {
+    this.refresh();
+    Window_Base.prototype.open.call(this);
+  };
+  Window_GoldAndTime.prototype.update = function () {
+    this.drawTime();
+    if (this._value != this._commandWindow.currentData().symbol) {
+      this.refresh();
+    }
+    Window_Base.prototype.update.call(this);
+  };
+  Window_GoldAndTime.prototype.setTextColor1 = function () {
+    this.changeTextColor(goldColor);
+  };
+  Window_GoldAndTime.prototype.setTextColor2 = function () {
+    this.changeTextColor(timeColor);
+  };
 
-	function Window_GoldAndTime() {
-		this.initialize.apply(this, arguments);
-	}
-	Window_GoldAndTime.prototype = Object.create(Window_Base.prototype);
-	Window_GoldAndTime.prototype.constructor = Window_GoldAndTime;
-	Window_GoldAndTime.prototype.initialize = function (x, y, commandWindow) {
-		var width = this.windowWidth();
-		var height = this.windowHeight();
-		Window_Base.prototype.initialize.call(this, x, y, width, height);
-		this._commandWindow = commandWindow;
-		this._value = "";
-		this.refresh();
-	};
-	Window_GoldAndTime.prototype.windowWidth = function () {
-		return Graphics.width;
-	};
-	Window_GoldAndTime.prototype.windowHeight = function () {
-		return this.fittingHeight(gt_rows);
-	};
-	Window_GoldAndTime.prototype.refresh = function () {
-		var x = this.textPadding();
-		var y1 = (this.contentsHeight() / 4) - (this.windowHeight() / 8);
-		var y2 = (this.contentsHeight() * (3 / 4)) - (this.windowHeight() / 8);
-		var width = (this.contents.width - this.textPadding() * 2) * (1 / 3);
-		this.contents.clear();
-		this.setTextColor1();
-		this.drawText(currencyText, x, y1, width2, 'left');
-		this.resetTextColor();
-		this.drawCurrencyValue(this.value(), this.currencyUnit(), x, y1, width);
-		this.resetTextColor();
-		var width2 = (squishPlayTime) ? width - this.textWidth("00:00:00") : width;
-		this.drawTime();
-		this.drawVertLine(width + 30);
-		this.drawVertLine(width + 40);
-		var x2 = width + 70;
-		this.drawCommand();
-	};
-	Window_GoldAndTime.prototype.drawTime = function () {
-		var x = this.textPadding();
-		var y = (this.contentsHeight() * (3 / 4)) - (this.windowHeight() / 8);
-		var width = (this.contents.width - this.textPadding() * 2) * (1 / 3);
-		var width2 = (squishPlayTime) ? width - this.textWidth("00:00:00") : width;
-		this.contents.clearRect(x, y, width + 10, this.lineHeight())
-		this.setTextColor2();
-		this.drawText(playTimeText, x, y, width2, 'left');
-		this.resetTextColor();
-		this.drawText($gameSystem.playtimeText(), x, y, width, 'right');
-	};
-	Window_GoldAndTime.prototype.drawCommand = function () {
-		if (this._value != this._commandWindow.currentData().symbol) {
-			var width = (this.contents.width - this.textPadding() * 2) * (1 / 3);
-			var width3 = this.contents.width - this.textPadding() * 2 - (x2);
-			var x2 = width + 70;
-			this._value = this._commandWindow.currentData().symbol;
-			if (descs[this._value]) {
-				var text = descs[this._value].replace(/<br>/gi, function () {
-					return "\n";
-				}.bind(this));
-				this.drawTextEx(text, x2, 0);
-			}
-		}
-	};
-	Window_GoldAndTime.prototype.drawVertLine = function (x) {
-		this.contents.paintOpacity = 48;
-		this.contents.fillRect(x, 0, 2, this.contentsHeight(), this.normalColor());
-		this.contents.paintOpacity = 255;
-	};
-	Window_GoldAndTime.prototype.value = function () {
-		return $gameParty.gold();
-	};
-	Window_GoldAndTime.prototype.currencyUnit = function () {
-		return TextManager.currencyUnit;
-	};
-	Window_GoldAndTime.prototype.open = function () {
-		this.refresh();
-		Window_Base.prototype.open.call(this);
-	};
-	Window_GoldAndTime.prototype.update = function () {
-		this.drawTime();
-		if (this._value != this._commandWindow.currentData().symbol) {
-			this.refresh();
-		}
-		Window_Base.prototype.update.call(this);
-	};
-	Window_GoldAndTime.prototype.setTextColor1 = function () {
-		this.changeTextColor(goldColor);
-	};
-	Window_GoldAndTime.prototype.setTextColor2 = function () {
-		this.changeTextColor(timeColor);
-	};
-
-	function Window_Location() {
-		this.initialize.apply(this, arguments);
-	}
-	Window_Location.prototype = Object.create(Window_Base.prototype);
-	Window_Location.prototype.constructor = Window_Location;
-	Window_Location.prototype.initialize = function (x, y) {
-		var width = this.windowWidth();
-		var height = this.windowHeight();
-		Window_Base.prototype.initialize.call(this, x, y, width, height);
-		this.refresh();
-	};
-	Window_Location.prototype.windowWidth = function () {
-		return Graphics.width;
-	};
-	Window_Location.prototype.windowHeight = function () {
-		return this.fittingHeight(m_rows);
-	};
-	Window_Location.prototype.drawVertLine = function (x) {
-		this.contents.paintOpacity = 48;
-		this.contents.fillRect(x, 0, 2, this.contentsHeight(), this.normalColor());
-		this.contents.paintOpacity = 255;
-	};
-	Window_Location.prototype.refresh = function () {
-		var width = this.contents.width - this.textPadding() * 2;
-		var x = this.textPadding();
-		var x2 = Math.floor(width * (1 / 3));
-		var x3 = Math.floor(width * (2 / 3));
-		var y1 = (this.contentsHeight() / 4) - (this.windowHeight() / 8);
-		var y2 = (this.contentsHeight() * (3 / 4)) - (this.windowHeight() / 8);
-		this.contents.clear();
-		this.contents.fontSize = 48;
-		this.drawText("Menu", 0, (this.contentsHeight() / 2) - (this.lineHeight() / 2), (width / 3), 'center');
-		this.resetFontSettings();
-		var mapName = (useDisplayName) ? $gameMap.displayName() : $dataMapInfos[$gameMap.mapId()].name;
-		this.setTextColor1();
-		this.drawText(mapText, x2 + ((x2 / 2) - (this.textWidth(mapText) / 2)), y1, width, 'left');
-		this.resetTextColor();
-		this.drawText(mapName, x2 + ((x2 / 2) - (this.textWidth(mapName) / 2)), y2, width, 'left');
-		if ($dataMap.meta["General Location"]) {
-			this.setTextColor2();
-			this.drawText(locationText, x3 + ((x2 / 2) - (this.textWidth(locationText) / 2)) + 10, y1, width, 'left');
-			this.resetTextColor();
-			var text = $dataMap.meta["General Location"];
-			this.drawText(text, x3 + ((x2 / 2) - (this.textWidth(text) / 2)), y2, width, 'left');
-		}
-	};
-	Window_Location.prototype.setTextColor1 = function () {
-		this.changeTextColor(mapColor);
-	};
-	Window_Location.prototype.setTextColor2 = function () {
-		this.changeTextColor(locationColor);
-	};
-	Window_Location.prototype.open = function () {
-		this.refresh();
-		Window_Base.prototype.open.call(this);
-	};
-
+  function Window_Location() {
+    this.initialize.apply(this, arguments);
+  }
+  Window_Location.prototype = Object.create(Window_Base.prototype);
+  Window_Location.prototype.constructor = Window_Location;
+  Window_Location.prototype.initialize = function (x, y) {
+    var width = this.windowWidth();
+    var height = this.windowHeight();
+    Window_Base.prototype.initialize.call(this, x, y, width, height);
+    this.refresh();
+  };
+  Window_Location.prototype.windowWidth = function () {
+    return Graphics.width;
+  };
+  Window_Location.prototype.windowHeight = function () {
+    return this.fittingHeight(m_rows);
+  };
+  Window_Location.prototype.drawVertLine = function (x) {
+    this.contents.paintOpacity = 48;
+    this.contents.fillRect(x, 0, 2, this.contentsHeight(), this.normalColor());
+    this.contents.paintOpacity = 255;
+  };
+  Window_Location.prototype.refresh = function () {
+    var width = this.contents.width - this.textPadding() * 2;
+    var x = this.textPadding();
+    var x2 = Math.floor(width * (1 / 3));
+    var x3 = Math.floor(width * (2 / 3));
+    var y1 = this.contentsHeight() / 4 - this.windowHeight() / 8;
+    var y2 = this.contentsHeight() * (3 / 4) - this.windowHeight() / 8;
+    this.contents.clear();
+    this.contents.fontSize = 48;
+    this.drawText(
+      "Menu",
+      0,
+      this.contentsHeight() / 2 - this.lineHeight() / 2,
+      width / 3,
+      "center"
+    );
+    this.resetFontSettings();
+    var mapName = useDisplayName
+      ? $gameMap.displayName()
+      : $dataMapInfos[$gameMap.mapId()].name;
+    this.setTextColor1();
+    this.drawText(
+      mapText,
+      x2 + (x2 / 2 - this.textWidth(mapText) / 2),
+      y1,
+      width,
+      "left"
+    );
+    this.resetTextColor();
+    this.drawText(
+      mapName,
+      x2 + (x2 / 2 - this.textWidth(mapName) / 2),
+      y2,
+      width,
+      "left"
+    );
+    if ($dataMap.meta["General Location"]) {
+      this.setTextColor2();
+      this.drawText(
+        locationText,
+        x3 + (x2 / 2 - this.textWidth(locationText) / 2) + 10,
+        y1,
+        width,
+        "left"
+      );
+      this.resetTextColor();
+      var text = $dataMap.meta["General Location"];
+      this.drawText(
+        text,
+        x3 + (x2 / 2 - this.textWidth(text) / 2),
+        y2,
+        width,
+        "left"
+      );
+    }
+  };
+  Window_Location.prototype.setTextColor1 = function () {
+    this.changeTextColor(mapColor);
+  };
+  Window_Location.prototype.setTextColor2 = function () {
+    this.changeTextColor(locationColor);
+  };
+  Window_Location.prototype.open = function () {
+    this.refresh();
+    Window_Base.prototype.open.call(this);
+  };
 })();

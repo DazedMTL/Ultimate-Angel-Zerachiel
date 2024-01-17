@@ -5,13 +5,13 @@
 /*:
  * @plugindesc display foreground tiling sprite
  * @author Sasuke KANNAZUKI (thanks to Yoji Ojima)
- * 
+ *
  * @noteParam fgName
  * @noteRequire 1
  * @noteDir img/parallaxes/
  * @noteType file
  * @noteData maps
- * 
+ *
  * @help  This plugin does not provide plugin commands.
  *
  * 'foreground' is like a parallax that displays over the map.
@@ -19,7 +19,7 @@
  *
  * Map Note:
  *  write down following 5 settings at map's note.
- *  <fgName:name>     name is the string, file name of tiling sprite. 
+ *  <fgName:name>     name is the string, file name of tiling sprite.
  *    if the name starts '!', it is regarded as "foreground zero".
  *    the filename is searched from img/parallaxes.
  *  <fgLoopX:number>  number is the flag of loop x. 0:no 1:yes
@@ -32,7 +32,7 @@
  *  <fgSy:number>     number is y scroll speed.
  *    when it doesn't loop y, this is ignored.
  *    if this is not written on the note, it'll be 0.
- * 
+ *
  * Ex.
  * <fgName:sample1><fgLoopX:1><fgLoopY:1>
  *
@@ -42,13 +42,13 @@
 /*:ja
  * @plugindesc マップに合わせてスクロールする近景の設定
  * @author 神無月サスケ (thanks to Yoji Ojima)
- * 
+ *
  * @noteParam fgName
  * @noteRequire 1
  * @noteDir img/parallaxes/
  * @noteType file
  * @noteData maps
- * 
+ *
  * @help このプラグインにプラグインコマンドはありません。
  * 近景(foreground)は、マップの上に表示される遠景のようなものです。
  * 使用する画像ファイルは、img/parallaxes に置いてください。
@@ -68,7 +68,7 @@
  *  <fgSy:数字>    Y座標のスクロール速度です
  *    Y座標にループしない場合は無視されます。
  *    省略時は0になります。
- * 
+ *
  * 例：
  * <fgName:sample1><fgLoopX:1><fgLoopY:1>
  * sample1.png が前景になり、斜め上にループします。
@@ -82,7 +82,7 @@
   // check zero foreground or not.
   //
   ImageManager.isZeroForeground = function (filename) {
-    return filename.charAt(0) === '!';
+    return filename.charAt(0) === "!";
   };
 
   //
@@ -96,7 +96,7 @@
 
   Game_Map.prototype.initForeground = function () {
     this._foregroundDefined = true;
-    this._foregroundName = '';
+    this._foregroundName = "";
     this._foregroundZero = false;
     this._foregroundLoopX = false;
     this._foregroundLoopY = false;
@@ -133,7 +133,7 @@
   };
 
   Game_Map.prototype.setupForeground = function () {
-    this._foregroundName = $dataMap.meta.fgName || '';
+    this._foregroundName = $dataMap.meta.fgName || "";
     this._foregroundZero = ImageManager.isZeroForeground(this._foregroundName);
     this._foregroundLoopX = !!Number($dataMap.meta.fgLoopX);
     this._foregroundLoopY = !!Number($dataMap.meta.fgLoopY);
@@ -167,7 +167,7 @@
     if (this._foregroundZero) {
       return this._foregroundX * this.tileWidth();
     } else if (this._foregroundLoopX) {
-      return this._foregroundX * this.tileWidth() / 2;
+      return (this._foregroundX * this.tileWidth()) / 2;
     } else {
       return 0;
     }
@@ -178,7 +178,7 @@
     if (this._foregroundZero) {
       return this._foregroundY * this.tileHeight();
     } else if (this._foregroundLoopY) {
-      return this._foregroundY * this.tileHeight() / 2;
+      return (this._foregroundY * this.tileHeight()) / 2;
     } else {
       return 0;
     }
@@ -197,8 +197,10 @@
         this._foregroundY += distance;
       }
     } else if (this.height() >= this.screenTileY()) {
-      var displayY = Math.min(lastY + distance,
-        this.height() - this.screenTileY());
+      var displayY = Math.min(
+        lastY + distance,
+        this.height() - this.screenTileY()
+      );
       this._foregroundY += displayY - lastY;
     }
   };
@@ -228,8 +230,10 @@
         this._foregroundX += distance;
       }
     } else if (this.width() >= this.screenTileX()) {
-      var displayX = Math.min(lastX + distance,
-        this.width() - this.screenTileX());
+      var displayX = Math.min(
+        lastX + distance,
+        this.width() - this.screenTileX()
+      );
       this._foregroundX += displayX - lastX;
     }
   };
@@ -303,5 +307,4 @@
       this._foreground.origin.y = $gameMap.foregroundOy();
     }
   };
-
 })();

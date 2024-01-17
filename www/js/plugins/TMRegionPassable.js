@@ -48,13 +48,13 @@
  *   それぞれ設定してください。
  *   これらのリージョンが付加された場所ではタイルによる通行判定を実行せず、
  *   リージョンでのみ通行できるかどうかが決まります。
- * 
+ *
  *   また、リージョン番号を半角スペースで区切って複数設定することで
  *   複数のリージョンに通行設定を適用できます。
- * 
+ *
  *   プラグインコマンドはありません。
  *
- * 
+ *
  * 利用規約:
  *   MITライセンスです。
  *   https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license
@@ -66,30 +66,35 @@ var Imported = Imported || {};
 Imported.TMRegionPassable = true;
 
 (function () {
-    'use strict';
+  "use strict";
 
-    var parameters = PluginManager.parameters('TMRegionPassable');
-    var passableRegions = (parameters['passableRegions'] || '251').split(' ').map(Number);
-    var dontPassRegions = (parameters['dontPassRegions'] || '252 253').split(' ').map(Number);
-    var counterRegions = (parameters['counterRegions'] || '253').split(' ').map(Number);
+  var parameters = PluginManager.parameters("TMRegionPassable");
+  var passableRegions = (parameters["passableRegions"] || "251")
+    .split(" ")
+    .map(Number);
+  var dontPassRegions = (parameters["dontPassRegions"] || "252 253")
+    .split(" ")
+    .map(Number);
+  var counterRegions = (parameters["counterRegions"] || "253")
+    .split(" ")
+    .map(Number);
 
-    //-----------------------------------------------------------------------------
-    // Game_Map
-    //
+  //-----------------------------------------------------------------------------
+  // Game_Map
+  //
 
-    var _Game_Map_checkPassage = Game_Map.prototype.checkPassage;
-    Game_Map.prototype.checkPassage = function (x, y, bit) {
-        var regionId = this.regionId(x, y);
-        if (passableRegions.indexOf(regionId) >= 0) return true;
-        if (dontPassRegions.indexOf(regionId) >= 0) return false;
-        return _Game_Map_checkPassage.call(this, x, y, bit);
-    };
+  var _Game_Map_checkPassage = Game_Map.prototype.checkPassage;
+  Game_Map.prototype.checkPassage = function (x, y, bit) {
+    var regionId = this.regionId(x, y);
+    if (passableRegions.indexOf(regionId) >= 0) return true;
+    if (dontPassRegions.indexOf(regionId) >= 0) return false;
+    return _Game_Map_checkPassage.call(this, x, y, bit);
+  };
 
-    var _Game_Map_isCounter = Game_Map.prototype.isCounter;
-    Game_Map.prototype.isCounter = function (x, y) {
-        var regionId = this.regionId(x, y);
-        if (counterRegions.indexOf(regionId) >= 0) return true;
-        return _Game_Map_isCounter.call(this, x, y);
-    };
-
+  var _Game_Map_isCounter = Game_Map.prototype.isCounter;
+  Game_Map.prototype.isCounter = function (x, y) {
+    var regionId = this.regionId(x, y);
+    if (counterRegions.indexOf(regionId) >= 0) return true;
+    return _Game_Map_isCounter.call(this, x, y);
+  };
 })();

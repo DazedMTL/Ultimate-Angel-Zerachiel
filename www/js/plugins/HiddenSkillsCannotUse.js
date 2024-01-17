@@ -30,15 +30,17 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'HiddenSkillsCannotUse';
+  "use strict";
+  var pluginName = "HiddenSkillsCannotUse";
 
-    //=============================================================================
-    // Window_BattleSkill
-    //  使用できないスキルを非表示にします。
-    //=============================================================================
-    Window_BattleSkill.prototype.includes = function (item) {
-        return Window_SkillList.prototype.includes.call(this, item) && this._actor.canUse(item);
-    };
+  //=============================================================================
+  // Window_BattleSkill
+  //  使用できないスキルを非表示にします。
+  //=============================================================================
+  Window_BattleSkill.prototype.includes = function (item) {
+    return (
+      Window_SkillList.prototype.includes.call(this, item) &&
+      this._actor.canUse(item)
+    );
+  };
 })();
-

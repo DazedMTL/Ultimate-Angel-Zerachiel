@@ -10,9 +10,14 @@ var Delaunay;
       ymin = Number.POSITIVE_INFINITY,
       xmax = Number.NEGATIVE_INFINITY,
       ymax = Number.NEGATIVE_INFINITY,
-      i, dx, dy, dmax, xmid, ymid;
+      i,
+      dx,
+      dy,
+      dmax,
+      xmid,
+      ymid;
 
-    for (i = vertices.length; i--;) {
+    for (i = vertices.length; i--; ) {
       if (vertices[i][0] < xmin) xmin = vertices[i][0];
       if (vertices[i][0] > xmax) xmax = vertices[i][0];
       if (vertices[i][1] < ymin) ymin = vertices[i][1];
@@ -28,7 +33,7 @@ var Delaunay;
     return [
       [xmid - 20 * dmax, ymid - dmax],
       [xmid, ymid + 20 * dmax],
-      [xmid + 20 * dmax, ymid - dmax]
+      [xmid + 20 * dmax, ymid - dmax],
     ];
   }
 
@@ -41,7 +46,16 @@ var Delaunay;
       y3 = vertices[k][1],
       fabsy1y2 = Math.abs(y1 - y2),
       fabsy2y3 = Math.abs(y2 - y3),
-      xc, yc, m1, m2, mx1, mx2, my1, my2, dx, dy;
+      xc,
+      yc,
+      m1,
+      m2,
+      mx1,
+      mx2,
+      my1,
+      my2,
+      dx,
+      dy;
 
     /* Check for coincident points */
     if (fabsy1y2 < EPSILON && fabsy2y3 < EPSILON)
@@ -53,17 +67,13 @@ var Delaunay;
       my2 = (y2 + y3) / 2.0;
       xc = (x2 + x1) / 2.0;
       yc = m2 * (xc - mx2) + my2;
-    }
-
-    else if (fabsy2y3 < EPSILON) {
+    } else if (fabsy2y3 < EPSILON) {
       m1 = -((x2 - x1) / (y2 - y1));
       mx1 = (x1 + x2) / 2.0;
       my1 = (y1 + y2) / 2.0;
       xc = (x3 + x2) / 2.0;
       yc = m1 * (xc - mx1) + my1;
-    }
-
-    else {
+    } else {
       m1 = -((x2 - x1) / (y2 - y1));
       m2 = -((x3 - x2) / (y3 - y2));
       mx1 = (x1 + x2) / 2.0;
@@ -71,9 +81,7 @@ var Delaunay;
       my1 = (y1 + y2) / 2.0;
       my2 = (y2 + y3) / 2.0;
       xc = (m1 * mx1 - m2 * mx2 + my2 - my1) / (m1 - m2);
-      yc = (fabsy1y2 > fabsy2y3) ?
-        m1 * (xc - mx1) + my1 :
-        m2 * (xc - mx2) + my2;
+      yc = fabsy1y2 > fabsy2y3 ? m1 * (xc - mx1) + my1 : m2 * (xc - mx2) + my2;
     }
 
     dx = x2 - xc;
@@ -84,11 +92,11 @@ var Delaunay;
   function dedup(edges) {
     var i, j, a, b, m, n;
 
-    for (j = edges.length; j;) {
+    for (j = edges.length; j; ) {
       b = edges[--j];
       a = edges[--j];
 
-      for (i = j; i;) {
+      for (i = j; i; ) {
         n = edges[--i];
         m = edges[--i];
 
@@ -104,28 +112,35 @@ var Delaunay;
   Delaunay = {
     triangulate: function (vertices, key) {
       var n = vertices.length,
-        i, j, indices, st, open, closed, edges, dx, dy, a, b, c;
+        i,
+        j,
+        indices,
+        st,
+        open,
+        closed,
+        edges,
+        dx,
+        dy,
+        a,
+        b,
+        c;
 
       /* Bail if there aren't enough vertices to form any triangles. */
-      if (n < 3)
-        return [];
+      if (n < 3) return [];
 
       /* Slice out the actual vertices from the passed objects. (Duplicate the
        * array even if we don't, though, since we need to make a supertriangle
        * later on!) */
       vertices = vertices.slice(0);
 
-      if (key)
-        for (i = n; i--;)
-          vertices[i] = vertices[i][key];
+      if (key) for (i = n; i--; ) vertices[i] = vertices[i][key];
 
       /* Make an array of indices into the vertex array, sorted by the
        * vertices' x-position. Force stable sorting by comparing indices if
        * the x-positions are equal. */
       indices = new Array(n);
 
-      for (i = n; i--;)
-        indices[i] = i;
+      for (i = n; i--; ) indices[i] = i;
 
       indices.sort(function (i, j) {
         var diff = vertices[j][0] - vertices[i][0];
@@ -152,7 +167,7 @@ var Delaunay;
         /* For each open triangle, check to see if the current point is
          * inside it's circumcircle. If it is, remove the triangle and add
          * it's edges to an edge list. */
-        for (j = open.length; j--;) {
+        for (j = open.length; j--; ) {
           /* If this point is to the right of this triangle's circumcircle,
            * then this triangle should never get checked again. Remove it
            * from the open list, add it to the closed list, and skip. */
@@ -165,14 +180,16 @@ var Delaunay;
 
           /* If we're outside the circumcircle, skip this triangle. */
           dy = vertices[c][1] - open[j].y;
-          if (dx * dx + dy * dy - open[j].r > EPSILON)
-            continue;
+          if (dx * dx + dy * dy - open[j].r > EPSILON) continue;
 
           /* Remove the triangle and add it's edges to the edge list. */
           edges.push(
-            open[j].i, open[j].j,
-            open[j].j, open[j].k,
-            open[j].k, open[j].i
+            open[j].i,
+            open[j].j,
+            open[j].j,
+            open[j].k,
+            open[j].k,
+            open[j].i
           );
           open.splice(j, 1);
         }
@@ -181,7 +198,7 @@ var Delaunay;
         dedup(edges);
 
         /* Add a new triangle for each edge. */
-        for (j = edges.length; j;) {
+        for (j = edges.length; j; ) {
           b = edges[--j];
           a = edges[--j];
           open.push(circumcircle(vertices, a, b, c));
@@ -191,11 +208,10 @@ var Delaunay;
       /* Copy any remaining open triangles to the closed list, and then
        * remove any triangles that share a vertex with the supertriangle,
        * building a list of triplets that represent triangles. */
-      for (i = open.length; i--;)
-        closed.push(open[i]);
+      for (i = open.length; i--; ) closed.push(open[i]);
       open.length = 0;
 
-      for (i = closed.length; i--;)
+      for (i = closed.length; i--; )
         if (closed[i].i < n && closed[i].j < n && closed[i].k < n)
           open.push(closed[i].i, closed[i].j, closed[i].k);
 
@@ -204,10 +220,12 @@ var Delaunay;
     },
     contains: function (tri, p) {
       /* Bounding box test first, for quick rejections. */
-      if ((p[0] < tri[0][0] && p[0] < tri[1][0] && p[0] < tri[2][0]) ||
+      if (
+        (p[0] < tri[0][0] && p[0] < tri[1][0] && p[0] < tri[2][0]) ||
         (p[0] > tri[0][0] && p[0] > tri[1][0] && p[0] > tri[2][0]) ||
         (p[1] < tri[0][1] && p[1] < tri[1][1] && p[1] < tri[2][1]) ||
-        (p[1] > tri[0][1] && p[1] > tri[1][1] && p[1] > tri[2][1]))
+        (p[1] > tri[0][1] && p[1] > tri[1][1] && p[1] > tri[2][1])
+      )
         return null;
 
       var a = tri[1][0] - tri[0][0],
@@ -217,17 +235,15 @@ var Delaunay;
         i = a * d - b * c;
 
       /* Degenerate tri. */
-      if (i === 0.0)
-        return null;
+      if (i === 0.0) return null;
 
       var u = (d * (p[0] - tri[0][0]) - b * (p[1] - tri[0][1])) / i,
         v = (a * (p[1] - tri[0][1]) - c * (p[0] - tri[0][0])) / i;
 
       /* If we're outside the tri, fail. */
-      if (u < 0.0 || v < 0.0 || (u + v) > 1.0)
-        return null;
+      if (u < 0.0 || v < 0.0 || u + v > 1.0) return null;
 
       return [u, v];
-    }
+    },
   };
 })();

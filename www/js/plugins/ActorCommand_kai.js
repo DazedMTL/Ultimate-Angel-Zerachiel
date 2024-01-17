@@ -23,26 +23,22 @@
  *クレジット不要・改変可
  */
 (function () {
-    var parameters = PluginManager.parameters('ActorCommand_kai');
-    var variableId = Number(parameters['Variable ID'] || 0);
-    var sentakuhuka = false;
+  var parameters = PluginManager.parameters("ActorCommand_kai");
+  var variableId = Number(parameters["Variable ID"] || 0);
+  var sentakuhuka = false;
 
-    Window_ActorCommand.prototype.makeCommandList = function () {
+  Window_ActorCommand.prototype.makeCommandList = function () {
+    if (this._actor) {
+      this.addAttackCommand(); //攻撃
+      this.addSkillCommands(); //スキル
+      this.addGuardCommand(); //防御
 
-        if (this._actor) {
-            this.addAttackCommand();      //攻撃
-            this.addSkillCommands();      //スキル
-            this.addGuardCommand();      //防御
-
-            if ($gameVariables.value(variableId) == 0) {
-                this.addItemCommand();      //アイテム表示
-            }
-            if ($gameVariables.value(variableId) == 1) {
-                this.addCommand(TextManager.item, false, sentakuhuka);//アイテム使用不可だが表示
-
-            }
-        }
-    };
-}());
-
-
+      if ($gameVariables.value(variableId) == 0) {
+        this.addItemCommand(); //アイテム表示
+      }
+      if ($gameVariables.value(variableId) == 1) {
+        this.addCommand(TextManager.item, false, sentakuhuka); //アイテム使用不可だが表示
+      }
+    }
+  };
+})();

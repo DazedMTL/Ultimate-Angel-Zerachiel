@@ -185,192 +185,241 @@
  */
 
 (function () {
-	"use strict";
-	var pluginName = "LL_MenuScreenBaseMV";
+  "use strict";
+  var pluginName = "LL_MenuScreenBaseMV";
 
-	var parameters = PluginManager.parameters(pluginName);
-	var paramJsonParse = function (key, value) {
-		try {
-			return JSON.parse(value);
-		} catch (e) {
-			return value;
-		}
-	};
+  var parameters = PluginManager.parameters(pluginName);
+  var paramJsonParse = function (key, value) {
+    try {
+      return JSON.parse(value);
+    } catch (e) {
+      return value;
+    }
+  };
 
-	var menuPictures = String(parameters["menuPictures"] || "[]");
-	var onSpbPluginEnable = eval(parameters["onSpbPluginEnable"] || "true");
-	var menuPictureLists = JSON.parse(JSON.stringify(menuPictures, paramJsonParse));
+  var menuPictures = String(parameters["menuPictures"] || "[]");
+  var onSpbPluginEnable = eval(parameters["onSpbPluginEnable"] || "true");
+  var menuPictureLists = JSON.parse(
+    JSON.stringify(menuPictures, paramJsonParse)
+  );
 
-	//-----------------------------------------------------------------------------
-	// 戦闘中立ち絵プラグインの立ち絵リストを取得
-	// On LL_StandingPictureBattle Plugin
-	//-----------------------------------------------------------------------------
-	var spbPluginName = "LL_StandingPictureBattleMV";
-	var spbParameters = PluginManager.parameters(spbPluginName);
-	var spbCommandPictures = String(spbParameters["sbCommandPictures"] || "[]");
-	var spbCommandPictureLists = JSON.parse(JSON.stringify(spbCommandPictures, paramJsonParse));
+  //-----------------------------------------------------------------------------
+  // 戦闘中立ち絵プラグインの立ち絵リストを取得
+  // On LL_StandingPictureBattle Plugin
+  //-----------------------------------------------------------------------------
+  var spbPluginName = "LL_StandingPictureBattleMV";
+  var spbParameters = PluginManager.parameters(spbPluginName);
+  var spbCommandPictures = String(spbParameters["sbCommandPictures"] || "[]");
+  var spbCommandPictureLists = JSON.parse(
+    JSON.stringify(spbCommandPictures, paramJsonParse)
+  );
 
-	//-----------------------------------------------------------------------------
-	// Ex Menu Screen Base Class
-	//
-	// メニュー画面立ち絵設定の独自クラスを追加定義します。
+  //-----------------------------------------------------------------------------
+  // Ex Menu Screen Base Class
+  //
+  // メニュー画面立ち絵設定の独自クラスを追加定義します。
 
-	class ExMenuScreenBase {
+  class ExMenuScreenBase {
+    //-----------------------------------------------------------------------------
+    // 画像ファイル名を取得
+    //-----------------------------------------------------------------------------
+    static getImageName(actorId) {
+      // 立ち絵リストを取得
+      var pictureLists = this.getPictureLists();
+      if (!pictureLists) return;
 
-		//-----------------------------------------------------------------------------
-		// 画像ファイル名を取得
-		//-----------------------------------------------------------------------------
-		static getImageName(actorId) {
-			// 立ち絵リストを取得
-			var pictureLists = this.getPictureLists();
-			if (!pictureLists) return;
+      // アクターのステート情報を取得
+      var actorStates = [];
+      if (actorId) actorStates = $gameActors.actor(actorId)._states;
+      var specificPicture = null;
 
-			// アクターのステート情報を取得
-			var actorStates = [];
-			if (actorId) actorStates = $gameActors.actor(actorId)._states;
-			var specificPicture = null;
+      // アクターIDが一致する立ち絵を検索
+      pictureLists = pictureLists.filter(function (item) {
+        if (Number(item.actorId) == actorId) {
+          return true;
+        }
+      });
 
-			// アクターIDが一致する立ち絵を検索
-			pictureLists = pictureLists.filter(function (item) {
-				if (Number(item.actorId) == actorId) {
-					return true;
-				}
-			});
+      // ステートにかかっているか？
+      if (actorStates.length) {
+        // ステートID・スイッチID・変数IDが有効な立ち絵リストを検索
+        specificPicture = pictureLists.filter(function (item) {
+          if (item.variableCase) {
+            if (
+              actorStates.indexOf(Number(item.stateId)) !== -1 &&
+              $gameSwitches.value(Number(item.switchId)) &&
+              ((String(item.variableCase.type) == "equal" &&
+                $gameVariables.value(Number(item.variableCase.id)) ==
+                  Number(item.variableCase.value)) ||
+                (String(item.variableCase.type) == "higher" &&
+                  $gameVariables.value(Number(item.variableCase.id)) >=
+                    Number(item.variableCase.value)) ||
+                (String(item.variableCase.type) == "lower" &&
+                  $gameVariables.value(Number(item.variableCase.id)) <=
+                    Number(item.variableCase.value)))
+            ) {
+              return true;
+            }
+          }
+        });
+        if (specificPicture.length)
+          return this.checkHpPercentage(actorId, specificPicture);
+        // ステートID・スイッチIDが有効な立ち絵リストを検索
+        specificPicture = pictureLists.filter(function (item) {
+          if (
+            actorStates.indexOf(Number(item.stateId)) !== -1 &&
+            $gameSwitches.value(Number(item.switchId)) &&
+            !item.variableCase
+          ) {
+            return true;
+          }
+        });
+        if (specificPicture.length)
+          return this.checkHpPercentage(actorId, specificPicture);
+        // ステートID・変数IDが有効な立ち絵リストを検索
+        specificPicture = pictureLists.filter(function (item) {
+          if (item.variableCase) {
+            if (
+              actorStates.indexOf(Number(item.stateId)) !== -1 &&
+              (Number(item.switchId) === 0 || !item.switchId) &&
+              ((String(item.variableCase.type) == "equal" &&
+                $gameVariables.value(Number(item.variableCase.id)) ==
+                  Number(item.variableCase.value)) ||
+                (String(item.variableCase.type) == "higher" &&
+                  $gameVariables.value(Number(item.variableCase.id)) >=
+                    Number(item.variableCase.value)) ||
+                (String(item.variableCase.type) == "lower" &&
+                  $gameVariables.value(Number(item.variableCase.id)) <=
+                    Number(item.variableCase.value)))
+            ) {
+              return true;
+            }
+          }
+        });
+        if (specificPicture.length)
+          return this.checkHpPercentage(actorId, specificPicture);
+        // ステートIDが有効な立ち絵リストを検索
+        specificPicture = pictureLists.filter(function (item) {
+          if (
+            actorStates.indexOf(Number(item.stateId)) !== -1 &&
+            (Number(item.switchId) === 0 || !item.switchId) &&
+            !item.variableCase
+          ) {
+            return true;
+          }
+        });
+        if (specificPicture.length)
+          return this.checkHpPercentage(actorId, specificPicture);
+      }
 
-			// ステートにかかっているか？
-			if (actorStates.length) {
-				// ステートID・スイッチID・変数IDが有効な立ち絵リストを検索
-				specificPicture = pictureLists.filter(function (item) {
-					if (item.variableCase) {
-						if (
-							actorStates.indexOf(Number(item.stateId)) !== -1 &&
-							$gameSwitches.value(Number(item.switchId)) &&
-							(
-								String(item.variableCase.type) == "equal" && $gameVariables.value(Number(item.variableCase.id)) == Number(item.variableCase.value) ||
-								String(item.variableCase.type) == "higher" && $gameVariables.value(Number(item.variableCase.id)) >= Number(item.variableCase.value) ||
-								String(item.variableCase.type) == "lower" && $gameVariables.value(Number(item.variableCase.id)) <= Number(item.variableCase.value)
-							)
-						) {
-							return true;
-						}
-					}
-				});
-				if (specificPicture.length) return this.checkHpPercentage(actorId, specificPicture);
-				// ステートID・スイッチIDが有効な立ち絵リストを検索
-				specificPicture = pictureLists.filter(function (item) {
-					if (actorStates.indexOf(Number(item.stateId)) !== -1 && $gameSwitches.value(Number(item.switchId)) && !item.variableCase) {
-						return true;
-					}
-				});
-				if (specificPicture.length) return this.checkHpPercentage(actorId, specificPicture);
-				// ステートID・変数IDが有効な立ち絵リストを検索
-				specificPicture = pictureLists.filter(function (item) {
-					if (item.variableCase) {
-						if (
-							actorStates.indexOf(Number(item.stateId)) !== -1 &&
-							(Number(item.switchId) === 0 || !item.switchId) &&
-							(
-								String(item.variableCase.type) == "equal" && $gameVariables.value(Number(item.variableCase.id)) == Number(item.variableCase.value) ||
-								String(item.variableCase.type) == "higher" && $gameVariables.value(Number(item.variableCase.id)) >= Number(item.variableCase.value) ||
-								String(item.variableCase.type) == "lower" && $gameVariables.value(Number(item.variableCase.id)) <= Number(item.variableCase.value)
-							)
-						) {
-							return true;
-						}
-					}
-				});
-				if (specificPicture.length) return this.checkHpPercentage(actorId, specificPicture);
-				// ステートIDが有効な立ち絵リストを検索
-				specificPicture = pictureLists.filter(function (item) {
-					if (actorStates.indexOf(Number(item.stateId)) !== -1 && (Number(item.switchId) === 0 || !item.switchId) && !item.variableCase) {
-						return true;
-					}
-				});
-				if (specificPicture.length) return this.checkHpPercentage(actorId, specificPicture);
-			}
+      // スイッチID・変数IDが有効な立ち絵リストを検索
+      specificPicture = pictureLists.filter(function (item) {
+        if (item.variableCase) {
+          if (
+            (Number(item.stateId) === 0 || !item.stateId) &&
+            $gameSwitches.value(Number(item.switchId)) &&
+            ((String(item.variableCase.type) == "equal" &&
+              $gameVariables.value(Number(item.variableCase.id)) ==
+                Number(item.variableCase.value)) ||
+              (String(item.variableCase.type) == "higher" &&
+                $gameVariables.value(Number(item.variableCase.id)) >=
+                  Number(item.variableCase.value)) ||
+              (String(item.variableCase.type) == "lower" &&
+                $gameVariables.value(Number(item.variableCase.id)) <=
+                  Number(item.variableCase.value)))
+          ) {
+            return true;
+          }
+        }
+      });
+      if (specificPicture.length)
+        return this.checkHpPercentage(actorId, specificPicture);
+      // スイッチIDが有効な立ち絵リストを検索
+      specificPicture = pictureLists.filter(function (item) {
+        if (
+          (Number(item.stateId) === 0 || !item.stateId) &&
+          $gameSwitches.value(Number(item.switchId)) &&
+          !item.variableCase
+        ) {
+          return true;
+        }
+      });
+      if (specificPicture.length)
+        return this.checkHpPercentage(actorId, specificPicture);
+      // 変数IDが有効な立ち絵リストを検索
+      specificPicture = pictureLists.filter(function (item) {
+        if (item.variableCase) {
+          if (
+            (Number(item.stateId) === 0 || !item.stateId) &&
+            (Number(item.switchId) === 0 || !item.switchId) &&
+            ((String(item.variableCase.type) == "equal" &&
+              $gameVariables.value(Number(item.variableCase.id)) ==
+                Number(item.variableCase.value)) ||
+              (String(item.variableCase.type) == "higher" &&
+                $gameVariables.value(Number(item.variableCase.id)) >=
+                  Number(item.variableCase.value)) ||
+              (String(item.variableCase.type) == "lower" &&
+                $gameVariables.value(Number(item.variableCase.id)) <=
+                  Number(item.variableCase.value)))
+          ) {
+            return true;
+          }
+        }
+      });
+      if (specificPicture.length)
+        return this.checkHpPercentage(actorId, specificPicture);
 
-			// スイッチID・変数IDが有効な立ち絵リストを検索
-			specificPicture = pictureLists.filter(function (item) {
-				if (item.variableCase) {
-					if (
-						(Number(item.stateId) === 0 || !item.stateId) &&
-						$gameSwitches.value(Number(item.switchId)) &&
-						(
-							String(item.variableCase.type) == "equal" && $gameVariables.value(Number(item.variableCase.id)) == Number(item.variableCase.value) ||
-							String(item.variableCase.type) == "higher" && $gameVariables.value(Number(item.variableCase.id)) >= Number(item.variableCase.value) ||
-							String(item.variableCase.type) == "lower" && $gameVariables.value(Number(item.variableCase.id)) <= Number(item.variableCase.value)
-						)
-					) {
-						return true;
-					}
-				}
-			});
-			if (specificPicture.length) return this.checkHpPercentage(actorId, specificPicture);
-			// スイッチIDが有効な立ち絵リストを検索
-			specificPicture = pictureLists.filter(function (item) {
-				if ((Number(item.stateId) === 0 || !item.stateId) && $gameSwitches.value(Number(item.switchId)) && !item.variableCase) {
-					return true;
-				}
-			});
-			if (specificPicture.length) return this.checkHpPercentage(actorId, specificPicture);
-			// 変数IDが有効な立ち絵リストを検索
-			specificPicture = pictureLists.filter(function (item) {
-				if (item.variableCase) {
-					if (
-						(Number(item.stateId) === 0 || !item.stateId) &&
-						(Number(item.switchId) === 0 || !item.switchId) &&
-						(
-							String(item.variableCase.type) == "equal" && $gameVariables.value(Number(item.variableCase.id)) == Number(item.variableCase.value) ||
-							String(item.variableCase.type) == "higher" && $gameVariables.value(Number(item.variableCase.id)) >= Number(item.variableCase.value) ||
-							String(item.variableCase.type) == "lower" && $gameVariables.value(Number(item.variableCase.id)) <= Number(item.variableCase.value)
-						)
-					) {
-						return true;
-					}
-				}
-			});
-			if (specificPicture.length) return this.checkHpPercentage(actorId, specificPicture);
+      // 上記で見つからなかった場合、通常の立ち絵を検索
+      var normalPicture = pictureLists.filter(function (item) {
+        if (
+          (Number(item.stateId) === 0 || !item.stateId) &&
+          (Number(item.switchId) === 0 || !item.switchId) &&
+          !item.variableCase
+        )
+          return true;
+      });
+      if (normalPicture.length)
+        return this.checkHpPercentage(actorId, normalPicture);
+    }
 
-			// 上記で見つからなかった場合、通常の立ち絵を検索
-			var normalPicture = pictureLists.filter(function (item) {
-				if ((Number(item.stateId) === 0 || !item.stateId) && (Number(item.switchId) === 0 || !item.switchId) && !item.variableCase) return true;
-			});
-			if (normalPicture.length) return this.checkHpPercentage(actorId, normalPicture);
-		}
+    static checkHpPercentage(actorId, pictureLists) {
+      // アクターの残HP％を取得
+      var hpRate = this.getHpRate(actorId);
+      // 最もHP%が低い立ち絵を適用する
+      var minHpRate = 100;
+      var result = null;
+      pictureLists.forEach(function (item) {
+        if (
+          hpRate <= Number(item.hpPercentage) &&
+          minHpRate >= Number(item.hpPercentage)
+        ) {
+          result = item;
+          minHpRate = Number(item.hpPercentage);
+        } else if (!item.hpPercentage && minHpRate >= 100) {
+          // プラグインパラメータが更新されていない場合、便宜的に100として扱う
+          result = item;
+          minHpRate = Number(item.hpPercentage);
+        }
+      });
+      return result;
+    }
 
-		static checkHpPercentage(actorId, pictureLists) {
-			// アクターの残HP％を取得
-			var hpRate = this.getHpRate(actorId);
-			// 最もHP%が低い立ち絵を適用する
-			var minHpRate = 100;
-			var result = null;
-			pictureLists.forEach(function (item) {
-				if (hpRate <= Number(item.hpPercentage) && minHpRate >= Number(item.hpPercentage)) {
-					result = item;
-					minHpRate = Number(item.hpPercentage);
-				} else if (!item.hpPercentage && minHpRate >= 100) {
-					// プラグインパラメータが更新されていない場合、便宜的に100として扱う
-					result = item;
-					minHpRate = Number(item.hpPercentage);
-				}
-			});
-			return result;
-		}
+    static getPictureLists() {
+      return onSpbPluginEnable ? spbCommandPictureLists : menuPictureLists;
+    }
 
-		static getPictureLists() {
-			return onSpbPluginEnable ? spbCommandPictureLists : menuPictureLists;
-		}
+    static onSpbPluginEnable() {
+      return onSpbPluginEnable;
+    }
 
-		static onSpbPluginEnable() {
-			return onSpbPluginEnable;
-		}
+    // アクターのHPレートを取得
+    static getHpRate(actorId) {
+      if (!$gameActors.actor(actorId)) return 0;
+      return $gameActors.actor(actorId).mhp > 0
+        ? ($gameActors.actor(actorId).hp / $gameActors.actor(actorId).mhp) * 100
+        : 0;
+    }
+  }
 
-		// アクターのHPレートを取得
-		static getHpRate(actorId) {
-			if (!$gameActors.actor(actorId)) return 0;
-			return $gameActors.actor(actorId).mhp > 0 ? $gameActors.actor(actorId).hp / $gameActors.actor(actorId).mhp * 100 : 0;
-		}
-	}
-
-	window.ExMenuScreenBase = ExMenuScreenBase;
+  window.ExMenuScreenBase = ExMenuScreenBase;
 })();

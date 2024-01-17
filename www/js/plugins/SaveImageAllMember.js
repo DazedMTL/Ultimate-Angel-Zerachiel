@@ -32,17 +32,17 @@
  */
 
 (() => {
-    'use strict';
+  "use strict";
 
-    Game_Party.prototype.charactersForSavefile = function () {
-        return this.allMembers().map(function (actor) {
-            return [actor.characterName(), actor.characterIndex()];
-        });
-    };
+  Game_Party.prototype.charactersForSavefile = function () {
+    return this.allMembers().map(function (actor) {
+      return [actor.characterName(), actor.characterIndex()];
+    });
+  };
 
-    Game_Party.prototype.facesForSavefile = function () {
-        return this.allMembers().map(function (actor) {
-            return [actor.faceName(), actor.faceIndex()];
-        });
-    };
+  Game_Party.prototype.facesForSavefile = function () {
+    return this.allMembers().map(function (actor) {
+      return [actor.faceName(), actor.faceIndex()];
+    });
+  };
 })();

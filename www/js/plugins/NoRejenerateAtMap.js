@@ -18,7 +18,7 @@
  *
  * このプラグインには、プラグインコマンドはありません。
  *
- *  利用規約 
+ *  利用規約
  *  クレジットの表記等は特に必要ありません
  *  ただししていただけると作者が悦びます
  *  二次配布や無断転載等につきましても特に規制は設けません
@@ -28,12 +28,13 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    var _Game_Battler_prototype_regenerateAll = Game_Battler.prototype.regenerateAll;
-    Game_Battler.prototype.regenerateAll = function () {
-        if ($gameParty.inBattle()) {
-            _Game_Battler_prototype_regenerateAll.call(this);
-        }
-    };
+  var _Game_Battler_prototype_regenerateAll =
+    Game_Battler.prototype.regenerateAll;
+  Game_Battler.prototype.regenerateAll = function () {
+    if ($gameParty.inBattle()) {
+      _Game_Battler_prototype_regenerateAll.call(this);
+    }
+  };
 })();

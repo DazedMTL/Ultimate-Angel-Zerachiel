@@ -6,7 +6,7 @@
  * @author Sasuke KANNAZUKI
  * *
  * @help This plugin does not provide plugin commands.
- * 
+ *
  * This plugin is released under MIT license.
  * http://opensource.org/licenses/mit-license.php
  */
@@ -15,16 +15,15 @@
  * @author 神無月サスケ
  * *
  * @help このプラグインには、プラグインコマンドはありません。
- * 
- * 
+ *
+ *
  * このプラグインは MIT ライセンスで配布されます。
  * ご自由にお使いください。
  * http://opensource.org/licenses/mit-license.php
  */
 (function () {
-
   var _Spriteset_Battle_createLowerLayer =
-    Spriteset_Battle.prototype.createLowerLayer
+    Spriteset_Battle.prototype.createLowerLayer;
   Spriteset_Battle.prototype.createLowerLayer = function () {
     _Spriteset_Battle_createLowerLayer.call(this);
     Spriteset_Map.prototype.createWeather.call(this);
@@ -40,5 +39,4 @@
     this._weather.type = $gameScreen.weatherType();
     this._weather.power = $gameScreen.weatherPower();
   };
-
 })();

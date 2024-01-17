@@ -44,91 +44,96 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    /**
-     * Get database meta information.
-     * @param object Database item
-     * @param name Meta name
-     * @returns {String} meta value
-     */
-    var getMetaValue = function (object, name) {
-        return object.meta.hasOwnProperty(name) ? convertEscapeCharacters(object.meta[name]) : null;
-    };
+  /**
+   * Get database meta information.
+   * @param object Database item
+   * @param name Meta name
+   * @returns {String} meta value
+   */
+  var getMetaValue = function (object, name) {
+    return object.meta.hasOwnProperty(name)
+      ? convertEscapeCharacters(object.meta[name])
+      : null;
+  };
 
-    /**
-     * Get database meta information.(for multi language)
-     * @param object Database item
-     * @param names Meta name array (for multi language)
-     * @returns {String} meta value
-     */
-    var getMetaValues = function (object, names) {
-        var metaValue;
-        names.some(function (name) {
-            metaValue = getMetaValue(object, name);
-            return metaValue !== null;
-        });
-        return metaValue;
-    };
+  /**
+   * Get database meta information.(for multi language)
+   * @param object Database item
+   * @param names Meta name array (for multi language)
+   * @returns {String} meta value
+   */
+  var getMetaValues = function (object, names) {
+    var metaValue;
+    names.some(function (name) {
+      metaValue = getMetaValue(object, name);
+      return metaValue !== null;
+    });
+    return metaValue;
+  };
 
-    /**
-     * Convert escape characters.(require any window object)
-     * @param text Target text
-     * @returns {String} Converted text
-     */
-    var convertEscapeCharacters = function (text) {
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text.toString()) : text;
-    };
+  /**
+   * Convert escape characters.(require any window object)
+   * @param text Target text
+   * @returns {String} Converted text
+   */
+  var convertEscapeCharacters = function (text) {
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text.toString())
+      : text;
+  };
 
-    /**
-     * Game_BattlerBase
-     * 特徴の情報を取得します。
-     */
-    Game_BattlerBase.prototype.findTraitAnimation = function () {
-        var animationId = 0;
-        this.traitObjects().forEach(function (obj) {
-            var meta = getMetaValues(obj, ['TraitAnimation', '特徴アニメ']);
-            if (meta) {
-                animationId = parseInt(meta);
-            }
-        });
-        if (animationId > 0) {
-            return {
-                id: animationId,
-                mirror: this.isActor()
-            }
-        } else {
-            return null;
-        }
-    };
+  /**
+   * Game_BattlerBase
+   * 特徴の情報を取得します。
+   */
+  Game_BattlerBase.prototype.findTraitAnimation = function () {
+    var animationId = 0;
+    this.traitObjects().forEach(function (obj) {
+      var meta = getMetaValues(obj, ["TraitAnimation", "特徴アニメ"]);
+      if (meta) {
+        animationId = parseInt(meta);
+      }
+    });
+    if (animationId > 0) {
+      return {
+        id: animationId,
+        mirror: this.isActor(),
+      };
+    } else {
+      return null;
+    }
+  };
 
-    /**
-     * Sprite_Battler
-     * 特徴アニメーションを再生します。
-     */
-    var _Sprite_Battler_updateAnimation = Sprite_Battler.prototype.updateAnimation
-    Sprite_Battler.prototype.updateAnimation = function () {
-        _Sprite_Battler_updateAnimation.apply(this, arguments);
-        this.updateTraitAnimation();
-    };
+  /**
+   * Sprite_Battler
+   * 特徴アニメーションを再生します。
+   */
+  var _Sprite_Battler_updateAnimation =
+    Sprite_Battler.prototype.updateAnimation;
+  Sprite_Battler.prototype.updateAnimation = function () {
+    _Sprite_Battler_updateAnimation.apply(this, arguments);
+    this.updateTraitAnimation();
+  };
 
-    Sprite_Battler.prototype.updateTraitAnimation = function () {
-        var sprite = this._traitAnimationSprite;
-        if (sprite && !sprite.isPlaying()) {
-            sprite.remove();
-            this._traitAnimationSprite = null;
-        }
-        if (!this._traitAnimationSprite) {
-            this.setupTraitAnimation();
-        }
-    };
+  Sprite_Battler.prototype.updateTraitAnimation = function () {
+    var sprite = this._traitAnimationSprite;
+    if (sprite && !sprite.isPlaying()) {
+      sprite.remove();
+      this._traitAnimationSprite = null;
+    }
+    if (!this._traitAnimationSprite) {
+      this.setupTraitAnimation();
+    }
+  };
 
-    Sprite_Battler.prototype.setupTraitAnimation = function () {
-        var data = this._battler.findTraitAnimation();
-        if (data) {
-            this.startAnimation($dataAnimations[data.id], data.mirror, 0);
-            this._traitAnimationSprite = this._animationSprites.pop();
-        }
-    };
+  Sprite_Battler.prototype.setupTraitAnimation = function () {
+    var data = this._battler.findTraitAnimation();
+    if (data) {
+      this.startAnimation($dataAnimations[data.id], data.mirror, 0);
+      this._traitAnimationSprite = this._animationSprites.pop();
+    }
+  };
 })();

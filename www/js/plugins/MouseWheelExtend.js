@@ -173,254 +173,267 @@
  *  このプラグインはもうあなたのものです。
  */
 
-var WheelSwNo = 1;    //ホイールクリックスイッチNo
+var WheelSwNo = 1; //ホイールクリックスイッチNo
 (function () {
-    'use strict';
-    var pluginName = 'MouseWheelExtend';
+  "use strict";
+  var pluginName = "MouseWheelExtend";
 
-    var getParamBoolean = function (paramNames) {
-        var value = getParamOther(paramNames);
-        return (value || '').toUpperCase() === 'ON';
-    };
+  var getParamBoolean = function (paramNames) {
+    var value = getParamOther(paramNames);
+    return (value || "").toUpperCase() === "ON";
+  };
 
-    var getParamNumber = function (paramNames, min, max) {
-        var value = getParamOther(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(value, 10) || 0).clamp(min, max);
-    };
+  var getParamNumber = function (paramNames, min, max) {
+    var value = getParamOther(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(value, 10) || 0).clamp(min, max);
+  };
 
-    var getParamOther = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
-        }
-        return null;
-    };
-
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var paramCursorMove = getParamBoolean(['CursorMove', 'カーソル移動']);
-    var paramMessageScroll = getParamBoolean(['MessageScroll', 'メッセージ送り']);
-    var paramWheelOk = getParamBoolean(['WheelOk', 'クリックで決定']);
-    var paramWheelCancel = getParamBoolean(['WheelCancel', 'クリックでキャンセル']);
-    var paramWheelSwitch = getParamNumber(['WheelSwitch', 'クリックでスイッチ'], 0);
-    var paramWheelToggle = getParamNumber(['WheelToggle', 'クリックでトグル'], 0);
-    var paramScrollDirection = getParamBoolean(['ScrollDirection', 'スクロールで十字キー']);
-    var paramScrollVariable = getParamNumber(['ScrollVariable', 'スクロールで変数'], 0);
-    var paramSensitivityY = getParamNumber(['SensitivityY', '感度Y'], 1);
-    var paramSensitivityX = getParamNumber(['SensitivityX', '感度X'], 1);
-
-    var _Game_Map_update = Game_Map.prototype.update;
-    Game_Map.prototype.update = function (sceneActive) {
-        _Game_Map_update.apply(this, arguments);
-        this.updateWheelTrigger();
-    };
-
-    Game_Map.prototype.updateWheelTrigger = function () {
-        if (TouchInput.isMiddleTriggered() && !menustop) {
-            if (paramWheelSwitch) {
-                $gameSwitches.setValue(paramWheelSwitch, true);
-            }
-            if (paramWheelToggle) {
-                var prevValue = $gameSwitches.value(paramWheelToggle);
-                $gameSwitches.setValue(paramWheelToggle, !prevValue);
-            }
-        }
-        if (paramScrollVariable) {
-            var prevValue = $gameVariables.value(paramScrollVariable);
-            var value = 0;
-            if (TouchInput.wheelX >= paramSensitivityX) {
-                value = 4;
-            }
-            if (TouchInput.wheelX <= -paramSensitivityX) {
-                value = 6;
-            }
-            if (TouchInput.wheelY >= paramSensitivityY) {
-                value = 2;
-            }
-            if (TouchInput.wheelY <= -paramSensitivityY) {
-                value = 8;
-            }
-            if (prevValue !== value) {
-                $gameVariables.setValue(paramScrollVariable, value);
-            }
-        }
-    };
-
-    if (paramMessageScroll) {
-        //=============================================================================
-        // Window_Message
-        //  ホイールでメッセージ送りをします。
-        //=============================================================================
-        var _Window_Message_isTriggered = Window_Message.prototype.isTriggered;
-        Window_Message.prototype.isTriggered = function () {
-            return _Window_Message_isTriggered.apply(this, arguments) || TouchInput.wheelY >= paramSensitivityY;
-        };
+  var getParamOther = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
     }
+    return null;
+  };
 
-    if (paramCursorMove) {
-        //=============================================================================
-        // Window_Selectable
-        //  ホイールでカーソル移動をします。
-        //=============================================================================
-        var _Window_Selectable_processCursorMove = Window_Selectable.prototype.processCursorMove;
-        Window_Selectable.prototype.processCursorMove = function () {
-            var lastIndex = this.index();
-            _Window_Selectable_processCursorMove.apply(this, arguments);
-            if (this.index() !== lastIndex) return;
-            if (this.isCursorMovable()) {
-                if (TouchInput.wheelY >= paramSensitivityY) {
-                    this.cursorDown(false);
-                }
-                if (TouchInput.wheelY <= -paramSensitivityY) {
-                    this.cursorUp(false);
-                }
-                if (TouchInput.wheelX >= paramSensitivityX) {
-                    this.cursorLeft(false);
-                }
-                if (TouchInput.wheelX <= -paramSensitivityX) {
-                    this.cursorRight(false);
-                }
-                if (this.index() !== lastIndex) {
-                    SoundManager.playCursor();
-                }
-            }
-        };
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var paramCursorMove = getParamBoolean(["CursorMove", "カーソル移動"]);
+  var paramMessageScroll = getParamBoolean(["MessageScroll", "メッセージ送り"]);
+  var paramWheelOk = getParamBoolean(["WheelOk", "クリックで決定"]);
+  var paramWheelCancel = getParamBoolean([
+    "WheelCancel",
+    "クリックでキャンセル",
+  ]);
+  var paramWheelSwitch = getParamNumber(
+    ["WheelSwitch", "クリックでスイッチ"],
+    0
+  );
+  var paramWheelToggle = getParamNumber(["WheelToggle", "クリックでトグル"], 0);
+  var paramScrollDirection = getParamBoolean([
+    "ScrollDirection",
+    "スクロールで十字キー",
+  ]);
+  var paramScrollVariable = getParamNumber(
+    ["ScrollVariable", "スクロールで変数"],
+    0
+  );
+  var paramSensitivityY = getParamNumber(["SensitivityY", "感度Y"], 1);
+  var paramSensitivityX = getParamNumber(["SensitivityX", "感度X"], 1);
+
+  var _Game_Map_update = Game_Map.prototype.update;
+  Game_Map.prototype.update = function (sceneActive) {
+    _Game_Map_update.apply(this, arguments);
+    this.updateWheelTrigger();
+  };
+
+  Game_Map.prototype.updateWheelTrigger = function () {
+    if (TouchInput.isMiddleTriggered() && !menustop) {
+      if (paramWheelSwitch) {
+        $gameSwitches.setValue(paramWheelSwitch, true);
+      }
+      if (paramWheelToggle) {
+        var prevValue = $gameSwitches.value(paramWheelToggle);
+        $gameSwitches.setValue(paramWheelToggle, !prevValue);
+      }
     }
+    if (paramScrollVariable) {
+      var prevValue = $gameVariables.value(paramScrollVariable);
+      var value = 0;
+      if (TouchInput.wheelX >= paramSensitivityX) {
+        value = 4;
+      }
+      if (TouchInput.wheelX <= -paramSensitivityX) {
+        value = 6;
+      }
+      if (TouchInput.wheelY >= paramSensitivityY) {
+        value = 2;
+      }
+      if (TouchInput.wheelY <= -paramSensitivityY) {
+        value = 8;
+      }
+      if (prevValue !== value) {
+        $gameVariables.setValue(paramScrollVariable, value);
+      }
+    }
+  };
 
+  if (paramMessageScroll) {
+    //=============================================================================
+    // Window_Message
+    //  ホイールでメッセージ送りをします。
+    //=============================================================================
+    var _Window_Message_isTriggered = Window_Message.prototype.isTriggered;
+    Window_Message.prototype.isTriggered = function () {
+      return (
+        _Window_Message_isTriggered.apply(this, arguments) ||
+        TouchInput.wheelY >= paramSensitivityY
+      );
+    };
+  }
 
+  if (paramCursorMove) {
     //=============================================================================
-    // TouchInput
-    //  ホイールクリックを決定ボタンにリンクします。
+    // Window_Selectable
+    //  ホイールでカーソル移動をします。
     //=============================================================================
-    var _TouchInput_update2 = TouchInput.update;
+    var _Window_Selectable_processCursorMove =
+      Window_Selectable.prototype.processCursorMove;
+    Window_Selectable.prototype.processCursorMove = function () {
+      var lastIndex = this.index();
+      _Window_Selectable_processCursorMove.apply(this, arguments);
+      if (this.index() !== lastIndex) return;
+      if (this.isCursorMovable()) {
+        if (TouchInput.wheelY >= paramSensitivityY) {
+          this.cursorDown(false);
+        }
+        if (TouchInput.wheelY <= -paramSensitivityY) {
+          this.cursorUp(false);
+        }
+        if (TouchInput.wheelX >= paramSensitivityX) {
+          this.cursorLeft(false);
+        }
+        if (TouchInput.wheelX <= -paramSensitivityX) {
+          this.cursorRight(false);
+        }
+        if (this.index() !== lastIndex) {
+          SoundManager.playCursor();
+        }
+      }
+    };
+  }
+
+  //=============================================================================
+  // TouchInput
+  //  ホイールクリックを決定ボタンにリンクします。
+  //=============================================================================
+  var _TouchInput_update2 = TouchInput.update;
+  TouchInput.update = function () {
+    _TouchInput_update2.apply(this, arguments);
+    this._middleTriggered = this._events.middleTriggered;
+    this._events.middleTriggered = false;
+  };
+
+  var _TouchInput__onMiddleButtonDown = TouchInput._onMiddleButtonDown;
+  TouchInput._onMiddleButtonDown = function (event) {
+    _TouchInput__onMiddleButtonDown.apply(this, arguments);
+    if (paramWheelOk) {
+      Input.setCurrentStateForWheelExtendOk(true);
+    } else if (paramWheelCancel) {
+      Input.setCurrentStateForWheelExtendCancel(true);
+    }
+    this._events.middleTriggered = true;
+
+    MClick = true;
+  };
+
+  var _TouchInput__onMouseUp = TouchInput._onMouseUp;
+  TouchInput._onMouseUp = function (event) {
+    _TouchInput__onMouseUp.apply(this, arguments);
+    if (event.button === 1) {
+      if (paramWheelOk) {
+        Input.setCurrentStateForWheelExtendOk(false);
+      } else if (paramWheelCancel) {
+        Input.setCurrentStateForWheelExtendCancel(false);
+      }
+    }
+  };
+
+  TouchInput.isMiddleTriggered = function () {
+    return this._middleTriggered;
+  };
+
+  if (paramScrollDirection) {
+    TouchInput._wheelValidFrame = 12;
+
+    var _TouchInput__onWheel = TouchInput._onWheel;
+    TouchInput._onWheel = function (event) {
+      _TouchInput__onWheel.apply(this, arguments);
+      if (event.deltaY <= -paramSensitivityY) {
+        this._wheelUp = TouchInput._wheelValidFrame;
+        Input.setCurrentStateForWheelExtendUp(true);
+      }
+      if (event.deltaY >= paramSensitivityY) {
+        this._wheelDown = TouchInput._wheelValidFrame;
+        Input.setCurrentStateForWheelExtendDown(true);
+      }
+      if (event.deltaX <= -paramSensitivityX) {
+        this._wheelRight = TouchInput._wheelValidFrame;
+        Input.setCurrentStateForWheelExtendRight(true);
+      }
+      if (event.deltaX >= paramSensitivityX) {
+        this._wheelLeft = TouchInput._wheelValidFrame;
+        Input.setCurrentStateForWheelExtendLeft(true);
+      }
+    };
+
+    var _TouchInput_update = TouchInput.update;
     TouchInput.update = function () {
-        _TouchInput_update2.apply(this, arguments);
-        this._middleTriggered = this._events.middleTriggered;
-        this._events.middleTriggered = false;
+      _TouchInput_update.apply(this, arguments);
+      this.updateWheelDirection();
     };
 
-    var _TouchInput__onMiddleButtonDown = TouchInput._onMiddleButtonDown;
-    TouchInput._onMiddleButtonDown = function (event) {
-        _TouchInput__onMiddleButtonDown.apply(this, arguments);
-        if (paramWheelOk) {
-            Input.setCurrentStateForWheelExtendOk(true);
-        } else if (paramWheelCancel) {
-            Input.setCurrentStateForWheelExtendCancel(true);
+    TouchInput.updateWheelDirection = function () {
+      if (this._wheelUp > 0) {
+        this._wheelUp--;
+        if (this._wheelUp <= 0) {
+          Input.setCurrentStateForWheelExtendUp(false);
         }
-        this._events.middleTriggered = true;
-
-        MClick = true;
-
-    };
-
-    var _TouchInput__onMouseUp = TouchInput._onMouseUp;
-    TouchInput._onMouseUp = function (event) {
-        _TouchInput__onMouseUp.apply(this, arguments);
-        if (event.button === 1) {
-            if (paramWheelOk) {
-                Input.setCurrentStateForWheelExtendOk(false);
-            } else if (paramWheelCancel) {
-                Input.setCurrentStateForWheelExtendCancel(false);
-            }
+      }
+      if (this._wheelDown > 0) {
+        this._wheelDown--;
+        if (this._wheelDown <= 0) {
+          Input.setCurrentStateForWheelExtendDown(false);
         }
+      }
+      if (this._wheelRight > 0) {
+        this._wheelRight--;
+        if (this._wheelRight <= 0) {
+          Input.setCurrentStateForWheelExtendRight(false);
+        }
+      }
+      if (this._wheelLeft > 0) {
+        this._wheelLeft--;
+        if (this._wheelLeft <= 0) {
+          Input.setCurrentStateForWheelExtendLeft(false);
+        }
+      }
     };
+  }
 
-    TouchInput.isMiddleTriggered = function () {
-        return this._middleTriggered;
-    };
+  //=============================================================================
+  // Input
+  //  マウスホイールの情報をキー入力に変換します。
+  //=============================================================================
+  Input.setCurrentStateForWheelExtendOk = function (value) {
+    this.setCurrentStateForWheelExtend(13, value);
+  };
 
-    if (paramScrollDirection) {
-        TouchInput._wheelValidFrame = 12;
+  Input.setCurrentStateForWheelExtendCancel = function (value) {
+    this.setCurrentStateForWheelExtend(27, value);
+  };
 
-        var _TouchInput__onWheel = TouchInput._onWheel;
-        TouchInput._onWheel = function (event) {
-            _TouchInput__onWheel.apply(this, arguments);
-            if (event.deltaY <= -paramSensitivityY) {
-                this._wheelUp = TouchInput._wheelValidFrame;
-                Input.setCurrentStateForWheelExtendUp(true);
-            }
-            if (event.deltaY >= paramSensitivityY) {
-                this._wheelDown = TouchInput._wheelValidFrame;
-                Input.setCurrentStateForWheelExtendDown(true);
-            }
-            if (event.deltaX <= -paramSensitivityX) {
-                this._wheelRight = TouchInput._wheelValidFrame;
-                Input.setCurrentStateForWheelExtendRight(true);
-            }
-            if (event.deltaX >= paramSensitivityX) {
-                this._wheelLeft = TouchInput._wheelValidFrame;
-                Input.setCurrentStateForWheelExtendLeft(true);
-            }
-        };
+  Input.setCurrentStateForWheelExtendDown = function (value) {
+    this.setCurrentStateForWheelExtend(40, value);
+  };
 
-        var _TouchInput_update = TouchInput.update;
-        TouchInput.update = function () {
-            _TouchInput_update.apply(this, arguments);
-            this.updateWheelDirection();
-        };
+  Input.setCurrentStateForWheelExtendLeft = function (value) {
+    this.setCurrentStateForWheelExtend(37, value);
+  };
 
-        TouchInput.updateWheelDirection = function () {
-            if (this._wheelUp > 0) {
-                this._wheelUp--;
-                if (this._wheelUp <= 0) {
-                    Input.setCurrentStateForWheelExtendUp(false);
-                }
-            }
-            if (this._wheelDown > 0) {
-                this._wheelDown--;
-                if (this._wheelDown <= 0) {
-                    Input.setCurrentStateForWheelExtendDown(false);
-                }
-            }
-            if (this._wheelRight > 0) {
-                this._wheelRight--;
-                if (this._wheelRight <= 0) {
-                    Input.setCurrentStateForWheelExtendRight(false);
-                }
-            }
-            if (this._wheelLeft > 0) {
-                this._wheelLeft--;
-                if (this._wheelLeft <= 0) {
-                    Input.setCurrentStateForWheelExtendLeft(false);
-                }
-            }
-        };
-    }
+  Input.setCurrentStateForWheelExtendRight = function (value) {
+    this.setCurrentStateForWheelExtend(39, value);
+  };
 
-    //=============================================================================
-    // Input
-    //  マウスホイールの情報をキー入力に変換します。
-    //=============================================================================
-    Input.setCurrentStateForWheelExtendOk = function (value) {
-        this.setCurrentStateForWheelExtend(13, value);
-    };
+  Input.setCurrentStateForWheelExtendUp = function (value) {
+    this.setCurrentStateForWheelExtend(38, value);
+  };
 
-    Input.setCurrentStateForWheelExtendCancel = function (value) {
-        this.setCurrentStateForWheelExtend(27, value);
-    };
-
-    Input.setCurrentStateForWheelExtendDown = function (value) {
-        this.setCurrentStateForWheelExtend(40, value);
-    };
-
-    Input.setCurrentStateForWheelExtendLeft = function (value) {
-        this.setCurrentStateForWheelExtend(37, value);
-    };
-
-    Input.setCurrentStateForWheelExtendRight = function (value) {
-        this.setCurrentStateForWheelExtend(39, value);
-    };
-
-    Input.setCurrentStateForWheelExtendUp = function (value) {
-        this.setCurrentStateForWheelExtend(38, value);
-    };
-
-    Input.setCurrentStateForWheelExtend = function (code, value) {
-        this._currentState[this.keyMapper[code]] = !!value;
-    };
+  Input.setCurrentStateForWheelExtend = function (code, value) {
+    this._currentState[this.keyMapper[code]] = !!value;
+  };
 })();
-

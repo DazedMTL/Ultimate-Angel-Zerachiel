@@ -43,7 +43,7 @@
  *
  * @help
  * TMPlugin - つちけむり ver2.1.0
- * 
+ *
  * 使い方:
  *
  *   プラグインと一緒に配布している土煙の画像を img/system フォルダに
@@ -63,7 +63,7 @@
  *
  *   このプラグインはMITライセンスのもとに配布しています、商用利用、
  *   改造、再配布など、自由にお使いいただけます。
- * 
+ *
  *
  * プラグインコマンド:
  *
@@ -93,17 +93,17 @@
  *     setDustXy と同様に土煙の数や移動方向、移動速度も指定できます。
  *     イベント番号に続けて、土煙の数、移動速度、移動方向の順に数値を
  *     足していってください。
- * 
+ *
  *   setJumpDusts 5
  *     ジャンプの着地時に表示するスプライト数を指定した値に変更します。
- * 
+ *
  *   setDashDusts 3
  *     ダッシュ時に表示するスプライト数を指定した値に変更します。
- * 
+ *
  *   stopDust
  *     新しい土煙が表示できなくなります。
  *     すでに表示されている土煙には影響しません。
- * 
+ *
  *   startDust
  *     stopDust の効果を解除し、新しい土煙を表示できるようにします。
  *
@@ -128,12 +128,12 @@
  *     させた後、着地の際に表示する土煙の数です。数値の分だけ土煙が重なり、
  *     より濃い土煙になります。
  *     0 を指定すれば着地時の土煙は表示されなくなります。
- * 
+ *
  *   dashDusts
  *     プレイヤーがダッシュで移動した際に表示する土煙の数です。数値の分だけ
  *     土煙が重なり、より濃い土煙になります。
  *     0 を指定すればダッシュ時の土煙は表示されなくなります。
- * 
+ *
  */
 
 var Imported = Imported || {};
@@ -141,11 +141,18 @@ Imported.TMCloudDust = true;
 
 var TMPlugin = TMPlugin || {};
 TMPlugin.CloudDust = {};
-TMPlugin.CloudDust.Parameters = PluginManager.parameters('TMCloudDust');
-TMPlugin.CloudDust.DustImage = TMPlugin.CloudDust.Parameters['dustImage'] || Dust1;
-TMPlugin.CloudDust.MaxDusts = +(TMPlugin.CloudDust.Parameters['maxDusts'] || 64);
-TMPlugin.CloudDust.JumpDusts = +(TMPlugin.CloudDust.Parameters['jumpDusts'] || 5);
-TMPlugin.CloudDust.DashDusts = +(TMPlugin.CloudDust.Parameters['dashDusts'] || 3);
+TMPlugin.CloudDust.Parameters = PluginManager.parameters("TMCloudDust");
+TMPlugin.CloudDust.DustImage =
+  TMPlugin.CloudDust.Parameters["dustImage"] || Dust1;
+TMPlugin.CloudDust.MaxDusts = +(
+  TMPlugin.CloudDust.Parameters["maxDusts"] || 64
+);
+TMPlugin.CloudDust.JumpDusts = +(
+  TMPlugin.CloudDust.Parameters["jumpDusts"] || 5
+);
+TMPlugin.CloudDust.DashDusts = +(
+  TMPlugin.CloudDust.Parameters["dashDusts"] || 3
+);
 
 function Game_CloudDust() {
   this.initialize.apply(this, arguments);
@@ -154,41 +161,50 @@ function Game_CloudDust() {
 if (!TMPlugin.InterpreterBase) {
   TMPlugin.InterpreterBase = true;
   (function () {
-
     Game_Interpreter.prototype.convertEscapeCharactersTM = function (text) {
-      text = text.replace(/\\/g, '\x1b');
-      text = text.replace(/\x1b\x1b/g, '\\');
-      text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
-        return $gameVariables.value(parseInt(arguments[1]));
-      }.bind(this));
-      text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
-        return $gameVariables.value(parseInt(arguments[1]));
-      }.bind(this));
-      text = text.replace(/\x1bN\[(\d+)\]/gi, function () {
-        return this.actorNameTM(parseInt(arguments[1]));
-      }.bind(this));
-      text = text.replace(/\x1bP\[(\d+)\]/gi, function () {
-        return this.partyMemberNameTM(parseInt(arguments[1]));
-      }.bind(this));
+      text = text.replace(/\\/g, "\x1b");
+      text = text.replace(/\x1b\x1b/g, "\\");
+      text = text.replace(
+        /\x1bV\[(\d+)\]/gi,
+        function () {
+          return $gameVariables.value(parseInt(arguments[1]));
+        }.bind(this)
+      );
+      text = text.replace(
+        /\x1bV\[(\d+)\]/gi,
+        function () {
+          return $gameVariables.value(parseInt(arguments[1]));
+        }.bind(this)
+      );
+      text = text.replace(
+        /\x1bN\[(\d+)\]/gi,
+        function () {
+          return this.actorNameTM(parseInt(arguments[1]));
+        }.bind(this)
+      );
+      text = text.replace(
+        /\x1bP\[(\d+)\]/gi,
+        function () {
+          return this.partyMemberNameTM(parseInt(arguments[1]));
+        }.bind(this)
+      );
       text = text.replace(/\x1bG/gi, TextManager.currencyUnit);
       return text;
     };
 
     Game_Interpreter.prototype.actorNameTM = function (n) {
       var actor = n >= 1 ? $gameActors.actor(n) : null;
-      return actor ? actor.name() : '';
+      return actor ? actor.name() : "";
     };
 
     Game_Interpreter.prototype.partyMemberNameTM = function (n) {
       var actor = n >= 1 ? $gameParty.members()[n - 1] : null;
-      return actor ? actor.name() : '';
+      return actor ? actor.name() : "";
     };
-
   })();
 } // TMPlugin.InterpreterBase
 
 (function () {
-
   //-----------------------------------------------------------------------------
   // Game_System
   //
@@ -347,7 +363,7 @@ if (!TMPlugin.InterpreterBase) {
     _Game_CharacterBase_updateJump.call(this);
     if (this._jumpCount === 0) {
       for (var i = 0; i < $gameSystem.jumpDusts(); i++) {
-        this.addCloudDust(0.02, i % 2 * Math.PI);
+        this.addCloudDust(0.02, (i % 2) * Math.PI);
       }
     }
   };
@@ -382,16 +398,17 @@ if (!TMPlugin.InterpreterBase) {
   // Game_Interpreter
   //
 
-  var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'setDustXy') {
+    if (command === "setDustXy") {
       var arr = args.map(this.convertEscapeCharactersTM, this);
       var n = parseInt(arr[2] || 1);
       for (var i = 0; i < n; i++) {
         $gameMap.addCloudDust(arr[0], arr[1], arr[3], arr[4]);
       }
-    } else if (command === 'setDustEvent') {
+    } else if (command === "setDustEvent") {
       var arr = args.map(this.convertEscapeCharactersTM, this);
       var character = this.character(+arr[0]);
       if (character) {
@@ -400,15 +417,15 @@ if (!TMPlugin.InterpreterBase) {
           character.addCloudDust(arr[2], arr[3]);
         }
       }
-    } else if (command === 'setJumpDusts') {
+    } else if (command === "setJumpDusts") {
       var arr = args.map(this.convertEscapeCharactersTM, this);
       $gameSystem.setJumpDusts(+arr[0]);
-    } else if (command === 'setDashDusts') {
+    } else if (command === "setDashDusts") {
       var arr = args.map(this.convertEscapeCharactersTM, this);
       $gameSystem.setDashDusts(+arr[0]);
-    } else if (command === 'stopDust') {
+    } else if (command === "stopDust") {
       $gameSystem.disableDust();
-    } else if (command === 'startDust') {
+    } else if (command === "startDust") {
       $gameSystem.enableDust();
     }
   };
@@ -456,7 +473,8 @@ if (!TMPlugin.InterpreterBase) {
   // Spriteset_Map
   //
 
-  var _Spriteset_Map_createLowerLayer = Spriteset_Map.prototype.createLowerLayer;
+  var _Spriteset_Map_createLowerLayer =
+    Spriteset_Map.prototype.createLowerLayer;
   Spriteset_Map.prototype.createLowerLayer = function () {
     _Spriteset_Map_createLowerLayer.call(this);
     this.createCloudDust();
@@ -471,5 +489,4 @@ if (!TMPlugin.InterpreterBase) {
       this._tilemap.addChild(this._cloudDustSprites[i]);
     }
   };
-
 })();

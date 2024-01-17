@@ -8,291 +8,291 @@ Imported.YEP_VictoryAftermath = true;
 
 var Yanfly = Yanfly || {};
 Yanfly.VA = Yanfly.VA || {};
-Yanfly.VA.version = 1.07
+Yanfly.VA.version = 1.07;
 
 //=============================================================================
 /*:
-* @plugindesc v1.07 Display an informative window after a battle is over
-* instead of message box text stating what the party earned.
-* @author Yanfly Engine Plugins
-*
-* @param ---General---
-* @default
-*
-* @param Victory Order
-* @parent ---General---
-* @desc This is the order the victory sequence will play out.
-* Separate each part with a space.
-* @default exp custom drops
-*
-* @param ---BGM---
-* @default
-*
-* @param Victory BGM
-* @parent ---BGM---
-* @type file
-* @dir audio/bgm/
-* @require 1
-* @desc This will be the BGM used when the battle is over.
-* @default Ship3
-*
-* @param BGM Volume
-* @parent ---BGM---
-* @desc This will be the volume of the BGM played.
-* @default 90
-*
-* @param BGM Pitch
-* @parent ---BGM---
-* @desc This will be the pitch of the BGM played.
-* @default 100
-*
-* @param BGM Pan
-* @parent ---BGM---
-* @desc This will be the pan of the BGM played.
-* @default 0
-*
-* @param ---Battle Results---
-* @default
-*
-* @param Cheer Wait
-* @parent ---Battle Results---
-* @type number
-* @min 0
-* @desc This will be how many frames the actors will cheer for
-* before the Victory Aftermath windows appear.
-* @default 90
-*
-* @param Battle Results Text
-* @parent ---Battle Results---
-* @desc This is the text used for the battle results text.
-* @default Battle Results
-*
-* @param Battle Drops Text
-* @parent ---Battle Results---
-* @desc This is the text used for the drops gained in battle.
-* @default Battle Spoils
-*
-* @param ---EXP Window---
-* @default
-*
-* @param Font Size
-* @parent ---EXP Window---
-* @type number
-* @min 1
-* @desc This is the font size used for the EXP Window.
-* Default: 28
-* @default 28
-*
-* @param Level Up Text
-* @parent ---EXP Window---
-* @desc The text to be used when leveling up.
-* @default LEVEL UP!
-*
-* @param Max Level Text
-* @parent ---EXP Window---
-* @desc The text to be used when the actor is Max Level.
-* @default MAX LEVEL
-*
-* @param Show Skills Learned
-* @parent ---EXP Window---
-* @type boolean
-* @on Display Skills
-* @off Don't Display
-* @desc Display skills learned at level up?
-* NO - false     YES - true
-* @default false
-*
-* @param Gained EXP Text
-* @parent ---EXP Window---
-* @desc The text to label how much EXP was gained in battle.
-* @default Gained EXP
-*
-* @param Gained EXP Format
-* @parent ---EXP Window---
-* @desc The text to display how much EXP was gained in battle.
-* @default +%1
-*
-* @param EXP Gauge Color 1
-* @parent ---EXP Window---
-* @type number
-* @min 0
-* @max 31
-* @desc The skin color used in EXP Gauge Color 1 shown in the
-* Victory Aftermath Window.
-* @default 30
-*
-* @param EXP Gauge Color 2
-* @parent ---EXP Window---
-* @type number
-* @min 0
-* @max 31
-* @desc The skin color used in EXP Gauge Color 2 shown in the
-* Victory Aftermath Window.
-* @default 31
-*
-* @param Level Gauge Color 1
-* @parent ---EXP Window---
-* @type number
-* @min 0
-* @max 31
-* @desc The skin color used for the EXP Gauge Color 1 if the actor
-* has leveled up.
-* @default 14
-*
-* @param Level Gauge Color 2
-* @parent ---EXP Window---
-* @type number
-* @min 0
-* @max 31
-* @desc The skin color used for the EXP Gauge Color 2 if the actor
-* has leveled up.
-* @default 6
-*
-* @param Gauge Ticks
-* @parent ---EXP Window---
-* @type number
-* @min 0
-* @desc This is how many ticks will occur before the gained EXP
-* gauge is full. Each tick is 4 frames.
-* @default 15
-*
-* @param Tick SE
-* @parent ---EXP Window---
-* @type file
-* @dir audio/se/
-* @require 1
-* @desc This will be the sound used while the EXP gauge fills up.
-* @default Absorb2
-*
-* @param Tick Volume
-* @parent ---EXP Window---
-* @desc This will be the volume of the BGM played.
-* @default 90
-*
-* @param Tick Pitch
-* @parent ---EXP Window---
-* @desc This will be the pitch of the BGM played.
-* @default 150
-*
-* @param Tick Pan
-* @parent ---EXP Window---
-* @desc This will be the pan of the BGM played.
-* @default 0
-*
-* @help
-* ============================================================================
-* Introduction
-* ============================================================================
-*
-* This plugin swaps out the victory messages from the default battle system in
-* favor of more informative windows to display. Adjust the parameters to
-* change the settings to fit your game.
-*
-* ============================================================================
-* Victory Aftermath
-* ============================================================================
-*
-* In the parameters, there's a 'Victory Order' parameter. This parameter lets
-* you choose the order of the steps in the Victory Aftermath.
-*
-* The default order is as follows:
-*           exp         Displays the EXP window.
-*           custom      Displays any custom plugin extensions.
-*           drops       Displays the drops window.
-*
-* If you switch the order of these steps, add steps, or remove steps from the
-* 'Victory Order' plugin, the Victory Aftermath will correspond to any changes
-* you have made.
-*
-* ============================================================================
-* Plugin Commands
-* ============================================================================
-*
-* If you wish to alter the Victory Aftermath sequence a bit, you can use the
-* following Plugin Commands.
-*
-* Plugin Commands:
-*   DisableVictoryAftermath   - Disables the Victory Aftermath sequence and
-*                               bypasses the Victory Aftermath music, too.
-*   EnableVictoryAftermath    - Enables the Victory Aftermath sequence if
-*                               it has been previously disabled.
-*   DisableVictoryMusic       - Disables the Victory Aftermath music to just
-*                               continue playing whatever was playing.
-*   EnableVictoryMusic        - Enables the Victory Aftermath music if it has
-*                               been previously disabled.
-*
-* ============================================================================
-* Changelog
-* ============================================================================
-*
-* Version 1.07:
-* - Updated for RPG Maker MV version 1.5.0.
-*
-* Version 1.06:
-* - Updated for RPG Maker MV version 1.3.2.
-*
-* Version 1.05a:
-* - Added 'Font Size' plugin parameter to alter the font size for the battle
-* results page.
-* - Fixed a graphical issue where an actor in crisis would display its level
-* in the crisis color.
-* - Changed the Victory Aftermath sequence so that the player can hold down a
-* button to quickly go through all the Victory Sequence menus.
-*
-* Version 1.04:
-* - Updated the plugin so it doesn't break visually when party sizes are too
-* large. That said, if the party size is beyond a certain amount, this plugin
-* will not support that many faces for it and will fit just the bare minimum.
-*
-* Version 1.03:
-* - Added parameter 'Show Skills Learned'.
-*
-* Version 1.02:
-* - If the Battle HUD has been hidden for whatever reason during the victory
-* sequence, it will be returned.
-*
-* Version 1.01:
-* - Fixed a bug plugin commands that would cause some victory sequences to
-* loop forever.
-*
-* Version 1.00:
-* - Finished plugin!
-*/
+ * @plugindesc v1.07 Display an informative window after a battle is over
+ * instead of message box text stating what the party earned.
+ * @author Yanfly Engine Plugins
+ *
+ * @param ---General---
+ * @default
+ *
+ * @param Victory Order
+ * @parent ---General---
+ * @desc This is the order the victory sequence will play out.
+ * Separate each part with a space.
+ * @default exp custom drops
+ *
+ * @param ---BGM---
+ * @default
+ *
+ * @param Victory BGM
+ * @parent ---BGM---
+ * @type file
+ * @dir audio/bgm/
+ * @require 1
+ * @desc This will be the BGM used when the battle is over.
+ * @default Ship3
+ *
+ * @param BGM Volume
+ * @parent ---BGM---
+ * @desc This will be the volume of the BGM played.
+ * @default 90
+ *
+ * @param BGM Pitch
+ * @parent ---BGM---
+ * @desc This will be the pitch of the BGM played.
+ * @default 100
+ *
+ * @param BGM Pan
+ * @parent ---BGM---
+ * @desc This will be the pan of the BGM played.
+ * @default 0
+ *
+ * @param ---Battle Results---
+ * @default
+ *
+ * @param Cheer Wait
+ * @parent ---Battle Results---
+ * @type number
+ * @min 0
+ * @desc This will be how many frames the actors will cheer for
+ * before the Victory Aftermath windows appear.
+ * @default 90
+ *
+ * @param Battle Results Text
+ * @parent ---Battle Results---
+ * @desc This is the text used for the battle results text.
+ * @default Battle Results
+ *
+ * @param Battle Drops Text
+ * @parent ---Battle Results---
+ * @desc This is the text used for the drops gained in battle.
+ * @default Battle Spoils
+ *
+ * @param ---EXP Window---
+ * @default
+ *
+ * @param Font Size
+ * @parent ---EXP Window---
+ * @type number
+ * @min 1
+ * @desc This is the font size used for the EXP Window.
+ * Default: 28
+ * @default 28
+ *
+ * @param Level Up Text
+ * @parent ---EXP Window---
+ * @desc The text to be used when leveling up.
+ * @default LEVEL UP!
+ *
+ * @param Max Level Text
+ * @parent ---EXP Window---
+ * @desc The text to be used when the actor is Max Level.
+ * @default MAX LEVEL
+ *
+ * @param Show Skills Learned
+ * @parent ---EXP Window---
+ * @type boolean
+ * @on Display Skills
+ * @off Don't Display
+ * @desc Display skills learned at level up?
+ * NO - false     YES - true
+ * @default false
+ *
+ * @param Gained EXP Text
+ * @parent ---EXP Window---
+ * @desc The text to label how much EXP was gained in battle.
+ * @default Gained EXP
+ *
+ * @param Gained EXP Format
+ * @parent ---EXP Window---
+ * @desc The text to display how much EXP was gained in battle.
+ * @default +%1
+ *
+ * @param EXP Gauge Color 1
+ * @parent ---EXP Window---
+ * @type number
+ * @min 0
+ * @max 31
+ * @desc The skin color used in EXP Gauge Color 1 shown in the
+ * Victory Aftermath Window.
+ * @default 30
+ *
+ * @param EXP Gauge Color 2
+ * @parent ---EXP Window---
+ * @type number
+ * @min 0
+ * @max 31
+ * @desc The skin color used in EXP Gauge Color 2 shown in the
+ * Victory Aftermath Window.
+ * @default 31
+ *
+ * @param Level Gauge Color 1
+ * @parent ---EXP Window---
+ * @type number
+ * @min 0
+ * @max 31
+ * @desc The skin color used for the EXP Gauge Color 1 if the actor
+ * has leveled up.
+ * @default 14
+ *
+ * @param Level Gauge Color 2
+ * @parent ---EXP Window---
+ * @type number
+ * @min 0
+ * @max 31
+ * @desc The skin color used for the EXP Gauge Color 2 if the actor
+ * has leveled up.
+ * @default 6
+ *
+ * @param Gauge Ticks
+ * @parent ---EXP Window---
+ * @type number
+ * @min 0
+ * @desc This is how many ticks will occur before the gained EXP
+ * gauge is full. Each tick is 4 frames.
+ * @default 15
+ *
+ * @param Tick SE
+ * @parent ---EXP Window---
+ * @type file
+ * @dir audio/se/
+ * @require 1
+ * @desc This will be the sound used while the EXP gauge fills up.
+ * @default Absorb2
+ *
+ * @param Tick Volume
+ * @parent ---EXP Window---
+ * @desc This will be the volume of the BGM played.
+ * @default 90
+ *
+ * @param Tick Pitch
+ * @parent ---EXP Window---
+ * @desc This will be the pitch of the BGM played.
+ * @default 150
+ *
+ * @param Tick Pan
+ * @parent ---EXP Window---
+ * @desc This will be the pan of the BGM played.
+ * @default 0
+ *
+ * @help
+ * ============================================================================
+ * Introduction
+ * ============================================================================
+ *
+ * This plugin swaps out the victory messages from the default battle system in
+ * favor of more informative windows to display. Adjust the parameters to
+ * change the settings to fit your game.
+ *
+ * ============================================================================
+ * Victory Aftermath
+ * ============================================================================
+ *
+ * In the parameters, there's a 'Victory Order' parameter. This parameter lets
+ * you choose the order of the steps in the Victory Aftermath.
+ *
+ * The default order is as follows:
+ *           exp         Displays the EXP window.
+ *           custom      Displays any custom plugin extensions.
+ *           drops       Displays the drops window.
+ *
+ * If you switch the order of these steps, add steps, or remove steps from the
+ * 'Victory Order' plugin, the Victory Aftermath will correspond to any changes
+ * you have made.
+ *
+ * ============================================================================
+ * Plugin Commands
+ * ============================================================================
+ *
+ * If you wish to alter the Victory Aftermath sequence a bit, you can use the
+ * following Plugin Commands.
+ *
+ * Plugin Commands:
+ *   DisableVictoryAftermath   - Disables the Victory Aftermath sequence and
+ *                               bypasses the Victory Aftermath music, too.
+ *   EnableVictoryAftermath    - Enables the Victory Aftermath sequence if
+ *                               it has been previously disabled.
+ *   DisableVictoryMusic       - Disables the Victory Aftermath music to just
+ *                               continue playing whatever was playing.
+ *   EnableVictoryMusic        - Enables the Victory Aftermath music if it has
+ *                               been previously disabled.
+ *
+ * ============================================================================
+ * Changelog
+ * ============================================================================
+ *
+ * Version 1.07:
+ * - Updated for RPG Maker MV version 1.5.0.
+ *
+ * Version 1.06:
+ * - Updated for RPG Maker MV version 1.3.2.
+ *
+ * Version 1.05a:
+ * - Added 'Font Size' plugin parameter to alter the font size for the battle
+ * results page.
+ * - Fixed a graphical issue where an actor in crisis would display its level
+ * in the crisis color.
+ * - Changed the Victory Aftermath sequence so that the player can hold down a
+ * button to quickly go through all the Victory Sequence menus.
+ *
+ * Version 1.04:
+ * - Updated the plugin so it doesn't break visually when party sizes are too
+ * large. That said, if the party size is beyond a certain amount, this plugin
+ * will not support that many faces for it and will fit just the bare minimum.
+ *
+ * Version 1.03:
+ * - Added parameter 'Show Skills Learned'.
+ *
+ * Version 1.02:
+ * - If the Battle HUD has been hidden for whatever reason during the victory
+ * sequence, it will be returned.
+ *
+ * Version 1.01:
+ * - Fixed a bug plugin commands that would cause some victory sequences to
+ * loop forever.
+ *
+ * Version 1.00:
+ * - Finished plugin!
+ */
 //=============================================================================
 
 //=============================================================================
 // Parameter Variables
 //=============================================================================
 
-Yanfly.Parameters = PluginManager.parameters('YEP_VictoryAftermath');
+Yanfly.Parameters = PluginManager.parameters("YEP_VictoryAftermath");
 Yanfly.Param = Yanfly.Param || {};
 
-Yanfly.Param.VAOrder = String(Yanfly.Parameters['Victory Order']);
+Yanfly.Param.VAOrder = String(Yanfly.Parameters["Victory Order"]);
 
-Yanfly.Param.VACheerWait = Number(Yanfly.Parameters['Cheer Wait']);
-Yanfly.Param.VABattleResults = String(Yanfly.Parameters['Battle Results Text']);
-Yanfly.Param.VABattleDrops = String(Yanfly.Parameters['Battle Drops Text']);
+Yanfly.Param.VACheerWait = Number(Yanfly.Parameters["Cheer Wait"]);
+Yanfly.Param.VABattleResults = String(Yanfly.Parameters["Battle Results Text"]);
+Yanfly.Param.VABattleDrops = String(Yanfly.Parameters["Battle Drops Text"]);
 
-Yanfly.Param.VABgmName = String(Yanfly.Parameters['Victory BGM']);
-Yanfly.Param.VABgmVol = Number(Yanfly.Parameters['BGM Volume']);
-Yanfly.Param.VABgmPitch = Number(Yanfly.Parameters['BGM Pitch']);
-Yanfly.Param.VABgmPan = Number(Yanfly.Parameters['BGM Pan']);
+Yanfly.Param.VABgmName = String(Yanfly.Parameters["Victory BGM"]);
+Yanfly.Param.VABgmVol = Number(Yanfly.Parameters["BGM Volume"]);
+Yanfly.Param.VABgmPitch = Number(Yanfly.Parameters["BGM Pitch"]);
+Yanfly.Param.VABgmPan = Number(Yanfly.Parameters["BGM Pan"]);
 
-Yanfly.Param.VAFontSize = Number(Yanfly.Parameters['Font Size']);
-Yanfly.Param.VALevelUp = String(Yanfly.Parameters['Level Up Text']);
-Yanfly.Param.VAMaxLv = String(Yanfly.Parameters['Max Level Text']);
-Yanfly.Param.VAShowSkills = String(Yanfly.Parameters['Show Skills Learned']);
-Yanfly.Param.VAGainedExp = String(Yanfly.Parameters['Gained EXP Text']);
-Yanfly.Param.VAGainedExpfmt = String(Yanfly.Parameters['Gained EXP Format']);
-Yanfly.Param.ColorExp1 = Number(Yanfly.Parameters['EXP Gauge Color 1']);
-Yanfly.Param.ColorExp2 = Number(Yanfly.Parameters['EXP Gauge Color 2']);
-Yanfly.Param.ColorLv1 = Number(Yanfly.Parameters['Level Gauge Color 1']);
-Yanfly.Param.ColorLv2 = Number(Yanfly.Parameters['Level Gauge Color 2']);
-Yanfly.Param.VAGaugeTicks = Number(Yanfly.Parameters['Gauge Ticks']);
-Yanfly.Param.VATickName = String(Yanfly.Parameters['Tick SE']);
-Yanfly.Param.VATickVol = Number(Yanfly.Parameters['Tick Volume']);
-Yanfly.Param.VATickPitch = Number(Yanfly.Parameters['Tick Pitch']);
-Yanfly.Param.VATickPan = Number(Yanfly.Parameters['Tick Pan']);
+Yanfly.Param.VAFontSize = Number(Yanfly.Parameters["Font Size"]);
+Yanfly.Param.VALevelUp = String(Yanfly.Parameters["Level Up Text"]);
+Yanfly.Param.VAMaxLv = String(Yanfly.Parameters["Max Level Text"]);
+Yanfly.Param.VAShowSkills = String(Yanfly.Parameters["Show Skills Learned"]);
+Yanfly.Param.VAGainedExp = String(Yanfly.Parameters["Gained EXP Text"]);
+Yanfly.Param.VAGainedExpfmt = String(Yanfly.Parameters["Gained EXP Format"]);
+Yanfly.Param.ColorExp1 = Number(Yanfly.Parameters["EXP Gauge Color 1"]);
+Yanfly.Param.ColorExp2 = Number(Yanfly.Parameters["EXP Gauge Color 2"]);
+Yanfly.Param.ColorLv1 = Number(Yanfly.Parameters["Level Gauge Color 1"]);
+Yanfly.Param.ColorLv2 = Number(Yanfly.Parameters["Level Gauge Color 2"]);
+Yanfly.Param.VAGaugeTicks = Number(Yanfly.Parameters["Gauge Ticks"]);
+Yanfly.Param.VATickName = String(Yanfly.Parameters["Tick SE"]);
+Yanfly.Param.VATickVol = Number(Yanfly.Parameters["Tick Volume"]);
+Yanfly.Param.VATickPitch = Number(Yanfly.Parameters["Tick Pitch"]);
+Yanfly.Param.VATickPan = Number(Yanfly.Parameters["Tick Pan"]);
 
 //=============================================================================
 // BattleManager
@@ -355,7 +355,7 @@ BattleManager.playVictoryBGM = function () {
     name: Yanfly.Param.VABgmName,
     volume: Yanfly.Param.VABgmVol,
     pitch: Yanfly.Param.VABgmPitch,
-    pan: Yanfly.Param.VABgmPan
+    pan: Yanfly.Param.VABgmPan,
   };
   AudioManager.playBgm(victoryBgm);
 };
@@ -458,17 +458,17 @@ Game_Party.prototype.clearVictoryData = function () {
 Yanfly.VA.Game_Interpreter_pluginCommand =
   Game_Interpreter.prototype.pluginCommand;
 Game_Interpreter.prototype.pluginCommand = function (command, args) {
-  Yanfly.VA.Game_Interpreter_pluginCommand.call(this, command, args)
-  if (command === 'DisableVictoryAftermath') {
+  Yanfly.VA.Game_Interpreter_pluginCommand.call(this, command, args);
+  if (command === "DisableVictoryAftermath") {
     $gameSystem._skipVictoryAftermath = true;
   }
-  if (command === 'EnableVictoryAftermath') {
+  if (command === "EnableVictoryAftermath") {
     $gameSystem._skipVictoryAftermath = false;
   }
-  if (command === 'DisableVictoryMusic') {
+  if (command === "DisableVictoryMusic") {
     $gameSystem._skipVictoryMusic = true;
   }
-  if (command === 'EnableVictoryMusic') {
+  if (command === "EnableVictoryMusic") {
     $gameSystem._skipVictoryMusic = false;
   }
 };
@@ -525,7 +525,7 @@ Window_VictoryTitle.prototype.windowHeight = function () {
 
 Window_VictoryTitle.prototype.refresh = function (text) {
   this.contents.clear();
-  this.drawText(text, 0, 0, this.contents.width, 'center');
+  this.drawText(text, 0, 0, this.contents.width, "center");
 };
 
 //=============================================================================
@@ -588,7 +588,7 @@ Window_VictoryExp.prototype.defineTickSound = function () {
     name: Yanfly.Param.VATickName,
     volume: Yanfly.Param.VATickVol,
     pitch: Yanfly.Param.VATickPitch,
-    pan: Yanfly.Param.VATickPan
+    pan: Yanfly.Param.VATickPan,
   };
 };
 
@@ -600,7 +600,7 @@ Window_VictoryExp.prototype.update = function () {
 Window_VictoryExp.prototype.updateTicks = function () {
   if (this._tick >= Yanfly.Param.VAGaugeTicks) return;
   if (Graphics.frameCount % 4 !== 0) return;
-  if (Input.isPressed('ok') || TouchInput.isPressed()) {
+  if (Input.isPressed("ok") || TouchInput.isPressed()) {
     this._tick = Yanfly.Param.VAGaugeTicks;
   } else {
     this._tick += 1;
@@ -666,21 +666,23 @@ Window_VictoryExp.prototype.drawLevel = function (actor, rect) {
   } else {
     var text = Yanfly.Util.toGroup(actor._preVictoryLv);
   }
-  this.drawText(text, rect.x + 2, rect.y, rect.width - 4, 'right');
-  var ww = rect.width - 4 - this.textWidth('0' +
-    Yanfly.Util.toGroup(actor.maxLevel()));
+  this.drawText(text, rect.x + 2, rect.y, rect.width - 4, "right");
+  var ww =
+    rect.width -
+    4 -
+    this.textWidth("0" + Yanfly.Util.toGroup(actor.maxLevel()));
   this.changeTextColor(this.systemColor());
-  this.drawText(TextManager.levelA, rect.x + 2, rect.y, ww, 'right');
+  this.drawText(TextManager.levelA, rect.x + 2, rect.y, ww, "right");
 };
 
 Window_VictoryExp.prototype.actorExpRate = function (actor) {
   var actorLv = actor._preVictoryLv;
   if (actorLv === actor.maxLevel()) return 1.0;
-  var bonusExp = 1.0 * actor._expGained * this._tick /
-    Yanfly.Param.VAGaugeTicks;
+  var bonusExp =
+    (1.0 * actor._expGained * this._tick) / Yanfly.Param.VAGaugeTicks;
   var nowExp = actor._preVictoryExp - actor.expForLevel(actorLv) + bonusExp;
   var nextExp = actor.expForLevel(actorLv + 1) - actor.expForLevel(actorLv);
-  return (1.0 * nowExp / nextExp).clamp(0.0, 1.0);
+  return ((1.0 * nowExp) / nextExp).clamp(0.0, 1.0);
 };
 
 Window_VictoryExp.prototype.drawExpGauge = function (actor, rect) {
@@ -699,8 +701,8 @@ Window_VictoryExp.prototype.drawExpGauge = function (actor, rect) {
 Window_VictoryExp.prototype.drawExpValues = function (actor, rect) {
   var wy = rect.y + this.lineHeight();
   var actorLv = actor._preVictoryLv;
-  var bonusExp = 1.0 * actor._expGained * this._tick /
-    Yanfly.Param.VAGaugeTicks;
+  var bonusExp =
+    (1.0 * actor._expGained * this._tick) / Yanfly.Param.VAGaugeTicks;
   var nowExp = actor._preVictoryExp - actor.expForLevel(actorLv) + bonusExp;
   var nextExp = actor.expForLevel(actorLv + 1) - actor.expForLevel(actorLv);
   if (actorLv === actor.maxLevel()) {
@@ -711,21 +713,26 @@ Window_VictoryExp.prototype.drawExpValues = function (actor, rect) {
     var text = Yanfly.Util.toGroup(parseInt(nextExp - nowExp));
   }
   this.changeTextColor(this.normalColor());
-  this.drawText(text, rect.x + 2, wy, rect.width - 4, 'right');
+  this.drawText(text, rect.x + 2, wy, rect.width - 4, "right");
 };
 
 Window_VictoryExp.prototype.drawExpGained = function (actor, rect) {
   var wy = rect.y + this.lineHeight() * 2;
   if (wy >= rect.y + rect.height) return;
   this.changeTextColor(this.systemColor());
-  this.drawText(Yanfly.Param.VAGainedExp, rect.x + 2, wy, rect.width - 4,
-    'left');
-  var bonusExp = 1.0 * actor._expGained * this._tick /
-    Yanfly.Param.VAGaugeTicks;
+  this.drawText(
+    Yanfly.Param.VAGainedExp,
+    rect.x + 2,
+    wy,
+    rect.width - 4,
+    "left"
+  );
+  var bonusExp =
+    (1.0 * actor._expGained * this._tick) / Yanfly.Param.VAGaugeTicks;
   var expParse = Yanfly.Util.toGroup(parseInt(bonusExp));
   var expText = Yanfly.Param.VAGainedExpfmt.format(expParse);
   this.changeTextColor(this.normalColor());
-  this.drawText(expText, rect.x + 2, wy, rect.width - 4, 'right');
+  this.drawText(expText, rect.x + 2, wy, rect.width - 4, "right");
 };
 
 Window_VictoryExp.prototype.drawGainedSkills = function (actor, rect) {
@@ -737,7 +744,7 @@ Window_VictoryExp.prototype.drawGainedSkills = function (actor, rect) {
     var skillId = actor._victorySkills[i];
     var skill = $dataSkills[skillId];
     if (!skill) continue;
-    var text = '\\i[' + skill.iconIndex + ']' + skill.name;
+    var text = "\\i[" + skill.iconIndex + "]" + skill.name;
     text = TextManager.obtainSkill.format(text);
     var ww = this.textWidthEx(text);
     var wx = rect.x + (rect.width - ww) / 2;
@@ -749,8 +756,8 @@ Window_VictoryExp.prototype.drawGainedSkills = function (actor, rect) {
 Window_VictoryExp.prototype.meetDrawGainedSkillsCondition = function (actor) {
   if (!this._showGainedSkills) return;
   var actorLv = actor._preVictoryLv;
-  var bonusExp = 1.0 * actor._expGained * this._tick /
-    Yanfly.Param.VAGaugeTicks;
+  var bonusExp =
+    (1.0 * actor._expGained * this._tick) / Yanfly.Param.VAGaugeTicks;
   var nowExp = actor._preVictoryExp - actor.expForLevel(actorLv) + bonusExp;
   var nextExp = actor.expForLevel(actorLv + 1) - actor.expForLevel(actorLv);
   if (actorLv === actor.maxLevel()) {
@@ -788,7 +795,7 @@ Window_VictoryDrop.prototype.initialize = function (titleWindow) {
 
 Window_VictoryDrop.prototype.makeItemList = function () {
   if (BattleManager._rewards.gold > 0) {
-    this._data = ['gold', null];
+    this._data = ["gold", null];
   } else {
     this._data = [];
   }
@@ -805,9 +812,15 @@ Window_VictoryDrop.prototype.extractDrops = function () {
     if (DataManager.isWeapon(item)) this._dropWeapons.push(item.id);
     if (DataManager.isArmor(item)) this._dropArmors.push(item.id);
   }, this);
-  this._dropItems.sort(function (a, b) { return a - b });
-  this._dropWeapons.sort(function (a, b) { return a - b });
-  this._dropArmors.sort(function (a, b) { return a - b });
+  this._dropItems.sort(function (a, b) {
+    return a - b;
+  });
+  this._dropWeapons.sort(function (a, b) {
+    return a - b;
+  });
+  this._dropArmors.sort(function (a, b) {
+    return a - b;
+  });
   this._dropItems.forEach(function (id) {
     var item = $dataItems[id];
     if (item && !this._data.contains(item)) this._data.push(item);
@@ -830,7 +843,7 @@ Window_VictoryDrop.prototype.drawItem = function (index) {
 };
 
 Window_VictoryDrop.prototype.drawGold = function (item, index) {
-  if (item !== 'gold') return;
+  if (item !== "gold") return;
   var rect = this.itemRect(index);
   rect.width -= this.textPadding();
   var value = BattleManager._rewards.gold;
@@ -839,8 +852,12 @@ Window_VictoryDrop.prototype.drawGold = function (item, index) {
 };
 
 Window_VictoryDrop.prototype.drawDrop = function (item, index) {
-  if (!DataManager.isItem(item) && !DataManager.isWeapon(item) &&
-    !DataManager.isArmor(item)) return;
+  if (
+    !DataManager.isItem(item) &&
+    !DataManager.isWeapon(item) &&
+    !DataManager.isArmor(item)
+  )
+    return;
   var rect = this.itemRect(index);
   rect.width -= this.textPadding();
   this.drawItemName(item, rect.x, rect.y, rect.width);
@@ -852,7 +869,7 @@ Window_VictoryDrop.prototype.drawItemNumber = function (item, x, y, width) {
   var numItems = Yanfly.Util.toGroup(this.numItems(item));
   var size = Yanfly.Param.ItemQuantitySize || 28;
   this.contents.fontSize = size;
-  this.drawText('\u00d7' + numItems, x, y, width, 'right');
+  this.drawText("\u00d7" + numItems, x, y, width, "right");
   this.resetFontSettings();
 };
 
@@ -918,11 +935,11 @@ Scene_Battle.prototype.activateVictoryStep = function () {
 };
 
 Scene_Battle.prototype.createVictorySteps = function () {
-  var steps = Yanfly.Param.VAOrder.split(' ');
+  var steps = Yanfly.Param.VAOrder.split(" ");
   var array = [];
   for (var i = 0; i < steps.length; ++i) {
     var step = steps[i];
-    if (step.toUpperCase() === 'CUSTOM') {
+    if (step.toUpperCase() === "CUSTOM") {
       array = this.addCustomVictorySteps(array);
     } else {
       array.push(step.toUpperCase());
@@ -936,8 +953,8 @@ Scene_Battle.prototype.addCustomVictorySteps = function (array) {
 };
 
 Scene_Battle.prototype.updateVictorySteps = function () {
-  if (this.isVictoryStep('EXP')) this.updateVictoryExp();
-  if (this.isVictoryStep('DROPS')) this.updateVictoryDrops();
+  if (this.isVictoryStep("EXP")) this.updateVictoryExp();
+  if (this.isVictoryStep("DROPS")) this.updateVictoryDrops();
 };
 
 Scene_Battle.prototype.updateVictoryExp = function () {
@@ -993,8 +1010,8 @@ Scene_Battle.prototype.finishVictoryDrop = function () {
 };
 
 Scene_Battle.prototype.victoryTriggerContinue = function () {
-  if (Input.isRepeated('ok') || TouchInput.isRepeated()) return true;
-  if (Input.isRepeated('cancel')) return true;
+  if (Input.isRepeated("ok") || TouchInput.isRepeated()) return true;
+  if (Input.isRepeated("cancel")) return true;
   return false;
 };
 
@@ -1007,8 +1024,8 @@ Yanfly.Util = Yanfly.Util || {};
 if (!Yanfly.Util.toGroup) {
   Yanfly.Util.toGroup = function (inVal) {
     return inVal;
-  }
-};
+  };
+}
 
 Yanfly.Util.getCount = function (value, arr) {
   var occur = 0;

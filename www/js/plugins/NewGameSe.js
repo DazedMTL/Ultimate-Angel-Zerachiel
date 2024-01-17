@@ -53,7 +53,7 @@
  * @help NewGameSe.js
  *
  * ニューゲーム選択時のみ専用の効果音を演奏します。
- *　
+ *
  * このプラグインにはプラグインコマンドはありません。
  *
  * 利用規約：
@@ -93,44 +93,47 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    /**
-     * Create plugin parameter. param[paramName] ex. param.commandPrefix
-     * @param pluginName plugin name(EncounterSwitchConditions)
-     * @returns {Object} Created parameter
-     */
-    var createPluginParameter = function (pluginName) {
-        var paramReplacer = function (key, value) {
-            if (value === 'null') {
-                return value;
-            }
-            if (value[0] === '"' && value[value.length - 1] === '"') {
-                return value;
-            }
-            try {
-                return JSON.parse(value);
-            } catch (e) {
-                return value;
-            }
-        };
-        var parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
-        PluginManager.setParameters(pluginName, parameter);
-        return parameter;
+  /**
+   * Create plugin parameter. param[paramName] ex. param.commandPrefix
+   * @param pluginName plugin name(EncounterSwitchConditions)
+   * @returns {Object} Created parameter
+   */
+  var createPluginParameter = function (pluginName) {
+    var paramReplacer = function (key, value) {
+      if (value === "null") {
+        return value;
+      }
+      if (value[0] === '"' && value[value.length - 1] === '"') {
+        return value;
+      }
+      try {
+        return JSON.parse(value);
+      } catch (e) {
+        return value;
+      }
     };
+    var parameter = JSON.parse(
+      JSON.stringify(PluginManager.parameters(pluginName), paramReplacer)
+    );
+    PluginManager.setParameters(pluginName, parameter);
+    return parameter;
+  };
 
-    var param = createPluginParameter('NewGameSe');
+  var param = createPluginParameter("NewGameSe");
 
-    var _Window_TitleCommand_playOkSound = Window_TitleCommand.prototype.playOkSound;
-    Window_TitleCommand.prototype.playOkSound = function () {
-        if (param.soundEffect && this.isNeedTitleSound()) {
-            AudioManager.playStaticSe(param.soundEffect);
-        } else {
-            _Window_TitleCommand_playOkSound.apply(this, arguments);
-        }
-    };
+  var _Window_TitleCommand_playOkSound =
+    Window_TitleCommand.prototype.playOkSound;
+  Window_TitleCommand.prototype.playOkSound = function () {
+    if (param.soundEffect && this.isNeedTitleSound()) {
+      AudioManager.playStaticSe(param.soundEffect);
+    } else {
+      _Window_TitleCommand_playOkSound.apply(this, arguments);
+    }
+  };
 
-    Window_TitleCommand.prototype.isNeedTitleSound = function () {
-        return this.currentSymbol() === 'newGame' || param.includeContinue
-    };
+  Window_TitleCommand.prototype.isNeedTitleSound = function () {
+    return this.currentSymbol() === "newGame" || param.includeContinue;
+  };
 })();

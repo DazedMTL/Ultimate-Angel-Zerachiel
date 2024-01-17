@@ -11,59 +11,59 @@
  * @target MZ
  * @plugindesc [Ver1.1.0]Change actors' position on screen at sideview battle.
  * @author Sasuke KANNAZUKI
- * 
+ *
  * @param actor1 Xpos
- * @desc X position formula of actor1's center. 
+ * @desc X position formula of actor1's center.
  * (default:600)
  * @type text
  * @default 600
  *
  * @param actor1 Ypos
- * @desc Y position formula of actor1's bottom. 
+ * @desc Y position formula of actor1's bottom.
  * (default:280)
  * @type text
  * @default 280
- * 
+ *
  * @param actor2 Xpos
- * @desc X position formula of actor2's center. 
+ * @desc X position formula of actor2's center.
  * (default:600 + 32) =632
  * @type text
  * @default 600 + 32
  *
  * @param actor2 Ypos
- * @desc Y position formula of actor2's bottom. 
+ * @desc Y position formula of actor2's bottom.
  * (default:280 + 48) =328
  * @type text
  * @default 280 + 48
- * 
+ *
  * @param actor3 Xpos
- * @desc X position formula of actor3's center. 
+ * @desc X position formula of actor3's center.
  * (default:600 + 32 * 2) =664
  * @type text
  * @default 600 + 32 * 2
  *
  * @param actor3 Ypos
- * @desc Y position formula of actor3's bottom. 
+ * @desc Y position formula of actor3's bottom.
  * (default:280 + 48 * 2) =376
  * @type text
  * @default 280 + 48 * 2
- * 
+ *
  * @param actor4 Xpos
- * @desc X position formula of actor4's center. 
+ * @desc X position formula of actor4's center.
  * (default:600 + 32 * 3) =696
  * @type text
  * @default 600 + 32 * 3
  *
  * @param actor4 Ypos
- * @desc Y position formula of actor4's bottom. 
+ * @desc Y position formula of actor4's bottom.
  * (default:280 + 48 * 3) =424
  * @type text
  * @default 280 + 48 * 3
- * 
+ *
  * @command set
  * @text SV Actor Set Position
  * @desc Set either x or y axis.
- * 
+ *
  * @arg actorPos
  * @text Actor Position
  * @desc 1=top 2,3,4...
@@ -114,7 +114,7 @@
  * @min -99999
  * @default 0
  *
- * @help 
+ * @help
  * This plugin runs under RPG Maker MZ.
  *
  * This plugin enables to change the positions of sideview actors.
@@ -127,7 +127,7 @@
  *
  * This plugin also assumes the use of diffrent (from specified) size
  * SV actor graphics.
- * 
+ *
  * [Plugin Command]
  * Set actor's position, XorY, and Coord.
  * Coord accepts not only number but also formula.
@@ -136,7 +136,7 @@
  * 472
  * $gameVariables.value(20)    # variable
  * 320 + 48 * $gameVariables.value(15)      #formula
- * 
+ *
  * [configuration at Actor's note]
  * <SVWeaponHeight:12>
  * Weapon animation's height of the sideview actor.
@@ -144,7 +144,7 @@
  * - It also accepts minus value,
  *   because it assumes when you make smaller actor.
  * - If this isn't written, default value 0 is used.
- * 
+ *
  * Weapon animation's X position is automatically corrected
  *   according to the actor graphics size.
  * If you feel it isn't natural, you can optimize the X position.
@@ -163,7 +163,7 @@
  * @target MZ
  * @plugindesc [Ver1.1.0]サイドビュー戦闘においてアクター達の画面表示位置を設定します。
  * @author 神無月サスケ
- * 
+ *
  * @param actor1 Xpos
  * @desc アクター1の中心のX座標の式です。
  * (初期値:600)
@@ -175,7 +175,7 @@
  * (初期値:280)
  * @type text
  * @default 280
- * 
+ *
  * @param actor2 Xpos
  * @desc アクター2の中心のX座標の式です。
  * (初期値:600 + 32) =632
@@ -187,7 +187,7 @@
  * (初期値:280 + 48) =328
  * @type text
  * @default 280 + 48
- * 
+ *
  * @param actor3 Xpos
  * @desc アクター3の中心のX座標の式です。
  * (初期値:600 + 32 * 2) =664
@@ -199,7 +199,7 @@
  * (初期値:280 + 48 * 2) =376
  * @type text
  * @default 280 + 48 * 2
- * 
+ *
  * @param actor4 Xpos
  * @desc アクター4の中心のX座標の式です。
  * (初期値:600 + 32 * 3) =696
@@ -211,11 +211,11 @@
  * (初期値:280 + 48 * 3) =424
  * @type text
  * @default 280 + 48 * 3
- * 
+ *
  * @command set
  * @text SVアクター座標設定
  * @desc XかY座標のセット
- * 
+ *
  * @arg actorPos
  * @text アクター位置
  * @desc トップが1で何番目？
@@ -269,7 +269,7 @@
  * @min -99999
  * @default 0
  *
- * @help 
+ * @help
  * このプラグインは、RPGツクールMZに対応しています。
  *
  * このプラグインは、サイドビュー戦闘でのアクターの座標を変更可能です。
@@ -289,14 +289,14 @@
  * ・640 や 472 といった値
  * ・$gameVariables.value(20)
  * ・320 + 48 * $gameVariables.value(15)
- * 
+ *
  * ■アクターのメモによる設定
  * <SVWeaponHeight:12>
  * サイドビューアクターの武器アニメの表示Y座標の高さを設定します。
  * この例では、通常より12ピクセル高い位置に表示されます。
  * - 標準より小さなアクター画像の作成を想定して、マイナス値も受け付けます。
  * - 記述を省略した場合、デフォルトの0が採用されます。
- * 
+ *
  * 武器アニメのX座標は、アクター画像のサイズによって自動的に補正されます。
  * もしそれで不自然な場合は、以下の書式でメモに書いてください。
  * <SVWeaponRight:20>
@@ -315,8 +315,7 @@
  */
 
 (() => {
-
-  const pluginName = 'SVActorPositionMZ'
+  const pluginName = "SVActorPositionMZ";
 
   //
   // process parameters
@@ -324,20 +323,19 @@
   const parameters = PluginManager.parameters(pluginName);
   let SVActorX = new Array(4);
   let SVActorY = new Array(4);
-  SVActorX[0] = eval(parameters['actor1 Xpos'] || '600');
-  SVActorX[1] = eval(parameters['actor2 Xpos'] || '632');
-  SVActorX[2] = eval(parameters['actor3 Xpos'] || '664');
-  SVActorX[3] = eval(parameters['actor4 Xpos'] || '696');
-  SVActorY[0] = eval(parameters['actor1 Ypos'] || '280');
-  SVActorY[1] = eval(parameters['actor2 Ypos'] || '328');
-  SVActorY[2] = eval(parameters['actor3 Ypos'] || '376');
-  SVActorY[3] = eval(parameters['actor4 Ypos'] || '424');
-
+  SVActorX[0] = eval(parameters["actor1 Xpos"] || "600");
+  SVActorX[1] = eval(parameters["actor2 Xpos"] || "632");
+  SVActorX[2] = eval(parameters["actor3 Xpos"] || "664");
+  SVActorX[3] = eval(parameters["actor4 Xpos"] || "696");
+  SVActorY[0] = eval(parameters["actor1 Ypos"] || "280");
+  SVActorY[1] = eval(parameters["actor2 Ypos"] || "328");
+  SVActorY[2] = eval(parameters["actor3 Ypos"] || "376");
+  SVActorY[3] = eval(parameters["actor4 Ypos"] || "424");
 
   //
   // process plugin commands
   //
-  PluginManager.registerCommand(pluginName, 'set', args => {
+  PluginManager.registerCommand(pluginName, "set", (args) => {
     // check whether sv array is already defined or not
     if (!$gameSystem.svActorArrayDefined()) {
       $gameSystem.defineSvActorArray();
@@ -345,35 +343,35 @@
     const pos = +args.actorPos;
     const value = eval(args.dispPos);
     switch (args.axis) {
-      case 'X':
+      case "X":
         $gameSystem.svActorX[pos - 1] = value;
         break;
-      case 'Y':
+      case "Y":
         $gameSystem.svActorY[pos - 1] = value;
         break;
     }
   });
 
-  PluginManager.registerCommand(pluginName, 'setWeapon', args => {
+  PluginManager.registerCommand(pluginName, "setWeapon", (args) => {
     if (!$gameSystem.svActorArrayDefined()) {
       $gameSystem.defineSvActorArray();
     }
     const actor = $gameActors.actor(+args.actorId);
     if (actor) {
       switch (args.axis) {
-        case 'right':
+        case "right":
           $gameSystem.svWeaponX[+args.actorId] = +args.pixel;
           break;
-        case 'up':
+        case "up":
           $gameSystem.svWeaponY[+args.actorId] = +args.pixel;
           break;
       }
     }
   });
 
-  // 
+  //
   // define arrays for save sv actors' position
-  // 
+  //
   const _Game_System_initialize = Game_System.prototype.initialize;
   Game_System.prototype.initialize = function () {
     _Game_System_initialize.call(this);
@@ -439,9 +437,8 @@
     if (actorId && battler) {
       const pixelX = $gameSystem.svWeaponX[actorId];
       const pixelY = $gameSystem.svWeaponY[actorId];
-      this.x += pixelX != null ? pixelX : (+meta.SVWeaponRight || 0);
-      this.y -= pixelY != null ? pixelY : (+meta.SVWeaponHeight || 0);
+      this.x += pixelX != null ? pixelX : +meta.SVWeaponRight || 0;
+      this.y -= pixelY != null ? pixelY : +meta.SVWeaponHeight || 0;
     }
   };
-
 })();

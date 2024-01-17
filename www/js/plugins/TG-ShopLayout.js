@@ -1,33 +1,33 @@
-﻿1//=============================================================================
-  // TG-shopLayout.js	
+﻿1(
+  //=============================================================================
+  // TG-shopLayout.js
   // The MIT License (MIT)
   //=============================================================================
 
   /*:
    * @plugindesc ショップのレイアウト変更を行い、任意で背景のぼかしを除去します
    * @author どらぴか(STUDIO TOKIWA)
-   * 
+   *
    * @param BlurOffSwitchID
    * @type switch
    * @desc 該当スイッチがオンの時、背景のぼかしを除去します。
    * @default 1
-   * 
+   *
    * @help 【TG-shopLayout】
    * ショップの処理のレイアウトを変更します。
    * また該当スイッチがオンの時、背景のぼかしを除去します。
-   * 
+   *
    * このプラグインにはプラグインコマンドはありません。
-   * 
+   *
    */
 
-  (function () {
-
+  function () {
     //=============================================================================
     // パラメータの設定
-    //=============================================================================	
+    //=============================================================================
 
-    var parameters = PluginManager.parameters('TG-shopLayout');
-    var TGBlurOff = Number(parameters['BlurOffSwitchID']);
+    var parameters = PluginManager.parameters("TG-shopLayout");
+    var TGBlurOff = Number(parameters["BlurOffSwitchID"]);
 
     //=============================================================================
     // 背景のぼかしを除去する処理
@@ -51,7 +51,9 @@
     function Window_Shop_ItemCategory() {
       this.initialize.apply(this, arguments);
     }
-    Window_Shop_ItemCategory.prototype = Object.create(Window_ItemCategory.prototype);
+    Window_Shop_ItemCategory.prototype = Object.create(
+      Window_ItemCategory.prototype
+    );
     Window_Shop_ItemCategory.prototype.constructor = Window_Shop_ItemCategory;
 
     Window_Shop_ItemCategory.prototype.initialize = function () {
@@ -91,7 +93,6 @@
       this._purchaseOnly = purchaseOnly;
       Window_HorzCommand.prototype.initialize.call(this, 24, 0);
     };
-
 
     Window_ShopCommand.prototype.windowWidth = function () {
       return 400;
@@ -139,9 +140,14 @@
 
     Window_ShopStatus.prototype.drawPossession = function (x, y) {
       var width = this.contents.width - this.textPadding() - x;
-      var possessionWidth = this.textWidth('0000');
+      var possessionWidth = this.textWidth("0000");
       this.changeTextColor(this.systemColor());
-      this.drawText(TextManager.possession + ' :', x, y - 8, width - possessionWidth);
+      this.drawText(
+        TextManager.possession + " :",
+        x,
+        y - 8,
+        width - possessionWidth
+      );
       this.resetTextColor();
       this.drawText($gameParty.numItems(this._item), x + 148, y - 8, width);
     };
@@ -150,16 +156,28 @@
       var members = this.statusMembers();
       if (members.length == 1) {
         for (var i = 0; i < members.length; i++) {
-          this.drawActorEquipInfo(x, y + this.lineHeight() * (i * 1.6), members[i]);
+          this.drawActorEquipInfo(
+            x,
+            y + this.lineHeight() * (i * 1.6),
+            members[i]
+          );
         }
       } else {
         for (var i = 0; i < 2; i++) {
-          this.drawActorEquipInfo(x, y + this.lineHeight() * (i * 1.6), members[i]);
+          this.drawActorEquipInfo(
+            x,
+            y + this.lineHeight() * (i * 1.6),
+            members[i]
+          );
         }
         var x = 190;
         var y = -43;
         for (var i = 2; i < members.length; i++) {
-          this.drawActorEquipInfo(x, y + this.lineHeight() * (i * 1.6), members[i]);
+          this.drawActorEquipInfo(
+            x,
+            y + this.lineHeight() * (i * 1.6),
+            members[i]
+          );
         }
       }
     };
@@ -177,14 +195,19 @@
       this.changePaintOpacity(true);
     };
 
-    Window_ShopStatus.prototype.drawActorParamChange = function (x, y, actor, item1) {
+    Window_ShopStatus.prototype.drawActorParamChange = function (
+      x,
+      y,
+      actor,
+      item1
+    ) {
       var width = this.contents.width - this.textPadding() - x;
       var paramId = this.paramId();
-      var change = this._item.params[paramId] - (item1 ? item1.params[paramId] : 0);
+      var change =
+        this._item.params[paramId] - (item1 ? item1.params[paramId] : 0);
       this.changeTextColor(this.paramchangeTextColor(change));
-      this.drawText((change > 0 ? '+' : '') + change, x + 130, y - 50, width);
+      this.drawText((change > 0 ? "+" : "") + change, x + 130, y - 50, width);
     };
-
 
     // ***　購入数・売却数のウィンドウ生成　***
 
@@ -200,7 +223,9 @@
     };
 
     Window_ShopNumber.prototype.itemY = function () {
-      return Math.round(this.contentsHeight() / 2 - this.lineHeight() * 1.5) - 10;
+      return (
+        Math.round(this.contentsHeight() / 2 - this.lineHeight() * 1.5) - 10
+      );
     };
 
     Window_ShopNumber.prototype.priceY = function () {
@@ -235,7 +260,6 @@
         var defaultPadding = Window_Base.prototype.standardPadding.call(this);
         return defaultPadding;
       }
-
     };
 
     Window_ShopNumber.prototype.windowWidth = function () {
@@ -247,7 +271,13 @@
     //=============================================================================
 
     Window_ShopSell.prototype.initialize = function (x, y, width, height) {
-      Window_ItemList.prototype.initialize.call(this, 24, y + 12, 400, height - 36);
+      Window_ItemList.prototype.initialize.call(
+        this,
+        24,
+        y + 12,
+        400,
+        height - 36
+      );
     };
 
     // ***　売却するアイテムのフォントサイズ　***
@@ -287,11 +317,14 @@
     // ***　「購入・売却・やめる」のウィンドウ設定　***
 
     Scene_Shop.prototype.createCommandWindow = function () {
-      this._commandWindow = new Window_ShopCommand(this._goldWindow.x, this._purchaseOnly);
+      this._commandWindow = new Window_ShopCommand(
+        this._goldWindow.x,
+        this._purchaseOnly
+      );
       this._commandWindow.y = 24;
-      this._commandWindow.setHandler('buy', this.commandBuy.bind(this));
-      this._commandWindow.setHandler('sell', this.commandSell.bind(this));
-      this._commandWindow.setHandler('cancel', this.popScene.bind(this));
+      this._commandWindow.setHandler("buy", this.commandBuy.bind(this));
+      this._commandWindow.setHandler("sell", this.commandSell.bind(this));
+      this._commandWindow.setHandler("cancel", this.popScene.bind(this));
       this.addWindow(this._commandWindow);
     };
 
@@ -312,9 +345,12 @@
       this._categoryWindow.y = this._commandWindow.height + 36;
       this._categoryWindow.hide();
       this._categoryWindow.deactivate();
-      this._categoryWindow.setHandler('ok', this.onCategoryOk.bind(this));
-      this._categoryWindow.setHandler('cancel', this.onCategoryCancel.bind(this));
+      this._categoryWindow.setHandler("ok", this.onCategoryOk.bind(this));
+      this._categoryWindow.setHandler(
+        "cancel",
+        this.onCategoryCancel.bind(this)
+      );
       this.addWindow(this._categoryWindow);
     };
-
-  })();
+  }
+)();

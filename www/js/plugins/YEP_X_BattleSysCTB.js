@@ -11,496 +11,503 @@ Yanfly.CTB = Yanfly.CTB || {};
 
 //=============================================================================
 /*:
-* @plugindesc v1.14a (Requires YEP_BattleEngineCore.js) Add CTB (Charge
-* Turn Battle) into your game using this plugin!
-* @author Yanfly Engine Plugins
-*
-* @param ---CTB Settings---
-* @default
-*
-* @param Per Tick
-* @desc This is how much speed is gained per tick.
-* @default user.agi
-*
-* @param Initial Speed
-* @desc The speed position of the battler at the start of battle.
-* This is a formula processed as an eval.
-* @default 0
-*
-* @param Full Gauge
-* @desc The target speed for an CTB gauge to be full.
-* This is a formula processed as an eval.
-* @default Math.max(7000, BattleManager.highestBaseAgi() * 120)
-*
-* @param Pre-Emptive Bonuses
-* @desc How much of the CTB bar do you want filled up for an
-* CTB pre-emptive bonus from 0 to 1.
-* @default 0.8
-*
-* @param Surprise Bonuses
-* @desc How much of the CTB bar do you want filled up for an
-* CTB surprise bonus from 0 to 1.
-* @default 0.8
-*
-* @param ---Escape---
-* @default
-*
-* @param Escape Ratio
-* @desc How CTB calculates escape ratios.
-* Default: 0.5 * $gameParty.agility() / $gameTroop.agility()
-* @default 0.125 * $gameParty.agility() / $gameTroop.agility()
-*
-* @param Fail Escape Boost
-* @desc Each time the player fails escape, increase the success
-* rate by this much. Default: 0.1
-* @default 0.025
-*
-* @param ---Turn---
-* @default
-*
-* @param Full Turn
-* @desc This is how many ticks to equal a full battle turn.
-* This is a formula processed as an eval.
-* @default Math.min(200, BattleManager.lowestBaseAgi() * 8)
-*
-* @param ---Rubberband---
-* @default
-*
-* @param Enable Rubberband
-* @desc This is an auto-balance mechanic for AGI.
-* Disable - false     Enable - true
-* @default true
-*
-* @param Minimum Speed
-* @desc If rubberbanding is enabled, what is the minimum
-* speed increase? This is a formula.
-* @default 0.5 * BattleManager.highestBaseAgi()
-*
-* @param Maximum Speed
-* @desc If rubberbanding is enabled, what is the maximum
-* speed increase? This is a formula.
-* @default 1.5 * BattleManager.highestBaseAgi()
-*
-* @param ---Sound---
-* @default
-*
-* @param Ready Sound
-* @desc This is the sound played when the battler is ready.
-* @default Decision1
-*
-* @param Ready Volume
-* @desc This is the volume of the ready sound.
-* @default 90
-*
-* @param Ready Pitch
-* @desc This is the pitch of the ready sound.
-* @default 120
-*
-* @param Ready Pan
-* @desc This is the pan of the ready sound.
-* @default 0
-*
-* @param ---Turn Order---
-* @default
-*
-* @param Show Turn Order
-* @desc Show the battler turn order?
-* NO - false     YES - true
-* @default true
-*
-* @param Icon Size
-* @desc This is the size of the icons displayed for the turn order.
-* Default: 32
-* @default 32
-*
-* @param Position Y
-* @desc Where do you want to align the Y turn order?
-* @default 54
-*
-* @param Position X
-* @desc Which side of the screen should the turn order appear?
-* left     center     right
-* @default right
-*
-* @param Turn Direction
-* @desc Which way do you want the turn icons going?
-* left     right
-* @default left
-*
-* @param Ally Border Color
-* @desc Text Color used for the borders of allies.
-* @default 4
-*
-* @param Ally Back Color
-* @desc Text Color used for the ally background color.
-* @default 22
-*
-* @param Ally Icon
-* @desc Default icon used for allies. If this value is 0,
-* the icon will be the ally's face graphic instead.
-* @default 0
-*
-* @param Enemy Border Color
-* @desc Text Color used for the borders of enemies.
-* @default 2
-*
-* @param Enemy Back Color
-* @desc Text Color used for the ally background color.
-* @default 19
-*
-* @param Enemy Icon
-* @desc Default icon used for enemies. If this value is 0,
-* the icon will be the enemy's drawn battler instead.
-* @default 0
-*
-* @param Enemy SV Battlers
-* @desc If using Animated SV Enemies, draw their battlers if no icon
-* is being used? This can become laggy. NO - false  YES - true
-* @default false
-*
-* @help
-* ============================================================================
-* Introduction
-* ============================================================================
-*
-* The Battle System - Charge Turn Battle plugin is an extension plugin for
-* Yanfly Engine Plugins' Battle Engine Core. This extension plugin will not
-* work without the main plugin.
-*
-* To use the CTB system, go to the Battle Engine Core plugin and change the
-* 'Default System' setting in the parameters to 'ctb'.
-*
-* The Charge Turn Battle system functions by calculating every battlers' speed
-* and balancing them relative to one another. When it's a battler's turn, the
-* battler will either choose an action to perform immediately or charge it for
-* later depending if the skill requires charging.
-*
-* This is a battle system where agility plays an important factor in the
-* progress of battle where higher agility values give battlers more advantage
-* and lower agility values give battlers less advantage.
-*
-* ============================================================================
-* Plugin Commands
-* ============================================================================
-*
-* To change your battle system to Charge Turn Battle if it isn't the default
-* battle system, you can use the following Plugin Command:
-*
-* Plugin Command:
-*   setBattleSys CTB      Sets battle system to Charge Turn Battle.
-*   setBattleSys DTB      Sets battle system to Default Turn Battle.
-*
-* Using the above Plugin Commands, you can toggle between the Default Battle
-* System and Charge Turn Battle!
-*
-* ============================================================================
-* Notetags
-* ============================================================================
-*
-* The following are notetags that pertain to and affect the CTB system.
-*
-* Actor and Enemy Notetags:
-*   <CTB Icon: x>
-*   This sets the icon used for the actor/enemy to be x.
-*
-*   <CTB Border Color: x>
-*   This sets the border color used for the actor/enemy to text color x.
-*
-*   <CTB Background Color: x>
-*   This sets the background color used for the actor/enemy to text color x.
-*
-* Actor only Notetags:
-*   <Class x CTB Icon: y>
-*   This sets it so that if the actor is a specific class, the actor will get
-*   a specific icon used for the CTB Turn Order. If the actor is class x, it
-*   will receive icon y.
-*
-*   <Hero CTB Icon: x>
-*   <Warrior CTB Icon: x>
-*   <Mage CTB Icon: x>
-*   <Priest CTB Icon: x>
-*   If you prefer to use names instead of class ID's, you can use the above
-*   notetag format. If the actor is the named class, it will receive icon x.
-*   If you have multiple classes with the same name, priority will be given to
-*   the class with the highest ID.
-*
-* Skill and Item Notetags:
-*   <CTB Help>
-*   text
-*   text
-*   </CTB Help>
-*   For those planning on using multiple battle systems, sometimes you may
-*   have your skills perform differently while using CTB. If so, using this
-*   notetag will allow skills and items to display different help text while
-*   CTB is enabled.
-*
-*   <CTB Speed: x>
-*   Usable only during CTB. This sets the target's current speed to x.
-*
-*   <CTB Speed: x%>
-*   Usable only during CTB. This sets the target's current speed to x% of
-*   the CTB turn completion target.
-*
-*   <CTB Speed: +x>
-*   <CTB Speed: -x>
-*   Usable only during CTB. This increases or decreases the target's current
-*   speed by x.
-*
-*   <CTB Speed: +x%>
-*   <CTB Speed: -x%>
-*   Usable only during CTB. This increases or decreases the target's current
-*   speed or charge by x% of the CTB turn completion target.
-*
-*   <CTB Order: +x>
-*   <CTB Order: -x>
-*   Moves target's position in the turn order by +x or -x. +x will make the
-*   target having to wait more before getting their turn while -x will make
-*   the target having to wait less. The effect is minimal and will only last
-*   for the current turn cycle.
-*   * Note: If you use this for multiple targets, each target will shift turns
-*   individually at a time.
-*
-*   <After CTB: x>
-*   <After CTB: x%>
-*   This will set the skill/item user's CTB speed value to x or x%. If 'x' is
-*   used, this will be the exact CTB value. If x% is used, this will be the
-*   percentage of the CTB turn completion target that it will be at.
-*
-* Actor, Class, Enemy, Weapon, Armor, and State Notetags:
-*   <CTB Start: +x>
-*   <CTB Start: +x%>
-*   Usable only during CTB. This will give the actor, class, enemy, weapon,
-*   armor, or state the property of starting battle with X CTB Speed or X% of
-*   the CTB turn completion target.
-*
-*   <CTB Turn: +x>
-*   <CTB Turn: +x%>
-*   Usable only during CTB. This will give the actor, class, enemy, weapon,
-*   armor, or state the property of starting a turn with X CTB Speed or X% of
-*   the CTB turn completion target.
-*
-* ============================================================================
-* Lunatic Mode - Conditional CTB Speed and Conditional CTB Charge
-* ============================================================================
-*
-* For those who have a bit of JavaScript experience and would like to have
-* more unique ways of performing CTB speed and charge changes, you can use the
-* following notetags:
-*
-* Skill and Item Notetags:
-*   <Target CTB Speed Eval>
-*   speed = x;
-*   charge = x;
-*   </Target CTB Speed Eval>
-*   You can omit speed and/or charge. Whatever you set 'speed' to will change
-*   the CTB speed of the target. If the target is charging, 'charge' will
-*   cause the target's charge to change to that value. To make things more
-*   simple, 'max' will be the full gauge value.
-*
-*   Here is an example:
-*
-*   <Target CTB Speed Eval>
-*   speed = target.hp / target.mhp * max;
-*   charge = target.hp / target.mhp * max;
-*   </Target CTB Speed Eval>
-*   The above code will set the user's current CTB gauge to position equal to
-*   the target's HP ratio. If the target has 25% HP, the CTB gauge will go to
-*   25% full for the target.
-*
-*   --- --- --- --- ---
-* 
-*   <Target CTB Order Eval>
-*   order = x;
-*   </Target CTB Order Eval>
-*   Set the 'order' variable to how much you want to alter the target's
-*   current turn order by. If 'order' is positive, the order will need to wait
-*   that many more turns before its turn comes up. If 'order' is negative, it
-*   will will that amount of turns less before the order comes up.
-*
-*   Here is an example:
-*
-*   <Target CTB Order Eval>
-*   if (target.hp > 1000) {
-*     order = 3;
-*   } else {
-*     order = -1;
-*   }
-*   </Target CTB Order Eval>
-*   If the target when attacked has over 1000 HP left, the target will have to
-*   wait 3 more turns before its turn arrives. If the target has 1000 or less,
-*   the target actually waits 1 less turn.
-* 
-*   --- --- --- --- ---
-*
-*   <After CTB Eval>
-*   speed = x;
-*   </After CTB Eval>
-*   This is the CTB set after the user has used the skill/item and the custom
-*   CTB amount you want the user to be at after. 'max' be the value of the
-*   full gauge value. Whatever you set 'speed', the user's CTB speed value
-*   will change to that much:
-*
-*   Here is an example:
-*
-*   <After CTB Eval>
-*   speed = user.mp / user.mmp * max;
-*   </After CTB Eval>
-*   The above code will set the user's CTB gauge after using the skill/item to
-*   equal the user's MP ratio. If the user has 25% MP, the CTB gauge will go
-*   to 25% full for the user.
-*
-* ============================================================================
-* Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands
-* ============================================================================
-*
-* You can make use of these extra CTB related action sequences.
-*
-*=============================================================================
-* CTB ORDER: target, +X
-* CTB ORDER: target, -X
-*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-* Usable only for CTB. Moves target's position in the turn order by +x or -x.
-* +x will make the target having to wait more before getting their turn while
-* -x will make the target having to wait less. The effect is minimal and will
-* only last for the current turn cycle.
-* * Note: If you use this for multiple targets, each target will shift turns
-* individually at a time.
-*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-* Usage Example: ctb order: target, -2
-*                ctb order: target, +3
-*=============================================================================
-*
-*=============================================================================
-* CTB SPEED: target, X
-* CTB SPEED: target, X%
-* CTB SPEED: targets, +X
-* CTB SPEED: targets, +X%
-*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-* Usable only for CTB. Sets the target's CTB speed to X or X%. This only
-* applies when the target is filling up its CTB gauge. This will not affect
-* the user to prevent mechanical issues.
-*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-* Usage Example: ctb speed: targets, +5000
-*                ctb speed: target, -50%
-*=============================================================================
-*
-* ============================================================================
-* Changelog
-* ============================================================================
-*
-* Version 1.14a:
-* - Updated check for CTB Charging. Units in the turn order will not be
-* considered 'ready' unless they are in the front of the CTB Turn Order.
-*
-* Version 1.13:
-* - Timing has been changed for states that update turns at Turn Start. Now,
-* the states will update prior to the actor's command box opening or the enemy
-* make a decision on which action it will use.
-*
-* Version 1.12:
-* - Updated for RPG Maker MV version 1.1.0.
-*
-* Version 1.11:
-* - Counterattacks no longer cause turn order inconsistencies.
-*
-* Version 1.10a:
-* - Updated plugin to update the AI more accordingly with Battle AI Core.
-* - Optimized CTB Turn Order further to reduce lag when there are larger
-* quantities of battle members.
-*
-* Version 1.09:
-* - Fixed a bug where forced actions clear out an action's effects before the
-* turn is over, making post-turn effects to not occur.
-*
-* Version 1.08a:
-* - Fixed a bug where changing back and forth between the Fight/Escape window
-* would prompt on turn start effects.
-* - Made an update where if using Battle Engine Core's "Lower Windows" to
-* false, the icons no longer show above the windows.
-*
-* Version 1.07:
-* - Made a mechanic change so that turn 0 ends immediately upon battle start
-* rather than requiring a full turn to end.
-*
-* Version 1.06:
-* - Fixed a bug that would cause a crash when a party member leaves the party.
-*
-* Version 1.05c:
-* - Implemented a Forced Action queue list. This means if a Forced Action
-* takes place in the middle of an action, the action will resume after the
-* forced action finishes rather than cancels it out like MV does.
-* - Fixed a graphical issue where enemies appearing midway don't have letters
-* attached to their icons.
-* - Added a fail safe for loaded saves that did not have CTB installed before.
-*
-* Version 1.04:
-* - Added a speed position check for Instant Casts to maintain order position.
-*
-* Version 1.03:
-* - Fixed a bug that doesn't update state turns properly.
-* - Removed 'Turn Structure parameter' as it goes against the nature of a
-* Tick-Based battle system.
-*
-* Version 1.02:
-* - Added failsafe for battlers without actions.
-* - Added speed rebalance formulas for tick-based systems (innate).
-* - Added <Class x CTB Icon: y> and <classname CTB Icon: x> notetags.
-*
-* Version 1.01:
-* - Provided loop breaks to prevent lock-ups with non-Yanfly plugins.
-* - Added 'Icon Size' parameter to allow customization of icon sizes.
-*
-* Version 1.00:
-* - It's doooooooooone!
-*/
+ * @plugindesc v1.14a (Requires YEP_BattleEngineCore.js) Add CTB (Charge
+ * Turn Battle) into your game using this plugin!
+ * @author Yanfly Engine Plugins
+ *
+ * @param ---CTB Settings---
+ * @default
+ *
+ * @param Per Tick
+ * @desc This is how much speed is gained per tick.
+ * @default user.agi
+ *
+ * @param Initial Speed
+ * @desc The speed position of the battler at the start of battle.
+ * This is a formula processed as an eval.
+ * @default 0
+ *
+ * @param Full Gauge
+ * @desc The target speed for an CTB gauge to be full.
+ * This is a formula processed as an eval.
+ * @default Math.max(7000, BattleManager.highestBaseAgi() * 120)
+ *
+ * @param Pre-Emptive Bonuses
+ * @desc How much of the CTB bar do you want filled up for an
+ * CTB pre-emptive bonus from 0 to 1.
+ * @default 0.8
+ *
+ * @param Surprise Bonuses
+ * @desc How much of the CTB bar do you want filled up for an
+ * CTB surprise bonus from 0 to 1.
+ * @default 0.8
+ *
+ * @param ---Escape---
+ * @default
+ *
+ * @param Escape Ratio
+ * @desc How CTB calculates escape ratios.
+ * Default: 0.5 * $gameParty.agility() / $gameTroop.agility()
+ * @default 0.125 * $gameParty.agility() / $gameTroop.agility()
+ *
+ * @param Fail Escape Boost
+ * @desc Each time the player fails escape, increase the success
+ * rate by this much. Default: 0.1
+ * @default 0.025
+ *
+ * @param ---Turn---
+ * @default
+ *
+ * @param Full Turn
+ * @desc This is how many ticks to equal a full battle turn.
+ * This is a formula processed as an eval.
+ * @default Math.min(200, BattleManager.lowestBaseAgi() * 8)
+ *
+ * @param ---Rubberband---
+ * @default
+ *
+ * @param Enable Rubberband
+ * @desc This is an auto-balance mechanic for AGI.
+ * Disable - false     Enable - true
+ * @default true
+ *
+ * @param Minimum Speed
+ * @desc If rubberbanding is enabled, what is the minimum
+ * speed increase? This is a formula.
+ * @default 0.5 * BattleManager.highestBaseAgi()
+ *
+ * @param Maximum Speed
+ * @desc If rubberbanding is enabled, what is the maximum
+ * speed increase? This is a formula.
+ * @default 1.5 * BattleManager.highestBaseAgi()
+ *
+ * @param ---Sound---
+ * @default
+ *
+ * @param Ready Sound
+ * @desc This is the sound played when the battler is ready.
+ * @default Decision1
+ *
+ * @param Ready Volume
+ * @desc This is the volume of the ready sound.
+ * @default 90
+ *
+ * @param Ready Pitch
+ * @desc This is the pitch of the ready sound.
+ * @default 120
+ *
+ * @param Ready Pan
+ * @desc This is the pan of the ready sound.
+ * @default 0
+ *
+ * @param ---Turn Order---
+ * @default
+ *
+ * @param Show Turn Order
+ * @desc Show the battler turn order?
+ * NO - false     YES - true
+ * @default true
+ *
+ * @param Icon Size
+ * @desc This is the size of the icons displayed for the turn order.
+ * Default: 32
+ * @default 32
+ *
+ * @param Position Y
+ * @desc Where do you want to align the Y turn order?
+ * @default 54
+ *
+ * @param Position X
+ * @desc Which side of the screen should the turn order appear?
+ * left     center     right
+ * @default right
+ *
+ * @param Turn Direction
+ * @desc Which way do you want the turn icons going?
+ * left     right
+ * @default left
+ *
+ * @param Ally Border Color
+ * @desc Text Color used for the borders of allies.
+ * @default 4
+ *
+ * @param Ally Back Color
+ * @desc Text Color used for the ally background color.
+ * @default 22
+ *
+ * @param Ally Icon
+ * @desc Default icon used for allies. If this value is 0,
+ * the icon will be the ally's face graphic instead.
+ * @default 0
+ *
+ * @param Enemy Border Color
+ * @desc Text Color used for the borders of enemies.
+ * @default 2
+ *
+ * @param Enemy Back Color
+ * @desc Text Color used for the ally background color.
+ * @default 19
+ *
+ * @param Enemy Icon
+ * @desc Default icon used for enemies. If this value is 0,
+ * the icon will be the enemy's drawn battler instead.
+ * @default 0
+ *
+ * @param Enemy SV Battlers
+ * @desc If using Animated SV Enemies, draw their battlers if no icon
+ * is being used? This can become laggy. NO - false  YES - true
+ * @default false
+ *
+ * @help
+ * ============================================================================
+ * Introduction
+ * ============================================================================
+ *
+ * The Battle System - Charge Turn Battle plugin is an extension plugin for
+ * Yanfly Engine Plugins' Battle Engine Core. This extension plugin will not
+ * work without the main plugin.
+ *
+ * To use the CTB system, go to the Battle Engine Core plugin and change the
+ * 'Default System' setting in the parameters to 'ctb'.
+ *
+ * The Charge Turn Battle system functions by calculating every battlers' speed
+ * and balancing them relative to one another. When it's a battler's turn, the
+ * battler will either choose an action to perform immediately or charge it for
+ * later depending if the skill requires charging.
+ *
+ * This is a battle system where agility plays an important factor in the
+ * progress of battle where higher agility values give battlers more advantage
+ * and lower agility values give battlers less advantage.
+ *
+ * ============================================================================
+ * Plugin Commands
+ * ============================================================================
+ *
+ * To change your battle system to Charge Turn Battle if it isn't the default
+ * battle system, you can use the following Plugin Command:
+ *
+ * Plugin Command:
+ *   setBattleSys CTB      Sets battle system to Charge Turn Battle.
+ *   setBattleSys DTB      Sets battle system to Default Turn Battle.
+ *
+ * Using the above Plugin Commands, you can toggle between the Default Battle
+ * System and Charge Turn Battle!
+ *
+ * ============================================================================
+ * Notetags
+ * ============================================================================
+ *
+ * The following are notetags that pertain to and affect the CTB system.
+ *
+ * Actor and Enemy Notetags:
+ *   <CTB Icon: x>
+ *   This sets the icon used for the actor/enemy to be x.
+ *
+ *   <CTB Border Color: x>
+ *   This sets the border color used for the actor/enemy to text color x.
+ *
+ *   <CTB Background Color: x>
+ *   This sets the background color used for the actor/enemy to text color x.
+ *
+ * Actor only Notetags:
+ *   <Class x CTB Icon: y>
+ *   This sets it so that if the actor is a specific class, the actor will get
+ *   a specific icon used for the CTB Turn Order. If the actor is class x, it
+ *   will receive icon y.
+ *
+ *   <Hero CTB Icon: x>
+ *   <Warrior CTB Icon: x>
+ *   <Mage CTB Icon: x>
+ *   <Priest CTB Icon: x>
+ *   If you prefer to use names instead of class ID's, you can use the above
+ *   notetag format. If the actor is the named class, it will receive icon x.
+ *   If you have multiple classes with the same name, priority will be given to
+ *   the class with the highest ID.
+ *
+ * Skill and Item Notetags:
+ *   <CTB Help>
+ *   text
+ *   text
+ *   </CTB Help>
+ *   For those planning on using multiple battle systems, sometimes you may
+ *   have your skills perform differently while using CTB. If so, using this
+ *   notetag will allow skills and items to display different help text while
+ *   CTB is enabled.
+ *
+ *   <CTB Speed: x>
+ *   Usable only during CTB. This sets the target's current speed to x.
+ *
+ *   <CTB Speed: x%>
+ *   Usable only during CTB. This sets the target's current speed to x% of
+ *   the CTB turn completion target.
+ *
+ *   <CTB Speed: +x>
+ *   <CTB Speed: -x>
+ *   Usable only during CTB. This increases or decreases the target's current
+ *   speed by x.
+ *
+ *   <CTB Speed: +x%>
+ *   <CTB Speed: -x%>
+ *   Usable only during CTB. This increases or decreases the target's current
+ *   speed or charge by x% of the CTB turn completion target.
+ *
+ *   <CTB Order: +x>
+ *   <CTB Order: -x>
+ *   Moves target's position in the turn order by +x or -x. +x will make the
+ *   target having to wait more before getting their turn while -x will make
+ *   the target having to wait less. The effect is minimal and will only last
+ *   for the current turn cycle.
+ *   * Note: If you use this for multiple targets, each target will shift turns
+ *   individually at a time.
+ *
+ *   <After CTB: x>
+ *   <After CTB: x%>
+ *   This will set the skill/item user's CTB speed value to x or x%. If 'x' is
+ *   used, this will be the exact CTB value. If x% is used, this will be the
+ *   percentage of the CTB turn completion target that it will be at.
+ *
+ * Actor, Class, Enemy, Weapon, Armor, and State Notetags:
+ *   <CTB Start: +x>
+ *   <CTB Start: +x%>
+ *   Usable only during CTB. This will give the actor, class, enemy, weapon,
+ *   armor, or state the property of starting battle with X CTB Speed or X% of
+ *   the CTB turn completion target.
+ *
+ *   <CTB Turn: +x>
+ *   <CTB Turn: +x%>
+ *   Usable only during CTB. This will give the actor, class, enemy, weapon,
+ *   armor, or state the property of starting a turn with X CTB Speed or X% of
+ *   the CTB turn completion target.
+ *
+ * ============================================================================
+ * Lunatic Mode - Conditional CTB Speed and Conditional CTB Charge
+ * ============================================================================
+ *
+ * For those who have a bit of JavaScript experience and would like to have
+ * more unique ways of performing CTB speed and charge changes, you can use the
+ * following notetags:
+ *
+ * Skill and Item Notetags:
+ *   <Target CTB Speed Eval>
+ *   speed = x;
+ *   charge = x;
+ *   </Target CTB Speed Eval>
+ *   You can omit speed and/or charge. Whatever you set 'speed' to will change
+ *   the CTB speed of the target. If the target is charging, 'charge' will
+ *   cause the target's charge to change to that value. To make things more
+ *   simple, 'max' will be the full gauge value.
+ *
+ *   Here is an example:
+ *
+ *   <Target CTB Speed Eval>
+ *   speed = target.hp / target.mhp * max;
+ *   charge = target.hp / target.mhp * max;
+ *   </Target CTB Speed Eval>
+ *   The above code will set the user's current CTB gauge to position equal to
+ *   the target's HP ratio. If the target has 25% HP, the CTB gauge will go to
+ *   25% full for the target.
+ *
+ *   --- --- --- --- ---
+ *
+ *   <Target CTB Order Eval>
+ *   order = x;
+ *   </Target CTB Order Eval>
+ *   Set the 'order' variable to how much you want to alter the target's
+ *   current turn order by. If 'order' is positive, the order will need to wait
+ *   that many more turns before its turn comes up. If 'order' is negative, it
+ *   will will that amount of turns less before the order comes up.
+ *
+ *   Here is an example:
+ *
+ *   <Target CTB Order Eval>
+ *   if (target.hp > 1000) {
+ *     order = 3;
+ *   } else {
+ *     order = -1;
+ *   }
+ *   </Target CTB Order Eval>
+ *   If the target when attacked has over 1000 HP left, the target will have to
+ *   wait 3 more turns before its turn arrives. If the target has 1000 or less,
+ *   the target actually waits 1 less turn.
+ *
+ *   --- --- --- --- ---
+ *
+ *   <After CTB Eval>
+ *   speed = x;
+ *   </After CTB Eval>
+ *   This is the CTB set after the user has used the skill/item and the custom
+ *   CTB amount you want the user to be at after. 'max' be the value of the
+ *   full gauge value. Whatever you set 'speed', the user's CTB speed value
+ *   will change to that much:
+ *
+ *   Here is an example:
+ *
+ *   <After CTB Eval>
+ *   speed = user.mp / user.mmp * max;
+ *   </After CTB Eval>
+ *   The above code will set the user's CTB gauge after using the skill/item to
+ *   equal the user's MP ratio. If the user has 25% MP, the CTB gauge will go
+ *   to 25% full for the user.
+ *
+ * ============================================================================
+ * Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands
+ * ============================================================================
+ *
+ * You can make use of these extra CTB related action sequences.
+ *
+ *=============================================================================
+ * CTB ORDER: target, +X
+ * CTB ORDER: target, -X
+ *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Usable only for CTB. Moves target's position in the turn order by +x or -x.
+ * +x will make the target having to wait more before getting their turn while
+ * -x will make the target having to wait less. The effect is minimal and will
+ * only last for the current turn cycle.
+ * * Note: If you use this for multiple targets, each target will shift turns
+ * individually at a time.
+ *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Usage Example: ctb order: target, -2
+ *                ctb order: target, +3
+ *=============================================================================
+ *
+ *=============================================================================
+ * CTB SPEED: target, X
+ * CTB SPEED: target, X%
+ * CTB SPEED: targets, +X
+ * CTB SPEED: targets, +X%
+ *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Usable only for CTB. Sets the target's CTB speed to X or X%. This only
+ * applies when the target is filling up its CTB gauge. This will not affect
+ * the user to prevent mechanical issues.
+ *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Usage Example: ctb speed: targets, +5000
+ *                ctb speed: target, -50%
+ *=============================================================================
+ *
+ * ============================================================================
+ * Changelog
+ * ============================================================================
+ *
+ * Version 1.14a:
+ * - Updated check for CTB Charging. Units in the turn order will not be
+ * considered 'ready' unless they are in the front of the CTB Turn Order.
+ *
+ * Version 1.13:
+ * - Timing has been changed for states that update turns at Turn Start. Now,
+ * the states will update prior to the actor's command box opening or the enemy
+ * make a decision on which action it will use.
+ *
+ * Version 1.12:
+ * - Updated for RPG Maker MV version 1.1.0.
+ *
+ * Version 1.11:
+ * - Counterattacks no longer cause turn order inconsistencies.
+ *
+ * Version 1.10a:
+ * - Updated plugin to update the AI more accordingly with Battle AI Core.
+ * - Optimized CTB Turn Order further to reduce lag when there are larger
+ * quantities of battle members.
+ *
+ * Version 1.09:
+ * - Fixed a bug where forced actions clear out an action's effects before the
+ * turn is over, making post-turn effects to not occur.
+ *
+ * Version 1.08a:
+ * - Fixed a bug where changing back and forth between the Fight/Escape window
+ * would prompt on turn start effects.
+ * - Made an update where if using Battle Engine Core's "Lower Windows" to
+ * false, the icons no longer show above the windows.
+ *
+ * Version 1.07:
+ * - Made a mechanic change so that turn 0 ends immediately upon battle start
+ * rather than requiring a full turn to end.
+ *
+ * Version 1.06:
+ * - Fixed a bug that would cause a crash when a party member leaves the party.
+ *
+ * Version 1.05c:
+ * - Implemented a Forced Action queue list. This means if a Forced Action
+ * takes place in the middle of an action, the action will resume after the
+ * forced action finishes rather than cancels it out like MV does.
+ * - Fixed a graphical issue where enemies appearing midway don't have letters
+ * attached to their icons.
+ * - Added a fail safe for loaded saves that did not have CTB installed before.
+ *
+ * Version 1.04:
+ * - Added a speed position check for Instant Casts to maintain order position.
+ *
+ * Version 1.03:
+ * - Fixed a bug that doesn't update state turns properly.
+ * - Removed 'Turn Structure parameter' as it goes against the nature of a
+ * Tick-Based battle system.
+ *
+ * Version 1.02:
+ * - Added failsafe for battlers without actions.
+ * - Added speed rebalance formulas for tick-based systems (innate).
+ * - Added <Class x CTB Icon: y> and <classname CTB Icon: x> notetags.
+ *
+ * Version 1.01:
+ * - Provided loop breaks to prevent lock-ups with non-Yanfly plugins.
+ * - Added 'Icon Size' parameter to allow customization of icon sizes.
+ *
+ * Version 1.00:
+ * - It's doooooooooone!
+ */
 //=============================================================================
 
 if (Imported.YEP_BattleEngineCore) {
-
   //=============================================================================
   // Parameter Variables
   //=============================================================================
 
-  Yanfly.Parameters = PluginManager.parameters('YEP_X_BattleSysCTB');
+  Yanfly.Parameters = PluginManager.parameters("YEP_X_BattleSysCTB");
   Yanfly.Param = Yanfly.Param || {};
 
-  Yanfly.Param.CTBPerTick = String(Yanfly.Parameters['Per Tick']);
-  Yanfly.Param.CTBInitSpeed = String(Yanfly.Parameters['Initial Speed']);
-  Yanfly.Param.CTBFullGauge = String(Yanfly.Parameters['Full Gauge']);
-  Yanfly.Param.CTBPreEmptive = Number(Yanfly.Parameters['Pre-Emptive Bonuses']);
-  Yanfly.Param.CTBSurprise = Number(Yanfly.Parameters['Surprise Bonuses']);
+  Yanfly.Param.CTBPerTick = String(Yanfly.Parameters["Per Tick"]);
+  Yanfly.Param.CTBInitSpeed = String(Yanfly.Parameters["Initial Speed"]);
+  Yanfly.Param.CTBFullGauge = String(Yanfly.Parameters["Full Gauge"]);
+  Yanfly.Param.CTBPreEmptive = Number(Yanfly.Parameters["Pre-Emptive Bonuses"]);
+  Yanfly.Param.CTBSurprise = Number(Yanfly.Parameters["Surprise Bonuses"]);
 
-  Yanfly.Param.CTBEscapeRatio = String(Yanfly.Parameters['Escape Ratio']);
-  Yanfly.Param.CTBEscapeBoost = String(Yanfly.Parameters['Fail Escape Boost']);
+  Yanfly.Param.CTBEscapeRatio = String(Yanfly.Parameters["Escape Ratio"]);
+  Yanfly.Param.CTBEscapeBoost = String(Yanfly.Parameters["Fail Escape Boost"]);
 
-  Yanfly.Param.CTBFullTurn = String(Yanfly.Parameters['Full Turn']);
+  Yanfly.Param.CTBFullTurn = String(Yanfly.Parameters["Full Turn"]);
   Yanfly.Param.CTBTurnStructure = false;
 
-  Yanfly.Param.CTBRubberband = String(Yanfly.Parameters['Enable Rubberband']);
-  Yanfly.Param.CTBMinSpeed = String(Yanfly.Parameters['Minimum Speed']);
-  Yanfly.Param.CTBMaxSpeed = String(Yanfly.Parameters['Maximum Speed']);
+  Yanfly.Param.CTBRubberband = String(Yanfly.Parameters["Enable Rubberband"]);
+  Yanfly.Param.CTBMinSpeed = String(Yanfly.Parameters["Minimum Speed"]);
+  Yanfly.Param.CTBMaxSpeed = String(Yanfly.Parameters["Maximum Speed"]);
 
-  Yanfly.Param.CTBReadyName = String(Yanfly.Parameters['Ready Sound']);
-  Yanfly.Param.CTBReadyVol = Number(Yanfly.Parameters['Ready Volume']);
-  Yanfly.Param.CTBReadyPitch = Number(Yanfly.Parameters['Ready Pitch']);
-  Yanfly.Param.CTBReadyPan = Number(Yanfly.Parameters['Ready Pan']);
+  Yanfly.Param.CTBReadyName = String(Yanfly.Parameters["Ready Sound"]);
+  Yanfly.Param.CTBReadyVol = Number(Yanfly.Parameters["Ready Volume"]);
+  Yanfly.Param.CTBReadyPitch = Number(Yanfly.Parameters["Ready Pitch"]);
+  Yanfly.Param.CTBReadyPan = Number(Yanfly.Parameters["Ready Pan"]);
 
-  Yanfly.Param.CTBOptionSpeedTx = String(Yanfly.Parameters['CTB Speed Text']);
-  Yanfly.Param.CTBDefaultSpeed = Number(Yanfly.Parameters['Default CTB Speed']);
+  Yanfly.Param.CTBOptionSpeedTx = String(Yanfly.Parameters["CTB Speed Text"]);
+  Yanfly.Param.CTBDefaultSpeed = Number(Yanfly.Parameters["Default CTB Speed"]);
 
-  Yanfly.Param.CTBTurnOrder = eval(String(Yanfly.Parameters['Show Turn Order']));
-  Yanfly.Param.CTBTurnPosY = Number(Yanfly.Parameters['Position Y']);
-  Yanfly.Param.CTBTurnPosX = String(Yanfly.Parameters['Position X']);
-  Yanfly.Param.CTBIconSize = Number(Yanfly.Parameters['Icon Size']);
-  Yanfly.Param.CTBTurnDirection = String(Yanfly.Parameters['Turn Direction']);
-  Yanfly.Param.CTBColorAllyBr = Number(Yanfly.Parameters['Ally Border Color']);
-  Yanfly.Param.CTBColorAllyBg = Number(Yanfly.Parameters['Ally Back Color']);
-  Yanfly.Param.CTBAllyIcon = Number(Yanfly.Parameters['Ally Icon']);
-  Yanfly.Param.CTBColorEnemyBr = Number(Yanfly.Parameters['Enemy Border Color']);
-  Yanfly.Param.CTBColorEnemyBg = Number(Yanfly.Parameters['Enemy Back Color']);
-  Yanfly.Param.CTBColorBackground = Number(Yanfly.Parameters['Background Color']);
-  Yanfly.Param.CTBEnemyIcon = Number(Yanfly.Parameters['Enemy Icon']);
-  Yanfly.Param.CTBEnemySVBattler = String(Yanfly.Parameters['Enemy SV Battlers']);
+  Yanfly.Param.CTBTurnOrder = eval(
+    String(Yanfly.Parameters["Show Turn Order"])
+  );
+  Yanfly.Param.CTBTurnPosY = Number(Yanfly.Parameters["Position Y"]);
+  Yanfly.Param.CTBTurnPosX = String(Yanfly.Parameters["Position X"]);
+  Yanfly.Param.CTBIconSize = Number(Yanfly.Parameters["Icon Size"]);
+  Yanfly.Param.CTBTurnDirection = String(Yanfly.Parameters["Turn Direction"]);
+  Yanfly.Param.CTBColorAllyBr = Number(Yanfly.Parameters["Ally Border Color"]);
+  Yanfly.Param.CTBColorAllyBg = Number(Yanfly.Parameters["Ally Back Color"]);
+  Yanfly.Param.CTBAllyIcon = Number(Yanfly.Parameters["Ally Icon"]);
+  Yanfly.Param.CTBColorEnemyBr = Number(
+    Yanfly.Parameters["Enemy Border Color"]
+  );
+  Yanfly.Param.CTBColorEnemyBg = Number(Yanfly.Parameters["Enemy Back Color"]);
+  Yanfly.Param.CTBColorBackground = Number(
+    Yanfly.Parameters["Background Color"]
+  );
+  Yanfly.Param.CTBEnemyIcon = Number(Yanfly.Parameters["Enemy Icon"]);
+  Yanfly.Param.CTBEnemySVBattler = String(
+    Yanfly.Parameters["Enemy SV Battlers"]
+  );
   Yanfly.Param.CTBEnemySVBattler = eval(Yanfly.Param.CTBEnemySVBattler);
 
   //=============================================================================
@@ -553,10 +560,10 @@ if (Imported.YEP_BattleEngineCore) {
       obj.ctbOrderModifier = 0;
       obj.afterCTBFlat = undefined;
       obj.afterCTBRate = undefined;
-      var evalMode = 'none';
-      obj.ctbEval = '';
-      obj.ctbOrderEval = '';
-      obj.ctbAfterEval = '';
+      var evalMode = "none";
+      obj.ctbEval = "";
+      obj.ctbOrderEval = "";
+      obj.ctbAfterEval = "";
       obj.ctbHelp = undefined;
 
       for (var i = 0; i < notedata.length; i++) {
@@ -576,30 +583,30 @@ if (Imported.YEP_BattleEngineCore) {
         } else if (line.match(noteS2)) {
           obj.afterCTBRate = parseFloat(RegExp.$1 * 0.01);
         } else if (line.match(/<(?:TARGET CTB SPEED EVAL)>/i)) {
-          evalMode = 'ctb speed eval';
+          evalMode = "ctb speed eval";
         } else if (line.match(/<\/(?:TARGET CTB SPEED EVAL)>/i)) {
-          evalMode = 'none';
+          evalMode = "none";
         } else if (line.match(/<(?:TARGET CTB ORDER EVAL)>/i)) {
-          evalMode = 'ctb order eval';
+          evalMode = "ctb order eval";
         } else if (line.match(/<\/(?:TARGET CTB ORDER EVAL)>/i)) {
-          evalMode = 'none';
+          evalMode = "none";
         } else if (line.match(/<(?:AFTER CTB EVAL)>/i)) {
-          evalMode = 'after ctb eval';
+          evalMode = "after ctb eval";
         } else if (line.match(/<\/(?:AFTER CTB EVAL)>/i)) {
-          evalMode = 'none';
+          evalMode = "none";
         } else if (line.match(/<(?:CTB HELP)>/i)) {
-          evalMode = 'ctb help';
-          obj.ctbHelp = '';
+          evalMode = "ctb help";
+          obj.ctbHelp = "";
         } else if (line.match(/<\/(?:CTB HELP)>/i)) {
-          evalMode = 'none';
-        } else if (evalMode === 'ctb help') {
-          obj.ctbHelp = obj.ctbHelp + line + '\n';
-        } else if (evalMode === 'ctb speed eval') {
-          obj.ctbEval = obj.ctbEval + line + '\n';
-        } else if (evalMode === 'ctb order eval') {
-          obj.ctbOrderEval = obj.ctbOrderEval + line + '\n';
-        } else if (evalMode === 'after ctb eval') {
-          obj.ctbAfterEval = obj.ctbAfterEval + line + '\n';
+          evalMode = "none";
+        } else if (evalMode === "ctb help") {
+          obj.ctbHelp = obj.ctbHelp + line + "\n";
+        } else if (evalMode === "ctb speed eval") {
+          obj.ctbEval = obj.ctbEval + line + "\n";
+        } else if (evalMode === "ctb order eval") {
+          obj.ctbOrderEval = obj.ctbOrderEval + line + "\n";
+        } else if (evalMode === "after ctb eval") {
+          obj.ctbAfterEval = obj.ctbAfterEval + line + "\n";
         }
       }
     }
@@ -618,7 +625,7 @@ if (Imported.YEP_BattleEngineCore) {
       obj.ctbStartRate = 0;
       obj.ctbTurnFlat = 0;
       obj.ctbTurnRate = 0;
-      var evalMode = 'none';
+      var evalMode = "none";
       obj.ctbHelp = undefined;
 
       for (var i = 0; i < notedata.length; i++) {
@@ -632,12 +639,12 @@ if (Imported.YEP_BattleEngineCore) {
         } else if (line.match(noteB2)) {
           obj.ctbTurnRate = parseFloat(RegExp.$1 * 0.01);
         } else if (line.match(/<(?:CTB HELP)>/i)) {
-          evalMode = 'ctb help';
-          obj.ctbHelp = '';
+          evalMode = "ctb help";
+          obj.ctbHelp = "";
         } else if (line.match(/<\/(?:CTB HELP)>/i)) {
-          evalMode = 'none';
-        } else if (evalMode === 'ctb help') {
-          obj.ctbHelp = obj.ctbHelp + line + '\n';
+          evalMode = "none";
+        } else if (evalMode === "ctb help") {
+          obj.ctbHelp = obj.ctbHelp + line + "\n";
         }
       }
     }
@@ -683,7 +690,7 @@ if (Imported.YEP_BattleEngineCore) {
   //=============================================================================
 
   BattleManager.isCTB = function () {
-    return this.isBattleSystem('ctb');
+    return this.isBattleSystem("ctb");
   };
 
   Yanfly.CTB.BattleManager_isTurnBased = BattleManager.isTurnBased;
@@ -727,7 +734,7 @@ if (Imported.YEP_BattleEngineCore) {
   };
 
   BattleManager.startCTB = function () {
-    if (this._phase === 'battleEnd') return;
+    if (this._phase === "battleEnd") return;
     this.clearCTBData();
     this._ctbTarget = Math.max(1, eval(Yanfly.Param.CTBFullGauge));
     this._ctbFullTurn = Math.max(1, eval(Yanfly.Param.CTBFullTurn));
@@ -741,11 +748,11 @@ if (Imported.YEP_BattleEngineCore) {
       name: Yanfly.Param.CTBReadyName,
       volume: Yanfly.Param.CTBReadyVol,
       pitch: Yanfly.Param.CTBReadyPitch,
-      pan: Yanfly.Param.CTBReadyPan
-    }
+      pan: Yanfly.Param.CTBReadyPan,
+    };
     $gameParty.onCTBStart();
     $gameTroop.onCTBStart();
-    this._phase = 'start';
+    this._phase = "start";
   };
 
   BattleManager.clearCTBData = function () {
@@ -850,11 +857,11 @@ if (Imported.YEP_BattleEngineCore) {
     if (this.isCTB()) {
       if (this.isBusy()) return;
       if (this.updateEvent()) return;
-      if (this._phase === 'battleEnd') {
+      if (this._phase === "battleEnd") {
         return Yanfly.CTB.BattleManager_update.call(this);
       }
       if (this.checkBattleEnd()) return;
-      if (this._phase === 'ctb') {
+      if (this._phase === "ctb") {
         this.updateCTBPhase();
       } else {
         Yanfly.CTB.BattleManager_update.call(this);
@@ -884,7 +891,7 @@ if (Imported.YEP_BattleEngineCore) {
 
   BattleManager.updateCTBPhase = function () {
     this._ctbLoops = 0;
-    for (; ;) {
+    for (;;) {
       if (this.breakCTBPhase()) break;
       var chargedBattler = this.getChargedCTBBattler();
       if (chargedBattler) return this.startCTBAction(chargedBattler);
@@ -903,7 +910,7 @@ if (Imported.YEP_BattleEngineCore) {
     if (this._processingForcedAction) return true;
     if ($gameTroop.isEventRunning()) return true;
     if (++this._ctbLoops >= 1000000) return true;
-    return this._phase !== 'ctb';
+    return this._phase !== "ctb";
   };
 
   BattleManager.updateCTBTicks = function () {
@@ -978,7 +985,7 @@ if (Imported.YEP_BattleEngineCore) {
   };
 
   BattleManager.setCTBPhase = function () {
-    this._phase = 'ctb';
+    this._phase = "ctb";
   };
 
   Yanfly.CTB.BattleManager_startInput = BattleManager.startInput;
@@ -1016,7 +1023,7 @@ if (Imported.YEP_BattleEngineCore) {
 
   BattleManager.ctbSkipTurn = function () {
     this.actor().clearActions();
-    this.actor().setActionState('undecided');
+    this.actor().setActionState("undecided");
     this.actor().requestMotionRefresh();
     if (!this._bypassCtbEndTurn) this.actor().endTurnAllCTB();
     this.actor().spriteStepBack();
@@ -1077,9 +1084,9 @@ if (Imported.YEP_BattleEngineCore) {
     } else if (battler.canInput()) {
       this._actorIndex = battler.index();
       this.playCTBReadySound();
-      battler.setActionState('inputting');
+      battler.setActionState("inputting");
       battler.spriteStepForward();
-      this._phase = 'input';
+      this._phase = "input";
       return;
     } else if (battler.isConfused()) {
       battler.makeConfusionActions();
@@ -1171,7 +1178,7 @@ if (Imported.YEP_BattleEngineCore) {
   BattleManager.processEscapeCTB = function () {
     $gameParty.performEscape();
     SoundManager.playEscape();
-    var success = this._preemptive ? true : (Math.random() < this._escapeRatio);
+    var success = this._preemptive ? true : Math.random() < this._escapeRatio;
     if (success) {
       $gameParty.removeBattleStates();
       $gameParty.performEscapeSuccess();
@@ -1210,17 +1217,20 @@ if (Imported.YEP_BattleEngineCore) {
   BattleManager.processActionSequence = function (actionName, actionArgs) {
     if (this.isCTB()) {
       // CTB SPEED
-      if (actionName === 'CTB SPEED') {
+      if (actionName === "CTB SPEED") {
         this.actionCTBCharge(actionArgs);
         return this.actionCTBSpeed(actionArgs);
       }
       // CTB ORDER
-      if (actionName === 'CTB ORDER') {
+      if (actionName === "CTB ORDER") {
         return this.actionCTBOrder(actionArgs);
       }
     }
-    return Yanfly.CTB.BattleManager_processActionSequence.call(this,
-      actionName, actionArgs);
+    return Yanfly.CTB.BattleManager_processActionSequence.call(
+      this,
+      actionName,
+      actionArgs
+    );
   };
 
   BattleManager.actionCTBCharge = function (actionArgs) {
@@ -1406,7 +1416,7 @@ if (Imported.YEP_BattleEngineCore) {
       target.setCTBCharge(value);
     } else {
       var value = target.ctbSpeed();
-      var max = BattleManager.ctbTarget()
+      var max = BattleManager.ctbTarget();
       value += item.addCTBGaugeRate * max;
       value += item.addCTBGaugeFlat;
       target.setCTBSpeed(value);
@@ -1414,7 +1424,7 @@ if (Imported.YEP_BattleEngineCore) {
   };
 
   Game_Action.prototype.applyItemCTBEvalEffect = function (target) {
-    if (this.item().ctbEval === '') return;
+    if (this.item().ctbEval === "") return;
     var a = this.subject();
     var user = this.subject();
     var b = target;
@@ -1435,7 +1445,7 @@ if (Imported.YEP_BattleEngineCore) {
   };
 
   Game_Action.prototype.applyItemCTBOrderEvalEffect = function (target) {
-    if (this.item().ctbOrderEval === '') return;
+    if (this.item().ctbOrderEval === "") return;
     var a = this.subject();
     var user = this.subject();
     var b = target;
@@ -1549,7 +1559,7 @@ if (Imported.YEP_BattleEngineCore) {
     var goal = BattleManager.ctbTarget();
     if (this.isCTBCharging()) goal += this.ctbChargeDestination();
     goal -= this.ctbSpeed();
-    goal -= (this.isCTBCharging()) ? this.ctbCharge() : 0;
+    goal -= this.isCTBCharging() ? this.ctbCharge() : 0;
     var rate = this.ctbSpeedTick();
     if (this.ctbTicksToReadyActionCheck()) {
       var item = this.ctbTicksToReadyActionCheck();
@@ -1584,10 +1594,10 @@ if (Imported.YEP_BattleEngineCore) {
       var win = scene._actorCommandWindow;
       var symbol = win.currentSymbol();
       this._commandWindowIndex = win.index();
-      if (symbol === 'attack') {
+      if (symbol === "attack") {
         this._commandWindowItem = $dataSkills[this.attackSkillId()];
         return this._commandWindowItem;
-      } else if (symbol === 'guard') {
+      } else if (symbol === "guard") {
         this._commandWindowItem = $dataSkills[this.guardSkillId()];
         return this._commandWindowItem;
       } else {
@@ -1663,7 +1673,7 @@ if (Imported.YEP_BattleEngineCore) {
     } else {
       this._ctbChargeMod = 0;
     }
-    this.setActionState('waiting');
+    this.setActionState("waiting");
   };
 
   Yanfly.CTB.Game_Battler_updateTick = Game_Battler.prototype.updateTick;
@@ -1724,7 +1734,7 @@ if (Imported.YEP_BattleEngineCore) {
     if (this.checkCTBEndInstantCast()) return;
     this.setEndActionCTBSpeed();
     this.clearActions();
-    this.setActionState('undecided');
+    this.setActionState("undecided");
     if (this.battler()) this.battler().refreshMotion();
     if (BattleManager.isTickBased()) this.onTurnEnd();
   };
@@ -1780,7 +1790,7 @@ if (Imported.YEP_BattleEngineCore) {
     this._ctbSpeed = 0;
     var action = this.currentAction();
     if (!action) return;
-    var item = action.item();;
+    var item = action.item();
     if (item) {
       if (item.afterCTBFlat !== undefined) this.setCTBSpeed(item.afterCTBFlat);
       if (item.afterCTBRate !== undefined) {
@@ -1866,7 +1876,7 @@ if (Imported.YEP_BattleEngineCore) {
   };
 
   Game_Battler.prototype.ctbAlterTurnOrder = function (value) {
-    var sign = (value > 0) ? 1 : -1;
+    var sign = value > 0 ? 1 : -1;
     var max = BattleManager.ctbTurnOrder().length - 1;
     var index = this.ctbTurnOrder();
     index += value;
@@ -1954,7 +1964,7 @@ if (Imported.YEP_BattleEngineCore) {
   Yanfly.CTB.Game_Actor_setCharacterImage =
     Game_Actor.prototype.setCharacterImage;
   Game_Actor.prototype.setCharacterImage = function (name, index) {
-    Yanfly.CTB.Game_Actor_setCharacterImage.call(this, name, index)
+    Yanfly.CTB.Game_Actor_setCharacterImage.call(this, name, index);
     this.ctbTransform();
   };
 
@@ -2185,7 +2195,7 @@ if (Imported.YEP_BattleEngineCore) {
     this._battler._ctbTransformed = undefined;
     this._iconIndex = this._battler.ctbIcon();
     if (this._iconIndex > 0) {
-      this._image = ImageManager.loadSystem('IconSet');
+      this._image = ImageManager.loadSystem("IconSet");
     } else if (this._battler.isEnemy()) {
       if (this.isUsingSVBattler()) {
         var name = this._battler.svBattlerName();
@@ -2249,10 +2259,10 @@ if (Imported.YEP_BattleEngineCore) {
   };
 
   Window_CTBIcon.prototype.drawIcon = function (iconIndex, x, y) {
-    var bitmap = ImageManager.loadSystem('IconSet');
+    var bitmap = ImageManager.loadSystem("IconSet");
     var pw = Window_Base._iconWidth;
     var ph = Window_Base._iconHeight;
-    var sx = iconIndex % 16 * pw;
+    var sx = (iconIndex % 16) * pw;
     var sy = Math.floor(iconIndex / 16) * ph;
     var ww = this.iconWidth();
     var wh = this.iconHeight();
@@ -2295,7 +2305,7 @@ if (Imported.YEP_BattleEngineCore) {
     var sh = Math.min(height, ph);
     var dx = Math.floor(Math.max(width - pw, 0) / 2);
     var dy = Math.floor(Math.max(height - ph, 0) / 2);
-    var sx = faceIndex % 4 * pw + (pw - sw) / 2;
+    var sx = (faceIndex % 4) * pw + (pw - sw) / 2;
     var sy = Math.floor(faceIndex / 4) * ph + (ph - sh) / 2;
     var dw = this.contents.width - 8;
     var dh = this.contents.height - 8;
@@ -2305,7 +2315,7 @@ if (Imported.YEP_BattleEngineCore) {
   Window_CTBIcon.prototype.redrawEnemy = function () {
     if (this.isUsingSVBattler()) {
       return this.redrawSVEnemy();
-    };
+    }
     var bitmap = this._image;
     var sw = bitmap.width;
     var sh = bitmap.height;
@@ -2350,7 +2360,7 @@ if (Imported.YEP_BattleEngineCore) {
     if (!this._battler._plural) return;
     var letter = this._battler._letter;
     var dy = this.contents.height - this.lineHeight();
-    this.drawText(letter, 0, dy, this.contents.width - 4, 'right');
+    this.drawText(letter, 0, dy, this.contents.width - 4, "right");
   };
 
   Window_CTBIcon.prototype.destinationXConstant = function () {
@@ -2360,11 +2370,11 @@ if (Imported.YEP_BattleEngineCore) {
   Window_CTBIcon.prototype.updateDestinationX = function () {
     if (!this._battler) return;
     if (this._battler.isDead()) return;
-    if (this._position === 'left') this.updateDestinationLeftAlign();
-    if (this._position === 'center') this.updateDestinationCenterAlign();
-    if (this._position === 'right') this.updateDestinationRightAlign();
-    if (this._direction === 'left') this.updateDestinationGoingLeft();
-    if (this._direction === 'right') this.updateDestinationGoingRight();
+    if (this._position === "left") this.updateDestinationLeftAlign();
+    if (this._position === "center") this.updateDestinationCenterAlign();
+    if (this._position === "right") this.updateDestinationRightAlign();
+    if (this._direction === "left") this.updateDestinationGoingLeft();
+    if (this._direction === "right") this.updateDestinationGoingRight();
   };
 
   Window_CTBIcon.prototype.updateDestinationLeftAlign = function () {
@@ -2505,7 +2515,7 @@ if (Imported.YEP_BattleEngineCore) {
   Scene_Battle.prototype.commandFight = function () {
     if (BattleManager.isCTB()) {
       this.startActorCommandSelection();
-      BattleManager._phase = 'input';
+      BattleManager._phase = "input";
     } else {
       Yanfly.CTB.Scene_Battle_commandFight.call(this);
     }
@@ -2517,7 +2527,7 @@ if (Imported.YEP_BattleEngineCore) {
     Yanfly.CTB.Scene_Battle_startActorCommandSelection.call(this);
     if (BattleManager.isCTB()) {
       BattleManager.actor().spriteStepForward();
-      BattleManager.actor().setActionState('undecided');
+      BattleManager.actor().setActionState("undecided");
       BattleManager.actor().requestMotionRefresh();
       BattleManager.actor().makeActions();
     }
@@ -2556,4 +2566,4 @@ if (Imported.YEP_BattleEngineCore) {
   //=============================================================================
   // End of File
   //=============================================================================
-};
+}

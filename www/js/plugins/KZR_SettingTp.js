@@ -44,111 +44,112 @@
  */
 
 (function () {
-    var parameters = PluginManager.parameters('KZR_SettingTp');
-    var ST_maxTp = Number(parameters['maxTp'] || 100);
-    var ST_minTp = Number(parameters['minTp'] || 0);
+  var parameters = PluginManager.parameters("KZR_SettingTp");
+  var ST_maxTp = Number(parameters["maxTp"] || 100);
+  var ST_minTp = Number(parameters["minTp"] || 0);
 
-    //-----------------------------------------------------------------------------
-    // Game_System
-    //
-    var _kzr_setting_tp_Game_System_initialize = Game_System.prototype.initialize;
-    Game_System.prototype.initialize = function () {
-        _kzr_setting_tp_Game_System_initialize.call(this);
-        this._actorTp = [];
-        this._classTp = [];
-        this._enemyTp = [];
-        this.setTpData($dataActors, this._actorTp);
-        this.setTpData($dataClasses, this._classTp);
-        this.setTpData($dataEnemies, this._enemyTp);
-    };
+  //-----------------------------------------------------------------------------
+  // Game_System
+  //
+  var _kzr_setting_tp_Game_System_initialize = Game_System.prototype.initialize;
+  Game_System.prototype.initialize = function () {
+    _kzr_setting_tp_Game_System_initialize.call(this);
+    this._actorTp = [];
+    this._classTp = [];
+    this._enemyTp = [];
+    this.setTpData($dataActors, this._actorTp);
+    this.setTpData($dataClasses, this._classTp);
+    this.setTpData($dataEnemies, this._enemyTp);
+  };
 
-    Game_System.prototype.setTpData = function (datas, list) {
-        var note = /(?:settingTp:(\d+),(\d+))/i;
-        datas.forEach(function (data) {
-            if (data) {
-                var notedata = data.note.split(/[\r\n]+/);
-                var min = ST_minTp;
-                var max = ST_maxTp;
-                for (var i = 0; i < notedata.length; i++) {
-                    if (notedata[i].match(note)) {
-                        min = parseInt(RegExp.$1);
-                        max = parseInt(RegExp.$2);
-                    }
-                }
-                list[data.id] = [min, max];
-            }
-        }, this);
-    };
-
-    Game_System.prototype.changeTpData = function (args) {
-        if (args[1] === 'actor') {
-            if (args[0] === 'max') {
-                this._actorTp[args[2]][1] = parseInt(args[3]);
-            } else if (args[0] === 'min') {
-                this._actorTp[args[2]][0] = parseInt(args[3]);
-            }
-            $gameActors.actor(args[2]).refresh();
-        } else if (args[1] === 'class') {
-            if (args[0] === 'max') {
-                this._classTp[args[2]][1] = parseInt(args[3]);
-            } else if (args[0] === 'min') {
-                this._classTp[args[2]][0] = parseInt(args[3]);
-            }
-            $gameParty.allMembers().forEach(function (actor) {
-                if (actor._classId === parseInt(args[2])) actor.refresh();
-            });
-        } else if (args[1] === 'enemy') {
-            if (args[0] === 'max') {
-                this._enemyTp[args[2]][1] = parseInt(args[3]);
-            } else if (args[0] === 'min') {
-                this._enemyTp[args[2]][0] = parseInt(args[3]);
-            }
-            $gameTroop.members().forEach(function (enemy) {
-                if (enemy._enemyId === parseInt(args[2])) enemy.refresh();
-            });
+  Game_System.prototype.setTpData = function (datas, list) {
+    var note = /(?:settingTp:(\d+),(\d+))/i;
+    datas.forEach(function (data) {
+      if (data) {
+        var notedata = data.note.split(/[\r\n]+/);
+        var min = ST_minTp;
+        var max = ST_maxTp;
+        for (var i = 0; i < notedata.length; i++) {
+          if (notedata[i].match(note)) {
+            min = parseInt(RegExp.$1);
+            max = parseInt(RegExp.$2);
+          }
         }
-    };
+        list[data.id] = [min, max];
+      }
+    }, this);
+  };
 
-    //-----------------------------------------------------------------------------
-    // Game_Interpreter
-    //
-    var _kzr_setting_tp_Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _kzr_setting_tp_Game_Interpreter_pluginCommand.call(this, command, args);
-        if (command === 'SettingTp') $gameSystem.changeTpData(args);
-    };
+  Game_System.prototype.changeTpData = function (args) {
+    if (args[1] === "actor") {
+      if (args[0] === "max") {
+        this._actorTp[args[2]][1] = parseInt(args[3]);
+      } else if (args[0] === "min") {
+        this._actorTp[args[2]][0] = parseInt(args[3]);
+      }
+      $gameActors.actor(args[2]).refresh();
+    } else if (args[1] === "class") {
+      if (args[0] === "max") {
+        this._classTp[args[2]][1] = parseInt(args[3]);
+      } else if (args[0] === "min") {
+        this._classTp[args[2]][0] = parseInt(args[3]);
+      }
+      $gameParty.allMembers().forEach(function (actor) {
+        if (actor._classId === parseInt(args[2])) actor.refresh();
+      });
+    } else if (args[1] === "enemy") {
+      if (args[0] === "max") {
+        this._enemyTp[args[2]][1] = parseInt(args[3]);
+      } else if (args[0] === "min") {
+        this._enemyTp[args[2]][0] = parseInt(args[3]);
+      }
+      $gameTroop.members().forEach(function (enemy) {
+        if (enemy._enemyId === parseInt(args[2])) enemy.refresh();
+      });
+    }
+  };
 
-    //-----------------------------------------------------------------------------
-    // Game_BattlerBase
-    //
-    var _kzr_setting_tp_Game_BattlerBase_refresh = Game_BattlerBase.prototype.refresh;
-    Game_BattlerBase.prototype.refresh = function () {
-        _kzr_setting_tp_Game_BattlerBase_refresh.call(this);
-        this._tp = this._tp.clamp(this.minTp(), this.maxTp());
-    };
+  //-----------------------------------------------------------------------------
+  // Game_Interpreter
+  //
+  var _kzr_setting_tp_Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _kzr_setting_tp_Game_Interpreter_pluginCommand.call(this, command, args);
+    if (command === "SettingTp") $gameSystem.changeTpData(args);
+  };
 
-    //-----------------------------------------------------------------------------
-    // Game_Actor
-    //
-    Game_Actor.prototype.maxTp = function () {
-        var a = $gameSystem._actorTp[this._actorId][1];
-        var c = $gameSystem._classTp[this._classId][1];
-        return Math.max(a, c);
-    };
-    Game_Actor.prototype.minTp = function () {
-        var a = $gameSystem._actorTp[this._actorId][0];
-        var c = $gameSystem._classTp[this._classId][0];
-        return Math.max(a, c);
-    };
+  //-----------------------------------------------------------------------------
+  // Game_BattlerBase
+  //
+  var _kzr_setting_tp_Game_BattlerBase_refresh =
+    Game_BattlerBase.prototype.refresh;
+  Game_BattlerBase.prototype.refresh = function () {
+    _kzr_setting_tp_Game_BattlerBase_refresh.call(this);
+    this._tp = this._tp.clamp(this.minTp(), this.maxTp());
+  };
 
-    //-----------------------------------------------------------------------------
-    // Game_Enemy
-    //
-    Game_Enemy.prototype.maxTp = function () {
-        return $gameSystem._enemyTp[this._enemyId][1];
-    };
-    Game_Enemy.prototype.minTp = function () {
-        return $gameSystem._enemyTp[this._enemyId][0];
-    };
+  //-----------------------------------------------------------------------------
+  // Game_Actor
+  //
+  Game_Actor.prototype.maxTp = function () {
+    var a = $gameSystem._actorTp[this._actorId][1];
+    var c = $gameSystem._classTp[this._classId][1];
+    return Math.max(a, c);
+  };
+  Game_Actor.prototype.minTp = function () {
+    var a = $gameSystem._actorTp[this._actorId][0];
+    var c = $gameSystem._classTp[this._classId][0];
+    return Math.max(a, c);
+  };
 
+  //-----------------------------------------------------------------------------
+  // Game_Enemy
+  //
+  Game_Enemy.prototype.maxTp = function () {
+    return $gameSystem._enemyTp[this._enemyId][1];
+  };
+  Game_Enemy.prototype.minTp = function () {
+    return $gameSystem._enemyTp[this._enemyId][0];
+  };
 })();

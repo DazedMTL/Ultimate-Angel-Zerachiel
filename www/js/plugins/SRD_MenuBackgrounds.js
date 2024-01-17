@@ -736,26 +736,26 @@
  * Version 2.05
  * SumRndmDde
  *
- * 
- * This allows you to give all the menu pages of your menu custom 
+ *
+ * This allows you to give all the menu pages of your menu custom
  * backgrounds!
  *
- * You can control the scale of the background images, the opacity of the 
+ * You can control the scale of the background images, the opacity of the
  * windows in the menus, and the motion of the background images.
  *
- * 
+ *
  * ==============================================================================
  *  How to set up the images
  * ==============================================================================
  *
  * Place all the background images you wish to use in:
- * 
+ *
  * img/SumRndmDde/menu
  *
  * (this is so that when you export your game, all you have to do is copy
  * the SumRndmDde folder inside of the img folder to the exported game files)
  *
- * Anyway, simply input the picture's name without the file extension 
+ * Anyway, simply input the picture's name without the file extension
  * into the Parameter of choice and it should work perfectly.
  *
  *
@@ -814,7 +814,7 @@
  * ==============================================================================
  *  End of Help File
  * ==============================================================================
- * 
+ *
  * Welcome to the bottom of the Help file.
  *
  *
@@ -836,229 +836,260 @@ var Imported = Imported || {};
 Imported["SumRndmDde Menu Backgrounds"] = 2.05;
 
 (function (_) {
+  "use strict";
 
-	"use strict";
+  //-----------------------------------------------------------------------------
+  // SRD.MenuBackgrounds
+  //-----------------------------------------------------------------------------
 
-	//-----------------------------------------------------------------------------
-	// SRD.MenuBackgrounds
-	//-----------------------------------------------------------------------------
+  const params = PluginManager.parameters("SRD_MenuBackgrounds");
 
-	const params = PluginManager.parameters('SRD_MenuBackgrounds');
+  _.scale = String(params["Scale Background"]).trim().toLowerCase() === "true";
 
-	_.scale = String(params['Scale Background']).trim().toLowerCase() === 'true';
+  _.backgrounds = {};
+  _.backgrounds["Scene_Menu"] = String(params["Menu Background"]);
+  _.backgrounds["Scene_Item"] = String(params["Item Background"]);
+  _.backgrounds["Scene_Skill"] = String(params["Skill Background"]);
+  _.backgrounds["Scene_Equip"] = String(params["Equip Background"]);
+  _.backgrounds["Scene_Status"] = String(params["Status Background"]);
+  _.backgrounds["Scene_Save"] = String(params["Save Background"]);
+  _.backgrounds["Scene_Options"] = String(params["Options Background"]);
+  _.backgrounds["Scene_GameEnd"] = String(params["End Background"]);
 
-	_.backgrounds = {};
-	_.backgrounds["Scene_Menu"] = String(params['Menu Background']);
-	_.backgrounds["Scene_Item"] = String(params['Item Background']);
-	_.backgrounds["Scene_Skill"] = String(params['Skill Background']);
-	_.backgrounds["Scene_Equip"] = String(params['Equip Background']);
-	_.backgrounds["Scene_Status"] = String(params['Status Background']);
-	_.backgrounds["Scene_Save"] = String(params['Save Background']);
-	_.backgrounds["Scene_Options"] = String(params['Options Background']);
-	_.backgrounds["Scene_GameEnd"] = String(params['End Background']);
+  _.opacity = {};
+  _.opacity["Scene_Menu"] = parseInt(params["Menu Opacity"]);
+  _.opacity["Scene_Item"] = parseInt(params["Item Opacity"]);
+  _.opacity["Scene_Skill"] = parseInt(params["Skill Opacity"]);
+  _.opacity["Scene_Equip"] = parseInt(params["Equip Opacity"]);
+  _.opacity["Scene_Status"] = parseInt(params["Status Opacity"]);
+  _.opacity["Scene_Save"] = parseInt(params["Save Opacity"]);
+  _.opacity["Scene_Options"] = parseInt(params["Options Opacity"]);
+  _.opacity["Scene_GameEnd"] = parseInt(params["End Opacity"]);
 
-	_.opacity = {};
-	_.opacity["Scene_Menu"] = parseInt(params['Menu Opacity']);
-	_.opacity["Scene_Item"] = parseInt(params['Item Opacity']);
-	_.opacity["Scene_Skill"] = parseInt(params['Skill Opacity']);
-	_.opacity["Scene_Equip"] = parseInt(params['Equip Opacity']);
-	_.opacity["Scene_Status"] = parseInt(params['Status Opacity']);
-	_.opacity["Scene_Save"] = parseInt(params['Save Opacity']);
-	_.opacity["Scene_Options"] = parseInt(params['Options Opacity']);
-	_.opacity["Scene_GameEnd"] = parseInt(params['End Opacity']);
+  _.scales = {};
+  _.scales["Scene_Menu"] = parseFloat(params["Menu Scale"]);
+  _.scales["Scene_Item"] = parseFloat(params["Item Scale"]);
+  _.scales["Scene_Skill"] = parseFloat(params["Skill Scale"]);
+  _.scales["Scene_Equip"] = parseFloat(params["Equip Scale"]);
+  _.scales["Scene_Status"] = parseFloat(params["Status Scale"]);
+  _.scales["Scene_Save"] = parseFloat(params["Save Scale"]);
+  _.scales["Scene_Options"] = parseFloat(params["Options Scale"]);
+  _.scales["Scene_GameEnd"] = parseFloat(params["End Scale"]);
 
-	_.scales = {};
-	_.scales["Scene_Menu"] = parseFloat(params['Menu Scale']);
-	_.scales["Scene_Item"] = parseFloat(params['Item Scale']);
-	_.scales["Scene_Skill"] = parseFloat(params['Skill Scale']);
-	_.scales["Scene_Equip"] = parseFloat(params['Equip Scale']);
-	_.scales["Scene_Status"] = parseFloat(params['Status Scale']);
-	_.scales["Scene_Save"] = parseFloat(params['Save Scale']);
-	_.scales["Scene_Options"] = parseFloat(params['Options Scale']);
-	_.scales["Scene_GameEnd"] = parseFloat(params['End Scale']);
+  _.motions = {};
+  _.motions["Scene_Menu"] = String(params["Menu Motion"]);
+  _.motions["Scene_Item"] = String(params["Item Motion"]);
+  _.motions["Scene_Skill"] = String(params["Skill Motion"]);
+  _.motions["Scene_Equip"] = String(params["Equip Motion"]);
+  _.motions["Scene_Status"] = String(params["Status Motion"]);
+  _.motions["Scene_Save"] = String(params["Save Motion"]);
+  _.motions["Scene_Options"] = String(params["Options Motion"]);
+  _.motions["Scene_GameEnd"] = String(params["End Motion"]);
 
-	_.motions = {};
-	_.motions["Scene_Menu"] = String(params['Menu Motion']);
-	_.motions["Scene_Item"] = String(params['Item Motion']);
-	_.motions["Scene_Skill"] = String(params['Skill Motion']);
-	_.motions["Scene_Equip"] = String(params['Equip Motion']);
-	_.motions["Scene_Status"] = String(params['Status Motion']);
-	_.motions["Scene_Save"] = String(params['Save Motion']);
-	_.motions["Scene_Options"] = String(params['Options Motion']);
-	_.motions["Scene_GameEnd"] = String(params['End Motion']);
+  for (let i = 1; i <= 20; i++) {
+    const scene = String(params["Custom " + i + " Scene"]);
+    if (scene.trim().length > 0) {
+      _.backgrounds[scene] = String(params["Custom " + i + " Background"]);
+      _.opacity[scene] = parseInt(params["Custom " + i + " Opacity"]);
+      _.scales[scene] = String(params["Custom " + i + " Scale"]);
+      _.motions[scene] = String(params["Custom " + i + " Motion"]);
+    }
+  }
 
-	for (let i = 1; i <= 20; i++) {
-		const scene = String(params['Custom ' + i + ' Scene']);
-		if (scene.trim().length > 0) {
-			_.backgrounds[scene] = String(params['Custom ' + i + ' Background']);
-			_.opacity[scene] = parseInt(params['Custom ' + i + ' Opacity']);
-			_.scales[scene] = String(params['Custom ' + i + ' Scale']);
-			_.motions[scene] = String(params['Custom ' + i + ' Motion']);
-		}
-	}
+  _.loadImage = function (filename, hue) {
+    return ImageManager.loadBitmap("img/SumRndmDde/menu/", filename, hue, true);
+  };
 
-	_.loadImage = function (filename, hue) {
-		return ImageManager.loadBitmap('img/SumRndmDde/menu/', filename, hue, true);
-	};
+  _.loadAllImages = function () {
+    for (let property in _.backgrounds) {
+      if (_.backgrounds.hasOwnProperty(property)) {
+        const name = _.backgrounds[property];
+        if (name.trim().length > 0) {
+          _.loadImage(name);
+        }
+      }
+    }
+  };
 
-	_.loadAllImages = function () {
-		for (let property in _.backgrounds) {
-			if (_.backgrounds.hasOwnProperty(property)) {
-				const name = _.backgrounds[property];
-				if (name.trim().length > 0) {
-					_.loadImage(name);
-				}
-			}
-		}
-	};
+  _.loadAllImages();
 
-	_.loadAllImages();
+  //-----------------------------------------------------------------------------
+  // Scene_MenuBase
+  //-----------------------------------------------------------------------------
 
-	//-----------------------------------------------------------------------------
-	// Scene_MenuBase
-	//-----------------------------------------------------------------------------
+  _.Scene_MenuBase_create = Scene_MenuBase.prototype.create;
+  Scene_MenuBase.prototype.create = function () {
+    this._menuBackgroundConstructorName = String(this.constructor.name);
+    _.Scene_MenuBase_create.apply(this, arguments);
+  };
 
-	_.Scene_MenuBase_create = Scene_MenuBase.prototype.create;
-	Scene_MenuBase.prototype.create = function () {
-		this._menuBackgroundConstructorName = String(this.constructor.name);
-		_.Scene_MenuBase_create.apply(this, arguments);
-	};
+  _.Scene_MenuBase_start = Scene_MenuBase.prototype.start;
+  Scene_MenuBase.prototype.start = function () {
+    _.Scene_MenuBase_start.apply(this, arguments);
+    this.setupWindowOpacities();
+  };
 
-	_.Scene_MenuBase_start = Scene_MenuBase.prototype.start;
-	Scene_MenuBase.prototype.start = function () {
-		_.Scene_MenuBase_start.apply(this, arguments);
-		this.setupWindowOpacities();
-	};
+  Scene_MenuBase.prototype.setupWindowOpacities = function () {
+    if (!this._windowLayer) return;
+    const opac = _.opacity[this._menuBackgroundConstructorName];
+    const childs = this._windowLayer.children;
+    if ((opac || opac === 0) && childs) {
+      for (let i = 0; i < childs.length; i++) {
+        const win = childs[i];
+        if (win._isWindow) {
+          win.opacity = opac;
+        }
+      }
+    }
+  };
 
-	Scene_MenuBase.prototype.setupWindowOpacities = function () {
-		if (!this._windowLayer) return;
-		const opac = _.opacity[this._menuBackgroundConstructorName];
-		const childs = this._windowLayer.children;
-		if ((opac || opac === 0) && childs) {
-			for (let i = 0; i < childs.length; i++) {
-				const win = childs[i];
-				if (win._isWindow) {
-					win.opacity = opac;
-				}
-			}
-		}
+  _.Scene_MenuBase_createBackground = Scene_MenuBase.prototype.createBackground;
+  Scene_MenuBase.prototype.createBackground = function () {
+    if (_.backgrounds[this._menuBackgroundConstructorName]) {
+      this._backgroundSprite = new TilingSprite();
+      this._backgroundSprite.anchor.x = 0.5;
+      this._backgroundSprite.anchor.y = 0.5;
+      this._backgroundSprite.origin.x = -(Graphics.boxWidth / 2);
+      this._backgroundSprite.origin.y = -(Graphics.boxHeight / 2);
+      this._backgroundSprite.move(
+        Graphics.boxWidth / 2,
+        Graphics.boxHeight / 2,
+        Graphics.boxWidth,
+        Graphics.boxHeight
+      );
+      const bit = _.loadImage(
+        _.backgrounds[this._menuBackgroundConstructorName]
+      );
+      let newWidth = bit.width;
+      let newHeight = bit.height;
+      if (_.scale) {
+        newWidth = Graphics.boxWidth;
+        newHeight = Graphics.boxHeight;
+      }
+      this._backgroundSprite.bitmap = new Bitmap(newWidth, newHeight);
+      this._backgroundSprite.bitmap.blt(
+        bit,
+        0,
+        0,
+        bit.width,
+        bit.height,
+        0,
+        0,
+        newWidth,
+        newHeight
+      );
+      this.addChild(this._backgroundSprite);
+      this.createBackgroundMotion();
+      this.createBackgroundScale();
+      if (Utils.RPGMAKER_VERSION && Utils.RPGMAKER_VERSION >= "1.3.0")
+        this.createBackgroundBlur();
+    } else {
+      _.Scene_MenuBase_createBackground.call(this);
+    }
+  };
 
-	};
+  Scene_MenuBase.prototype.createBackgroundMotion = function () {
+    if (_.motions[this._menuBackgroundConstructorName]) {
+      const motion = _.motions[this._menuBackgroundConstructorName];
+      if (!motion) {
+        this._hasBackgroundMotion = false;
+        this._backgroundMotionInfo = [""];
+        return;
+      }
+      this._hasBackgroundMotion = true;
+      this._backgroundMotionInfo = motion.split(" ");
+      for (let i = 1; i < this._backgroundMotionInfo.length; i++) {
+        this._backgroundMotionInfo[i] = parseFloat(
+          this._backgroundMotionInfo[i]
+        );
+      }
+      this._backgroundMotionSign = 1;
+    }
+  };
 
-	_.Scene_MenuBase_createBackground = Scene_MenuBase.prototype.createBackground;
-	Scene_MenuBase.prototype.createBackground = function () {
-		if (_.backgrounds[this._menuBackgroundConstructorName]) {
-			this._backgroundSprite = new TilingSprite();
-			this._backgroundSprite.anchor.x = 0.5;
-			this._backgroundSprite.anchor.y = 0.5;
-			this._backgroundSprite.origin.x = -(Graphics.boxWidth / 2);
-			this._backgroundSprite.origin.y = -(Graphics.boxHeight / 2);
-			this._backgroundSprite.move(Graphics.boxWidth / 2, Graphics.boxHeight / 2, Graphics.boxWidth, Graphics.boxHeight);
-			const bit = _.loadImage(_.backgrounds[this._menuBackgroundConstructorName]);
-			let newWidth = bit.width;
-			let newHeight = bit.height;
-			if (_.scale) {
-				newWidth = Graphics.boxWidth;
-				newHeight = Graphics.boxHeight;
-			}
-			this._backgroundSprite.bitmap = new Bitmap(newWidth, newHeight);
-			this._backgroundSprite.bitmap.blt(bit, 0, 0, bit.width, bit.height, 0, 0, newWidth, newHeight);
-			this.addChild(this._backgroundSprite);
-			this.createBackgroundMotion();
-			this.createBackgroundScale();
-			if (Utils.RPGMAKER_VERSION && Utils.RPGMAKER_VERSION >= '1.3.0') this.createBackgroundBlur();
-		} else {
-			_.Scene_MenuBase_createBackground.call(this);
-		}
-	};
+  Scene_MenuBase.prototype.createBackgroundScale = function () {
+    if (_.scales[this._menuBackgroundConstructorName]) {
+      this._backgroundMotionScale =
+        _.scales[this._menuBackgroundConstructorName];
+    } else {
+      this._backgroundMotionScale = 1;
+    }
+    this._backgroundSprite.scale.x = this._backgroundMotionScale;
+    this._backgroundSprite.scale.y = this._backgroundMotionScale;
+  };
 
-	Scene_MenuBase.prototype.createBackgroundMotion = function () {
-		if (_.motions[this._menuBackgroundConstructorName]) {
-			const motion = _.motions[this._menuBackgroundConstructorName];
-			if (!motion) {
-				this._hasBackgroundMotion = false;
-				this._backgroundMotionInfo = [''];
-				return;
-			}
-			this._hasBackgroundMotion = true;
-			this._backgroundMotionInfo = motion.split(' ');
-			for (let i = 1; i < this._backgroundMotionInfo.length; i++) {
-				this._backgroundMotionInfo[i] = parseFloat(this._backgroundMotionInfo[i]);
-			}
-			this._backgroundMotionSign = 1;
-		}
-	};
+  Scene_MenuBase.prototype.createBackgroundBlur = function () {
+    this._backgroundMotionFilter = new PIXI.filters.BlurFilter();
+    this._backgroundMotionFilter.blur = 0;
+    this._backgroundSprite.filters = [this._backgroundMotionFilter];
+  };
 
-	Scene_MenuBase.prototype.createBackgroundScale = function () {
-		if (_.scales[this._menuBackgroundConstructorName]) {
-			this._backgroundMotionScale = _.scales[this._menuBackgroundConstructorName];
-		} else {
-			this._backgroundMotionScale = 1;
-		}
-		this._backgroundSprite.scale.x = this._backgroundMotionScale;
-		this._backgroundSprite.scale.y = this._backgroundMotionScale;
-	};
+  _.Scene_MenuBase_update = Scene_MenuBase.prototype.update;
+  Scene_MenuBase.prototype.update = function () {
+    _.Scene_MenuBase_update.apply(this, arguments);
+    if (this._hasBackgroundMotion) {
+      this.updateBackgroundMotion();
+    }
+  };
 
-	Scene_MenuBase.prototype.createBackgroundBlur = function () {
-		this._backgroundMotionFilter = new PIXI.filters.BlurFilter();
-		this._backgroundMotionFilter.blur = 0;
-		this._backgroundSprite.filters = [this._backgroundMotionFilter];
-	};
+  Scene_MenuBase.prototype.updateBackgroundMotion = function () {
+    const motionType = this._backgroundMotionInfo[0];
+    if (motionType === "scroll") {
+      this.updateBackgroundScroll();
+    } else if (motionType === "zoom") {
+      this.updateBackgroundZoom();
+    } else if (motionType === "rotate") {
+      this.updateBackgroundRotate();
+    } else if (motionType === "blur" && this._backgroundMotionFilter) {
+      this.updateBackgroundBlur();
+    }
+  };
 
-	_.Scene_MenuBase_update = Scene_MenuBase.prototype.update;
-	Scene_MenuBase.prototype.update = function () {
-		_.Scene_MenuBase_update.apply(this, arguments);
-		if (this._hasBackgroundMotion) {
-			this.updateBackgroundMotion();
-		}
-	};
+  Scene_MenuBase.prototype.updateBackgroundScroll = function () {
+    this._backgroundSprite.origin.x += this._backgroundMotionInfo[1];
+    this._backgroundSprite.origin.y += this._backgroundMotionInfo[2];
+  };
 
-	Scene_MenuBase.prototype.updateBackgroundMotion = function () {
-		const motionType = this._backgroundMotionInfo[0];
-		if (motionType === 'scroll') {
-			this.updateBackgroundScroll();
-		} else if (motionType === 'zoom') {
-			this.updateBackgroundZoom();
-		} else if (motionType === 'rotate') {
-			this.updateBackgroundRotate();
-		} else if (motionType === 'blur' && this._backgroundMotionFilter) {
-			this.updateBackgroundBlur();
-		}
-	};
+  Scene_MenuBase.prototype.updateBackgroundZoom = function () {
+    this._backgroundSprite.scale.x +=
+      this._backgroundMotionInfo[1] * this._backgroundMotionSign;
+    this._backgroundSprite.scale.y +=
+      this._backgroundMotionInfo[1] * this._backgroundMotionSign;
+    if (
+      this._backgroundSprite.scale.x >= this._backgroundMotionInfo[2] ||
+      this._backgroundSprite.scale.x <= this._backgroundMotionScale
+    ) {
+      this._backgroundMotionSign *= -1;
+    }
+  };
 
-	Scene_MenuBase.prototype.updateBackgroundScroll = function () {
-		this._backgroundSprite.origin.x += this._backgroundMotionInfo[1];
-		this._backgroundSprite.origin.y += this._backgroundMotionInfo[2];
-	};
+  Scene_MenuBase.prototype.updateBackgroundRotate = function () {
+    this._backgroundSprite.rotation +=
+      this._backgroundMotionInfo[1] * this._backgroundMotionSign;
+    if (this._backgroundMotionInfo[2]) {
+      if (
+        Math.abs(this._backgroundSprite.rotation) >
+        this._backgroundMotionInfo[2]
+      ) {
+        this._backgroundMotionSign *= -1;
+      }
+    } else {
+      if (this._backgroundSprite.rotation > Math.PI * 2) {
+        this._backgroundSprite.rotation -= Math.PI * 2;
+      } else if (this._backgroundSprite.rotation < Math.PI * 2) {
+        this._backgroundSprite.rotation += Math.PI * 2;
+      }
+    }
+  };
 
-	Scene_MenuBase.prototype.updateBackgroundZoom = function () {
-		this._backgroundSprite.scale.x += (this._backgroundMotionInfo[1] * this._backgroundMotionSign);
-		this._backgroundSprite.scale.y += (this._backgroundMotionInfo[1] * this._backgroundMotionSign);
-		if (this._backgroundSprite.scale.x >= this._backgroundMotionInfo[2] || this._backgroundSprite.scale.x <= this._backgroundMotionScale) {
-			this._backgroundMotionSign *= (-1);
-		}
-	};
-
-	Scene_MenuBase.prototype.updateBackgroundRotate = function () {
-		this._backgroundSprite.rotation += (this._backgroundMotionInfo[1] * this._backgroundMotionSign);
-		if (this._backgroundMotionInfo[2]) {
-			if (Math.abs(this._backgroundSprite.rotation) > this._backgroundMotionInfo[2]) {
-				this._backgroundMotionSign *= (-1);
-			}
-		} else {
-			if (this._backgroundSprite.rotation > (Math.PI * 2)) {
-				this._backgroundSprite.rotation -= (Math.PI * 2);
-			} else if (this._backgroundSprite.rotation < (Math.PI * 2)) {
-				this._backgroundSprite.rotation += (Math.PI * 2);
-			}
-		}
-	};
-
-	Scene_MenuBase.prototype.updateBackgroundBlur = function () {
-		this._backgroundMotionFilter.blur += (this._backgroundMotionInfo[1] * this._backgroundMotionSign);
-		if (Math.abs(this._backgroundMotionFilter.blur) > this._backgroundMotionInfo[2]) {
-			this._backgroundMotionSign *= (-1);
-		}
-	};
-
+  Scene_MenuBase.prototype.updateBackgroundBlur = function () {
+    this._backgroundMotionFilter.blur +=
+      this._backgroundMotionInfo[1] * this._backgroundMotionSign;
+    if (
+      Math.abs(this._backgroundMotionFilter.blur) >
+      this._backgroundMotionInfo[2]
+    ) {
+      this._backgroundMotionSign *= -1;
+    }
+  };
 })(SRD.MenuBackgrounds);

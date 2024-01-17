@@ -97,70 +97,97 @@ v1.00 - First release (Nov, 18, 2015)
  @default 0
 */
 (function () {
-	var parameters = $plugins.filter(function (p) {
-		return p.description.contains('<ARP_ComIcons>');
-	})[0].parameters;
+  var parameters = $plugins.filter(function (p) {
+    return p.description.contains("<ARP_ComIcons>");
+  })[0].parameters;
 
-	var scenesToDraw = String(parameters['Scenes To Draw'] || 'Scene_Menu Scene_Battle Scene_Title').split(' ');
-	for (var i = 0; i < scenesToDraw.length; i++) { scenesToDraw[i] = eval(scenesToDraw[i]); }
-	var drawWeaponIcon = String(parameters['Draw Weapon Icon'] || true);
-	var barehandIcon = Number(parameters['Barehanded Icon'] || 106);
-	var weaponIconOffset = Number(parameters['Weapon Unique Icons'] || 0);
-	var commandIcon1 = String(parameters['Command Icons Batch 1'] || '').split(',');
-	var commandIcon2 = String(parameters['Command Icons Batch 2'] || '').split(',');
-	var commandIcon3 = String(parameters['Command Icons Batch 3'] || '').split(',');
-	var commandIcon4 = String(parameters['Command Icons Batch 4'] || '').split(',');
-	var commandIcon5 = String(parameters['Command Icons Batch 5'] || '').split(',');
-	var commandIcon6 = String(parameters['Command Icons Batch 6'] || '').split(',');
-	var commandIconPrep = [];
-	if (commandIcon1[0] !== '') { commandIconPrep = commandIconPrep.concat(commandIcon1); }
-	if (commandIcon2[0] !== '') { commandIconPrep = commandIconPrep.concat(commandIcon2); }
-	if (commandIcon3[0] !== '') { commandIconPrep = commandIconPrep.concat(commandIcon3); }
-	if (commandIcon4[0] !== '') { commandIconPrep = commandIconPrep.concat(commandIcon4); }
-	if (commandIcon5[0] !== '') { commandIconPrep = commandIconPrep.concat(commandIcon5); }
-	if (commandIcon6[0] !== '') { commandIconPrep = commandIconPrep.concat(commandIcon6); }
-	var commandIcon = {};
-	for (i = 0; i < commandIconPrep.length; i++) {
-		if (['', ' '].indexOf(commandIconPrep[i]) < 0) {
-			var prep = commandIconPrep[i].match(/\s*(.*)/)[1];
-			prep = prep.split(':');
-			commandIcon[prep[0]] = Number(prep[1]);
-		}
-	}
+  var scenesToDraw = String(
+    parameters["Scenes To Draw"] || "Scene_Menu Scene_Battle Scene_Title"
+  ).split(" ");
+  for (var i = 0; i < scenesToDraw.length; i++) {
+    scenesToDraw[i] = eval(scenesToDraw[i]);
+  }
+  var drawWeaponIcon = String(parameters["Draw Weapon Icon"] || true);
+  var barehandIcon = Number(parameters["Barehanded Icon"] || 106);
+  var weaponIconOffset = Number(parameters["Weapon Unique Icons"] || 0);
+  var commandIcon1 = String(parameters["Command Icons Batch 1"] || "").split(
+    ","
+  );
+  var commandIcon2 = String(parameters["Command Icons Batch 2"] || "").split(
+    ","
+  );
+  var commandIcon3 = String(parameters["Command Icons Batch 3"] || "").split(
+    ","
+  );
+  var commandIcon4 = String(parameters["Command Icons Batch 4"] || "").split(
+    ","
+  );
+  var commandIcon5 = String(parameters["Command Icons Batch 5"] || "").split(
+    ","
+  );
+  var commandIcon6 = String(parameters["Command Icons Batch 6"] || "").split(
+    ","
+  );
+  var commandIconPrep = [];
+  if (commandIcon1[0] !== "") {
+    commandIconPrep = commandIconPrep.concat(commandIcon1);
+  }
+  if (commandIcon2[0] !== "") {
+    commandIconPrep = commandIconPrep.concat(commandIcon2);
+  }
+  if (commandIcon3[0] !== "") {
+    commandIconPrep = commandIconPrep.concat(commandIcon3);
+  }
+  if (commandIcon4[0] !== "") {
+    commandIconPrep = commandIconPrep.concat(commandIcon4);
+  }
+  if (commandIcon5[0] !== "") {
+    commandIconPrep = commandIconPrep.concat(commandIcon5);
+  }
+  if (commandIcon6[0] !== "") {
+    commandIconPrep = commandIconPrep.concat(commandIcon6);
+  }
+  var commandIcon = {};
+  for (i = 0; i < commandIconPrep.length; i++) {
+    if (["", " "].indexOf(commandIconPrep[i]) < 0) {
+      var prep = commandIconPrep[i].match(/\s*(.*)/)[1];
+      prep = prep.split(":");
+      commandIcon[prep[0]] = Number(prep[1]);
+    }
+  }
 
+  Window_Command.prototype.drawItem = function (index) {
+    var rect = this.itemRectForText(index);
+    var align = this.itemTextAlign();
+    this.resetTextColor();
+    this.changePaintOpacity(this.isCommandEnabled(index));
+    if (scenesToDraw.indexOf(SceneManager._scene.constructor) >= 0) {
+      var commandName = this.commandName(index);
+      if (
+        eval(drawWeaponIcon) &&
+        SceneManager._scene.constructor === Scene_Battle &&
+        commandName === TextManager.attack
+      ) {
+        this.drawIcon($gameTemp.weaponIconARPCI, rect.x - 4, rect.y + 2);
+        rect.x += 30;
+        rect.width -= 30;
+      } else if (commandIcon[commandName]) {
+        this.drawIcon(commandIcon[commandName], rect.x - 4, rect.y + 2);
+        rect.x += 30;
+        rect.width -= 30;
+      }
+    }
 
-	Window_Command.prototype.drawItem = function (index) {
-		var rect = this.itemRectForText(index);
-		var align = this.itemTextAlign();
-		this.resetTextColor();
-		this.changePaintOpacity(this.isCommandEnabled(index));
-		if (scenesToDraw.indexOf(SceneManager._scene.constructor) >= 0) {
-			var commandName = this.commandName(index);
-			if (eval(drawWeaponIcon) &&
-				SceneManager._scene.constructor === Scene_Battle &&
-				commandName === TextManager.attack) {
-				this.drawIcon($gameTemp.weaponIconARPCI, rect.x - 4, rect.y + 2);
-				rect.x += 30;
-				rect.width -= 30;
-			} else if (commandIcon[commandName]) {
-				this.drawIcon(commandIcon[commandName], rect.x - 4, rect.y + 2);
-				rect.x += 30;
-				rect.width -= 30;
-			}
-		}
+    this.drawText(this.commandName(index), rect.x, rect.y, rect.width, align);
+  };
 
-		this.drawText(this.commandName(index), rect.x, rect.y, rect.width, align);
-	};
-
-
-	Window_ActorCommand.prototype.addAttackCommand = function () {
-		if (this._actor.weapons()[0]) {
-			$gameTemp.weaponIconARPCI = this._actor.weapons()[0].iconIndex + weaponIconOffset;
-		} else {
-			$gameTemp.weaponIconARPCI = barehandIcon;
-		}
-		this.addCommand(TextManager.attack, 'attack', this._actor.canAttack());
-	};
-
-
-}());
+  Window_ActorCommand.prototype.addAttackCommand = function () {
+    if (this._actor.weapons()[0]) {
+      $gameTemp.weaponIconARPCI =
+        this._actor.weapons()[0].iconIndex + weaponIconOffset;
+    } else {
+      $gameTemp.weaponIconARPCI = barehandIcon;
+    }
+    this.addCommand(TextManager.attack, "attack", this._actor.canAttack());
+  };
+})();

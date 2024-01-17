@@ -18,17 +18,17 @@
  * @type struct<Parameter>
  * @desc コマンドウィンドウのパラメータ
  * @default {"x":"0","y":"0","width":"240"}
- * 
+ *
  * @param statusWindow
  * @type struct<Parameter>
  * @desc ステータスウィンドウのパラメータ
  * @default {"x":"240","y":"0","width":"576","height":"624"}
- * 
+ *
  * @param goldWindow
  * @type struct<Parameter>
  * @desc 所持金ウィンドウのパラメータ
  * @default {"x":"0","y":"552","width":"240"}
- * 
+ *
  * @param menuFace
  * @type struct<Parameter>
  * @desc 顔グラフィックのパラメータ
@@ -78,22 +78,22 @@
  * @type struct<Parameter>
  * @desc 装備のパラメータ
  * @default {"x":"300","y":"172","width":"240","fontSize":"20","cols":"1","space":"8"}
- * 
+ *
  * @param menuStateRate
  * @type struct<Parameter>
  * @desc ステート有効度のパラメータ
  * @default {"x":"0","y":"380","width":"97","fontSize":"20","name":"4 5 6 8 9 10","cols":"2","space":"8"}
- * 
+ *
  * @param menuElementRate
  * @type struct<Parameter>
  * @desc 属性有効度のパラメータ
  * @default {"x":"233","y":"380","width":"97","fontSize":"20","name":"2 3 4 5 6 7 8 9","cols":"3","space":"8"}
- * 
+ *
  * @param menuProfile
  * @type struct<Parameter>
  * @desc プロフィールのパラメータ
  * @default {"x":"0","y":"516","width":"186"}
- * 
+ *
  * @param menuMhp
  * @type struct<Parameter>
  * @desc 最大HPのパラメータ
@@ -183,57 +183,57 @@
  * @type struct<Parameter>
  * @desc TP再生率のパラメータ
  * @default {"name":"TP再生率"}
- * 
+ *
  * @param menuTgr
  * @type struct<Parameter>
  * @desc 狙われ率のパラメータ
  * @default {"name":"狙われ率"}
- * 
+ *
  * @param menuGrd
  * @type struct<Parameter>
  * @desc 防御効果率のパラメータ
  * @default {"name":"防御効果率"}
- * 
+ *
  * @param menuRec
  * @type struct<Parameter>
  * @desc 回復効果率のパラメータ
  * @default {"name":"回復効果率"}
- * 
+ *
  * @param menuPha
  * @type struct<Parameter>
  * @desc 薬の知識のパラメータ
  * @default {"name":"薬の知識"}
- * 
+ *
  * @param menuMcr
  * @type struct<Parameter>
  * @desc MP消費率のパラメータ
  * @default {"name":"MP消費率"}
- * 
+ *
  * @param menuTcr
  * @type struct<Parameter>
  * @desc TPチャージ率のパラメータ
  * @default {"name":"TPチャージ率"}
- * 
+ *
  * @param menuPdr
  * @type struct<Parameter>
  * @desc 物理ダメージ率のパラメータ
  * @default {"name":"物理ダメージ率"}
- * 
+ *
  * @param menuMdr
  * @type struct<Parameter>
  * @desc 魔法ダメージ率のパラメータ
  * @default {"name":"魔法ダメージ率"}
- * 
+ *
  * @param menuFdr
  * @type struct<Parameter>
  * @desc 床ダメージ率のパラメータ
  * @default {"name":"床ダメージ率"}
- * 
+ *
  * @param menuExr
  * @type struct<Parameter>
  * @desc 経験獲得率のパラメータ
  * @default {"name":"経験獲得率"}
- * 
+ *
  * @param horzLine1
  * @type struct<Parameter>
  * @desc 罫線1のパラメータ
@@ -315,70 +315,70 @@
  * @desc 経験値ゲージの色1
  * 初期値: 30
  * @default 30
- * 
+ *
  * @param expGaugeColor2
  * @type number
  * @max 31
  * @desc 経験値ゲージの色2
  * 初期値: 31
  * @default 31
- * 
+ *
  * @param expNextText
  * @type string
  * @desc 経験値の書式
  * 初期値: あと %1exp
  * @default あと %1exp
- * 
+ *
  * @param expMaxText
  * @type string
  * @desc 最大レベルのときの経験値の書式
  * 初期値: %1exp
  * @default %1exp
- * 
+ *
  * @param expFontSize
  * @type number
  * @desc 経験値の文字の大きさ
  * 初期値: 20
  * @default 20
- * 
+ *
  * @param equipMax
  * @type number
  * @desc 装備を表示する最大数
  * 初期値: 5
  * @default 5
- * 
+ *
  * @param elementIcons
  * @type string
  * @desc 属性アイコン
  * 初期値: 77 64 65 66 67 68 69 70 71
  * @default 77 64 65 66 67 68 69 70 71
- * 
+ *
  * @param textBackColor
  * @type string
  * @desc 文字の背景の色
  * 初期値: #000000
  * @default #000000
- * 
+ *
  * @param textBackOpacity
  * @type number
  * @max 255
  * @desc 文字の背景の不透明度
  * 初期値: 128
  * @default 128
- * 
+ *
  * @param horzLineColor
  * @type string
  * @desc 罫線の色
  * 初期値: #ffffff
  * @default #ffffff
- * 
+ *
  * @param horzLineOpacity
  * @type number
  * @max 255
  * @desc 罫線の不透明度
  * 初期値: 48
  * @default 48
- * 
+ *
  * @param forceChangeSoloMenu
  * @type select
  * @option ひとりの時だけ一人旅メニューを使う
@@ -388,7 +388,7 @@
  * @desc パーティの人数によるメニュー切り替え方式。
  * 初期値: 常に一人旅メニューを使う (true)
  * @default true
- * 
+ *
  * @param soloItemStatus
  * @desc アイテムシーンに表示するパラメータの表示幅
  * ( 名前 / ステート / HP / MP / TP の順で半角スペース区切り)
@@ -404,22 +404,22 @@
  *   また、メニュー系シーンにおけるアクター選択の処理も省略されます。
  *
  *   プラグインコマンドはありません。
- * 
+ *
  *   このプラグインは RPGツクールMV Version 1.6.1 で動作確認をしています。
- * 
+ *
  *   このプラグインはMITライセンスのもとに配布しています、商用利用、
  *   改造、再配布など、自由にお使いいただけます。
- * 
- * 
+ *
+ *
  * プラグインパラメータ補足:
- * 
+ *
  *   width の値に 0 を設定することで、その項目を非表示にすることができます。
  *   プロフィールとフリーテキストには width の値が反映されませんが、
  *   0 を設定すれば非表示にすることはできます。
- * 
+ *
  *   height の値が反映されるのは以下の項目のみとなります。
  *     statusWindow / menuFace / horzLine1 ～ horzLine5
- * 
+ *
  *   プロフィールとフリーテキストには \C[16] や \} などの制御文字を
  *   使用することができます。
  */
@@ -441,37 +441,37 @@
  * @type number
  * @desc 横方向の大きさ
  * @default 0
- * 
+ *
  * @param height
  * @type number
  * @desc 縦方向の大きさ
  * @default 36
- * 
+ *
  * @param fontSize
  * @type number
  * @desc 文字の大きさ
  * @default 28
- * 
+ *
  * @param name
  * @type string
  * @desc パラメータ名
- * @default 
- * 
+ * @default
+ *
  * @param cols
  * @type number
  * @desc 列の数
  * @default 1
- * 
+ *
  * @param space
  * @type number
  * @desc 列ごとの空白
  * @default 8
- * 
+ *
  * @param fixed
  * @type number
  * @desc 小数点以下の桁数
  * @default 0
- * 
+ *
  */
 
 var Imported = Imported || {};
@@ -482,53 +482,98 @@ function Window_SoloStatus() {
 }
 
 (function () {
-
-  var parameters = PluginManager.parameters('TMSoloMenu');
-  var commandWindow = JSON.parse(parameters['commandWindow'] || '{}');
-  var statusWindow = JSON.parse(parameters['statusWindow'] || '{}');
-  var goldWindow = JSON.parse(parameters['goldWindow'] || '{}');
-  var menuFace = JSON.parse(parameters['menuFace'] || '{}');
-  var menuName = JSON.parse(parameters['menuName'] || '{}');
-  var menuNickname = JSON.parse(parameters['menuNickname'] || '{}');
-  var menuClass = JSON.parse(parameters['menuClass'] || '{}');
-  var menuLevel = JSON.parse(parameters['menuLevel'] || '{}');
-  var menuHp = JSON.parse(parameters['menuHp'] || '{}');
-  var menuMp = JSON.parse(parameters['menuMp'] || '{}');
-  var menuTp = JSON.parse(parameters['menuTp'] || '{}');
-  var menuIcons = JSON.parse(parameters['menuIcons'] || '{}');
-  var menuEquips = JSON.parse(parameters['menuEquips'] || '{}');
-  var menuStateRate = JSON.parse(parameters['menuStateRate'] || '{}');
-  var menuElementRate = JSON.parse(parameters['menuElementRate'] || '{}');
-  var menuProfile = JSON.parse(parameters['menuProfile'] || '{}');
+  var parameters = PluginManager.parameters("TMSoloMenu");
+  var commandWindow = JSON.parse(parameters["commandWindow"] || "{}");
+  var statusWindow = JSON.parse(parameters["statusWindow"] || "{}");
+  var goldWindow = JSON.parse(parameters["goldWindow"] || "{}");
+  var menuFace = JSON.parse(parameters["menuFace"] || "{}");
+  var menuName = JSON.parse(parameters["menuName"] || "{}");
+  var menuNickname = JSON.parse(parameters["menuNickname"] || "{}");
+  var menuClass = JSON.parse(parameters["menuClass"] || "{}");
+  var menuLevel = JSON.parse(parameters["menuLevel"] || "{}");
+  var menuHp = JSON.parse(parameters["menuHp"] || "{}");
+  var menuMp = JSON.parse(parameters["menuMp"] || "{}");
+  var menuTp = JSON.parse(parameters["menuTp"] || "{}");
+  var menuIcons = JSON.parse(parameters["menuIcons"] || "{}");
+  var menuEquips = JSON.parse(parameters["menuEquips"] || "{}");
+  var menuStateRate = JSON.parse(parameters["menuStateRate"] || "{}");
+  var menuElementRate = JSON.parse(parameters["menuElementRate"] || "{}");
+  var menuProfile = JSON.parse(parameters["menuProfile"] || "{}");
   var battleParameters = [];
-  ['menuMhp', 'menuMmp', 'menuAtk', 'menuDef', 'menuMat', 'menuMdf', 'menuAgi', 'menuLuc',
-    'menuHit', 'menuEva', 'menuCri', 'menuCev', 'menuMev', 'menuMrf', 'menuCnt', 'menuHrg',
-    'menuMrg', 'menuTrg', 'menuTgr', 'menuGrd', 'menuRec', 'menuPha', 'menuMcr', 'menuTcr',
-    'menuPdr', 'menuMdr', 'menuFdr', 'menuExr'].forEach(function (code) {
-      battleParameters.push(JSON.parse(parameters[code] || '{}'));
-    });
-  var horzLines = [];
-  ['horzLine1', 'horzLine2', 'horzLine3', 'horzLine4', 'horzLine5'].forEach(function (code) {
-    horzLines.push(JSON.parse(parameters[code] || '{}'));
+  [
+    "menuMhp",
+    "menuMmp",
+    "menuAtk",
+    "menuDef",
+    "menuMat",
+    "menuMdf",
+    "menuAgi",
+    "menuLuc",
+    "menuHit",
+    "menuEva",
+    "menuCri",
+    "menuCev",
+    "menuMev",
+    "menuMrf",
+    "menuCnt",
+    "menuHrg",
+    "menuMrg",
+    "menuTrg",
+    "menuTgr",
+    "menuGrd",
+    "menuRec",
+    "menuPha",
+    "menuMcr",
+    "menuTcr",
+    "menuPdr",
+    "menuMdr",
+    "menuFdr",
+    "menuExr",
+  ].forEach(function (code) {
+    battleParameters.push(JSON.parse(parameters[code] || "{}"));
   });
+  var horzLines = [];
+  ["horzLine1", "horzLine2", "horzLine3", "horzLine4", "horzLine5"].forEach(
+    function (code) {
+      horzLines.push(JSON.parse(parameters[code] || "{}"));
+    }
+  );
   var freeTexts = [];
-  ['freeText1', 'freeText2', 'freeText3', 'freeText4', 'freeText5',
-    'freeText6', 'freeText7', 'freeText8', 'freeText9', 'freeText10'].forEach(function (code) {
-      freeTexts.push(JSON.parse(parameters[code] || '{}'));
-    });
-  var expGaugeColor1 = +(parameters['expGaugeColor1'] || 30);
-  var expGaugeColor2 = +(parameters['expGaugeColor2'] || 31);
-  var expNextText = parameters['expNextText'];
-  var expMaxText = parameters['expMaxText'];
-  var expFontSize = +(parameters['expFontSize'] || 28);
-  var equipMax = +(parameters['equipMax'] || 6);
-  var elementIcons = parameters['elementIcons'].split(' ').map(Number);
-  var textBackColor = parameters['textBackColor'] || '#000000';
-  var textBackOpacity = +(parameters['textBackOpacity'] || 128);
-  var horzLineColor = parameters['horzLineColor'] || '#ffffff';
-  var horzLineOpacity = +(parameters['horzLineOpacity'] || 48);
-  var forceChangeSoloMenu = JSON.parse(parameters['forceChangeSoloMenu'] || 'true');
-  var soloItemStatus = (parameters['soloItemStatus'] != null ? parameters['soloItemStatus'] : '144 160 144 144 96').split(' ').map(Number);
+  [
+    "freeText1",
+    "freeText2",
+    "freeText3",
+    "freeText4",
+    "freeText5",
+    "freeText6",
+    "freeText7",
+    "freeText8",
+    "freeText9",
+    "freeText10",
+  ].forEach(function (code) {
+    freeTexts.push(JSON.parse(parameters[code] || "{}"));
+  });
+  var expGaugeColor1 = +(parameters["expGaugeColor1"] || 30);
+  var expGaugeColor2 = +(parameters["expGaugeColor2"] || 31);
+  var expNextText = parameters["expNextText"];
+  var expMaxText = parameters["expMaxText"];
+  var expFontSize = +(parameters["expFontSize"] || 28);
+  var equipMax = +(parameters["equipMax"] || 6);
+  var elementIcons = parameters["elementIcons"].split(" ").map(Number);
+  var textBackColor = parameters["textBackColor"] || "#000000";
+  var textBackOpacity = +(parameters["textBackOpacity"] || 128);
+  var horzLineColor = parameters["horzLineColor"] || "#ffffff";
+  var horzLineOpacity = +(parameters["horzLineOpacity"] || 48);
+  var forceChangeSoloMenu = JSON.parse(
+    parameters["forceChangeSoloMenu"] || "true"
+  );
+  var soloItemStatus = (
+    parameters["soloItemStatus"] != null
+      ? parameters["soloItemStatus"]
+      : "144 160 144 144 96"
+  )
+    .split(" ")
+    .map(Number);
 
   //-----------------------------------------------------------------------------
   // Game_Party
@@ -542,7 +587,8 @@ function Window_SoloStatus() {
   // Window_MenuCommand
   //
 
-  var _Window_MenuCommand_windowWidth = Window_MenuCommand.prototype.windowWidth;
+  var _Window_MenuCommand_windowWidth =
+    Window_MenuCommand.prototype.windowWidth;
   Window_MenuCommand.prototype.windowWidth = function () {
     if ($gameParty.isSoloMenuValid()) return +commandWindow.width;
     return _Window_MenuCommand_windowWidth.call(this);
@@ -556,8 +602,13 @@ function Window_SoloStatus() {
   Window_SoloStatus.prototype.constructor = Window_SoloStatus;
 
   Window_SoloStatus.prototype.initialize = function () {
-    Window_Base.prototype.initialize.call(this, +statusWindow.x, +statusWindow.y,
-      +statusWindow.width, +statusWindow.height);
+    Window_Base.prototype.initialize.call(
+      this,
+      +statusWindow.x,
+      +statusWindow.y,
+      +statusWindow.width,
+      +statusWindow.height
+    );
     //    this.refresh();
     if (!+statusWindow.width) this.hide();
   };
@@ -570,56 +621,71 @@ function Window_SoloStatus() {
         this.drawHorzLine(horzLines[i]);
       }
       if (+menuFace.width) {
-        this.drawActorFace(actor, +menuFace.x, +menuFace.y, +menuFace.width, +menuFace.height);
+        this.drawActorFace(
+          actor,
+          +menuFace.x,
+          +menuFace.y,
+          +menuFace.width,
+          +menuFace.height
+        );
       }
       if (+menuIcons.width) {
-        this.drawActorIcons(actor, +menuIcons.x, +menuIcons.y, +menuIcons.width);
+        this.drawActorIcons(
+          actor,
+          +menuIcons.x,
+          +menuIcons.y,
+          +menuIcons.width
+        );
       }
-      this.drawSoloParameter(actor, 'NAME', menuName);
-      this.drawSoloParameter(actor, 'NICKNAME', menuNickname);
-      this.drawSoloParameter(actor, 'CLASS', menuClass);
-      this.drawSoloParameter(actor, 'LEVEL', menuLevel);
-      this.drawSoloParameter(actor, 'HP', menuHp);
-      this.drawSoloParameter(actor, 'MP', menuMp);
-      this.drawSoloParameter(actor, 'TP', menuTp);
-      this.drawSoloParameter(actor, 'EQUIP', menuEquips);
-      this.drawSoloParameter(actor, 'STATE', menuStateRate);
-      this.drawSoloParameter(actor, 'ELEMENT', menuElementRate);
-      this.drawSoloParameter(actor, 'PROFILE', menuProfile);
+      this.drawSoloParameter(actor, "NAME", menuName);
+      this.drawSoloParameter(actor, "NICKNAME", menuNickname);
+      this.drawSoloParameter(actor, "CLASS", menuClass);
+      this.drawSoloParameter(actor, "LEVEL", menuLevel);
+      this.drawSoloParameter(actor, "HP", menuHp);
+      this.drawSoloParameter(actor, "MP", menuMp);
+      this.drawSoloParameter(actor, "TP", menuTp);
+      this.drawSoloParameter(actor, "EQUIP", menuEquips);
+      this.drawSoloParameter(actor, "STATE", menuStateRate);
+      this.drawSoloParameter(actor, "ELEMENT", menuElementRate);
+      this.drawSoloParameter(actor, "PROFILE", menuProfile);
       for (var i = 0; i < 28; i++) {
         this.drawBattleParameter(actor, i, battleParameters[i]);
       }
       for (var i = 0; i < 10; i++) {
-        this.drawSoloParameter(null, 'TEXT', freeTexts[i]);
+        this.drawSoloParameter(null, "TEXT", freeTexts[i]);
       }
     }
   };
 
-  Window_SoloStatus.prototype.drawSoloParameter = function (actor, code, parameter) {
+  Window_SoloStatus.prototype.drawSoloParameter = function (
+    actor,
+    code,
+    parameter
+  ) {
     var width = +parameter.width;
     if (!width) return;
     var x = +parameter.x;
     var y = +parameter.y;
     this.contents.fontSize = +(parameter.fontSize || 28);
-    if (code === 'NAME') {
+    if (code === "NAME") {
       this.drawActorName(actor, x, y, width);
-    } else if (code === 'NICKNAME') {
+    } else if (code === "NICKNAME") {
       this.drawActorNickname(actor, x, y, width);
-    } else if (code === 'CLASS') {
+    } else if (code === "CLASS") {
       this.drawActorClass(actor, x, y, width);
-    } else if (code === 'LEVEL') {
+    } else if (code === "LEVEL") {
       this.drawActorLevelAndExp(actor, x, y, width);
-    } else if (code === 'HP') {
+    } else if (code === "HP") {
       this.drawActorHp(actor, x, y, width);
-    } else if (code === 'MP') {
+    } else if (code === "MP") {
       this.drawActorMp(actor, x, y, width);
-    } else if (code === 'TP') {
+    } else if (code === "TP") {
       this.drawActorTp(actor, x, y, width);
-    } else if (code === 'EQUIP') {
+    } else if (code === "EQUIP") {
       this.drawEquipments(actor, x, y, width);
-    } else if (code === 'PROFILE') {
+    } else if (code === "PROFILE") {
       this.drawTextEx(actor.profile(), x, y);
-    } else if (code === 'TEXT') {
+    } else if (code === "TEXT") {
       this.drawTextEx(parameter.name, x, y);
     } else {
       this.drawRates(actor, x, y, width, code, parameter);
@@ -627,7 +693,12 @@ function Window_SoloStatus() {
     this.resetFontSettings();
   };
 
-  Window_SoloStatus.prototype.drawActorLevelAndExp = function (actor, x, y, width) {
+  Window_SoloStatus.prototype.drawActorLevelAndExp = function (
+    actor,
+    x,
+    y,
+    width
+  ) {
     var color1 = this.textColor(expGaugeColor1);
     var color2 = this.textColor(expGaugeColor2);
     if (actor.isMaxLevel()) {
@@ -641,12 +712,13 @@ function Window_SoloStatus() {
     this.changeTextColor(this.systemColor());
     this.drawText(TextManager.levelA, x, y, 32);
     this.resetTextColor();
-    this.drawText(actor.level, x + 36, y, 32, 'right');
+    this.drawText(actor.level, x + 36, y, 32, "right");
     if (expNextText) {
-      var text = actor.isMaxLevel() ? expMaxText.format(actor.currentExp()) :
-        expNextText.format(actor.nextRequiredExp());
+      var text = actor.isMaxLevel()
+        ? expMaxText.format(actor.currentExp())
+        : expNextText.format(actor.nextRequiredExp());
       this.contents.fontSize = expFontSize;
-      this.drawText(text, x, y, width, 'right');
+      this.drawText(text, x, y, width, "right");
     }
   };
 
@@ -662,14 +734,21 @@ function Window_SoloStatus() {
     }
   };
 
-  Window_SoloStatus.prototype.drawRates = function (actor, x, y, width, code, parameter) {
-    var ids = parameter.name.split(' ').map(Number);
+  Window_SoloStatus.prototype.drawRates = function (
+    actor,
+    x,
+    y,
+    width,
+    code,
+    parameter
+  ) {
+    var ids = parameter.name.split(" ").map(Number);
     var cols = +parameter.cols;
     var iconBoxWidth = Window_Base._iconWidth + 4;
     for (var i = 0; i < ids.length; i++) {
       var x2 = x + (width + +parameter.space) * (i % cols);
       var y2 = y + this.lineHeight() * Math.floor(i / cols);
-      if (code === 'STATE') {
+      if (code === "STATE") {
         var state = $dataStates[ids[i]];
         if (!state) return;
         var value = actor.stateRate(state.id) * 100;
@@ -680,18 +759,27 @@ function Window_SoloStatus() {
       }
       this.drawTextBack(x2, y2, width);
       this.drawIcon(iconIndex, x2 + 2, y2 + 2);
-      this.drawText(value.toFixed(+parameter.fixed) + '%', x2 + iconBoxWidth, y2,
-        width - iconBoxWidth, 'right');
+      this.drawText(
+        value.toFixed(+parameter.fixed) + "%",
+        x2 + iconBoxWidth,
+        y2,
+        width - iconBoxWidth,
+        "right"
+      );
     }
   };
 
-  Window_SoloStatus.prototype.drawBattleParameter = function (actor, paramId, parameter) {
+  Window_SoloStatus.prototype.drawBattleParameter = function (
+    actor,
+    paramId,
+    parameter
+  ) {
     var width = +parameter.width;
     if (!width) return;
     var x = +parameter.x;
     var y = +parameter.y;
     this.contents.fontSize = +(parameter.fontSize || 28);
-    var textWidth = this.textWidth('00000');
+    var textWidth = this.textWidth("00000");
     this.drawTextBack(x, y, width);
     this.changeTextColor(this.systemColor());
     this.drawText(parameter.name, x, y, width - textWidth);
@@ -703,7 +791,7 @@ function Window_SoloStatus() {
     } else if (paramId < 28) {
       var value = (actor.sparam(paramId - 18) * 100).toFixed(+parameter.fixed);
     }
-    this.drawText(value, x + width - textWidth, y, textWidth, 'right');
+    this.drawText(value, x + width - textWidth, y, textWidth, "right");
     this.resetFontSettings();
   };
 
@@ -723,8 +811,13 @@ function Window_SoloStatus() {
   Window_SoloStatus.prototype.drawHorzLine = function (parameter) {
     if (!+parameter.width) return;
     this.contents.paintOpacity = horzLineOpacity;
-    this.contents.fillRect(+parameter.x, +parameter.y, +parameter.width,
-      +parameter.height, horzLineColor);
+    this.contents.fillRect(
+      +parameter.x,
+      +parameter.y,
+      +parameter.width,
+      +parameter.height,
+      horzLineColor
+    );
     this.contents.paintOpacity = 255;
   };
 
@@ -740,7 +833,13 @@ function Window_SoloStatus() {
   Window_SoloItemStatus.prototype.constructor = Window_SoloItemStatus;
 
   Window_SoloItemStatus.prototype.initialize = function (x, y, width) {
-    Window_Base.prototype.initialize.call(this, x, y, width, this.fittingHeight(1));
+    Window_Base.prototype.initialize.call(
+      this,
+      x,
+      y,
+      width,
+      this.fittingHeight(1)
+    );
     this.refresh();
   };
 
@@ -773,7 +872,8 @@ function Window_SoloStatus() {
   // Scene_Menu
   //
 
-  var _Scene_Menu_createCommandWindow = Scene_Menu.prototype.createCommandWindow;
+  var _Scene_Menu_createCommandWindow =
+    Scene_Menu.prototype.createCommandWindow;
   Scene_Menu.prototype.createCommandWindow = function () {
     _Scene_Menu_createCommandWindow.call(this);
     if ($gameParty.isSoloMenuValid()) {
@@ -812,6 +912,4 @@ function Window_SoloStatus() {
       _Scene_Menu_commandPersonal.call(this);
     }
   };
-
-
 })();

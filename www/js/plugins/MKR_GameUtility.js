@@ -61,87 +61,94 @@
  * @off 無効にする
  * @default false
  *
-*/
+ */
 
 var Imported = Imported || {};
 Imported.MKR_GameUtility = true;
 
 (function () {
-    'use strict';
+  "use strict";
 
-    const PN = "MKR_GameUtility";
+  const PN = "MKR_GameUtility";
 
-    const CheckParam = function (type, name, value, def, min, max, options) {
-        if (min == undefined || min == null) {
-            min = -Infinity;
-        }
-        if (max == undefined || max == null) {
-            max = Infinity;
-        }
-        if (value == null) {
-            value = "";
-        } else {
-            value = String(value);
-        }
-
-        value = value.replace(/\\/g, '\x1b');
-        value = value.replace(/\x1b\x1b/g, '\\');
-
-        switch (type) {
-            case "bool":
-                if (value == "") {
-                    value = (def) ? true : false;
-                }
-                value = value.toUpperCase() === "ON" || value.toUpperCase() === "TRUE" || value.toUpperCase() === "1";
-                break;
-            default:
-                throw new Error("[CheckParam] " + param + "のタイプが不正です: " + type);
-                break;
-        }
-
-        return value;
-    };
-
-    const ParamParse = function (obj) {
-        return JSON.parse(JSON.stringify(obj, ParamReplace));
+  const CheckParam = function (type, name, value, def, min, max, options) {
+    if (min == undefined || min == null) {
+      min = -Infinity;
+    }
+    if (max == undefined || max == null) {
+      max = Infinity;
+    }
+    if (value == null) {
+      value = "";
+    } else {
+      value = String(value);
     }
 
-    const ParamReplace = function (key, value) {
-        try {
-            return JSON.parse(value || null);
-        } catch (e) {
-            return value;
+    value = value.replace(/\\/g, "\x1b");
+    value = value.replace(/\x1b\x1b/g, "\\");
+
+    switch (type) {
+      case "bool":
+        if (value == "") {
+          value = def ? true : false;
         }
-    };
+        value =
+          value.toUpperCase() === "ON" ||
+          value.toUpperCase() === "TRUE" ||
+          value.toUpperCase() === "1";
+        break;
+      default:
+        throw new Error(
+          "[CheckParam] " + param + "のタイプが不正です: " + type
+        );
+        break;
+    }
 
-    const Parameters = ParamParse(PluginManager.parameters(PN));
-    let Params = {};
+    return value;
+  };
 
-    Params = {
-        "Action001": CheckParam("bool", "[1]動作変更の有効化", Parameters["action 1 enable"], ""),
-    };
+  const ParamParse = function (obj) {
+    return JSON.parse(JSON.stringify(obj, ParamReplace));
+  };
 
+  const ParamReplace = function (key, value) {
+    try {
+      return JSON.parse(value || null);
+    } catch (e) {
+      return value;
+    }
+  };
 
-    //=========================================================================
-    // BattleManager
-    //  ・戦闘中断時、逃走SEを再生させないようにします。
-    //
-    //=========================================================================
-    const _BattleManager_checkAbort = BattleManager.checkAbort;
-    BattleManager.checkAbort = function () {
-        if (!Params.Action001) {
-            return _BattleManager_checkAbort.call(this);
-        }
+  const Parameters = ParamParse(PluginManager.parameters(PN));
+  let Params = {};
 
-        if ($gameParty.isEmpty() || this.isAborting()) {
-            if (!this.isAborting()) {
-                SoundManager.playEscape();
-            }
-            this._escaped = true;
-            this.processAbort();
-        }
-        return false;
-    };
+  Params = {
+    Action001: CheckParam(
+      "bool",
+      "[1]動作変更の有効化",
+      Parameters["action 1 enable"],
+      ""
+    ),
+  };
 
+  //=========================================================================
+  // BattleManager
+  //  ・戦闘中断時、逃走SEを再生させないようにします。
+  //
+  //=========================================================================
+  const _BattleManager_checkAbort = BattleManager.checkAbort;
+  BattleManager.checkAbort = function () {
+    if (!Params.Action001) {
+      return _BattleManager_checkAbort.call(this);
+    }
 
+    if ($gameParty.isEmpty() || this.isAborting()) {
+      if (!this.isAborting()) {
+        SoundManager.playEscape();
+      }
+      this._escaped = true;
+      this.processAbort();
+    }
+    return false;
+  };
 })();

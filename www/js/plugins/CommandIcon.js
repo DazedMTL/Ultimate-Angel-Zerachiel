@@ -32,12 +32,12 @@
  */
 
 (function () {
-    'use strict';
-    Window_Command.prototype.drawText = function (text, x, y, width, align) {
-        if (this instanceof Window_Options) {
-            Window_Base.prototype.drawText.apply(this, arguments);
-        } else {
-            this.drawTextEx(text, x, y);
-        }
-    };
+  "use strict";
+  Window_Command.prototype.drawText = function (text, x, y, width, align) {
+    if (this instanceof Window_Options) {
+      Window_Base.prototype.drawText.apply(this, arguments);
+    } else {
+      this.drawTextEx(text, x, y);
+    }
+  };
 })();

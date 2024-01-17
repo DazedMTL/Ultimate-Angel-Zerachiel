@@ -8,7 +8,7 @@
  *
  * @param ピクチャ番号
  * @desc ウインドウよりも手前に表示するピクチャの番号を指定して下さい。カンマ区切りで複数指定できます。
- * @default 
+ * @default
  *
  * @help
  * [ 概要 ] ...
@@ -40,47 +40,54 @@ var Makonet = Makonet || {};
 Makonet.POW = {};
 
 (function () {
-    'use strict';
+  "use strict";
 
-    var MPD = Makonet.POW;
-    MPD.product = 'MPI_PictureOnWindow';
-    MPD.parameters = PluginManager.parameters(MPD.product);
-    MPD.pictureId = MPD.parameters['ピクチャ番号'].trim().split(/ *, */).map(function (value) { return +value });
+  var MPD = Makonet.POW;
+  MPD.product = "MPI_PictureOnWindow";
+  MPD.parameters = PluginManager.parameters(MPD.product);
+  MPD.pictureId = MPD.parameters["ピクチャ番号"]
+    .trim()
+    .split(/ *, */)
+    .map(function (value) {
+      return +value;
+    });
 
-    var _ = MPD.product;
+  var _ = MPD.product;
 
-    //==============================================================================
-    // Spriteset_Base
-    //==============================================================================
+  //==============================================================================
+  // Spriteset_Base
+  //==============================================================================
 
-    (function (o, p) {
-        var f = o[p]; o[p] = function () {
-            f.apply(this, arguments);
-            this._pictureContainer.children.forEach(function (picture) {
-                if (~MPD.pictureId.indexOf(picture._pictureId)) {
-                    this._pictureContainer.removeChild(picture);
-                }
-            }, this);
-        };
-    }(Spriteset_Base.prototype, 'createPictures'));
+  (function (o, p) {
+    var f = o[p];
+    o[p] = function () {
+      f.apply(this, arguments);
+      this._pictureContainer.children.forEach(function (picture) {
+        if (~MPD.pictureId.indexOf(picture._pictureId)) {
+          this._pictureContainer.removeChild(picture);
+        }
+      }, this);
+    };
+  })(Spriteset_Base.prototype, "createPictures");
 
-    //==============================================================================
-    // Scene_Base
-    //==============================================================================
+  //==============================================================================
+  // Scene_Base
+  //==============================================================================
 
-    (function (o, p) {
-        var f = o[p]; o[p] = function () {
-            f.apply(this, arguments);
-            var width = Graphics.boxWidth;
-            var height = Graphics.boxHeight;
-            var x = (Graphics.width - width) / 2;
-            var y = (Graphics.height - height) / 2;
-            var sprite = new Sprite();
-            sprite.setFrame(x, y, width, height);
-            MPD.pictureId.forEach(function (id) {
-                sprite.addChild(new Sprite_Picture(id));
-            });
-            this.addChild(sprite);
-        };
-    }(Scene_Base.prototype, 'createWindowLayer'));
-}());
+  (function (o, p) {
+    var f = o[p];
+    o[p] = function () {
+      f.apply(this, arguments);
+      var width = Graphics.boxWidth;
+      var height = Graphics.boxHeight;
+      var x = (Graphics.width - width) / 2;
+      var y = (Graphics.height - height) / 2;
+      var sprite = new Sprite();
+      sprite.setFrame(x, y, width, height);
+      MPD.pictureId.forEach(function (id) {
+        sprite.addChild(new Sprite_Picture(id));
+      });
+      this.addChild(sprite);
+    };
+  })(Scene_Base.prototype, "createWindowLayer");
+})();

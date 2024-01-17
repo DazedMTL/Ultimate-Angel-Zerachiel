@@ -8,257 +8,258 @@ Imported.YEP_X_VisualHpGauge = true;
 
 var Yanfly = Yanfly || {};
 Yanfly.VHG = Yanfly.VHG || {};
-Yanfly.VHG.version = 1.07
+Yanfly.VHG.version = 1.07;
 
 //=============================================================================
 /*:
-* @plugindesc v1.07 (Requires YEP_BattleEngineCore.js) Reveal HP Gauges
-* when a battler is selected or takes damage in battle.
-* @author Yanfly Engine Plugins
-*
-* @param ---General---
-* @default
-*
-* @param Display Actor
-* @parent ---General---
-* @type boolean
-* @on YES
-* @off NO
-* @desc Do you wish to display the HP Gauge for actors?
-* NO - false     YES - true
-* @default true
-*
-* @param Defeat First
-* @parent ---General---
-* @type boolean
-* @on YES
-* @off NO
-* @desc Enemies must be defeated first before showing the HP Gauge.
-* NO - false     YES - true
-* @default false
-*
-* @param Always Visible
-* @parent ---General---
-* @type boolean
-* @on YES
-* @off NO
-* @desc HP Gauge is always visible and doesn't fade away.
-* NO - false     YES - true
-* @default false
-*
-* @param ---Appearance---
-* @default
-*
-* @param Minimum Gauge Width
-* @parent ---Appearance---
-* @type number
-* @min 1
-* @desc This is the minimum width in pixels for HP Gauges.
-* @default 144
-*
-* @param Gauge Height
-* @parent ---Appearance---
-* @type number
-* @min 1
-* @desc This is the height in pixels for HP Gauges.
-* @default 18
-*
-* @param Back Color
-* @parent ---Appearance---
-* @desc This is the text color used for the back of HP Gauges.
-* @default 19
-*
-* @param HP Color 1
-* @parent ---Appearance---
-* @type number
-* @min 0
-* @max 31
-* @desc This is the text color used for the 1st part of HP Gauges.
-* @default 20
-*
-* @param HP Color 2
-* @parent ---Appearance---
-* @type number
-* @min 0
-* @max 31
-* @desc This is the text color used for the 2nd part of HP Gauges.
-* @default 21
-*
-* @param Gauge Duration
-* @parent ---Appearance---
-* @type number
-* @min 0
-* @desc This is the frames the HP gauge will continue to show after
-* it finishes draining or filling.
-* @default 30
-*
-* @param Gauge Position
-* @parent ---Appearance---
-* @type boolean
-* @on Above
-* @off Below
-* @desc Where do you wish to show the HP gauge?
-* BELOW - false     ABOVE - true
-* @default false
-*
-* @param Y Buffer
-* @parent ---Appearance---
-* @type number
-* @desc How much do you wish to shift the gauge Y position?
-* @default -16
-*
-* @param Use Thick Gauges
-* @parent ---Appearance---
-* @type boolean
-* @on Thick
-* @off Normal
-* @desc Use the thick gauges provided by this plugin?
-* Default - false     Thick - true
-* @default true
-*
-* @param ---Text Display---
-* @default
-*
-* @param Show HP
-* @parent ---Text Display---
-* @type boolean
-* @on YES
-* @off NO
-* @desc Show the actual 'HP' text.
-* NO - false     YES - true
-* @default false
-*
-* @param Show Value
-* @parent ---Text Display---
-* @type boolean
-* @on YES
-* @off NO
-* @desc Show the HP value.
-* NO - false     YES - true
-* @default false
-*
-* @param Show Max
-* @parent ---Text Display---
-* @type boolean
-* @on YES
-* @off NO
-* @desc Show the MaxHP value if value is shown?
-* NO - false     YES - true
-* @default false
-*
-* @help
-* ============================================================================
-* Introduction
-* ============================================================================
-*
-* This plugin requires YEP_BattleEngineCore.
-* Make sure this plugin is located under YEP_BattleEngineCore in the plugin
-* list.
-*
-* This plugin shows the HP Gauges of enemies as they're selected or while they
-* take damage. You can also opt for actors to show their HP Gauge as well.
-* Adjust the parameters to change the way you want the HP Gauges to appear.
-*
-* By default, enemies would need to be defeated first in order for the gauges
-* to show up. This can be changed within the parameter settings. However,
-* during battle test, the HP gauges are always shown unless the enemy has a
-* hidden HP gauge.
-*
-* ============================================================================
-* Notetags
-* ============================================================================
-*
-* Class and Enemy Notetags:
-*   <Hide HP Gauge>
-*   This HP gauge will always be hidden if this notetag is present.
-*
-*   <Show HP Gauge>
-*   This HP gauge will always be shown if this notetag is present while the
-*   target is selected or taking damage.
-*
-*   <HP Gauge Width: x>
-*   This will set the battler's HP Gauge width to x pixels. However, if this
-*   width is less than the minimum width, minimum width will take priority.
-*
-*   <HP Gauge Height: x>
-*   This set's the HP Gauge height to x pixels.
-*
-*   <HP Gauge Back Color: x>
-*   This changes the HP Gauge's back color to x text color.
-*
-*   <HP Gauge Color 1: x>
-*   This changes the HP Gauge's color 1 to x text color.
-*
-*   <HP Gauge Color 2: x>
-*   This changes the HP Gauge's color 2 to x text color.
-*
-* ============================================================================
-* Changelog
-* ============================================================================
-*
-* Version 1.07:
-* - Updated for RPG Maker MV version 1.5.0.
-*
-* Version 1.06:
-* - Compatibility update with State Categories.
-*
-* Version 1.05:
-* - Updated for RPG Maker MV version 1.1.0.
-*
-* Version 1.04:
-* - Optimization update.
-*
-* Version 1.03:
-* - Fixed a bug when Escape skill-effects are used on battlers.
-*
-* Version 1.02:
-* - Fixed a bug with gauge height not adjusting.
-*
-* Version 1.01b:
-* - Fixed a bug regarding dependancy checks.
-* - Fixed many bugs regarding stacking errors.
-*
-* Version 1.01:
-* - Rewrote the good majority of plugin to accomodate the following features:
-* ---'Always Visible' parameter.
-* ---'Gauge Position' parameter.
-* ---'Y Buffer' parameter.
-* ---'Use Thick Gauges' parameter.
-* ---'Show HP' parameter.
-* ---'Show Value' parameter.
-* ---'Show Max' parameter.
-*
-* Version 1.00:
-* - Finished Plugin!
-*/
+ * @plugindesc v1.07 (Requires YEP_BattleEngineCore.js) Reveal HP Gauges
+ * when a battler is selected or takes damage in battle.
+ * @author Yanfly Engine Plugins
+ *
+ * @param ---General---
+ * @default
+ *
+ * @param Display Actor
+ * @parent ---General---
+ * @type boolean
+ * @on YES
+ * @off NO
+ * @desc Do you wish to display the HP Gauge for actors?
+ * NO - false     YES - true
+ * @default true
+ *
+ * @param Defeat First
+ * @parent ---General---
+ * @type boolean
+ * @on YES
+ * @off NO
+ * @desc Enemies must be defeated first before showing the HP Gauge.
+ * NO - false     YES - true
+ * @default false
+ *
+ * @param Always Visible
+ * @parent ---General---
+ * @type boolean
+ * @on YES
+ * @off NO
+ * @desc HP Gauge is always visible and doesn't fade away.
+ * NO - false     YES - true
+ * @default false
+ *
+ * @param ---Appearance---
+ * @default
+ *
+ * @param Minimum Gauge Width
+ * @parent ---Appearance---
+ * @type number
+ * @min 1
+ * @desc This is the minimum width in pixels for HP Gauges.
+ * @default 144
+ *
+ * @param Gauge Height
+ * @parent ---Appearance---
+ * @type number
+ * @min 1
+ * @desc This is the height in pixels for HP Gauges.
+ * @default 18
+ *
+ * @param Back Color
+ * @parent ---Appearance---
+ * @desc This is the text color used for the back of HP Gauges.
+ * @default 19
+ *
+ * @param HP Color 1
+ * @parent ---Appearance---
+ * @type number
+ * @min 0
+ * @max 31
+ * @desc This is the text color used for the 1st part of HP Gauges.
+ * @default 20
+ *
+ * @param HP Color 2
+ * @parent ---Appearance---
+ * @type number
+ * @min 0
+ * @max 31
+ * @desc This is the text color used for the 2nd part of HP Gauges.
+ * @default 21
+ *
+ * @param Gauge Duration
+ * @parent ---Appearance---
+ * @type number
+ * @min 0
+ * @desc This is the frames the HP gauge will continue to show after
+ * it finishes draining or filling.
+ * @default 30
+ *
+ * @param Gauge Position
+ * @parent ---Appearance---
+ * @type boolean
+ * @on Above
+ * @off Below
+ * @desc Where do you wish to show the HP gauge?
+ * BELOW - false     ABOVE - true
+ * @default false
+ *
+ * @param Y Buffer
+ * @parent ---Appearance---
+ * @type number
+ * @desc How much do you wish to shift the gauge Y position?
+ * @default -16
+ *
+ * @param Use Thick Gauges
+ * @parent ---Appearance---
+ * @type boolean
+ * @on Thick
+ * @off Normal
+ * @desc Use the thick gauges provided by this plugin?
+ * Default - false     Thick - true
+ * @default true
+ *
+ * @param ---Text Display---
+ * @default
+ *
+ * @param Show HP
+ * @parent ---Text Display---
+ * @type boolean
+ * @on YES
+ * @off NO
+ * @desc Show the actual 'HP' text.
+ * NO - false     YES - true
+ * @default false
+ *
+ * @param Show Value
+ * @parent ---Text Display---
+ * @type boolean
+ * @on YES
+ * @off NO
+ * @desc Show the HP value.
+ * NO - false     YES - true
+ * @default false
+ *
+ * @param Show Max
+ * @parent ---Text Display---
+ * @type boolean
+ * @on YES
+ * @off NO
+ * @desc Show the MaxHP value if value is shown?
+ * NO - false     YES - true
+ * @default false
+ *
+ * @help
+ * ============================================================================
+ * Introduction
+ * ============================================================================
+ *
+ * This plugin requires YEP_BattleEngineCore.
+ * Make sure this plugin is located under YEP_BattleEngineCore in the plugin
+ * list.
+ *
+ * This plugin shows the HP Gauges of enemies as they're selected or while they
+ * take damage. You can also opt for actors to show their HP Gauge as well.
+ * Adjust the parameters to change the way you want the HP Gauges to appear.
+ *
+ * By default, enemies would need to be defeated first in order for the gauges
+ * to show up. This can be changed within the parameter settings. However,
+ * during battle test, the HP gauges are always shown unless the enemy has a
+ * hidden HP gauge.
+ *
+ * ============================================================================
+ * Notetags
+ * ============================================================================
+ *
+ * Class and Enemy Notetags:
+ *   <Hide HP Gauge>
+ *   This HP gauge will always be hidden if this notetag is present.
+ *
+ *   <Show HP Gauge>
+ *   This HP gauge will always be shown if this notetag is present while the
+ *   target is selected or taking damage.
+ *
+ *   <HP Gauge Width: x>
+ *   This will set the battler's HP Gauge width to x pixels. However, if this
+ *   width is less than the minimum width, minimum width will take priority.
+ *
+ *   <HP Gauge Height: x>
+ *   This set's the HP Gauge height to x pixels.
+ *
+ *   <HP Gauge Back Color: x>
+ *   This changes the HP Gauge's back color to x text color.
+ *
+ *   <HP Gauge Color 1: x>
+ *   This changes the HP Gauge's color 1 to x text color.
+ *
+ *   <HP Gauge Color 2: x>
+ *   This changes the HP Gauge's color 2 to x text color.
+ *
+ * ============================================================================
+ * Changelog
+ * ============================================================================
+ *
+ * Version 1.07:
+ * - Updated for RPG Maker MV version 1.5.0.
+ *
+ * Version 1.06:
+ * - Compatibility update with State Categories.
+ *
+ * Version 1.05:
+ * - Updated for RPG Maker MV version 1.1.0.
+ *
+ * Version 1.04:
+ * - Optimization update.
+ *
+ * Version 1.03:
+ * - Fixed a bug when Escape skill-effects are used on battlers.
+ *
+ * Version 1.02:
+ * - Fixed a bug with gauge height not adjusting.
+ *
+ * Version 1.01b:
+ * - Fixed a bug regarding dependancy checks.
+ * - Fixed many bugs regarding stacking errors.
+ *
+ * Version 1.01:
+ * - Rewrote the good majority of plugin to accomodate the following features:
+ * ---'Always Visible' parameter.
+ * ---'Gauge Position' parameter.
+ * ---'Y Buffer' parameter.
+ * ---'Use Thick Gauges' parameter.
+ * ---'Show HP' parameter.
+ * ---'Show Value' parameter.
+ * ---'Show Max' parameter.
+ *
+ * Version 1.00:
+ * - Finished Plugin!
+ */
 //=============================================================================
 
 if (Imported.YEP_BattleEngineCore) {
-
   //=============================================================================
   // Parameter Variables
   //=============================================================================
 
-  Yanfly.Parameters = PluginManager.parameters('YEP_X_VisualHpGauge');
+  Yanfly.Parameters = PluginManager.parameters("YEP_X_VisualHpGauge");
   Yanfly.Param = Yanfly.Param || {};
 
-  Yanfly.Param.VHGDisplayActor = String(Yanfly.Parameters['Display Actor']);
-  Yanfly.Param.VHGDefeatFirst = String(Yanfly.Parameters['Defeat First']);
-  Yanfly.Param.VHGAlwaysShow = eval(String(Yanfly.Parameters['Always Visible']));
+  Yanfly.Param.VHGDisplayActor = String(Yanfly.Parameters["Display Actor"]);
+  Yanfly.Param.VHGDefeatFirst = String(Yanfly.Parameters["Defeat First"]);
+  Yanfly.Param.VHGAlwaysShow = eval(
+    String(Yanfly.Parameters["Always Visible"])
+  );
 
-  Yanfly.Param.VHGMinHpWidth = Number(Yanfly.Parameters['Minimum Gauge Width']);
-  Yanfly.Param.VHGGaugeHeight = Number(Yanfly.Parameters['Gauge Height']);
-  Yanfly.Param.VHGBackColor = Number(Yanfly.Parameters['Back Color']);
-  Yanfly.Param.VHGHpColor1 = Number(Yanfly.Parameters['HP Color 1']);
-  Yanfly.Param.VHGHpColor2 = Number(Yanfly.Parameters['HP Color 2']);
-  Yanfly.Param.VHGGaugeDuration = Number(Yanfly.Parameters['Gauge Duration']);
-  Yanfly.Param.VHGGaugePos = eval(String(Yanfly.Parameters['Gauge Position']));
-  Yanfly.Param.VHGBufferY = Number(Yanfly.Parameters['Y Buffer']);
-  Yanfly.Param.VHGThick = eval(String(Yanfly.Parameters['Use Thick Gauges']));
+  Yanfly.Param.VHGMinHpWidth = Number(Yanfly.Parameters["Minimum Gauge Width"]);
+  Yanfly.Param.VHGGaugeHeight = Number(Yanfly.Parameters["Gauge Height"]);
+  Yanfly.Param.VHGBackColor = Number(Yanfly.Parameters["Back Color"]);
+  Yanfly.Param.VHGHpColor1 = Number(Yanfly.Parameters["HP Color 1"]);
+  Yanfly.Param.VHGHpColor2 = Number(Yanfly.Parameters["HP Color 2"]);
+  Yanfly.Param.VHGGaugeDuration = Number(Yanfly.Parameters["Gauge Duration"]);
+  Yanfly.Param.VHGGaugePos = eval(String(Yanfly.Parameters["Gauge Position"]));
+  Yanfly.Param.VHGBufferY = Number(Yanfly.Parameters["Y Buffer"]);
+  Yanfly.Param.VHGThick = eval(String(Yanfly.Parameters["Use Thick Gauges"]));
 
-  Yanfly.Param.VHGShowHP = eval(String(Yanfly.Parameters['Show HP']));
-  Yanfly.Param.VHGShowValue = eval(String(Yanfly.Parameters['Show Value']));
-  Yanfly.Param.VHGShowMax = eval(String(Yanfly.Parameters['Show Max']));
+  Yanfly.Param.VHGShowHP = eval(String(Yanfly.Parameters["Show HP"]));
+  Yanfly.Param.VHGShowValue = eval(String(Yanfly.Parameters["Show Value"]));
+  Yanfly.Param.VHGShowMax = eval(String(Yanfly.Parameters["Show Max"]));
 
   //=============================================================================
   // DataManager
@@ -361,7 +362,7 @@ if (Imported.YEP_BattleEngineCore) {
 
   Game_Battler.prototype.hpGaugeWidth = function () {
     var width = Math.max(this.spriteWidth(), Yanfly.Param.VHGMinHpWidth);
-    return (width & 1) ? width + 1 : width;
+    return width & 1 ? width + 1 : width;
   };
 
   Game_Battler.prototype.hpGaugeHeight = function () {
@@ -399,7 +400,7 @@ if (Imported.YEP_BattleEngineCore) {
       var width = this.spriteWidth();
     }
     width = Math.max(width, Yanfly.Param.VHGMinHpWidth);
-    return (width & 1) ? width + 1 : width;
+    return width & 1 ? width + 1 : width;
   };
 
   Game_Actor.prototype.hpGaugeHeight = function () {
@@ -444,7 +445,7 @@ if (Imported.YEP_BattleEngineCore) {
       var width = this.spriteWidth();
     }
     width = Math.max(width, Yanfly.Param.VHGMinHpWidth);
-    return (width & 1) ? width + 1 : width;
+    return width & 1 ? width + 1 : width;
   };
 
   Game_Enemy.prototype.hpGaugeHeight = function () {
@@ -668,7 +669,7 @@ if (Imported.YEP_BattleEngineCore) {
       this.drawText(TextManager.hpA, x, y, 44);
     }
     if (Yanfly.Param.VHGShowValue) {
-      var val = this._displayedValue
+      var val = this._displayedValue;
       var max = actor.mhp;
       var w = width;
       var color = this.hpColor(actor);
@@ -676,13 +677,28 @@ if (Imported.YEP_BattleEngineCore) {
     }
   };
 
-  Window_VisualHPGauge.prototype.drawCurrentAndMax = function (current, max, x, y,
-    width, color1, color2) {
+  Window_VisualHPGauge.prototype.drawCurrentAndMax = function (
+    current,
+    max,
+    x,
+    y,
+    width,
+    color1,
+    color2
+  ) {
     if (Yanfly.Param.VHGShowMax) {
-      Window_Base.prototype.drawCurrentAndMax.call(this, current, max,
-        x, y, width, color1, color2);
+      Window_Base.prototype.drawCurrentAndMax.call(
+        this,
+        current,
+        max,
+        x,
+        y,
+        width,
+        color1,
+        color2
+      );
     } else {
-      var align = Yanfly.Param.VHGShowHP ? 'right' : 'center';
+      var align = Yanfly.Param.VHGShowHP ? "right" : "center";
       var text = Yanfly.Util.toGroup(current);
       this.changeTextColor(color1);
       this.drawText(text, x, y, width, align);
@@ -695,28 +711,32 @@ if (Imported.YEP_BattleEngineCore) {
   };
 
   if (Imported.YEP_CoreEngine && Yanfly.Param.VHGThick) {
-
-    Window_VisualHPGauge.prototype.drawGauge =
-      function (dx, dy, dw, rate, color1, color2) {
-        var color3 = this.gaugeBackColor();
-        var fillW = Math.floor(dw * rate).clamp(0, dw);
-        var gaugeH = this.gaugeHeight();
+    Window_VisualHPGauge.prototype.drawGauge = function (
+      dx,
+      dy,
+      dw,
+      rate,
+      color1,
+      color2
+    ) {
+      var color3 = this.gaugeBackColor();
+      var fillW = Math.floor(dw * rate).clamp(0, dw);
+      var gaugeH = this.gaugeHeight();
+      var gaugeY = dy + this.lineHeight() - gaugeH - 2;
+      if (eval(Yanfly.Param.GaugeOutline)) {
+        color3.paintOpacity = this.translucentOpacity();
+        this.contents.fillRect(dx, gaugeY, dw, gaugeH, color3);
+        dx += 2;
+        gaugeY += 2;
+        fillW = Math.max(0, fillW - 4);
+        gaugeH -= 4;
+      } else {
+        var fillW = Math.floor(dw * rate);
         var gaugeY = dy + this.lineHeight() - gaugeH - 2;
-        if (eval(Yanfly.Param.GaugeOutline)) {
-          color3.paintOpacity = this.translucentOpacity();
-          this.contents.fillRect(dx, gaugeY, dw, gaugeH, color3);
-          dx += 2;
-          gaugeY += 2;
-          fillW = Math.max(0, fillW - 4);
-          gaugeH -= 4;
-        } else {
-          var fillW = Math.floor(dw * rate);
-          var gaugeY = dy + this.lineHeight() - gaugeH - 2;
-          this.contents.fillRect(dx, gaugeY, dw, gaugeH, color3);
-        }
-        this.contents.gradientFillRect(dx, gaugeY, fillW, gaugeH, color1, color2);
-      };
-
+        this.contents.fillRect(dx, gaugeY, dw, gaugeH, color3);
+      }
+      this.contents.gradientFillRect(dx, gaugeY, fillW, gaugeH, color1, color2);
+    };
   } // Imported.YEP_CoreEngine
 
   //=============================================================================
@@ -728,10 +748,10 @@ if (Imported.YEP_BattleEngineCore) {
   if (!Yanfly.Util.toGroup) {
     Yanfly.Util.toGroup = function (inVal) {
       return inVal;
-    }
-  };
+    };
+  }
 
   //=============================================================================
   // End of File
   //=============================================================================
-};
+}

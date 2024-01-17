@@ -12,205 +12,205 @@ Yanfly.APS.version = 1.16;
 
 //=============================================================================
 /*:
-* @plugindesc v1.16 This plugin allows for some states to function as
-* passives for actors, enemies, skills, and equips.
-* @author Yanfly Engine Plugins
-*
-* @param ---Basic---
-* @default
-*
-* @param Actor Passives
-* @parent ---Basic---
-* @desc These states will always appear on actors as passives.
-* Place a space in between each state ID.
-* @default 0
-*
-* @param Enemy Passives
-* @parent ---Basic---
-* @desc These states will always appear on enemies as passives.
-* Place a space in between each state ID.
-* @default 0
-*
-* @param Global Passives
-* @parent ---Basic---
-* @desc These states will always appear on all battlers as passives.
-* Place a space in between each state ID.
-* @default 0
-*
-* @param ---List---
-* @default ...Requires RPG Maker MV 1.5.0+...
-*
-* @param Actor Passives List
-* @parent ---List---
-* @type state[]
-* @desc These states will always appear on actors as passives.
-* Use with RPG Maker MV 1.5.0+.
-* @default []
-*
-* @param Enemy Passives List
-* @parent ---List---
-* @type state[]
-* @desc These states will always appear on enemies as passives.
-* Use with RPG Maker MV 1.5.0+.
-* @default []
-*
-* @param Global Passives List
-* @parent ---List---
-* @type state[]
-* @desc These states will always appear on all battlers as passives.
-* Use with RPG Maker MV 1.5.0+.
-* @default []
-*
-* @help
-* ============================================================================
-* Introduction
-* ============================================================================
-*
-* Passive states are states that are automatically active. You can think of
-* them as an extension of traits but with more flexibility. They will always
-* be there as long as the actor or enemy has auto passive state notetags.
-*
-* ============================================================================
-* Notetags
-* ============================================================================
-*
-* For those who would like to allocate passive states to your battlers, use
-* the notetags below:
-*
-* Actor, Class, Skills, Weapon, Armor, Enemy Notetags:
-*   <Passive State: x>
-*   <Passive State: x, x, x>
-*   This will allow the actor or enemy to have state x as a passive state.
-*   If placed inside a weapon or armor notebox, the user will have that
-*   passive state.
-*
-*   <Passive State: x to y>
-*   This will add the states x through y (in a sequence) for the actor or
-*   enemy to have as a passive state. If placed inside a weapon or armor
-*   notebox, the user will have that passive state.
-*
-* For those who don't want their passive states to always be on, you can use
-* the following notetags to introduce conditions for your passive states. All
-* conditions must be fulfilled in order for the passive state to appear.
-*
-* State Notetags:
-*   <Passive Condition: HP Above x%>
-*   <Passive Condition: HP Below x%>
-*   <Passive Condition: MP Above x%>
-*   <Passive Condition: MP Below x%>
-*   If the user's HP or MP is above/below x% of the MaxHP or MaxMP, this
-*   condition will be met for the passive state to appear.
-*
-*   <Passive Condition: Stat Above x>
-*   <Passive Condition: Stat Below x>
-*   Replace 'stat' with 'HP', 'MP', 'TP', 'MAXHP', 'MAXMP', 'ATK', 'DEF',
-*   'MAT', 'MDF', 'AGI', 'LUK'. If the above stat is above/below x, then the
-*   condition is met for the passive state to appear.
-*
-*   <Passive Condition: Switch x ON>
-*   <Passive Condition: Switch x OFF>
-*   If switch x is either ON/OFF, then the condition is met for the passive
-*   state to appear.
-*
-*   <Passive Condition: Variable x Above y>
-*   <Passive Condition: Variable x Below y>
-*   Replace x with the variable you wish to check to see if it's above/below
-*   y, then the condition is met for the passive state to appear.
-*
-* ============================================================================
-* Lunatic Mode - Conditional Passives
-* ============================================================================
-*
-* For those who understand a bit of JavaScript and would like for their
-* passive states to appear under specific conditions, you can use this notetag
-* to accomplish conditional factors.
-*
-* State Notetags:
-*   <Custom Passive Condition>
-*   if (user.hp / user.mhp <= 0.25) {
-*     condition = true;
-*   } else {
-*     condition = false;
-*   }
-*   </Custom Passive Condition>
-*   This enables you to input conditions to be met in order for the passive
-*   state to appear. If the 'condition' variable returns true, the passive
-*   state will appear. If the 'condition' returns false, it won't appear. If
-*   condition is not defined, it will return true and the passive state will
-*   appear on the battler.
-*   * Note: All non-custom passive conditions must be met before this one can
-*   be fulfilled and allow the custom condition to appear.
-*   * Note: If you decide to use a condition that requires the actor to have a
-*   particular state, it cannot be a passive state to prevent infinite loops.
-*
-* ============================================================================
-* Changelog
-* ============================================================================
-*
-* Version 1.16:
-* - Bypass the isDevToolsOpen() error when bad code is inserted into a script
-* call or custom Lunatic Mode code segment due to updating to MV 1.6.1.
-*
-* Version 1.15:
-* - Bug fixed that made global passives not apply to actors.
-*
-* Version 1.14:
-* - Updated for RPG Maker MV version 1.5.0.
-* - Added parameters: Actor Passives List, Enemy Passives List, and
-*   Global Passives List
-*
-* Version 1.13:
-* - Lunatic Mode fail safes added.
-*
-* Version 1.12:
-* - Implemented <Custom Passive Condition> to now affect passive state ID's
-* added by Equip Battle Skills.
-*
-* Version 1.11:
-* - Added 'Global Passives' that encompass both actors and enemies.
-*
-* Version 1.10:
-* - Added compatibility functionality for Equip Battle Skills to add the
-* equipped passive states during battle test.
-*
-* Version 1.09:
-* - Added 'Actor Passives' and 'Enemy Passives' plugin parameters. This will
-* cause all actors and enemies respectively to be affected by the listed
-* states as passives.
-*
-* Version 1.08:
-* - Fixed conditional checks to make sure all states are being checked
-* properly without conflict with other conditional states.
-*
-* Version 1.07:
-* - Updated for RPG Maker MV version 1.1.0.
-*
-* Version 1.06:
-* - Added a mass member refresh whenever $gamePlayer is refreshed.
-*
-* Version 1.05a:
-* - Added Lunatic Mode - <Custom Passive Condition> notetag for states.
-* - Fixed a bug that would cause infinite loops.
-*
-* Version 1.04:
-* - Added a lot of passive condition notetags for states.
-* --- <Passive Condition: HP/MP Above/Below x%>
-* --- <Passive Condition: Stat Above/Below x>
-* --- <Passive Condition: Switch x ON/OFF>
-* --- <Passive Condition: Variable x Above/Below y>
-*
-* Version 1.03:
-* - Added refreshing whenever a new skill is learned to update passives.
-*
-* Version 1.02:
-* - Optimized passive state calculations to reduce lag.
-*
-* Version 1.01:
-* - Fixed a bug with having multiple passive states of the same ID.
-*
-* Version 1.00:
-* - Finished plugin!
-*/
+ * @plugindesc v1.16 This plugin allows for some states to function as
+ * passives for actors, enemies, skills, and equips.
+ * @author Yanfly Engine Plugins
+ *
+ * @param ---Basic---
+ * @default
+ *
+ * @param Actor Passives
+ * @parent ---Basic---
+ * @desc These states will always appear on actors as passives.
+ * Place a space in between each state ID.
+ * @default 0
+ *
+ * @param Enemy Passives
+ * @parent ---Basic---
+ * @desc These states will always appear on enemies as passives.
+ * Place a space in between each state ID.
+ * @default 0
+ *
+ * @param Global Passives
+ * @parent ---Basic---
+ * @desc These states will always appear on all battlers as passives.
+ * Place a space in between each state ID.
+ * @default 0
+ *
+ * @param ---List---
+ * @default ...Requires RPG Maker MV 1.5.0+...
+ *
+ * @param Actor Passives List
+ * @parent ---List---
+ * @type state[]
+ * @desc These states will always appear on actors as passives.
+ * Use with RPG Maker MV 1.5.0+.
+ * @default []
+ *
+ * @param Enemy Passives List
+ * @parent ---List---
+ * @type state[]
+ * @desc These states will always appear on enemies as passives.
+ * Use with RPG Maker MV 1.5.0+.
+ * @default []
+ *
+ * @param Global Passives List
+ * @parent ---List---
+ * @type state[]
+ * @desc These states will always appear on all battlers as passives.
+ * Use with RPG Maker MV 1.5.0+.
+ * @default []
+ *
+ * @help
+ * ============================================================================
+ * Introduction
+ * ============================================================================
+ *
+ * Passive states are states that are automatically active. You can think of
+ * them as an extension of traits but with more flexibility. They will always
+ * be there as long as the actor or enemy has auto passive state notetags.
+ *
+ * ============================================================================
+ * Notetags
+ * ============================================================================
+ *
+ * For those who would like to allocate passive states to your battlers, use
+ * the notetags below:
+ *
+ * Actor, Class, Skills, Weapon, Armor, Enemy Notetags:
+ *   <Passive State: x>
+ *   <Passive State: x, x, x>
+ *   This will allow the actor or enemy to have state x as a passive state.
+ *   If placed inside a weapon or armor notebox, the user will have that
+ *   passive state.
+ *
+ *   <Passive State: x to y>
+ *   This will add the states x through y (in a sequence) for the actor or
+ *   enemy to have as a passive state. If placed inside a weapon or armor
+ *   notebox, the user will have that passive state.
+ *
+ * For those who don't want their passive states to always be on, you can use
+ * the following notetags to introduce conditions for your passive states. All
+ * conditions must be fulfilled in order for the passive state to appear.
+ *
+ * State Notetags:
+ *   <Passive Condition: HP Above x%>
+ *   <Passive Condition: HP Below x%>
+ *   <Passive Condition: MP Above x%>
+ *   <Passive Condition: MP Below x%>
+ *   If the user's HP or MP is above/below x% of the MaxHP or MaxMP, this
+ *   condition will be met for the passive state to appear.
+ *
+ *   <Passive Condition: Stat Above x>
+ *   <Passive Condition: Stat Below x>
+ *   Replace 'stat' with 'HP', 'MP', 'TP', 'MAXHP', 'MAXMP', 'ATK', 'DEF',
+ *   'MAT', 'MDF', 'AGI', 'LUK'. If the above stat is above/below x, then the
+ *   condition is met for the passive state to appear.
+ *
+ *   <Passive Condition: Switch x ON>
+ *   <Passive Condition: Switch x OFF>
+ *   If switch x is either ON/OFF, then the condition is met for the passive
+ *   state to appear.
+ *
+ *   <Passive Condition: Variable x Above y>
+ *   <Passive Condition: Variable x Below y>
+ *   Replace x with the variable you wish to check to see if it's above/below
+ *   y, then the condition is met for the passive state to appear.
+ *
+ * ============================================================================
+ * Lunatic Mode - Conditional Passives
+ * ============================================================================
+ *
+ * For those who understand a bit of JavaScript and would like for their
+ * passive states to appear under specific conditions, you can use this notetag
+ * to accomplish conditional factors.
+ *
+ * State Notetags:
+ *   <Custom Passive Condition>
+ *   if (user.hp / user.mhp <= 0.25) {
+ *     condition = true;
+ *   } else {
+ *     condition = false;
+ *   }
+ *   </Custom Passive Condition>
+ *   This enables you to input conditions to be met in order for the passive
+ *   state to appear. If the 'condition' variable returns true, the passive
+ *   state will appear. If the 'condition' returns false, it won't appear. If
+ *   condition is not defined, it will return true and the passive state will
+ *   appear on the battler.
+ *   * Note: All non-custom passive conditions must be met before this one can
+ *   be fulfilled and allow the custom condition to appear.
+ *   * Note: If you decide to use a condition that requires the actor to have a
+ *   particular state, it cannot be a passive state to prevent infinite loops.
+ *
+ * ============================================================================
+ * Changelog
+ * ============================================================================
+ *
+ * Version 1.16:
+ * - Bypass the isDevToolsOpen() error when bad code is inserted into a script
+ * call or custom Lunatic Mode code segment due to updating to MV 1.6.1.
+ *
+ * Version 1.15:
+ * - Bug fixed that made global passives not apply to actors.
+ *
+ * Version 1.14:
+ * - Updated for RPG Maker MV version 1.5.0.
+ * - Added parameters: Actor Passives List, Enemy Passives List, and
+ *   Global Passives List
+ *
+ * Version 1.13:
+ * - Lunatic Mode fail safes added.
+ *
+ * Version 1.12:
+ * - Implemented <Custom Passive Condition> to now affect passive state ID's
+ * added by Equip Battle Skills.
+ *
+ * Version 1.11:
+ * - Added 'Global Passives' that encompass both actors and enemies.
+ *
+ * Version 1.10:
+ * - Added compatibility functionality for Equip Battle Skills to add the
+ * equipped passive states during battle test.
+ *
+ * Version 1.09:
+ * - Added 'Actor Passives' and 'Enemy Passives' plugin parameters. This will
+ * cause all actors and enemies respectively to be affected by the listed
+ * states as passives.
+ *
+ * Version 1.08:
+ * - Fixed conditional checks to make sure all states are being checked
+ * properly without conflict with other conditional states.
+ *
+ * Version 1.07:
+ * - Updated for RPG Maker MV version 1.1.0.
+ *
+ * Version 1.06:
+ * - Added a mass member refresh whenever $gamePlayer is refreshed.
+ *
+ * Version 1.05a:
+ * - Added Lunatic Mode - <Custom Passive Condition> notetag for states.
+ * - Fixed a bug that would cause infinite loops.
+ *
+ * Version 1.04:
+ * - Added a lot of passive condition notetags for states.
+ * --- <Passive Condition: HP/MP Above/Below x%>
+ * --- <Passive Condition: Stat Above/Below x>
+ * --- <Passive Condition: Switch x ON/OFF>
+ * --- <Passive Condition: Variable x Above/Below y>
+ *
+ * Version 1.03:
+ * - Added refreshing whenever a new skill is learned to update passives.
+ *
+ * Version 1.02:
+ * - Optimized passive state calculations to reduce lag.
+ *
+ * Version 1.01:
+ * - Fixed a bug with having multiple passive states of the same ID.
+ *
+ * Version 1.00:
+ * - Finished plugin!
+ */
 //=============================================================================
 
 //=============================================================================
@@ -218,42 +218,42 @@ Yanfly.APS.version = 1.16;
 //=============================================================================
 
 Yanfly.SetupParameters = function () {
-  Yanfly.Parameters = PluginManager.parameters('YEP_AutoPassiveStates');
+  Yanfly.Parameters = PluginManager.parameters("YEP_AutoPassiveStates");
   Yanfly.Param = Yanfly.Param || {};
-  Yanfly.Param.APSActorPas = String(Yanfly.Parameters['Actor Passives']);
-  Yanfly.Param.APSActorPas = Yanfly.Param.APSActorPas.split(' ');
+  Yanfly.Param.APSActorPas = String(Yanfly.Parameters["Actor Passives"]);
+  Yanfly.Param.APSActorPas = Yanfly.Param.APSActorPas.split(" ");
   for (var i = 0; i < Yanfly.Param.APSActorPas.length; ++i) {
     Yanfly.Param.APSActorPas[i] = parseInt(Yanfly.Param.APSActorPas[i]);
     Yanfly.Param.APSActorPas[i] = Yanfly.Param.APSActorPas[i] || 0;
   }
-  var data = JSON.parse(Yanfly.Parameters['Actor Passives List']);
+  var data = JSON.parse(Yanfly.Parameters["Actor Passives List"]);
   for (var i = 0; i < data.length; ++i) {
     var stateId = parseInt(data[i]);
     if (stateId <= 0) continue;
     if (Yanfly.Param.APSActorPas.contains(stateId)) continue;
     Yanfly.Param.APSActorPas.push(stateId);
   }
-  Yanfly.Param.APSEnemyPas = String(Yanfly.Parameters['Enemy Passives']);
-  Yanfly.Param.APSEnemyPas = Yanfly.Param.APSEnemyPas.split(' ');
+  Yanfly.Param.APSEnemyPas = String(Yanfly.Parameters["Enemy Passives"]);
+  Yanfly.Param.APSEnemyPas = Yanfly.Param.APSEnemyPas.split(" ");
   for (var i = 0; i < Yanfly.Param.APSEnemyPas.length; ++i) {
     Yanfly.Param.APSEnemyPas[i] = parseInt(Yanfly.Param.APSEnemyPas[i]);
     Yanfly.Param.APSEnemyPas[i] = Yanfly.Param.APSEnemyPas[i] || 0;
   }
-  var data = JSON.parse(Yanfly.Parameters['Enemy Passives List']);
+  var data = JSON.parse(Yanfly.Parameters["Enemy Passives List"]);
   for (var i = 0; i < data.length; ++i) {
     var stateId = parseInt(data[i]);
     if (stateId <= 0) continue;
     if (Yanfly.Param.APSEnemyPas.contains(stateId)) continue;
     Yanfly.Param.APSEnemyPas.push(stateId);
   }
-  Yanfly.Param.APSGlobalPas = String(Yanfly.Parameters['Global Passives']);
-  Yanfly.Param.APSGlobalPas = Yanfly.Param.APSGlobalPas.split(' ');
+  Yanfly.Param.APSGlobalPas = String(Yanfly.Parameters["Global Passives"]);
+  Yanfly.Param.APSGlobalPas = Yanfly.Param.APSGlobalPas.split(" ");
   for (var i = 0; i < Yanfly.Param.APSGlobalPas.length; ++i) {
     id = parseInt(Yanfly.Param.APSGlobalPas[i]);
     Yanfly.Param.APSActorPas.push(id);
     Yanfly.Param.APSEnemyPas.push(id);
   }
-  var data = JSON.parse(Yanfly.Parameters['Global Passives List']);
+  var data = JSON.parse(Yanfly.Parameters["Global Passives List"]);
   for (var i = 0; i < data.length; ++i) {
     var stateId = parseInt(data[i]);
     if (stateId <= 0) continue;
@@ -302,11 +302,13 @@ DataManager.processAPSNotetags1 = function (group, inheritArray) {
     for (var i = 0; i < notedata.length; i++) {
       var line = notedata[i];
       if (line.match(note1)) {
-        var array = JSON.parse('[' + RegExp.$1.match(/\d+/g) + ']');
+        var array = JSON.parse("[" + RegExp.$1.match(/\d+/g) + "]");
         obj.passiveStates = obj.passiveStates.concat(array);
       } else if (line.match(note2)) {
-        var range = Yanfly.Util.getRange(parseInt(RegExp.$1),
-          parseInt(RegExp.$2));
+        var range = Yanfly.Util.getRange(
+          parseInt(RegExp.$1),
+          parseInt(RegExp.$2)
+        );
         obj.passiveStates = obj.passiveStates.concat(range);
       }
     }
@@ -325,50 +327,50 @@ DataManager.processAPSNotetags2 = function (group) {
     var obj = group[n];
     var notedata = obj.note.split(/[\r\n]+/);
 
-    obj.passiveCondition = '';
-    obj.passiveConditionEval = '';
-    var evalMode = 'none';
+    obj.passiveCondition = "";
+    obj.passiveConditionEval = "";
+    var evalMode = "none";
 
     for (var i = 0; i < notedata.length; i++) {
       var line = notedata[i];
       if (line.match(note1a)) {
         var rate = parseFloat(RegExp.$2) * 0.01;
         var param = this.getPassiveConditionParamRate(String(RegExp.$1));
-        var pass = 'if (' + param + ' <= ' + rate + ') condition = false;';
-        obj.passiveCondition = obj.passiveCondition + pass + '\n';
+        var pass = "if (" + param + " <= " + rate + ") condition = false;";
+        obj.passiveCondition = obj.passiveCondition + pass + "\n";
       } else if (line.match(note1b)) {
         var rate = parseFloat(RegExp.$2) * 0.01;
         var param = this.getPassiveConditionParamRate(String(RegExp.$1));
-        var pass = 'if (' + param + ' >= ' + rate + ') condition = false;';
-        obj.passiveCondition = obj.passiveCondition + pass + '\n';
+        var pass = "if (" + param + " >= " + rate + ") condition = false;";
+        obj.passiveCondition = obj.passiveCondition + pass + "\n";
       } else if (line.match(note2a)) {
         var rate = parseInt(RegExp.$2);
         var param = this.getPassiveConditionParam(String(RegExp.$1));
-        var pass = 'if (' + param + ' <= ' + rate + ') condition = false;';
-        obj.passiveCondition = obj.passiveCondition + pass + '\n';
+        var pass = "if (" + param + " <= " + rate + ") condition = false;";
+        obj.passiveCondition = obj.passiveCondition + pass + "\n";
       } else if (line.match(note2b)) {
         var rate = parseInt(RegExp.$2);
         var param = this.getPassiveConditionParam(String(RegExp.$1));
-        var pass = 'if (' + param + ' >= ' + rate + ') condition = false;';
-        obj.passiveCondition = obj.passiveCondition + pass + '\n';
+        var pass = "if (" + param + " >= " + rate + ") condition = false;";
+        obj.passiveCondition = obj.passiveCondition + pass + "\n";
       } else if (line.match(note3a)) {
         var id = parseInt(RegExp.$1);
         var value = String(RegExp.$2).toUpperCase();
-        var pass = ''
-        if (['ON', 'TRUE', 'ENABLE', 'ENABLED'].contains(value)) {
-          pass = 'if (!$gameSwitches.value(' + id + ')) condition = false;'
+        var pass = "";
+        if (["ON", "TRUE", "ENABLE", "ENABLED"].contains(value)) {
+          pass = "if (!$gameSwitches.value(" + id + ")) condition = false;";
         }
-        if (['OFF', 'FALSE', 'DISABLE', 'DISABLED'].contains(value)) {
-          pass = 'if ($gameSwitches.value(' + id + ')) condition = false;'
+        if (["OFF", "FALSE", "DISABLE", "DISABLED"].contains(value)) {
+          pass = "if ($gameSwitches.value(" + id + ")) condition = false;";
         }
-        if (pass === '') continue;
-        obj.passiveCondition = obj.passiveCondition + pass + '\n';
+        if (pass === "") continue;
+        obj.passiveCondition = obj.passiveCondition + pass + "\n";
       } else if (line.match(notez1)) {
-        evalMode = 'custom passive condition';
+        evalMode = "custom passive condition";
       } else if (line.match(notez2)) {
-        evalMode = 'none';
-      } else if (evalMode === 'custom passive condition') {
-        obj.passiveConditionEval = obj.passiveConditionEval + line + '\n';
+        evalMode = "none";
+      } else if (evalMode === "custom passive condition") {
+        obj.passiveConditionEval = obj.passiveConditionEval + line + "\n";
       }
     }
   }
@@ -376,29 +378,29 @@ DataManager.processAPSNotetags2 = function (group) {
 
 DataManager.getPassiveConditionParam = function (string) {
   string = string.toUpperCase();
-  var text = 'user.';
-  if (['HP'].contains(string)) text += 'hp';
-  if (['MP', 'SP'].contains(string)) text += 'mp';
-  if (['TP'].contains(string)) text += 'tp';
-  if (['ATK'].contains(string)) text += 'param(2)';
-  if (['DEF'].contains(string)) text += 'param(3)';
-  if (['MAT', 'INT'].contains(string)) text += 'param(4)';
-  if (['MDF', 'RES'].contains(string)) text += 'param(5)';
-  if (['AGI'].contains(string)) text += 'param(6)';
-  if (['LUK'].contains(string)) text += 'param(7)';
-  if (['MAX HP', 'MAXHP'].contains(string)) text += 'mhp';
-  if (['MAX MP', 'MAX SP', 'MAXMP', 'MAXSP'].contains(string)) text += 'mmp';
+  var text = "user.";
+  if (["HP"].contains(string)) text += "hp";
+  if (["MP", "SP"].contains(string)) text += "mp";
+  if (["TP"].contains(string)) text += "tp";
+  if (["ATK"].contains(string)) text += "param(2)";
+  if (["DEF"].contains(string)) text += "param(3)";
+  if (["MAT", "INT"].contains(string)) text += "param(4)";
+  if (["MDF", "RES"].contains(string)) text += "param(5)";
+  if (["AGI"].contains(string)) text += "param(6)";
+  if (["LUK"].contains(string)) text += "param(7)";
+  if (["MAX HP", "MAXHP"].contains(string)) text += "mhp";
+  if (["MAX MP", "MAX SP", "MAXMP", "MAXSP"].contains(string)) text += "mmp";
   if (string.match(/VARIABLE[ ](\d+)/i)) {
-    text = '$gameVariables.value(' + parseInt(RegExp.$1) + ')';
+    text = "$gameVariables.value(" + parseInt(RegExp.$1) + ")";
   }
   return text;
 };
 
 DataManager.getPassiveConditionParamRate = function (string) {
   string = string.toUpperCase();
-  var text = '0';
-  if (['HP'].contains(string)) return 'user.hpRate()';
-  if (['MP'].contains(string)) return 'user.mpRate()';
+  var text = "0";
+  if (["HP"].contains(string)) return "user.hpRate()";
+  if (["MP"].contains(string)) return "user.mpRate()";
   return text;
 };
 
@@ -475,10 +477,10 @@ Game_BattlerBase.prototype.meetPassiveStateCondition = function (stateId) {
   if (this._checkPassiveStateCondition.contains(stateId)) return false;
   var state = $dataStates[stateId];
   if (!state) return false;
-  if (state.passiveCondition !== '') {
+  if (state.passiveCondition !== "") {
     if (!this.passiveStateConditions(state)) return false;
   }
-  if (state.passiveConditionEval === '') return true;
+  if (state.passiveConditionEval === "") return true;
   return this.passiveStateConditionEval(state);
 };
 
@@ -497,7 +499,7 @@ Game_BattlerBase.prototype.passiveStateConditions = function (state) {
   try {
     eval(code);
   } catch (e) {
-    Yanfly.Util.displayError(e, code, 'PASSIVE STATE CUSTOM CONDITION ERROR');
+    Yanfly.Util.displayError(e, code, "PASSIVE STATE CUSTOM CONDITION ERROR");
   }
   var index = this._checkPassiveStateCondition.indexOf(state.id);
   this._checkPassiveStateCondition.splice(index, 1);
@@ -519,7 +521,7 @@ Game_BattlerBase.prototype.passiveStateConditionEval = function (state) {
   try {
     eval(code);
   } catch (e) {
-    Yanfly.Util.displayError(e, code, 'PASSIVE STATE CUSTOM CONDITION ERROR');
+    Yanfly.Util.displayError(e, code, "PASSIVE STATE CUSTOM CONDITION ERROR");
   }
   var index = this._checkPassiveStateCondition.indexOf(state.id);
   this._checkPassiveStateCondition.splice(index, 1);
@@ -572,7 +574,7 @@ Game_Actor.prototype.passiveStatesRaw = function () {
     var skill = $dataSkills[this._skills[i]];
     array = array.concat(this.getPassiveStateData(skill));
   }
-  this._passiveStatesRaw = array.filter(Yanfly.Util.onlyUnique)
+  this._passiveStatesRaw = array.filter(Yanfly.Util.onlyUnique);
   return this._passiveStatesRaw;
 };
 
@@ -600,20 +602,20 @@ Game_Enemy.prototype.passiveStatesRaw = function () {
     var skill = this.skills()[i];
     array = array.concat(this.getPassiveStateData(skill));
   }
-  this._passiveStatesRaw = array.filter(Yanfly.Util.onlyUnique)
+  this._passiveStatesRaw = array.filter(Yanfly.Util.onlyUnique);
   return this._passiveStatesRaw;
 };
 
 if (!Game_Enemy.prototype.skills) {
   Game_Enemy.prototype.skills = function () {
-    var skills = []
+    var skills = [];
     for (var i = 0; i < this.enemy().actions.length; ++i) {
       var skill = $dataSkills[this.enemy().actions[i].skillId];
       if (skill) skills.push(skill);
     }
     return skills;
-  }
-};
+  };
+}
 
 //=============================================================================
 // Game_Unit
@@ -650,12 +652,12 @@ Yanfly.Util = Yanfly.Util || {};
 
 Yanfly.Util.displayError = function (e, code, message) {
   console.log(message);
-  console.log(code || 'NON-EXISTENT');
+  console.log(code || "NON-EXISTENT");
   console.error(e);
   if (Utils.RPGMAKER_VERSION && Utils.RPGMAKER_VERSION >= "1.6.0") return;
-  if (Utils.isNwjs() && Utils.isOptionValid('test')) {
-    if (!require('nw.gui').Window.get().isDevToolsOpen()) {
-      require('nw.gui').Window.get().showDevTools();
+  if (Utils.isNwjs() && Utils.isOptionValid("test")) {
+    if (!require("nw.gui").Window.get().isDevToolsOpen()) {
+      require("nw.gui").Window.get().showDevTools();
     }
   }
 };

@@ -96,201 +96,215 @@
  * @max 500
  * @default 0
  *
-*/
+ */
 
 var Imported = Imported || {};
 Imported.MKR_BalloonPosition = true;
 
 (function () {
-    'use strict';
+  "use strict";
 
-    const PN = "MKR_BalloonPosition";
+  const PN = "MKR_BalloonPosition";
 
-    const CheckParam = function (type, param, def, min, max) {
-        let Parameters, value;
-        Parameters = PluginManager.parameters(PN);
+  const CheckParam = function (type, param, def, min, max) {
+    let Parameters, value;
+    Parameters = PluginManager.parameters(PN);
 
-        if (arguments.length < 4) {
-            min = -Infinity;
-            max = Infinity;
+    if (arguments.length < 4) {
+      min = -Infinity;
+      max = Infinity;
+    }
+    if (arguments.length < 5) {
+      max = Infinity;
+    }
+    if (param in Parameters) {
+      value = String(Parameters[param]);
+    } else {
+      throw new Error(
+        "[CheckParam] プラグインパラメーターがありません: " + param
+      );
+    }
+
+    switch (type) {
+      case "bool":
+        if (value == "") {
+          value = def ? true : false;
         }
-        if (arguments.length < 5) {
-            max = Infinity;
-        }
-        if (param in Parameters) {
-            value = String(Parameters[param]);
+        value =
+          value.toUpperCase() === "ON" ||
+          value.toUpperCase() === "TRUE" ||
+          value.toUpperCase() === "1";
+        break;
+      case "num":
+        if (value == "") {
+          value = isFinite(def) ? parseInt(def, 10) : 0;
         } else {
-            throw new Error("[CheckParam] プラグインパラメーターがありません: " + param);
+          value = isFinite(value)
+            ? parseInt(value, 10)
+            : isFinite(def)
+            ? parseInt(def, 10)
+            : 0;
+          value = value.clamp(min, max);
         }
-
-        switch (type) {
-            case "bool":
-                if (value == "") {
-                    value = (def) ? true : false;
-                }
-                value = value.toUpperCase() === "ON" || value.toUpperCase() === "TRUE" || value.toUpperCase() === "1";
-                break;
-            case "num":
-                if (value == "") {
-                    value = (isFinite(def)) ? parseInt(def, 10) : 0;
-                } else {
-                    value = (isFinite(value)) ? parseInt(value, 10) : (isFinite(def)) ? parseInt(def, 10) : 0;
-                    value = value.clamp(min, max);
-                }
-                break;
-            case "string":
-                value = value;
-                break;
-            case "switch":
-                if (value == "") {
-                    value = (def != "") ? def : value;
-                }
-                if (!value.match(/^([A-D]|\d+)$/i)) {
-                    throw new Error("[CheckParam] " + param + "の値がスイッチではありません: " + param + " : " + value);
-                }
-                break;
-            case "select":
-                value = ConvertOption(param, value);
-                break;
-            default:
-                throw new Error("[CheckParam] " + param + "のタイプが不正です: " + type);
-                break;
+        break;
+      case "string":
+        value = value;
+        break;
+      case "switch":
+        if (value == "") {
+          value = def != "" ? def : value;
         }
-
-        return value;
-    };
-
-    const GetMeta = function (meta, name, sep) {
-        let value, values, i, count;
-        value = "";
-        values = [];
-        name = name.toLowerCase().trim();
-
-        Object.keys(meta).forEach(function (key) {
-            if (key.toLowerCase().trim() == name) {
-                value = meta[key].trim();
-                return false;
-            }
-        });
-
-        if (sep !== undefined && sep != "" && value != "") {
-            values = value.split(sep);
-            count = values.length;
-            values = values.map(function (elem) {
-                return elem.trim();
-            });
-
-            return values;
+        if (!value.match(/^([A-D]|\d+)$/i)) {
+          throw new Error(
+            "[CheckParam] " +
+              param +
+              "の値がスイッチではありません: " +
+              param +
+              " : " +
+              value
+          );
         }
+        break;
+      case "select":
+        value = ConvertOption(param, value);
+        break;
+      default:
+        throw new Error(
+          "[CheckParam] " + param + "のタイプが不正です: " + type
+        );
+        break;
+    }
 
-        return value;
-    };
+    return value;
+  };
 
-    const Params = {
-        "OffsetX": CheckParam("num", "offset_x", 0, -500, 500),
-        "OffsetY": CheckParam("num", "offset_y", 0, -500, 500),
-    };
+  const GetMeta = function (meta, name, sep) {
+    let value, values, i, count;
+    value = "";
+    values = [];
+    name = name.toLowerCase().trim();
 
+    Object.keys(meta).forEach(function (key) {
+      if (key.toLowerCase().trim() == name) {
+        value = meta[key].trim();
+        return false;
+      }
+    });
 
-    //=========================================================================
-    // Game_Interpreter
-    //  ・フキダシの表示位置情報をイベント毎に操作する処理を定義します。
-    //
-    //=========================================================================
-    Game_Interpreter.prototype.resetBalloonPosition = function (eventId) {
-        let event;
-        event = this.character(eventId);
+    if (sep !== undefined && sep != "" && value != "") {
+      values = value.split(sep);
+      count = values.length;
+      values = values.map(function (elem) {
+        return elem.trim();
+      });
 
-        if (!event) {
-            return null;
-        }
+      return values;
+    }
 
-        event.resetBalloonPosition();
-    };
+    return value;
+  };
 
-    Game_Interpreter.prototype.setBalloonPosition = function (eventId, pos) {
-        let event;
-        event = this.character(eventId);
+  const Params = {
+    OffsetX: CheckParam("num", "offset_x", 0, -500, 500),
+    OffsetY: CheckParam("num", "offset_y", 0, -500, 500),
+  };
 
-        if (!event) {
-            return null;
-        }
-        if (!pos || !('length' in pos) || pos.length != 2) {
-            return;
-        }
+  //=========================================================================
+  // Game_Interpreter
+  //  ・フキダシの表示位置情報をイベント毎に操作する処理を定義します。
+  //
+  //=========================================================================
+  Game_Interpreter.prototype.resetBalloonPosition = function (eventId) {
+    let event;
+    event = this.character(eventId);
 
-        event.setBalloonPosition(pos);
-    };
+    if (!event) {
+      return null;
+    }
 
-    Game_Interpreter.prototype.balloonPosition = function (eventId) {
-        let event;
-        event = this.character(eventId);
+    event.resetBalloonPosition();
+  };
 
-        if (!event) {
-            return null;
-        }
+  Game_Interpreter.prototype.setBalloonPosition = function (eventId, pos) {
+    let event;
+    event = this.character(eventId);
 
-        return event.balloonPosition();
-    };
+    if (!event) {
+      return null;
+    }
+    if (!pos || !("length" in pos) || pos.length != 2) {
+      return;
+    }
 
+    event.setBalloonPosition(pos);
+  };
 
-    //=========================================================================
-    // Game_Character
-    //  ・フキダシの表示位置情報を保持する変数を定義します。
-    //
-    //=========================================================================
-    const _Game_Character_initMembers = Game_Character.prototype.initMembers;
-    Game_Character.prototype.initMembers = function () {
-        _Game_Character_initMembers.call(this);
-        this._balloonPosition = null;
-    };
+  Game_Interpreter.prototype.balloonPosition = function (eventId) {
+    let event;
+    event = this.character(eventId);
 
-    Game_Character.prototype.resetBalloonPosition = function () {
-        this._balloonPosition = null;
-    };
+    if (!event) {
+      return null;
+    }
 
-    Game_Character.prototype.setBalloonPosition = function (pos) {
-        this._balloonPosition = { x: pos[0], y: pos[1] };
-    };
+    return event.balloonPosition();
+  };
 
-    Game_Character.prototype.balloonPosition = function () {
-        return this._balloonPosition;
-    };
+  //=========================================================================
+  // Game_Character
+  //  ・フキダシの表示位置情報を保持する変数を定義します。
+  //
+  //=========================================================================
+  const _Game_Character_initMembers = Game_Character.prototype.initMembers;
+  Game_Character.prototype.initMembers = function () {
+    _Game_Character_initMembers.call(this);
+    this._balloonPosition = null;
+  };
 
+  Game_Character.prototype.resetBalloonPosition = function () {
+    this._balloonPosition = null;
+  };
 
-    //=========================================================================
-    // Sprite_Character
-    //  ・フキダシの表示位置を再定義します。
-    //
-    //=========================================================================
-    const _Sprite_Character_updateBalloon = Sprite_Character.prototype.updateBalloon;
-    Sprite_Character.prototype.updateBalloon = function () {
-        _Sprite_Character_updateBalloon.call(this);
+  Game_Character.prototype.setBalloonPosition = function (pos) {
+    this._balloonPosition = { x: pos[0], y: pos[1] };
+  };
 
-        let chara, offsetX, offsetY, metas, pos;
-        offsetX = Params.OffsetX;
-        offsetY = Params.OffsetY;
+  Game_Character.prototype.balloonPosition = function () {
+    return this._balloonPosition;
+  };
 
-        if (this._character.constructor == Game_Event) {
-            chara = this._character;
-            metas = GetMeta(chara.event().meta, "balloon", ",");
-            if (metas) {
-                offsetX = isFinite(metas[0]) ? parseInt(metas[0], 10) : offsetX;
-                offsetY = isFinite(metas[1]) ? parseInt(metas[1], 10) : offsetY;
-            }
-        }
+  //=========================================================================
+  // Sprite_Character
+  //  ・フキダシの表示位置を再定義します。
+  //
+  //=========================================================================
+  const _Sprite_Character_updateBalloon =
+    Sprite_Character.prototype.updateBalloon;
+  Sprite_Character.prototype.updateBalloon = function () {
+    _Sprite_Character_updateBalloon.call(this);
 
-        pos = this._character.balloonPosition();
-        if (pos != null) {
-            offsetX = isFinite(pos.x) ? parseInt(pos.x, 10) : offsetX;
-            offsetY = isFinite(pos.y) ? parseInt(pos.y, 10) : offsetX;
-        }
+    let chara, offsetX, offsetY, metas, pos;
+    offsetX = Params.OffsetX;
+    offsetY = Params.OffsetY;
 
-        if (this._balloonSprite) {
-            this._balloonSprite.x = this.x + offsetX;
-            this._balloonSprite.y = this.y - this.height + offsetY;
-        }
-    };
+    if (this._character.constructor == Game_Event) {
+      chara = this._character;
+      metas = GetMeta(chara.event().meta, "balloon", ",");
+      if (metas) {
+        offsetX = isFinite(metas[0]) ? parseInt(metas[0], 10) : offsetX;
+        offsetY = isFinite(metas[1]) ? parseInt(metas[1], 10) : offsetY;
+      }
+    }
 
+    pos = this._character.balloonPosition();
+    if (pos != null) {
+      offsetX = isFinite(pos.x) ? parseInt(pos.x, 10) : offsetX;
+      offsetY = isFinite(pos.y) ? parseInt(pos.y, 10) : offsetX;
+    }
 
+    if (this._balloonSprite) {
+      this._balloonSprite.x = this.x + offsetX;
+      this._balloonSprite.y = this.y - this.height + offsetY;
+    }
+  };
 })();

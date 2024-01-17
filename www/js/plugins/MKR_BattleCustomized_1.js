@@ -60,75 +60,73 @@
  *     ご了承ください。
  *
  * ==============================================================================
-*/
+ */
 
 var Imported = Imported || {};
 Imported.MKR_BattleCustomized_1 = true;
 
 (function () {
-    'use strict';
+  "use strict";
 
-    // const PN = "MKR_BattleCustomized_1";
+  // const PN = "MKR_BattleCustomized_1";
 
-    //=========================================================================
-    // Sprite_Actor
-    //  ・アクター前進処理を再定義します。
-    //
-    //=========================================================================
-    const _Sprite_Actor_updateTargetPosition = Sprite_Actor.prototype.updateTargetPosition;
-    Sprite_Actor.prototype.updateTargetPosition = function () {
-        _Sprite_Actor_updateTargetPosition.call(this);
-        if (this._actor.isInputting()) {
-            this.stepBack();
-        } else if (this._actor.isActing()) {
-            this.stepForward();
-        } else if (this._actor.canMove() && BattleManager.isEscaped()) {
-            this.retreat();
-        } else if (!this.inHomePosition()) {
-            this.stepBack();
-        }
-    };
+  //=========================================================================
+  // Sprite_Actor
+  //  ・アクター前進処理を再定義します。
+  //
+  //=========================================================================
+  const _Sprite_Actor_updateTargetPosition =
+    Sprite_Actor.prototype.updateTargetPosition;
+  Sprite_Actor.prototype.updateTargetPosition = function () {
+    _Sprite_Actor_updateTargetPosition.call(this);
+    if (this._actor.isInputting()) {
+      this.stepBack();
+    } else if (this._actor.isActing()) {
+      this.stepForward();
+    } else if (this._actor.canMove() && BattleManager.isEscaped()) {
+      this.retreat();
+    } else if (!this.inHomePosition()) {
+      this.stepBack();
+    }
+  };
 
+  //=========================================================================
+  // BattleManager
+  //  ・YEP_BattleEngineCore.js併用時にアクターが前進してしまうため再定義
+  //
+  //=========================================================================
+  const _BattleManager_changeActor = BattleManager.changeActor;
+  BattleManager.changeActor = function (newActorIndex, lastActorActionState) {
+    _BattleManager_changeActor.apply(this, arguments);
 
-    //=========================================================================
-    // BattleManager
-    //  ・YEP_BattleEngineCore.js併用時にアクターが前進してしまうため再定義
-    //
-    //=========================================================================
-    const _BattleManager_changeActor = BattleManager.changeActor;
-    BattleManager.changeActor = function (newActorIndex, lastActorActionState) {
-        _BattleManager_changeActor.apply(this, arguments);
+    if (Imported.YEP_BattleEngineCore) {
+      this._actorIndex = newActorIndex;
+      let newActor = this.actor();
+      if (newActor) {
+        newActor.spriteReturnHome();
+      }
+    }
+  };
 
-        if (Imported.YEP_BattleEngineCore) {
-            this._actorIndex = newActorIndex;
-            let newActor = this.actor();
-            if (newActor) {
-                newActor.spriteReturnHome();
-            }
-        }
-    };
-
-
-    //=========================================================================
-    // Scene_Battle
-    //  ・YEP_X_BattleSysATB.js / YEP_X_BattleSysCTB.js併用時に
-    //    アクターが前進してしまうため再定義
-    //
-    //=========================================================================
-    const _Scene_Battle_startActorCommandSelection = Scene_Battle.prototype.startActorCommandSelection;
-    Scene_Battle.prototype.startActorCommandSelection = function () {
-        _Scene_Battle_startActorCommandSelection.call(this);
-        if (Imported.YEP_X_BattleSysATB) {
-            if (BattleManager.isATB()) {
-                BattleManager.actor().spriteReturnHome();
-            }
-        }
-        if (Imported.YEP_X_BattleSysCTB) {
-            if (BattleManager.isCTB()) {
-                BattleManager.actor().spriteReturnHome();
-            }
-        }
-    };
-
-
+  //=========================================================================
+  // Scene_Battle
+  //  ・YEP_X_BattleSysATB.js / YEP_X_BattleSysCTB.js併用時に
+  //    アクターが前進してしまうため再定義
+  //
+  //=========================================================================
+  const _Scene_Battle_startActorCommandSelection =
+    Scene_Battle.prototype.startActorCommandSelection;
+  Scene_Battle.prototype.startActorCommandSelection = function () {
+    _Scene_Battle_startActorCommandSelection.call(this);
+    if (Imported.YEP_X_BattleSysATB) {
+      if (BattleManager.isATB()) {
+        BattleManager.actor().spriteReturnHome();
+      }
+    }
+    if (Imported.YEP_X_BattleSysCTB) {
+      if (BattleManager.isCTB()) {
+        BattleManager.actor().spriteReturnHome();
+      }
+    }
+  };
 })();

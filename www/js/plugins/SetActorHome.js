@@ -34,11 +34,11 @@
  */
 
 (function () {
-    var parameters = PluginManager.parameters('SetActorHome');
-    var homeX = parameters['Home X'];
-    var homeY = parameters['Home Y'];
+  var parameters = PluginManager.parameters("SetActorHome");
+  var homeX = parameters["Home X"];
+  var homeY = parameters["Home Y"];
 
-    Sprite_Actor.prototype.setActorHome = function (index) {
-        this.setHome(eval(homeX), eval(homeY));
-    };
-}());
+  Sprite_Actor.prototype.setActorHome = function (index) {
+    this.setHome(eval(homeX), eval(homeY));
+  };
+})();

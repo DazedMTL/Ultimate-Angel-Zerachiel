@@ -11,7 +11,7 @@
 
 /*:
  * @plugindesc お金以外にアイテムも要求されるショップ機能を追加します。
- * 
+ *
  * @author tomoaky (http://hikimoki.sakura.ne.jp/)
  *
  * @param materialWindowPosition
@@ -30,7 +30,7 @@
  * @desc 素材ウィンドウの幅
  * 初期値: 408
  * @default 408
- * 
+ *
  * @param buyWindowWidth
  * @type number
  * @desc 購入ウィンドウの幅
@@ -48,7 +48,7 @@
  * @desc 設定できる素材の最大数。
  * 初期値: 5
  * @default 5
- * 
+ *
  * @param fontRate
  * @type number
  * @decimals 2
@@ -59,43 +59,43 @@
  * @desc 欲張りショップの購入コマンド名。
  * 初期値: 購入する
  * @default 購入する
- * 
+ *
  * @param needText
  * @desc 素材一覧のトップに表示するテキスト
  * ( 何も設定しなければ省略 )
  * @default 必要なもの
- * 
+ *
  * @param showSellCommand
  * @type boolean
  * @desc 購入のみの場合にも売却コマンドを表示する。
  * @default true
- * 
+ *
  * @param showMaterialWindow
  * @type boolean
  * @desc 素材ウィンドウを表示する。
  * @default true
- * 
+ *
  * @param overlaid
  * @type boolean
  * @desc 素材ウィンドウを他のウィンドウと違うレイヤーに表示する。
  * 四隅が欠ける問題は解決しますが、可読性は低下します。
  * @default true
- * 
+ *
  * @param backOpacity
  * @type number
  * @desc 素材ウィンドウの背景の不透明度
  * @default 192
- * 
+ *
  * @param showMaterialFromNumberWindow
  * @type boolean
  * @desc 個数選択ウィンドウに素材情報を表示する。
  * @default true
- * 
+ *
  * @param showPrice
  * @type boolean
  * @desc 商品ウィンドウに価格を表示する。
  * @default true
- * 
+ *
  * @param seGreedBuy
  * @type struct<SoundEffect>
  * @desc 欲張りショップで購入時に鳴らす効果音
@@ -103,36 +103,36 @@
  *
  * @help
  * TMPlugin - 欲張りショップ ver2.2.0
- * 
+ *
  * 使い方:
- * 
+ *
  *   アイテム、武器、防具にメモ欄タグ（後述）を使って素材を設定します。
- * 
+ *
  *   イベントコマンド『プラグインコマンド』で greedShop を実行し、
  *   直後にイベントコマンド『ショップの処理』で、素材を設定したアイテムを
  *   商品として販売してください。
- * 
+ *
  *   このプラグインは RPGツクールMV Version 1.6.1 で動作確認をしています。
  *
- *  
+ *
  * プラグインコマンド:
- * 
+ *
  *   greedShop
  *     このコマンドが実行された直後にショップの処理を
  *     実行することで欲張りショップになります。
- * 
+ *
  *   greedCommand 買っちゃう
  *     欲張りショップの購入コマンド名を『買っちゃう』に変更します。
  *     この変更はセーブデータには保存されません。
  *
- * 
+ *
  * メモ欄タグ（アイテム、武器、防具）:
- * 
+ *
  *   <mat1:I1*3>
  *     お金以外にアイテム１番が３個必要になります。
  *     mat2, mat3... と素材を追加していくことができます。
  *     I の部分が W なら武器、A なら防具になります。
- * 
+ *
  *   <matKey:1>
  *     mat1 タグに設定されている素材をキー素材として扱います。
  *     キー素材を所持していない場合、商品リストから除外されます。
@@ -140,14 +140,14 @@
  *     設定することもできます。（この場合、mat1 と mat2 がキー素材になる）
  *     このタグを使うことで、レシピを所持していないと
  *     ショップに並ばない商品などを表現することができます。
- * 
+ *
  *   <matG:50>
  *     価格を50に設定します、この設定は欲張りショップが
  *     有効になっている場合にのみ購入価格として反映されます。
  *
- * 
+ *
  * メモ欄タグ（武器、防具）:
- * 
+ *
  *   <noConsume>
  *     このタグを指定した武器、防具は素材として設定しても
  *     消費されなくなります。
@@ -161,7 +161,7 @@
  * @type file
  * @dir audio/se/
  * @desc 効果音のファイル名
- * @default 
+ * @default
  * @require 1
  *
  * @param volume
@@ -189,28 +189,30 @@
  *
  */
 
-
 var Imported = Imported || {};
 Imported.TMGreedShop = true;
 
 (function () {
-
-  var parameters = PluginManager.parameters('TMGreedShop');
-  var materialWindowPosition = +(parameters['materialWindowPosition'] || 0);
-  var materialWindowWidth = +(parameters['materialWindowWidth'] || 408);
-  var buyWindowWidth = +(parameters['buyWindowWidth'] || 456);
-  var buyWindowHeight = +(parameters['buyWindowHeight'] || 0);
-  var materialMax = +(parameters['materialMax'] || 5);
-  var fontRate = +(parameters['fontRate'] || 0.8);
-  var greedCommand = parameters['greedCommand'] || '購入する';
-  var needText = parameters['needText'] || '';
-  var showSellCommand = JSON.parse(parameters['showSellCommand'] || 'true');
-  var showMaterialWindow = JSON.parse(parameters['showMaterialWindow'] || 'true');
-  var overlaid = JSON.parse(parameters['overlaid'] || 'true');
-  var backOpacity = +(parameters['backOpacity'] || 192);
-  var showMaterialFromNumberWindow = JSON.parse(parameters['showMaterialFromNumberWindow'] || 'true');
-  var showPrice = JSON.parse(parameters['showPrice'] || 'true');
-  var seGreedBuy = JSON.parse(parameters['seGreedBuy'] || '{}');
+  var parameters = PluginManager.parameters("TMGreedShop");
+  var materialWindowPosition = +(parameters["materialWindowPosition"] || 0);
+  var materialWindowWidth = +(parameters["materialWindowWidth"] || 408);
+  var buyWindowWidth = +(parameters["buyWindowWidth"] || 456);
+  var buyWindowHeight = +(parameters["buyWindowHeight"] || 0);
+  var materialMax = +(parameters["materialMax"] || 5);
+  var fontRate = +(parameters["fontRate"] || 0.8);
+  var greedCommand = parameters["greedCommand"] || "購入する";
+  var needText = parameters["needText"] || "";
+  var showSellCommand = JSON.parse(parameters["showSellCommand"] || "true");
+  var showMaterialWindow = JSON.parse(
+    parameters["showMaterialWindow"] || "true"
+  );
+  var overlaid = JSON.parse(parameters["overlaid"] || "true");
+  var backOpacity = +(parameters["backOpacity"] || 192);
+  var showMaterialFromNumberWindow = JSON.parse(
+    parameters["showMaterialFromNumberWindow"] || "true"
+  );
+  var showPrice = JSON.parse(parameters["showPrice"] || "true");
+  var seGreedBuy = JSON.parse(parameters["seGreedBuy"] || "{}");
 
   //-----------------------------------------------------------------------------
   // DataManager
@@ -221,7 +223,7 @@ Imported.TMGreedShop = true;
     if (item) {
       var re = /(i|w|a)(\d+)\*(\d+)/i;
       for (var i = 1; i <= materialMax; i++) {
-        var key = 'mat' + i;
+        var key = "mat" + i;
         if (item.meta[key]) {
           var match = re.exec(item.meta[key]);
           if (match) {
@@ -239,11 +241,11 @@ Imported.TMGreedShop = true;
 
   DataManager.materialToItem = function (material) {
     var type = material.type.toUpperCase();
-    if (type === 'I') {
+    if (type === "I") {
       return $dataItems[material.id];
-    } else if (type === 'W') {
+    } else if (type === "W") {
       return $dataWeapons[material.id];
-    } else if (type === 'A') {
+    } else if (type === "A") {
       return $dataArmors[material.id];
     }
     return null;
@@ -259,8 +261,10 @@ Imported.TMGreedShop = true;
 
   Game_Party.prototype.numItemsWithEquips = function (item) {
     const numItems = this.numItems(item);
-    const equips = [].concat(...$gameParty.members().map(member => member.equips()));
-    const numEquips = equips.filter(equip => equip && equip === item).length;
+    const equips = [].concat(
+      ...$gameParty.members().map((member) => member.equips())
+    );
+    const numEquips = equips.filter((equip) => equip && equip === item).length;
     return numItems + numEquips;
   };
 
@@ -288,12 +292,13 @@ Imported.TMGreedShop = true;
   // Game_Interpreter
   //
 
-  var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'greedShop') {
+    if (command === "greedShop") {
       $gameTemp.setGreedShop(true);
-    } else if (command === 'greedCommand') {
+    } else if (command === "greedCommand") {
       $gameTemp.setGreedCommand(args[0]);
     }
   };
@@ -303,7 +308,13 @@ Imported.TMGreedShop = true;
   //
 
   // 素材リストの描画
-  Window_Base.prototype.drawGreedMaterials = function (x, y, item, amount, rate) {
+  Window_Base.prototype.drawGreedMaterials = function (
+    x,
+    y,
+    item,
+    amount,
+    rate
+  ) {
     var materials = DataManager.getGreedShopMaterials(item);
     this.resetFontSettings();
     this.contents.fontSize = Math.floor(this.contents.fontSize * rate);
@@ -323,32 +334,47 @@ Imported.TMGreedShop = true;
   Window_Base.prototype.drawGreedNeedText = function (y, rate) {
     var lh = Math.floor(this.lineHeight() * rate);
     this.changeTextColor(this.systemColor());
-    this.contents.drawText(needText, 0, y, this.contents.width, lh, 'center');
+    this.contents.drawText(needText, 0, y, this.contents.width, lh, "center");
     return y + lh;
   };
 
   // 素材の描画
-  Window_Base.prototype.drawGreedMaterial = function (x, y, material, amount, rate) {
+  Window_Base.prototype.drawGreedMaterial = function (
+    x,
+    y,
+    material,
+    amount,
+    rate
+  ) {
     var x2 = x + Math.floor((Window_Base._iconWidth + 4) * rate);
     var lh = Math.floor(this.lineHeight() * rate);
     var materialItem = DataManager.materialToItem(material);
     var need = material.need * amount;
     var n = $gameParty.numItemsWithEquips(materialItem);
-    var text = DataManager.isConsumableMaterial(materialItem) ? '' + n + '/' : '--/';
-    text += ('   ' + need).substr(-3);
+    var text = DataManager.isConsumableMaterial(materialItem)
+      ? "" + n + "/"
+      : "--/";
+    text += ("   " + need).substr(-3);
     this.drawStretchIcon(x, y, materialItem.iconIndex, rate);
     this.changeTextColor(this.normalColor());
     this.contents.drawText(materialItem.name, x2, y, 312, lh);
-    this.contents.drawText(text, x, y, this.contents.width - this.textPadding(), lh, 'right');
+    this.contents.drawText(
+      text,
+      x,
+      y,
+      this.contents.width - this.textPadding(),
+      lh,
+      "right"
+    );
     return y + lh;
   };
 
   // 拡大率を指定したアイコン描画
   Window_Base.prototype.drawStretchIcon = function (x, y, index, rate) {
-    var bitmap = ImageManager.loadSystem('IconSet');
+    var bitmap = ImageManager.loadSystem("IconSet");
     var pw = Window_Base._iconWidth;
     var ph = Window_Base._iconHeight;
-    var sx = index % 16 * pw;
+    var sx = (index % 16) * pw;
     var sy = Math.floor(index / 16) * ph;
     var dw = Math.floor(pw * rate);
     var dh = Math.floor(ph * rate);
@@ -362,9 +388,23 @@ Imported.TMGreedShop = true;
     var width = this.contents.width - x * 2;
     var unitWidth = Math.min(80, this.textWidth(TextManager.currencyUnit));
     this.resetTextColor();
-    this.contents.drawText(this._price * amount, x, y, width - unitWidth - 6, lh, 'right');
+    this.contents.drawText(
+      this._price * amount,
+      x,
+      y,
+      width - unitWidth - 6,
+      lh,
+      "right"
+    );
     this.changeTextColor(this.systemColor());
-    this.contents.drawText(TextManager.currencyUnit, x + width - unitWidth, y, unitWidth, lh, 'right');
+    this.contents.drawText(
+      TextManager.currencyUnit,
+      x + width - unitWidth,
+      y,
+      unitWidth,
+      lh,
+      "right"
+    );
   };
 
   //-----------------------------------------------------------------------------
@@ -374,18 +414,21 @@ Imported.TMGreedShop = true;
   // 売却コマンドを表示するかどうかで列数を変更する
   var _Window_ShopCommand_maxCols = Window_ShopCommand.prototype.maxCols;
   Window_ShopCommand.prototype.maxCols = function () {
-    return (showSellCommand || !this._purchaseOnly) ? _Window_ShopCommand_maxCols.call(this) : 2;
+    return showSellCommand || !this._purchaseOnly
+      ? _Window_ShopCommand_maxCols.call(this)
+      : 2;
   };
 
   // 欲張りショップならば専用のコマンドリストを作成する
-  var _Window_ShopCommand_makeCommandList = Window_ShopCommand.prototype.makeCommandList;
+  var _Window_ShopCommand_makeCommandList =
+    Window_ShopCommand.prototype.makeCommandList;
   Window_ShopCommand.prototype.makeCommandList = function () {
     if ($gameTemp.isGreedShop()) {
-      this.addCommand($gameTemp.greedCommand(), 'buy');
+      this.addCommand($gameTemp.greedCommand(), "buy");
       if (showSellCommand || !this._purchaseOnly) {
-        this.addCommand(TextManager.sell, 'sell', !this._purchaseOnly);
+        this.addCommand(TextManager.sell, "sell", !this._purchaseOnly);
       }
-      this.addCommand(TextManager.cancel, 'cancel');
+      this.addCommand(TextManager.cancel, "cancel");
     } else {
       _Window_ShopCommand_makeCommandList.call(this);
     }
@@ -413,7 +456,7 @@ Imported.TMGreedShop = true;
 
   var _Window_ShopBuy_price = Window_ShopBuy.prototype.price;
   Window_ShopBuy.prototype.price = function (item) {
-    if ($gameTemp.isGreedShop() && (item && item.meta.matG)) {
+    if ($gameTemp.isGreedShop() && item && item.meta.matG) {
       return +item.meta.matG;
     }
     return _Window_ShopBuy_price.call(this, item);
@@ -446,7 +489,7 @@ Imported.TMGreedShop = true;
 
   Window_ShopBuy.prototype.setMaterialWindowPosition = function () {
     switch (materialWindowPosition) {
-      case 0:  // 商品名の下
+      case 0: // 商品名の下
         //↓ 20230917 koke Mod
         // var x = this.x + this.width / 2;
         // var y = this.y + this.padding;
@@ -463,25 +506,37 @@ Imported.TMGreedShop = true;
         this._materialWindow.y = y;
         //↑ 20230917 koke Mod
         break;
-      case 1:  // 商品名の右
+      case 1: // 商品名の右
         var x = this.x + this.width - this.padding;
         var y = this.y + this.padding;
         var lineHeight = this.lineHeight();
         y += (this.index() - this.topRow()) * lineHeight;
         this._materialWindow.x = x;
         this._materialWindow.y = y;
-        if (this._materialWindow.y + this._materialWindow.height > Graphics.boxHeight) {
-          this._materialWindow.y = Graphics.boxHeight - this._materialWindow.height;
+        if (
+          this._materialWindow.y + this._materialWindow.height >
+          Graphics.boxHeight
+        ) {
+          this._materialWindow.y =
+            Graphics.boxHeight - this._materialWindow.height;
         }
-        if (this._materialWindow.x + this._materialWindow.width > Graphics.boxWidth) {
-          this._materialWindow.x = Graphics.boxWidth - this._materialWindow.width;
+        if (
+          this._materialWindow.x + this._materialWindow.width >
+          Graphics.boxWidth
+        ) {
+          this._materialWindow.x =
+            Graphics.boxWidth - this._materialWindow.width;
         }
         break;
-      case 2:  // 購入ウィンドウの下
+      case 2: // 購入ウィンドウの下
         this._materialWindow.x = this.x;
         this._materialWindow.y = this.y + this.height;
-        if (this._materialWindow.y + this._materialWindow.height > Graphics.boxHeight) {
-          this._materialWindow.y = Graphics.boxHeight - this._materialWindow.height;
+        if (
+          this._materialWindow.y + this._materialWindow.height >
+          Graphics.boxHeight
+        ) {
+          this._materialWindow.y =
+            Graphics.boxHeight - this._materialWindow.height;
         }
         break;
     }
@@ -495,7 +550,7 @@ Imported.TMGreedShop = true;
       var item = this._data[i];
       if (item && item.meta.matKey) {
         var materials = DataManager.getGreedShopMaterials(item);
-        var keys = item.meta.matKey.split(' ').map(Number);
+        var keys = item.meta.matKey.split(" ").map(Number);
         for (var j = 0; j < keys.length; j++) {
           var material = materials[keys[j] - 1];
           var matItem = DataManager.materialToItem(material);
@@ -543,12 +598,19 @@ Imported.TMGreedShop = true;
   Window_ShopNumber.prototype.refresh = function () {
     _Window_ShopNumber_refresh.call(this);
     if ($gameTemp.isGreedShop() && showMaterialFromNumberWindow) {
-      this.drawGreedMaterials(0, this.lineHeight() * 2, this._item, this._number, fontRate);
+      this.drawGreedMaterials(
+        0,
+        this.lineHeight() * 2,
+        this._item,
+        this._number,
+        fontRate
+      );
     }
   };
 
-  // 欲張りショップの場合は価格表示を素材リストに任せる  
-  var _Window_ShopNumber_drawTotalPrice = Window_ShopNumber.prototype.drawTotalPrice;
+  // 欲張りショップの場合は価格表示を素材リストに任せる
+  var _Window_ShopNumber_drawTotalPrice =
+    Window_ShopNumber.prototype.drawTotalPrice;
   Window_ShopNumber.prototype.drawTotalPrice = function () {
     if (!$gameTemp.isGreedShop()) {
       _Window_ShopNumber_drawTotalPrice.call(this);
@@ -574,8 +636,10 @@ Imported.TMGreedShop = true;
   var _Window_ShopNumber_buttonY = Window_ShopNumber.prototype.buttonY;
   Window_ShopNumber.prototype.buttonY = function () {
     if ($gameTemp.isGreedShop() && showMaterialFromNumberWindow) {
-      return Math.min(this.priceY() + this.lineHeight() * (materialMax + 3),
-        this.contents.height - this.lineHeight());
+      return Math.min(
+        this.priceY() + this.lineHeight() * (materialMax + 3),
+        this.contents.height - this.lineHeight()
+      );
     }
     return _Window_ShopNumber_buttonY.call(this);
   };
@@ -707,7 +771,10 @@ Imported.TMGreedShop = true;
 
   var _Scene_Shop_onNumberOk = Scene_Shop.prototype.onNumberOk;
   Scene_Shop.prototype.onNumberOk = function () {
-    if ($gameTemp.isGreedShop() && this._commandWindow.currentSymbol() === 'buy') {
+    if (
+      $gameTemp.isGreedShop() &&
+      this._commandWindow.currentSymbol() === "buy"
+    ) {
       AudioManager.playSe(seGreedBuy);
       this.doBuy(this._numberWindow.number());
       this.endNumberInput();
@@ -758,5 +825,4 @@ Imported.TMGreedShop = true;
       this._materialWindow.show();
     }
   };
-
 })();
