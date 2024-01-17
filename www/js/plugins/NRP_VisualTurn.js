@@ -1849,11 +1849,11 @@
   };
 
   /**-------------------------------------------------------------
-     * ●以下、状況によってCTBウィンドウの表示・非表示を切り替える。
-     *--------------------------------------------------------------/
-    /**
-     * ●パーティコマンド選択開始
-     */
+ * ●以下、状況によってCTBウィンドウの表示・非表示を切り替える。
+ *--------------------------------------------------------------/
+/**
+ * ●パーティコマンド選択開始
+ */
   var _Scene_Battle_prototype_startPartyCommandSelection =
     Scene_Battle.prototype.startPartyCommandSelection;
   Scene_Battle.prototype.startPartyCommandSelection = function () {

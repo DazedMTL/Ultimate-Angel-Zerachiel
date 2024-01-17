@@ -4243,7 +4243,7 @@
         ],
         "iconIndex": 376,
         "name": "Megalodon",
-        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w8*10>\n<mat2:I29*5>",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w8*5>\n<mat2:I29*3>",
         "params": [
             0,
             0,
@@ -4440,8 +4440,8 @@
             }
         ],
         "iconIndex": 377,
-        "name": "★Asylum Custom",
-        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w10*1>\n<mat2:i29*15>\n\n<skill_id:294> ",
+        "name": "★アサイラム・カスタム",
+        "note": "<itemCategory:\\I[755]Weapon>\n\n<mat1:w10*1>\n<mat2:i29*3>\n\n<skill_id:294> ",
         "params": [
             0,
             0,

@@ -713,16 +713,16 @@ Imported.TMGreedShop = true;
     this.createContents();
     this.drawGreedMaterials(0, 0, this._shopItem, 1, fontRate);
     /*    for (var i = 0; i < this._materials.length; i++) {
-          var material = this._materials[i];
-          var item = DataManager.materialToItem(material);
-          var need = material.need;
-          var n = $gameParty.numItems(item);
-          this.changePaintOpacity(n >= need);
-          this.drawItemName(item, 0, this.lineHeight() * i);
-          var text = DataManager.isConsumableMaterial(item) ? '' + n + '/' : '--/';
-          text += ('   ' + need).substr(-3);
-          this.drawText(text, 0, this.lineHeight() * i, this.contents.width, 'right');
-        }*/
+      var material = this._materials[i];
+      var item = DataManager.materialToItem(material);
+      var need = material.need;
+      var n = $gameParty.numItems(item);
+      this.changePaintOpacity(n >= need);
+      this.drawItemName(item, 0, this.lineHeight() * i);
+      var text = DataManager.isConsumableMaterial(item) ? '' + n + '/' : '--/';
+      text += ('   ' + need).substr(-3);
+      this.drawText(text, 0, this.lineHeight() * i, this.contents.width, 'right');
+    }*/
   };
 
   //-----------------------------------------------------------------------------

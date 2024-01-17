@@ -141,7 +141,7 @@
     ],
     "optDisplayTp": false,
     "optDrawTitle": false,
-    "optExtraExp": false,
+    "optExtraExp": true,
     "optFloorDeath": false,
     "optFollowers": false,
     "optSideView": true,
@@ -437,7 +437,7 @@
         "Sub_冒険者",
         "エルン登場",
         "クリア_ララ再加入",
-        "",
+        "船上のルル",
         "",
         "",
         "",
@@ -775,17 +775,6 @@
     },
     "testBattlers": [
         {
-            "actorId": 1,
-            "equips": [
-                2,
-                0,
-                0,
-                0,
-                0
-            ],
-            "level": 5
-        },
-        {
             "actorId": 8,
             "equips": [
                 0,
@@ -794,18 +783,7 @@
                 0,
                 0
             ],
-            "level": 1
-        },
-        {
-            "actorId": 7,
-            "equips": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "level": 1
+            "level": 60
         },
         {
             "actorId": 15,
@@ -817,6 +795,28 @@
                 0
             ],
             "level": 1
+        },
+        {
+            "actorId": 0,
+            "equips": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "level": 60
+        },
+        {
+            "actorId": 0,
+            "equips": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "level": 60
         }
     ],
     "testTroopId": 1,
@@ -929,9 +929,19 @@
         "Icon_17",
         "Icon_18",
         "Icon_19",
-        "Icon_20"
+        "Icon_20",
+        "キャラクターのレベル",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ],
-    "versionId": 55174413,
+    "versionId": 19052705,
     "victoryMe": {
         "name": "Victory",
         "pan": 0,
@@ -956,5 +966,5 @@
     ],
     "hasEncryptedImages": true,
     "hasEncryptedAudio": true,
-    "encryptionKey": "e93f31bd97b60ca8a84677546051539c"
+    "encryptionKey": "f1a91c6cbdd17e5930e539517350bbe8"
 }

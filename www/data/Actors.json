@@ -249,6 +249,11 @@
                 "code": 23,
                 "dataId": 3,
                 "value": 1.5
+            },
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
             }
         ],
         "initialLevel": 1,
@@ -287,6 +292,11 @@
             {
                 "code": 64,
                 "dataId": 2,
+                "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 24,
                 "value": 1
             }
         ],

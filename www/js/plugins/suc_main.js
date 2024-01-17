@@ -264,51 +264,51 @@
 //=========================================================================
 /*~struct~BattleActorParam:
 
-* @param _scale
-* @desc Spineモデルのスケールを調整します。
-* @type number
+ * @param _scale
+ * @desc Spineモデルのスケールを調整します。
+ * @type number
 
-* @param _skins
-* @desc スキン
-* @type string[]
+ * @param _skins
+ * @desc スキン
+ * @type string[]
 
-* @param _animIdle
-* @desc 待機アニメーション
-* @param _animUseItem
-* @desc カード・アイテム使用時アニメーション
-* @type string[]
-* @param _animDash
-* @desc ダッシュアニメーション
-* @param _animDamage
-* @desc ダメージ時アニメーション
-* @param _animBattleEndWin
-* @desc 戦闘勝利時アニメーション
-* @param _animBattleEndLose
-* @desc 戦闘敗北時アニメーション
+ * @param _animIdle
+ * @desc 待機アニメーション
+ * @param _animUseItem
+ * @desc カード・アイテム使用時アニメーション
+ * @type string[]
+ * @param _animDash
+ * @desc ダッシュアニメーション
+ * @param _animDamage
+ * @desc ダメージ時アニメーション
+ * @param _animBattleEndWin
+ * @desc 戦闘勝利時アニメーション
+ * @param _animBattleEndLose
+ * @desc 戦闘敗北時アニメーション
 
-* @param _varIdxCurrentActorState
-* @desc 現在のアクタの状態を格納する変数のインデクス。
-* @type number
-* @min 1
-* @default 70
+ * @param _varIdxCurrentActorState
+ * @desc 現在のアクタの状態を格納する変数のインデクス。
+ * @type number
+ * @min 1
+ * @default 70
 
-* @param _varIdxCurrentEnemyType
-* @desc 現在のエロ攻撃対象の敵のタイプが格納される変数のインデクス。敵のタイプは敵キャラのメモで定義する。
-* @type number
-* @min 1
-* @default 71
+ * @param _varIdxCurrentEnemyType
+ * @desc 現在のエロ攻撃対象の敵のタイプが格納される変数のインデクス。敵のタイプは敵キャラのメモで定義する。
+ * @type number
+ * @min 1
+ * @default 71
 
-* @param _varIdxCurrentSkillId
-* @desc 現在の実行スキルID
-* @type number
-* @min 1
-* @default 72
+ * @param _varIdxCurrentSkillId
+ * @desc 現在の実行スキルID
+ * @type number
+ * @min 1
+ * @default 72
 
-* @param _antialias
-* @type boolean
-* @default false
+ * @param _antialias
+ * @type boolean
+ * @default false
 
-*/
+ */
 //=========================================================================
 /*~struct~AtlasAnimationParam:
  *
@@ -329,233 +329,233 @@
  */
 //=========================================================================
 /*~struct~CharaImageParam:
-*
-* @param _posChara
-* @desc 右キャラクタの位置　移動元X, 移動元Y, 移動先X, 移動先Y
-* @type number[]
-* @default [1000, 0, 850, 0]
+ *
+ * @param _posChara
+ * @desc 右キャラクタの位置　移動元X, 移動元Y, 移動先X, 移動先Y
+ * @type number[]
+ * @default [1000, 0, 850, 0]
 
-* @param _scaleChara
-* @desc 右キャラクタのスケール
-* @type number
-* @default 0.5
+ * @param _scaleChara
+ * @desc 右キャラクタのスケール
+ * @type number
+ * @default 0.5
 
-* @param _spineName
-* @desc 右キャラクタのSpineファイル名
-* @default battle
+ * @param _spineName
+ * @desc 右キャラクタのSpineファイル名
+ * @default battle
 
-* @param _skinsNormal
-* @desc 右キャラクタのSpineスキン名(通常時) [0]=100-60％, [1]=59-30%, [2]=29-0%
-* @type string[]
-* @param _skinsTransform
-* @desc 右キャラクタのSpineスキン名(変身時) [0]=100-60％, [1]=59-30%, [2]=29-0%
-* @type string[]
+ * @param _skinsNormal
+ * @desc 右キャラクタのSpineスキン名(通常時) [0]=100-60％, [1]=59-30%, [2]=29-0%
+ * @type string[]
+ * @param _skinsTransform
+ * @desc 右キャラクタのSpineスキン名(変身時) [0]=100-60％, [1]=59-30%, [2]=29-0%
+ * @type string[]
 
-* @param _animAndAtcmSetNormal100
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　100%時
-* @type string[]
-* @default ["p/battle","怒り"]
+ * @param _animAndAtcmSetNormal100
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　100%時
+ * @type string[]
+ * @default ["p/battle","怒り"]
  
-* @param _animAndAtcmSetNormal70
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　70-99%時
-* @type string[]
-* @default ["p/hatena","エロ微笑み"]
+ * @param _animAndAtcmSetNormal70
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　70-99%時
+ * @type string[]
+ * @default ["p/hatena","エロ微笑み"]
  
-* @param _animAndAtcmSetNormal50
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　50-69%時
-* @type string[]
-* @default ["p/hatena_R","照れ不満"]
+ * @param _animAndAtcmSetNormal50
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　50-69%時
+ * @type string[]
+ * @default ["p/hatena_R","照れ不満"]
  
-* @param _animAndAtcmSetNormal30
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　30-49%時
-* @type string[]
-* @default ["p/tukare","ベロ出し"]
+ * @param _animAndAtcmSetNormal30
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　30-49%時
+ * @type string[]
+ * @default ["p/tukare","ベロ出し"]
  
-* @param _animAndAtcmSetNormal0
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　0-29%時
-* @type string[]
-* @default ["p/hiki","照れ"],["p/sakyu","サキュ"]
+ * @param _animAndAtcmSetNormal0
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 通常時ランダム　0-29%時
+ * @type string[]
+ * @default ["p/hiki","照れ"],["p/sakyu","サキュ"]
  
-* @param _animAndAtcmSetTransform100
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　100%時
-* @type string[]
+ * @param _animAndAtcmSetTransform100
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　100%時
+ * @type string[]
  
-* @param _animAndAtcmSetTransform70
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　70-99%時
-* @type string[]
+ * @param _animAndAtcmSetTransform70
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　70-99%時
+ * @type string[]
  
-* @param _animAndAtcmSetTransform50
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　50-69%時
-* @type string[]
+ * @param _animAndAtcmSetTransform50
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　50-69%時
+ * @type string[]
  
-* @param _animAndAtcmSetTransform30
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　30-49%時
-* @type string[]
+ * @param _animAndAtcmSetTransform30
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　30-49%時
+ * @type string[]
  
-* @param _animAndAtcmSetTransform0
-* @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　0-29%時
-* @type string[]
+ * @param _animAndAtcmSetTransform0
+ * @desc 右立ち絵キャラクタのアニメーション・アタッチメントセット名 変身時ランダム　0-29%時
+ * @type string[]
 
-* @param _antialias
-* @type boolean
-* @default false
+ * @param _antialias
+ * @type boolean
+ * @default false
 
-*/
+ */
 //=========================================================================
 /*~struct~CameraParam:
-*
-* @param _propDefault
-* @desc デフォルト時のカメラプロパティ　[X位置, Y位置, スケール]
-* @type number[]
-* @default [0, 0, 1]
+ *
+ * @param _propDefault
+ * @desc デフォルト時のカメラプロパティ　[X位置, Y位置, スケール]
+ * @type number[]
+ * @default [0, 0, 1]
 
-* @param _propPlayerTurn
-* @desc 味方ターン時のカメラプロパティ　[X位置, Y位置, スケール]
-* @type number[]
-* @default [50, 0, 1.1]
+ * @param _propPlayerTurn
+ * @desc 味方ターン時のカメラプロパティ　[X位置, Y位置, スケール]
+ * @type number[]
+ * @default [50, 0, 1.1]
 
-* @param _propEnemyTurn
-* @desc 敵ターン時のカメラプロパティ　[X位置, Y位置, スケール]
-* @type number[]
-* @default [-50, 0, 1.1]
+ * @param _propEnemyTurn
+ * @desc 敵ターン時のカメラプロパティ　[X位置, Y位置, スケール]
+ * @type number[]
+ * @default [-50, 0, 1.1]
 
-* @param _propBattleEnd
-* @desc デフォルト時のカメラプロパティ　[X位置, Y位置, スケール]
-* @type number[]
-* @default [110, 0, 1.5]
+ * @param _propBattleEnd
+ * @desc デフォルト時のカメラプロパティ　[X位置, Y位置, スケール]
+ * @type number[]
+ * @default [110, 0, 1.5]
 
-* @param _calcFrame
-* @desc lerp計算フレーム
-* @type number
-* @default 150
+ * @param _calcFrame
+ * @desc lerp計算フレーム
+ * @type number
+ * @default 150
 
-* @param _moveT
-* @desc カメラの移動係数 0-1で設定する
-* @type number
-* @default 0.1
+ * @param _moveT
+ * @desc カメラの移動係数 0-1で設定する
+ * @type number
+ * @default 0.1
 
-* @param _moveWeightBack
-* @desc スクロール処理に対する遠景のスクロール量のウェイト　0が通常
-* @type number
-* @default 0.1
+ * @param _moveWeightBack
+ * @desc スクロール処理に対する遠景のスクロール量のウェイト　0が通常
+ * @type number
+ * @default 0.1
 
-* @param _scaleWeightBack
-* @desc ズーム処理に対する近景のスケール量のウェイト　0が通常
-* @type number
-* @default 0.5
+ * @param _scaleWeightBack
+ * @desc ズーム処理に対する近景のスケール量のウェイト　0が通常
+ * @type number
+ * @default 0.5
 
-* @param _moveWeightFront
-* @desc スクロール処理に対する近景のスクロール量のウェイト　0が通常
-* @type number
-* @default 0.5
+ * @param _moveWeightFront
+ * @desc スクロール処理に対する近景のスクロール量のウェイト　0が通常
+ * @type number
+ * @default 0.5
 
-* @param _scaleWeightFront
-* @desc ズーム処理に対する近景のスケール量のウェイト　0が通常
-* @type number
-* @default 2
+ * @param _scaleWeightFront
+ * @desc ズーム処理に対する近景のスケール量のウェイト　0が通常
+ * @type number
+ * @default 2
 
-* @param _cameraShakeDefault
-* @desc デフォルト時のカメラシェイク値
-* @type number[]
-* @default [0.005, 10]
+ * @param _cameraShakeDefault
+ * @desc デフォルト時のカメラシェイク値
+ * @type number[]
+ * @default [0.005, 10]
 
-* @param _cameraShakeDamage
-* @desc ダメージ時のカメラシェイク値
-* @type number[]
-* @default [400, 200, 12]
+ * @param _cameraShakeDamage
+ * @desc ダメージ時のカメラシェイク値
+ * @type number[]
+ * @default [400, 200, 12]
 
-*/
+ */
 //=========================================================================
 /*~struct~CardInfo:
-*
-* @param _on
-* @desc 有効化
-* @type boolean
-* @default false
-*
-* @param _forceUseDeck
-* @desc 常にdeckファイルを使用する
-* @type boolean
-* @default true
-*
-* @param _handCount
-* @desc デフォルトハンド数
-* @type Number
-* @default 5
-*
-* @param _cardSpacing
-* @desc カードとカードの間隔（3.141592 で約90度）
-* @type Number
-* @default 0.2
-*
-* @param _cardArrowSpacing
-* @desc 矢印とカードの間隔（3.141592 で約90度）
-* @type Number
-* @default 0.2
-*
-* @param _pos
-* @desc カードの位置
-* @type Number[]
-* @default [0, 600]
+ *
+ * @param _on
+ * @desc 有効化
+ * @type boolean
+ * @default false
+ *
+ * @param _forceUseDeck
+ * @desc 常にdeckファイルを使用する
+ * @type boolean
+ * @default true
+ *
+ * @param _handCount
+ * @desc デフォルトハンド数
+ * @type Number
+ * @default 5
+ *
+ * @param _cardSpacing
+ * @desc カードとカードの間隔（3.141592 で約90度）
+ * @type Number
+ * @default 0.2
+ *
+ * @param _cardArrowSpacing
+ * @desc 矢印とカードの間隔（3.141592 で約90度）
+ * @type Number
+ * @default 0.2
+ *
+ * @param _pos
+ * @desc カードの位置
+ * @type Number[]
+ * @default [0, 600]
 
-* @param _posOfs
-* @desc カードの位置オフセット
-* @type Number[]
-* @default [100, 15]
+ * @param _posOfs
+ * @desc カードの位置オフセット
+ * @type Number[]
+ * @default [100, 15]
 
-* @param _posOfs2
-* @desc カードの位置オフセット2 選択時に横に動く量
-* @type Number
-* @default 60
+ * @param _posOfs2
+ * @desc カードの位置オフセット2 選択時に横に動く量
+ * @type Number
+ * @default 60
 
-* @param _posOfs3
-* @desc カードの位置オフセット3  選択時に上に動く量
-* @type Number
-* @default -100
+ * @param _posOfs3
+ * @desc カードの位置オフセット3  選択時に上に動く量
+ * @type Number
+ * @default -100
 
-* @param _rotOfsMax
-* @desc カードの最大角度オフセット
-* @type Number
-* @default 16
+ * @param _rotOfsMax
+ * @desc カードの最大角度オフセット
+ * @type Number
+ * @default 16
 
-* @param _posTp
-* @desc TPの位置, width, 
-* @type number[]
-* @default [850, 500, 64]
+ * @param _posTp
+ * @desc TPの位置, width, 
+ * @type number[]
+ * @default [850, 500, 64]
 
-* @param _fontInfoName
-* @desc カードのタイトル　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
-* @type string[]
-* @default ["NotoSansJP-Bold","40","25","125","0","center","13","#fff3ca","5","rgb(0, 0, 0)"]
+ * @param _fontInfoName
+ * @desc カードのタイトル　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
+ * @type string[]
+ * @default ["NotoSansJP-Bold","40","25","125","0","center","13","#fff3ca","5","rgb(0, 0, 0)"]
 
-* @param _fontInfoCost
-* @desc カードのコスト　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
-* @type string[]
-* @default ["NotoSansJP-Bold","14","8","14","28","center","28","#ff0000","4","rgb(0, 0, 0)"]
+ * @param _fontInfoCost
+ * @desc カードのコスト　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
+ * @type string[]
+ * @default ["NotoSansJP-Bold","14","8","14","28","center","28","#ff0000","4","rgb(0, 0, 0)"]
 
-* @param _fontInfoDesc
-* @desc カードの説明文　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
-* @type string[]
-* @default ["NotoSansJP-Light","14","110","-","-","-","12","#ffffff","4","rgb(0, 0, 0)"]
-*/
+ * @param _fontInfoDesc
+ * @desc カードの説明文　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
+ * @type string[]
+ * @default ["NotoSansJP-Light","14","110","-","-","-","12","#ffffff","4","rgb(0, 0, 0)"]
+ */
 //=========================================================================
 /*~struct~DescriptionWindow:
-*
-* @param _cardDescWindowWidth
-* @desc カードの横に表示されるウィンドウの横幅 #175
-* @type number
-* @default 175
+ *
+ * @param _cardDescWindowWidth
+ * @desc カードの横に表示されるウィンドウの横幅 #175
+ * @type number
+ * @default 175
 
-* @param _cardDescWindowOffset
-* @desc カードの横に表示されるウィンドウのオフセットXY #[80, -120]
-* @type number[]
-* @default [80, -120]
+ * @param _cardDescWindowOffset
+ * @desc カードの横に表示されるウィンドウのオフセットXY #[80, -120]
+ * @type number[]
+ * @default [80, -120]
 
-* @param _fontInfo
-* @desc フォント設定　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
-* @type string[]
-* @default ["GameFont","0","2","-","-","-","14","#ffffff","4","rgb(0, 0, 0)"]
-*/
+ * @param _fontInfo
+ * @desc フォント設定　　参照フォント名（fontsフォルダに入ってるもの）,位置X, 位置Y, width, lineheight,align,テキストサイズ,テキスト色,アウトラインサイズ, アウトライン色
+ * @type string[]
+ * @default ["GameFont","0","2","-","-","-","14","#ffffff","4","rgb(0, 0, 0)"]
+ */
 
 Imported = Imported || {};
 Imported.nnfs = true;

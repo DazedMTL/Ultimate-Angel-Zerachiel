@@ -159,40 +159,40 @@ var SoR = SoR || {};
   };
 
   /*
-	Window_PartyCommand.prototype.drawItem = function(index) {
-		const rect = this.itemRectForText(index);
-		const align = this.itemTextAlign();
-		this.resetTextColor();
-		this.changePaintOpacity(this.isCommandEnabled(index));
-		this.drawText(this.commandName(index), rect.x, rect.y, rect.width, 'center');
-	}
-	
-	
-	if(IsActorStatusPositionAdjust){
-		Scene_Battle.prototype.updateWindowPositions = function() {
-			let statusX;
-	
-			if(IsActorStatusPositionFixed) statusX = Graphics.boxWidth/2 - this._statusWindow.width/2;
-			else{
-				if (BattleManager.isInputting() && this._actorCommandWindow.openness > 0) {
-				statusX = this._actorCommandWindow.width;
-				}
-				else statusX = Graphics.boxWidth/2 - this._statusWindow.width/2;
+Window_PartyCommand.prototype.drawItem = function(index) {
+    const rect = this.itemRectForText(index);
+    const align = this.itemTextAlign();
+    this.resetTextColor();
+    this.changePaintOpacity(this.isCommandEnabled(index));
+    this.drawText(this.commandName(index), rect.x, rect.y, rect.width, 'center');
+}
+
+
+if(IsActorStatusPositionAdjust){
+	Scene_Battle.prototype.updateWindowPositions = function() {
+		let statusX;
+
+		if(IsActorStatusPositionFixed) statusX = Graphics.boxWidth/2 - this._statusWindow.width/2;
+		else{
+			if (BattleManager.isInputting() && this._actorCommandWindow.openness > 0) {
+			statusX = this._actorCommandWindow.width;
 			}
-			
-			if (this._statusWindow.x < statusX) {
-				this._statusWindow.x += 16;
-				if (this._statusWindow.x > statusX) {
-					this._statusWindow.x = statusX;
-				}
-			}
-			if (this._statusWindow.x > statusX) {
-				this._statusWindow.x -= 16;
-				if (this._statusWindow.x < statusX) {
-					this._statusWindow.x = statusX;
-				}
-			}	
+			else statusX = Graphics.boxWidth/2 - this._statusWindow.width/2;
 		}
+		
+		if (this._statusWindow.x < statusX) {
+			this._statusWindow.x += 16;
+			if (this._statusWindow.x > statusX) {
+				this._statusWindow.x = statusX;
+			}
+		}
+		if (this._statusWindow.x > statusX) {
+			this._statusWindow.x -= 16;
+			if (this._statusWindow.x < statusX) {
+				this._statusWindow.x = statusX;
+			}
+		}	
 	}
-	*/
+}
+*/
 })();
