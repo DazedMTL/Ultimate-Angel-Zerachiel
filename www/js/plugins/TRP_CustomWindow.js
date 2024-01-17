@@ -323,7 +323,7 @@ function Game_WindowSetting() {
   };
 
   /* update
-	===================================*/
+===================================*/
   Game_CustomWindows.prototype.update = function () {
     var windowIds = this._windowIds;
     var length = windowIds.length;
@@ -335,7 +335,7 @@ function Game_WindowSetting() {
   };
 
   /* interpret command
-	===================================*/
+===================================*/
   Game_CustomWindows.prototype.processCommand = function (args) {
     var i, length;
     var command = args.shift().toLowerCase();
@@ -391,7 +391,7 @@ function Game_WindowSetting() {
   };
 
   /* create
-	===================================*/
+===================================*/
   Game_CustomWindows.prototype.commandCreateWindow = function (args) {
     var id = supplementDef(0, args[0]);
     var width = supplementDefNum(0, args[1]);
@@ -411,7 +411,7 @@ function Game_WindowSetting() {
   };
 
   /* show & hide
-	===================================*/
+===================================*/
   Game_CustomWindows.prototype.commandShow = function (args) {
     var id = supplementDef(0, args[0]);
     var setting = this.settingWithCheckingError(id);
@@ -499,7 +499,7 @@ function Game_WindowSetting() {
   };
 
   /* move
-	===================================*/
+===================================*/
   Game_CustomWindows.prototype.commandMove = function (args) {
     var id = supplementDef(0, args[0]);
     var setting = this.settingWithCheckingError(id);
@@ -522,7 +522,7 @@ function Game_WindowSetting() {
   };
 
   /* parts
-	===================================*/
+===================================*/
   Game_CustomWindows.prototype.commandCreateParts = function (args) {
     var partsId = supplementDef(0, args.shift());
     var type = PARTS_TYPE[supplementDef(PARTS_TYPE.text, args.shift())];
@@ -602,7 +602,7 @@ function Game_WindowSetting() {
   };
 
   /* accessor
-	===================================*/
+===================================*/
   Game_CustomWindows.prototype.settingWithCheckingError = function (id) {
     var setting = this.setting(id);
     if (!setting) {
@@ -653,7 +653,7 @@ function Game_WindowSetting() {
   };
 
   /* update
-	===================================*/
+===================================*/
   Game_WindowSetting.prototype.update = function () {
     //udpate move
     if (this._moving) {
@@ -664,7 +664,7 @@ function Game_WindowSetting() {
   };
 
   /* show & hide
-	===================================*/
+===================================*/
   Game_WindowSetting.prototype.show = function (x, y) {
     this._showing = true;
     this._x = supplement(this._x, x);
@@ -675,7 +675,7 @@ function Game_WindowSetting() {
   };
 
   /* parts
-	===================================*/
+===================================*/
   Game_WindowSetting.prototype.registerParts = function (
     partsId,
     x,
@@ -759,7 +759,7 @@ function Game_WindowSetting() {
   };
 
   /* move
-	===================================*/
+===================================*/
   Game_WindowSetting.prototype.move = function (x, y, duration, relative) {
     if (relative) {
       if (this._moving) {
@@ -799,7 +799,7 @@ function Game_WindowSetting() {
   };
 
   /* accessor
-	===================================*/
+===================================*/
   Game_WindowSetting.prototype.x = function () {
     return this._x;
   };
@@ -950,7 +950,7 @@ function Game_WindowSetting() {
   };
 
   /* parts
-	===================================*/
+===================================*/
   Window_TrpCustom.prototype.initAllParts = function () {
     this.contents.clear();
 
@@ -1177,7 +1177,7 @@ function Game_WindowSetting() {
   };
 
   /* observers
-	===================================*/
+===================================*/
   Window_TrpCustom.prototype.registerVariableObserver = function (
     variableId,
     partsIndex
@@ -1227,7 +1227,7 @@ function Game_WindowSetting() {
   };
 
   /* update
-	===================================*/
+===================================*/
   Window_TrpCustom.prototype.update = function () {
     Window_Base.prototype.update.call(this);
 
@@ -1347,7 +1347,7 @@ function Game_WindowSetting() {
   };
 
   /* accessor
-	===================================*/
+===================================*/
   Window_TrpCustom.prototype.isUnderPicture = function () {
     return this._setting.isUnderPicture();
   };

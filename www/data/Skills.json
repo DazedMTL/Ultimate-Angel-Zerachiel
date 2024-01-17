@@ -595,7 +595,7 @@
         "damage": {
             "critical": false,
             "elementId": 1,
-            "formula": "(a.atk * 2 - b.def)",
+            "formula": "(a.atk * 4 - b.def)",
             "type": 1,
             "variance": 10
         },
@@ -1848,14 +1848,7 @@
             "variance": 20
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 24,
-                "value1": 0.5,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 0,
         "iconIndex": 594,
         "message1": "",
@@ -2585,7 +2578,7 @@
             {
                 "code": 21,
                 "dataId": 25,
-                "value1": 0.5,
+                "value1": 0.25,
                 "value2": 0
             }
         ],
@@ -3330,7 +3323,7 @@
             {
                 "code": 21,
                 "dataId": 25,
-                "value1": 0.75,
+                "value1": 0.25,
                 "value2": 0
             }
         ],
@@ -3363,14 +3356,7 @@
             "variance": 20
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 25,
-                "value1": 1,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 1,
         "iconIndex": 33,
         "message1": "",
@@ -4169,7 +4155,7 @@
             {
                 "code": 21,
                 "dataId": 23,
-                "value1": 0.75,
+                "value1": 0.25,
                 "value2": 0
             }
         ],
@@ -4507,14 +4493,7 @@
             "variance": 20
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 25,
-                "value1": 1,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 1,
         "iconIndex": 33,
         "message1": "",
@@ -4585,7 +4564,7 @@
             {
                 "code": 21,
                 "dataId": 25,
-                "value1": 0.75,
+                "value1": 0.25,
                 "value2": 0
             }
         ],
@@ -4622,7 +4601,7 @@
             {
                 "code": 21,
                 "dataId": 25,
-                "value1": 0.75,
+                "value1": 0.25,
                 "value2": 0
             }
         ],
@@ -5142,7 +5121,7 @@
             {
                 "code": 21,
                 "dataId": 25,
-                "value1": 0.5,
+                "value1": 0.25,
                 "value2": 0
             }
         ],
@@ -5175,14 +5154,7 @@
             "variance": 20
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 25,
-                "value1": 0.75,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 1,
         "iconIndex": 33,
         "message1": "",
@@ -5237,7 +5209,7 @@
         "damage": {
             "critical": false,
             "elementId": 1,
-            "formula": "(a.atk * 4 - b.def * 2) * 0.1",
+            "formula": "(a.atk * 4 - b.def * 2) * 0.15",
             "type": 1,
             "variance": 10
         },
@@ -5254,7 +5226,7 @@
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 5,
+        "scope": 1,
         "speed": 0,
         "stypeId": 3,
         "successRate": 100,
@@ -5455,7 +5427,7 @@
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 5,
+        "scope": 1,
         "speed": 0,
         "stypeId": 0,
         "successRate": 100,
@@ -5770,14 +5742,7 @@
             "variance": 3
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 24,
-                "value1": 0.5,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 0,
         "iconIndex": 304,
         "message1": "",
@@ -5789,7 +5754,7 @@
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 3,
+        "scope": 1,
         "speed": 0,
         "stypeId": 1,
         "successRate": 100,
@@ -6087,14 +6052,7 @@
             "variance": 5
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 24,
-                "value1": 0.25,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 0,
         "iconIndex": 304,
         "message1": "",
@@ -6106,7 +6064,7 @@
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 4,
+        "scope": 1,
         "speed": 0,
         "stypeId": 1,
         "successRate": 100,
@@ -6230,7 +6188,7 @@
         "damage": {
             "critical": false,
             "elementId": 1,
-            "formula": "(a.atk * 4 - b.def * 2) * 0.1",
+            "formula": "(a.atk * 4 - b.def * 2) * 0.15",
             "type": 1,
             "variance": 10
         },
@@ -6263,7 +6221,7 @@
         "name": "神殺しの槍",
         "note": "",
         "occasion": 0,
-        "repeats": 2,
+        "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
         "scope": 2,
@@ -6284,14 +6242,7 @@
             "variance": 5
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 24,
-                "value1": 0.25,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 0,
         "iconIndex": 304,
         "message1": "",
@@ -6303,7 +6254,7 @@
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 6,
+        "scope": 2,
         "speed": 0,
         "stypeId": 1,
         "successRate": 100,
@@ -6382,20 +6333,13 @@
         "animationId": 221,
         "damage": {
             "critical": false,
-            "elementId": 0,
-            "formula": "(b.mmp * 0.8)",
+            "elementId": 2,
+            "formula": "(b.mmp * 0.25)",
             "type": 2,
             "variance": 5
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 23,
-                "value1": 0.5,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 0,
         "iconIndex": 595,
         "message1": "",
@@ -6481,7 +6425,7 @@
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 6,
+        "scope": 1,
         "speed": 0,
         "stypeId": 1,
         "successRate": 100,
@@ -6686,14 +6630,7 @@
             "variance": 20
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 22,
-                "value1": 1,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 1,
         "iconIndex": 32,
         "message1": "",
@@ -6723,14 +6660,7 @@
             "variance": 20
         },
         "description": "",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 22,
-                "value1": 1,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 1,
         "iconIndex": 32,
         "message1": "",
@@ -6859,7 +6789,7 @@
         "damage": {
             "critical": false,
             "elementId": 1,
-            "formula": "(a.atk * 2 - b.def) * 0.5",
+            "formula": "(a.atk * 2 - b.def) * 0.4",
             "type": 1,
             "variance": 5
         },
@@ -6883,7 +6813,7 @@
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 5,
+        "scope": 2,
         "speed": 0,
         "stypeId": 1,
         "successRate": 100,
@@ -6963,19 +6893,12 @@
         "damage": {
             "critical": true,
             "elementId": 1,
-            "formula": "(a.atk * 4 - b.def * 2) * 0.25",
+            "formula": "(a.atk * 4 - b.def * 2) * 0.15",
             "type": 1,
             "variance": 20
         },
         "description": "ここを見た方へ\nララ特攻にしたら怒られたのでやめました。",
-        "effects": [
-            {
-                "code": 21,
-                "dataId": 6,
-                "value1": 1,
-                "value2": 0
-            }
-        ],
+        "effects": [],
         "hitType": 1,
         "iconIndex": 681,
         "message1": "",
@@ -9486,33 +9409,40 @@
     },
     {
         "id": 290,
-        "animationId": 0,
+        "animationId": 128,
         "damage": {
             "critical": false,
             "elementId": 0,
-            "formula": "0",
+            "formula": "",
             "type": 0,
             "variance": 20
         },
-        "description": "",
-        "effects": [],
+        "description": "\\I[693] \\c[6]単体\\c[0] 一定時間、魔術による被ダメージを減少させる。\n",
+        "effects": [
+            {
+                "code": 21,
+                "dataId": 12,
+                "value1": 1,
+                "value2": 0
+            }
+        ],
         "hitType": 0,
-        "iconIndex": 0,
+        "iconIndex": 606,
         "message1": "",
         "message2": "",
         "mpCost": 0,
-        "name": "",
-        "note": "",
-        "occasion": 0,
+        "name": "レジスト",
+        "note": "<target action>\nperform start\nwait for movement\n</target action>\n\n<whole action>\nmotion Item: User\naction animation: target\naction effect\n</whole action>\n\n<follow action>\nwait for animation\n</follow action>",
+        "occasion": 1,
         "repeats": 1,
         "requiredWtypeId1": 0,
         "requiredWtypeId2": 0,
-        "scope": 1,
+        "scope": 7,
         "speed": 0,
         "stypeId": 1,
         "successRate": 100,
         "tpCost": 0,
-        "tpGain": 0
+        "tpGain": 4
     },
     {
         "id": 291,
@@ -9949,6 +9879,80 @@
     },
     {
         "id": 303,
+        "animationId": 126,
+        "damage": {
+            "critical": false,
+            "elementId": 0,
+            "formula": "",
+            "type": 0,
+            "variance": 20
+        },
+        "description": "\\I[691] \\c[6]単体\\c[0] 一定時間、物理による被ダメージを減少させる。\n",
+        "effects": [
+            {
+                "code": 21,
+                "dataId": 11,
+                "value1": 1,
+                "value2": 0
+            }
+        ],
+        "hitType": 0,
+        "iconIndex": 606,
+        "message1": "",
+        "message2": "",
+        "mpCost": 0,
+        "name": "プロテクション",
+        "note": "<target action>\nperform start\nwait for movement\n</target action>\n\n<whole action>\nmotion Item: User\naction animation: target\naction effect\n</whole action>\n\n<follow action>\nwait for animation\n</follow action>",
+        "occasion": 1,
+        "repeats": 1,
+        "requiredWtypeId1": 0,
+        "requiredWtypeId2": 0,
+        "scope": 7,
+        "speed": 0,
+        "stypeId": 1,
+        "successRate": 100,
+        "tpCost": 0,
+        "tpGain": 4
+    },
+    {
+        "id": 304,
+        "animationId": 128,
+        "damage": {
+            "critical": false,
+            "elementId": 0,
+            "formula": "",
+            "type": 0,
+            "variance": 20
+        },
+        "description": "\\I[693] \\c[6]単体\\c[0] 一定時間、魔術による被ダメージを減少させる。\n",
+        "effects": [
+            {
+                "code": 21,
+                "dataId": 12,
+                "value1": 1,
+                "value2": 0
+            }
+        ],
+        "hitType": 0,
+        "iconIndex": 606,
+        "message1": "",
+        "message2": "",
+        "mpCost": 0,
+        "name": "レジスト",
+        "note": "<target action>\nperform start\nwait for movement\n</target action>\n\n<whole action>\nmotion Item: User\naction animation: target\naction effect\n</whole action>\n\n<follow action>\nwait for animation\n</follow action>",
+        "occasion": 1,
+        "repeats": 1,
+        "requiredWtypeId1": 0,
+        "requiredWtypeId2": 0,
+        "scope": 7,
+        "speed": 0,
+        "stypeId": 1,
+        "successRate": 100,
+        "tpCost": 0,
+        "tpGain": 4
+    },
+    {
+        "id": 305,
         "animationId": 0,
         "damage": {
             "critical": false,
@@ -9985,7 +9989,7 @@
         "tpGain": 0
     },
     {
-        "id": 304,
+        "id": 306,
         "animationId": 182,
         "damage": {
             "critical": false,
@@ -10022,7 +10026,7 @@
         "tpGain": 0
     },
     {
-        "id": 305,
+        "id": 307,
         "animationId": 114,
         "damage": {
             "critical": false,
@@ -10059,7 +10063,7 @@
         "tpGain": 0
     },
     {
-        "id": 306,
+        "id": 308,
         "animationId": 0,
         "damage": {
             "critical": true,
@@ -10089,7 +10093,7 @@
         "tpGain": 5
     },
     {
-        "id": 307,
+        "id": 309,
         "animationId": 120,
         "damage": {
             "critical": true,
@@ -10124,66 +10128,6 @@
         "successRate": 100,
         "tpCost": 0,
         "tpGain": 4
-    },
-    {
-        "id": 308,
-        "animationId": 0,
-        "damage": {
-            "critical": false,
-            "elementId": 0,
-            "formula": "0",
-            "type": 0,
-            "variance": 20
-        },
-        "description": "",
-        "effects": [],
-        "hitType": 0,
-        "iconIndex": 0,
-        "message1": "",
-        "message2": "",
-        "mpCost": 0,
-        "name": "",
-        "note": "",
-        "occasion": 0,
-        "repeats": 1,
-        "requiredWtypeId1": 0,
-        "requiredWtypeId2": 0,
-        "scope": 1,
-        "speed": 0,
-        "stypeId": 1,
-        "successRate": 100,
-        "tpCost": 0,
-        "tpGain": 0
-    },
-    {
-        "id": 309,
-        "animationId": 0,
-        "damage": {
-            "critical": false,
-            "elementId": 0,
-            "formula": "0",
-            "type": 0,
-            "variance": 20
-        },
-        "description": "",
-        "effects": [],
-        "hitType": 0,
-        "iconIndex": 0,
-        "message1": "",
-        "message2": "",
-        "mpCost": 0,
-        "name": "",
-        "note": "",
-        "occasion": 0,
-        "repeats": 1,
-        "requiredWtypeId1": 0,
-        "requiredWtypeId2": 0,
-        "scope": 1,
-        "speed": 0,
-        "stypeId": 1,
-        "successRate": 100,
-        "tpCost": 0,
-        "tpGain": 0
     },
     {
         "id": 310,
@@ -10385,7 +10329,7 @@
         "damage": {
             "critical": false,
             "elementId": 2,
-            "formula": "a.mat * 4",
+            "formula": "a.mat * 8",
             "type": 1,
             "variance": 20
         },
@@ -10452,7 +10396,7 @@
         "damage": {
             "critical": false,
             "elementId": 2,
-            "formula": "200 + (a.mat * 5 - b.mdf)",
+            "formula": "1000 + (a.mat * 5 - b.mdf)",
             "type": 1,
             "variance": 20
         },
@@ -10493,7 +10437,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[601] \\c[6]単体\\c[0] 一定時間、敏捷性と回避率を上昇させる。\n",
+        "description": "\\I[601] \\c[6]単体\\c[0] 攻撃力、素早さ、必殺率を大きく上昇させる。\n",
         "effects": [
             {
                 "code": 21,
@@ -10616,7 +10560,7 @@
         "damage": {
             "critical": true,
             "elementId": 1,
-            "formula": "(a.atk * 3 - b.def)",
+            "formula": "(a.atk * 6 - b.def)",
             "type": 1,
             "variance": 20
         },
@@ -10653,7 +10597,7 @@
         "damage": {
             "critical": false,
             "elementId": 1,
-            "formula": "(a.atk * 2 - b.def)",
+            "formula": "(a.atk * 4 - b.def)",
             "type": 1,
             "variance": 12
         },
@@ -10694,7 +10638,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\I[690] \\c[6]自身\\c[0] 一定時間、攻撃力と必殺率を上昇させる。\n",
+        "description": "\\I[690] \\c[6]自身\\c[0] 一攻撃力と必殺率を大きく上昇させる。\n",
         "effects": [],
         "hitType": 0,
         "iconIndex": 690,
@@ -10726,7 +10670,7 @@
         },
         "description": "\\I[682] \\c[6]単体\\c[0] 連続で打撃を行う。\n",
         "effects": [],
-        "hitType": 1,
+        "hitType": 0,
         "iconIndex": 682,
         "message1": "",
         "message2": "",
@@ -10750,13 +10694,13 @@
         "damage": {
             "critical": false,
             "elementId": 1,
-            "formula": "a.atk * 4",
+            "formula": "a.atk * 5",
             "type": 1,
             "variance": 20
         },
         "description": "\\I[682] \\c[6]単体\\c[0] クリティカルしない。防御力無視の攻撃を与え、稀に混乱させる。\n",
         "effects": [],
-        "hitType": 1,
+        "hitType": 0,
         "iconIndex": 682,
         "message1": "",
         "message2": "",
@@ -10780,13 +10724,13 @@
         "damage": {
             "critical": true,
             "elementId": 1,
-            "formula": "(a.atk * 4 - b.def)",
+            "formula": "(a.atk * 6 - b.def)",
             "type": 1,
             "variance": 20
         },
         "description": "\\I[682] \\c[6]単体\\c[0] 叩き上げから蹴り下ろし、最後に強力な一撃を放つ。\n",
         "effects": [],
-        "hitType": 1,
+        "hitType": 0,
         "iconIndex": 682,
         "message1": "",
         "message2": "",
@@ -10810,7 +10754,7 @@
         "damage": {
             "critical": true,
             "elementId": 1,
-            "formula": "(a.atk * 4 - b.def)",
+            "formula": "(a.atk * 6 - b.def)",
             "type": 1,
             "variance": 20
         },
@@ -10823,7 +10767,7 @@
                 "value2": 0
             }
         ],
-        "hitType": 1,
+        "hitType": 0,
         "iconIndex": 682,
         "message1": "",
         "message2": "",

@@ -312,7 +312,7 @@ var $dataTrpParticleGroupsPreset;
   "use strict";
 
   /* groups
-	===================================*/
+===================================*/
   $dataTrpParticleGroupsPreset = {
     //キャラ
     splash_cp: {
@@ -521,7 +521,7 @@ var $dataTrpParticleGroupsPreset;
     },
 
     /* メイン
-		===================================*/
+	===================================*/
     commet: {
       repeat: -1,
       list: [
@@ -857,7 +857,7 @@ var $dataTrpParticleGroupsPreset;
   };
 
   /* particles
-	===================================*/
+===================================*/
   $dataTrpParticlePreset = {
     //キャラ
     dark_gate_c: [
@@ -3248,7 +3248,7 @@ var $dataTrpParticleGroupsPreset;
     ],
 
     /* メイン
-		===================================*/
+	===================================*/
     //システム用
     click: [
       [[0, 1, 0.85, 0.5, 1, 0], 0, 0],

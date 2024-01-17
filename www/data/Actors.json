@@ -249,6 +249,11 @@
                 "code": 23,
                 "dataId": 3,
                 "value": 1.5
+            },
+            {
+                "code": 14,
+                "dataId": 25,
+                "value": 1
             }
         ],
         "initialLevel": 1,
@@ -256,7 +261,7 @@
         "name": "サティア",
         "nickname": "",
         "note": "<SBI画像:Actor_Sathia>\n\n//CTB、アイコン\n<CTB Icon: 914>\n<icon: 914> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "帝国領アレーティアの冒険者にして盗賊。\n誰とでも打ち解け、いつも明るく、お宝が大好き。"
+        "profile": "帝国領アレーティアの冒険者にして盗賊。混乱無効。\n誰とでも打ち解け、いつも明るく、お宝が大好き。"
     },
     {
         "id": 10,
@@ -288,6 +293,11 @@
                 "code": 64,
                 "dataId": 2,
                 "value": 1
+            },
+            {
+                "code": 14,
+                "dataId": 24,
+                "value": 1
             }
         ],
         "initialLevel": 1,
@@ -295,7 +305,7 @@
         "name": "ラヴィ",
         "nickname": "",
         "note": "<SBI画像:Actor_Ravie>\n\n//CTB、アイコン\n<CTB Icon: 913>\n<icon: 913> \n\n<Set Sts Data>\ntreetype: 15\ntreetype: 16\nInit Sp: 60\nMax Sp: 3000\n</Set Sts Data>",
-        "profile": "帝国領アレーティアの冒険者にして武術家。\n己の肉体を鍛えることが趣味で、常に強者を求めている。"
+        "profile": "帝国領アレーティアの冒険者にして武術家。封印無効。\n己の肉体を鍛えることが趣味で、常に強者を求めている。"
     },
     {
         "id": 11,

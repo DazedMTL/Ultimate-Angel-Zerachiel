@@ -21964,8 +21964,15 @@
     },
     {
         "id": 181,
-        "members": [],
-        "name": "",
+        "members": [
+            {
+                "enemyId": 195,
+                "x": 408,
+                "y": 436,
+                "hidden": false
+            }
+        ],
+        "name": "テスト",
         "pages": [
             {
                 "conditions": {

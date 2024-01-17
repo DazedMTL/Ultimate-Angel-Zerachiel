@@ -263,9 +263,14 @@
     },
     {
         "id": 9,
-        "autoRemovalTiming": 1,
+        "autoRemovalTiming": 0,
         "chanceByDamage": 100,
         "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 2
+            },
             {
                 "code": 21,
                 "dataId": 6,
@@ -280,6 +285,11 @@
                 "code": 22,
                 "dataId": 4,
                 "value": 0.2
+            },
+            {
+                "code": 21,
+                "dataId": 7,
+                "value": 9.99
             }
         ],
         "iconIndex": 702,
@@ -469,12 +479,12 @@
             {
                 "code": 22,
                 "dataId": 2,
-                "value": 0.3
+                "value": 0.5
             },
             {
                 "code": 21,
                 "dataId": 2,
-                "value": 1.5
+                "value": 2.5
             }
         ],
         "iconIndex": 690,

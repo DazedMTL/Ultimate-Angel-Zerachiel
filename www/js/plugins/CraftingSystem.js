@@ -407,33 +407,33 @@
   };
 
   /*
-		Scene_CraftingMenu.prototype.showStatus = function(){
-			if (this._activeWindow !== 1){
-				var sw = this._statusWindow;
-				var iw = this._ingredientsWindow;
-				iw.move(Graphics.boxWidth,iw.y, iw.width, iw.height);
-				sw.move(0, sw.y, sw.width, sw.height);
-				this._activeWindow = 1;
-				this._indexWindow.setHandler('pageup', this.showIngredients.bind(this)); // Q
-				delete this._indexWindow._handlers['pagedown'];
-			}
-			this._indexWindow.activate();
-		};
-	
-	
-		Scene_CraftingMenu.prototype.showIngredients = function(){
-			if (this._activeWindow !== 0){
-				var sw = this._statusWindow;
-				var iw = this._ingredientsWindow;
-				sw.move(-Graphics.boxWidth, sw.y, sw.width, sw.height);
-				iw.move(0,iw.y, iw.width, iw.height);
-				this._activeWindow = 0;
-				this._indexWindow.setHandler('pagedown', this.showStatus.bind(this)); // W
-				delete this._indexWindow._handlers['pageup'];
-			}
-			this._indexWindow.activate();
-		};
-	*/
+	Scene_CraftingMenu.prototype.showStatus = function(){
+		if (this._activeWindow !== 1){
+			var sw = this._statusWindow;
+			var iw = this._ingredientsWindow;
+			iw.move(Graphics.boxWidth,iw.y, iw.width, iw.height);
+			sw.move(0, sw.y, sw.width, sw.height);
+			this._activeWindow = 1;
+			this._indexWindow.setHandler('pageup', this.showIngredients.bind(this)); // Q
+			delete this._indexWindow._handlers['pagedown'];
+		}
+		this._indexWindow.activate();
+	};
+
+
+	Scene_CraftingMenu.prototype.showIngredients = function(){
+		if (this._activeWindow !== 0){
+			var sw = this._statusWindow;
+			var iw = this._ingredientsWindow;
+			sw.move(-Graphics.boxWidth, sw.y, sw.width, sw.height);
+			iw.move(0,iw.y, iw.width, iw.height);
+			this._activeWindow = 0;
+			this._indexWindow.setHandler('pagedown', this.showStatus.bind(this)); // W
+			delete this._indexWindow._handlers['pageup'];
+		}
+		this._indexWindow.activate();
+	};
+*/
 
   Scene_CraftingMenu.prototype.loseIngredients = function () {
     var item = this._indexWindow.item();

@@ -1803,7 +1803,7 @@ var $plugins = [
   },
   {
     name: "MOG_BattleResult",
-    status: true,
+    status: false,
     description: "(v1.3) Modifica a tela de vítoria.",
     parameters: {
       "Exp X-Axis": "940",
@@ -2657,7 +2657,7 @@ var $plugins = [
       "--(ID:2)-------------": "",
       "2 : Name": "ノーマル",
       "2 : Param Rate": "1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0",
-      "2 : Drop Rate": "1.5,2.0,1.0,1.0,1.0",
+      "2 : Drop Rate": "2.0,2.0,1.0,1.0,1.0",
       "--(ID:3)-------------": "",
       "3 : Name": "ハード",
       "3 : Param Rate": "2.0,1.0,1.2,1.0,1.2,1.0,1.2,1.2",
