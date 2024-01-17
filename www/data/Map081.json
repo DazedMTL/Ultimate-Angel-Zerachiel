@@ -15684,7 +15684,7 @@
                             "parameters": [
                                 [
                                     "Guild",
-                                    "Guild (Naked)",
+                                    "Guild (naked)",
                                     "Stop"
                                 ],
                                 2,
@@ -16118,9 +16118,9 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "Tavern A",
-                                    "Bar B",
-                                    "Tavern C",
+                                    "Tavern a",
+                                    "Bar b",
+                                    "Tavern c",
                                     "Stop"
                                 ],
                                 3,
@@ -17354,21 +17354,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴッド："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　レベルを上げてスキルを覚えるのが面倒ではないか？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　望むなら、我が全スキルを教えてやろう。"
+                                "God: Isn't it bothersome to raise your level and learn\nskills? If you wish, I shall teach you all of my skills."
                             ]
                         },
                         {
@@ -17376,8 +17362,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "お願いする",
-                                    "断る"
+                                    "I'd like that",
+                                    "I refuse"
                                 ],
                                 2,
                                 0,
@@ -17407,28 +17393,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ゴッド："
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　現在のレベルまでのスキルを習得するか？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　それとも、すべてのスキルを習得するか？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "　……習得済みのスキルは消せないぞ。"
+                                "God: Do you want to acquire the skills up to your current\nlevel? Or do you want to acquire all skills?... Remember,\nyou cannot erase skills once they are learned."
                             ]
                         },
                         {
@@ -17436,8 +17401,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "現在レベルのスキル",
-                                    "すべてのスキル"
+                                    "Acquire skills up to the current level",
+                                    "Acquire all skills"
                                 ],
                                 1,
                                 0,

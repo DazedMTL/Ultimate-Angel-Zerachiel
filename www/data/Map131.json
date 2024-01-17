@@ -19424,13 +19424,6 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
                                 "\"Do you want to teleport to the entrance?\""
                             ]
                         },
@@ -19625,7 +19618,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "addLog \\c[6]湧き水が湧いている..."
+                                "addLog A_spring_is_welling_up"
                             ]
                         },
                         {

@@ -9252,7 +9252,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "addLog \\c[6]湧き水が湧いている..."
+                                "addLog A_spring_is_welling_up"
                             ]
                         },
                         {
@@ -9392,7 +9392,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "addLog \\c[6]湧き水が湧いている..."
+                                "addLog Spring_water_is_gushing_forth"
                             ]
                         },
                         {

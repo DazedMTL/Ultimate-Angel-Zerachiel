@@ -93,7 +93,7 @@
     {
         "id": 11,
         "expanded": false,
-        "name": "宿屋",
+        "name": "Inn",
         "order": 26,
         "parentId": 7,
         "scrollX": 992,
@@ -381,7 +381,7 @@
     {
         "id": 43,
         "expanded": false,
-        "name": "教団_4層_フロアA",
+        "name": "Cult - 4th Layer - Floor A",
         "order": 70,
         "parentId": 53,
         "scrollX": 957.4285714285713,
@@ -687,7 +687,7 @@
     {
         "id": 77,
         "expanded": true,
-        "name": "エピローグ",
+        "name": "Epilogue",
         "order": 212,
         "parentId": 0,
         "scrollX": 850.2857142857142,
@@ -993,7 +993,7 @@
     {
         "id": 111,
         "expanded": false,
-        "name": "熱砂の洞窟_フロアＣ",
+        "name": "Scorching Sands Cave - Floor C",
         "order": 126,
         "parentId": 161,
         "scrollX": 1636.2857142857142,
@@ -2154,7 +2154,7 @@
     {
         "id": 240,
         "expanded": false,
-        "name": "メモ",
+        "name": "Memo",
         "order": 240,
         "parentId": 0,
         "scrollX": 595.1999999999999,
