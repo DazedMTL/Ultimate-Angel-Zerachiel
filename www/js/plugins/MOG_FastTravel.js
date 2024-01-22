@@ -234,7 +234,7 @@ Moghunter.fastTravelOther = [];
 // ** TOWNS
 //=============================================================================
 Moghunter.fastTravel_Towns[1] = {
-  name: "港町グランフェリア",
+  name: "Port Town Granfelia",
   x: 2422,
   y: 785,
   mapID: 100,
@@ -243,7 +243,7 @@ Moghunter.fastTravel_Towns[1] = {
   direction: 2,
 };
 Moghunter.fastTravel_Towns[2] = {
-  name: "魔都ヴァール",
+  name: "Magic Capital Vaal",
   x: 955,
   y: 920,
   mapID: 133,
@@ -252,7 +252,7 @@ Moghunter.fastTravel_Towns[2] = {
   direction: 8,
 };
 Moghunter.fastTravel_Towns[3] = {
-  name: "地下火山都市",
+  name: "Underground Volcano City",
   x: 1820,
   y: 980,
   mapID: 178,
@@ -261,7 +261,7 @@ Moghunter.fastTravel_Towns[3] = {
   direction: 2,
 };
 Moghunter.fastTravel_Towns[4] = {
-  name: "地下火山都市2",
+  name: "Underground Volcano City2",
   x: 1820,
   y: 980,
   mapID: 178,
@@ -273,7 +273,7 @@ Moghunter.fastTravel_Towns[4] = {
 // ** DUNGEONS
 //=============================================================================
 Moghunter.fastTravelDungeons[1] = {
-  name: "神護の森",
+  name: "Forest of Divine Protection",
   x: 1945,
   y: 1090,
   mapID: 159,
@@ -282,7 +282,7 @@ Moghunter.fastTravelDungeons[1] = {
   direction: 2,
 };
 Moghunter.fastTravelDungeons[2] = {
-  name: "幻獣の森",
+  name: "Forest of Phantasmal Beasts",
   x: 1642,
   y: 750,
   mapID: 129,
@@ -291,7 +291,7 @@ Moghunter.fastTravelDungeons[2] = {
   direction: 8,
 };
 Moghunter.fastTravelDungeons[3] = {
-  name: "熱砂の砂漠",
+  name: "Desert of Scorching Sands",
   x: 680,
   y: 578,
   mapID: 161,
@@ -300,7 +300,7 @@ Moghunter.fastTravelDungeons[3] = {
   direction: 8,
 };
 Moghunter.fastTravelDungeons[4] = {
-  name: "星詠みの森",
+  name: "Forest of Astral Reading",
   x: 1064,
   y: 565,
   mapID: 121,
@@ -309,7 +309,7 @@ Moghunter.fastTravelDungeons[4] = {
   direction: 8,
 };
 Moghunter.fastTravelDungeons[5] = {
-  name: "魔鉱山",
+  name: "Magic Mine",
   x: 2478,
   y: 1115,
   mapID: 114,
@@ -318,7 +318,7 @@ Moghunter.fastTravelDungeons[5] = {
   direction: 8,
 };
 Moghunter.fastTravelDungeons[6] = {
-  name: "聖域へ続く道",
+  name: "Path to the Sanctuary",
   x: 925,
   y: 480,
   mapID: 140,
@@ -331,7 +331,7 @@ Moghunter.fastTravelDungeons[6] = {
 // ** OTHER
 //=============================================================================
 Moghunter.fastTravelOther[1] = {
-  name: "記憶の断片",
+  name: "Fragment of Memory",
   x: 1304,
   y: 1280,
   mapID: 123,
@@ -340,7 +340,7 @@ Moghunter.fastTravelOther[1] = {
   direction: 8,
 };
 Moghunter.fastTravelOther[2] = {
-  name: "夢幻の大樹",
+  name: "Giant Tree of Fantasy",
   x: 1048,
   y: 400,
   mapID: 226,
@@ -349,7 +349,7 @@ Moghunter.fastTravelOther[2] = {
   direction: 8,
 };
 Moghunter.fastTravelOther[3] = {
-  name: "森林の秘境",
+  name: "Secluded Forest",
   x: 1048,
   y: 400,
   mapID: 74,
@@ -358,7 +358,7 @@ Moghunter.fastTravelOther[3] = {
   direction: 6,
 };
 Moghunter.fastTravelOther[4] = {
-  name: "砂漠の秘境",
+  name: "Secluded Desert",
   x: 1048,
   y: 400,
   mapID: 87,
@@ -367,7 +367,7 @@ Moghunter.fastTravelOther[4] = {
   direction: 6,
 };
 Moghunter.fastTravelOther[5] = {
-  name: "渓谷の秘境",
+  name: "Secluded Valley",
   x: 1048,
   y: 400,
   mapID: 139,
@@ -376,7 +376,7 @@ Moghunter.fastTravelOther[5] = {
   direction: 6,
 };
 Moghunter.fastTravelOther[6] = {
-  name: "炎山の秘境",
+  name: "Secluded Flame Mountain",
   x: 1048,
   y: 400,
   mapID: 222,
@@ -385,7 +385,7 @@ Moghunter.fastTravelOther[6] = {
   direction: 6,
 };
 Moghunter.fastTravelOther[7] = {
-  name: "雪原の秘境",
+  name: "Secluded Snowfield",
   x: 1048,
   y: 400,
   mapID: 223,
@@ -394,7 +394,7 @@ Moghunter.fastTravelOther[7] = {
   direction: 6,
 };
 Moghunter.fastTravelOther[8] = {
-  name: "夢幻の秘境",
+  name: "Fantasy Secluded Area",
   x: 1048,
   y: 400,
   mapID: 223,

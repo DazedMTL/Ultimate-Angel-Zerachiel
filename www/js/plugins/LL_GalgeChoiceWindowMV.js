@@ -128,7 +128,7 @@
           var messageText = String(args[1] || "");
           messageTextLists = [];
           if (messageText) {
-            messageTextLists.push(String(args[1] || ""));
+            messageTextLists.push(String(args[1].replace(/_/g, ' ') || ""));
           }
           return;
         case "setMaxCols": // 列数の定義
