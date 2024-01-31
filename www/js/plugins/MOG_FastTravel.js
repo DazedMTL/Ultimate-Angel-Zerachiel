@@ -261,7 +261,7 @@ Moghunter.fastTravel_Towns[3] = {
   direction: 2,
 };
 Moghunter.fastTravel_Towns[4] = {
-  name: "Underground Volcano City2",
+  name: "Underground Volcano City 2",
   x: 1820,
   y: 980,
   mapID: 178,
